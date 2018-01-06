@@ -12,7 +12,7 @@ var b = {
 var colors = {
 	"API_RFS": "#512E5F",
 	"BarryOMS": "#D68910",
-	"BarryOMS_PTRADE": "#CB5F8D"
+	"BarryOMS_PTRADE": "#CB5F8D",
 	"BBG_ESP": "#E74C3C",
 	"BBG_RFS": "#BDC3C7",
 	"FXC_PTRADE": "#F1C40F",
