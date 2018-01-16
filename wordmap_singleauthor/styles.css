@@ -1,0 +1,199 @@
+#navUs.selected {
+  padding-bottom: 0;
+}
+
+.tabContent {
+  padding: 8px 0;
+  border-bottom: 1px solid #CCCCCC;
+  border-top: none;
+  border-left: none;
+  border-right; none;
+}
+
+
+#g-chart {
+  overflow: hidden;
+  position: relative;
+}
+
+#g-form-container {
+  position: relative;
+}
+
+#g-form {
+  font: 16px sans-serif;
+  position: absolute;
+  right: 40px;
+  top: -47px;
+}
+
+#g-form input {
+  border-right: none;
+  border-radius: 3px 0 0 3px;
+  border: solid 1px #ccc;
+  font: inherit;
+  padding: 4px 8px;
+  width: 223px;
+}
+
+#g-form button {
+  background: #004276;
+  border: none;
+  border-radius: 0 3px 3px 0;
+  color: #fff;
+  font: inherit;
+  font-weight: bold;
+  padding: 5px 8px;
+  position: relative;
+  top: 1px;
+  width: 30px;
+}
+
+.g-error {
+  background: #ffa;
+  border: solid 1px #ccc;
+  font-size: 16px;
+  line-height: 1.2em;
+  margin: 10px;
+  padding: 10px;
+}
+
+.g-node {
+  fill: #d1e0f3;
+}
+
+.g-node.g-hover {
+  fill: #b8c7d9; /* darker(.5) */
+}
+
+.g-node.g-selected {
+  fill: #a8c8ee; /* c *= 2, darker(.5) */
+  stroke: #6081a3; /* c *= 2, darker(2) */
+  stroke-width: 1.5px;
+}
+
+a.g-label {
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1em;
+  position: absolute;
+}
+
+.g-label .g-value {
+  font: 11px sans-serif;
+  white-space: nowrap;
+}
+
+.g-overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.g-body {
+  min-height: 700px;
+}
+
+.g-header,
+.g-subheader {
+  margin-left: 40px;
+}
+
+.g-header {
+  font: bold 16px sans-serif;
+  margin-top: 30px;
+  position: relative;
+}
+
+.g-subheader {
+  color: #aaa;
+  font: oblique 11px sans-serif;
+  margin-top: 1px;
+  margin-bottom: 11px;
+}
+
+.g-mentions,
+.g-mention {
+  display: inline-block;
+  float: left;
+  width: 270px;
+}
+
+.g-mentions {
+  margin-left: 40px;
+}
+
+.g-mention {
+  border-top: solid 1px #ccccd4;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 10px 0;
+}
+
+.g-mention p {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.g-speaker {
+  font: bold 13px sans-serif;
+  text-transform: uppercase;
+}
+
+.g-speaker-title {
+  color: #aaa;
+  font: 11px sans-serif;
+  margin-bottom: 10px;
+  margin-top: 1px;
+}
+
+.g-mention a {
+  background: #e6e6e6;
+  border-radius: 3px;
+  color: #000;
+  padding: 1px 3px;
+  text-decoration: none;
+}
+
+.g-mention .g-hover a {
+  background: #d1e0f3;
+  color: #455363; /* darker(3) */
+}
+
+.g-mention p:before,
+.g-mention p:after {
+  color: #ddd;
+  font-size: 36px;
+  font-family: sans-serif;
+  position: absolute;
+}
+
+.g-mention p:before {
+  content: "“";
+  margin: .25em 0 0 -20px;
+}
+
+.g-mention p:after {
+  content: "”";
+  margin: .25em 0 0 0.1em;
+}
+
+/* Scoop Fixes */
+
+.storySummary {
+  width: 610px;
+}
+
+#interactiveFooter {
+  border-top: 1px solid #ddd;
+  margin-top: 10px;
+  padding-top: 12px;
+}
+
+.storyHeader h1 {
+  font-size: 26px;
+  margin-bottom: 4px;
+  margin-top: 12px;
+}
