@@ -57,21 +57,28 @@
           head: "Overall Value",
           cl: "sum_rating",
           html: function (row) {
-
-            ratio_rating = (row.sum_rating - summary['sum_rating_min']) / (summary['sum_rating_max'] - summary['sum_rating_min']);
+            rrange = (summary['sum_rating_max'] - summary['sum_rating_min']);
+            ratio_rating = (row.sum_rating - summary['sum_rating_min']) / rrange;
             clr = color(ratio_rating);
 
             mx = summary['sum_rating_min'];
             mn = summary['sum_rating_max'];
 
 
-            var scale = d3.scale.threshold()
-              .domain([mn, mx])
-              .range([1, 2, 3, 4, 5]);
+            var linearScale = d3.scale.linear()
+                                       .domain([mn,mx])
+                                       .range([-6,6]);
 
-            var icon = '<span class="fa fa-star" style="color:' + clr.trim() + ';" ></span>';
-            var nIcons = Math.max((ratio_rating * 5), 1);
-            var text = '<span class="text" style="color: ' + clr.trim() + ';"> ' + row.sum_rating.toFixed(2) + ' </color> </span>';
+            var icon = '<span class="fa fa-check" style="color:' + clr.trim() + ';" ></span>';
+            if (row.sum_rating <  0 ){
+              icon = '<span class="fa fa-times" style="color:' + clr.trim() + ';" ></span>';
+            } 
+            
+            var nIcons = Math.floor(Math.abs(linearScale(row.sum_rating)));
+
+            var text = '<span class="text" style="color: ' + clr.trim() + ';"> ' + row.sum_rating.toFixed(2) 
+            // +'  ' + nIcons 
+            +  ' </color> </span>';
 
             return text + d3.range(nIcons)
               .map(function () { return icon; }).join("");
