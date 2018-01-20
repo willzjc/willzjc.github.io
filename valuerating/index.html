@@ -74,7 +74,7 @@
               icon = '<span class="fa fa-times" style="color:' + clr.trim() + ';" ></span>';
             } 
             
-            var nIcons = Math.floor(Math.abs(linearScale(row.sum_rating)));
+            var nIcons = (Math.abs(linearScale(row.sum_rating)));
 
             var text = '<span class="text" style="color: ' + clr.trim() + ';"> ' + row.sum_rating.toFixed(2) 
             // +'  ' + nIcons 
