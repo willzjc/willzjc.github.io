@@ -55,7 +55,7 @@
           cl: "row_count",
           html: function (row) {
 											 // var preview = '<a href="http://www.bing.com" target="_blank" class="livepreview">Hover over to preview, click to link!/</a>'
-            var text = '<span class="text" style="text-align: center;" > <a class="livepreview" href="' + row.link + '">' + row.row_count + '</a> </span>';
+            var text = '<span class="text" style="text-align: center;" > <a class="livepreview" data-trigger="click" href="' + row.link + '">' + row.row_count + '</a> </span>';
             return text;
           }
         }
