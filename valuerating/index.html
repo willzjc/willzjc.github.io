@@ -19,6 +19,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
   <script>
 
+				$(document).ready(function() {
+					$(".livepreview").livePreview();
+				});
+
     var table = d3.select(".table-container").append("table");
     table.append("thead");
     table.append("tbody");
