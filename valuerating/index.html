@@ -6,14 +6,16 @@
   <title></title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
-
+		<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="jquery-live-preview.js"></script>
+		<link href="livepreview-demo.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
   <div class="table-container">
 
   </div>
-  <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="d3.v3.min.js" charset="utf-8"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
   <script>
 
@@ -40,7 +42,7 @@
     rating_style_prefix='<span class="text" style="text-align: right; padding-right: 5px; color: '
 
     function ready(error, records, summary) {
-      
+
       if (error) throw error;
 
       var columns = [
@@ -48,7 +50,8 @@
           head: "Index",
           cl: "row_count",
           html: function (row) {
-            var text = '<span class="text" style="text-align: center;" > <a href="' + row.link + '">' + row.row_count + '</a> </span>';
+											 // var preview = '<a href="http://www.bing.com" target="_blank" class="livepreview">Hover over to preview, click to link!/</a>'
+            var text = '<span class="text" style="text-align: center;" > <a class="livepreview href="' + row.link + '">' + row.row_count + '</a> </span>';
             return text;
           }
         }
@@ -72,12 +75,12 @@
             var icon = '<span class="fa fa-check" style="color:' + clr.trim() + ';" ></span>';
             if (row.sum_rating <  0 ){
               icon = '<span class="fa fa-times" style="color:' + clr.trim() + ';" ></span>';
-            } 
-            
+            }
+
             var nIcons = (Math.abs(linearScale(row.sum_rating)));
 
-            var text = '<span class="text" style="color: ' + clr.trim() + ';"> ' + row.sum_rating.toFixed(2) 
-            // +'  ' + nIcons 
+            var text = '<span class="text" style="color: ' + clr.trim() + ';"> ' + row.sum_rating.toFixed(2)
+            // +'  ' + nIcons
             +  ' </color> </span>';
 
             return text + d3.range(nIcons)
@@ -161,7 +164,7 @@
 
             ratio_rating = 1 - (row.price - summary['price_min']) / (summary['price_max'] - summary['price_min'])
             clr = color(ratio_rating);
-              
+
             var text = rating_style_prefix + clr.trim() + ';"> ' + row.price_rating
               + '</color> </span>';
             return text;
@@ -180,7 +183,7 @@
             // clr=summary['milage_max'];
 
             var text = rating_style_prefix + clr.trim() + ';"> ' + row.milage_rating
-              // + ' ' + ratio_rating 
+              // + ' ' + ratio_rating
               + '</color> </span>';
             return text;
           }
