@@ -64,7 +64,7 @@ g.append("circle")
 //no callbacks required.
 
 
-d3.csv("regionsfish.csv", function(error, regionData) {
+d3.csv("currency_used.csv", function(error, regionData) {
 
     if (error) {alert("Error reading file: ", error.statusText); return; }
     

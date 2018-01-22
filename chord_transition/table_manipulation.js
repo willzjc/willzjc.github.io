@@ -9,15 +9,13 @@ header.append("h3").text("Notable events relating to selected CCY " + ccyfilter)
 		.attr("class","h3class")
 ;
 
-
-
 var taskLabel = header.append("label")
     .attr("id", "taskLabel")
     .html("&nbsp;");
 header.append("br")
 var currTask = 0;
   
-var taskButton1 = header.append("button")
+var show_related_news = header.append("button")
     .attr("class", "btn btn-primary")
     .style("margin-bottom", "20px")
     .style("width", "200px")
@@ -217,13 +215,14 @@ function showmatrix(filename){
 
     
     var tr = divs.select("table").select("tbody").selectAll("tr")
-    .data(parsedCSV).enter()
-    .append("tr")
-
-    .selectAll("td")
-    .data(function(d) { return d; }).enter()
-    .append("td")
-    .text(function(d) { return d; });
+      .data(parsedCSV).enter()
+      .append("tr")
+      .selectAll("td")
+      .data(function(d) { return d; }).enter()
+      .append("td")
+      .text(function(d) { return d; })
+    // .html(function(d) { return d; })
+    ;
   });
 }
 
