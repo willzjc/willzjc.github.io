@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css"> 
+    
+  </head>
+
+  <body>   
+
+    <div class="details">
+      <h1>G10 Currency Sentiments</h1>
+
+      <div id="yearbuttons">
+
+        <button id="y2013" class="current">2013</button>
+        <button id="y2014" class="">2014</button>
+        <button id="y2015" class="">2015</button>
+        <button id="y2016" class="">2016</button>
+        <button id="y2017" class="">2017</button>
+      </div>
+      <!--This script is to highlight each year button while on it-->
+      <script type="text/javascript">
+        $('#yearbuttons button').on('click', function(){
+          $('button.current').removeClass('current');
+          $(this).addClass('current');
+        });
+        
+				function refresh_tables(ccy){
+          ccyfilter = ccy;
+          var tableDiv = d3.select(".table_placeholder").append("div").attr("id", "tableDiv1");
+					var divs = tableDiv.selectAll("div");
+  				divs.remove();
+        }
+
+      </script>
+
+
+      <div id="legend">
+
+        <table class="table1">
+          <tr>
+            <td bgcolor="#FFFFFF" width="10%">
+            </td>
+            <td width="90%"><h3>Currencies</h3>
+            </td>  
+          </tr>
+          <tr>
+            <td bgcolor="#FF00FF" width="10%">
+            </td>
+            <td><a class="two" id="NA" href = "#"   onclick="ccyfilter='USD';" >USD</a>
+              <table class="table2">
+                <tr>
+                  <td><h3>Information</h3></td>
+                </tr>
+                <tr>
+                  <td><div class="thisframe"></td>
+          			</tr>
+        </table>
+        </td>  
+      </tr> 
+    <tr>
+      <td bgcolor="#0000FF">
+      </td>
+      <td><a class="two" id="NA" href = "#" onclick="ccyfilter='GBP';">GBP</a>
+        <table class="table2">
+          <tr>
+            <td><h3>Countries</h3></td>
+          </tr>
+          <tr>  <td>Austria<br/>Belgium<br/>Denmark<br/>Finland<br/>France<br/>Germany<br/>Greece<br/>Ireland<br/>Italy<br/>Luxembourg<br/>Netherlands<br/>Portugal<br/>Spain<br/>Sweden<br/>UK<br/>Bulgaria<br/>Cyprus<br/>Czech<br/>Estonia<br/>Hungary<br/>Latvia<br/>Lithuania<br/>Malta<br/>Poland<br/>Romania<br/>Slovakia<br/>Slovenia</td>
+</tr>
+</table>
+</td>  
+</tr>
+<tr>
+  <td bgcolor="#6495ED">
+  </td>
+  <td><a class="two" id="NA" href = "#">CAD</a>
+    <table class="table2">
+      <tr>
+        <td><h3>Countries</h3></td>
+      </tr>
+      <tr>
+        <td>Faroe Islands<br/>Iceland<br/>Norway<br/>Switzerland</td>
+</tr>
+</table>
+</td>  
+</tr>
+
+<tr>
+  <td bgcolor="#F4A460">
+  </td>
+  <td><a class="two" id="NA" href = "#" onclick="ccyfilter='EUR';">EUR</a>
+    <table class="table2">
+      <tr>
+        <td><h3>Countries</h3></td>
+      </tr>
+      <tr>
+        <td>Israel<br/>Japan<br/>South Africa</td>
+</tr>
+</table>
+</td>  
+</tr>
+<tr>
+  <td bgcolor="#8E8E38">
+  </td>
+  <td><a class="two" id="NA" href = "#" onclick="ccyfilter='JPY';" >JPY</a>
+    <table class="table2">
+      <tr>
+        <td><h3>Countries</h3></td>
+      </tr>
+      <tr>
+        <td>Albania<br/>Bosnia<br/>Croatia<br/>Serbia-Monte<br/>TFYROM</td>
+</tr>
+</table>
+</td>  
+</tr>
+
+<tr>
+  <td bgcolor="#D8BFD8">
+  </td>
+  <td><a class="two" id="NA" href = "#" oonclick="refresh_tables('SEK');">SEK</a>
+    <table class="table2">
+      <tr>
+        <td><h3>Countries</h3></td>
+      </tr>
+      <tr>
+        <td>Algeria<br/>Morocco<br/>Tunisia</td>
+</tr>
+</table>
+</td>  
+</tr>
+<tr>
+  <td bgcolor="#00EEEE">
+  </td>
+<td><a class="two" id="NA" href = "#">CHF</a>
+  <table class="table2">
+    <tr>
+      <td><h3>Countries</h3></td>
+    </tr>
+    <tr>
+      <td>Benin<br/>Burkina<br/>Cape Verde<br/>Cote dIvoire<br/>Gambia<br/>Ghana<br/>Guinea<br/>Guinea Bissau<br/>Liberia<br/>Mali<br/>Mauritania<br/>Niger<br/>Nigeria<br/>Senegal<br/>Sierra<br/>Togo</td>
+</tr>
+</table>
+</td>  
+</tr>
+<tr>
+  <td bgcolor="#97FFFF">
+  </td>
+  <td><a class="two" id="NA" href = "#" onclick="refresh_tables('AUD');">AUD</a>
+
+    <table class="table2">
+      <tr>
+        <td><h3>Countries</h3></td>
+      </tr>
+      <tr>
+        <td >Australia<br/></td>
+</tr>
+</table>
+</td>  
+</tr>
+
+</table>
+</div> 
+
+</div>
+
+
+ 
+<div id="chart_placeholder"></div>
+    <div class="table_control"></div>
+
+    <div class="table_placeholder"></div>
+
+<script type="text/javascript" src="chord.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<script type="text/javascript" src="table_manipulation.js"></script>
+   
+
+</body>
+</html>
