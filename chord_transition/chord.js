@@ -171,6 +171,9 @@ function updateChords( datasetURL ) {
                 //include the rotate zero so that transforms can be interpolated
             })
 			.text(function (d) {
+                if (d != null) {
+                    console.log(d);
+                }
 				return regions[d.index].name + '  (' + (100* ((d.endAngle - d.startAngle) / 2)/Math.PI).toFixed(1) + '%)'; 
 			})
             .attr("text-anchor", function (d) {

@@ -220,10 +220,75 @@ function showmatrix(filename){
       .selectAll("td")
       .data(function(d) { return d; }).enter()
       .append("td")
-      .text(function(d) { return d; })
-    // .html(function(d) { return d; })
-    ;
-  });
+      // .text(function(d) { return d; })
+      .text(
+        function(d) {
+        if ( d.search(/.*http.*/) ) {
+            return d;
+        } else {
+          return d;
+            // return "link";
+        };
+    })
+
+    divs.select("table").select("tbody")
+    // .select("tbody").selectAll("tr").selectAll("td")
+    .filter(function(d, i) { return d.column === "Weblink"})
+      .append("a")
+      .attr("href", function(d) {
+          return d.value;
+      })
+      .html(function(d) {
+          return (d.value);
+      });
+
+    //   .append(
+    //     function(d) {
+    //     if ( d.search(/http/) ) {
+    //         return "a";
+    //     } else {
+    //         return "a";
+    //     };
+    // })
+
+
+    // var trfiltered = divs.select("table").select("tbody").selectAll("tr")
+    //   .selectAll("td")
+    //   .append("a")
+    //   // .attr("href", function(d) { return d; })
+    //   .text(function(d) { return d; }
+    //     if (isNaN(d)){
+
+    //       return d;
+    //     } else { return d }
+    //      ;})
+    //     //  .append(function(d) {
+    //     //   if (isNaN(d)){
+    //     //     return 'a';
+    //     //   }
+    //     //   ;})
+
+    //   // .append(function(d) {
+    //   //   if (d.match(/\w+.*/)) {return "a"}
+    //   //     else 	{ return "black" }
+    //   //     ;})
+    //   //     .attr("href", function(d) { return d; })
+
+    // // .html(function(d) { return d; })
+
+    // divs.select("table").select("tbody").selectAll("td")
+    //   .text
+    //   // .append("a")
+    //   // .attr("href", function(d) { return d; })
+    //     // .style({ "background-color": "blue" })
+    // //     .filter(function (d) {
+    // //       return d.text.match(/http.*/)
+    // //     })
+    // //     .append("a")
+    // //     .attr("href", function(d) { return d; })
+    // //   ;
+
+    });
 }
 
 function task_updated() {

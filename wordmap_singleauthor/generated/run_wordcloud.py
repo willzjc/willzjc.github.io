@@ -1,6 +1,7 @@
 from wordcloud import WordCloud, STOPWORDS
 import inputtext, operator
 import TweetScan
+import tweepy
 
 global sentimentquery, sentimentcount, previewcount
 
@@ -9,12 +10,18 @@ def main():
     api = TweetScan.TwitterClient()
 
     # calling function to get tweets
-    sentimentquery="quantitative easing"
+    query="quantitative easing"
     sentimentcount=40
-    tweets = api.get_tweets(query=sentimentquery, count=sentimentcount)
 
-    for tweet in tweets:
+    for tweet_info in tweepy.Cursor(api.api.search, q=query, lang= 'en', tweet_mode='extended').items(40):
+        if 'retweeted_status' in dir(tweet_info):
+            tweet = tweet_info.retweeted_status.full_text
+        else:
+            tweet = tweet_info.full_text
         print tweet
+
+#########################
+
     word_string = inputtext.word_string
 
     text = word_string
@@ -44,11 +51,23 @@ def main():
     from random import randint
 
     listwords=[]
+    existing=[]
     for index, item in enumerate(sorted_wordlist):
         if item[0] not in stopwords:
             word=item[0]
-            rand1=str(randint(1,888))
-            rand2=str(randint(1,888))
+            combo=''
+            rand1 = str(randint(1, 888))
+            rand2 = str(randint(1, 888))
+            while combo=='':
+                combo = rand1 + rand2
+                if combo not in existing:
+                    existing.append(combo)
+                else:
+                    combo=''
+                    rand1 = str(randint(1, 888))
+                    rand2 = str(randint(1, 888))
+
+
             t=block.replace('word', word).replace('x999', rand1).replace('y999', str(rand2)).replace('regex',word.lower())
             listwords.append(t)
         if index > 15:

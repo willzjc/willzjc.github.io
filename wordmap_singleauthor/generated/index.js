@@ -39,98 +39,98 @@ var data = {};
         }, {
             name: "China",
             re: /\b(china)\b/gi,
-            x: 149,
-            y: 322
+            x: 99,
+            y: 297
             
     }, {
             name: "percent",
             re: /\b(percent)\b/gi,
-            x: 740,
-            y: 14
+            x: 358,
+            y: 738
             
     }, {
             name: "bond",
             re: /\b(bond)\b/gi,
-            x: 304,
-            y: 219
+            x: 357,
+            y: 125
             
     }, {
             name: "Bond Connect",
             re: /\b(bond connect)\b/gi,
-            x: 747,
-            y: 419
+            x: 356,
+            y: 370
             
     }, {
             name: "foreign",
             re: /\b(foreign)\b/gi,
-            x: 532,
-            y: 43
+            x: 80,
+            y: 763
             
     }, {
             name: "market",
             re: /\b(market)\b/gi,
-            x: 113,
-            y: 149
+            x: 369,
+            y: 413
             
     }, {
             name: "Government",
             re: /\b(government)\b/gi,
-            x: 657,
-            y: 615
+            x: 166,
+            y: 659
             
     }, {
             name: "global",
             re: /\b(global)\b/gi,
-            x: 580,
-            y: 709
+            x: 719,
+            y: 238
             
     }, {
             name: "AUD",
             re: /\b(aud)\b/gi,
-            x: 887,
-            y: 623
+            x: 306,
+            y: 305
             
     }, {
             name: "RMB",
             re: /\b(rmb)\b/gi,
-            x: 61,
-            y: 630
+            x: 621,
+            y: 614
             
     }, {
             name: "Chinese",
             re: /\b(chinese)\b/gi,
-            x: 730,
-            y: 278
+            x: 548,
+            y: 210
             
     }, {
             name: "asset",
             re: /\b(asset)\b/gi,
-            x: 104,
-            y: 470
+            x: 41,
+            y: 58
             
     }, {
             name: "bond market",
             re: /\b(bond market)\b/gi,
-            x: 241,
-            y: 444
+            x: 49,
+            y: 591
             
     }, {
             name: "Index",
             re: /\b(index)\b/gi,
-            x: 819,
-            y: 68
+            x: 361,
+            y: 41
             
     }, {
             name: "scheme",
             re: /\b(scheme)\b/gi,
-            x: 420,
-            y: 366
+            x: 168,
+            y: 697
             
     }, {
             name: "reserve",
             re: /\b(reserve)\b/gi,
-            x: 776,
-            y: 108
+            x: 181,
+            y: 227
             
 
 //    }, {
