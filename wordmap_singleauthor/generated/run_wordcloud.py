@@ -14,6 +14,7 @@ def main():
     sentimentcount=40
 
     for tweet_info in tweepy.Cursor(api.api.search, q=query, lang= 'en', tweet_mode='extended').items(40):
+
         if 'retweeted_status' in dir(tweet_info):
             tweet = tweet_info.retweeted_status.full_text
         else:
