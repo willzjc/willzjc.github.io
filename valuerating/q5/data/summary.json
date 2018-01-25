@@ -1,0 +1,13 @@
+{
+    "price_max": 29999.0,
+    "sum_rating_max": 4.48410134472355,
+    "price_weight": 3,
+    "sum_rating_min": -6.130674121208808,
+    "milage_weight": 2,
+    "price_min": 1000.0,
+    "milage_max": 396110.0,
+    "age_min": 1.0,
+    "age_max": 29.0,
+    "milage_min": 9.0,
+    "age_weight": 1
+}
