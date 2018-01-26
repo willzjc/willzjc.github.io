@@ -65,7 +65,7 @@ function topic(topic, i) {
       }
     });
 
-    topic.count += count = count / party.wordCount * 25e3;
+    topic.count += count = count / party.wordCount * 1000;
     return {count: count, mentions: mentions};
   });
 
@@ -292,7 +292,9 @@ function updateActiveTopic(topic) {
     updateMentions(findMentions(topic));
     d3.selectAll(".g-head a").text(topic.name);
     d3.select(".g-democrat .g-head span.g-count").text(formatCount(topic.parties[0].count));
+    console.log(topic.parties[0].count);
     d3.select(".g-republican .g-head span.g-count").text(formatCount(topic.parties[1].count));
+    console.log(topic.parties[1].count);
   } else {
     node.classed("g-selected", false);
     updateMentions(sampleMentions());
@@ -559,6 +561,7 @@ function hashchange() {
   updateActiveTopic(name && name != "!" ? findOrAddTopic(name) : null);
 }
 
+// Count how many matches your current word has.
 // Count how many matches your current word has.
 function count() {
   var name = this.search, have, nums = ['', ''];
