@@ -21,41 +21,41 @@ def main():
     api = TweetScan.TwitterClient()
 
     # calling function to get tweets
-    query="National Australia Bank"
-    sentimentcount=400
+    query="Trump"
+    sentimentcount=200
 
     messages_matrix = pd.DataFrame(columns=['user','upper_user','message','time','sentiment'])
 
-    for tweet_info in tweepy.Cursor(api.api.search, q=query, lang= 'en', tweet_mode='extended').items(sentimentcount):
+    for tweet_info in tweepy.Cursor(api.api.search, q=query + ' -filter:retweets', lang= 'en', tweet_mode='extended').items(sentimentcount):
 
-        if 'retweeted_status' in dir(tweet_info):
-            tweet = tweet_info.retweeted_status.full_text
-        else:
-            tweet = tweet_info.full_text
-        # api.clean_tweet(tweet_info.user.name).encode('utf-8').replace('\"', '\'').
-        user = ''.join([i if ord(i) < 128 else ' ' for i in api.clean_tweet(tweet_info.user.name)])
-        user = user.strip().replace('\"','')
-        upper_user=user.upper()
-        message=api.clean_tweet(tweet).encode('utf-8').replace('\"','\'').replace("_"," ")
-        time=tweet_info.created_at
-        cleantweet=' '.join( ''.join([i if ord(i) < 128 else ' ' for i in api.clean_tweet(message)]).split())
-        txblob = TextBlob(cleantweet)
-        # print 'attempting: ', ' '.join(''.join([i if ord(i) < 128 else ' ' for i in api.clean_tweet(message)])).split()
-        sentiment = txblob.sentiment.polarity
+        # if (not tweet_info.retweeted) and ('RT @' not in tweet_info.text):
+            if 'retweeted_status' in dir(tweet_info):
+                tweet = tweet_info.retweeted_status.full_text
+            else:
+                tweet = tweet_info.full_text
+            # api.clean_tweet(tweet_info.user.name).encode('utf-8').replace('\"', '\'').
+            user = ''.join([i if ord(i) < 128 else ' ' for i in api.clean_tweet(tweet_info.user.name)])
+            user = user.strip().replace('\"','')
+            upper_user=user.upper()
+            message=api.clean_tweet(tweet).encode('utf-8').replace('\"','\'').replace("_"," ")
+            time=tweet_info.created_at
+            cleantweet=' '.join( ''.join([i if ord(i) < 128 else ' ' for i in api.clean_tweet(message)]).split())
+            txblob = TextBlob(cleantweet)
+            # print 'attempting: ', ' '.join(''.join([i if ord(i) < 128 else ' ' for i in api.clean_tweet(message)])).split()
+            sentiment = txblob.sentiment.polarity
 
-        messages_matrix.loc[len(messages_matrix)] = [
-            user,
-            upper_user,
-            message,
-            time,
-            sentiment
-        ]
+            messages_matrix.loc[len(messages_matrix)] = [
+                user,
+                upper_user,
+                message,
+                time,
+                sentiment
+            ]
 #########################
     print messages_matrix
 
-    text = '\n'.join(messages_matrix['message'].replace(':',' '))
 
-    stopwords = [query,'amp','https','to', 'of','the','in','and','for','as','that','is','this','these','by','from','were','we','they','them','my','me','me','your','no','be','will','https','for','co','really','said','say']
+    stopwords = [query.lower(),'amp','https','to', 'of','the','in','and','for','as','that','is','this','these','by','from','were','we','they','them','my','me','me','your','no','be','will','https','for','co','really','said','say','via']
 
     if ' ' in query:
         for q in query.split(' '):
@@ -63,10 +63,6 @@ def main():
 
     stoppatterns = ['http']
 
-
-    wc=WordCloud()
-    words=wc.process_text(text)
-    sorted_wordlist = sorted(words.items(), key=operator.itemgetter(1),reverse=True)
 
     f=open('index_template.js','r')
     fbuffer=f.read()
@@ -103,6 +99,15 @@ def main():
 
     inserted_words=[]
 
+    text = '\n'.join(messages_matrix['message'].replace(':',' '))
+
+    wordtext = '\n'.join(positives + negatives)
+    wc=WordCloud()
+    words=wc.process_text(wordtext)
+    sorted_wordlist = sorted(words.items(), key=operator.itemgetter(1),reverse=True)
+    with open('output/words.txt','w') as wt:
+        wt.write(wordtext)
+        wt.close()
     english_vocab = enchant.Dict("en_US")
 
     for index, item in enumerate(sorted_wordlist):
@@ -137,7 +142,7 @@ def main():
 
             t=block.replace('word', word).replace('x999', rand1).replace('y999', str(rand2)).replace('regex',word.lower()).encode("utf-8")
             listwords.append(t)
-        if index > 40:
+        if index > 30:
             break
 
     print inserted_words

@@ -87,78 +87,55 @@ function countWords(text) {
       [
         "BILL SHORTEN: " +
         "Women and Men of Australia\n",
-, "EGEILEH ANTOINE: Amazon Robotics https://t.co/cr2vi34vWS NAB (National Australia Bank)core banking general manager Andrew Cresp revealed the platform had been deployed to the bank’s 900 branches covering 800 employees and 8 million personal banking customers.http://…https://t.co/FFdUDATQcr\n"
-, "POLITICAL HEDGE: Refreshing Your Memory: Previously Posted on November 2 2017 5:09 pm║After National Australia Bank Profit Spikes They Lay Off 6,000 Workers https://t.co/D8T4rHt1WL #AFP\n"
-, "NATIONWIDE CONTAINER: Australian Business Conditions Surge to Highest on Record The sentiment index jumped seven points to 21 in October and was driven by spikes in sales and profitability gauges according to a National Australia Bank Ltd survey of more than 400 firms con.. https://t.co/XL2dEQ67yk\n"
-, "PAUL EBELING: National Australia Bank Limited (NAB:AX Stock Worth Watching Live Trading News https://t.co/ANFBLewQ0V via\n"
-, "PROPERTY NETWORK X: The head of Australia's largest agricultural lender National Australia Bank's Khan Horne says the rural property market is running hotter than ever before because of strong fundamentals and low interest rates https://t.co/nG9M4lQpZH #ruralproperty #farming #agriculture\n"
-, "MARK THOMAS: ‘Singapore's childcare workers earn just 38 per cent of the national median wage Those in Australia pull in earnings at 91 per cent of the national median. #Singapore Reserve Bank head commenting that more needs to be done to “professionalise the sector https://t.co/9p6eRdIjTu https://t.co/gJFxxr5o0K\n"
-, "PROPERTY HQ: The head of Australia's largest agricultural lender National Australia Bank's Khan Horne says the rural property market is running hotter than ever before because of strong fundamentals and low interest rates https://t.co/nG9M4lQpZH #ruralproperty #farming #agriculture\n"
-, "LYNDSEY SIMPSON: Great digital innovation by as they integrate with Amazon Alexa https://t.co/k0xn9CisPK via\n"
-, "POLITICAL HEDGE: Refreshing Your Memory: Previously Posted on November 2 2017 5:09 pm║After National Australia Bank Profit Spikes They Lay Off 6,000 Workers https://t.co/D8T4rHt1WL #AFP\n"
-, "SANDRA D KING,ED.D: How National Australia Bank ( uses hackathons to find the next great idea and help small businesses succeed https://t.co/yg5VygJYqZ #banking #SASinsights\n"
-, "SAS SOFTWARE: How National Australia Bank ( uses hackathons to find the next great idea and help small businesses succeed https://t.co/yg5VygJYqZ #banking #SASinsights\n"
-, "4-TRADERS.COM: National Australia Bank Australian SMSF investors remained red hot for equity in 2017 https://t.co/5zb8NRvwC8\n"
-, "IMITAK: How National Australia Bank ( uses hackathons to find the next great idea and help small businesses succeed #banking https://t.co/imJbOccIQE by #Fin  Tech https://t.co/qoaQTFlwG3\n"
-, "FINTECH: How National Australia Bank ( uses hackathons to find the next great idea and help small businesses succeed #banking https://t.co/HEZsLJBNbr https://t.co/831Aszm59E\n"
-, "TAMMY B TOW: As I said in my tweets it’s based on what I’ve experienced and my reviewers We’ve worked at National Australia Bank Amazon Netflix Dropbox DigitalOcean and Salesforce Didn’t include what we don’t recommend (too much time spent writing postmortems no focus on TTP and TBF).\n"
-, "CARRIE HENRY: How National Australia Bank ( uses hackathons to find the next great idea and help small businesses succeed #banking https://t.co/HEZsLJBNbr https://t.co/831Aszm59E\n"
-, "SAMUEL ROY: How National Australia Bank ( uses hackathons to find the next great idea and help small businesses succeed #banking https://t.co/HEZsLJBNbr https://t.co/831Aszm59E\n"
-, "MICHA VINOGRADOV: How National Australia Bank ( uses hackathons to find the next great idea and help small businesses succeed #banking https://t.co/HEZsLJBNbr https://t.co/831Aszm59E\n"
-, "ROBYN POPE: How National Australia Bank ( uses hackathons to find the next great idea and help small businesses succeed #banking https://t.co/HEZsLJBNbr https://t.co/831Aszm59E\n"
-, "IAIN BROWN PHD: How National Australia Bank ( uses hackathons to find the next great idea and help small businesses succeed #banking https://t.co/HEZsLJBNbr https://t.co/831Aszm59E\n"
-, "WILLIAM HENRY MORGAN: Bank of New Zealand and National Australia Group Europe Limited to a controlled entity of NAFM,\n"
-, "WILLIAM HENRY MORGAN: National Australia Bank Limited is the holding company for the Group as well as the main operating company.\n"
-, "WILLIAM HENRY MORGAN: National Australia Bank Limited (Exact Name of Registrant as Specified in Its Charter) Australia\n"
-, "WILLIAM HENRY MORGAN: Home Information Cases Australia &amp;amp New Zealand Banking Group Ltd v National Westminster Bank Plc &amp;amp ors (2002).\n"
-, "POLITICAL HEDGE: Published Precisely on November 2 2017 5:09 pm║After National Australia Bank Profit Spikes They Lay Off 6,000 Workers https://t.co/D8T4rHt1WL #AFP\n"
-, "NAENAE TRIGGA: Published Precisely on November 2 2017 5:09 pm║After National Australia Bank Profit Spikes They Lay Off 6,000 Workers https://t.co/D8T4rHt1WL #AFP\n"
-, "GREGORYMCMAHON: Published Precisely on November 2 2017 5:09 pm║After National Australia Bank Profit Spikes They Lay Off 6,000 Workers https://t.co/D8T4rHt1WL #AFP\n"
-, "POLITICAL HEDGE: Published Precisely on November 2 2017 5:09 pm║After National Australia Bank Profit Spikes They Lay Off 6,000 Workers https://t.co/D8T4rHt1WL #AFP\n"
-, "MICHAEL HOLLAND: How National Australia Bank ( uses hackathons to find the next great idea and help small businesses succeed https://t.co/yg5VygJYqZ #banking #SASinsights\n"
-, "SAS SOFTWARE: How National Australia Bank ( uses hackathons to find the next great idea and help small businesses succeed https://t.co/yg5VygJYqZ #banking #SASinsights\n"
-, "DETAR+PLUS: New post National Australia Bank integrates with Amazon Alexa https://t.co/VcwfzaLT9W https://t.co/mNa0GbujOa\n"
-, "FRANCESC RIVEROLA: National Australia Bank 2/3 That said it is possible that the official figure underestimates the strength of growth in 2017 given that several local governments have confirmed that 2016 economic data was overstated #forex #fx #forextrading #fxtrading #forextrader #China\n"
-, "FRANCESC RIVEROLA: National Australia Bank 1/3 China’s economy grew by 6.9 in 2017 (compared with 6.7 in 2016) the first acceleration in growth since 2010 This was well ahead of the Government’s annual growth target of 6.5% #forex #fx #forextrading #fxtrading #forextrader #fxtrader #China\n"
-, "NINE NEWS ADELAIDE: The 'bank of mum and dad is now the fifth biggest lender in Australia with plenty of parents helping their kids get into their first property #9News https://t.co/ZNv2QJRgRb\n"
-, "POLITICAL HEDGE: Published Precisely on November 2 2017 5:09 pm║After National Australia Bank Profit Spikes They Lay Off 6,000 Workers https://t.co/D8T4rHt1WL #AFP\n"
-, "KEITH ARNOLD: &amp  AU say new deals with will mean customer's banking needs are met Pity Licensed Post Offices have to provide these services at a loss to them How is this fair?? https://t.co/Ph9R7xxCVx\n"
-, "LNPFAILAUS: A $5 billion infrastructure loan scheme derided as a secretive Turnbull govt slush fund has attracted further criticism this time from National Australia Bank which says it's is cloaked in secrecy lacks governance and exposes taxpayers to a high risk of losing their money.\n"
-, "STINGER: Banks save $100millions as Rural &amp Regional branches are closed leaving communities feeling deserted ideally suited to fill void but their farcical payments to Licensees don't cover their costs? https://t.co/UxeUAaujZ8\n"
-, "STINGER: Banks save $100millions as Rural &amp Regional branches are closed leaving communities feeling deserted ideally suited to fill void but Agency Payments from the banks must be sufficient for to pay Licensees fairly https://t.co/UxeUAaujZ8\n"
-, "JUAN ZINO RAMIREZ: A $5 billion infrastructure loan scheme derided as a secretive Turnbull govt slush fund has attracted further criticism this time from National Australia Bank which says it's is cloaked in secrecy lacks governance and exposes taxpayers to a high risk of losing their money.\n"
-, "PENNY FARTHING: Banks save $100millions as Rural &amp Regional branches are closed ideally suited to fill the void but the banks &amp must pay up as the farcical payments to Postal Licensees don't cover their costs? https://t.co/UxeUAaujZ8\n"
-, "PENNY FARTHING: Banks save $100millions as Rural &amp Regional branches are closed leaving communities feeling deserted ideally suited to fill void but their farcical payments to Licensees don't cover their costs? https://t.co/UxeUAaujZ8\n"
-, "PENNY FARTHING: Banks save $100millions as Rural &amp Regional branches are closed leaving communities feeling deserted ideally suited to fill void but Agency Payments from the banks must be sufficient for to pay Licensees fairly https://t.co/UxeUAaujZ8\n"
-, "PENNY FARTHING: Banks save $100millions as Rural &amp Regional branches are closed ideally suited to fill the void but the banks &amp must pay up as the farcical payments to Postal Licensees don't cover their costs? https://t.co/UxeUAaujZ8\n"
-, "PENNY FARTHING: Banks save $100millions as Rural &amp Regional branches are closed leaving communities feeling deserted ideally suited to fill void but Agency Payments from the banks must be sufficient for to pay Licensees fairly https://t.co/UxeUAaujZ8\n"
-, "ZENAGUI SIDAHMED: How National Australia Bank ( uses hackathons to find the next great idea and help small businesses succeed https://t.co/yg5VygJYqZ #banking #SASinsights\n"
-, "SAS SOFTWARE: How National Australia Bank ( uses hackathons to find the next great idea and help small businesses succeed https://t.co/yg5VygJYqZ #banking #SASinsights\n"
-, "ENRIQUE SALDIVAR: How National Australia Bank ( uses hackathons to find the next great idea and help small businesses succeed #banking https://t.co/JQaUNbJGbu https://t.co/snsAJ5iZ22\n"
-, "4-TRADERS.COM: Fidelity National Information Services Australiaâs ME Bank Selects FIS as New Cards Platform Provider https://t.co/6lx1zfp0OL\n"
-, "MAREE STEWART: Banks save $100millions as Rural &amp Regional branches are closed leaving communities feeling deserted ideally suited to fill void but Agency Payments from the banks must be sufficient for to pay Licensees fairly https://t.co/UxeUAaujZ8\n"
-, "FAYE ADAMS: A $5 billion infrastructure loan scheme derided as a secretive Turnbull govt slush fund has attracted further criticism this time from National Australia Bank which says it's is cloaked in secrecy lacks governance and exposes taxpayers to a high risk of losing their money.\n"
-, "KEITH ARNOLD: Banks save $100millions as Rural &amp Regional branches are closed leaving communities feeling deserted ideally suited to fill void but Agency Payments from the banks must be sufficient for to pay Licensees fairly https://t.co/UxeUAaujZ8\n"
-, "PLANETEARTHADVOCATE: A $5 billion infrastructure loan scheme derided as a secretive Turnbull govt slush fund has attracted further criticism this time from National Australia Bank which says it's is cloaked in secrecy lacks governance and exposes taxpayers to a high risk of losing their money.\n"
-, "ANNA K: Banks save $100millions as Rural &amp Regional branches are closed leaving communities feeling deserted ideally suited to fill void but Agency Payments from the banks must be sufficient for to pay Licensees fairly https://t.co/UxeUAaujZ8\n"
-, "JOE SHMOE: A $5 billion infrastructure loan scheme derided as a secretive Turnbull govt slush fund has attracted further criticism this time from National Australia Bank which says it's is cloaked in secrecy lacks governance and exposes taxpayers to a high risk of losing their money.\n"
-, "TIARA LUNA: National Australia Bank to charge lower interest rates to farmers employing good environmental practice valuing #NaturalCapital\n"
-, "MIKEAUBREY: A $5 billion infrastructure loan scheme derided as a secretive Turnbull govt slush fund has attracted further criticism this time from National Australia Bank which says it's is cloaked in secrecy lacks governance and exposes taxpayers to a high risk of losing their money.\n"
-, "#STOPGREED: A $5 billion infrastructure loan scheme derided as a secretive Turnbull govt slush fund has attracted further criticism this time from National Australia Bank which says it's is cloaked in secrecy lacks governance and exposes taxpayers to a high risk of losing their money.\n"
-, "TROOTHMONSTAH: A $5 billion infrastructure loan scheme derided as a secretive Turnbull govt slush fund has attracted further criticism this time from National Australia Bank which says it's is cloaked in secrecy lacks governance and exposes taxpayers to a high risk of losing their money.\n"
-, "KEITH ARNOLD: Both &amp  AU have entered a new deal with to provide services Why did Licensee's group only find out about this after the fact What happened to CONSULTATION https://t.co/Ph9R7xxCVx\n"
-, "EDWIN CHANDLER: Banks save $100millions as Rural &amp Regional branches are closed ideally suited to fill the void but the banks &amp must pay up as the farcical payments to Postal Licensees don't cover their costs? https://t.co/UxeUAaujZ8\n"
-, "STEVEN WIBLEN: Sweet deal for BIG 4 who offload obligations to Rural &amp Regional Australia onto Licensed Post Offices PAYMENT DOESN'T COVER COSTS https://t.co/maIRM8Vx1G\n"
-, "JANET OLIVER: Banks save $100millions as Rural &amp Regional branches are closed leaving communities feeling deserted ideally suited to fill void but their farcical payments to Licensees don't cover their costs? https://t.co/UxeUAaujZ8\n"
-, "JANET OLIVER: Banks save $100millions as Rural &amp Regional branches are closed ideally suited to fill the void but the banks &amp must pay up as the farcical payments to Postal Licensees don't cover their costs? https://t.co/UxeUAaujZ8\n"
-, "STEVEN STANLEY-JONES: Banks save $100millions as Rural &amp Regional branches are closed leaving communities feeling deserted ideally suited to fill void but Agency Payments from the banks must be sufficient for to pay Licensees fairly https://t.co/UxeUAaujZ8\n"
-, "JANET OLIVER: Both &amp  AU have entered a new deal with to provide banking services claims to always consult with Licensees why wasn't Licensee's group consulted on these deals https://t.co/Ph9R7xxCVx\n"
-, "PAUL EBELING: National Australia Bank Limited (NAB.AX Bullish Divergence Live Trading News https://t.co/FONEUcUi8M via\n"
-, "LYNDA FROMHOLD: Banks save $100millions as Rural &amp Regional branches are closed leaving communities feeling deserted ideally suited to fill void but their farcical payments to Licensees don't cover their costs? https://t.co/UxeUAaujZ8\n"
-, "LYNDA FROMHOLD: Banks save $100millions as Rural &amp Regional branches are closed leaving communities feeling deserted ideally suited to fill void but Agency Payments from the banks must be sufficient for to pay Licensees fairly https://t.co/UxeUAaujZ8\n"
-, "STEVEN WIBLEN: Both &amp  AU have entered a new deal with to provide services claims to always consult with Licensees why wasn't Licensee's group consulted on these deals MUTUAL BENEFIT?? https://t.co/Ph9R7xxCVx\n"
-, "MADERO: Both &amp  AU have entered a new deal with to provide services Rural &amp Regional Postal Licensees were being grossly underpaid for banking transactions before these deals &amp remain so FAIR?? https://t.co/Ph9R7xxCVx\n"
-, "JANET OLIVER: Sweet deal for BIG 4 who offload obligations to Rural &amp Regional Australia onto Licensed Post Offices PAYMENT DOESN'T COVER COSTS https://t.co/maIRM8Vx1G\n"
+, "DONALD TRUMP -SATIRE: McGann also predicted that Trump was too chickensh!t to pick up the phone and make the call himself He was right Ultimately Trump tried to coerce several other staff members to do it All refused And he didn't have the stones to do his own Dirty Work.\n"
+, "ALICE: Because of a crooked electorate which Trump don't deny The Republicans and Trump are nothing but a bunch of lying criminals Blue in 2018 and 2020 At least Obama won both the Electorate and the Popular vote https://t.co/Z6r3j8rIAK\n"
+, "BENBEN: ‘Look at the car wreck! Morning Joe laughs out loud at Sean Hannity’s ‘desperation over Trump-Mueller report https://t.co/KdlvTq7Hru\n"
+, "OANDA ALERTS: #MarketPulse Trump Davos Speech Headlines Lively Session [https://t.co/UMPde5XoU9 https://t.co/M2HFjJEe3a\n"
+, "ALAN BERK: he hasn`t been that great for economy obama set the table f for this so i make some money and i guess i`m part of the 1 per cent THE DAMAGE TRUMP IS DOING MIGHT NOT BE REPAIRABLE\n"
+, "THE PHODOGRAPHER: Good for them The best way to deal with Trump is to Embarrass him during a Live Media covered Event #REBUKETRUMPONAIR\n"
+, "MULBERRY STREET #FBPE: Personally I'm less impressed by Trump claiming he would like to apologise for retweeting views held by a far-right fringe group views which led to the murder of a sitting MP than I would be by him saying he denounced and no longer holds those views himself.\n"
+, "USANATIONALIST4TRUMP: Dems opposing a immigration deal that gives them 1.8 million new voters &amp maybe political control of a state or 2 cus trump asks for some cuts is super chutzpah shows a deal is not wat they want\n"
+, "JERRY REINOEHL: Correct some are This one purchased at the first NC Trump rally in 2015 does not have a source tag That's why we need to MAGA so the hats will be produced here https://t.co/m4mnFXwW3k\n"
+, "USA-MAGA-BLOCKED: He gave them a VERY generous offer and they refused it DACA folks must be livid already protested Schumer DACA expires in March Trump is giving Dems rope to hang themselves They never learn CHILL.\n"
+, "THE CALM SCRIBE: Trump has to do everything better than everyone else Including bringing the doomsday clock closer to midnight Thanks for that.\n"
+, "ZACH COOK: can you explain how trump has anything with the pats or super bowl Your article was complete trash\n"
+, "STABLE GENIUS: 'The classic four stages of #Trump #denial 1 I didn't do it!1 2 I don't remember it!1!1! 3 It wasn't a big deal!1!1! !1!1! 4 Who did YOU vote for?!?!???!1!?ß?\n"
+, "SWATTEX1: Actually no...not everyone got the same treatment as Trump And yes the “progressives have been marching whining and been over the top since he was President-elect that’s not impressive or profound in any form.\n"
+, "BTYSHEEN: Trump:we going 2 build the biggest bestest beautiful wall Mexico is going 2 pay 4 it Trumpers:qYEAH #MAGA WINNING Trump:we going 2 build biggest wall &amp get the money bk from mexico Trumpers yeah MAGA Trump:we going 2 build the wall &amp 4 u2 give me 25 billion Trumpers yeah #maga\n"
+, "GLOVESAREOFF: The abridged Trump Dictionary Fake News Shxt gotta cover this up Believe Me=I’m lying to you Trust Me=I’m still lying Hoax=Oh crap they know about Rusher Witch Hunt damn this guy Mueller is too clean I may not be able to fool him A deal of Love I love myself.\n"
+, "AMERICAN LOSER: He did do it He ordered McGahan to fire Mueller. McGahan refused. It's like hiring someone to kill someone and paying them but they refuse to do it That's still a crime The Trump Crime Family is going down Bigly Not #sad https://t.co/RzV4hLZMoa\n"
+, "LEAH #LOVEMYPLANET: Who said we have a government Constitution suspended under Patriot act Americans are ignorant and we got Trump How lucky can you get https://t.co/bZ9ZrVsIvy\n"
+, "MERVYN SULLIVAN: President Trump should defer any visit to the UK until after the UK has taken back its independence &amp sovereignty from the EU hopefully in March 2019 Only them should the UK be worthy of a visit from THE GREAT MAN!!!!\n"
+, "SMITTY: What's pretty much guaranteeing that Trump will talk with Mueller is everyone telling him not to. 'You're not the boss of me!'\n"
+, "WALID MUHAMMAD: The 2018 ranking taken at the end of the past year gives us insight into whether Trump has truly made America great again The result is most disappointing The U.S has fallen from its No 4 position in 2016 to now being No 8 in the world US News https://t.co/n9dFej8Kqq\n"
+, "BORNEO TRADING GROUP: Watch President Trump speak at the World Economic Forum in Davos https://t.co/39KIeEu5KC\n"
+, "SECRET SOCIETY STABLE GENIUS:  berset Everyone has a look on their face that says 'Wow Trump really is a shithole.'\n"
+, "US POLITICS 247: WATCH Donald Trump Mike Pence Hold Rally in Cleveland OH LIVE Stream Right Side Broadcasting https://t.co/4svnj4irH1\n"
+, "DONT PUT NAME ON TWI: Trump’s First Year Was a Successful War on Obama’s Eight https://t.co/iJxVWjBYAH\n"
+, "MICHELE SCHIESSER: Donald Trump crashes the gasbag party at Davos Washington Times Wesley Pruden He seems to be having a good time https://t.co/1TjYIRIf4h\n"
+, "GRASS ROOTS: Trump ‘Apologises to Piers Morgan for Britain First Retweets https://t.co/EWkblkxTGh https://t.co/CKFfnElhY6\n"
+, "SEOUL KOREA DP: Asian shares recoup losses dollar steady as eyes on Trump CT Post #losses https://t.co/NhaPM3kFgw\n"
+, "DON'BEABABY: More money This lady deserves more money She had sexual relations with trump She deserves a boatload of money. Therapy’s expensive.\n"
+, "IAN PFEIFFER: One side of the media is over the top pro Trump the other suffers from Trump derangement syndrome both sides are regularly having to retract their stories and the entire Media wonders why we their audience thinks they're all full of s***\n"
+, "BIG FLORIDA: The best guys keep up the great work America 1st again under President Trump Thank the good Lord above 🇺🇸\n"
+, "TIMOTHY JOHNSON: Paul Ryan and no other republican wants to stand up against trump as long as they get what they want.\n"
+, "HIKING2COLORADO: Guggenheim Museum insults Trump family with offer of golden toilet for White House https://t.co/3IOWOKcS26 #FoxNews ��� 😂\n"
+, "ESTEBAN TRUJILLO: Brother Patrick J Buchanan outlines the true crime of President Trump obstruction of injustice The cabal atop.. https://t.co/ufVxZXcKBe\n"
+, "#RELEASETHEMEMO #INSURANCEPOLICY #SECRETSOCIETY: Trump's son in law is Jewish his daughter converted he is a personal friend of the PM of Israel and strong support for Israel has been a pillar of his foriegn policy so far Try again 'Muh Racist, or 'Muh anti Semite doesn't work without facts anymore\n"
+, "KVAN:  Sevigny Whoa you with your whole 198 you’re so popular ��� get a life Trump is 20 steps ahead of you Demokkkrats ❄ libtards Just sit back and watch the show but make sure you have safe spaces.\n"
+, "WKJ: Wap Kon Jorge News:https://t.co/xADQnHNgrd President Trump’s presence in Davos Switzerland is notable for several reasons starting with his values which are clearly at odds with the forum’s majority https://t.co/PsZFM9hYNf https://t.co/Y50c2jxQOT\n"
+, "AMY HAMILTON: Trump administration wants to end NASA funding for the International Space Station by 2025 https://t.co/JVCsGsPfNT via https://t.co/9tV8CFVVpK\n"
+, "KELLY GETCHE: ��� The America First president comes to Davos Read Trump's full exclusive interview with CNBC CNBC https://t.co/VyYrUicvkf\n"
+, "MARIA: Trump is not a spoiled rich kid?\n"
+, "PATRIOT 24/7: 🦅President Trump says a report that he ordered special counsel Robert Mueller fired in June 2017 is #FakeNews‼ https://t.co/aj9JInUU1I\n"
+, "SHARE B.C NEWS: Trump Ordered Mueller Fired but Backed Off When White House Counsel Threatened to Quit New York Times https://t.co/FvbYUNMgJp\n"
+, "ICONNEWS: Check out my new blog post https://t.co/9Bffie1KeQ\n"
+, "KRQE.COM HEADLINES: Here’s what Trump wants in an immigration bill https://t.co/7A19qI6A0D\n"
+, "EMPEROR COMMODUS LLC: Watch President Trump speak at the World Economic Forum in Davos https://t.co/3IXHcukSbr\n"
+, "THE IRISHMAN: via Trump speaks in Davos addresses the World Economic Forum - live blog https://t.co/dPVKWmZpE4 #tcot https://t.co/Dkb7US54CO\n"
+, "ANDY SCHMICKLE: Your publicly stated position appears to be forcing a racist poison pill aimed to please white nationalists in order to restore something that existed when Trump took office That's not fake news That's just reprehensible.\n"
+, "AUGUSTIN KARASANGABO: The Latest Trump calls Rwandan President Kagame a 'friend https://t.co/x1IZyJlke6 #FoxNews\n"
+, "MARILYN HOLZ 111: As my late husband Art used to say in his best W Virginia drawl ... YEEHAW! ~~ O’Donnell said “It says.. https://t.co/5HKOLld5U6\n"
       ]
     }
   , { name: "republican"
@@ -166,31 +143,30 @@ function countWords(text) {
       [
         "MALCOLM TURNBULL: " +
         "Thank you, thank you very much.\n",
-, "HEALTHWELLBEINGPLUS: National Australia Bank Limited has refunded $1.7 million to 966 home loan customers after it failed to properly set up mortgage offset accounts via https://t.co/6y7bMYYRZK\n"
-, "VIRTUAL CURRENCY: National Australia Bank Limited has refunded $1.7 million to 966 home loan customers after it failed to properly set up mortgage offset accounts via https://t.co/curTopOJ8k\n"
-, "BBX WORLD: National Australia Bank Limited has refunded $1.7 million to 966 home loan customers after it failed to properly set up mortgage offset accounts via https://t.co/m8uzBceljW\n"
-, "HR AT APPZPORT: https://t.co/gjV62zYZ8n UK government loses Brexit legal challenge and Nick Parsons of National Australia Bank says https://t.co/3n2RYFuaCp\n"
-, "GLOBALTRADINGMADE EZ: National Australia Bank Limited has refunded $1.7 million to 966 home loan customers after it failed to properly set up mortgage offset accounts via https://t.co/ZECYvFiqQC\n"
-, "LANCE SCOULAR: National Australia Bank Limited has refunded $1.7 million to 966 home loan customers after it failed to properly set up mortgage offset accounts via https://t.co/STPqGa5DbY\n"
-, "SPEAKERS SITES: National Australia Bank Limited has refunded $1.7 million to 966 home loan customers after it failed to properly set up mortgage offset accounts via https://t.co/L3D0WeT8qO\n"
-, "BBX NEW SOUTH WALES: National Australia Bank Limited has refunded $1.7 million to 966 home loan customers after it failed to properly set up mortgage offset accounts via https://t.co/Jh7LYhxmAF\n"
-, "SPARE CAPACITY SALES: National Australia Bank Limited has refunded $1.7 million to 966 home loan customers after it failed to properly set up mortgage offset accounts via https://t.co/maxtziTbt8\n"
-, "BETTA CASH FLOW: National Australia Bank Limited has refunded $1.7 million to 966 home loan customers after it failed to properly set up mortgage offset accounts via https://t.co/JW7P6SBcYo\n"
-, "CHRIS PET: National Australia Bank Limited has refunded $1.7 million to 966 home loan customers after it failed to properly set up mortgage offset accounts via https://t.co/93xUViV110\n"
-, "TRADES&SERVICES BBX: National Australia Bank Limited has refunded $1.7 million to 966 home loan customers after it failed to properly set up mortgage offset accounts via https://t.co/1H4usMjhtB\n"
-, "WILLIAM HENRY MORGAN: The Company traces its history back to the establishment of The National Bank of Australasia in 1858 National Australia Bank Limited is a public limited company incorporated on June 23 1893 in Australia which is the Company's MORGAN and CARROLL ASSETS\n"
-, "POLITICAL HEDGE: Refresh Your Memory: Previously Posted on November 2 2017 5:09 pm║After National Australia Bank Profit Spikes They Lay Off 6,000 Workers https://t.co/D8T4rHt1WL #AFP\n"
-, "GLOBAL BIZ MARKETING: National Australia Bank Limited has refunded $1.7 million to 966 home loan customers after it failed to properly set up mortgage offset accounts via https://t.co/1WBjg7WBTt\n"
-, "SHARECONOMY: National Australia Bank Limited has refunded $1.7 million to 966 home loan customers after it failed to properly set up mortgage offset accounts via https://t.co/BcQNn8HzJT\n"
-, "UNIVERSITY WATCH: Fact:Politicians have lied for decades about Australia needing 'foreign capital' We have some of worlds largest reserves of Gold Silver Uranium &amp land It all could have been securitised by a National Sovereign Central Bank issuing 1 100yr bonds No need for bankers #treason https://t.co/PLvGn3Bq8R\n"
-, "BBX NEW SOUTH WALES: National Australia Bank Limited has refunded $1.7 million to 966 home loan customers after it failed to properly set up mortgage offset accounts via https://t.co/Jh7LYhxmAF\n"
-, "ROWLAND MOSBERGEN: What has helped me as a #RSE is my varied background running a small business and writing code for Merril Lynch and National Australia Bank Because engineering is just as much about dealing with people as it is about dealing with technical problems &amp solutions.\n"
-, "JESUS VELAZQUEZ: Kamakura for #IFRS9 #CVA #CECL #Credit 100.00 consistency between KRIS default probabilities and traded bond prices for National Australia Bank Mean absolute error 16.3 cents on $100 par value bond $NAB #Australia https://t.co/pNv8FtY4Js\n"
-, "DONALD VAN DEVENTER: Kamakura for #IFRS9 #CVA #CECL #Credit 100.00 consistency between KRIS default probabilities and traded bond prices for National Australia Bank Mean absolute error 16.3 cents on $100 par value bond $NAB #Australia https://t.co/pNv8FtY4Js\n"
-, "KAMAKURA CORPORATION: Kamakura for #IFRS9 #CVA #CECL #Credit 100.00 consistency between KRIS default probabilities and traded bond prices for National Australia Bank Mean absolute error 16.3 cents on $100 par value bond $NAB #Australia https://t.co/pNv8FtY4Js\n"
-, "GLOBALVISIONTRADERS: Stay in the loop. #forex #trading #investing National Australia Bank's Business Confidence Time Left Impact Previous Consensus Actual 11h 43min 6.0 https://t.co/JBL9eqttvU\n"
-, "KEITH ARNOLD: 'An appalling trend that threatens the viability of rural communities across Australia Yet refuses to pay Licensed Post Offices viable banking payments Why?? https://t.co/Ph9R7xxCVx\n"
-, "STEVEN WIBLEN: 237 bank closures &amp poor telecommunications across Rural &amp Regional Australia makes the Licensed Post Office Network a crucial piece of infrastructure Yet continues to rort &amp exploit them When will Government act https://t.co/Ph9R7xxCVx\n"
+, "BOB GESSERT: your prediction about Trump is just as crazy as you are Your Open Society is the REAL danger to America! We will continue to ensure the DNC falls heavily! Finally getting the corrupt asses out of government! We ARE MAGA Go away you fear monger!\n"
+, "BG: Hes literally none of those things hahahaha but whatever keep living in your fantasy world with Trump as the boogeyman Ps.. take a look at ur 401k and economy and stock market and consumer confidence What a bad guy right Look at companies raising minimum wage Youre a fool.\n"
+, "K.B.: Soros calls Trump administration a 'danger to the world https://t.co/yjtJLgnA71 #FoxNews &gt;Comming from a war criminal Another clown who needs to keep his mouth shut.\n"
+, "TIM BAK: “If you are telling me they’re horrible people horrible racist people I would certainly apologise if you’d like me to do that I think he means apologize to the horrible racist people .. bc always 'good people on both sides of racism. https://t.co/xo9AirAfun\n"
+, "MITCH METZGER: The people that join these marches are either naive uninformed socialists muslim lesbians gays anti-Trump,.. https://t.co/8JS4ouNaC9\n"
+, "LIVEDAVE: Trump calls report he ordered Mueller fired 'fake news CBS News #liar https://t.co/u1FoQn0cDa\n"
+, "NICK KELSIER: Put down the crack pipe Dnesh And quit letting trump *** you up the ***\n"
+, "KARLA: Not interested in his hate trump and let’s give illegals a free ride speech Dems have nothing else\n"
+, "GENE BRYANT: Jerry Falwell Jr Defends Trump Amid Porn Star Affair Allegations 'We Are All Equally Bad https://t.co/HcLDNSdHF5\n"
+, "EMILYSUMIKO: Wouldn't make enough money Maybe they'll just act like Trump never happened and try other go back to just being conservative.\n"
+, "ROSSILY COMPRESSED: Fake News A control freak's ramblings Not a thing Dismissed To send away Trump 'Dismisses as fake news A thing in a megalomaniac's head not an actual thing 'Trump alleges to be fake news accurate?\n"
+, "THE ROSE BUSHES: In Davos Trump Calls Mueller Report 'Fake News https://t.co/9ucBB1h3Bk\n"
+, "THELUCY3: Oh wait that's math trump not educated enough for simple math Old dirty family money buys them their degrees Clearly didn't buy them any class or common sense or decency.\n"
+, "THEMALAYSIANINSIGHT: Trump sends ‘warmest regards to African leaders after alleged slur https://t.co/JJV6FgaMm8\n"
+, "THOMAS C EDWARDS 111: He justified his re-tweet and took no responsibility for any damage he may have done There can be no justification for his re-tweeting something from a radical organization Trump doesn't have the ability to say he's sorry for anything he's done.\n"
+, "DUANE DA`VEIN: The Democrats aren't going to accept any deal that Trump brings to the table Trump knows that There is no way the Democrats will let Trump take any credit for helping those illegal aliens known as dreamers.\n"
+, "WTVC NEWSCHANNEL 9: NEW Trump calls NYTimes report he ordered Mueller's firing 'fake news' https://t.co/SckeI2yiUx\n"
+, "NEVERGIVEUP: Oh pls Trump have trillions away in tax cuts And companies are not govignwage hikes which would be long term like tax cuts They are giving one time bonus as sops And daft people are celebrating that.\n"
+, "BLACK HAWK:  sara We strongly condemned Nikki Haley for her statements in the UN General Assembly regarding Jerusalem as capital of Israel She and Trump should go to hell Obama/Clinton for whatever bad they did DID NOT GAVE JERUSALEM TO ISRAEL.\n"
+, "CHRIS BOYD: Obstruction of Justice,you name it Trump should be going to jail.\n"
+, "CATHERINE CHISNALL: I think because they have been told that Hillary (and Bill Clinton are much worse than Trump and do much worse things That is the only possible reason I can think of.\n"
+, "CARLO: How much credit should be given to the Trump administration for the rallies on Wall Street has mentioned it at least 25 times this month.\n"
+, "KASTA KEYPS: It's not a sincere apology from Trump at all I agree 😔😡\n"
+, "KAREN DAVIDSON:  dek There are more senators and representatives that believed this secret society fake news Even Trump did Shows you how stupid these people are They should be voted out of office.\n"
       ]
     }
   ]
@@ -202,192 +178,106 @@ function countWords(text) {
     , title: "Opposition Leader (Labor Party)"
     },
 
- "HEALTHWELLBEINGPLUS": { name: "HEALTHWELLBEINGPLUS", title: "Date: 26 Jan 2018 Rating: -0.190" } ,
- "VIRTUAL CURRENCY": { name: "VIRTUAL CURRENCY", title: "Date: 25 Jan 2018 Rating: -0.190" } ,
- "BBX WORLD": { name: "BBX WORLD", title: "Date: 25 Jan 2018 Rating: -0.190" } ,
- "LYNN WILLIAMS": { name: "LYNN WILLIAMS", title: "Date: 25 Jan 2018 Rating: 0.000" } ,
- "RICK HELBING CFP": { name: "RICK HELBING CFP", title: "Date: 25 Jan 2018 Rating: 0.000" } ,
- "EGEILEH ANTOINE": { name: "EGEILEH ANTOINE", title: "Date: 25 Jan 2018 Rating: 0.025" } ,
- "HR AT APPZPORT": { name: "HR AT APPZPORT", title: "Date: 25 Jan 2018 Rating: -0.050" } ,
- "BENI ALIIDRUS": { name: "BENI ALIIDRUS", title: "Date: 25 Jan 2018 Rating: 0.000" } ,
- "BENI ALIIDRUS": { name: "BENI ALIIDRUS", title: "Date: 25 Jan 2018 Rating: 0.000" } ,
- "BENI ALIIDRUS": { name: "BENI ALIIDRUS", title: "Date: 25 Jan 2018 Rating: 0.000" } ,
- "BENI ALIIDRUS": { name: "BENI ALIIDRUS", title: "Date: 24 Jan 2018 Rating: 0.000" } ,
- "REDMARLIN": { name: "REDMARLIN", title: "Date: 24 Jan 2018 Rating: 0.000" } ,
- "AUSTRALIAN DOLLAR": { name: "AUSTRALIAN DOLLAR", title: "Date: 24 Jan 2018 Rating: 0.000" } ,
- "GLOBALTRADINGMADE EZ": { name: "GLOBALTRADINGMADE EZ", title: "Date: 24 Jan 2018 Rating: -0.190" } ,
- "ED HUNTER": { name: "ED HUNTER", title: "Date: 24 Jan 2018 Rating: 0.000" } ,
- "POLITICAL HEDGE": { name: "POLITICAL HEDGE", title: "Date: 24 Jan 2018 Rating: 0.167" } ,
- "LANCE SCOULAR": { name: "LANCE SCOULAR", title: "Date: 24 Jan 2018 Rating: -0.190" } ,
- "SPEAKERS SITES": { name: "SPEAKERS SITES", title: "Date: 24 Jan 2018 Rating: -0.190" } ,
- "MARK NEWTON": { name: "MARK NEWTON", title: "Date: 24 Jan 2018 Rating: 0.000" } ,
- "BENI ALIIDRUS": { name: "BENI ALIIDRUS", title: "Date: 24 Jan 2018 Rating: 0.000" } ,
- "BENI ALIIDRUS": { name: "BENI ALIIDRUS", title: "Date: 24 Jan 2018 Rating: 0.000" } ,
- "BBX NEW SOUTH WALES": { name: "BBX NEW SOUTH WALES", title: "Date: 24 Jan 2018 Rating: -0.190" } ,
- "DAPI DAPI": { name: "DAPI DAPI", title: "Date: 24 Jan 2018 Rating: 0.000" } ,
- "BEST PRESTASHOP TEMP": { name: "BEST PRESTASHOP TEMP", title: "Date: 24 Jan 2018 Rating: 0.000" } ,
- "BEST PRESTASHOP TEMP": { name: "BEST PRESTASHOP TEMP", title: "Date: 24 Jan 2018 Rating: 0.000" } ,
- "TICKER REPORT": { name: "TICKER REPORT", title: "Date: 24 Jan 2018 Rating: 0.000" } ,
- "NATIONWIDE CONTAINER": { name: "NATIONWIDE CONTAINER", title: "Date: 24 Jan 2018 Rating: 0.250" } ,
- "PAUL EBELING": { name: "PAUL EBELING", title: "Date: 23 Jan 2018 Rating: 0.122" } ,
- "AUSTRALIAN DOLLAR": { name: "AUSTRALIAN DOLLAR", title: "Date: 23 Jan 2018 Rating: 0.000" } ,
- "AMERICAN ADVISORS": { name: "AMERICAN ADVISORS", title: "Date: 23 Jan 2018 Rating: 0.000" } ,
- "KHALED AL EMADI": { name: "KHALED AL EMADI", title: "Date: 23 Jan 2018 Rating: 0.000" } ,
- "#DOHA": { name: "#DOHA", title: "Date: 23 Jan 2018 Rating: 0.000" } ,
- "SPARE CAPACITY SALES": { name: "SPARE CAPACITY SALES", title: "Date: 23 Jan 2018 Rating: -0.190" } ,
- "DAILY POLITICAL": { name: "DAILY POLITICAL", title: "Date: 23 Jan 2018 Rating: 0.000" } ,
- "": { name: "", title: "Date: 23 Jan 2018 Rating: 0.000" } ,
- "TOM ARNOLD": { name: "TOM ARNOLD", title: "Date: 23 Jan 2018 Rating: 0.000" } ,
- "PROPERTY NETWORK X": { name: "PROPERTY NETWORK X", title: "Date: 23 Jan 2018 Rating: 0.144" } ,
- "MARK THOMAS": { name: "MARK THOMAS", title: "Date: 23 Jan 2018 Rating: 0.500" } ,
- "IGO INFORMATION": { name: "IGO INFORMATION", title: "Date: 23 Jan 2018 Rating: 0.000" } ,
- "PROPERTY HQ": { name: "PROPERTY HQ", title: "Date: 23 Jan 2018 Rating: 0.144" } ,
- "BETTA CASH FLOW": { name: "BETTA CASH FLOW", title: "Date: 22 Jan 2018 Rating: -0.190" } ,
- "SHIWEN YAP": { name: "SHIWEN YAP", title: "Date: 22 Jan 2018 Rating: 0.000" } ,
- "DEALSTREETASIA": { name: "DEALSTREETASIA", title: "Date: 22 Jan 2018 Rating: 0.000" } ,
- "CHRIS PET": { name: "CHRIS PET", title: "Date: 22 Jan 2018 Rating: -0.190" } ,
- "LYNDSEY SIMPSON": { name: "LYNDSEY SIMPSON", title: "Date: 22 Jan 2018 Rating: 0.400" } ,
- "POLITICAL HEDGE": { name: "POLITICAL HEDGE", title: "Date: 22 Jan 2018 Rating: 0.167" } ,
- "PRICES HALL": { name: "PRICES HALL", title: "Date: 22 Jan 2018 Rating: 0.000" } ,
- "SANDRA D KING,ED.D": { name: "SANDRA D KING,ED.D", title: "Date: 22 Jan 2018 Rating: 0.183" } ,
- "SAS SOFTWARE": { name: "SAS SOFTWARE", title: "Date: 22 Jan 2018 Rating: 0.183" } ,
- "JAMES PEMBER": { name: "JAMES PEMBER", title: "Date: 22 Jan 2018 Rating: 0.000" } ,
- "THE LINCOLNIAN": { name: "THE LINCOLNIAN", title: "Date: 22 Jan 2018 Rating: 0.000" } ,
- "DEALSTREETASIA": { name: "DEALSTREETASIA", title: "Date: 22 Jan 2018 Rating: 0.000" } ,
- "VLADIMIR BUDEJICKY": { name: "VLADIMIR BUDEJICKY", title: "Date: 22 Jan 2018 Rating: 0.000" } ,
- "VENTURECANVAS": { name: "VENTURECANVAS", title: "Date: 22 Jan 2018 Rating: 0.000" } ,
- "BRENDON LAU": { name: "BRENDON LAU", title: "Date: 22 Jan 2018 Rating: 0.000" } ,
- "FOREX WARRIOR": { name: "FOREX WARRIOR", title: "Date: 22 Jan 2018 Rating: 0.000" } ,
- "MATT BAKER": { name: "MATT BAKER", title: "Date: 22 Jan 2018 Rating: 0.000" } ,
- "EZE WEIGHT LOSS": { name: "EZE WEIGHT LOSS", title: "Date: 22 Jan 2018 Rating: 0.000" } ,
- "4-TRADERS.COM": { name: "4-TRADERS.COM", title: "Date: 21 Jan 2018 Rating: 0.083" } ,
- "IMITAK": { name: "IMITAK", title: "Date: 21 Jan 2018 Rating: 0.183" } ,
- "FINTECH": { name: "FINTECH", title: "Date: 21 Jan 2018 Rating: 0.183" } ,
- "THE LEDGER GAZETTE": { name: "THE LEDGER GAZETTE", title: "Date: 21 Jan 2018 Rating: 0.000" } ,
- "TAMMY B TOW": { name: "TAMMY B TOW", title: "Date: 21 Jan 2018 Rating: 0.300" } ,
- "CARRIE HENRY": { name: "CARRIE HENRY", title: "Date: 21 Jan 2018 Rating: 0.183" } ,
- "SAMUEL ROY": { name: "SAMUEL ROY", title: "Date: 21 Jan 2018 Rating: 0.183" } ,
- "MICHA VINOGRADOV": { name: "MICHA VINOGRADOV", title: "Date: 21 Jan 2018 Rating: 0.183" } ,
- "ROBYN POPE": { name: "ROBYN POPE", title: "Date: 21 Jan 2018 Rating: 0.183" } ,
- "IAIN BROWN PHD": { name: "IAIN BROWN PHD", title: "Date: 21 Jan 2018 Rating: 0.183" } ,
- "TRADES&SERVICES BBX": { name: "TRADES&SERVICES BBX", title: "Date: 21 Jan 2018 Rating: -0.190" } ,
- "CREDO WEALTH": { name: "CREDO WEALTH", title: "Date: 21 Jan 2018 Rating: 0.000" } ,
- "WILLIAM HENRY MORGAN": { name: "WILLIAM HENRY MORGAN", title: "Date: 20 Jan 2018 Rating: 0.032" } ,
- "WILLIAM HENRY MORGAN": { name: "WILLIAM HENRY MORGAN", title: "Date: 20 Jan 2018 Rating: 0.048" } ,
- "WILLIAM HENRY MORGAN": { name: "WILLIAM HENRY MORGAN", title: "Date: 20 Jan 2018 Rating: -0.036" } ,
- "WILLIAM HENRY MORGAN": { name: "WILLIAM HENRY MORGAN", title: "Date: 20 Jan 2018 Rating: 0.089" } ,
- "MOHAMED KABABJI": { name: "MOHAMED KABABJI", title: "Date: 20 Jan 2018 Rating: 0.000" } ,
- "WILLIAM HENRY MORGAN": { name: "WILLIAM HENRY MORGAN", title: "Date: 20 Jan 2018 Rating: 0.136" } ,
- "CYBER COOLEE": { name: "CYBER COOLEE", title: "Date: 20 Jan 2018 Rating: 0.000" } ,
- "REDMARLIN": { name: "REDMARLIN", title: "Date: 20 Jan 2018 Rating: 0.000" } ,
- "POLITICAL HEDGE": { name: "POLITICAL HEDGE", title: "Date: 20 Jan 2018 Rating: -0.167" } ,
- "GLOBAL BIZ MARKETING": { name: "GLOBAL BIZ MARKETING", title: "Date: 20 Jan 2018 Rating: -0.190" } ,
- "JWSOAT BOT": { name: "JWSOAT BOT", title: "Date: 20 Jan 2018 Rating: 0.000" } ,
- "WEEK HERALD": { name: "WEEK HERALD", title: "Date: 20 Jan 2018 Rating: 0.000" } ,
- "MARKETBEAT": { name: "MARKETBEAT", title: "Date: 20 Jan 2018 Rating: 0.000" } ,
- "WOMENS LEGAL SERVICE": { name: "WOMENS LEGAL SERVICE", title: "Date: 20 Jan 2018 Rating: 0.000" } ,
- "SHARECONOMY": { name: "SHARECONOMY", title: "Date: 20 Jan 2018 Rating: -0.190" } ,
- "JOSE CUEVAS": { name: "JOSE CUEVAS", title: "Date: 19 Jan 2018 Rating: 0.000" } ,
- "ARGENTINA PROJECT": { name: "ARGENTINA PROJECT", title: "Date: 19 Jan 2018 Rating: 0.000" } ,
- "ADAM DAVEY CEO": { name: "ADAM DAVEY CEO", title: "Date: 19 Jan 2018 Rating: 0.000" } ,
- "JIM REGITZ": { name: "JIM REGITZ", title: "Date: 19 Jan 2018 Rating: 0.000" } ,
- "UNIVERSITY WATCH": { name: "UNIVERSITY WATCH", title: "Date: 19 Jan 2018 Rating: -0.062" } ,
- "MI INSURANCE": { name: "MI INSURANCE", title: "Date: 19 Jan 2018 Rating: 0.000" } ,
- "BENI ALIIDRUS": { name: "BENI ALIIDRUS", title: "Date: 19 Jan 2018 Rating: 0.000" } ,
- "LUCROR PROPERTY PTY LTD": { name: "LUCROR PROPERTY PTY LTD", title: "Date: 19 Jan 2018 Rating: 0.000" } ,
- "SAKISC": { name: "SAKISC", title: "Date: 19 Jan 2018 Rating: 0.000" } ,
- "POLITICAL HEDGE": { name: "POLITICAL HEDGE", title: "Date: 19 Jan 2018 Rating: 0.400" } ,
- "NAENAE TRIGGA": { name: "NAENAE TRIGGA", title: "Date: 19 Jan 2018 Rating: 0.400" } ,
- "GREGORYMCMAHON": { name: "GREGORYMCMAHON", title: "Date: 19 Jan 2018 Rating: 0.400" } ,
- "POLITICAL HEDGE": { name: "POLITICAL HEDGE", title: "Date: 19 Jan 2018 Rating: 0.400" } ,
- "NATHAN PARKER": { name: "NATHAN PARKER", title: "Date: 18 Jan 2018 Rating: 0.000" } ,
- "MICHAEL HOLLAND": { name: "MICHAEL HOLLAND", title: "Date: 18 Jan 2018 Rating: 0.183" } ,
- "SAS SOFTWARE": { name: "SAS SOFTWARE", title: "Date: 18 Jan 2018 Rating: 0.183" } ,
- "NFCBANKING": { name: "NFCBANKING", title: "Date: 18 Jan 2018 Rating: 0.000" } ,
- "NIK MARSHALL": { name: "NIK MARSHALL", title: "Date: 18 Jan 2018 Rating: 0.000" } ,
- "MICH": { name: "MICH", title: "Date: 18 Jan 2018 Rating: 0.000" } ,
- "DETAR+PLUS": { name: "DETAR+PLUS", title: "Date: 18 Jan 2018 Rating: 0.136" } ,
- "ANTHONY WELCH": { name: "ANTHONY WELCH", title: "Date: 18 Jan 2018 Rating: 0.000" } ,
- "MELBOURNE NOW": { name: "MELBOURNE NOW", title: "Date: 18 Jan 2018 Rating: 0.000" } ,
- "NINE NEWS QUEENSLAND": { name: "NINE NEWS QUEENSLAND", title: "Date: 18 Jan 2018 Rating: 0.000" } ,
- "NINE NEWS AUSTRALIA": { name: "NINE NEWS AUSTRALIA", title: "Date: 18 Jan 2018 Rating: 0.000" } ,
- "NINE NEWS SYDNEY": { name: "NINE NEWS SYDNEY", title: "Date: 18 Jan 2018 Rating: 0.000" } ,
- "NINE NEWS GOLD COAST": { name: "NINE NEWS GOLD COAST", title: "Date: 18 Jan 2018 Rating: 0.000" } ,
- "NINE NEWS MELBOURNE": { name: "NINE NEWS MELBOURNE", title: "Date: 18 Jan 2018 Rating: 0.000" } ,
- "NEAR FIELD FORUM": { name: "NEAR FIELD FORUM", title: "Date: 18 Jan 2018 Rating: 0.000" } ,
- "ROY T SNARR": { name: "ROY T SNARR", title: "Date: 18 Jan 2018 Rating: 0.000" } ,
- "NFC WORLD": { name: "NFC WORLD", title: "Date: 18 Jan 2018 Rating: 0.000" } ,
- "PASCAL POTY": { name: "PASCAL POTY", title: "Date: 18 Jan 2018 Rating: 0.000" } ,
- "NFC WORLD": { name: "NFC WORLD", title: "Date: 18 Jan 2018 Rating: 0.000" } ,
- "BBX NEW SOUTH WALES": { name: "BBX NEW SOUTH WALES", title: "Date: 18 Jan 2018 Rating: -0.190" } ,
- "LAURA VIDAL": { name: "LAURA VIDAL", title: "Date: 18 Jan 2018 Rating: 0.000" } ,
- "FRANCESC RIVEROLA": { name: "FRANCESC RIVEROLA", title: "Date: 18 Jan 2018 Rating: 0.000" } ,
- "FRANCESC RIVEROLA": { name: "FRANCESC RIVEROLA", title: "Date: 18 Jan 2018 Rating: 0.120" } ,
- "FRANCESC RIVEROLA": { name: "FRANCESC RIVEROLA", title: "Date: 18 Jan 2018 Rating: 0.250" } ,
- "NINE NEWS ADELAIDE": { name: "NINE NEWS ADELAIDE", title: "Date: 18 Jan 2018 Rating: 0.250" } ,
- "POLITICAL HEDGE": { name: "POLITICAL HEDGE", title: "Date: 18 Jan 2018 Rating: 0.400" } ,
- "DAISYKIAMACOW": { name: "DAISYKIAMACOW", title: "Date: 17 Jan 2018 Rating: 0.000" } ,
- "MEGAN MITCHELL": { name: "MEGAN MITCHELL", title: "Date: 17 Jan 2018 Rating: 0.000" } ,
- "ROWLAND MOSBERGEN": { name: "ROWLAND MOSBERGEN", title: "Date: 17 Jan 2018 Rating: -0.017" } ,
- "FINANCED PREMIUMS": { name: "FINANCED PREMIUMS", title: "Date: 17 Jan 2018 Rating: 0.000" } ,
- "JESUS VELAZQUEZ": { name: "JESUS VELAZQUEZ", title: "Date: 17 Jan 2018 Rating: -0.056" } ,
- "JESSICA CLIFFORD": { name: "JESSICA CLIFFORD", title: "Date: 17 Jan 2018 Rating: 0.000" } ,
- "MARK WHALAN": { name: "MARK WHALAN", title: "Date: 17 Jan 2018 Rating: 0.000" } ,
- "97.3 ABC ILLAWARRA": { name: "97.3 ABC ILLAWARRA", title: "Date: 17 Jan 2018 Rating: 0.000" } ,
- "GAVIN COOTE": { name: "GAVIN COOTE", title: "Date: 17 Jan 2018 Rating: 0.000" } ,
- "KEITH ARNOLD": { name: "KEITH ARNOLD", title: "Date: 17 Jan 2018 Rating: 0.106" } ,
- "ATTORNEY THEO FANIS": { name: "ATTORNEY THEO FANIS", title: "Date: 17 Jan 2018 Rating: 0.000" } ,
- "LNPFAILAUS": { name: "LNPFAILAUS", title: "Date: 17 Jan 2018 Rating: 0.080" } ,
- "STINGER": { name: "STINGER", title: "Date: 16 Jan 2018 Rating: 0.100" } ,
- "STINGER": { name: "STINGER", title: "Date: 16 Jan 2018 Rating: 0.375" } ,
- "JUAN ZINO RAMIREZ": { name: "JUAN ZINO RAMIREZ", title: "Date: 16 Jan 2018 Rating: 0.080" } ,
- "POLITICAL HEDGE": { name: "POLITICAL HEDGE", title: "Date: 16 Jan 2018 Rating: 0.000" } ,
- "PENNY FARTHING": { name: "PENNY FARTHING", title: "Date: 16 Jan 2018 Rating: 0.100" } ,
- "PENNY FARTHING": { name: "PENNY FARTHING", title: "Date: 16 Jan 2018 Rating: 0.100" } ,
- "PENNY FARTHING": { name: "PENNY FARTHING", title: "Date: 16 Jan 2018 Rating: 0.375" } ,
- "PENNY FARTHING": { name: "PENNY FARTHING", title: "Date: 16 Jan 2018 Rating: 0.100" } ,
- "PENNY FARTHING": { name: "PENNY FARTHING", title: "Date: 16 Jan 2018 Rating: 0.375" } ,
- "DONALD VAN DEVENTER": { name: "DONALD VAN DEVENTER", title: "Date: 16 Jan 2018 Rating: -0.056" } ,
- "FOREX TROOPER": { name: "FOREX TROOPER", title: "Date: 16 Jan 2018 Rating: 0.000" } ,
- "FOREX TROOPER": { name: "FOREX TROOPER", title: "Date: 16 Jan 2018 Rating: 0.000" } ,
- "KAMAKURA CORPORATION": { name: "KAMAKURA CORPORATION", title: "Date: 16 Jan 2018 Rating: -0.056" } ,
- "ZENAGUI SIDAHMED": { name: "ZENAGUI SIDAHMED", title: "Date: 16 Jan 2018 Rating: 0.183" } ,
- "DON HILARIO CFP": { name: "DON HILARIO CFP", title: "Date: 16 Jan 2018 Rating: 0.000" } ,
- "SCOT L STARK": { name: "SCOT L STARK", title: "Date: 16 Jan 2018 Rating: 0.000" } ,
- "SAS SOFTWARE": { name: "SAS SOFTWARE", title: "Date: 16 Jan 2018 Rating: 0.183" } ,
- "ENRIQUE SALDIVAR": { name: "ENRIQUE SALDIVAR", title: "Date: 16 Jan 2018 Rating: 0.183" } ,
- "4-TRADERS.COM": { name: "4-TRADERS.COM", title: "Date: 16 Jan 2018 Rating: 0.136" } ,
- "GLOBALVISIONTRADERS": { name: "GLOBALVISIONTRADERS", title: "Date: 16 Jan 2018 Rating: -0.056" } ,
- "FOREX TROOPER": { name: "FOREX TROOPER", title: "Date: 16 Jan 2018 Rating: 0.000" } ,
- "MAREE STEWART": { name: "MAREE STEWART", title: "Date: 16 Jan 2018 Rating: 0.375" } ,
- "FAYE ADAMS": { name: "FAYE ADAMS", title: "Date: 16 Jan 2018 Rating: 0.080" } ,
- "FOREX TROOPER": { name: "FOREX TROOPER", title: "Date: 16 Jan 2018 Rating: 0.000" } ,
- "SMARKETING FOR BTOB": { name: "SMARKETING FOR BTOB", title: "Date: 16 Jan 2018 Rating: 0.000" } ,
- "KEITH ARNOLD": { name: "KEITH ARNOLD", title: "Date: 16 Jan 2018 Rating: 0.375" } ,
- "PLANETEARTHADVOCATE": { name: "PLANETEARTHADVOCATE", title: "Date: 16 Jan 2018 Rating: 0.080" } ,
- "ANNA K": { name: "ANNA K", title: "Date: 16 Jan 2018 Rating: 0.375" } ,
- "JOE SHMOE": { name: "JOE SHMOE", title: "Date: 16 Jan 2018 Rating: 0.080" } ,
- "TIARA LUNA": { name: "TIARA LUNA", title: "Date: 16 Jan 2018 Rating: 0.700" } ,
- "MIKEAUBREY": { name: "MIKEAUBREY", title: "Date: 16 Jan 2018 Rating: 0.080" } ,
- "#STOPGREED": { name: "#STOPGREED", title: "Date: 16 Jan 2018 Rating: 0.080" } ,
- "TROOTHMONSTAH": { name: "TROOTHMONSTAH", title: "Date: 16 Jan 2018 Rating: 0.080" } ,
- "KEITH ARNOLD": { name: "KEITH ARNOLD", title: "Date: 16 Jan 2018 Rating: 0.068" } ,
- "KEITH ARNOLD": { name: "KEITH ARNOLD", title: "Date: 16 Jan 2018 Rating: -0.175" } ,
- "EDWIN CHANDLER": { name: "EDWIN CHANDLER", title: "Date: 16 Jan 2018 Rating: 0.100" } ,
- "STEVEN WIBLEN": { name: "STEVEN WIBLEN", title: "Date: 16 Jan 2018 Rating: 0.117" } ,
- "STEVEN WIBLEN": { name: "STEVEN WIBLEN", title: "Date: 16 Jan 2018 Rating: -0.133" } ,
- "JANET OLIVER": { name: "JANET OLIVER", title: "Date: 16 Jan 2018 Rating: 0.100" } ,
- "JANET OLIVER": { name: "JANET OLIVER", title: "Date: 16 Jan 2018 Rating: 0.100" } ,
- "STEVEN STANLEY-JONES": { name: "STEVEN STANLEY-JONES", title: "Date: 16 Jan 2018 Rating: 0.375" } ,
- "JANET OLIVER": { name: "JANET OLIVER", title: "Date: 16 Jan 2018 Rating: 0.136" } ,
- "PAUL EBELING": { name: "PAUL EBELING", title: "Date: 16 Jan 2018 Rating: 0.032" } ,
- "LYNDA FROMHOLD": { name: "LYNDA FROMHOLD", title: "Date: 16 Jan 2018 Rating: 0.100" } ,
- "LYNDA FROMHOLD": { name: "LYNDA FROMHOLD", title: "Date: 16 Jan 2018 Rating: 0.375" } ,
- "STEVEN WIBLEN": { name: "STEVEN WIBLEN", title: "Date: 16 Jan 2018 Rating: 0.000" } ,
- "STEVEN WIBLEN": { name: "STEVEN WIBLEN", title: "Date: 16 Jan 2018 Rating: 0.136" } ,
- "NANCY BALOPOULOS": { name: "NANCY BALOPOULOS", title: "Date: 16 Jan 2018 Rating: 0.000" } ,
- "MADERO": { name: "MADERO", title: "Date: 16 Jan 2018 Rating: 0.209" } ,
- "JANET OLIVER": { name: "JANET OLIVER", title: "Date: 16 Jan 2018 Rating: 0.117" } 
+ "BEST OFFSHORE BROKER": { name: "BEST OFFSHORE BROKER", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
+ "BOB GESSERT": { name: "BOB GESSERT", title: "Date: 26 Jan 2018 Rating: -0.205" } ,
+ "FREDDY": { name: "FREDDY", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
+ "DONALD TRUMP -SATIRE": { name: "DONALD TRUMP -SATIRE", title: "Date: 26 Jan 2018 Rating: 0.027" } ,
+ "MITZI LIVINGSTON": { name: "MITZI LIVINGSTON", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
+ "BG": { name: "BG", title: "Date: 26 Jan 2018 Rating: -0.071" } ,
+ "K.B.": { name: "K.B.", title: "Date: 26 Jan 2018 Rating: -0.400" } ,
+ "ALICE": { name: "ALICE", title: "Date: 26 Jan 2018 Rating: 0.075" } ,
+ "BENBEN": { name: "BENBEN", title: "Date: 26 Jan 2018 Rating: 0.100" } ,
+ "TIM BAK": { name: "TIM BAK", title: "Date: 26 Jan 2018 Rating: -0.417" } ,
+ "COLLEY CIBBER": { name: "COLLEY CIBBER", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
+ "MITCH METZGER": { name: "MITCH METZGER", title: "Date: 26 Jan 2018 Rating: -0.300" } ,
+ "OANDA ALERTS": { name: "OANDA ALERTS", title: "Date: 26 Jan 2018 Rating: 0.136" } ,
+ "ALAN BERK": { name: "ALAN BERK", title: "Date: 26 Jan 2018 Rating: 0.800" } ,
+ "THE PHODOGRAPHER": { name: "THE PHODOGRAPHER", title: "Date: 26 Jan 2018 Rating: 0.612" } ,
+ "DAISY VIVALDI": { name: "DAISY VIVALDI", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
+ "LIVEDAVE": { name: "LIVEDAVE", title: "Date: 26 Jan 2018 Rating: -0.500" } ,
+ "MULBERRY STREET #FBPE": { name: "MULBERRY STREET #FBPE", title: "Date: 26 Jan 2018 Rating: 0.417" } ,
+ "USANATIONALIST4TRUMP": { name: "USANATIONALIST4TRUMP", title: "Date: 26 Jan 2018 Rating: 0.157" } ,
+ "JERRY REINOEHL": { name: "JERRY REINOEHL", title: "Date: 26 Jan 2018 Rating: 0.250" } ,
+ "COACHH2015": { name: "COACHH2015", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
+ "NICK KELSIER": { name: "NICK KELSIER", title: "Date: 26 Jan 2018 Rating: -0.156" } ,
+ "USA-MAGA-BLOCKED": { name: "USA-MAGA-BLOCKED", title: "Date: 26 Jan 2018 Rating: 0.200" } ,
+ "THE CALM SCRIBE": { name: "THE CALM SCRIBE", title: "Date: 26 Jan 2018 Rating: 0.350" } ,
+ "CSM": { name: "CSM", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
+ "KARLA": { name: "KARLA", title: "Date: 26 Jan 2018 Rating: -0.175" } ,
+ "GENE BRYANT": { name: "GENE BRYANT", title: "Date: 26 Jan 2018 Rating: -0.700" } ,
+ "CHRISTOPHER STOKES": { name: "CHRISTOPHER STOKES", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
+ "ZACH COOK": { name: "ZACH COOK", title: "Date: 26 Jan 2018 Rating: 0.217" } ,
+ "KRYSTYNA4450": { name: "KRYSTYNA4450", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
+ "STABLE GENIUS": { name: "STABLE GENIUS", title: "Date: 26 Jan 2018 Rating: 0.083" } ,
+ "SWATTEX1": { name: "SWATTEX1", title: "Date: 26 Jan 2018 Rating: 0.017" } ,
+ "BTYSHEEN": { name: "BTYSHEEN", title: "Date: 26 Jan 2018 Rating: 0.675" } ,
+ "GLOVESAREOFF": { name: "GLOVESAREOFF", title: "Date: 26 Jan 2018 Rating: 0.095" } ,
+ "AMERICAN LOSER": { name: "AMERICAN LOSER", title: "Date: 26 Jan 2018 Rating: 0.047" } ,
+ "LEAH #LOVEMYPLANET": { name: "LEAH #LOVEMYPLANET", title: "Date: 26 Jan 2018 Rating: 0.333" } ,
+ "MERVYN SULLIVAN": { name: "MERVYN SULLIVAN", title: "Date: 26 Jan 2018 Rating: 0.333" } ,
+ "SMITTY": { name: "SMITTY", title: "Date: 26 Jan 2018 Rating: 0.250" } ,
+ "ZA NEWS": { name: "ZA NEWS", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
+ "EMILYSUMIKO": { name: "EMILYSUMIKO", title: "Date: 26 Jan 2018 Rating: -0.042" } ,
+ "WALID MUHAMMAD": { name: "WALID MUHAMMAD", title: "Date: 26 Jan 2018 Rating: 0.113" } ,
+ "DEBORAH DICLEMENTI": { name: "DEBORAH DICLEMENTI", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
+ "ROSSILY COMPRESSED": { name: "ROSSILY COMPRESSED", title: "Date: 26 Jan 2018 Rating: -0.220" } ,
+ "ERICD": { name: "ERICD", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
+ "THE ROSE BUSHES": { name: "THE ROSE BUSHES", title: "Date: 26 Jan 2018 Rating: -0.500" } ,
+ "BORNEO TRADING GROUP": { name: "BORNEO TRADING GROUP", title: "Date: 26 Jan 2018 Rating: 0.200" } ,
+ "SECRET SOCIETY STABLE GENIUS": { name: "SECRET SOCIETY STABLE GENIUS", title: "Date: 26 Jan 2018 Rating: 0.150" } ,
+ "US POLITICS 247": { name: "US POLITICS 247", title: "Date: 26 Jan 2018 Rating: 0.211" } ,
+ "DR ALI BAKEER": { name: "DR ALI BAKEER", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
+ "JEFF M": { name: "JEFF M", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
+ "DONT PUT NAME ON TWI": { name: "DONT PUT NAME ON TWI", title: "Date: 26 Jan 2018 Rating: 0.500" } ,
+ "THE ROSE BUSHES": { name: "THE ROSE BUSHES", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
+ "THELUCY3": { name: "THELUCY3", title: "Date: 26 Jan 2018 Rating: -0.117" } ,
+ "MICHELE SCHIESSER": { name: "MICHELE SCHIESSER", title: "Date: 26 Jan 2018 Rating: 0.700" } ,
+ "GRASS ROOTS": { name: "GRASS ROOTS", title: "Date: 26 Jan 2018 Rating: 0.250" } ,
+ "BILL PRESS": { name: "BILL PRESS", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
+ "SEOUL KOREA DP": { name: "SEOUL KOREA DP", title: "Date: 26 Jan 2018 Rating: 0.083" } ,
+ "DON'BEABABY": { name: "DON'BEABABY", title: "Date: 26 Jan 2018 Rating: 0.250" } ,
+ "IAN PFEIFFER": { name: "IAN PFEIFFER", title: "Date: 26 Jan 2018 Rating: 0.021" } ,
+ "UTNEWS": { name: "UTNEWS", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
+ "BIG FLORIDA": { name: "BIG FLORIDA", title: "Date: 26 Jan 2018 Rating: 0.625" } ,
+ "KIGALI NEWS": { name: "KIGALI NEWS", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
+ "TIMOTHY JOHNSON": { name: "TIMOTHY JOHNSON", title: "Date: 26 Jan 2018 Rating: 0.071" } ,
+ "NEIL FOX": { name: "NEIL FOX", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
+ "HIKING2COLORADO": { name: "HIKING2COLORADO", title: "Date: 26 Jan 2018 Rating: 0.089" } ,
+ "KIGALI NEWS": { name: "KIGALI NEWS", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
+ "ESTEBAN TRUJILLO": { name: "ESTEBAN TRUJILLO", title: "Date: 26 Jan 2018 Rating: 0.350" } ,
+ "THEMALAYSIANINSIGHT": { name: "THEMALAYSIANINSIGHT", title: "Date: 26 Jan 2018 Rating: -0.050" } ,
+ "LANI MICHELLE 2.0": { name: "LANI MICHELLE 2.0", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
+ "THOMAS C EDWARDS 111": { name: "THOMAS C EDWARDS 111", title: "Date: 26 Jan 2018 Rating: -0.050" } ,
+ "DUANE DA`VEIN": { name: "DUANE DA`VEIN", title: "Date: 26 Jan 2018 Rating: -0.500" } ,
+ "#RELEASETHEMEMO #INSURANCEPOLICY #SECRETSOCIETY": { name: "#RELEASETHEMEMO #INSURANCEPOLICY #SECRETSOCIETY", title: "Date: 26 Jan 2018 Rating: 0.133" } ,
+ "KVAN": { name: "KVAN", title: "Date: 26 Jan 2018 Rating: 0.360" } ,
+ "WTVC NEWSCHANNEL 9": { name: "WTVC NEWSCHANNEL 9", title: "Date: 26 Jan 2018 Rating: -0.182" } ,
+ "WKJ": { name: "WKJ", title: "Date: 26 Jan 2018 Rating: 0.150" } ,
+ "AMY HAMILTON": { name: "AMY HAMILTON", title: "Date: 26 Jan 2018 Rating: 0.100" } ,
+ "KELLY GETCHE": { name: "KELLY GETCHE", title: "Date: 26 Jan 2018 Rating: 0.300" } ,
+ "NEVERGIVEUP": { name: "NEVERGIVEUP", title: "Date: 26 Jan 2018 Rating: -0.050" } ,
+ "BLACK HAWK": { name: "BLACK HAWK", title: "Date: 26 Jan 2018 Rating: -0.072" } ,
+ "MARIA": { name: "MARIA", title: "Date: 26 Jan 2018 Rating: 0.375" } ,
+ "CHRIS BOYD": { name: "CHRIS BOYD", title: "Date: 26 Jan 2018 Rating: -0.100" } ,
+ "BLOG OFFICIAL": { name: "BLOG OFFICIAL", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
+ "CATHERINE CHISNALL": { name: "CATHERINE CHISNALL", title: "Date: 26 Jan 2018 Rating: -0.200" } ,
+ "CARLO": { name: "CARLO", title: "Date: 26 Jan 2018 Rating: -0.050" } ,
+ "PATRIOT 24/7": { name: "PATRIOT 24/7", title: "Date: 26 Jan 2018 Rating: 0.357" } ,
+ "SHARE B.C NEWS": { name: "SHARE B.C NEWS", title: "Date: 26 Jan 2018 Rating: 0.068" } ,
+ "ICONNEWS": { name: "ICONNEWS", title: "Date: 26 Jan 2018 Rating: 0.136" } ,
+ "KRQE.COM HEADLINES": { name: "KRQE.COM HEADLINES", title: "Date: 26 Jan 2018 Rating: 0.200" } ,
+ "KAI": { name: "KAI", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
+ "EMPEROR COMMODUS LLC": { name: "EMPEROR COMMODUS LLC", title: "Date: 26 Jan 2018 Rating: 0.200" } ,
+ "THE IRISHMAN": { name: "THE IRISHMAN", title: "Date: 26 Jan 2018 Rating: 0.168" } ,
+ "SCOTT CROSSON": { name: "SCOTT CROSSON", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
+ "KASTA KEYPS": { name: "KASTA KEYPS", title: "Date: 26 Jan 2018 Rating: -0.250" } ,
+ "KAREN DAVIDSON": { name: "KAREN DAVIDSON", title: "Date: 26 Jan 2018 Rating: -0.300" } ,
+ "ANDY SCHMICKLE": { name: "ANDY SCHMICKLE", title: "Date: 26 Jan 2018 Rating: 0.083" } ,
+ "AUGUSTIN KARASANGABO": { name: "AUGUSTIN KARASANGABO", title: "Date: 26 Jan 2018 Rating: 0.500" } ,
+ "MARILYN HOLZ 111": { name: "MARILYN HOLZ 111", title: "Date: 26 Jan 2018 Rating: 0.350" } ,
+ "WESTERN WISC AFL-CIO": { name: "WESTERN WISC AFL-CIO", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
+ "MARSHALL FANT IV": { name: "MARSHALL FANT IV", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
+ "JTOMKA": { name: "JTOMKA", title: "Date: 26 Jan 2018 Rating: 0.000" } 
 
     , "MALCOLM TURNBULL":
     { name: "Malcolm Turnbull"
@@ -397,42 +287,35 @@ function countWords(text) {
   }
 , topics:
   [
-       { name: "National", re: /\b(national)\b/gi, x: 599, y: 454 },
-       { name: "Australia", re: /\b(australia)\b/gi, x: 468, y: 186 },
-       { name: "Rural", re: /\b(rural)\b/gi, x: 185, y: 74 },
-       { name: "Bank", re: /\b(bank)\b/gi, x: 499, y: 590 },
-       { name: "fill", re: /\b(fill)\b/gi, x: 825, y: 818 },
-       { name: "ideally", re: /\b(ideally)\b/gi, x: 437, y: 825 },
-       { name: "suited", re: /\b(suited)\b/gi, x: 332, y: 419 },
-       { name: "save", re: /\b(save)\b/gi, x: 637, y: 381 },
-       { name: "Regional", re: /\b(regional)\b/gi, x: 370, y: 339 },
-       { name: "Banks", re: /\b(banks)\b/gi, x: 456, y: 112 },
-       { name: "branches", re: /\b(branches)\b/gi, x: 46, y: 73 },
-       { name: "central", re: /\b(central)\b/gi, x: 355, y: 105 },
-       { name: "via", re: /\b(via)\b/gi, x: 817, y: 142 },
-       { name: "home", re: /\b(home)\b/gi, x: 744, y: 792 },
-       { name: "great", re: /\b(great)\b/gi, x: 162, y: 376 },
-       { name: "hackathons", re: /\b(hackathons)\b/gi, x: 369, y: 477 },
-       { name: "million", re: /\b(million)\b/gi, x: 486, y: 884 },
-       { name: "refunded", re: /\b(refunded)\b/gi, x: 823, y: 592 },
-       { name: "policies", re: /\b(policies)\b/gi, x: 390, y: 744 },
-       { name: "businesses", re: /\b(businesses)\b/gi, x: 606, y: 39 },
-       { name: "accounts", re: /\b(accounts)\b/gi, x: 452, y: 145 },
-       { name: "Bloomberg", re: /\b(bloomberg)\b/gi, x: 411, y: 197 },
-       { name: "Limited", re: /\b(limited)\b/gi, x: 97, y: 405 },
-       { name: "FX", re: /\b(fx)\b/gi, x: 2, y: 184 },
-       { name: "Strategy", re: /\b(strategy)\b/gi, x: 655, y: 380 },
-       { name: "next", re: /\b(next)\b/gi, x: 127, y: 726 },
-       { name: "find", re: /\b(find)\b/gi, x: 120, y: 561 },
-       { name: "small", re: /\b(small)\b/gi, x: 513, y: 253 },
-       { name: "discusses", re: /\b(discusses)\b/gi, x: 528, y: 393 },
-       { name: "speaks", re: /\b(speaks)\b/gi, x: 623, y: 358 },
-       { name: "idea", re: /\b(idea)\b/gi, x: 195, y: 333 },
-       { name: "dollar", re: /\b(dollar)\b/gi, x: 874, y: 693 },
-       { name: "set", re: /\b(set)\b/gi, x: 89, y: 160 },
-       { name: "Ray", re: /\b(ray)\b/gi, x: 867, y: 638 },
-       { name: "offset", re: /\b(offset)\b/gi, x: 164, y: 870 },
-       { name: "Attrill", re: /\b(attrill)\b/gi, x: 576, y: 888 }
+       { name: "President", re: /\b(president)\b/gi, x: 491, y: 200 },
+       { name: "new", re: /\b(new)\b/gi, x: 76, y: 556 },
+       { name: "fake", re: /\b(fake)\b/gi, x: 84, y: 512 },
+       { name: "Davos", re: /\b(davos)\b/gi, x: 887, y: 543 },
+       { name: "money", re: /\b(money)\b/gi, x: 879, y: 488 },
+       { name: "people", re: /\b(people)\b/gi, x: 640, y: 652 },
+       { name: "MAGA", re: /\b(maga)\b/gi, x: 386, y: 655 },
+       { name: "call", re: /\b(call)\b/gi, x: 584, y: 162 },
+       { name: "Mueller", re: /\b(mueller)\b/gi, x: 802, y: 342 },
+       { name: "deal", re: /\b(deal)\b/gi, x: 152, y: 157 },
+       { name: "want", re: /\b(want)\b/gi, x: 58, y: 509 },
+       { name: "thing", re: /\b(thing)\b/gi, x: 725, y: 834 },
+       { name: "time", re: /\b(time)\b/gi, x: 540, y: 213 },
+       { name: "report", re: /\b(report)\b/gi, x: 592, y: 77 },
+       { name: "ordered", re: /\b(ordered)\b/gi, x: 720, y: 429 },
+       { name: "Watch", re: /\b(watch)\b/gi, x: 77, y: 696 },
+       { name: "America", re: /\b(america)\b/gi, x: 154, y: 577 },
+       { name: "great", re: /\b(great)\b/gi, x: 214, y: 478 },
+       { name: "good", re: /\b(good)\b/gi, x: 799, y: 86 },
+       { name: "going", re: /\b(going)\b/gi, x: 234, y: 817 },
+       { name: "side", re: /\b(side)\b/gi, x: 631, y: 804 },
+       { name: "everyone", re: /\b(everyone)\b/gi, x: 785, y: 761 },
+       { name: "re", re: /\b(re)\b/gi, x: 711, y: 826 },
+       { name: "think", re: /\b(think)\b/gi, x: 739, y: 823 },
+       { name: "racist", re: /\b(racist)\b/gi, x: 98, y: 376 },
+       { name: "give", re: /\b(give)\b/gi, x: 532, y: 288 },
+       { name: "wall", re: /\b(wall)\b/gi, x: 537, y: 296 },
+       { name: "Oh", re: /\b(oh)\b/gi, x: 181, y: 461 },
+       { name: "much", re: /\b(much)\b/gi, x: 188, y: 827 }
   ]
 });
 
