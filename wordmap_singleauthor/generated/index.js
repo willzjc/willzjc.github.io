@@ -5,7 +5,56 @@ var data = {};
     data = party({
         speeches:[
         "AL GREEN: Wordcloud\n"
-            , "RAY ATTRILL: (26 September 2017) FX STRATEGY Thematic The Bond plot thickens China's Bond Connect is an integral platform for an increase in foreign ownership of Chinese debt. In the medium term, the scope for inflows north of US$2.5 trillion into China's debt market should not be discounted. China appears to be well positioned to deepen and broaden its local bond market; alignment of several key success factors will help to realize the potential. Increased demand for CNY as a reserve asset has minimal implications for AUD. The suggestions AUD FX reserves are held in part as a 'China proxy' is misplaced. China's bond connect has kicked off in July 2017 and thus far, there have been encouraging signs. It is currently a pilot scheme connecting HK and China and confined to northbound access for now. While it is not the first and only avenue for foreign investors to invest in China's bond market, it is definitely a more investor friendly channel and likely to be a more efficient framework for China to deepen and broaden its fixed income market in the long run. As the scheme expands beyond current northbound investment in the near future, China will likely see an influx of buyers for its debt as well. Several factors are seen underpinning foreign investors' appetite and these include: Potential inclusion of Chinese bonds into global bond indexes\nIn this report, we focus our estimates on the demand from foreign central banks, which we expect to increase steadily over the medium term. Given the sheer size of China's domestic bond market, the impact on China's financial markets can be very meaningful in the medium term. The total onshore bonds held by foreign institutions stood at RMB841.5bn at the end of July, equivalent to only 1.77 percent of the interbank market, registered at the China Central Depository & Clearing Co., Ltd. (CCDC), but already 8 percent up from RMB778.85bn at the end of 2016. Making further connection, the bulk of these investors are foreign central banks. According to SAFE data, as of end2016, foreign central banks held RMB563.5 billion worth of yuan assets  92 percent in debt securities, with equities and investment funds making up 7.4 percent. Chart 1: Safe CGBs and PBBs account for most of the foreign interest\nTrillion dollar question: How much inflows can be expected? The early success of the HKChina Bond Connect points an encouraging future. In the first month of the launch rd since July 3 , foreign investors bought a net RMB37.8bn worth of Chinese bonds, accounting for more than half of the total foreign investments in the first seven months of this year (RMB62.6bn). However, the focus of interest has been on shortterm papers with tenors less than one year such as commercial papers, usually in the names of super shortterm bills or shortterm bills, and certificates of deposits, according to the Shanghai Clearing House. With this initial information, we estimated the potential bond market inflows based on regional central banks' FX reserves (assuming that they will increase the RMB component in their coffers given that the currency is now a member of the SDR basket), and foreign institutional investors' potential demand. We relied on modelling done by the Asian Development Bank Institute (ADBI). The ADBI found that using only quantitative economic predictors, the projected RMB share could go as high as 12 percent of global reserves. Adding institutional and market measures reduced the predicted share to around 2 percent, which the ADBI felt was 'more realistic'. However, we would note that this was based on 2011 data and published in 2014; since then, China has made huge strides towards an environment that the ADBI recommended. From 5 models that the ADBI had used, we selected one that reasonably represents current conditions, and another one that would be appropriate after full capital liberalization (targeted for 2020). The respective RMB shares projected by these two models are 6.8 percent and 10 percent. In the near term, we could be looking at inflows north of $1 trillion but in the medium term, inflows of more than $2.5 trillion would not be beyond the pale. Prominence in trade and cross border capital flows The Yuan has become increasingly prominent in crossborder capital flows in recent years. It made up 4 percent of global foreign exchange trading last year, and 1.9 percent of global payments in February, according to official data. Growing RMB crossborder flows means that FX reserve managers will need to match that in the distribution of the reserves that they hold. This then in turn generates demand for yield bearing RMB assets. As of March 2015, 62.9 percent of global central bank reserves, or US$3.826 trillion, were in U.S. dollars. Euro reserves, worth US$1.351 trillion, represented 22.2 percent of the total. Japanese Yen took a 3.9 percent share with US$241.2 billion held by central banks, and US$116.2 billion worth of Canadian dollars were held by central banks. Key success factors The Bond Connect scheme eliminates most of the impediments to investing in China's bond market that have in the past been responsible for the low foreign participation. The China InterBank Market (CIBM) was relatively closed to foreign investors prior to 2015. Back then, investing in China's debt market required application for a Qualified Foreign Institutional Investors (QFII) license. Even then, QFIIs were subjected to investment quotas and could only invest in exchange traded bonds. The approval process for participating in\nthe market was lengthy and complex. Furthermore, foreign investors were more interested in A and Hshares trading in China and Hong Kong, due to the large spreads between the two indexes. Low demand for QFII and RQFII products was reflected in the low utilisation rate of the allocated quota for QFIIs and RQFIIs. The total investment quota of QFIIs allotted as of the end of August 2016 was just USD81.5 billion, little more than half the USD150 billion in July 2013. The RMB's fortunes, or misfortunes rather, was another speed bump. The RMB's appreciating trend ended in 2014 and USD/CNY climbed from 6.05 to nearly touch 7.0 in late 2016. In addition, the Chinese financial authorities have shown commitment to the success of this scheme. To facilitate the acclimation to the vagaries of the Bond Connect, the authorities have encouraged state linked entities to issue bonds/bills specifically for Bond Connect. Among others, policy lenders Agricultural Development Bank of China and China Development, held their first ever public tenders simultaneously to both onshore and offshore investors on the launch day of the scheme. The two were followed by a long list of stateowned enterprises such as Huaneng, Guodian, Chalco, China Unicom and Three Gorges, etc. to issue Bond Connect shortterm bills. Lately, the issuer base has been expanded to include local government linked enterprises such as Luzhou Laojian. After the admission of China's Ashares into the MSCI Emerging Markets Index, the conviction for Chinese bonds to be included in several global bond indexes rose perceivably. The bond connect may be a reinforcing factor and in return, the recognition as a global player will make Chinese debt more attractive to foreign investors. While the MSCI Emerging Markets Index is tracked by US$1.6 trillion worth of funds, industry estimates place the three major bond indexes combined in the vicinity of US$4 trillion. These are the JPMorgan's Government Bond Index, Barclays Global Aggregate Index and Citibank's World Government Bond Index. In fact, there has been some notable progress along the line of including China into some bond indexes. In March 2017, Citigroup decided to include onshore Chinese bonds in its three government bond indexes—the Emerging Markets Government Bond Index, the Asian Government Bond Index, and the Asia Pacific Government Bond Index. In addition, Bloomberg has launched two fixed income indexes with RMBdenominated Chinese bonds. Initial estimates were that inflows into these bond indexes once Chinese bonds get included could exceed US$200bn. The bond connect plays an integral part in the RMB internationalisation process. Combined with RMB stability, the availability and accessibility of RMBdenominated assets is the next step forward for the currency to be recognised further as an international currency, after its entry into the IMF SDR basket. Sovereign ratings downgrade unlikely an impediment On 22 September, S&P downgraded China's longterm sovereign rating from AA to A+, bringing it in line with Moody's downgrade in May 2017. By and large, the main concerns were similar to what Moody's had listed. These were namely that loan growth is still continuing at too strong a pace, and that Local Government Financing Vehicle (LGFV) poses a huge worry.\nThe Chinese government disputes this reading, essentially claiming that S&P has glossed over important nuances. The market seems to agree with the government, hardly reacting to the downgrade. One reason for this is that the downgrade merely moves China to the fifth of the 11rung Investment Grade block. We concur with the view that the downgrades will not be a big impediment to the bond connect, nor will it raise funding costs materially as China's bond yields are already the highest among the other A1 graded debt. China's A1/A+ rating is shared with Japan (10Y JGB 0.021 percent), Israel (10Y yield 1.72 percent), Saudi Arabia (10Y USD bond 3.5 percent). Market commentary has turned somewhat more positive recently as the deleveraging efforts have started to look more authentic and the government is appearing to be quite disinclined to bail out borrowers. Foreign investors are unlikely to be spooked by the downgrade since the issues raised have been around for some time and the general opinion is that the government is on the right path, even if proceeding down it rather gingerly. Relevance for Australia The RBA has invested a portion of Australia's foreign exchange reserves in RMB since 2013. The plans revealed then were to invest around 5 percent of its FX reserves in China. The number looked conservative relative to the extent of trade relation between Australia and China then, and probably reflected the hurdle from the lack of capital account liberalisation. However, the bond connect is the game changer and now allows an acceleration of reserve diversification efforts into CNY assets.\n26 September 2017. What is a Bond Connect? The Bond Connect is a scheme that entails mutual market access to China and overseas bond markets, in activities involving trading, custody and settlement. On 3 July 2017, China launched the HKChina Bond Connect Programme and in the initial phase, only allows northbound trading. This marks the fourth bond market programme that enables crossborder trading following the China Interbank Bond Market (CIBM) direct access scheme, the Qualified Foreign Institutional Investor (QFII) and the Renminbi Qualified Foreign Institutional Investor (RQFII) schemes. There is no quota for northbound investment and southbound trading will start at a later date. Eligible investors are mainly institutions, such as banks, insurance companies, brokerages and asset management firms. The establishment of the Bond Connect replaces the previous mode of access whereby foreign investors have to go through lengthy process of opening a QFII account, CNY quotas application and then finding a clearing agent with international settlement capabilities. With the Bond Connect, foreign investors can trade directly in China's bond market through the Hong Kong exchange.\nPerhaps the bigger question – relevant for the AUD – is whether increased demand for CNY and CNY assets by reserve managers could see reduced demand for AUD as a reserve asset? It is often suggested that the AUD may be being held by reserve managers in part as a 'China proxy' given the strong trade links between Australia and China. We've highly sceptical here. The increased use of AUD as a reserve asset since the Global Financial Crisis has been part of a generalised desire to diversify away from the US dollar (and the Euro during the various Eurozone crises since 2011). The fact that holdings of Canadian dollars have risen by as much as for Australian dollars (in both case to just under 2 percent of holdings) and given the more tenuous direct trade links between Canada and China, suggest that the 'China proxy' argument for AUD holdings is largely illusory. As of Q1 2017, reserve managers who divulge their allocations to the IMF hold on average 1.84 percent in AUD and 1.93 percent in CAD (in both cases just more than 0.1 percent higher than a year earlier). There's no evidence here then the AUD enjoys favouritism over CAD, and as such little or no reason to think global reserve managers will materially reduce AUD holdings in conjunction with any diversification towards CNY, beyond any generalised diversification towards CNY and away from other currencies over the medium/longer term."
+            , "HEIKO VOIGTS: Some Macro Economics for dummies (like me How quantitative easing works (it's like printing money but more subtle) https://t.co/kKF9dA0VPu"
+, "JEAN COMTE: Mario Draghi's job today will be to calm the speculative chatter and reassure everybody that the ECB is not going to walk away from quantitative easing just yet https://t.co/SNYcWAyrmm"
+, "NK GAMBOA ROSALES: Stable China Economy and reserve currency goal Weak US dollar policy China economy passing by 2020 https://t.co/2uwcbU9sbF #Innovation"
+, "HALIM ÖZBERRAK: European Central Bank officials are arguing over their next moves in the context of a strong Eurozone economy some officials want to head towards a wind-down of quantitative easing soon others are more cautious https://t.co/8CvzT30hIv via"
+, "SHAIKH ABDUL KABIR: #QE Quantitative Easing ... the introduction of new money into the money supply by a central bank."
+, "MAKKABA CO. LTD.: Yield on 10-year Japanese Govt Bonds edge lower as BOJ shoot theories of early reduction in quantitative easing.. https://t.co/41PHuvXJDW"
+, "MAKKABA CO. LTD.: Yield on 10-year Japanese Govt Bonds edge lower as BOJ shoot theories of early reduction in quantitative easing ##BoJ ##bonds ##central_banks ##fundamental_analysis ##politics ##usdjpy https://t.co/DwEIYaBz0g https://t.co/mu7mHzGzl9"
+, "CAROL CLEGG: #WASPI don't believe anyone who says we can't afford pension equality _Campaign How to waste £445 billion (The Failure of Quantitative Easing https://t.co/RGBpZzTZpw via"
+, "ANTI SOCIAL: How can you analyze this correctly but get every other topic 100 wrong? You didn't criticize: Iraq war Afghanistan war Syria war Yemen war Pakistan Somalia Libya Or the bailout of Wall Street +$4.5 Trillion quantitative easing Or BLM Or Occupy Or No DAPL Or Income Inequality"
+, "ALBERT YEFIMOV: Stable China Economy and reserve currency goal Weak US dollar policy China economy passing by .. https://t.co/8hXEYQQeyb"
+, "PETER PETER: BofE quantitative easing (almost 500bn is part of the national debt It was money created and pumped into the markets it mainly benefitted the 1 who own stocks and shares and the reason why they have ultra-rich have doubled their wealth since 2008 https://t.co/4zbtyGiB80"
+, "LOWELL THE BERNER: How can you analyze this correctly but get every other topic 100 wrong? You didn't criticize: Iraq war Afghanistan war Syria war Yemen war Pakistan Somalia Libya Or the bailout of Wall Street +$4.5 Trillion quantitative easing Or BLM Or Occupy Or No DAPL Or Income Inequality"
+, "ALBERT YEFIMOV: China’s Economy and Currency and US Dollar weakness from end of quantitative easing and Trump .. https://t.co/XXgDVOLFnE"
+, "HOT_COVFEFE ☕️ﻥ🐸: The ONLY reason stocks were holding their own w Obozo in power was because the Fed was printing TONS of money...called Quantitative Easing."
+, "MATHEW CRAWFORD: Or quantitative easing and the rise of bitcoin have weakened the dollar. #BuyBitcoin"
+, "TOP SOULJA™: China’s Economy and Currency and US Dollar weakness from end of quantitative easing and Trump policy https://t.co/zZJe0nkVF6 #iot #fututre https://t.co/1xUF2phE6v"
+, "WENDI SEVCIK: China’s Economy and Currency and US Dollar weakness from end of quantitative easing and Trump policy https://t.co/zZJe0nkVF6 #iot #fututre https://t.co/1xUF2phE6v"
+, "MIRAJISH: China’s Economy and Currency and US Dollar weakness from end of quantitative easing and Trump policy https://t.co/zZJe0nkVF6 #iot #fututre https://t.co/1xUF2phE6v"
+, "JOHN LOCKE: BofE quantitative easing (almost 500bn is part of the national debt It was money created and pumped into the markets it mainly benefitted the 1 who own stocks and shares and the reason why they have ultra-rich have doubled their wealth since 2008 https://t.co/4zbtyGiB80"
+, "DAILY NEWS: 'Why Strong Growth Is a Headache for the European Central Bank by JACK EWING via NYT https://t.co/LJCpJxQjIZ Keywords Quantitative Easing Banking and Financial Institutions https://t.co/NfTabkniGe"
+, "NEXTBIGFUTURE: China's Economy and Currency and US Dollar weakness from end of quantitative easing and Trump policy https://t.co/dpnfJWEl9L"
+, "WENDY JOY: All eyes on the ECB on 25 Jan 2018 #ECB #EUR #EURUSD •The interest rate decision will be announced by ECB and is expected to remain at 0.0% •The focus is on the future of ECB’s rate hike path or the Quantitative Easing (QE program https://t.co/h4TwmnCD6k"
+, "JOHN HOWARD: #WASPI don't believe anyone who says we can't afford pension equality _Campaign How to waste £445 billion (The Failure of Quantitative Easing https://t.co/RGBpZzTZpw via"
+, "ETO MARKETS: All eyes on the ECB on 25 Jan 2018 #ECB #EUR #EURUSD •The interest rate decision will be announced by ECB and is expected to remain at 0.0% •The focus is on the future of ECB’s rate hike path or the Quantitative Easing (QE program https://t.co/h4TwmnCD6k"
+, "JACK EWING: Mario Draghi's job today will be to calm the speculative chatter and reassure everybody that the ECB is not going to walk away from quantitative easing just yet https://t.co/SNYcWAyrmm"
+, "🦋WHY HAS EVERYONE MADE THEIR NAME SO LONG?🦋: Radio 4 talking about the dollar vs the euro and quantitative easing It's too early for this."
+, "YOUNG CORPORATE: Look I have studied economics and you then tell me I need to brush up on monetary theory Friedman postulates that all expansions in the money supply (aka printing money or quantitative easing are necessarily inflationary Thus my original point about inflation"
+, "ALLAN: Tether is doing quantitative easing At least the crypto play version of it Let me explain."
+, "DAVIDC: _sable Has the CBO ever been correct once Answer Nope... Talk to me about Obama's policy of quantitative easing and monetizing debt $12 TRILLION... Don't do the history of now..."
+, "GENTIL ��� PLéRôME: _negi _002 _will _Ro _Geekthulhu The massive financial bubble which started popping w the subprime crisis but was reinflated with hysterical quantitative easing &amp such."
+, "JORGE M: Then if you hate low taxes so much you can donate to the IRS If you love Big Gov and Socialism you can always move to Cuba I mean stop the nonsense already 3 GDP growth in consecutive quarters and inching to 4 without having to print trillions with Quantitative Easing"
+, "GERRY MARTIN: Quantitative Easing Of Solace #MakeAFilmCheaper"
+, "EPSTEIN'S MOTHER 🌶: _Dude Return to your virtual world where quantitative easing was a pro-growth strategy"
+, "MARCHELLA: _IsJohn PMs precious metals QE Quantitative Easing BTFD Buy the fucking dip FRNs federal reserve notes FX Foreign Exchange ZIRP Zero Interest Rate Percentage NIRP Negative Interest Rate Percentage FRB Fractional Reserve Banking Will help when navigating econ twitter"
+, "DAVIDC: 80 billion a month into the market under Quantitative easing The last injection was October 2016 This included several $1Trillion injections over 8 years They have done Zero under Trump and also raised the rate 3 times The market was fake under Obama Hints why -"
+, "FOUNDING DUDE: Interest rates and monetary policy are barely changed over the last 12 months Quantitative easing ended under Obama."
+, "CARL DEVITT: Role on the death of the EU It's bust it's pension scheme is bust it's banks are trillions in bad debt and only surviving by quantitative easing it's not democratic and ruled by unelected trash that answer to nobody but themselves and probably Rothchilds or Soros"
+, "MITCHELL COGERT: I spoke with Vincent Reinhart Chief Economist to preview 's presentation at the upcoming Insurer Investment Forum “#QuantitativeEasing Past Present and Future. Watch here https://t.co/ZPRBzmVto2 https://t.co/P0qpDQtNSi"
+, "VINCENT SLATER ❌: The only Trickle Down Economics is the cheap credit available through monetary policy and quantitative easing This is where quite literally first receivers of new money are able to lend it with all the liquidity in the world with little concern."
+, "SARA #PCPEU #NHSLOVE: There was no problem affording the £435 billion in quantitative easing of financial markets No one says money won't help when they make the rich even richer."
+, "KEVIN TIERNEY: Audit the fed and consider ending it entirely It is already political with currency manipulation and quantitative easing"
+, "BAGCHI: You are wrong That is an awfully written article that conflates quantitative easing with bailouts written by a travel writer citing no facts and with no mention of GS."
+, "DROPTHEBALL: Could the confirm that the UK Treasury will have to cover multi billion pound losses as a result of Gilts held under Quantitative Easing maintain current market values My estimate is £22 billion and counting"
+, "OFFTHETOP: Krugman is the #1 perp of derp Quantitative easing and a 0 prime created the new normal of 1.5 GDP It wasn’t a solution it was a holding pattern to disguise a faulty solution Now that the economy is taking off he can only point fingers at the past https://t.co/SXkUkmxAIS"
+, "TRISH MCGREGOR: #WASPI don't believe anyone who says we can't afford pension equality _Campaign How to waste £445 billion (The Failure of Quantitative Easing https://t.co/RGBpZzTZpw via"
+, "LMS: #WASPI don't believe anyone who says we can't afford pension equality _Campaign How to waste £445 billion (The Failure of Quantitative Easing https://t.co/RGBpZzTZpw via"
+, "ALTON COGERT: I spoke with Vincent Reinhart Chief Economist to preview 's presentation at the upcoming Insurer Investment Forum “#QuantitativeEasing Past Present and Future. Watch here https://t.co/ZPRBzmVto2 https://t.co/P0qpDQtNSi"
+, "CRYPTOVALEUR: Anyone else get the feeling that #cryptocurrency will make quantitative easing look like child’s play? #btc #bitcoin #crypto"
+, "ARUPA TESOLIN: Anyone else get the feeling that #cryptocurrency will make quantitative easing look like child’s play? #btc #bitcoin #crypto"
+, "MIHR THAKAR: In his paper Quantitative Easing Entrance and Exit Strategies Alan S Blinder reasons that Quantitative Easing is mostly looked at as something aberrant https://t.co/xJ3gbQyrGh"
         ]
 
     });
@@ -17,8 +66,302 @@ var data = {};
         },
 
         
-            "OBAMA": {
-                name: "OBAMA",
+            "HEIKO VOIGTS": {
+                name: "Heiko Voigts",
+                title: "NA"
+            },
+    
+
+            "JEAN COMTE": {
+                name: "Jean Comte",
+                title: "NA"
+            },
+    
+
+            "NK GAMBOA ROSALES": {
+                name: "NK Gamboa Rosales",
+                title: "NA"
+            },
+    
+
+            "HALIM ÖZBERRAK": {
+                name: "Halim Özberrak",
+                title: "NA"
+            },
+    
+
+            "SHAIKH ABDUL KABIR": {
+                name: "Shaikh Abdul Kabir",
+                title: "NA"
+            },
+    
+
+            "MAKKABA CO. LTD.": {
+                name: "Makkaba Co. Ltd.",
+                title: "NA"
+            },
+    
+
+            "MAKKABA CO. LTD.": {
+                name: "Makkaba Co. Ltd.",
+                title: "NA"
+            },
+    
+
+            "CAROL CLEGG": {
+                name: "Carol Clegg",
+                title: "NA"
+            },
+    
+
+            "ANTI SOCIAL": {
+                name: "Anti Social",
+                title: "NA"
+            },
+    
+
+            "ALBERT YEFIMOV": {
+                name: "Albert Yefimov",
+                title: "NA"
+            },
+    
+
+            "PETER PETER": {
+                name: "Peter Peter",
+                title: "NA"
+            },
+    
+
+            "LOWELL THE BERNER": {
+                name: "Lowell the Berner",
+                title: "NA"
+            },
+    
+
+            "ALBERT YEFIMOV": {
+                name: "Albert Yefimov",
+                title: "NA"
+            },
+    
+
+            "HOT_COVFEFE ☕️ﻥ🐸": {
+                name: "Hot_COVFEFE ☕️ﻥ🐸",
+                title: "NA"
+            },
+    
+
+            "MATHEW CRAWFORD": {
+                name: "Mathew Crawford",
+                title: "NA"
+            },
+    
+
+            "TOP SOULJA™": {
+                name: "top soulja™",
+                title: "NA"
+            },
+    
+
+            "WENDI SEVCIK": {
+                name: "Wendi Sevcik",
+                title: "NA"
+            },
+    
+
+            "MIRAJISH": {
+                name: "mirajish",
+                title: "NA"
+            },
+    
+
+            "JOHN LOCKE": {
+                name: "John Locke",
+                title: "NA"
+            },
+    
+
+            "DAILY NEWS": {
+                name: "Daily News",
+                title: "NA"
+            },
+    
+
+            "NEXTBIGFUTURE": {
+                name: "nextbigfuture",
+                title: "NA"
+            },
+    
+
+            "WENDY JOY": {
+                name: "Wendy Joy",
+                title: "NA"
+            },
+    
+
+            "JOHN HOWARD": {
+                name: "john howard",
+                title: "NA"
+            },
+    
+
+            "ETO MARKETS": {
+                name: "ETO Markets",
+                title: "NA"
+            },
+    
+
+            "JACK EWING": {
+                name: "Jack Ewing",
+                title: "NA"
+            },
+    
+
+            "🦋WHY HAS EVERYONE MADE THEIR NAME SO LONG?🦋": {
+                name: "🦋Why has everyone made their name so long?🦋",
+                title: "NA"
+            },
+    
+
+            "YOUNG CORPORATE": {
+                name: "Young Corporate",
+                title: "NA"
+            },
+    
+
+            "ALLAN": {
+                name: "Allan",
+                title: "NA"
+            },
+    
+
+            "DAVIDC": {
+                name: "DavidC",
+                title: "NA"
+            },
+    
+
+            "GENTIL ��� PLéRôME": {
+                name: "Gentil ��� Plérôme",
+                title: "NA"
+            },
+    
+
+            "JORGE M": {
+                name: "Jorge M",
+                title: "NA"
+            },
+    
+
+            "GERRY MARTIN": {
+                name: "Gerry Martin",
+                title: "NA"
+            },
+    
+
+            "EPSTEIN'S MOTHER 🌶": {
+                name: "Epstein's Mother 🌶",
+                title: "NA"
+            },
+    
+
+            "MARCHELLA": {
+                name: "Marchella",
+                title: "NA"
+            },
+    
+
+            "DAVIDC": {
+                name: "DavidC",
+                title: "NA"
+            },
+    
+
+            "FOUNDING DUDE": {
+                name: "Founding Dude",
+                title: "NA"
+            },
+    
+
+            "CARL DEVITT": {
+                name: "Carl Devitt",
+                title: "NA"
+            },
+    
+
+            "MITCHELL COGERT": {
+                name: "Mitchell Cogert",
+                title: "NA"
+            },
+    
+
+            "VINCENT SLATER ❌": {
+                name: "Vincent Slater ❌",
+                title: "NA"
+            },
+    
+
+            "SARA #PCPEU #NHSLOVE": {
+                name: "Sara #PCPEU #NHSLove",
+                title: "NA"
+            },
+    
+
+            "KEVIN TIERNEY": {
+                name: "Kevin Tierney",
+                title: "NA"
+            },
+    
+
+            "BAGCHI": {
+                name: "Bagchi",
+                title: "NA"
+            },
+    
+
+            "DROPTHEBALL": {
+                name: "DropTheBall",
+                title: "NA"
+            },
+    
+
+            "OFFTHETOP": {
+                name: "OffTheTop",
+                title: "NA"
+            },
+    
+
+            "TRISH MCGREGOR": {
+                name: "Trish Mcgregor",
+                title: "NA"
+            },
+    
+
+            "LMS": {
+                name: "LMS",
+                title: "NA"
+            },
+    
+
+            "ALTON COGERT": {
+                name: "Alton Cogert",
+                title: "NA"
+            },
+    
+
+            "CRYPTOVALEUR": {
+                name: "Cryptovaleur",
+                title: "NA"
+            },
+    
+
+            "ARUPA TESOLIN": {
+                name: "Arupa Tesolin",
+                title: "NA"
+            },
+    
+
+            "MIHR THAKAR": {
+                name: "Mihr Thakar",
                 title: "NA"
             },
     
@@ -37,100 +380,94 @@ var data = {};
         x: 458,
         y: 316
         }, {
-            name: "China",
-            re: /\b(china)\b/gi,
-            x: 99,
-            y: 297
+            name: "https co",
+            re: /\b(https co)\b/gi,
+            x: 123,
+            y: 73
             
     }, {
-            name: "percent",
-            re: /\b(percent)\b/gi,
-            x: 358,
-            y: 738
+            name: "ECB",
+            re: /\b(ecb)\b/gi,
+            x: 63,
+            y: 737
             
     }, {
-            name: "bond",
-            re: /\b(bond)\b/gi,
-            x: 357,
-            y: 125
+            name: "money",
+            re: /\b(money)\b/gi,
+            x: 269,
+            y: 261
             
     }, {
-            name: "Bond Connect",
-            re: /\b(bond connect)\b/gi,
-            x: 356,
-            y: 370
+            name: "China Economy",
+            re: /\b(china economy)\b/gi,
+            x: 149,
+            y: 122
             
     }, {
-            name: "foreign",
-            re: /\b(foreign)\b/gi,
-            x: 80,
-            y: 763
+            name: "war",
+            re: /\b(war)\b/gi,
+            x: 677,
+            y: 50
+            
+    }, {
+            name: "US Dollar",
+            re: /\b(us dollar)\b/gi,
+            x: 723,
+            y: 397
             
     }, {
             name: "market",
             re: /\b(market)\b/gi,
-            x: 369,
-            y: 413
+            x: 867,
+            y: 410
             
     }, {
-            name: "Government",
-            re: /\b(government)\b/gi,
-            x: 166,
-            y: 659
+            name: "Dollar weakness",
+            re: /\b(dollar weakness)\b/gi,
+            x: 267,
+            y: 213
             
     }, {
-            name: "global",
-            re: /\b(global)\b/gi,
-            x: 719,
-            y: 238
+            name: "Currency US",
+            re: /\b(currency us)\b/gi,
+            x: 769,
+            y: 751
             
     }, {
-            name: "AUD",
-            re: /\b(aud)\b/gi,
-            x: 306,
-            y: 305
+            name: "policy",
+            re: /\b(policy)\b/gi,
+            x: 214,
+            y: 220
             
     }, {
-            name: "RMB",
-            re: /\b(rmb)\b/gi,
-            x: 621,
-            y: 614
+            name: "trillion",
+            re: /\b(trillion)\b/gi,
+            x: 466,
+            y: 776
             
     }, {
-            name: "Chinese",
-            re: /\b(chinese)\b/gi,
-            x: 548,
-            y: 210
+            name: "weakness end",
+            re: /\b(weakness end)\b/gi,
+            x: 215,
+            y: 619
             
     }, {
-            name: "asset",
-            re: /\b(asset)\b/gi,
-            x: 41,
-            y: 58
+            name: "interest rate",
+            re: /\b(interest rate)\b/gi,
+            x: 302,
+            y: 701
             
     }, {
-            name: "bond market",
-            re: /\b(bond market)\b/gi,
-            x: 49,
-            y: 591
+            name: "end quantitative",
+            re: /\b(end quantitative)\b/gi,
+            x: 856,
+            y: 370
             
     }, {
-            name: "Index",
-            re: /\b(index)\b/gi,
-            x: 361,
-            y: 41
-            
-    }, {
-            name: "scheme",
-            re: /\b(scheme)\b/gi,
-            x: 168,
-            y: 697
-            
-    }, {
-            name: "reserve",
-            re: /\b(reserve)\b/gi,
-            x: 181,
-            y: 227
+            name: "Economy Currency",
+            re: /\b(economy currency)\b/gi,
+            x: 782,
+            y: 97
             
 
 //    }, {

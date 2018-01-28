@@ -2,7 +2,8 @@ from wordcloud import WordCloud, STOPWORDS
 import inputtext, operator
 import TweetScan
 import tweepy
-
+import pandas as pd
+from textblob import TextBlob
 global sentimentquery, sentimentcount, previewcount
 
 def main():
@@ -13,21 +14,35 @@ def main():
     query="quantitative easing"
     sentimentcount=40
 
-    for tweet_info in tweepy.Cursor(api.api.search, q=query, lang= 'en', tweet_mode='extended').items(40):
+    messages_matrix = pd.DataFrame(columns=['user','upper_user','message','time','sentiment'])
+
+    for tweet_info in tweepy.Cursor(api.api.search, q=query, lang= 'en', tweet_mode='extended').items(50):
 
         if 'retweeted_status' in dir(tweet_info):
             tweet = tweet_info.retweeted_status.full_text
         else:
             tweet = tweet_info.full_text
-        print tweet
 
+        user = api.clean_tweet(tweet_info.user.name).encode('utf-8').replace('\"','\'')
+        upper_user=user.upper()
+        message=api.clean_tweet(tweet).encode('utf-8').replace('\"','\'')
+        time=tweet_info.created_at
+        sentiment = TextBlob(api.clean_tweet(message))
+
+        messages_matrix.loc[len(messages_matrix)] = [
+            user,
+            upper_user,
+            message,
+            time,
+            sentiment
+        ]
 #########################
+    print messages_matrix
 
-    word_string = inputtext.word_string
+    text = '\n'.join(messages_matrix['message'].replace(':',' '))
 
-    text = word_string
-
-    stopwords = ['to', 'of','the','in','and','for','as','that','is','this','these','by','from','were','we','they','them','my','me','me','your','no','be','will' ]
+    stopwords = ['to', 'of','the','in','and','for','as','that','is','this','these','by','from','were','we','they','them','my','me','me','your','no','be','will'
+                 ,query]
 
     wc=WordCloud()
     words=wc.process_text(text)
@@ -38,9 +53,10 @@ def main():
     f.close()
 
     # replace speeches
-    replacetext=', \"' + word_string.replace("\n","\\n") + '\"'
-    fbuffer=fbuffer.replace('//replacespeech', replacetext)
+    user_and_message= (messages_matrix['upper_user'] + ': ' + messages_matrix['message'])
 
+    replacetext=str('\n'.join([', \"' + x + '\"' for x in user_and_message]))
+    fbuffer=fbuffer.replace('//replacespeech', replacetext)
 
     # replace sorted list
     block="""    }, {
@@ -69,14 +85,14 @@ def main():
                     rand2 = str(randint(1, 888))
 
 
-            t=block.replace('word', word).replace('x999', rand1).replace('y999', str(rand2)).replace('regex',word.lower())
+            t=block.replace('word', word).replace('x999', rand1).replace('y999', str(rand2)).replace('regex',word.lower()).encode("utf-8")
             listwords.append(t)
         if index > 15:
             break
 
     fbuffer=fbuffer.replace('//replacedatatopics','\n'.join(listwords))
 
-    existing_authors=['OBAMA']
+    existing_authors=messages_matrix['user']
     listauthors=[]
 
     #replace authors
