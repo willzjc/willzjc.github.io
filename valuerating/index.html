@@ -81,7 +81,7 @@
 
             var text = '<span class="text" style="color: ' + clr.trim() + ';"> ' + row.sum_rating.toFixed(2)
             // +'  ' + nIcons
-            +  ' </color> </span>';
+            +  ' </span>';
 
             return text + d3.range(nIcons)
               .map(function () { return icon; }).join("");
@@ -107,10 +107,43 @@
           html: function (row) {
             clr = getColorRating(row.price, summary.price_max, summary.price_min);
             value = d3.format("$,")(row.price);
+            var text = '<span class="text" style="color: ' + getColorRating.toString() + ';"> ' + value + ' </span>';
+            return text;
+          }
+        }
+
+        , {
+          head: "Market Price",
+          cl: "market_price",
+          html: function (row) {
+            // clr = getColorRating(row.market_price, summary.price_max, summary.price_min);
+            rrange = (summary['market_price_max'] - summary['market_price_min']);
+            ratio_rating = (row.market_price - summary['market_price_min']) / rrange;
+            clr = color(ratio_rating);
+
+            value = d3.format("$,")(row.market_price);
             var text = '<span class="text" style="color: ' + getColorRating.toString() + ';"> ' + value + '</color> </span>';
             return text;
           }
         }
+
+
+        , {
+          head: "Saving",
+          cl: "price_difference",
+          html: function (row) {
+            ratio_rating = (row.price_difference - summary['price_difference_min']) / (summary['price_difference_max'] - summary['price_difference_min'])
+            clr = color(ratio_rating);
+
+            value = d3.format("$,")(row.price_difference);
+
+            var text = rating_style_prefix + clr.trim() + ';"> ' + value
+              // + ' ' + ratio_rating
+              + '</color> </span>';
+            return text;
+          }
+        }
+
         , {
           head: "Age",
           cl: "age",

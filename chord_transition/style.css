@@ -281,7 +281,8 @@ display: table;
 color: black;
 } */
 
-a.two:click + table {    
+/*noinspection CssInvalidPseudoSelector*/
+a.two:click + table {
   display: table;
   color: black;
 }
@@ -324,7 +325,10 @@ body {
 
 }
 .table_placeholder table{
-  margin=1px;
+  margin-top: 1px;
+  margin-right: 1px;
+  margin-left: 1px;
+  margin-bottom: 1px;
 }
 .well {
   padding-top: 0px;
