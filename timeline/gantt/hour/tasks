@@ -1,0 +1,22 @@
+AU Recovery	Database replication, and role conversion to LON	60	Centurylink
+AU Recovery	Database consistency confirmed after replication and conversion (Critical table check query).	5	Will
+AU Recovery	Stopping of NJ platform for StarX, NOVA. Barracuda	25	Will
+AU Recovery	Starting of LON platform for StarX, NOVA. Barracuda	25	Will
+AU Recovery	Middleware establishment to failover to LON (ICC)	5	ICC
+AU Recovery	Pricing engine (Orion) functional	240	Will
+AU Recovery	Middleware communications from Orion to StarX	5	Will
+AU Recovery	Barracuda OMS in London re-enabled to be connected	5	Will
+AU Recovery	Users can seamlessly login to LON (DR) with no changes	5	Will
+AU Recovery	Successful IVP Test trade sent, and with writeback from market risk system (Murex)	15	Will
+AU Recovery	Connectivity from from NAB to SmartTrade via LD4 DR CAVI successful engagement to DR IP	15	Will
+Change IVP tasks (UK)	ATS Link Migration	5	Centurylink
+Change IVP tasks (UK)	StarXchange/Barracuda OMS/ Nova and Orion LO1 IVP	30	Tariq
+Change IVP tasks (UK)	Staging IVP	5	Tariq
+Change IVP tasks (UK)	IVP from different geographical locations	5	Tariq
+Restoration Tasks (UK)	Shutdown StarXchange/OMS/NOVA in LO1	5	Tariq
+Restoration Tasks (UK)	FX support to compare database count against SH’s count before backup	5	Tariq
+Restoration Tasks (UK)	Starting NJ2X TUM	25	Tariq
+Restoration Tasks (UK)	Orion healthcheck	5	Tariq
+Restoration Tasks (UK)	ICC restoration task	5	ICC
+Restoration Tasks (UK)	Startup of StarXchange/OMS/NOVA	5	Tariq
+Restoration Tasks (UK)	IVP test trade in NJ2 – Starx tum connected to bnzsupp_prod and stargate.sg2	5	Tariq
