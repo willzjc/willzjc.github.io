@@ -1,0 +1,2046 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)http://localhost:63342/github/timeline/gantt/hour/index.html -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>DHTMLX Gantt Chart - Hours Scale Demo</title>
+    <meta name="description" content="A JavaScript Gantt chart demo that shows a project timeline within one day.">
+    <meta name="keywords"
+          content="javascript, gantt chart, gantt, charting, library, ajax, ui, project, task, management, visualization, demo, hours scale">
+
+    <script async="" src="./c16_files/analytics.js"></script>
+    <script src="./c16_files/dhtmlxgantt.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="./c16_files/dhtmlxgantt_meadow.css" type="text/css" media="screen" title="no title"
+          charset="utf-8">
+
+    <style type="text/css" media="screen">
+        html, body {
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .gantt_task_progress {
+            text-align: left;
+        }
+
+        .gantt_task_content {
+            padding-left: 30px;
+        }
+
+        .gantt_task_progress span {
+            color: #FFF;
+            position: relative;
+            z-index: 20;
+            padding: 3px;
+            margin-left: 3px;
+            border-radius: 3px;
+        }
+
+        .owner_1 {
+            background: #d4faff;
+            border-color: #64b2bc;
+        }
+
+        .owner_1 .gantt_task_progress {
+            background: #91d1d9;
+        }
+
+        .owner_2, .owner_4 {
+            background: #e8d4ff;
+            border-color: #8b64bc;
+        }
+
+        .owner_2 .gantt_task_progress, .owner_4 .gantt_task_progress {
+            background: #b191d9;
+        }
+
+        .owner_3 {
+            background: #d4dfff;
+            border-color: #647bbc;
+        }
+
+        .owner_3 .gantt_task_progress {
+            background: #91a4d9;
+        }
+    </style>
+    <script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/959416068/?random=1517409917937&amp;cv=8&amp;fst=1517409917937&amp;num=1&amp;guid=ON&amp;u_h=900&amp;u_w=1440&amp;u_ah=827&amp;u_aw=1440&amp;u_cd=24&amp;u_his=2&amp;u_tz=660&amp;u_java=false&amp;u_nplug=5&amp;u_nmime=7&amp;frm=0&amp;url=http%3A%2F%2Flocalhost%3A63342%2Fgithub%2Ftimeline%2Fgantt%2Fhour%2Findex.html&amp;tiba=DHTMLX%20Gantt%20Chart%20-%20Hours%20Scale%20Demo&amp;rfmt=3&amp;fmt=4"></script>
+    <script src="chrome-extension://jgghnecdoiloelcogfmgjgcacadpaejf/inject.js"></script>
+</head>
+<body onresize="modSampleHeight()" class="">
+<div class="gantt_cal_light" role="dialog" aria-hidden="true"
+     style="visibility: visible; height: 276px; display: none; top: 213px; left: 442px;"
+     aria-label="27 January 2018 - 27 January 2018 Site Structure">
+    <div class="gantt_cal_ltitle" role="heading" style="cursor: pointer;"><span class="gantt_mark">&nbsp;</span><span
+            class="gantt_time">27 January 2018 - 27 January 2018</span><span class="gantt_title">Site Structure</span>
+    </div>
+    <div class="gantt_cal_larea" style="height: 204px;">
+        <div id="area_1517409917868" class="gantt_cal_lsection"><label for="input_1517409917871">Description</label>
+        </div>
+        <div class="gantt_cal_ltext" style="height:38px;"><textarea id="input_1517409917871"></textarea></div>
+        <div id="area_1517409917869" class="gantt_cal_lsection"><label for="input_1517409917872">Owner</label></div>
+        <div class="gantt_cal_ltext" style="height:22px;"><select style="width:100%;" id="input_1517409917872">
+            <option value="0"></option>
+            <option value="1">Will</option>
+            <option value="2">Tariq</option>
+            <option value="3">Rebecca</option>
+            <option value="4">Alex</option>
+        </select></div>
+        <div id="area_1517409917870" class="gantt_cal_lsection"><label for="input_1517409917873">Time period</label>
+        </div>
+        <div style="height:30px;padding-top:0px;font-size:inherit;" class="gantt_section_time">
+            <div class="gantt_time_selects"><select aria-label="Days" id="input_1517409917873">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select> <select aria-label="Months">
+                <option value="0">January</option>
+                <option value="1">February</option>
+                <option value="2">March</option>
+                <option value="3">April</option>
+                <option value="4">May</option>
+                <option value="5">June</option>
+                <option value="6">July</option>
+                <option value="7">August</option>
+                <option value="8">September</option>
+                <option value="9">October</option>
+                <option value="10">November</option>
+                <option value="11">December</option>
+            </select> <select aria-label="Years">
+                <option value="2013">2013</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+            </select> <select aria-label="HoursMinutes" data-value="960">
+                <option value="0">00:00</option>
+                <option value="60">01:00</option>
+                <option value="120">02:00</option>
+                <option value="180">03:00</option>
+                <option value="240">04:00</option>
+                <option value="300">05:00</option>
+                <option value="360">06:00</option>
+                <option value="420">07:00</option>
+                <option value="480">08:00</option>
+                <option value="540">09:00</option>
+                <option value="600">10:00</option>
+                <option value="660">11:00</option>
+                <option value="720">12:00</option>
+                <option value="780">13:00</option>
+                <option value="840">14:00</option>
+                <option value="900">15:00</option>
+                <option value="960">16:00</option>
+                <option value="1020">17:00</option>
+                <option value="1080">18:00</option>
+                <option value="1140">19:00</option>
+                <option value="1200">20:00</option>
+                <option value="1260">21:00</option>
+                <option value="1320">22:00</option>
+                <option value="1380">23:00</option>
+            </select></div>
+            <div class="gantt_duration"><input type="button" class="gantt_duration_dec" value="âˆ’"><input type="text"
+                                                                                                           value="5"
+                                                                                                           class="gantt_duration_value"
+                                                                                                           aria-label="Duration"
+                                                                                                           aria-valuemin="0"><input
+                    type="button" class="gantt_duration_inc" value="+"> Hours <span>27 January 2018</span></div>
+        </div>
+    </div>
+    <div role="button" aria-label="Save" tabindex="0" class="gantt_btn_set gantt_left_btn_set gantt_save_btn_set">
+        <div dhx_button="1" class="gantt_save_btn"></div>
+        <div>Save</div>
+    </div>
+    <div role="button" aria-label="Cancel" tabindex="0" class="gantt_btn_set gantt_left_btn_set gantt_cancel_btn_set">
+        <div dhx_button="1" class="gantt_cancel_btn"></div>
+        <div>Cancel</div>
+    </div>
+    <div role="button" aria-label="Delete" tabindex="0" class="gantt_btn_set gantt_right_btn_set gantt_delete_btn_set"
+         style="float:right;">
+        <div dhx_button="1" class="gantt_delete_btn"></div>
+        <div>Delete</div>
+    </div>
+</div>
+<!--[if lte IE 7]>
+<style type="text/css">div {
+    display: none;
+}</style>
+<h4 style='text-align:center; font-family:Arial; margin-top:50px;'>Unfortunately dhtmlxGantt 2.0 doesn't support IE6 and
+    IE7 browsers.<br>Please open these demos in different browser or in IE8+.</h3>
+<![endif]-->
+<script>
+    function modSampleHeight() {
+        var headHeight = 100;
+        var sch = document.getElementById("gantt_here");
+        sch.style.height = (parseInt(document.body.offsetHeight) - headHeight) + "px";
+        var contbox = document.getElementById("contbox");
+        contbox.style.width = (parseInt(document.body.offsetWidth) - 300) + "px";
+
+        gantt.setSizes();
+    }
+</script>
+<div style="height:55px;background-color:#000000;border-bottom:5px solid #000000; overflow:hidden;">
+    <!--<a style="float:left;margin:22px 0 0 25px;" href="02_features.html"><img border="0" src="images/btn-left.gif"></a>-->
+    <div id="contbox"
+         style="float: left; margin: 22px 75px 0px; overflow: hidden; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 17px; line-height: normal; font-family: Arial, Helvetica; color: white; width: 1136px;">
+        <!--<div style="border-right:5px solid #2D8EB6;color:#2D8EB6;width:175px;height:50px;float:left;text-align:right;padding-right:25px;">Gantt Chart with Hours Timescale</div>-->
+        <!--<div style="font-size:12px;padding-left:225px;max-width:500px;">This Gantt chart shows project timeline within one day.</div>-->
+        <!--<div style="font-size:12px;padding-left:225px;margin-top:5px;color:#949292;max-width:500px;">Tasks assigned to different employees have different colors.-->
+        <!--You can edit the tasks right on the Gantt chart or use the popup form to change the task details.</div>-->
+        Tasks and timelines
+    </div>
+    <!--<a style="float:right;margin:22px 25px 0 0;" href="04_baselines.html"><img border="0" src="images/btn-right.gif"></a>-->
+</div>
+
+<div id="gantt_here" style="width: 100%; height: 586px;">
+    <div class="gantt_container">
+        <div class="gantt_grid" role="treegrid" aria-multiselectable="false" style="height: 568px; width: 379px;">
+            <div class="gantt_grid_scale" role="row" style="height: 29px; line-height: 28px; width: 379px;">
+                <div class="gantt_grid_head_cell gantt_grid_head_text  " style="width:196px;" role="columnheader"
+                     aria-label="Task name" column_id="text">Task name
+                </div>
+                <div class="gantt_grid_head_cell gantt_grid_head_start_date  " style="width:70px;" role="columnheader"
+                     aria-label="Start time" column_id="start_date">Start time
+                </div>
+                <div class="gantt_grid_head_cell gantt_grid_head_progress  " style="width:70px;" role="columnheader"
+                     aria-label="Owner" column_id="progress">Owner
+                </div>
+                <div class="gantt_grid_head_cell gantt_grid_head_add gantt_last_cell " style="width:43px;" role="button"
+                     aria-label="New task" column_id="add"></div>
+            </div>
+            <div class="gantt_grid_data" role="rowgroup" data-layer="true" style="height: 538px; width: 379px;">
+                <div class="gantt_row" task_id="1" aria-label=" Task: DR Start date: 2018-01-27 End date: 2018-01-27"
+                     aria-selected="false" role="row" aria-level="0" aria-expanded="true"
+                     style="height: 27px; line-height: 27px;">
+                    <div class="gantt_cell" style="width:196px;" role="gridcell" aria-label="DR">
+                        <div class="gantt_tree_icon gantt_close"></div>
+                        <div class="gantt_tree_icon gantt_folder_open"></div>
+                        <div class="gantt_tree_content">DR</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="08:00">
+                        <div class="gantt_tree_content">08:00</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="">
+                        <div class="gantt_tree_content"></div>
+                    </div>
+                    <div class="gantt_cell gantt_last_cell" style="width:43px;" role="gridcell" aria-label="">
+                        <div role="button" aria-label="New task" class="gantt_add"></div>
+                    </div>
+                </div>
+                <div class="gantt_row odd" task_id="1379082074907"
+                     aria-label=" Task: ABC Start date: 2018-01-27 End date: 2018-01-27" aria-selected="false"
+                     role="row" aria-level="1" style="height: 27px; line-height: 27px;">
+                    <div class="gantt_cell" style="width:196px;" role="gridcell" aria-label="ABC">
+                        <div class="gantt_tree_indent"></div>
+                        <div class="gantt_tree_icon gantt_blank"></div>
+                        <div class="gantt_tree_icon gantt_file"></div>
+                        <div class="gantt_tree_content">ABC</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="08:00">
+                        <div class="gantt_tree_content">08:00</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="Will">
+                        <div class="gantt_tree_content">Will</div>
+                    </div>
+                    <div class="gantt_cell gantt_last_cell" style="width:43px;" role="gridcell" aria-label="">
+                        <div role="button" aria-label="New task" class="gantt_add"></div>
+                    </div>
+                </div>
+                <div class="gantt_row gantt_selected" task_id="1379082074911"
+                     aria-label=" Task: Site Structure Start date: 2018-01-27 End date: 2018-01-27" aria-selected="true"
+                     role="row" aria-level="1" style="height: 27px; line-height: 27px;">
+                    <div class="gantt_cell" style="width:196px;" role="gridcell" aria-label="Site Structure">
+                        <div class="gantt_tree_indent"></div>
+                        <div class="gantt_tree_icon gantt_blank"></div>
+                        <div class="gantt_tree_icon gantt_file"></div>
+                        <div class="gantt_tree_content">Site Structure</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="15:00">
+                        <div class="gantt_tree_content">15:00</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="">
+                        <div class="gantt_tree_content"></div>
+                    </div>
+                    <div class="gantt_cell gantt_last_cell" style="width:43px;" role="gridcell" aria-label="">
+                        <div role="button" aria-label="New task" class="gantt_add"></div>
+                    </div>
+                </div>
+                <div class="gantt_row odd" task_id="1379082074912"
+                     aria-label=" Task: Visual Design Start date: 2018-01-27 End date: 2018-01-27" aria-selected="false"
+                     role="row" aria-level="1" style="height: 27px; line-height: 27px;">
+                    <div class="gantt_cell" style="width:196px;" role="gridcell" aria-label="Visual Design">
+                        <div class="gantt_tree_indent"></div>
+                        <div class="gantt_tree_icon gantt_blank"></div>
+                        <div class="gantt_tree_icon gantt_file"></div>
+                        <div class="gantt_tree_content">Visual Design</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="12:00">
+                        <div class="gantt_tree_content">12:00</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="Rebecca">
+                        <div class="gantt_tree_content">Rebecca</div>
+                    </div>
+                    <div class="gantt_cell gantt_last_cell" style="width:43px;" role="gridcell" aria-label="">
+                        <div role="button" aria-label="New task" class="gantt_add"></div>
+                    </div>
+                </div>
+                <div class="gantt_row" task_id="1379082074913"
+                     aria-label=" Task: Site development Start date: 2018-01-27 End date: 2018-01-27"
+                     aria-selected="false" role="row" aria-level="1" style="height: 27px; line-height: 27px;">
+                    <div class="gantt_cell" style="width:196px;" role="gridcell" aria-label="Site development">
+                        <div class="gantt_tree_indent"></div>
+                        <div class="gantt_tree_icon gantt_blank"></div>
+                        <div class="gantt_tree_icon gantt_file"></div>
+                        <div class="gantt_tree_content">Site development</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="12:00">
+                        <div class="gantt_tree_content">12:00</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="Tariq">
+                        <div class="gantt_tree_content">Tariq</div>
+                    </div>
+                    <div class="gantt_cell gantt_last_cell" style="width:43px;" role="gridcell" aria-label="">
+                        <div role="button" aria-label="New task" class="gantt_add"></div>
+                    </div>
+                </div>
+                <div class="gantt_row odd" task_id="1379082074914"
+                     aria-label=" Task: Test and Refine Start date: 2018-01-27 End date: 2018-01-27"
+                     aria-selected="false" role="row" aria-level="1" style="height: 27px; line-height: 27px;">
+                    <div class="gantt_cell" style="width:196px;" role="gridcell" aria-label="Test and Refine">
+                        <div class="gantt_tree_indent"></div>
+                        <div class="gantt_tree_icon gantt_blank"></div>
+                        <div class="gantt_tree_icon gantt_file"></div>
+                        <div class="gantt_tree_content">Test and Refine</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="17:00">
+                        <div class="gantt_tree_content">17:00</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="Will">
+                        <div class="gantt_tree_content">Will</div>
+                    </div>
+                    <div class="gantt_cell gantt_last_cell" style="width:43px;" role="gridcell" aria-label="">
+                        <div role="button" aria-label="New task" class="gantt_add"></div>
+                    </div>
+                </div>
+                <div class="gantt_row" task_id="1379082074915"
+                     aria-label=" Task: Launch Start date: 2018-01-27 End date: 2018-01-27" aria-selected="false"
+                     role="row" aria-level="1" style="height: 27px; line-height: 27px;">
+                    <div class="gantt_cell" style="width:196px;" role="gridcell" aria-label="Launch">
+                        <div class="gantt_tree_indent"></div>
+                        <div class="gantt_tree_icon gantt_blank"></div>
+                        <div class="gantt_tree_icon gantt_file"></div>
+                        <div class="gantt_tree_content">Launch</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="21:00">
+                        <div class="gantt_tree_content">21:00</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="Rebecca">
+                        <div class="gantt_tree_content">Rebecca</div>
+                    </div>
+                    <div class="gantt_cell gantt_last_cell" style="width:43px;" role="gridcell" aria-label="">
+                        <div role="button" aria-label="New task" class="gantt_add"></div>
+                    </div>
+                </div>
+                <div class="gantt_row odd" task_id="1379339521965"
+                     aria-label=" Task: Site #2 Start date: 2018-01-27 End date: 2018-01-27" aria-selected="false"
+                     role="row" aria-level="0" aria-expanded="true" style="height: 27px; line-height: 27px;">
+                    <div class="gantt_cell" style="width:196px;" role="gridcell" aria-label="Site #2">
+                        <div class="gantt_tree_icon gantt_close"></div>
+                        <div class="gantt_tree_icon gantt_folder_open"></div>
+                        <div class="gantt_tree_content">Site #2</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="08:00">
+                        <div class="gantt_tree_content">08:00</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="">
+                        <div class="gantt_tree_content"></div>
+                    </div>
+                    <div class="gantt_cell gantt_last_cell" style="width:43px;" role="gridcell" aria-label="">
+                        <div role="button" aria-label="New task" class="gantt_add"></div>
+                    </div>
+                </div>
+                <div class="gantt_row" task_id="1379339521969"
+                     aria-label=" Task: Project Defenition Start date: 2018-01-27 End date: 2018-01-27"
+                     aria-selected="false" role="row" aria-level="1" style="height: 27px; line-height: 27px;">
+                    <div class="gantt_cell" style="width:196px;" role="gridcell" aria-label="Project Defenition">
+                        <div class="gantt_tree_indent"></div>
+                        <div class="gantt_tree_icon gantt_blank"></div>
+                        <div class="gantt_tree_icon gantt_file"></div>
+                        <div class="gantt_tree_content">Project Defenition</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="08:00">
+                        <div class="gantt_tree_content">08:00</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="Tariq">
+                        <div class="gantt_tree_content">Tariq</div>
+                    </div>
+                    <div class="gantt_cell gantt_last_cell" style="width:43px;" role="gridcell" aria-label="">
+                        <div role="button" aria-label="New task" class="gantt_add"></div>
+                    </div>
+                </div>
+                <div class="gantt_row odd" task_id="1379339521970"
+                     aria-label=" Task: Site Structure Start date: 2018-01-27 End date: 2018-01-27"
+                     aria-selected="false" role="row" aria-level="1" style="height: 27px; line-height: 27px;">
+                    <div class="gantt_cell" style="width:196px;" role="gridcell" aria-label="Site Structure">
+                        <div class="gantt_tree_indent"></div>
+                        <div class="gantt_tree_icon gantt_blank"></div>
+                        <div class="gantt_tree_icon gantt_file"></div>
+                        <div class="gantt_tree_content">Site Structure</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="09:00">
+                        <div class="gantt_tree_content">09:00</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="Tariq">
+                        <div class="gantt_tree_content">Tariq</div>
+                    </div>
+                    <div class="gantt_cell gantt_last_cell" style="width:43px;" role="gridcell" aria-label="">
+                        <div role="button" aria-label="New task" class="gantt_add"></div>
+                    </div>
+                </div>
+                <div class="gantt_row" task_id="1379339521971"
+                     aria-label=" Task: Visual Design Start date: 2018-01-27 End date: 2018-01-27" aria-selected="false"
+                     role="row" aria-level="1" style="height: 27px; line-height: 27px;">
+                    <div class="gantt_cell" style="width:196px;" role="gridcell" aria-label="Visual Design">
+                        <div class="gantt_tree_indent"></div>
+                        <div class="gantt_tree_icon gantt_blank"></div>
+                        <div class="gantt_tree_icon gantt_file"></div>
+                        <div class="gantt_tree_content">Visual Design</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="10:00">
+                        <div class="gantt_tree_content">10:00</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="Rebecca">
+                        <div class="gantt_tree_content">Rebecca</div>
+                    </div>
+                    <div class="gantt_cell gantt_last_cell" style="width:43px;" role="gridcell" aria-label="">
+                        <div role="button" aria-label="New task" class="gantt_add"></div>
+                    </div>
+                </div>
+                <div class="gantt_row odd" task_id="1379339521972"
+                     aria-label=" Task: Site Development Start date: 2018-01-27 End date: 2018-01-27"
+                     aria-selected="false" role="row" aria-level="1" style="height: 27px; line-height: 27px;">
+                    <div class="gantt_cell" style="width:196px;" role="gridcell" aria-label="Site Development">
+                        <div class="gantt_tree_indent"></div>
+                        <div class="gantt_tree_icon gantt_blank"></div>
+                        <div class="gantt_tree_icon gantt_file"></div>
+                        <div class="gantt_tree_content">Site Development</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="10:00">
+                        <div class="gantt_tree_content">10:00</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="Alex">
+                        <div class="gantt_tree_content">Alex</div>
+                    </div>
+                    <div class="gantt_cell gantt_last_cell" style="width:43px;" role="gridcell" aria-label="">
+                        <div role="button" aria-label="New task" class="gantt_add"></div>
+                    </div>
+                </div>
+                <div class="gantt_row" task_id="1379339521973"
+                     aria-label=" Task: Test and Refine Start date: 2018-01-27 End date: 2018-01-27"
+                     aria-selected="false" role="row" aria-level="1" style="height: 27px; line-height: 27px;">
+                    <div class="gantt_cell" style="width:196px;" role="gridcell" aria-label="Test and Refine">
+                        <div class="gantt_tree_indent"></div>
+                        <div class="gantt_tree_icon gantt_blank"></div>
+                        <div class="gantt_tree_icon gantt_file"></div>
+                        <div class="gantt_tree_content">Test and Refine</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="16:00">
+                        <div class="gantt_tree_content">16:00</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="Rebecca">
+                        <div class="gantt_tree_content">Rebecca</div>
+                    </div>
+                    <div class="gantt_cell gantt_last_cell" style="width:43px;" role="gridcell" aria-label="">
+                        <div role="button" aria-label="New task" class="gantt_add"></div>
+                    </div>
+                </div>
+                <div class="gantt_row odd" task_id="1379339521974"
+                     aria-label=" Task: Launch Start date: 2018-01-27 End date: 2018-01-27" aria-selected="false"
+                     role="row" aria-level="1" style="height: 27px; line-height: 27px;">
+                    <div class="gantt_cell" style="width:196px;" role="gridcell" aria-label="Launch">
+                        <div class="gantt_tree_indent"></div>
+                        <div class="gantt_tree_icon gantt_blank"></div>
+                        <div class="gantt_tree_icon gantt_file"></div>
+                        <div class="gantt_tree_content">Launch</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="20:00">
+                        <div class="gantt_tree_content">20:00</div>
+                    </div>
+                    <div class="gantt_cell" style="width:70px;text-align:center;" role="gridcell" aria-label="Will">
+                        <div class="gantt_tree_content">Will</div>
+                    </div>
+                    <div class="gantt_cell gantt_last_cell" style="width:43px;" role="gridcell" aria-label="">
+                        <div role="button" aria-label="New task" class="gantt_add"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gantt_task" style="height: 568px; width: 1054px;">
+            <div class="gantt_task_scale" style="height: 29px; width: 4550px;">
+                <div class="gantt_scale_line" style="height:14px;position:relative;line-height:14px">
+                    <div class="gantt_scale_cell" aria-label="27/01/18"
+                         style="width:1190px;height:14px;position:absolute;left:0px">27/01/18
+                    </div>
+                </div>
+                <div class="gantt_scale_line" style="height:15px;position:relative;line-height:15px">
+                    <div class="gantt_scale_cell" aria-label="07:00"
+                         style="width:70px;height:14px;position:absolute;left:0px">07:00
+                    </div>
+                    <div class="gantt_scale_cell" aria-label="08:00"
+                         style="width:70px;height:14px;position:absolute;left:70px">08:00
+                    </div>
+                    <div class="gantt_scale_cell" aria-label="09:00"
+                         style="width:70px;height:14px;position:absolute;left:140px">09:00
+                    </div>
+                    <div class="gantt_scale_cell" aria-label="10:00"
+                         style="width:70px;height:14px;position:absolute;left:210px">10:00
+                    </div>
+                    <div class="gantt_scale_cell" aria-label="11:00"
+                         style="width:70px;height:14px;position:absolute;left:280px">11:00
+                    </div>
+                    <div class="gantt_scale_cell" aria-label="12:00"
+                         style="width:70px;height:14px;position:absolute;left:350px">12:00
+                    </div>
+                    <div class="gantt_scale_cell" aria-label="13:00"
+                         style="width:70px;height:14px;position:absolute;left:420px">13:00
+                    </div>
+                    <div class="gantt_scale_cell" aria-label="14:00"
+                         style="width:70px;height:14px;position:absolute;left:490px">14:00
+                    </div>
+                    <div class="gantt_scale_cell" aria-label="15:00"
+                         style="width:70px;height:14px;position:absolute;left:560px">15:00
+                    </div>
+                    <div class="gantt_scale_cell" aria-label="16:00"
+                         style="width:70px;height:14px;position:absolute;left:630px">16:00
+                    </div>
+                    <div class="gantt_scale_cell" aria-label="17:00"
+                         style="width:70px;height:14px;position:absolute;left:700px">17:00
+                    </div>
+                    <div class="gantt_scale_cell" aria-label="18:00"
+                         style="width:70px;height:14px;position:absolute;left:770px">18:00
+                    </div>
+                    <div class="gantt_scale_cell" aria-label="19:00"
+                         style="width:70px;height:14px;position:absolute;left:840px">19:00
+                    </div>
+                    <div class="gantt_scale_cell" aria-label="20:00"
+                         style="width:70px;height:14px;position:absolute;left:910px">20:00
+                    </div>
+                    <div class="gantt_scale_cell" aria-label="21:00"
+                         style="width:70px;height:14px;position:absolute;left:980px">21:00
+                    </div>
+                    <div class="gantt_scale_cell" aria-label="22:00"
+                         style="width:70px;height:14px;position:absolute;left:1050px">22:00
+                    </div>
+                </div>
+            </div>
+            <div class="gantt_data_area" style="height: 538px; width: 4550px;">
+                <div class="gantt_task_bg" data-layer="true" style="width: 4550px;">
+                    <div class="gantt_task_row" task_id="1" style="height: 27px;">
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell gantt_last_cell" style="width: 70px;"></div>
+                    </div>
+                    <div class="gantt_task_row odd" task_id="1379082074907" style="height: 27px;">
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell gantt_last_cell" style="width: 70px;"></div>
+                    </div>
+                    <div class="gantt_task_row gantt_selected" task_id="1379082074911" style="height: 27px;">
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell gantt_last_cell" style="width: 70px;"></div>
+                    </div>
+                    <div class="gantt_task_row odd" task_id="1379082074912" style="height: 27px;">
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell gantt_last_cell" style="width: 70px;"></div>
+                    </div>
+                    <div class="gantt_task_row" task_id="1379082074913" style="height: 27px;">
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell gantt_last_cell" style="width: 70px;"></div>
+                    </div>
+                    <div class="gantt_task_row odd" task_id="1379082074914" style="height: 27px;">
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell gantt_last_cell" style="width: 70px;"></div>
+                    </div>
+                    <div class="gantt_task_row" task_id="1379082074915" style="height: 27px;">
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell gantt_last_cell" style="width: 70px;"></div>
+                    </div>
+                    <div class="gantt_task_row odd" task_id="1379339521965" style="height: 27px;">
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell gantt_last_cell" style="width: 70px;"></div>
+                    </div>
+                    <div class="gantt_task_row" task_id="1379339521969" style="height: 27px;">
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell gantt_last_cell" style="width: 70px;"></div>
+                    </div>
+                    <div class="gantt_task_row odd" task_id="1379339521970" style="height: 27px;">
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell gantt_last_cell" style="width: 70px;"></div>
+                    </div>
+                    <div class="gantt_task_row" task_id="1379339521971" style="height: 27px;">
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell gantt_last_cell" style="width: 70px;"></div>
+                    </div>
+                    <div class="gantt_task_row odd" task_id="1379339521972" style="height: 27px;">
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell gantt_last_cell" style="width: 70px;"></div>
+                    </div>
+                    <div class="gantt_task_row" task_id="1379339521973" style="height: 27px;">
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell gantt_last_cell" style="width: 70px;"></div>
+                    </div>
+                    <div class="gantt_task_row odd" task_id="1379339521974" style="height: 27px;">
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell" style="width: 70px;"></div>
+                        <div class="gantt_task_cell gantt_last_cell" style="width: 70px;"></div>
+                    </div>
+                </div>
+                <div class="gantt_links_area" data-layer="true" style="width: 4550px;">
+                    <div class="gantt_task_link" link_id="1517409917874"
+                         aria-label="Link ABC (end) Site Structure (start) ">
+                        <div class="gantt_line_wrapper" style="top: 30.5px; left: 550px; height: 20px; width: 32px;">
+                            <div class="gantt_link_line_right"
+                                 style="height: 2px; width: 14px; margin-top: 9px; margin-left: 9px;"></div>
+                        </div>
+                        <div class="gantt_line_wrapper" style="top: 30.5px; left: 562px; height: 33.5px; width: 20px;">
+                            <div class="gantt_link_line_down"
+                                 style="height: 15.5px; width: 2px; margin-top: 9px; margin-left: 9px;"></div>
+                        </div>
+                        <div class="gantt_line_wrapper" style="top: 44px; left: 538px; height: 20px; width: 44px;">
+                            <div class="gantt_link_line_left"
+                                 style="height: 2px; width: 26px; margin-top: 9px; margin-left: 9px;"></div>
+                        </div>
+                        <div class="gantt_line_wrapper" style="top: 44px; left: 538px; height: 33.5px; width: 20px;">
+                            <div class="gantt_link_line_down"
+                                 style="height: 15.5px; width: 2px; margin-top: 9px; margin-left: 9px;"></div>
+                        </div>
+                        <div class="gantt_line_wrapper" style="top: 57.5px; left: 538px; height: 20px; width: 26px;">
+                            <div class="gantt_link_line_right"
+                                 style="height: 2px; width: 8px; margin-top: 9px; margin-left: 9px;"></div>
+                        </div>
+                        <div class="gantt_link_arrow gantt_link_arrow_right" style="top: 64.5px; left: 554px;"></div>
+                    </div>
+                </div>
+                <div class="gantt_bars_area" data-layer="true" style="width: 4550px;">
+                    <div task_id="1" class="gantt_task_line owner_0 gantt_dependent_task"
+                         aria-label=" Task: DR Start date: 2018-01-27 End date: 2018-01-27" aria-selected="false"
+                         aria-grabbed="false"
+                         style="left: 70px; top: 2px; height: 22px; line-height: 22px; width: 1050px;">
+                        <div class="gantt_task_progress" style="width: 440px;"><span>42% </span></div>
+                        <div class="gantt_task_progress_drag" style="left: 440px;"></div>
+                        <div class="gantt_task_content">DR</div>
+                        <div class="gantt_link_control task_right" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                        <div class="gantt_link_control task_left" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                    </div>
+                    <div task_id="1379082074907" class="gantt_task_line owner_1"
+                         aria-label=" Task: ABC Start date: 2018-01-27 End date: 2018-01-27" aria-selected="false"
+                         aria-grabbed="false"
+                         style="left: 70px; top: 29px; height: 22px; line-height: 22px; width: 490px;">
+                        <div class="gantt_task_progress" style="width: 144px;"><span>30% </span></div>
+                        <div class="gantt_task_progress_drag" style="left: 144px;"></div>
+                        <div class="gantt_task_content">ABC</div>
+                        <div class="gantt_task_drag task_right"></div>
+                        <div class="gantt_task_drag task_left"></div>
+                        <div class="gantt_link_control task_right" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                        <div class="gantt_link_control task_left" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                    </div>
+                    <div task_id="1379082074911" class="gantt_task_line owner_0 gantt_selected"
+                         aria-label=" Task: Site Structure Start date: 2018-01-27 End date: 2018-01-27"
+                         aria-selected="true" aria-grabbed="false"
+                         style="left: 560px; top: 56px; height: 22px; line-height: 22px; width: 280px;">
+                        <div class="gantt_task_progress" style="width: 234px;"><span>84% </span></div>
+                        <div class="gantt_task_progress_drag" style="left: 234px;"></div>
+                        <div class="gantt_task_content">Site Structure</div>
+                        <div class="gantt_task_drag task_right"></div>
+                        <div class="gantt_task_drag task_left"></div>
+                        <div class="gantt_link_control task_right" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                        <div class="gantt_link_control task_left" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                    </div>
+                    <div task_id="1379082074912" class="gantt_task_line owner_3"
+                         aria-label=" Task: Visual Design Start date: 2018-01-27 End date: 2018-01-27"
+                         aria-selected="false" aria-grabbed="false"
+                         style="left: 350px; top: 83px; height: 22px; line-height: 22px; width: 350px;">
+                        <div class="gantt_task_progress" style="width: 209px;"><span>60% </span></div>
+                        <div class="gantt_task_progress_drag" style="left: 209px;"></div>
+                        <div class="gantt_task_content">Visual Design</div>
+                        <div class="gantt_task_drag task_right"></div>
+                        <div class="gantt_task_drag task_left"></div>
+                        <div class="gantt_link_control task_right" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                        <div class="gantt_link_control task_left" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                    </div>
+                    <div task_id="1379082074913" class="gantt_task_line owner_2"
+                         aria-label=" Task: Site development Start date: 2018-01-27 End date: 2018-01-27"
+                         aria-selected="false" aria-grabbed="false"
+                         style="left: 350px; top: 110px; height: 22px; line-height: 22px; width: 490px;">
+                        <div class="gantt_task_progress" style="width: 146px;"><span>30% </span></div>
+                        <div class="gantt_task_progress_drag" style="left: 146px;"></div>
+                        <div class="gantt_task_content">Site development</div>
+                        <div class="gantt_task_drag task_right"></div>
+                        <div class="gantt_task_drag task_left"></div>
+                        <div class="gantt_link_control task_right" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                        <div class="gantt_link_control task_left" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                    </div>
+                    <div task_id="1379082074914" class="gantt_task_line owner_1"
+                         aria-label=" Task: Test and Refine Start date: 2018-01-27 End date: 2018-01-27"
+                         aria-selected="false" aria-grabbed="false"
+                         style="left: 700px; top: 137px; height: 22px; line-height: 22px; width: 280px;">
+                        <div class="gantt_task_progress" style="width: 70px;"><span>25% </span></div>
+                        <div class="gantt_task_progress_drag" style="left: 70px;"></div>
+                        <div class="gantt_task_content">Test and Refine</div>
+                        <div class="gantt_task_drag task_right"></div>
+                        <div class="gantt_task_drag task_left"></div>
+                        <div class="gantt_link_control task_right" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                        <div class="gantt_link_control task_left" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                    </div>
+                    <div task_id="1379082074915" class="gantt_task_line owner_3"
+                         aria-label=" Task: Launch Start date: 2018-01-27 End date: 2018-01-27" aria-selected="false"
+                         aria-grabbed="false"
+                         style="left: 980px; top: 164px; height: 22px; line-height: 22px; width: 140px;">
+                        <div class="gantt_task_progress" style="width: 0px;"><span>0% </span></div>
+                        <div class="gantt_task_progress_drag" style="left: 0px;"></div>
+                        <div class="gantt_task_content">Launch</div>
+                        <div class="gantt_task_drag task_right"></div>
+                        <div class="gantt_task_drag task_left"></div>
+                        <div class="gantt_link_control task_right" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                        <div class="gantt_link_control task_left" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                    </div>
+                    <div task_id="1379339521965" class="gantt_task_line owner_0 gantt_dependent_task"
+                         aria-label=" Task: Site #2 Start date: 2018-01-27 End date: 2018-01-27" aria-selected="false"
+                         aria-grabbed="false"
+                         style="left: 70px; top: 191px; height: 22px; line-height: 22px; width: 980px;">
+                        <div class="gantt_task_progress" style="width: 245px;"><span>25% </span></div>
+                        <div class="gantt_task_progress_drag" style="left: 245px;"></div>
+                        <div class="gantt_task_content">Site #2</div>
+                        <div class="gantt_link_control task_right" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                        <div class="gantt_link_control task_left" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                    </div>
+                    <div task_id="1379339521969" class="gantt_task_line owner_2"
+                         aria-label=" Task: Project Defenition Start date: 2018-01-27 End date: 2018-01-27"
+                         aria-selected="false" aria-grabbed="false"
+                         style="left: 70px; top: 218px; height: 22px; line-height: 22px; width: 210px;">
+                        <div class="gantt_task_progress" style="width: 208px;"><span>100% </span></div>
+                        <div class="gantt_task_progress_drag" style="left: 208px;"></div>
+                        <div class="gantt_task_content">Project Defenition</div>
+                        <div class="gantt_task_drag task_right"></div>
+                        <div class="gantt_task_drag task_left"></div>
+                        <div class="gantt_link_control task_right" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                        <div class="gantt_link_control task_left" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                    </div>
+                    <div task_id="1379339521970" class="gantt_task_line owner_2"
+                         aria-label=" Task: Site Structure Start date: 2018-01-27 End date: 2018-01-27"
+                         aria-selected="false" aria-grabbed="false"
+                         style="left: 140px; top: 245px; height: 22px; line-height: 22px; width: 210px;">
+                        <div class="gantt_task_progress" style="width: 192px;"><span>92% </span></div>
+                        <div class="gantt_task_progress_drag" style="left: 192px;"></div>
+                        <div class="gantt_task_content">Site Structure</div>
+                        <div class="gantt_task_drag task_right"></div>
+                        <div class="gantt_task_drag task_left"></div>
+                        <div class="gantt_link_control task_right" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                        <div class="gantt_link_control task_left" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                    </div>
+                    <div task_id="1379339521971" class="gantt_task_line owner_3"
+                         aria-label=" Task: Visual Design Start date: 2018-01-27 End date: 2018-01-27"
+                         aria-selected="false" aria-grabbed="false"
+                         style="left: 210px; top: 272px; height: 22px; line-height: 22px; width: 140px;">
+                        <div class="gantt_task_progress" style="width: 138px;"><span>100% </span></div>
+                        <div class="gantt_task_progress_drag" style="left: 138px;"></div>
+                        <div class="gantt_task_content">Visual Design</div>
+                        <div class="gantt_task_drag task_right"></div>
+                        <div class="gantt_task_drag task_left"></div>
+                        <div class="gantt_link_control task_right" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                        <div class="gantt_link_control task_left" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                    </div>
+                    <div task_id="1379339521972" class="gantt_task_line owner_4"
+                         aria-label=" Task: Site Development Start date: 2018-01-27 End date: 2018-01-27"
+                         aria-selected="false" aria-grabbed="false"
+                         style="left: 210px; top: 299px; height: 22px; line-height: 22px; width: 490px;">
+                        <div class="gantt_task_progress" style="width: 366px;"><span>75% </span></div>
+                        <div class="gantt_task_progress_drag" style="left: 366px;"></div>
+                        <div class="gantt_task_content">Site Development</div>
+                        <div class="gantt_task_drag task_right"></div>
+                        <div class="gantt_task_drag task_left"></div>
+                        <div class="gantt_link_control task_right" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                        <div class="gantt_link_control task_left" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                    </div>
+                    <div task_id="1379339521973" class="gantt_task_line owner_3"
+                         aria-label=" Task: Test and Refine Start date: 2018-01-27 End date: 2018-01-27"
+                         aria-selected="false" aria-grabbed="false"
+                         style="left: 630px; top: 326px; height: 22px; line-height: 22px; width: 280px;">
+                        <div class="gantt_task_progress" style="width: 139px;"><span>50% </span></div>
+                        <div class="gantt_task_progress_drag" style="left: 139px;"></div>
+                        <div class="gantt_task_content">Test and Refine</div>
+                        <div class="gantt_task_drag task_right"></div>
+                        <div class="gantt_task_drag task_left"></div>
+                        <div class="gantt_link_control task_right" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                        <div class="gantt_link_control task_left" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                    </div>
+                    <div task_id="1379339521974" class="gantt_task_line owner_1"
+                         aria-label=" Task: Launch Start date: 2018-01-27 End date: 2018-01-27" aria-selected="false"
+                         aria-grabbed="false"
+                         style="left: 910px; top: 353px; height: 22px; line-height: 22px; width: 140px;">
+                        <div class="gantt_task_progress" style="width: 0px;"><span>0% </span></div>
+                        <div class="gantt_task_progress_drag" style="left: 0px;"></div>
+                        <div class="gantt_task_content">Launch</div>
+                        <div class="gantt_task_drag task_right"></div>
+                        <div class="gantt_task_drag task_left"></div>
+                        <div class="gantt_link_control task_right" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                        <div class="gantt_link_control task_left" style="height: 22px; line-height: 22px;">
+                            <div class="gantt_link_point"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gantt_ver_scroll" style="display: none; height: 0px; width: 0px;">
+            <div></div>
+        </div>
+        <div class="gantt_hor_scroll" style="display: block; width: 1434px; height: 16px;">
+            <div style="width: 4932px;"></div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+
+    var demo_tasks = {
+        "data": [
+            {text: "Site #1", parent: 0, id: '1', open: true, progress: 0.42},
+            {
+                "text": "Project TEST ABC",
+                "start_date": "27-01-2018 08:00",
+                "duration": 12,
+                "progress": 1,
+                "parent": 1,
+                "id": 1379082074907,
+                "owner": "1"
+            }, {
+                "text": "Site Structure",
+                "start_date": "27-01-2018 10:00",
+                "duration": 4,
+                "progress": 0.8428571428571429,
+                "parent": 1,
+                "id": 1379082074911,
+                // "end_date": "27-01-2018 14:00",
+                // "owner": "1"
+            }, {
+                "text": "Visual Design",
+                "start_date": "27-01-2018 12:00",
+                "duration": 5,
+                "progress": 0.6,
+                "parent": 1,
+                "id": 1379082074912,
+                "end_date": "27-01-2018 17:00",
+                "owner": "3"
+            }, {
+                "text": "Site development",
+                "start_date": "27-01-2018 12:00",
+                "duration": 7,
+                "progress": 0.3,
+                "parent": 1,
+                "id": 1379082074913,
+                "end_date": "27-01-2018 19:00",
+                "owner": "2"
+            }, {
+                "text": "Test and Refine",
+                "start_date": "27-01-2018 17:00",
+                "duration": 4,
+                "progress": 0.25,
+                "parent": 1,
+                "id": 1379082074914,
+                "end_date": "27-01-2018 21:00",
+                "owner": "1"
+            }, {
+                "text": "Launch",
+                "start_date": "27-01-2018 21:00",
+                "duration": 2,
+                "progress": 0,
+                "parent": 1,
+                "id": 1379082074915,
+                "end_date": "27-01-2018 23:00",
+                "owner": "3"
+            },
+            {"text": "Site #2", "progress": 0.25, "parent": 0, "id": 1379339521965, "owner": "0", "open": true},
+            {
+                "text": "Project Defenition",
+                "start_date": "27-01-2018 08:00",
+                "duration": 3,
+                "progress": 1,
+                "parent": "1379339521965",
+                "id": 1379339521969,
+                "end_date": "27-01-2018 11:00",
+                "owner": "2"
+            }, {
+                "text": "Site Structure",
+                "start_date": "27-01-2018 09:00",
+                "duration": 3,
+                "progress": 0.9224806201550387,
+                "parent": "1379339521965",
+                "id": 1379339521970,
+                "end_date": "27-01-2018 12:00",
+                "owner": "2"
+            }, {
+                "text": "Visual Design",
+                "start_date": "27-01-2018 10:00",
+                "duration": 2,
+                "progress": 1,
+                "parent": "1379339521965",
+                "id": 1379339521971,
+                "end_date": "27-01-2018 12:00",
+                "owner": "3"
+            }, {
+                "text": "Site Development",
+                "start_date": "27-01-2018 10:00",
+                "duration": 7,
+                "progress": 0.7491694352159468,
+                "parent": "1379339521965",
+                "id": 1379339521972,
+                "end_date": "27-01-2018 17:00",
+                "owner": "4"
+            }, {
+                "text": "Test and Refine",
+                "start_date": "27-01-2018 16:00",
+                "duration": 4,
+                "progress": 0.5,
+                "parent": "1379339521965",
+                "id": 1379339521973,
+                "end_date": "27-01-2018 20:00",
+                "owner": "3"
+            }, {
+                "text": "Launch",
+                "start_date": "27-01-2018 20:00",
+                "duration": 2,
+                "progress": 0,
+                "parent": "1379339521965",
+                "id": 1379339521974,
+                "end_date": "27-01-2018 22:00",
+                "owner": "1"
+            }
+            , {
+                "text": "site3 subtask2",
+                "progress": 0.25,
+                "parent": 1379339521975,
+                "id": 1379339521977,
+                "owner": "0",
+                "open": true
+            }
+
+
+        ]
+        // ,
+        // "links": [{
+        //     "source": "1379082074907",
+        //     "target": "1379082074911",
+        //     "type": "0",
+        //     "id": 1379082074916
+        // }, {
+        //     "source": "1379082074911",
+        //     "target": "1379082074912",
+        //     "type": "0",
+        //     "id": 1379082074917
+        // }, {
+        //     "source": "1379082074907",
+        //     "target": "1379082074913",
+        //     "type": "0",
+        //     "id": 1379082074918
+        // }, {
+        //     "source": "1379082074912",
+        //     "target": "1379082074913",
+        //     "type": "0",
+        //     "id": 1379082074919
+        // }, {
+        //     "source": "1379082074913",
+        //     "target": "1379082074914",
+        //     "type": "0",
+        //     "id": 1379082074920
+        // }, {
+        //     "source": "1379082074914",
+        //     "target": "1379082074915",
+        //     "type": "0",
+        //     "id": 1379082074921
+        // }, {
+        //     "source": "1379339521972",
+        //     "target": "1379339521973",
+        //     "type": "0",
+        //     "id": 1379339923984
+        // }, {
+        //     "source": "1379339521973",
+        //     "target": "1379339521974",
+        //     "type": "0",
+        //     "id": 1379339923985
+        // }, {
+        //     "source": "1379339521970",
+        //     "target": "1379339521972",
+        //     "type": "0",
+        //     "id": 1379339923987
+        // }, {
+        //     "source": "1379339521969",
+        //     "target": "1379339521970",
+        //     "type": "2",
+        //     "id": 1379339923988
+        // }, {"source": "1379339521971", "target": "1379339521972", "type": "1", "id": 1379339923989}]
+    };
+
+    gantt.config.start_date = new Date(2018, 0, 27, 7, 00);
+    gantt.config.end_date = new Date(2018, 0, 29, 24, 00);
+    gantt.config.date_grid = "%H:%i";
+    gantt.config.scale_unit = "hour";
+    gantt.config.time_step = 60;
+    gantt.config.duration_unit = "hour";
+    gantt.config.date_scale = "%H:%i";
+    gantt.config.details_on_create = true;
+    // gantt.config.label.columns = 'hour';
+
+    gantt.templates.task_class = function (start, end, obj) {
+        return "owner_" + obj.owner;
+    }
+
+    gantt.config.columns = [
+        {name: "text", label: "Task name", width: "*", tree: true},
+        {name: "start_date", label: "Start time", align: "center", width: 70},
+        {
+            name: "progress", label: "Owner", template: function (obj) {
+                return gantt.getLabel("owner", obj.owner);
+            }, align: "center", width: 70
+        },
+        {name: "add", label: "", width: 44}
+    ];
+    gantt.config.grid_width = 380;
+
+    gantt.attachEvent("onTaskCreated", function (obj) {
+        obj.duration = 4;
+        obj.progress = 0.25;
+    })
+
+    gantt.templates.progress_text = function (start, end, task) {
+        return "<span>" + Math.round(task.progress * 100) + "% </span>";
+    };
+
+    gantt.locale.labels["section_owner"] = "Owner";
+    gantt.config.lightbox.sections = [
+        {name: "description", height: 38, map_to: "text", type: "textarea", focus: true},
+        {
+            name: "owner", height: 22, map_to: "owner", type: "select", options: [
+                {key: "0", label: ""},
+                {key: "1", label: "Will"},
+                {key: "2", label: "Tariq"},
+                {key: "3", label: "Rebecca"},
+                {key: "4", label: "Alex"}]
+        },
+        {name: "time", type: "duration", map_to: "auto", time_format: ["%d", "%m", "%Y", "%H:%i"]}
+    ];
+
+    var weekScaleTemplate = function (date) {
+        var dateToStr = gantt.date.date_to_str("%d %M");
+        var endDate = gantt.date.add(gantt.date.add(date, 1, "week"), -1, "day");
+        return dateToStr(date) + " - " + dateToStr(endDate);
+    };
+
+    gantt.config.subscales = [
+        // {unit:"week", step:1, template:weekScaleTemplate}
+        // ,
+        {unit: "day", step: 1, date: "%d/%m/%y"}
+    ];
+
+    gantt.init("gantt_here");
+    modSampleHeight();
+    gantt.parse(demo_tasks);
+</script>
+
+<script type="text/javascript">
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-11031269-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 959416068;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+</script>
+<script type="text/javascript" src="./c16_files/conversion.js"></script>
+<noscript>
+    &lt;div style="display:inline;"&gt;
+    &lt;img height="1" width="1" style="border-style:none;" alt=""
+    src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/959416068/?guid=ON&amp;amp;script=0"/&gt;
+    &lt;/div&gt;
+</noscript>
+</body>
+</html>
