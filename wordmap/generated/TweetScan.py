@@ -135,6 +135,6 @@ def main():
 if __name__ == "__main__":
     # calling main function
     previewcount = 20
-    sentimentquery = 'Splunk'
+    sentimentquery = 'money'
     sentimentcount = 400
     main()

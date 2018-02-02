@@ -84,6 +84,9 @@
     gantt.locale.labels.column_owner = "Owner";
     gantt.locale.labels.section_owner = "Owner";
 
+    gantt.config.scale_unit = "hour";
+    gantt.config.duration_unit = "hour";
+
     gantt.config.lightbox.sections = [
         {name: "description", height: 38, map_to: "text", type: "textarea", focus: true},
         {name: "owner", height: 22, map_to: "assignedTo", type: "select", options: gantt.serverList("users")},

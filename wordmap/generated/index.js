@@ -87,55 +87,144 @@ function countWords(text) {
       [
         "BILL SHORTEN: " +
         "Women and Men of Australia\n",
-, "DONALD TRUMP -SATIRE: McGann also predicted that Trump was too chickensh!t to pick up the phone and make the call himself He was right Ultimately Trump tried to coerce several other staff members to do it All refused And he didn't have the stones to do his own Dirty Work.\n"
-, "ALICE: Because of a crooked electorate which Trump don't deny The Republicans and Trump are nothing but a bunch of lying criminals Blue in 2018 and 2020 At least Obama won both the Electorate and the Popular vote https://t.co/Z6r3j8rIAK\n"
-, "BENBEN: ‘Look at the car wreck! Morning Joe laughs out loud at Sean Hannity’s ‘desperation over Trump-Mueller report https://t.co/KdlvTq7Hru\n"
-, "OANDA ALERTS: #MarketPulse Trump Davos Speech Headlines Lively Session [https://t.co/UMPde5XoU9 https://t.co/M2HFjJEe3a\n"
-, "ALAN BERK: he hasn`t been that great for economy obama set the table f for this so i make some money and i guess i`m part of the 1 per cent THE DAMAGE TRUMP IS DOING MIGHT NOT BE REPAIRABLE\n"
-, "THE PHODOGRAPHER: Good for them The best way to deal with Trump is to Embarrass him during a Live Media covered Event #REBUKETRUMPONAIR\n"
-, "MULBERRY STREET #FBPE: Personally I'm less impressed by Trump claiming he would like to apologise for retweeting views held by a far-right fringe group views which led to the murder of a sitting MP than I would be by him saying he denounced and no longer holds those views himself.\n"
-, "USANATIONALIST4TRUMP: Dems opposing a immigration deal that gives them 1.8 million new voters &amp maybe political control of a state or 2 cus trump asks for some cuts is super chutzpah shows a deal is not wat they want\n"
-, "JERRY REINOEHL: Correct some are This one purchased at the first NC Trump rally in 2015 does not have a source tag That's why we need to MAGA so the hats will be produced here https://t.co/m4mnFXwW3k\n"
-, "USA-MAGA-BLOCKED: He gave them a VERY generous offer and they refused it DACA folks must be livid already protested Schumer DACA expires in March Trump is giving Dems rope to hang themselves They never learn CHILL.\n"
-, "THE CALM SCRIBE: Trump has to do everything better than everyone else Including bringing the doomsday clock closer to midnight Thanks for that.\n"
-, "ZACH COOK: can you explain how trump has anything with the pats or super bowl Your article was complete trash\n"
-, "STABLE GENIUS: 'The classic four stages of #Trump #denial 1 I didn't do it!1 2 I don't remember it!1!1! 3 It wasn't a big deal!1!1! !1!1! 4 Who did YOU vote for?!?!???!1!?ß?\n"
-, "SWATTEX1: Actually no...not everyone got the same treatment as Trump And yes the “progressives have been marching whining and been over the top since he was President-elect that’s not impressive or profound in any form.\n"
-, "BTYSHEEN: Trump:we going 2 build the biggest bestest beautiful wall Mexico is going 2 pay 4 it Trumpers:qYEAH #MAGA WINNING Trump:we going 2 build biggest wall &amp get the money bk from mexico Trumpers yeah MAGA Trump:we going 2 build the wall &amp 4 u2 give me 25 billion Trumpers yeah #maga\n"
-, "GLOVESAREOFF: The abridged Trump Dictionary Fake News Shxt gotta cover this up Believe Me=I’m lying to you Trust Me=I’m still lying Hoax=Oh crap they know about Rusher Witch Hunt damn this guy Mueller is too clean I may not be able to fool him A deal of Love I love myself.\n"
-, "AMERICAN LOSER: He did do it He ordered McGahan to fire Mueller. McGahan refused. It's like hiring someone to kill someone and paying them but they refuse to do it That's still a crime The Trump Crime Family is going down Bigly Not #sad https://t.co/RzV4hLZMoa\n"
-, "LEAH #LOVEMYPLANET: Who said we have a government Constitution suspended under Patriot act Americans are ignorant and we got Trump How lucky can you get https://t.co/bZ9ZrVsIvy\n"
-, "MERVYN SULLIVAN: President Trump should defer any visit to the UK until after the UK has taken back its independence &amp sovereignty from the EU hopefully in March 2019 Only them should the UK be worthy of a visit from THE GREAT MAN!!!!\n"
-, "SMITTY: What's pretty much guaranteeing that Trump will talk with Mueller is everyone telling him not to. 'You're not the boss of me!'\n"
-, "WALID MUHAMMAD: The 2018 ranking taken at the end of the past year gives us insight into whether Trump has truly made America great again The result is most disappointing The U.S has fallen from its No 4 position in 2016 to now being No 8 in the world US News https://t.co/n9dFej8Kqq\n"
-, "BORNEO TRADING GROUP: Watch President Trump speak at the World Economic Forum in Davos https://t.co/39KIeEu5KC\n"
-, "SECRET SOCIETY STABLE GENIUS:  berset Everyone has a look on their face that says 'Wow Trump really is a shithole.'\n"
-, "US POLITICS 247: WATCH Donald Trump Mike Pence Hold Rally in Cleveland OH LIVE Stream Right Side Broadcasting https://t.co/4svnj4irH1\n"
-, "DONT PUT NAME ON TWI: Trump’s First Year Was a Successful War on Obama’s Eight https://t.co/iJxVWjBYAH\n"
-, "MICHELE SCHIESSER: Donald Trump crashes the gasbag party at Davos Washington Times Wesley Pruden He seems to be having a good time https://t.co/1TjYIRIf4h\n"
-, "GRASS ROOTS: Trump ‘Apologises to Piers Morgan for Britain First Retweets https://t.co/EWkblkxTGh https://t.co/CKFfnElhY6\n"
-, "SEOUL KOREA DP: Asian shares recoup losses dollar steady as eyes on Trump CT Post #losses https://t.co/NhaPM3kFgw\n"
-, "DON'BEABABY: More money This lady deserves more money She had sexual relations with trump She deserves a boatload of money. Therapy’s expensive.\n"
-, "IAN PFEIFFER: One side of the media is over the top pro Trump the other suffers from Trump derangement syndrome both sides are regularly having to retract their stories and the entire Media wonders why we their audience thinks they're all full of s***\n"
-, "BIG FLORIDA: The best guys keep up the great work America 1st again under President Trump Thank the good Lord above 🇺🇸\n"
-, "TIMOTHY JOHNSON: Paul Ryan and no other republican wants to stand up against trump as long as they get what they want.\n"
-, "HIKING2COLORADO: Guggenheim Museum insults Trump family with offer of golden toilet for White House https://t.co/3IOWOKcS26 #FoxNews ��� 😂\n"
-, "ESTEBAN TRUJILLO: Brother Patrick J Buchanan outlines the true crime of President Trump obstruction of injustice The cabal atop.. https://t.co/ufVxZXcKBe\n"
-, "#RELEASETHEMEMO #INSURANCEPOLICY #SECRETSOCIETY: Trump's son in law is Jewish his daughter converted he is a personal friend of the PM of Israel and strong support for Israel has been a pillar of his foriegn policy so far Try again 'Muh Racist, or 'Muh anti Semite doesn't work without facts anymore\n"
-, "KVAN:  Sevigny Whoa you with your whole 198 you’re so popular ��� get a life Trump is 20 steps ahead of you Demokkkrats ❄ libtards Just sit back and watch the show but make sure you have safe spaces.\n"
-, "WKJ: Wap Kon Jorge News:https://t.co/xADQnHNgrd President Trump’s presence in Davos Switzerland is notable for several reasons starting with his values which are clearly at odds with the forum’s majority https://t.co/PsZFM9hYNf https://t.co/Y50c2jxQOT\n"
-, "AMY HAMILTON: Trump administration wants to end NASA funding for the International Space Station by 2025 https://t.co/JVCsGsPfNT via https://t.co/9tV8CFVVpK\n"
-, "KELLY GETCHE: ��� The America First president comes to Davos Read Trump's full exclusive interview with CNBC CNBC https://t.co/VyYrUicvkf\n"
-, "MARIA: Trump is not a spoiled rich kid?\n"
-, "PATRIOT 24/7: 🦅President Trump says a report that he ordered special counsel Robert Mueller fired in June 2017 is #FakeNews‼ https://t.co/aj9JInUU1I\n"
-, "SHARE B.C NEWS: Trump Ordered Mueller Fired but Backed Off When White House Counsel Threatened to Quit New York Times https://t.co/FvbYUNMgJp\n"
-, "ICONNEWS: Check out my new blog post https://t.co/9Bffie1KeQ\n"
-, "KRQE.COM HEADLINES: Here’s what Trump wants in an immigration bill https://t.co/7A19qI6A0D\n"
-, "EMPEROR COMMODUS LLC: Watch President Trump speak at the World Economic Forum in Davos https://t.co/3IXHcukSbr\n"
-, "THE IRISHMAN: via Trump speaks in Davos addresses the World Economic Forum - live blog https://t.co/dPVKWmZpE4 #tcot https://t.co/Dkb7US54CO\n"
-, "ANDY SCHMICKLE: Your publicly stated position appears to be forcing a racist poison pill aimed to please white nationalists in order to restore something that existed when Trump took office That's not fake news That's just reprehensible.\n"
-, "AUGUSTIN KARASANGABO: The Latest Trump calls Rwandan President Kagame a 'friend https://t.co/x1IZyJlke6 #FoxNews\n"
-, "MARILYN HOLZ 111: As my late husband Art used to say in his best W Virginia drawl ... YEEHAW! ~~ O’Donnell said “It says.. https://t.co/5HKOLld5U6\n"
+          , "ESMARTME: Slovenia tourism is booming but is it really because of Melania Trump https://t.co/Gc2y29PgpJ\n"
+          , "MY DOG JIM: That's classic Trump Always raining on his or someone else's parade He's so starved for attention he shoots himself in the foot several times a day No wonder he was able 2 dodge serving in Vietnam He continues to give himself self inflicted wounds every day.\n"
+          , "JADU MANTAR:  trump 😂😂� Hinduism is false kids but the following is true: Earth built in 5 days Light appears when asked for Virgins give birth Dead people can rise Water wine ISIS and evangelists opposite sides of the same braindead coin\n"
+          , "U FOUND WALDO!!!: More $$ in my paycheck this week no thanks to the two of you THANK YOU PRESIDENT TRUMP!! #MAGA 🇺🇸\n"
+          , "KATJA BEGO: If the intelligence agencies win it’s the end of Trump If they don’t it’s the beginning of something much scarier One of those hinge points in history I suppose.\n"
+          , "BLOCKER BOT: Trump protestors 'laughed at police'\n"
+          , "ERR:  Trump Train Your values seem to be all over the place Please try to have a consistent thought train for one day.\n"
+          , "DYSLEXIC_SNOWFLAKE: There must not be a single honest person in the Trump admin Ben Carson calls for independent review after report of son's involvement HUD listening tour https://t.co/4tZ8uj4Bvw via\n"
+          , "JUDITHEFISHER: More &amp more libs think Dems r inadequate leaders CBS &amp CNN SOTU polls showed over 70 of viewrs liked Trump Wait til this time next yr!� https://t.co/2DluklWYat\n"
+          , "MIKE: Tomorrow is the day of reckoning Tomorrow is the day that Barack Obama will be shown to be the most power hungry &amp corrupt President in American history. In a few hours my friends the WH will release the memo proving Obama weaponized the DOJ to topple Donald Trump. Enjoy.\n"
+          , "TRUMP HOTELS JOBS: This #job might be a great fit for you Pastry Cook I https://t.co/UiLgWDML2l #Hospitality #Miami FL #Hiring\n"
+          , "OCCUPY CALGARY (YYC): THE MANY WAYS TRUMP MAKES AMERICA WEAKER AND MORE DANGEROUS Fox and the rest of the president’s supporting.. https://t.co/zCzuq1KuGL\n"
+          , "TRUMP: I love Trump #MAGA\n"
+          , "JURK: ‘Never any hesitation’ Trump was quickly persuaded to support memo’s release https://t.co/eqULqSq3qO Go for it Trump and prove yourself guilt One year and not any smarter\n"
+          , "STEPHENLESLIEJONES: Americans need to realize that they are on their own on this one-not quite I admit Guatemala has nicely sided with them in defiance of democratic principles the other 195 odd countries are of course at fault according to Trump.\n"
+          , "PAUL VAN DER MEER: But isn't that exactly what Trump wants??\n"
+          , "SCHR DINGER'S KAT: The100 &amp Cancellation that would be the best romance Anything beyond that I just hope it doesn't involve Belamy NO ONE deserves to be involved w/such a genocidal xenophobic morally bankrupt guilt-tripping abusive mass murderer like him Get the women away from mini Trump https://t.co/pTSLKegKdz\n"
+          , "SHIRLEY MOORE: Not difficult if you weren't snowed under in the beginning Just more horse manure Trump's believers kept hoping for clarity Now that they know this is all there is the Bigly coverup is all that's left https://t.co/MKgD684fH6\n"
+          , "YVONNE NAIRN: 1 had the audacity to visit West Virginia and diss Rep John Manchin(D for not supporting Trump’s Tax Scam conveniently forgets GOP stripped WV of its Healthcare $ even after Manchin has supported many GOP initiatives in the past If THAT is how intends to .....\n"
+          , "JJ:  2017 If there was/is corruption at top level of FBI it's important that we find out Not the first law enforcement agency in the world to have issues If Hillary/DNC paid for the Russian discredited dossier that was used to allow spying on Trump that led to Mueller probe big problem!\n"
+          , "JANET E DEGEORGE: I was a fan Now you are just another bully with all the power to attack a guest who was blindsided Power really does corrupt absolutely Haley doesn't need you to fight her fight but you loved playing the bully How does it feel just like Trump?\n"
+          , "DOUG: You really are well informed This is Sky Part of Fox As close to the truth as Disney As truthful as Trump https://t.co/opfaydA3hm\n"
+          , "JORDIVK AKA YURIBCN: How much does each region in #Spain contribute to the Treasury Understand why they are doing everything to prevent even the slightest opportunity for #indyref and hamstring the pro-#independence movement in #Catalonia Can we let money trump #democracy? (million € https://t.co/cJBIZDqdJ3\n"
+          , "MY INFO MY NAME IS L: Trump and Ryan should be Removed from office Ryan is a pompous windbag who won by Gerrymandering not because he's the better candidate Ryan should be writing Articles of Impeachment against Trump he's on Team Trump.\n"
+          , "ALLEN WEST REPUBLIC: North Korean Defector Honored By Trump Reveals What Struck Him Most About Life On The Outside of the Oppressive.. https://t.co/jHte4556J4\n"
+          , "CHRISTOPHER STOKES: Former AG Edwin Meese AG Sessions Doing Great Job for Trump https://t.co/QBtTQgVb2d #breitbartnews\n"
+          , "CHRISTOPHER STOKES: Report Special Counsel Zeroing in on Trump Response to Trump Tower Meeting https://t.co/iDHZ4L4HhZ #breitbartnews\n"
+          , "ABEL: I liked a video https://t.co/d2YhMPk5TA Jimmy Kimmel Monologue 2/01/2018 Trump's VS FBI Tweet's NFL\n"
+          , "KELLY LYNNE: The only explanation as to why so many GOP Career Politicians are going to such transparent lengths to cover for Trump is if they are also trying to cover for themselves If Trump goes down they still have Pence to push their far right agenda So why? 🤔🤔🤔\n"
+          , "SUSAN: No one who's been the victim of a personal relationship (parent partner supervisor w/a #narcissist will be surprised by ANYTHING #Trump does The rest of you PLEASE read this description of the person holding US hostage 'How Narcissists Really Think https://t.co/sjYYY2lyiR\n"
+          , "DOC PARKER: Trump's legal advisor https://t.co/IqcRu85L8y\n"
+          , "LIGHTNDARKNESS: Trump’s #InfrastructureScam is more of the same a $800 billion giveaway to the rich and powerful at the expense of Black Latinx and low-income communities Tell your Member of Congress Support #MillonsOfJobs and reject Trump’s #InfrastructureScam https://t.co/joJ2a3UV0r\n"
+          , "CANTU S: Did this woman go to school Not to bright and was in Russia I think all of appointees of trump and the should be investigated with dealings of Russia.\n"
+          , "AMZSHOPONLINE: Funny Trump Won Suck It Up Buttercup Long Sleeve T-shirt Buy here: https://t.co/PLQefE9nNm https://t.co/VILZ22lgqr\n"
+          , "DEEPFRIED RICE BALLS: 2 steps Want to be President I don't propose a crossword cruise I have a personal interest You need to hire a good campaign manager before Trump or Sanders leave them round faced One who owns an airplane I am here trying hard not to fall into making origamies.\n"
+          , "LARRY GIBSON: No no Fake News It was the Biglest watched SOTU Address ever Trump never lies.\n"
+          , "AMR: So they are even willing to start a war to obfuscate from the Russia investigation trump is a mobster not a King.\n"
+          , "JULIAN ARMSTRONG: Just remember impeach Trump and this is what you might very well get instead... https://t.co/0M1P1seWdc\n"
+          , "JENNIE BLOOM: Billionaire Trump donor and climate disinformation funder Rebekah Mercer has no place at the American Museum of Natural History Sign to tell to drop her https://t.co/w6TdWEe8wI via #StandUpforScience\n"
+          , "WAYITIS!: Who are the dummies that voted this dummy in the office?Lol now I know what Trump means by drain the swamp Lol Maxine you're an embarrassment to the state of California thank God you have nothing to do with the rest of the country!\n"
+          , "BUSTER DELGATO: Could be she's incapable of coming clean People who hang around Trump have a tendency to believe their own bullshit Just look at Kellyanne Conway.\n"
+          , "#IDGAFF \_( )_/: Trump just needs to go learn the National Anthem.. first Conquer that...\n"
+          , "CHAZ: Hey Brenda your support of President Trump a self proclaimed sexual predator must make your family very proud...WWJD\n"
+          , "KAREN CHESTNEY: After Trump claims to love Puerto Rico San Juan mayor unapologetically calls him a hypocrite https://t.co/mpLd1yPOSy\n"
+          , "LIBERAL&PROUD1963:  Trump Wow Just wow You expect cooperation when all you do is bob and feint lie and break your word time and time again For shame\n"
+          , "ROBIN: How far will you let Trump obstruct justice Smearing the FBI is not working he needs another distraction Is North Korea the next act Are you ready to risk it for Trump Stand up for America.\n"
+          , "MEL: Why is Trump getting away with his constant exaggeration &amp lying He is inventing new 'most this &amp that to praise himself almost daily With that being said congrats Mr president for winning the Grammy's the Superbowl &amp the best sociopath in office awards.\n"
+          , "REV TOM HOGLE: Democrats will help with NOTHING that might make President Trump look good no matter WHO of HOW MANY are helped by it.\n"
+          , "DOTTIE KIBBLEPANTS: Zaklee pal Whever you believe in left of centre right of centre not politically inclined voted Leave voted Remain like Trump don’t like a Trump we iz all entitled to our views and av reasons for dem.\n"
+          , "B:  Mom 17 Trump has her on the ropes...she's almost ready yo quit...she's been flushed out...and she's in the open for all too see\n"
+          , "DARIN BROWN: Like a true constitutional crisis being under reported Trump refuses to implement the Russia sanctions signed into law last year https://t.co/h8lZCE0YJe\n"
+          , "RUTH PUNTON: That won't do Australia any good We probably have to pick up the PM's expenses I am really tired of hearing/reading about Trump and click the remote if I see Malcolm's face .I so much long for a change Let's get up and running quickly https://t.co/MBHbUTfHzY https://t.co/BI5E4LFEGq\n"
+          , "LIL SOCIAL EXPERIMENT: Let’s all have a big 3 am laugh at all the Cubans in south Florida who voted for trump and now they’re getting deported.\n"
+          , "STELLABLUE: But all the bitches you love can call trump anything they want any it’s ok.\n"
+          , "MARIANO: Legal fees consumed 40 of Trump campaign spending at year's end https://t.co/k0gdvioM3k via https://t.co/bJaZXT8iY8\n"
+          , "SHARON: Well if this is true where’s trump’s taxes Release those!\n"
+          , "DEAN WEST:  Robinson Nunes Trump and their cronies are playing checkers while the FBI is quietly playing chess at the grand master level The stable genius president doesn't know history.\n"
+          , "HEALTH NEWS: The Union Has A Climate Crisis And Activists Are Ready To Work Around Trump https://t.co/acByjBaTg3\n"
+          , "KING TIMBIG: Diego Maradona's agent claims the Argentina great was denied entry to the United States after making disparaging comments about President Donald Trump.\n"
+          , "MICHAEL D SCHMIDT: Apparent Trump legal defense fund uncovered https://t.co/U4uPZZfyzB via\n"
+          , "NYZAP: #Trump was already caught on hot mic at #SOTU giving 100 guarantee to release Nunes memo https://t.co/ldQ4nT6P0G #LooseLipsSinkShips #DumbStableGenius\n"
+          , "MARIANO: Trump RNC legal bills top $5M in 2017 https://t.co/qe2GkRCQdK via https://t.co/bJaZXT8iY8\n"
+          , "CONSERVATIVE LADY: More brilliant commentary from the Trump propaganda network.\n"
+          , "BONEBLACK:  kiki #StevenMiller His Dad from the old country. #trump #AMERICA #ImpeachTrump #TrumpCrimeFamily #Nazisinthewhitehouse #TreasonWeasel\n"
+          , "18D.MEDIA: North Korea White Paper ‘Lustful Old Man Trump Turned U.S into ‘a Living Hell https://t.co/sKmX7XK0G2 https://t.co/Zj7QZIbKfW\n"
+          , "KATE~STILL NASTY!: That's the Kennedy estate in Palm Beach not Joe Kennedy's home Why do RWNJ's have to lie in order to try to discredit Democrats They can't defend Trump so they bring up Hillary or President Obama Trump gives a speech filled w/lies so they attack the Democratic respondent� https://t.co/1ylGSeS2fN\n"
+          , "FINLEY CORDAIN: Blocking means 'I win!' Trump sucks and his racist supporters suck more.\n"
+          , "CAROL OLSEN: Trump liked a tweet about his 'great friend being accused of sexual misconduct https://t.co/Va5pl3bIOa\n"
+          , "KB: Well trump is very stable You know...\n"
+          , "IVAN PER: President Trump Arrives to an Amazing Reception at Davos Economic Summit.. https://t.co/volYBtzXsV via\n"
+          , "HARAH: Here’s a novel thought for the Circus News Network there Jake🤡Tapeworm—so is wrong now too? You give evil POS new meaning You best worry more abt getting a conscious &amp a soul ❌❌❌#FAKENEWS❌❌❌ #LiberalismIsAMentalDisorder https://t.co/o4hcbmAChp\n"
+          , "MELANIA TRUMP: The year is 2021 Donald Trump has been impeached and Britney Spears has taken her rightful place as the President of the United States A third grade classroom rises to recite the national anthem: “GIVE ME A SIIIIIIIIIIIIIGN HIT ME BABY ONE MORE TIME! *dance break https://t.co/oEIbw4I42U\n"
+          , "CHRIS TREVI O: You still using Drain the swamp after Trump literally increased more than any other president?\n"
+          , "LIFE OF ACTIONS: Samaritans Paint 'Make #America #Love Again #Mural on BHS Grad's Business to cover pro-#Trump https://t.co/q6f3S2KQFk\n"
+          , "AYN VAN BERGLAND: Who Really Created the Trump Dossier? Was it really a British intel agent or a Clinton political operative? https://t.co/YLUhI2he5k\n"
+          , "PRES COIN: The Impact of President Trump's 'Global Gag Rule on Women's Health is Becoming Clear TIME https://t.co/lcL2Z43lg2\n"
+          , "STACYFORTNER: LET'S HAVE TRANSPARENCY 😎👀 John Kelly Trump wants 'everything out' EXCEPT: Trump's tax returns Trump.. https://t.co/mxohpbiRE7\n"
+          , "ROJERAILS: TO THE GREATEST MINDS IN POLICY YOU ARE IN WASHINGTON DC AND PRESIDENT TRUMP NEEDS YOUR HELP DON'T SIT THERE ACT https://t.co/JyCsEID5Sq\n"
+          , "SKIIN   GLEE: Pelosi Wants Eyes on Slobbering Trump at SOTU Warns Democrats to Stay in Line or Stay Home https://t.co/d61pVKnE5F\n"
+          , "SAMANTHA JONES: Trump Is About to Make Tip-Pooling Legal Again Here’s What That Means for Restaurant Workers https://t.co/bSDXqf6a9d via\n"
+          , "ANDY FREEDOM:  lindylou  sparkle But nobody is saying they are fit.. apart from Trump He can't even make his lies sound remotely believable What has the planet done to deserve this moron?\n"
+          , "MARYHOLLIS TROUP: “Unprecedented” 9 historians on why Trump’s war with the FBI is so stunning https://t.co/gTzV6tXvtT via\n"
+          , "NIK KERSHAW: just read your review of piers and trump magical thanks for starting my Friday right ! Xxx\n"
+          , "HEALTH NEWS: The Union Has A Climate Crisis And Activists Are Ready To Work Around Trump https://t.co/9BfaPAwyF3\n"
+          , "MAYARRI: This was what I was suspended for btw I don't see how that is more abusive than what I've been reporting Trump for Plus it's true He's a pedophile https://t.co/uQO3JVZG6Y\n"
+          , "BMINORTHREAT: Maybe it's not 'normal but it should be Trump is just the right size wrench to throw into 'the works'!\n"
+          , "DAVID SHIMBERG: Trump is better than A Box of Rocks and I am no genius https://t.co/N9xp3ufo0m\n"
+          , "CORA: John Kelly encouraged Trump to pursue the memo! 'Never any hesitation’ Trump was quickly persuaded to support memo’s release https://t.co/b6g8HUIzW3\n"
+          , "TWITCHER: Pelosi Wants Eyes on Slobbering Trump at SOTU Warns Democrats to Stay in Line or Stay Home https://t.co/nWlJqprypi\n"
+          , "ANTONIA FILMER: ‘Those who reach the top of government undergo a mental transformation in which they believe themselves to represent the nation so that anybody not obeying them becomes condemned as “anti-national . Writes  Nalapat https://t.co/O6pc9fh37p\n"
+          , "PATRIOT    LIFELOVER:  Trump Train It has already become absolutely without a doubt apparent to me that they stand for nothing good They stand for hate That is all.\n"
+          , "EDMUND SULLIVAN: I’m a Republican Why Is My Party Gaslighting America https://t.co/tStxltzMag via Breaking down Trump’s strategy for fakery step by step based on his NYC real estate roots\n"
+          , "DEPLORABLYDEPLORABLE: 🚨wow you should be on the Trump train 🚂 We want all the supporting documents released too If we all put our voices together we can make it happen DM me for the dates and locations of upcoming MAGA rallies Can’t wait 😊 Welcome aboard 🚂🇺🇸💨🚂🇺🇸� https://t.co/JzRJm7qxPv\n"
+          , "B: Fast and furious , Iran, NKorea Muslim brotherhood Obama Comey Rice lies,decite, Get Trump I think...I know..karma.. creeps...karma is coming...for you\n"
+          , "LAURENCE MONG: Here’s How Many Times Trump Said ‘I in His First SOTU Address Compare That with Obama’s https://t.co/1JcsAl1mjc\n"
+          , "VETERAN4TRUMP:  Max You’re right They’d pick Russian bots anyway b/c illegals vote Dem🤦🏾‍♂️\n"
+          , "KENNETH G EADE: Trump Orrin Hatch said I am best president in history Orrin Hatch Um not quite https://t.co/AahB8T8rlg via\n"
+          , "CYNTHIA: When something is CLEARLY good for EVERYONE.. I mean come on and the compassionate human stories are not about dems or reps... Get over yourselves Dems/Libs Trump reached across the isle many times in his speech and after take the branch! https://t.co/G1W4Q7UiLj\n"
+          , "LUIMBE: Trump administration strips consumer watchdog office of enforcement powers in lending discrimination cases The Washington Post More to fix https://t.co/f8TR1Cqxnz\n"
+          , "KEN Z: by far the dumbest shit is the America’s next top model girls giving shit to the girl who voted trump lmfao fucken goofy\n"
+          , "ROLLIBY: Stormy Daniels (she was going on Kimmel after Trump's State of the Union issued a new statement saying she is denying having an affair with Trump not because of a settlement but because “it never happened.” She would also like you to follow her on Instagram #LiberlalLies\n"
+          , "BARBARA LANDREE: Just because you don't want Trump involved he's already involved by opening his mouth and getting caught on hot mic So that part of your plan is already underwater As far as Nunes staff working with the White House we know the answer to that too\n"
+          , "STEVEBANNONSNOSE: Don't get too excited just quite yet reports are Russia is pushing for Gowdy to replace Jeff sessions for Attorney General Stay tuned to The Trump shit show.\n"
+          , "MAKE ALL GREAT AGAIN: Make Travoise Great Again #MAGA #Trump #donaldtrump #POTUS45\n"
+          , "JAY GOOSE: Oh snap my bad....the DOJ are all lying traitors and Trump is an honest Eagle Scout who has never run afoul of law Thank you for straightening that out https://t.co/sNN7IoEX0T\n"
+          , "ROBERTO RE: Trump administration's top diplomat in Venezuela continues to press for the release of a jailed Utah man https://t.co/oRm5FyDynx Via\n"
+          , "ALI ...BIASED #FBPE: Looks like  Rees Mogg has gone full Trump Quoting propaganda site for news How long before it’s Prison Planet and Hatie Flopkins Learned well from his visits with Steve Bannon. #StopBrexitSaveBritain #FBPE #WATON https://t.co/xxtYxqiERq\n"
+          , "TRENDR: Do the Russians love Trump https://t.co/mTHytSyqtr\n"
+          , "JOANNE MARSLAND: Money,religion and mother nature (woman are responsible for 99%.....then there's Donald Trump !!!\n"
+          , "JEFF BRUNTON: Trump is worrying they are not moving fast enough he needs an urgent distraction from the increasing evidence of Russian collusion\n"
+          , "MJ: This is not about the politics of personality folks it's about doing what's needed to advance the lives of the American people Trump is working for the people and doing a magnificent job CNN is at war with the truth and our freedom\n"
+          , "MR HANNA: If the Russians did help Trump win it's almost like they love America more than the Democrats (Sarcasm intended)\n"
+          , "JOHN M: #Russian had never read the #NunesMemo &amp barely knew abt it But it could help him so national security be damned (as well knew it was coming out https://t.co/BxxtUlrLOx #MemoGate #NunesFakeMemo #Mueller\n"
+          , "JONATHAN GIARDINA: How does that song go You young wild girls you'll be the death of me? Could Hope Hicks Be the One to Bring Down Trump https://t.co/Bw3y4M9Foo\n"
+          , "SHERRYM: Your right if they where all innocent then this wouldn't even be an issue They're all guilty they prove that every day You can even watch Trumps face he's so guilty it's pitiful Please save us Mr Mueller we don't have much longer Trump is losing it!\n"
+          , "SHERRY_RESON: Chain migration racist term of art and other apt observation observations on the sotu https://t.co/hGwIhHIMxK via\n"
+          , "HANDCRAFTLINE: 'Never any hesitation' Trump was quickly persuaded to support memo's release https://t.co/CMKF6cz4ez\n"
+          , "ART SMITH: Trust in our Government disappears more &amp more Trump is still along way from draining 'THE SWAMP' Wray has got to go!\n"
+          , "BILL: Dave Chappelle &amp Kendrick Lamar Open Grammys With Powerful Message Trump Livid https://t.co/H44P5Cc5H8\n"
+          , "DAVID BERNARD: Here’s Who Will Sit With the First Lady at the State of the Union President Trump and Melania Trump the first lady have released their joint guest list for the State of the Union address on Tuesday night https://t.co/mQ41rO2CO2\n"
+          , "ADRIAN TORR: well done on your interview with trump on Sunday I thought you asked the right questions and got answers that were important and shows people in Britain that trump is actually the right president for when we go to Brexit.\n"
+          , "PROF JENS MUELLER: I just had this wild thought I will outlive the Trump Presidency and likely Trump Now that's a cause for bubbly!!!\n"
+          , "TEXAN FOR TRUMP: Sara Carter Anti-Trump FBI Agents Fired from Mueller's Team Sidestepped Law for Preserving FBI Messages True PunditTrue Pundit https://t.co/KtQ5cEqZPt\n"
+          , "AYN VAN BERGLAND: Former AG Edwin Meese AG Sessions Doing Great Job for Trump Breitbart https://t.co/n94QFujG6B\n"
+          , "NUNYABEEZNESS: A bit much but I am for some sort of maritime law keeping shipping out of the area And ban Oil drilling Whaling must end everywhere of course #Trump\n"
+          , "MARIA ALLEN: Trump declares &amp;apos;big win for Republicans&amp;apos after shutdown fight https://t.co/fFnQrEkGWf\n"
+          , "CARMEN: Trump used to love the media before his presidency but only because he used them to promote himself Have you watched The Confidant Man?\n"
+          , "COURAGE: Snowflakes are here I see everyone reaching for their blankies How cute Let papa Trump burb you You know he loves you Please donate your 2019 tax returns to igotubabesnowflake .com no pun intended! P.S Please send me a picture of your favorite bottle.\n"
+          , "LESLIE HUGHES: Top Intel Dem blasts GOP for putting Trump “above the national interest https://t.co/GgGobMn1C2\n"
+          , "LATASHA WILLIAMS: Top Intel Dem blasts GOP for putting Trump “above the national interest https://t.co/3yuHPd2wbk\n"
+          , "NOAH BARKIN: Macron &amp Trump a special relationship � https://t.co/OXF0p7jWIR\n"
+          , "JEAN MUMFORD: There's been a mysterious change in Trump's demeanour - and no one knows why Business Insider Australia He’s consulted with his Russian allies and is confident GOP will hold seats in midterms because the vote will BE HACKED AGAIN https://t.co/jIP6EvGVN2\n"
+          , "NORM DEPLUME: So Trump allows sanctioned heads of 3 different Russian Intel agencies in 1 wk before refusing to enforce sanctions all while he's under investigation for conspiring with Russia and you think Schumer and Hillary are the ones who've sold out your country?? You're a brilliant man\n"
+          , "NOPCWITHME: Throughout all the Trump-Russia hysteria I still haven’t figured out exactly what Russia could or would have done to supposedly help DJT in the election What help did DJT receive from Russia Any of my DEM friends care to enlighten me Good luck.\n"
+          , "OUR LADY TRACY OF THE MOST PATIENT: Tell me that this planet is worth saving Cos I don't know anymore. https://t.co/aTgsyA99Pe\n"
+          , "BOT_POLITICAL: the-washington-post|The State of the Union got teleprompter Trump The GOP retreat got real Donald Trump.|https://t.co/ichgCRB3vn https://t.co/EY1udQJVDI\n"
+          , "MARGARET VENZ: The Trump administration just dealt a major blow to clean water protections https://t.co/9PT8wQjPSl via\n"
+          , "DAVID O'HALLORAN: And the horror is that he is a top Trump advisor.\n"
       ]
     }
   , { name: "republican"
@@ -143,30 +232,112 @@ function countWords(text) {
       [
         "MALCOLM TURNBULL: " +
         "Thank you, thank you very much.\n",
-, "BOB GESSERT: your prediction about Trump is just as crazy as you are Your Open Society is the REAL danger to America! We will continue to ensure the DNC falls heavily! Finally getting the corrupt asses out of government! We ARE MAGA Go away you fear monger!\n"
-, "BG: Hes literally none of those things hahahaha but whatever keep living in your fantasy world with Trump as the boogeyman Ps.. take a look at ur 401k and economy and stock market and consumer confidence What a bad guy right Look at companies raising minimum wage Youre a fool.\n"
-, "K.B.: Soros calls Trump administration a 'danger to the world https://t.co/yjtJLgnA71 #FoxNews &gt;Comming from a war criminal Another clown who needs to keep his mouth shut.\n"
-, "TIM BAK: “If you are telling me they’re horrible people horrible racist people I would certainly apologise if you’d like me to do that I think he means apologize to the horrible racist people .. bc always 'good people on both sides of racism. https://t.co/xo9AirAfun\n"
-, "MITCH METZGER: The people that join these marches are either naive uninformed socialists muslim lesbians gays anti-Trump,.. https://t.co/8JS4ouNaC9\n"
-, "LIVEDAVE: Trump calls report he ordered Mueller fired 'fake news CBS News #liar https://t.co/u1FoQn0cDa\n"
-, "NICK KELSIER: Put down the crack pipe Dnesh And quit letting trump *** you up the ***\n"
-, "KARLA: Not interested in his hate trump and let’s give illegals a free ride speech Dems have nothing else\n"
-, "GENE BRYANT: Jerry Falwell Jr Defends Trump Amid Porn Star Affair Allegations 'We Are All Equally Bad https://t.co/HcLDNSdHF5\n"
-, "EMILYSUMIKO: Wouldn't make enough money Maybe they'll just act like Trump never happened and try other go back to just being conservative.\n"
-, "ROSSILY COMPRESSED: Fake News A control freak's ramblings Not a thing Dismissed To send away Trump 'Dismisses as fake news A thing in a megalomaniac's head not an actual thing 'Trump alleges to be fake news accurate?\n"
-, "THE ROSE BUSHES: In Davos Trump Calls Mueller Report 'Fake News https://t.co/9ucBB1h3Bk\n"
-, "THELUCY3: Oh wait that's math trump not educated enough for simple math Old dirty family money buys them their degrees Clearly didn't buy them any class or common sense or decency.\n"
-, "THEMALAYSIANINSIGHT: Trump sends ‘warmest regards to African leaders after alleged slur https://t.co/JJV6FgaMm8\n"
-, "THOMAS C EDWARDS 111: He justified his re-tweet and took no responsibility for any damage he may have done There can be no justification for his re-tweeting something from a radical organization Trump doesn't have the ability to say he's sorry for anything he's done.\n"
-, "DUANE DA`VEIN: The Democrats aren't going to accept any deal that Trump brings to the table Trump knows that There is no way the Democrats will let Trump take any credit for helping those illegal aliens known as dreamers.\n"
-, "WTVC NEWSCHANNEL 9: NEW Trump calls NYTimes report he ordered Mueller's firing 'fake news' https://t.co/SckeI2yiUx\n"
-, "NEVERGIVEUP: Oh pls Trump have trillions away in tax cuts And companies are not govignwage hikes which would be long term like tax cuts They are giving one time bonus as sops And daft people are celebrating that.\n"
-, "BLACK HAWK:  sara We strongly condemned Nikki Haley for her statements in the UN General Assembly regarding Jerusalem as capital of Israel She and Trump should go to hell Obama/Clinton for whatever bad they did DID NOT GAVE JERUSALEM TO ISRAEL.\n"
-, "CHRIS BOYD: Obstruction of Justice,you name it Trump should be going to jail.\n"
-, "CATHERINE CHISNALL: I think because they have been told that Hillary (and Bill Clinton are much worse than Trump and do much worse things That is the only possible reason I can think of.\n"
-, "CARLO: How much credit should be given to the Trump administration for the rallies on Wall Street has mentioned it at least 25 times this month.\n"
-, "KASTA KEYPS: It's not a sincere apology from Trump at all I agree 😔😡\n"
-, "KAREN DAVIDSON:  dek There are more senators and representatives that believed this secret society fake news Even Trump did Shows you how stupid these people are They should be voted out of office.\n"
+          , "CHER DE LUCCIA: Like 45's failure to enforce sanctions this news is hidden under the plume of smoke blown up tRump supporters backsides over Nunes and memo's What else are they distracting us from #BehindTheCurtin #GangOfPutin\n"
+          , "DANDY: Sorry No disrespect Just tired and my bedtime If Trump accepted help from Russia the plan was that he would give them something in return .. not punishing Russia for invading another country Ukraine That's what's happening now Trump just broke a law last week...\n"
+          , "THE BEST OF AFRICA: 's incredibly shocking propensity to speak his mind has the potential to damage U.S relations with #African states. in our latest post Zangose Tembo explains why #politics #Africa https://t.co/8CSYuF6zrc\n"
+          , "ALAN: #BadJokeFriday #poem #rhymes There's an American president called Trump, He's full of shit like Forrest Gump, His hair's a disgrace, He has a fucking orange face, That's why people call him a cunt!\n"
+          , "#DEEPSTATELIBERAL: 'The US has had 16 years to build a case against these men and yet 28 of 41 prisoners are held without charge or a trial of any kind a shocking violation of America's founding principles https://t.co/Awjiq9IhKK\n"
+          , "MARK S RUSHTON: Donald Trump Faith Misplaced In Memo Reportedly Focused On Carter Page |.. https://t.co/5cpyznOr1p via\n"
+          , "JERRY UPTON: Y'all need to hear this!! Is Trump for real? #Topbuzz https://t.co/8Kg07qSe8m WTF There is something wrong with this person we call the president.People need to realize this man Is running our country\n"
+          , "A.SILVER-MEMES GIFS: Get enough sleep because it takes a bad toll on your health if you don’t Trump won’t be around for long...but you will 🗽👍\n"
+          , "MANNY: Trump's ONLY Failure Letting The Left Neocons Bully Him Into New Russ.. https://t.co/R65TlpBkyT via\n"
+          , "GAIL HOOVER: Andrew McCabe should pull a BEAUREGARD and hang in there even if Trump releases the memo Make him fire you Worked for the evil elf Protect the USA\n"
+          , "JALAL YACCARINI: This Is Why Donald Trump Is A TOTAL Jackass The Video Evidence https://t.co/x0VHBWcZJm via\n"
+          , "CRISTINA YANG: And there are millions of white women who voted for Trump so I'm not sure why Caitlyn's conservatism reverts her back to maleness.\n"
+          , "AIMAN DURRANI: My mom sheet mask on screen-recording Donald trump dancing to mere rashq e qamar while modi is on the tabla Me *actual loser basking in the glory of this queen*\n"
+          , "LYNNE GEE: What would a Pharisee like you know about God's work You worship the false God Trump https://t.co/ZgzKod8MsG\n"
+          , "BH: hate having to look at Muppet before BBL makes me angry inside of my bones glasses to appear more intelligent than actually is beard to give the impression of an actual jawline trump this trump that so edgy https://t.co/9T5NwyUjg5\n"
+          , "PATTY PICKARD: Senator Durbin what we need is to get all of you hypocrites out of office Apply all our laws equally from Trump to Clinton to Obama to DREAMERS The real American people want all our laws enforced We are sick of not being heard or represented by you people.\n"
+          , "UMAIR TANVEER: Trump memo Ryan plays down impact on Russia inquiry https://t.co/svJ18cNUxy\n"
+          , "NEWSWEEK: The Afghanistan war has gotten so bad for the U.S. but the Trump administration is hiding more data https://t.co/TWUWcKFAZi https://t.co/uVBWiKMZyY\n"
+          , ".              .: Agree. What happened is simple initially held fast to Repub principles and rejected Trump but was called names like Rino and Establishment and attacked by Trumpists he was so weak he couldn’t handle the pressure and caved He should have never been named Speaker https://t.co/nPDLoqcb84\n"
+          , "ZIA MOHAMMED: There's a 'try an ignorant tweet on my Twitter. So you're telling me that it's not just memes and a black Harry Potter thing? Or are you just trying to get Muslims used to being oppressed under Trump?\n"
+          , "SUPREME MEME: WAHT MEME zip MMM TRUMP stale meme wee homer pleep WHATAMEMEME\n"
+          , "LORI: As opposed to the nice work you've been doing dumbass It's all falling apart traitor You tried to lie by omission on a stupid memo to protect your god Herr Trumpf You will either cause a constitutional panic or the final episode of The Trump Show https://t.co/IlHSijcOF3\n"
+          , "COMPLICIT CONGRESS KILLS DEMOCRACY-NEWS AT 11: Do you really think it’s going to end with Trump’s ouster I’m a bit skeptical He’s guilty as sin but I think he’ll get away with it I really do Congress is complicit the only hope for is for Dems take both chambers in Nov Otherwise it’s moot #ObstructionOfJustice\n"
+          , "ASH: Crazy Ding and Trump dont have a world title and he has 3.\n"
+          , "CYNTHIA COTE: Thank god for people like you I hope we have enough left to protect us all from Trump &amp his Trumpian republicans The insane are running the asylum.\n"
+          , "G.O.D.S: NBC POSE TO B LIBERAL THEY THAT RACIST UNDERCOVER RACIST LEAST TRUMP UP FORWARD ABOUT HIM BEIN RACIST NO REPUBLICANS AND DEMOCRATS R RACIST IT DONT MATTER HOW MUCH DEMOCRATS GOT DIVERSITY THATS JUST LIKE A RACIST SAYN THEY NOT A RACIST U BLK BUT U CANT FUCK MY DAUGHTER\n"
+          , "PAUL YEE: Analysis Trump's speech ratings were even worse than you might have thought https://t.co/IVJOyfmyt4 . always pushes #Fake Facts Believe me.. must have been a lonely childhood...\n"
+          , "HORST BROPHY:  Wheeler President Stephen Miller would deport you with one glance Trump lies to his base pretending we do not have an immigration system in place at all with merits or requirements just an open boarder for any Mexican or Muslim It’s always been and will be White vs Brown.\n"
+          , "PAULA TRETKOFF: My main criticism of President Trump so far is his unpredictability Must make it difficult for people to work with him I believe this is a personality problem for Trump for which he needs counseling and also comes from his prior successes when he was used to getting his way.\n"
+          , "ANTHONY D'JESUS: EVERYTHING THEY DID was totally ILLEGAL QUESTIONABLE UNETHICAL WELL PLANTED and Meant to Destroy TRUMP and his people from the beginning #TheyMustPayPenaltyForTheirEVILactions https://t.co/KyB2JWXrZS\n"
+          , "SAFETYPIN-DAILY: Meteorologists Want To School Trump After He Failed These Climate Change Questions |Via BuzzFeed https://t.co/4mSEO6N3zA\n"
+          , "_KJB: that mf donald trump really did lower taxes my paycheck is bigger than usual 🤔🤔\n"
+          , "TINISKWERL: #Trump and #Nunes pass #NunesMemo back and forth like a hot potato Neither wants to release it Trump to send back to House Intel #DevinNunes can decide when/where to release #FISAMemo a blatant criminal act of #ObstructionOfJustice it’s a live grenade #Mueller #MuellerTime https://t.co/ZPFLvHvPez\n"
+          , "GALAVANT: Proof that right wing is full of retards all over the world not just India Modi Trump https://t.co/wTSGBMeABz\n"
+          , "PRESIDENT_TRUMP: Not really..depends on what you are wanting for USA if you want USA to be destroyed from with in.....you would vote trump taking it in the wrong direction\n"
+          , "R_OWL_MIRROR: Rubin Trump will be on the “world’s dumbest criminal list https://t.co/vPL9hJ4gZf via 'Mueller is zeroing in on a Trump Tower meeting “cover story” Does realize He is Juggling a ball of White Phosphorous a ball of Napalm &amp a Live Grenade ?\n"
+          , "CONSERVATIVE PATRIOT: With videos Maybe it's time for Adam Schiff to seek professional help Talk about insane #FullOfSchiff https://t.co/qkW4xqnAeY #MAGA #Trump https://t.co/zkwLkxvdJb\n"
+          , "BUSINESS INSIDER SG: Here’s what’s behind the rumors of an affair between Nikki Haley and Trump https://t.co/mPtktuNVPY https://t.co/lVLZu658O3\n"
+          , "JKL: Watching Dirty Money on Netflix. fuck Volkswagon and Donald Trump. thanks for the NOx..\n"
+          , "JUST JOE WITH IT: Not much better than delivering receipts &amp hearing a guest tell the girl in their room that quote 'Trump is putting niggers to work.' Bet he smiles in my face when he comes down for breakfast tho.\n"
+          , "NICK: I'm a physician who is trying to save desperate people - Mr Trump please help end Syrias agonies https://t.co/W2kVspFTEn\n"
+          , "TINA ANGIE ILDEFONSO: THEY ARE BASING TRUMP COLLUSION WITH THE RUSSIANS ON THE FAKE DOSSIER THAT HILLARY PAID $12 MILLION FOR SO THAT.. https://t.co/usn31A2qtQ\n"
+          , "A MORBID ATHEIST WHO LOVES DEATHMETAL: This is the second person on my TL today to wish or hope for the death of #Trump What a sick fucking bastard https://t.co/jWWtlhbQW2\n"
+          , "IRFAN MALIK JOURNALIST: BABA REHMTA accepted for Pakistani nation and Pakistan all Pakistani nation stand by with BABA REHMTA ,and other side corrupt disloyal wicked immoral vicious uncivil amimics,and indecent politician not accepted for Pakistani democracy #Trump #AllStars3 #BestFanArmy https://t.co/vqZmNHYIiD\n"
+          , "SNOTTBOT: allright time to stop talking in garden or else donald trump's going to be done to save the fuck can i even make videos anymore\n"
+          , "BAPROCTOR:  Trump Train On what grounds The hope the Dem had to find fault in him has actually found fault in themselves.That his administration is actually uncovering the corruption of the past It’s been going on for years they all just kept their mouths shut He made millions in business not tax$$\n"
+          , "DONNIE SCHMIDT: Why are Russian Spies being invited to United States at the same time Trump goes after FBI?? Something stinks and it’s not the lutefisk!!!\n"
+          , "DENNIS BUCKLEY: You do mean ....prevent the election of Donald Trump.... right ?\n"
+          , "MOJAVE RATTLER:  van These DC jerks Absolutely do not give a rats ass about any citizen until election time. Prez Trump just raised the bar.\n"
+          , "GOPISCOMPLICIT: As opposed to the trump’s who would arrest and deport Jesus ...\n"
+          , "RABEKKA MARQUEZ: No Nunes is a liar he’s a traitor and a criminal messing and tampering with with documents so no he’ll be going to jails with the trump for messing with our democracy!\n"
+          , "ROBERT KNIGHT: You're so tribalistic in your thinking that anyone not 'pro-Trump is automatically 'pro-Obama' Did it ever occur to you that while Obama was a mess that doesn't excuse tRump being a walking pile of dog shit?\n"
+          , "BUZZORT: New post (Trump memo Ryan plays down impact on Russia inquiry has been published on Buzzort https://t.co/W625nLgY9g https://t.co/vMZXjT6UcE\n"
+          , "ME'ELUM: If Trump is secretly working for Putin why would he build a permanent military base in Ukraine https://t.co/5fqvyHxpht\n"
+          , "SDVOSB: TRUMP ADMINISTRATION AMERICA FIRST IS FAKE NEWS TRUMP PENTAGON JUST AWARDED A 1.3 BILLION CONTRACT WHEN THEY VIOLATED THE IRANIAN SANCTIONS AND ARE BLACKLISTED BY KUWAIT GOVERNMENT https://t.co/lCq5z5lDYP\n"
+          , "BEN: Coming Soon Trump Thanks May For Not Being Difficult About The NHS Sell-Off #TakingBackControl\n"
+          , "R.DAVIDSON: Sad to report that even if the wall is built Trump’s tentacles � would comb-over the wall #laddersneednoapply\n"
+          , "AFROPOLITAN: Please people have been even more disrespectful to Trump I know you hate gays so you don't understand why that journalist was so frustrated by how gays are being oppressed in African countries like Zimbabwe &amp African leaders are doing nothing about it.\n"
+          , "INVESTIGATIVE PHOTOG: FALSE‼️claims about #SOTU ratings &amp audience size #FakePresident Trump is the creator of #FakeNews https://t.co/36MYTCtVzW\n"
+          , "BAMA/PATS FAN BIG BALLER BARKTIST: Crying at this Dirty Money episode on Donald Trump Trump a fool 😂\n"
+          , "EFFDONALDTRUMP: FUCK Donald Trump\n"
+          , "MIKE CURTIS: Same People Who Orchestrated Ambush on Trump Supporters at Rally! Losers. https://t.co/QlswzPIXPG\n"
+          , "TOMI AHONEN: Trump The Man Who Knew Too Little #AddABrandRuinAMovie\n"
+          , "EURONEWS: Trump 'set to declassify secret Russia memo https://t.co/j8xocRssjC https://t.co/OSFzUP1dtR\n"
+          , "SCHLOMO:  sharp You and your mother are both Trump supporters.\n"
+          , "GEE GARZA: It’s people like you this country fucked up you moron Trump is your president don’t forget that bitch😂😂😂😂\n"
+          , "THOMAS HARRISON: That's so surprise Trump lies through his teeth every single day He is a pathological liar.\n"
+          , "DJULIAN: Poop news getting so desperate they are saying Trump thinking about something is obstruction and rehashing old news opinions from july with no sources cuz the evidence doesn't exist #TDS https://t.co/GYqZvx6v9D\n"
+          , "SKIIN   GLEE: WaPo Reporter Falsely Claims Trump Took Pelosi's 'Crumbs Comment 'Out Of Context https://t.co/rpRZfe5MP8\n"
+          , "JUICY SPILLER: Playing candy crush wasn’t making a statement Wearing black to oppose trump’s sexual assault allegations was a statement Staying seated to let him know we won’t clap for his tired speech was a statement She did what her constituents wanted ✊🏽\n"
+          , "DENNIS BARCHET: What with your's and Trump's predilection for Nicknames It childish and rude. Your use of them shows the weakness of your arguments I will feel very vindicated when the Muellar investigation is complete.\n"
+          , "G.ANN: Another Trump lie and propaganda thrown our way https://t.co/qCBBacBUXe\n"
+          , "RAM CHARGER: the winter olympic games in border north and south korea and trump ready for turn on the flame¡¡¡¡¡¡¡ that´s stupid\n"
+          , "BEAU BOWDEN: I know #Trump loves dropping #media bombshells late on #Fridays but this is #SuperBowl #weekend By #Monday everyone will have forgotten about the #memo.\n"
+          , "INFO 24 US: Trump falsely claims mostwatched State of Union #D2 https://t.co/gm7Apss5Br https://t.co/ScLStqYMN2\n"
+          , ": When you’re Hispanic people automatically assume you hate trump cause of his immigration proposals lmao Immigration is the last thing on my mind while North Korea is about nuke us any second because of twitter fingers.\n"
+          , "NICKY THE: The irony of your response � Stop watching Faux News They are state run propaganda Just keep drinking that Trump kool aid https://t.co/Pkp4AnrXy6\n"
+          , "ELIZA WINDSOR: I wouldn't put it past Trump either Friends Nancy and Chuck\n"
+          , "KAC: When Donald Trump releases the memo he will be exposing the Democrats and how crooked you are and all of the horrible things you have done to try to destroy our country that's what it will show that's why you don't want it released\n"
+          , "ROGER R RIVERA: That leaves Trump out I don’t think anyone was surprised that He was dirty or racist Just another bumbling Idiot who was spending money from dubious sources.. https://t.co/2Jscqjjpm4\n"
+          , "HAMZA: Michael Wolff and the Smearing of Nikki Haley https://t.co/UolRJEanL7 Michael Wolff and the Smearing of Nikki Haley The Atlantic Mika Brzezinski Shuts Down Michael Wolff Interview During Spat Over Nikki Haley Rumors HuffPost Wolff fires back at 'Mo https://t.co/6ufRhBYJMy\n"
+          , "(   ) ': Trump memo Ryan plays down impact on Russia inquiry https://t.co/QuZXMPOMxA\n"
+          , "THE INDEPENDENT: Morning Joe pulls abruptly ends interview with 'Fire and Fury author over Trump affair allegations https://t.co/DSsmfE9VWD https://t.co/HF4KwNUUjR\n"
+          , "HANDCRAFTLINE: Trump Falsely Claims Most-Watched State of the Union Address https://t.co/uOvZgSlLrR\n"
+          , "GREGORY ALLEN LEEDS: Trump’s Long History With The FBI In 1981 He Offered To “Fully Cooperate https://t.co/Rd3rd87tDA via\n"
+          , "WILSON: Stick to writing books instead of trump bashing on twitter every single day!\n"
+          , "JOE JOHNSON:  oshea Hard data says streaming not included.. https://t.co/Y5Nq17VB95\n"
+          , "JAIMEY PERHAM: Jimmy Kimmel on Trump Releasing Nunes Memo https://t.co/Q8tTNAOm0V via Finally sums this confusing russia investigation in a simple way we all can understand https://t.co/d6VNHuLj3t\n"
+          , "BRITTANY MILLER: Trump hits back at Jay-Z after rapper dismissed his claims about black unemployment https://t.co/Am8ezf6RbP\n"
+          , "TMCS:  pat henry  Masshole  Foghorn  lonon  Country  Dudderson That's where I think the Dems &amp msm have crossed a line by instilling that hate fueling that rage.. &amp setting it against our President and us They've vilified Trump and his supporters. I've seen tweets where libs say they're justified in *any means used to shut us down &amp; https://t.co/4y9VtcHXpZ\n"
+          , "NORTH KOREA 24: North Korea Trump administration's 'sloppy work in Nuclear Posture Review https://t.co/mtiI7ShlhY https://t.co/AR1Tdo3k0b\n"
+          , "KIVUMBI NAJIBU: The heads of 3 #Russian intelligence agencies traveled to the #UnitedStates to meet with CIA Director Mike Pompeo amid a series of political rifts between the two sides over US Trump's alleged collusion with Russian officials &amp Washington's renewal of sanctions against Moscow https://t.co/nzfekkiSra\n"
+          , "M.: Piers stood behind trump again...I can still see the shite on his nose Any chance of you getting an interview with him🤔\n"
+          , "A THOUSAND MOMS: #Mika is hardly a paragon of feminism She bows in defference to Scarborough and they gave #Trump a platform to spew his venom #Wolf is a low life but we all listened and read his book Trump demeans everyone. https://t.co/LcJhBEVx0v\n"
+          , "RICHARD MARCHETTI: The Dems want this investigation into Trump and Russia to never end The Dems are want to keep in the news with the FAKE MEDIA shoving down the throat of ever American in the hope it will sway the masses to vote Democrat in mid-term elections.\n"
+          , "NATHAN FURST:  PR1D3 Totally makes sense all things being equal BUT you have to consider the source He created a 4 pg memo cherry picked from a 50 pg report &amp has even doctored it since Trump has read it (which indicates Trump gave him “notes”) Shady attempt to discredit the investigations.\n"
+          , "DEBATETOLEARN: The dems want to get reelected and having daca on the 2018 ballot box they believe will help them They also want illegal immigration to continue cause it increases our lower class that will be dependant on gov assistance Trump aware of this gives 3X daca but no more illegals\n"
+          , "JUSTICEMATTERS!: CIA chief met with SANCTIONED Russian spies officials confirm Defying #RussianSanctions still not implemented by #Trump Admin The meeting represented 'a serious national security issue. -Chuck Schumer https://t.co/ebMjkuEFQQ\n"
+          , "ELENI: Chris doesn't have clue what AMERICANS want He hasn't talked to a Joe Schmoe since college or sometime soon after Didn't he say Trump would never win?\n"
+          , "CANDICE ANDERSON: Our family is praying for you and your family President Trump 🙇❤💖#POTUS #FLOTUS At this point not sure NP &amp Dems will listen to reason😞🙇\n"
+          , "PAUL: Trump hits back at Jay-Z after rapper dismissed his claims about black unemployment\n"
+          , "EVERYTHING BLACK: Black Lives Matter protesters spit stomp on flag outside Wisconsin Trump rally Corey Stingley death called hat.. https://t.co/4B4gmP2TLX\n"
+          , "STEVE: Your going to be disappointed and let down by Trump.\n"
+          , "JULIE: should have done this long ago The nation democracy is dead You let a Russia-GOP coup go 4 a year and the Russians-Jochs have won Tax scam middle class dead debt skyrocketing with tax scam &amp next $1.5 b infra to enrich Trump pals so they can guy new deal\n"
+          , "NO NAME: Donald Trump is expected to approve publication of a memo accusing the FBI of abusing its powers.\n"
+          , "BASKETBALL JONES: Remember when Kelley was supposed to civilize Trump Now he's drunk the Kool-Aid and/or has Stockholm Syndrome He's aiding and abetting https://t.co/e9sd5PnXhc\n"
       ]
     }
   ]
@@ -178,106 +349,424 @@ function countWords(text) {
     , title: "Opposition Leader (Labor Party)"
     },
 
- "BEST OFFSHORE BROKER": { name: "BEST OFFSHORE BROKER", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
- "BOB GESSERT": { name: "BOB GESSERT", title: "Date: 26 Jan 2018 Rating: -0.205" } ,
- "FREDDY": { name: "FREDDY", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
- "DONALD TRUMP -SATIRE": { name: "DONALD TRUMP -SATIRE", title: "Date: 26 Jan 2018 Rating: 0.027" } ,
- "MITZI LIVINGSTON": { name: "MITZI LIVINGSTON", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
- "BG": { name: "BG", title: "Date: 26 Jan 2018 Rating: -0.071" } ,
- "K.B.": { name: "K.B.", title: "Date: 26 Jan 2018 Rating: -0.400" } ,
- "ALICE": { name: "ALICE", title: "Date: 26 Jan 2018 Rating: 0.075" } ,
- "BENBEN": { name: "BENBEN", title: "Date: 26 Jan 2018 Rating: 0.100" } ,
- "TIM BAK": { name: "TIM BAK", title: "Date: 26 Jan 2018 Rating: -0.417" } ,
- "COLLEY CIBBER": { name: "COLLEY CIBBER", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
- "MITCH METZGER": { name: "MITCH METZGER", title: "Date: 26 Jan 2018 Rating: -0.300" } ,
- "OANDA ALERTS": { name: "OANDA ALERTS", title: "Date: 26 Jan 2018 Rating: 0.136" } ,
- "ALAN BERK": { name: "ALAN BERK", title: "Date: 26 Jan 2018 Rating: 0.800" } ,
- "THE PHODOGRAPHER": { name: "THE PHODOGRAPHER", title: "Date: 26 Jan 2018 Rating: 0.612" } ,
- "DAISY VIVALDI": { name: "DAISY VIVALDI", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
- "LIVEDAVE": { name: "LIVEDAVE", title: "Date: 26 Jan 2018 Rating: -0.500" } ,
- "MULBERRY STREET #FBPE": { name: "MULBERRY STREET #FBPE", title: "Date: 26 Jan 2018 Rating: 0.417" } ,
- "USANATIONALIST4TRUMP": { name: "USANATIONALIST4TRUMP", title: "Date: 26 Jan 2018 Rating: 0.157" } ,
- "JERRY REINOEHL": { name: "JERRY REINOEHL", title: "Date: 26 Jan 2018 Rating: 0.250" } ,
- "COACHH2015": { name: "COACHH2015", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
- "NICK KELSIER": { name: "NICK KELSIER", title: "Date: 26 Jan 2018 Rating: -0.156" } ,
- "USA-MAGA-BLOCKED": { name: "USA-MAGA-BLOCKED", title: "Date: 26 Jan 2018 Rating: 0.200" } ,
- "THE CALM SCRIBE": { name: "THE CALM SCRIBE", title: "Date: 26 Jan 2018 Rating: 0.350" } ,
- "CSM": { name: "CSM", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
- "KARLA": { name: "KARLA", title: "Date: 26 Jan 2018 Rating: -0.175" } ,
- "GENE BRYANT": { name: "GENE BRYANT", title: "Date: 26 Jan 2018 Rating: -0.700" } ,
- "CHRISTOPHER STOKES": { name: "CHRISTOPHER STOKES", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
- "ZACH COOK": { name: "ZACH COOK", title: "Date: 26 Jan 2018 Rating: 0.217" } ,
- "KRYSTYNA4450": { name: "KRYSTYNA4450", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
- "STABLE GENIUS": { name: "STABLE GENIUS", title: "Date: 26 Jan 2018 Rating: 0.083" } ,
- "SWATTEX1": { name: "SWATTEX1", title: "Date: 26 Jan 2018 Rating: 0.017" } ,
- "BTYSHEEN": { name: "BTYSHEEN", title: "Date: 26 Jan 2018 Rating: 0.675" } ,
- "GLOVESAREOFF": { name: "GLOVESAREOFF", title: "Date: 26 Jan 2018 Rating: 0.095" } ,
- "AMERICAN LOSER": { name: "AMERICAN LOSER", title: "Date: 26 Jan 2018 Rating: 0.047" } ,
- "LEAH #LOVEMYPLANET": { name: "LEAH #LOVEMYPLANET", title: "Date: 26 Jan 2018 Rating: 0.333" } ,
- "MERVYN SULLIVAN": { name: "MERVYN SULLIVAN", title: "Date: 26 Jan 2018 Rating: 0.333" } ,
- "SMITTY": { name: "SMITTY", title: "Date: 26 Jan 2018 Rating: 0.250" } ,
- "ZA NEWS": { name: "ZA NEWS", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
- "EMILYSUMIKO": { name: "EMILYSUMIKO", title: "Date: 26 Jan 2018 Rating: -0.042" } ,
- "WALID MUHAMMAD": { name: "WALID MUHAMMAD", title: "Date: 26 Jan 2018 Rating: 0.113" } ,
- "DEBORAH DICLEMENTI": { name: "DEBORAH DICLEMENTI", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
- "ROSSILY COMPRESSED": { name: "ROSSILY COMPRESSED", title: "Date: 26 Jan 2018 Rating: -0.220" } ,
- "ERICD": { name: "ERICD", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
- "THE ROSE BUSHES": { name: "THE ROSE BUSHES", title: "Date: 26 Jan 2018 Rating: -0.500" } ,
- "BORNEO TRADING GROUP": { name: "BORNEO TRADING GROUP", title: "Date: 26 Jan 2018 Rating: 0.200" } ,
- "SECRET SOCIETY STABLE GENIUS": { name: "SECRET SOCIETY STABLE GENIUS", title: "Date: 26 Jan 2018 Rating: 0.150" } ,
- "US POLITICS 247": { name: "US POLITICS 247", title: "Date: 26 Jan 2018 Rating: 0.211" } ,
- "DR ALI BAKEER": { name: "DR ALI BAKEER", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
- "JEFF M": { name: "JEFF M", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
- "DONT PUT NAME ON TWI": { name: "DONT PUT NAME ON TWI", title: "Date: 26 Jan 2018 Rating: 0.500" } ,
- "THE ROSE BUSHES": { name: "THE ROSE BUSHES", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
- "THELUCY3": { name: "THELUCY3", title: "Date: 26 Jan 2018 Rating: -0.117" } ,
- "MICHELE SCHIESSER": { name: "MICHELE SCHIESSER", title: "Date: 26 Jan 2018 Rating: 0.700" } ,
- "GRASS ROOTS": { name: "GRASS ROOTS", title: "Date: 26 Jan 2018 Rating: 0.250" } ,
- "BILL PRESS": { name: "BILL PRESS", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
- "SEOUL KOREA DP": { name: "SEOUL KOREA DP", title: "Date: 26 Jan 2018 Rating: 0.083" } ,
- "DON'BEABABY": { name: "DON'BEABABY", title: "Date: 26 Jan 2018 Rating: 0.250" } ,
- "IAN PFEIFFER": { name: "IAN PFEIFFER", title: "Date: 26 Jan 2018 Rating: 0.021" } ,
- "UTNEWS": { name: "UTNEWS", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
- "BIG FLORIDA": { name: "BIG FLORIDA", title: "Date: 26 Jan 2018 Rating: 0.625" } ,
- "KIGALI NEWS": { name: "KIGALI NEWS", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
- "TIMOTHY JOHNSON": { name: "TIMOTHY JOHNSON", title: "Date: 26 Jan 2018 Rating: 0.071" } ,
- "NEIL FOX": { name: "NEIL FOX", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
- "HIKING2COLORADO": { name: "HIKING2COLORADO", title: "Date: 26 Jan 2018 Rating: 0.089" } ,
- "KIGALI NEWS": { name: "KIGALI NEWS", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
- "ESTEBAN TRUJILLO": { name: "ESTEBAN TRUJILLO", title: "Date: 26 Jan 2018 Rating: 0.350" } ,
- "THEMALAYSIANINSIGHT": { name: "THEMALAYSIANINSIGHT", title: "Date: 26 Jan 2018 Rating: -0.050" } ,
- "LANI MICHELLE 2.0": { name: "LANI MICHELLE 2.0", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
- "THOMAS C EDWARDS 111": { name: "THOMAS C EDWARDS 111", title: "Date: 26 Jan 2018 Rating: -0.050" } ,
- "DUANE DA`VEIN": { name: "DUANE DA`VEIN", title: "Date: 26 Jan 2018 Rating: -0.500" } ,
- "#RELEASETHEMEMO #INSURANCEPOLICY #SECRETSOCIETY": { name: "#RELEASETHEMEMO #INSURANCEPOLICY #SECRETSOCIETY", title: "Date: 26 Jan 2018 Rating: 0.133" } ,
- "KVAN": { name: "KVAN", title: "Date: 26 Jan 2018 Rating: 0.360" } ,
- "WTVC NEWSCHANNEL 9": { name: "WTVC NEWSCHANNEL 9", title: "Date: 26 Jan 2018 Rating: -0.182" } ,
- "WKJ": { name: "WKJ", title: "Date: 26 Jan 2018 Rating: 0.150" } ,
- "AMY HAMILTON": { name: "AMY HAMILTON", title: "Date: 26 Jan 2018 Rating: 0.100" } ,
- "KELLY GETCHE": { name: "KELLY GETCHE", title: "Date: 26 Jan 2018 Rating: 0.300" } ,
- "NEVERGIVEUP": { name: "NEVERGIVEUP", title: "Date: 26 Jan 2018 Rating: -0.050" } ,
- "BLACK HAWK": { name: "BLACK HAWK", title: "Date: 26 Jan 2018 Rating: -0.072" } ,
- "MARIA": { name: "MARIA", title: "Date: 26 Jan 2018 Rating: 0.375" } ,
- "CHRIS BOYD": { name: "CHRIS BOYD", title: "Date: 26 Jan 2018 Rating: -0.100" } ,
- "BLOG OFFICIAL": { name: "BLOG OFFICIAL", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
- "CATHERINE CHISNALL": { name: "CATHERINE CHISNALL", title: "Date: 26 Jan 2018 Rating: -0.200" } ,
- "CARLO": { name: "CARLO", title: "Date: 26 Jan 2018 Rating: -0.050" } ,
- "PATRIOT 24/7": { name: "PATRIOT 24/7", title: "Date: 26 Jan 2018 Rating: 0.357" } ,
- "SHARE B.C NEWS": { name: "SHARE B.C NEWS", title: "Date: 26 Jan 2018 Rating: 0.068" } ,
- "ICONNEWS": { name: "ICONNEWS", title: "Date: 26 Jan 2018 Rating: 0.136" } ,
- "KRQE.COM HEADLINES": { name: "KRQE.COM HEADLINES", title: "Date: 26 Jan 2018 Rating: 0.200" } ,
- "KAI": { name: "KAI", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
- "EMPEROR COMMODUS LLC": { name: "EMPEROR COMMODUS LLC", title: "Date: 26 Jan 2018 Rating: 0.200" } ,
- "THE IRISHMAN": { name: "THE IRISHMAN", title: "Date: 26 Jan 2018 Rating: 0.168" } ,
- "SCOTT CROSSON": { name: "SCOTT CROSSON", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
- "KASTA KEYPS": { name: "KASTA KEYPS", title: "Date: 26 Jan 2018 Rating: -0.250" } ,
- "KAREN DAVIDSON": { name: "KAREN DAVIDSON", title: "Date: 26 Jan 2018 Rating: -0.300" } ,
- "ANDY SCHMICKLE": { name: "ANDY SCHMICKLE", title: "Date: 26 Jan 2018 Rating: 0.083" } ,
- "AUGUSTIN KARASANGABO": { name: "AUGUSTIN KARASANGABO", title: "Date: 26 Jan 2018 Rating: 0.500" } ,
- "MARILYN HOLZ 111": { name: "MARILYN HOLZ 111", title: "Date: 26 Jan 2018 Rating: 0.350" } ,
- "WESTERN WISC AFL-CIO": { name: "WESTERN WISC AFL-CIO", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
- "MARSHALL FANT IV": { name: "MARSHALL FANT IV", title: "Date: 26 Jan 2018 Rating: 0.000" } ,
- "JTOMKA": { name: "JTOMKA", title: "Date: 26 Jan 2018 Rating: 0.000" } 
+      "CHER DE LUCCIA": {name: "CHER DE LUCCIA", title: "Date: 02 Feb 2018 Rating: -0.242"},
+      "DAVID C KENT JR.": {name: "DAVID C KENT JR.", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "DANDY": {name: "DANDY", title: "Date: 02 Feb 2018 Rating: -0.300"},
+      "POLITICO EUROPE": {name: "POLITICO EUROPE", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "THE BEST OF AFRICA": {name: "THE BEST OF AFRICA", title: "Date: 02 Feb 2018 Rating: -0.125"},
+      "ALAN": {name: "ALAN", title: "Date: 02 Feb 2018 Rating: -0.150"},
+      "#DEEPSTATELIBERAL": {name: "#DEEPSTATELIBERAL", title: "Date: 02 Feb 2018 Rating: -0.200"},
+      "HISTORY NUT": {name: "HISTORY NUT", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "JENJA": {name: "JENJA", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "LUCIAN KIM": {name: "LUCIAN KIM", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "MARK S RUSHTON": {name: "MARK S RUSHTON", title: "Date: 02 Feb 2018 Rating: -0.200"},
+      "JERRY UPTON": {name: "JERRY UPTON", title: "Date: 02 Feb 2018 Rating: -0.267"},
+      "KATE CRONK": {name: "KATE CRONK", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "ESMARTME": {name: "ESMARTME", title: "Date: 02 Feb 2018 Rating: 0.200"},
+      "MY DOG JIM": {name: "MY DOG JIM", title: "Date: 02 Feb 2018 Rating: 0.104"},
+      "JADU MANTAR": {name: "JADU MANTAR", title: "Date: 02 Feb 2018 Rating: 0.021"},
+      "U FOUND WALDO!!!": {name: "U FOUND WALDO!!!", title: "Date: 02 Feb 2018 Rating: 0.188"},
+      "KATJA BEGO": {name: "KATJA BEGO", title: "Date: 02 Feb 2018 Rating: 0.500"},
+      "A.SILVER-MEMES GIFS": {name: "A.SILVER-MEMES GIFS", title: "Date: 02 Feb 2018 Rating: -0.350"},
+      "MANNY": {name: "MANNY", title: "Date: 02 Feb 2018 Rating: -0.045"},
+      "BLOCKER BOT": {name: "BLOCKER BOT", title: "Date: 02 Feb 2018 Rating: 0.700"},
+      "LUCAS CONRAD": {name: "LUCAS CONRAD", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "GAIL HOOVER": {name: "GAIL HOOVER", title: "Date: 02 Feb 2018 Rating: -1.000"},
+      "ERR": {name: "ERR", title: "Date: 02 Feb 2018 Rating: 0.250"},
+      "ALLNEWSNETWORKS US": {name: "ALLNEWSNETWORKS US", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "JALAL YACCARINI": {name: "JALAL YACCARINI", title: "Date: 02 Feb 2018 Rating: -0.250"},
+      "JEENEREE": {name: "JEENEREE", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "CRISTINA YANG": {name: "CRISTINA YANG", title: "Date: 02 Feb 2018 Rating: -0.083"},
+      "AIMAN DURRANI": {name: "AIMAN DURRANI", title: "Date: 02 Feb 2018 Rating: -0.250"},
+      "OSMAN TANSEL ERDEM": {name: "OSMAN TANSEL ERDEM", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "LYNNE GEE": {name: "LYNNE GEE", title: "Date: 02 Feb 2018 Rating: -0.400"},
+      "DYSLEXIC_SNOWFLAKE": {name: "DYSLEXIC_SNOWFLAKE", title: "Date: 02 Feb 2018 Rating: 0.176"},
+      "ONE MAGICAL WEEKEND": {name: "ONE MAGICAL WEEKEND", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "BH": {name: "BH", title: "Date: 02 Feb 2018 Rating: -0.043"},
+      "ERIC ALLEN KISNER": {name: "ERIC ALLEN KISNER", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "JULIAMONTGOMERYBROWN": {name: "JULIAMONTGOMERYBROWN", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "JUDITHEFISHER": {name: "JUDITHEFISHER", title: "Date: 02 Feb 2018 Rating: 0.400"},
+      "MIKE": {name: "MIKE", title: "Date: 02 Feb 2018 Rating: 0.040"},
+      "GOP FAN": {name: "GOP FAN", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "HEFTY LEFTY": {name: "HEFTY LEFTY", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "TRUMP HOTELS JOBS": {name: "TRUMP HOTELS JOBS", title: "Date: 02 Feb 2018 Rating: 0.600"},
+      "OCCUPY CALGARY (YYC)": {name: "OCCUPY CALGARY (YYC)", title: "Date: 02 Feb 2018 Rating: 0.163"},
+      "TRUMP": {name: "TRUMP", title: "Date: 02 Feb 2018 Rating: 0.500"},
+      "TRUMP WATCH": {name: "TRUMP WATCH", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "ERRON GORDON": {name: "ERRON GORDON", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "TRUMP WATCH": {name: "TRUMP WATCH", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "KOAT.COM": {name: "KOAT.COM", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "JURK": {name: "JURK", title: "Date: 02 Feb 2018 Rating: 0.333"},
+      "ELIJAH PORTILLO": {name: "ELIJAH PORTILLO", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "STEPHENLESLIEJONES": {name: "STEPHENLESLIEJONES", title: "Date: 02 Feb 2018 Rating: 0.227"},
+      "PATTY PICKARD": {name: "PATTY PICKARD", title: "Date: 02 Feb 2018 Rating: -0.238"},
+      "PAUL VAN DER MEER": {name: "PAUL VAN DER MEER", title: "Date: 02 Feb 2018 Rating: 0.225"},
+      "RARE": {name: "RARE", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "UMAIR TANVEER": {name: "UMAIR TANVEER", title: "Date: 02 Feb 2018 Rating: -0.156"},
+      "THINKPROGRESS": {name: "THINKPROGRESS", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "SCHR DINGER'S KAT": {name: "SCHR DINGER'S KAT", title: "Date: 02 Feb 2018 Rating: 0.500"},
+      "SHIRLEY MOORE": {name: "SHIRLEY MOORE", title: "Date: 02 Feb 2018 Rating: 0.188"},
+      "YVONNE NAIRN": {name: "YVONNE NAIRN", title: "Date: 02 Feb 2018 Rating: 0.042"},
+      "JJ": {name: "JJ", title: "Date: 02 Feb 2018 Rating: 0.230"},
+      "KILOVISION": {name: "KILOVISION", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "JANET E DEGEORGE": {name: "JANET E DEGEORGE", title: "Date: 02 Feb 2018 Rating: 0.150"},
+      "PT KAISER": {name: "PT KAISER", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "SOULS DEFENCE": {name: "SOULS DEFENCE", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "DOUG": {name: "DOUG", title: "Date: 02 Feb 2018 Rating: 0.350"},
+      "JORDIVK AKA YURIBCN": {name: "JORDIVK AKA YURIBCN", title: "Date: 02 Feb 2018 Rating: 0.200"},
+      "MY INFO MY NAME IS L": {name: "MY INFO MY NAME IS L", title: "Date: 02 Feb 2018 Rating: 0.500"},
+      "TED": {name: "TED", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "ALLEN WEST REPUBLIC": {name: "ALLEN WEST REPUBLIC", title: "Date: 02 Feb 2018 Rating: 0.250"},
+      "NEWSWEEK": {name: "NEWSWEEK", title: "Date: 02 Feb 2018 Rating: -0.100"},
+      "VAGABOND X": {name: "VAGABOND X", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "CHRISTOPHER STOKES": {name: "CHRISTOPHER STOKES", title: "Date: 02 Feb 2018 Rating: 0.400"},
+      "CHRISTOPHER STOKES": {name: "CHRISTOPHER STOKES", title: "Date: 02 Feb 2018 Rating: 0.357"},
+      ".              .": {name: ".              .", title: "Date: 02 Feb 2018 Rating: -0.044"},
+      "ABEL": {name: "ABEL", title: "Date: 02 Feb 2018 Rating: 0.600"},
+      "BEN WHITE": {name: "BEN WHITE", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "CHRISTOPHER STOKES": {name: "CHRISTOPHER STOKES", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "CHARLENE GOWEN": {name: "CHARLENE GOWEN", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "KELLY LYNNE": {name: "KELLY LYNNE", title: "Date: 02 Feb 2018 Rating: 0.122"},
+      "NORM DEPLUME": {name: "NORM DEPLUME", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "CHRISTOPHER STOKES": {name: "CHRISTOPHER STOKES", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "BRIAN DONNELLY": {name: "BRIAN DONNELLY", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "SUSAN": {name: "SUSAN", title: "Date: 02 Feb 2018 Rating: 0.056"},
+      "DOC PARKER": {name: "DOC PARKER", title: "Date: 02 Feb 2018 Rating: 0.200"},
+      "DWIGHT WILSON": {name: "DWIGHT WILSON", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "H FISHER COVFEFE": {name: "H FISHER COVFEFE", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "LIGHTNDARKNESS": {name: "LIGHTNDARKNESS", title: "Date: 02 Feb 2018 Rating: 0.202"},
+      "CANTU S": {name: "CANTU S", title: "Date: 02 Feb 2018 Rating: 0.700"},
+      "SOPHIA BAKER": {name: "SOPHIA BAKER", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "INDEPENDENTMIND": {name: "INDEPENDENTMIND", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "ZIA MOHAMMED": {name: "ZIA MOHAMMED", title: "Date: 02 Feb 2018 Rating: -0.167"},
+      "WATCHDOG": {name: "WATCHDOG", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "AMZSHOPONLINE": {name: "AMZSHOPONLINE", title: "Date: 02 Feb 2018 Rating: 0.100"},
+      "RANCE SAYS #RELEASETHEMEMO": {name: "RANCE SAYS #RELEASETHEMEMO", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "DEEPFRIED RICE BALLS": {name: "DEEPFRIED RICE BALLS", title: "Date: 02 Feb 2018 Rating: 0.052"},
+      "SUPREME MEME": {name: "SUPREME MEME", title: "Date: 02 Feb 2018 Rating: -0.500"},
+      "LORI": {name: "LORI", title: "Date: 02 Feb 2018 Rating: -0.067"},
+      "SHAWN": {name: "SHAWN", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "LARRY GIBSON": {name: "LARRY GIBSON", title: "Date: 02 Feb 2018 Rating: 0.250"},
+      "COMPLICIT CONGRESS KILLS DEMOCRACY-NEWS AT 11": {
+          name: "COMPLICIT CONGRESS KILLS DEMOCRACY-NEWS AT 11",
+          title: "Date: 02 Feb 2018 Rating: -0.120"
+      },
+      "JONATHAN KNIGHT": {name: "JONATHAN KNIGHT", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "ASH": {name: "ASH", title: "Date: 02 Feb 2018 Rating: -0.600"},
+      "DENNIS KNAKE": {name: "DENNIS KNAKE", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "WALTER HOLLAND": {name: "WALTER HOLLAND", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "AMR": {name: "AMR", title: "Date: 02 Feb 2018 Rating: 0.250"},
+      "JULIAN ARMSTRONG": {name: "JULIAN ARMSTRONG", title: "Date: 02 Feb 2018 Rating: 0.200"},
+      "JENNIE BLOOM": {name: "JENNIE BLOOM", title: "Date: 02 Feb 2018 Rating: 0.050"},
+      "CYNTHIA COTE": {name: "CYNTHIA COTE", title: "Date: 02 Feb 2018 Rating: -0.333"},
+      "G.O.D.S": {name: "G.O.D.S", title: "Date: 02 Feb 2018 Rating: -0.167"},
+      "ANI DIGITAL": {name: "ANI DIGITAL", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "WAYITIS!": {name: "WAYITIS!", title: "Date: 02 Feb 2018 Rating: 1.000"},
+      "PAUL YEE": {name: "PAUL YEE", title: "Date: 02 Feb 2018 Rating: -0.333"},
+      "HORST BROPHY": {name: "HORST BROPHY", title: "Date: 02 Feb 2018 Rating: -0.200"},
+      "BUSTER DELGATO": {name: "BUSTER DELGATO", title: "Date: 02 Feb 2018 Rating: 0.483"},
+      "#IDGAFF \_( )_/": {name: "#IDGAFF \_( )_/", title: "Date: 02 Feb 2018 Rating: 0.250"},
+      "CHAZ": {name: "CHAZ", title: "Date: 02 Feb 2018 Rating: 0.350"},
+      "PAULA TRETKOFF": {name: "PAULA TRETKOFF", title: "Date: 02 Feb 2018 Rating: -0.058"},
+      "KAREN CHESTNEY": {name: "KAREN CHESTNEY", title: "Date: 02 Feb 2018 Rating: 0.500"},
+      "ANTHONY D'JESUS": {name: "ANTHONY D'JESUS", title: "Date: 02 Feb 2018 Rating: -0.400"},
+      "SAFETYPIN-DAILY": {name: "SAFETYPIN-DAILY", title: "Date: 02 Feb 2018 Rating: -0.500"},
+      "_KJB": {name: "_KJB", title: "Date: 02 Feb 2018 Rating: -0.017"},
+      "LIBERAL&PROUD1963": {name: "LIBERAL&PROUD1963", title: "Date: 02 Feb 2018 Rating: 0.100"},
+      "MIKE TOWN": {name: "MIKE TOWN", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "TINISKWERL": {name: "TINISKWERL", title: "Date: 02 Feb 2018 Rating: -0.045"},
+      "BREAKING NEWS": {name: "BREAKING NEWS", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "GALAVANT": {name: "GALAVANT", title: "Date: 02 Feb 2018 Rating: -0.088"},
+      "ROBIN": {name: "ROBIN", title: "Date: 02 Feb 2018 Rating: 0.100"},
+      "MEL": {name: "MEL", title: "Date: 02 Feb 2018 Rating: 0.356"},
+      "BREAKING NEWS": {name: "BREAKING NEWS", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "NONE THE WISER": {name: "NONE THE WISER", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "PRESIDENT_TRUMP": {name: "PRESIDENT_TRUMP", title: "Date: 02 Feb 2018 Rating: -0.500"},
+      "R_OWL_MIRROR": {name: "R_OWL_MIRROR", title: "Date: 02 Feb 2018 Rating: -0.088"},
+      "REV TOM HOGLE": {name: "REV TOM HOGLE", title: "Date: 02 Feb 2018 Rating: 0.600"},
+      "DOTTIE KIBBLEPANTS": {name: "DOTTIE KIBBLEPANTS", title: "Date: 02 Feb 2018 Rating: 0.095"},
+      "B": {name: "B", title: "Date: 02 Feb 2018 Rating: 0.100"},
+      "CONSERVATIVE PATRIOT": {name: "CONSERVATIVE PATRIOT", title: "Date: 02 Feb 2018 Rating: -0.450"},
+      "STEPHANIE NEBEHAY": {name: "STEPHANIE NEBEHAY", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "NICK PETTIGREW": {name: "NICK PETTIGREW", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "BUSINESS INSIDER SG": {name: "BUSINESS INSIDER SG", title: "Date: 02 Feb 2018 Rating: -0.400"},
+      "JKL": {name: "JKL", title: "Date: 02 Feb 2018 Rating: -0.267"},
+      "ICEQUEEN": {name: "ICEQUEEN", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "DARIN BROWN": {name: "DARIN BROWN", title: "Date: 02 Feb 2018 Rating: 0.175"},
+      "JUST JOE WITH IT": {name: "JUST JOE WITH IT", title: "Date: 02 Feb 2018 Rating: -0.203"},
+      "DAVID KANG": {name: "DAVID KANG", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "MATRIXGHOST1286": {name: "MATRIXGHOST1286", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "US PRESIDENT NEWS": {name: "US PRESIDENT NEWS", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "CLIFFORD BUSTRIA": {name: "CLIFFORD BUSTRIA", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "RUTH PUNTON": {name: "RUTH PUNTON", title: "Date: 02 Feb 2018 Rating: 0.097"},
+      "NICK": {name: "NICK", title: "Date: 02 Feb 2018 Rating: -0.600"},
+      "LIL SOCIAL EXPERIMENT": {name: "LIL SOCIAL EXPERIMENT", title: "Date: 02 Feb 2018 Rating: 0.150"},
+      "TINA ANGIE ILDEFONSO": {name: "TINA ANGIE ILDEFONSO", title: "Date: 02 Feb 2018 Rating: -0.500"},
+      "MUELLER": {name: "MUELLER", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "ANT NYP REZ": {name: "ANT NYP REZ", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "A MORBID ATHEIST WHO LOVES DEATHMETAL": {
+          name: "A MORBID ATHEIST WHO LOVES DEATHMETAL",
+          title: "Date: 02 Feb 2018 Rating: -0.438"
+      },
+      "IRFAN MALIK JOURNALIST": {name: "IRFAN MALIK JOURNALIST", title: "Date: 02 Feb 2018 Rating: -0.590"},
+      "SNOTTBOT": {name: "SNOTTBOT", title: "Date: 02 Feb 2018 Rating: -0.400"},
+      "BAPROCTOR": {name: "BAPROCTOR", title: "Date: 02 Feb 2018 Rating: -0.083"},
+      "STELLABLUE": {name: "STELLABLUE", title: "Date: 02 Feb 2018 Rating: 0.500"},
+      "DONNIE SCHMIDT": {name: "DONNIE SCHMIDT", title: "Date: 02 Feb 2018 Rating: -0.333"},
+      "DENNIS BUCKLEY": {name: "DENNIS BUCKLEY", title: "Date: 02 Feb 2018 Rating: -0.013"},
+      "MOJAVE RATTLER": {name: "MOJAVE RATTLER", title: "Date: 02 Feb 2018 Rating: -0.100"},
+      "MARIANO": {name: "MARIANO", title: "Date: 02 Feb 2018 Rating: 0.200"},
+      "DEE3598": {name: "DEE3598", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "SHARON": {name: "SHARON", title: "Date: 02 Feb 2018 Rating: 0.438"},
+      "GOPISCOMPLICIT": {name: "GOPISCOMPLICIT", title: "Date: 02 Feb 2018 Rating: -0.050"},
+      "MIDWESTBUTTHURTNBS": {name: "MIDWESTBUTTHURTNBS", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "PETE DE LEON": {name: "PETE DE LEON", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "DEAN WEST": {name: "DEAN WEST", title: "Date: 02 Feb 2018 Rating: 0.250"},
+      "NETWORKOFNEWS GHANA": {name: "NETWORKOFNEWS GHANA", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "CHERYL CASEY ROSS": {name: "CHERYL CASEY ROSS", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "SHELLY": {name: "SHELLY", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "DANIEL STRIEFF": {name: "DANIEL STRIEFF", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "HEALTH NEWS": {name: "HEALTH NEWS", title: "Date: 02 Feb 2018 Rating: 0.200"},
+      "GODNEYBJS": {name: "GODNEYBJS", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "RABEKKA MARQUEZ": {name: "RABEKKA MARQUEZ", title: "Date: 02 Feb 2018 Rating: -0.500"},
+      "BOT COMMAND": {name: "BOT COMMAND", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "DEION WOOLLEY": {name: "DEION WOOLLEY", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "ROBERT KNIGHT": {name: "ROBERT KNIGHT", title: "Date: 02 Feb 2018 Rating: -0.142"},
+      "BUZZORT": {name: "BUZZORT", title: "Date: 02 Feb 2018 Rating: -0.010"},
+      "CAROL OLSEN": {name: "CAROL OLSEN", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "KING TIMBIG": {name: "KING TIMBIG", title: "Date: 02 Feb 2018 Rating: 0.800"},
+      "MICHAEL D SCHMIDT": {name: "MICHAEL D SCHMIDT", title: "Date: 02 Feb 2018 Rating: 0.125"},
+      "ELIZABETH": {name: "ELIZABETH", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "STEVE HOLMES": {name: "STEVE HOLMES", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "ME'ELUM": {name: "ME'ELUM", title: "Date: 02 Feb 2018 Rating: -0.433"},
+      "NYZAP": {name: "NYZAP", title: "Date: 02 Feb 2018 Rating: 0.250"},
+      "MARIANO": {name: "MARIANO", title: "Date: 02 Feb 2018 Rating: 0.350"},
+      "JOHN ALBERT": {name: "JOHN ALBERT", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "CONSERVATIVE LADY": {name: "CONSERVATIVE LADY", title: "Date: 02 Feb 2018 Rating: 0.433"},
+      "BONEBLACK": {name: "BONEBLACK", title: "Date: 02 Feb 2018 Rating: 0.100"},
+      "18D.MEDIA": {name: "18D.MEDIA", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "18D.MEDIA": {name: "18D.MEDIA", title: "Date: 02 Feb 2018 Rating: 0.050"},
+      "18D.MEDIA": {name: "18D.MEDIA", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "KATE~STILL NASTY!": {name: "KATE~STILL NASTY!", title: "Date: 02 Feb 2018 Rating: 0.400"},
+      "FINLEY CORDAIN": {name: "FINLEY CORDAIN", title: "Date: 02 Feb 2018 Rating: 0.400"},
+      "CAROL OLSEN": {name: "CAROL OLSEN", title: "Date: 02 Feb 2018 Rating: 0.633"},
+      "TAP WATER TURNS YOU TRIPLE GAY [BOT]": {
+          name: "TAP WATER TURNS YOU TRIPLE GAY [BOT]",
+          title: "Date: 02 Feb 2018 Rating: 0.000"
+      },
+      "KB": {name: "KB", title: "Date: 02 Feb 2018 Rating: 0.200"},
+      "THE RUDE CANADIAN": {name: "THE RUDE CANADIAN", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "SIMON FOX": {name: "SIMON FOX", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "MARIANNE": {name: "MARIANNE", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "ENERGY VOICE": {name: "ENERGY VOICE", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "IVAN PER": {name: "IVAN PER", title: "Date: 02 Feb 2018 Rating: 0.400"},
+      "THUMPER4066": {name: "THUMPER4066", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "SDVOSB": {name: "SDVOSB", title: "Date: 02 Feb 2018 Rating: -0.125"},
+      "G.ANN": {name: "G.ANN", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "ERIC MUIRHEAD": {name: "ERIC MUIRHEAD", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "HARAH": {name: "HARAH", title: "Date: 02 Feb 2018 Rating: 0.039"},
+      "MELANIA TRUMP": {name: "MELANIA TRUMP", title: "Date: 02 Feb 2018 Rating: 0.250"},
+      "BEN": {name: "BEN", title: "Date: 02 Feb 2018 Rating: -0.150"},
+      "CHRIS TREVI O": {name: "CHRIS TREVI O", title: "Date: 02 Feb 2018 Rating: 0.188"},
+      "R.DAVIDSON": {name: "R.DAVIDSON", title: "Date: 02 Feb 2018 Rating: -0.500"},
+      "AFROPOLITAN": {name: "AFROPOLITAN", title: "Date: 02 Feb 2018 Rating: -0.200"},
+      "ERR": {name: "ERR", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "PAKISTAN WIRE": {name: "PAKISTAN WIRE", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "LIFE OF ACTIONS": {name: "LIFE OF ACTIONS", title: "Date: 02 Feb 2018 Rating: 0.500"},
+      "SKIIN   GLEE": {name: "SKIIN   GLEE", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "INVESTIGATIVE PHOTOG": {name: "INVESTIGATIVE PHOTOG", title: "Date: 02 Feb 2018 Rating: -0.400"},
+      "BARBOHELLNO": {name: "BARBOHELLNO", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "AYN VAN BERGLAND": {name: "AYN VAN BERGLAND", title: "Date: 02 Feb 2018 Rating: 0.067"},
+      "PRES COIN": {name: "PRES COIN", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "SUCKERED SOB": {name: "SUCKERED SOB", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "BAMA/PATS FAN BIG BALLER BARKTIST": {
+          name: "BAMA/PATS FAN BIG BALLER BARKTIST",
+          title: "Date: 02 Feb 2018 Rating: -0.400"
+      },
+      "PRES COIN": {name: "PRES COIN", title: "Date: 02 Feb 2018 Rating: 0.183"},
+      "EFFDONALDTRUMP": {name: "EFFDONALDTRUMP", title: "Date: 02 Feb 2018 Rating: -0.400"},
+      "STACYFORTNER": {name: "STACYFORTNER", title: "Date: 02 Feb 2018 Rating: 0.200"},
+      "MIKE CURTIS": {name: "MIKE CURTIS", title: "Date: 02 Feb 2018 Rating: -0.100"},
+      "ROJERAILS": {name: "ROJERAILS", title: "Date: 02 Feb 2018 Rating: 1.000"},
+      "TOMI AHONEN": {name: "TOMI AHONEN", title: "Date: 02 Feb 2018 Rating: -0.188"},
+      "MIKEMERLINATOR": {name: "MIKEMERLINATOR", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "VEILLE INFO HUB": {name: "VEILLE INFO HUB", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "LEXXFTW": {name: "LEXXFTW", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "SKIIN   GLEE": {name: "SKIIN   GLEE", title: "Date: 02 Feb 2018 Rating: 0.200"},
+      "EURONEWS": {name: "EURONEWS", title: "Date: 02 Feb 2018 Rating: -0.400"},
+      "SAMANTHA JONES": {name: "SAMANTHA JONES", title: "Date: 02 Feb 2018 Rating: 0.200"},
+      "TWITCHER": {name: "TWITCHER", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "ANDY FREEDOM": {name: "ANDY FREEDOM", title: "Date: 02 Feb 2018 Rating: 0.125"},
+      "MARYHOLLIS TROUP": {name: "MARYHOLLIS TROUP", title: "Date: 02 Feb 2018 Rating: 0.550"},
+      "NIK KERSHAW": {name: "NIK KERSHAW", title: "Date: 02 Feb 2018 Rating: 0.246"},
+      "SCHLOMO": {name: "SCHLOMO", title: "Date: 02 Feb 2018 Rating: -0.125"},
+      "THEHAWAIIGUY": {name: "THEHAWAIIGUY", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "HEALTH NEWS": {name: "HEALTH NEWS", title: "Date: 02 Feb 2018 Rating: 0.200"},
+      "GEE GARZA": {name: "GEE GARZA", title: "Date: 02 Feb 2018 Rating: -0.700"},
+      "THOMAS HARRISON": {name: "THOMAS HARRISON", title: "Date: 02 Feb 2018 Rating: -0.071"},
+      "MAYARRI": {name: "MAYARRI", title: "Date: 02 Feb 2018 Rating: 0.425"},
+      "DJULIAN": {name: "DJULIAN", title: "Date: 02 Feb 2018 Rating: -0.250"},
+      "NORTHIERTHANTHOU.COM": {name: "NORTHIERTHANTHOU.COM", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "BMINORTHREAT": {name: "BMINORTHREAT", title: "Date: 02 Feb 2018 Rating: 0.141"},
+      "JANE SMITH": {name: "JANE SMITH", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "DAVID SHIMBERG": {name: "DAVID SHIMBERG", title: "Date: 02 Feb 2018 Rating: 0.500"},
+      "CORA": {name: "CORA", title: "Date: 02 Feb 2018 Rating: 0.333"},
+      "DWIGHT": {name: "DWIGHT", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "YANN COCQUET": {name: "YANN COCQUET", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "TWITCHER": {name: "TWITCHER", title: "Date: 02 Feb 2018 Rating: 0.200"},
+      "ANTONIA FILMER": {name: "ANTONIA FILMER", title: "Date: 02 Feb 2018 Rating: 0.200"},
+      "SKIIN   GLEE": {name: "SKIIN   GLEE", title: "Date: 02 Feb 2018 Rating: -0.400"},
+      "WILLIAM BRYANT": {name: "WILLIAM BRYANT", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "PATRIOT    LIFELOVER": {name: "PATRIOT    LIFELOVER", title: "Date: 02 Feb 2018 Rating: 0.037"},
+      "JUICY SPILLER": {name: "JUICY SPILLER", title: "Date: 02 Feb 2018 Rating: -0.022"},
+      "EDMUND SULLIVAN": {name: "EDMUND SULLIVAN", title: "Date: 02 Feb 2018 Rating: 0.022"},
+      "DENNIS BARCHET": {name: "DENNIS BARCHET", title: "Date: 02 Feb 2018 Rating: -0.050"},
+      "DEPLORABLYDEPLORABLE": {name: "DEPLORABLYDEPLORABLE", title: "Date: 02 Feb 2018 Rating: 0.383"},
+      "_59ALEX": {name: "_59ALEX", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "B": {name: "B", title: "Date: 02 Feb 2018 Rating: 0.200"},
+      "LAURENCE MONG": {name: "LAURENCE MONG", title: "Date: 02 Feb 2018 Rating: 0.375"},
+      "G.ANN": {name: "G.ANN", title: "Date: 02 Feb 2018 Rating: -0.100"},
+      "OSMAN TANSEL ERDEM": {name: "OSMAN TANSEL ERDEM", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "VETERAN4TRUMP": {name: "VETERAN4TRUMP", title: "Date: 02 Feb 2018 Rating: 0.143"},
+      "KENNETH G EADE": {name: "KENNETH G EADE", title: "Date: 02 Feb 2018 Rating: 1.000"},
+      "RAM CHARGER": {name: "RAM CHARGER", title: "Date: 02 Feb 2018 Rating: -0.300"},
+      "CYNTHIA": {name: "CYNTHIA", title: "Date: 02 Feb 2018 Rating: 0.222"},
+      "BEAU BOWDEN": {name: "BEAU BOWDEN", title: "Date: 02 Feb 2018 Rating: -0.300"},
+      "INFO 24 US": {name: "INFO 24 US", title: "Date: 02 Feb 2018 Rating: -0.400"},
+      "LUIMBE": {name: "LUIMBE", title: "Date: 02 Feb 2018 Rating: 0.500"},
+      "KEN Z": {name: "KEN Z", title: "Date: 02 Feb 2018 Rating: 0.117"},
+      "ROLLIBY": {name: "ROLLIBY", title: "Date: 02 Feb 2018 Rating: 0.136"},
+      "BARBARA LANDREE": {name: "BARBARA LANDREE", title: "Date: 02 Feb 2018 Rating: 0.117"},
+      "HONEYSEOK": {name: "HONEYSEOK", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "JUSTINSCAKE": {name: "JUSTINSCAKE", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "": {name: "", title: "Date: 02 Feb 2018 Rating: -0.050"},
+      "NEAL O'CONNOR": {name: "NEAL O'CONNOR", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "NICKY THE": {name: "NICKY THE", title: "Date: 02 Feb 2018 Rating: -0.100"},
+      "ELIZA WINDSOR": {name: "ELIZA WINDSOR", title: "Date: 02 Feb 2018 Rating: -0.250"},
+      "STEVEBANNONSNOSE": {name: "STEVEBANNONSNOSE", title: "Date: 02 Feb 2018 Rating: 0.075"},
+      "THE CRUZZZING SPOT": {name: "THE CRUZZZING SPOT", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "MAKE ALL GREAT AGAIN": {name: "MAKE ALL GREAT AGAIN", title: "Date: 02 Feb 2018 Rating: 0.800"},
+      "JAY GOOSE": {name: "JAY GOOSE", title: "Date: 02 Feb 2018 Rating: 0.600"},
+      "JENNIFER MARTIN": {name: "JENNIFER MARTIN", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "ROBERTO RE": {name: "ROBERTO RE", title: "Date: 02 Feb 2018 Rating: 0.500"},
+      "ALI ...BIASED #FBPE": {name: "ALI ...BIASED #FBPE", title: "Date: 02 Feb 2018 Rating: 0.067"},
+      "TRENDR": {name: "TRENDR", title: "Date: 02 Feb 2018 Rating: 0.500"},
+      "KAC": {name: "KAC", title: "Date: 02 Feb 2018 Rating: -0.400"},
+      "TRENDR": {name: "TRENDR", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "RAVEN ROTH #NUNESHOAX #NUNESFAKEMEMO": {
+          name: "RAVEN ROTH #NUNESHOAX #NUNESFAKEMEMO",
+          title: "Date: 02 Feb 2018 Rating: 0.000"
+      },
+      "ROGER R RIVERA": {name: "ROGER R RIVERA", title: "Date: 02 Feb 2018 Rating: -0.433"},
+      "TRENDR": {name: "TRENDR", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "INDICESENELMES": {name: "INDICESENELMES", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "STEPHEN MASSEY": {name: "STEPHEN MASSEY", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "PACIFIC ST JOURNAL": {name: "PACIFIC ST JOURNAL", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "JOANNE MARSLAND": {name: "JOANNE MARSLAND", title: "Date: 02 Feb 2018 Rating: 0.391"},
+      "GOOGLE NEWS US": {name: "GOOGLE NEWS US", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "JEEPEG": {name: "JEEPEG", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "DEEEEEEEEF": {name: "DEEEEEEEEF", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "SHWE NEW AGAIN": {name: "SHWE NEW AGAIN", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "JEFF BRUNTON": {name: "JEFF BRUNTON", title: "Date: 02 Feb 2018 Rating: 0.067"},
+      "MJ": {name: "MJ", title: "Date: 02 Feb 2018 Rating: 0.500"},
+      "JENNY": {name: "JENNY", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "THOMAS WICTOR": {name: "THOMAS WICTOR", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "MR HANNA": {name: "MR HANNA", title: "Date: 02 Feb 2018 Rating: 0.600"},
+      "JOHN M": {name: "JOHN M", title: "Date: 02 Feb 2018 Rating: 0.025"},
+      "HAMZA": {name: "HAMZA", title: "Date: 02 Feb 2018 Rating: -0.078"},
+      "JONATHAN GIARDINA": {name: "JONATHAN GIARDINA", title: "Date: 02 Feb 2018 Rating: 0.015"},
+      "SHERRYM": {name: "SHERRYM", title: "Date: 02 Feb 2018 Rating: 0.007"},
+      "PETE HOLBROOK": {name: "PETE HOLBROOK", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "BOUBOU": {name: "BOUBOU", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "(   ) '": {name: "(   ) '", title: "Date: 02 Feb 2018 Rating: -0.156"},
+      "THE INDEPENDENT": {name: "THE INDEPENDENT", title: "Date: 02 Feb 2018 Rating: -0.125"},
+      "SHERRY_RESON": {name: "SHERRY_RESON", title: "Date: 02 Feb 2018 Rating: 0.237"},
+      "THOMAS STEEN": {name: "THOMAS STEEN", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "EVILEYE": {name: "EVILEYE", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "NEIL MULVIHILL": {name: "NEIL MULVIHILL", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "HANDCRAFTLINE": {name: "HANDCRAFTLINE", title: "Date: 02 Feb 2018 Rating: 0.333"},
+      "MARGE DAVIS": {name: "MARGE DAVIS", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "HANDCRAFTLINE": {name: "HANDCRAFTLINE", title: "Date: 02 Feb 2018 Rating: -0.400"},
+      "GREGORY ALLEN LEEDS": {name: "GREGORY ALLEN LEEDS", title: "Date: 02 Feb 2018 Rating: -0.050"},
+      "HANDCRAFTLINE": {name: "HANDCRAFTLINE", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "ART SMITH": {name: "ART SMITH", title: "Date: 02 Feb 2018 Rating: 0.562"},
+      "NORTHIERTHANTHOU.COM": {name: "NORTHIERTHANTHOU.COM", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "KENNEDY MOLLOY": {name: "KENNEDY MOLLOY", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "WILSON": {name: "WILSON", title: "Date: 02 Feb 2018 Rating: -0.089"},
+      "BILL": {name: "BILL", title: "Date: 02 Feb 2018 Rating: 0.150"},
+      "H FISHER COVFEFE": {name: "H FISHER COVFEFE", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "DAVID BERNARD": {name: "DAVID BERNARD", title: "Date: 02 Feb 2018 Rating: 0.250"},
+      "JOE JOHNSON": {name: "JOE JOHNSON", title: "Date: 02 Feb 2018 Rating: -0.292"},
+      "ADRIAN TORR": {name: "ADRIAN TORR", title: "Date: 02 Feb 2018 Rating: 0.243"},
+      "JUSTIN": {name: "JUSTIN", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "JAIMEY PERHAM": {name: "JAIMEY PERHAM", title: "Date: 02 Feb 2018 Rating: -0.100"},
+      "LIBERAL&PROUD1963": {name: "LIBERAL&PROUD1963", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "BENTILLERMAN": {name: "BENTILLERMAN", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "WEBVIXEN": {name: "WEBVIXEN", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "BRITTANY MILLER": {name: "BRITTANY MILLER", title: "Date: 02 Feb 2018 Rating: -0.083"},
+      "TMCS": {name: "TMCS", title: "Date: 02 Feb 2018 Rating: -0.185"},
+      "PROF JENS MUELLER": {name: "PROF JENS MUELLER", title: "Date: 02 Feb 2018 Rating: 0.050"},
+      "NORTH KOREA 24": {name: "NORTH KOREA 24", title: "Date: 02 Feb 2018 Rating: -0.417"},
+      "KIVUMBI NAJIBU": {name: "KIVUMBI NAJIBU", title: "Date: 02 Feb 2018 Rating: -0.025"},
+      "M.": {name: "M.", title: "Date: 02 Feb 2018 Rating: -0.400"},
+      "TEXAN FOR TRUMP": {name: "TEXAN FOR TRUMP", title: "Date: 02 Feb 2018 Rating: 0.350"},
+      "FREE EDUCATION": {name: "FREE EDUCATION", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "NIGEL ALLERBY": {name: "NIGEL ALLERBY", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "A THOUSAND MOMS": {name: "A THOUSAND MOMS", title: "Date: 02 Feb 2018 Rating: -0.146"},
+      "LAINTAIN": {name: "LAINTAIN", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "TERRY NEWBERRY": {name: "TERRY NEWBERRY", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "AYN VAN BERGLAND": {name: "AYN VAN BERGLAND", title: "Date: 02 Feb 2018 Rating: 0.400"},
+      "TIDBIT": {name: "TIDBIT", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "RICHARD MARCHETTI": {name: "RICHARD MARCHETTI", title: "Date: 02 Feb 2018 Rating: -0.219"},
+      "TECHNOBUFFALO_EBOOKS": {name: "TECHNOBUFFALO_EBOOKS", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "BETH DENEAU": {name: "BETH DENEAU", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "CRISTRINA": {name: "CRISTRINA", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "NUNYABEEZNESS": {name: "NUNYABEEZNESS", title: "Date: 02 Feb 2018 Rating: 0.200"},
+      "MALCOLM": {name: "MALCOLM", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "MARIA ALLEN": {name: "MARIA ALLEN", title: "Date: 02 Feb 2018 Rating: 0.800"},
+      "NATHAN FURST": {name: "NATHAN FURST", title: "Date: 02 Feb 2018 Rating: -0.083"},
+      "DEBATETOLEARN": {name: "DEBATETOLEARN", title: "Date: 02 Feb 2018 Rating: -0.167"},
+      "JUSTICEMATTERS!": {name: "JUSTICEMATTERS!", title: "Date: 02 Feb 2018 Rating: -0.167"},
+      "GARNERBARRO": {name: "GARNERBARRO", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "ADELICIA BRAVE": {name: "ADELICIA BRAVE", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "ELENI": {name: "ELENI", title: "Date: 02 Feb 2018 Rating: -0.400"},
+      "DONUTS BEFORE BRONUTS": {name: "DONUTS BEFORE BRONUTS", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "CARMEN": {name: "CARMEN", title: "Date: 02 Feb 2018 Rating: 0.250"},
+      "COURAGE": {name: "COURAGE", title: "Date: 02 Feb 2018 Rating: 0.500"},
+      "MIKE BECKER": {name: "MIKE BECKER", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "CANDICE ANDERSON": {name: "CANDICE ANDERSON", title: "Date: 02 Feb 2018 Rating: -0.250"},
+      "LESLIE HUGHES": {name: "LESLIE HUGHES", title: "Date: 02 Feb 2018 Rating: 0.250"},
+      "LATASHA WILLIAMS": {name: "LATASHA WILLIAMS", title: "Date: 02 Feb 2018 Rating: 0.250"},
+      "KATIE PRESSLEY": {name: "KATIE PRESSLEY", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "PAUL": {name: "PAUL", title: "Date: 02 Feb 2018 Rating: -0.083"},
+      "NOAH BARKIN": {name: "NOAH BARKIN", title: "Date: 02 Feb 2018 Rating: 0.357"},
+      "18 VNSL": {name: "18 VNSL", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "ORGANICS": {name: "ORGANICS", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "EVERYTHING BLACK": {name: "EVERYTHING BLACK", title: "Date: 02 Feb 2018 Rating: -0.083"},
+      "JEAN MUMFORD": {name: "JEAN MUMFORD", title: "Date: 02 Feb 2018 Rating: 0.167"},
+      "GOD&USA2THEMAX": {name: "GOD&USA2THEMAX", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "": {name: "", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "SANDY ANDERSON": {name: "SANDY ANDERSON", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "NORM DEPLUME": {name: "NORM DEPLUME", title: "Date: 02 Feb 2018 Rating: 0.300"},
+      "NOPCWITHME": {name: "NOPCWITHME", title: "Date: 02 Feb 2018 Rating: 0.475"},
+      "STEVE": {name: "STEVE", title: "Date: 02 Feb 2018 Rating: -0.453"},
+      "JULIE": {name: "JULIE", title: "Date: 02 Feb 2018 Rating: -0.052"},
+      "SADUJ TOIRACSI": {name: "SADUJ TOIRACSI", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "NO NAME": {name: "NO NAME", title: "Date: 02 Feb 2018 Rating: -0.100"},
+      "OUR LADY TRACY OF THE MOST PATIENT": {
+          name: "OUR LADY TRACY OF THE MOST PATIENT",
+          title: "Date: 02 Feb 2018 Rating: 0.300"
+      },
+      "BOT_POLITICAL": {name: "BOT_POLITICAL", title: "Date: 02 Feb 2018 Rating: 0.200"},
+      "HOBOSCRATCH": {name: "HOBOSCRATCH", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "READABLOGABOUTIT": {name: "READABLOGABOUTIT", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "BASKETBALL JONES": {name: "BASKETBALL JONES", title: "Date: 02 Feb 2018 Rating: -0.500"},
+      "DR DRAKE": {name: "DR DRAKE", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "MARGARET VENZ": {name: "MARGARET VENZ", title: "Date: 02 Feb 2018 Rating: 0.215"},
+      "DAVID O'HALLORAN": {name: "DAVID O'HALLORAN", title: "Date: 02 Feb 2018 Rating: 0.500"},
+      "MADELINE WASHER OF BRAINS": {name: "MADELINE WASHER OF BRAINS", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "SAFETYPIN-DAILY": {name: "SAFETYPIN-DAILY", title: "Date: 02 Feb 2018 Rating: 0.000"},
+      "ROEL LOFTIS": {name: "ROEL LOFTIS", title: "Date: 02 Feb 2018 Rating: 0.000"}
 
     , "MALCOLM TURNBULL":
     { name: "Malcolm Turnbull"
@@ -287,35 +776,32 @@ function countWords(text) {
   }
 , topics:
   [
-       { name: "President", re: /\b(president)\b/gi, x: 491, y: 200 },
-       { name: "new", re: /\b(new)\b/gi, x: 76, y: 556 },
-       { name: "fake", re: /\b(fake)\b/gi, x: 84, y: 512 },
-       { name: "Davos", re: /\b(davos)\b/gi, x: 887, y: 543 },
-       { name: "money", re: /\b(money)\b/gi, x: 879, y: 488 },
-       { name: "people", re: /\b(people)\b/gi, x: 640, y: 652 },
-       { name: "MAGA", re: /\b(maga)\b/gi, x: 386, y: 655 },
-       { name: "call", re: /\b(call)\b/gi, x: 584, y: 162 },
-       { name: "Mueller", re: /\b(mueller)\b/gi, x: 802, y: 342 },
-       { name: "deal", re: /\b(deal)\b/gi, x: 152, y: 157 },
-       { name: "want", re: /\b(want)\b/gi, x: 58, y: 509 },
-       { name: "thing", re: /\b(thing)\b/gi, x: 725, y: 834 },
-       { name: "time", re: /\b(time)\b/gi, x: 540, y: 213 },
-       { name: "report", re: /\b(report)\b/gi, x: 592, y: 77 },
-       { name: "ordered", re: /\b(ordered)\b/gi, x: 720, y: 429 },
-       { name: "Watch", re: /\b(watch)\b/gi, x: 77, y: 696 },
-       { name: "America", re: /\b(america)\b/gi, x: 154, y: 577 },
-       { name: "great", re: /\b(great)\b/gi, x: 214, y: 478 },
-       { name: "good", re: /\b(good)\b/gi, x: 799, y: 86 },
-       { name: "going", re: /\b(going)\b/gi, x: 234, y: 817 },
-       { name: "side", re: /\b(side)\b/gi, x: 631, y: 804 },
-       { name: "everyone", re: /\b(everyone)\b/gi, x: 785, y: 761 },
-       { name: "re", re: /\b(re)\b/gi, x: 711, y: 826 },
-       { name: "think", re: /\b(think)\b/gi, x: 739, y: 823 },
-       { name: "racist", re: /\b(racist)\b/gi, x: 98, y: 376 },
-       { name: "give", re: /\b(give)\b/gi, x: 532, y: 288 },
-       { name: "wall", re: /\b(wall)\b/gi, x: 537, y: 296 },
-       { name: "Oh", re: /\b(oh)\b/gi, x: 181, y: 461 },
-       { name: "much", re: /\b(much)\b/gi, x: 188, y: 827 }
+      {name: "President", re: /\b(president)\b/gi, x: 422, y: 90},
+      {name: "memo", re: /\b(memo)\b/gi, x: 226, y: 835},
+      {name: "new", re: /\b(new)\b/gi, x: 17, y: 365},
+      {name: "want", re: /\b(want)\b/gi, x: 840, y: 827},
+      {name: "people", re: /\b(people)\b/gi, x: 252, y: 301},
+      {name: "Donald", re: /\b(donald)\b/gi, x: 862, y: 517},
+      {name: "Russia", re: /\b(russia)\b/gi, x: 365, y: 161},
+      {name: "Dem", re: /\b(dem)\b/gi, x: 744, y: 620},
+      {name: "Russian", re: /\b(russian)\b/gi, x: 545, y: 219},
+      {name: "make", re: /\b(make)\b/gi, x: 338, y: 123},
+      {name: "know", re: /\b(know)\b/gi, x: 782, y: 226},
+      {name: "even", re: /\b(even)\b/gi, x: 236, y: 722},
+      {name: "one", re: /\b(one)\b/gi, x: 666, y: 442},
+      {name: "time", re: /\b(time)\b/gi, x: 725, y: 333},
+      {name: "release", re: /\b(release)\b/gi, x: 399, y: 395},
+      {name: "need", re: /\b(need)\b/gi, x: 37, y: 422},
+      {name: "right", re: /\b(right)\b/gi, x: 114, y: 148},
+      {name: "love", re: /\b(love)\b/gi, x: 575, y: 810},
+      {name: "FBI", re: /\b(fbi)\b/gi, x: 229, y: 147},
+      {name: "help", re: /\b(help)\b/gi, x: 349, y: 201},
+      {name: "lie", re: /\b(lie)\b/gi, x: 343, y: 269},
+      {name: "us", re: /\b(us)\b/gi, x: 26, y: 23},
+      {name: "never", re: /\b(never)\b/gi, x: 819, y: 292},
+      {name: "give", re: /\b(give)\b/gi, x: 867, y: 860},
+      {name: "think", re: /\b(think)\b/gi, x: 426, y: 834},
+      {name: "America", re: /\b(america)\b/gi, x: 818, y: 823}
   ]
 });
 
