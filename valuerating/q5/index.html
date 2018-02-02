@@ -81,7 +81,7 @@
 
             var text = '<span class="text" style="color: ' + clr.trim() + ';"> ' + row.sum_rating.toFixed(2)
             // +'  ' + nIcons
-            +  ' </color> </span>';
+                + ' </span>';
 
             return text + d3.range(nIcons)
               .map(function () { return icon; }).join("");
@@ -105,13 +105,54 @@
           head: "Price",
           cl: "price",
           html: function (row) {
-            clr = getColorRating(row.price, summary.price_max, summary.price_min);
+
+              ratio_rating = 1 - (row.price - summary['price_min']) / (summary['price_max'] - summary['price_min'])
+              clr = color(ratio_rating);
             value = d3.format("$,")(row.price);
-            var text = '<span class="text" style="color: ' + getColorRating.toString() + ';"> ' + value + '</color> </span>';
+
+              var text = rating_style_prefix + clr.trim() + ';"> ' + value
+                  + '</color> </span>';
+              return text;
+          }
+          }
+
+          , {
+              head: "Market Price",
+              cl: "market_price",
+              html: function (row) {
+
+                  var vmetric = 'market_price';
+                  var normalized_mkt_price = Math.max(1, row.market_price);
+                  ratio_rating = (normalized_mkt_price - summary['price_min']) / (summary['price_max'] - summary['price_min'])
+                  clr = color(ratio_rating);
+
+                  value = d3.format("$,")(normalized_mkt_price);
+
+                  var text = rating_style_prefix + 'black' + ';"> ' + value
+                      // + ' ' + ratio_rating
+                      + '</color> </span>';
+                  return text;
+              }
+          }
+
+
+          , {
+              head: "Saving",
+              cl: "price_difference",
+              html: function (row) {
+                  ratio_rating = (row.price_difference - summary['price_difference_min']) / (summary['price_difference_max'] - summary['price_difference_min'])
+                  clr = color(ratio_rating);
+
+                  value = d3.format("$,")(row.price_difference);
+
+                  var text = rating_style_prefix + clr.trim() + ';"> ' + value
+                      // + ' ' + ratio_rating
+                      + '</color> </span>';
             return text;
           }
         }
-        , {
+
+          , {
           head: "Age",
           cl: "age",
           html: function (row) {
