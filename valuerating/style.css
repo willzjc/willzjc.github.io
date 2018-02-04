@@ -208,7 +208,7 @@ text.label {
 }
 
 .bar {
-    fill: steelblue;
+    /*fill: steelblue;*/
     fill-opacity: .9;
 }
 
