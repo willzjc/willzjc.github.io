@@ -26,9 +26,31 @@
 
     d3.select("input[value=\"total\"]").property("checked", true);
 
-    //replaceprice
 
-    //replacemilage
+    average_prices = [
+
+        {label: "2018", value: 19496},
+        {label: "2017", value: 19043},
+        {label: "2016", value: 17792},
+        {label: "2015", value: 16916},
+        {label: "2014", value: 14713},
+        {label: "2013", value: 15995},
+        {label: "2012", value: 13061},
+        {label: "2011", value: 13190}
+
+    ];
+
+
+    average_milages = [
+        {label: "2018", value: 81472},
+        {label: "2017", value: 92677},
+        {label: "2016", value: 98179},
+        {label: "2015", value: 104301},
+        {label: "2014", value: 125901},
+        {label: "2013", value: 118871},
+        {label: "2012", value: 154268},
+        {label: "2011", value: 139490}
+    ];
 
 
     datasetTotal = [
@@ -217,14 +239,14 @@
 
                 if (current_selection == 'milage') {
 
-                    div.html((d.label) + "<br/>Average Milage: " + d3.format(",")(d.value)
+                    div.html((d.label) + "<br/>" + d3.format(",")(d.value)
                         + ' km'
                         + '<br/> ' + d3.format('%')(percentage_difference) + " increase"
                     );
                 }
                 else {
 
-                    div.html((d.label) + "<br>Average Price" + d3.format("$,")(d.value)
+                    div.html((d.label) + "<br>" + d3.format("$,")(d.value)
                         + '<br/> ' + d3.format('%')(percentage_difference) + " price drop"
                     );
                 }
