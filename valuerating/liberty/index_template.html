@@ -26,33 +26,9 @@
 
     d3.select("input[value=\"total\"]").property("checked", true);
 
+    //replaceprice
 
-            average_prices = [
-
-               {label: "2018", value: 19496 },
-			{label: "2017", value: 19043 },
-			{label: "2016", value: 17792 },
-			{label: "2015", value: 16916 },
-			{label: "2014", value: 14713 },
-			{label: "2013", value: 15995 },
-			{label: "2012", value: 13061 },
-			{label: "2011", value: 13190 }
-
-            ];
-
-
-
-            average_milages = [
-               {label: "2018", value: 81472 },
-			{label: "2017", value: 92677 },
-			{label: "2016", value: 98179 },
-			{label: "2015", value: 104301 },
-			{label: "2014", value: 125901 },
-			{label: "2013", value: 118871 },
-			{label: "2012", value: 154268 },
-			{label: "2011", value: 139490 }
-            ];
-
+    //replacemilage
 
 
     datasetTotal = [
@@ -143,15 +119,15 @@
         .attr("transform", "translate(0," + height + ")")
         .call(xAxis);
 
-    var firstrun=true;
-    var years=[];
+    var firstrun = true;
+    var years = [];
 
     change(average_prices, 1);
 
 
     function change(dataset, colorcode) {
 
-        var value_dict={};
+        var value_dict = {};
 
         x.domain(dataset.map(function (d) {
             return d.label;
@@ -184,8 +160,6 @@
                 return d.label;
             })
         ;
-
-
 
 
         bar.enter().append("rect")
@@ -236,10 +210,10 @@
                 div.style("left", d3.event.pageX + 10 + "px");
                 div.style("top", d3.event.pageY - 25 + "px");
                 div.style("display", "inline-block");
-                prev_val=parseFloat(value_dict[colorcode.toString()+'_'+ years[Math.max(0,years.indexOf(d.label.toString())-1)]]);
-                curr_val=parseFloat(d.value);
+                prev_val = parseFloat(value_dict[colorcode.toString() + '_' + years[Math.max(0, years.indexOf(d.label.toString()) - 1)]]);
+                curr_val = parseFloat(d.value);
 
-                percentage_difference = Math.abs(((prev_val - curr_val) / prev_val ));
+                percentage_difference = Math.abs(((prev_val - curr_val) / prev_val));
 
                 if (current_selection == 'milage') {
 
@@ -272,7 +246,7 @@
             .attr("y", function (d) {
                 return y(d.value);
             })
-           .attr("fill", function (d) {
+            .attr("fill", function (d) {
                 if (colorcode == 1) {
                     return "steelblue";
                 }
@@ -282,8 +256,8 @@
                 ;
             })
             .attr("height", function (d) {
-                firstrun=false;
-                value_dict[colorcode.toString() + '_' + d.label]=d.value;
+                firstrun = false;
+                value_dict[colorcode.toString() + '_' + d.label] = d.value;
                 return height - y(d.value);
             });
     };

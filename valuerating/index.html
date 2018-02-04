@@ -26,35 +26,60 @@
 
     d3.select("input[value=\"total\"]").property("checked", true);
 
+    
+            average_prices = [ 
 
-    average_prices = [
+               {label: "2018", value: 39836 },
+			{label: "2017", value: 31638 },
+			{label: "2016", value: 27254 },
+			{label: "2015", value: 21537 },
+			{label: "2014", value: 20031 },
+			{label: "2013", value: 17589 },
+			{label: "2012", value: 15601 },
+			{label: "2011", value: 15379 },
+			{label: "2010", value: 12189 },
+			{label: "2009", value: 9974 },
+			{label: "2008", value: 9513 },
+			{label: "2007", value: 8984 },
+			{label: "2006", value: 7691 },
+			{label: "2005", value: 7058 },
+			{label: "2004", value: 5366 },
+			{label: "2003", value: 4757 },
+			{label: "2002", value: 3450 },
+			{label: "2001", value: 4164 },
+			{label: "2000", value: 4787 },
+			{label: "1999", value: 2100 },
+			{label: "1998", value: 3000 },
+			{label: "1997", value: 1000 } 
+ 
+            ];
+        
 
-        {label: "2018", value: 62815},
-        {label: "2017", value: 49756},
-        {label: "2016", value: 48459},
-        {label: "2015", value: 43189},
-        {label: "2014", value: 39154},
-        {label: "2013", value: 33810},
-        {label: "2012", value: 27946},
-        {label: "2011", value: 27141},
-        {label: "2010", value: 22544},
-        {label: "2009", value: 23266}
-
-    ];
-
-
-    average_milages = [
-        {label: "2018", value: 26677},
-        {label: "2017", value: 24698},
-        {label: "2016", value: 51672},
-        {label: "2015", value: 61173},
-        {label: "2014", value: 84168},
-        {label: "2013", value: 89451},
-        {label: "2012", value: 108080},
-        {label: "2011", value: 110418},
-        {label: "2010", value: 120885},
-        {label: "2009", value: 106993}
-    ];
+    
+            average_milages = [ 
+               {label: "2018", value: 165 },
+			{label: "2017", value: 19717 },
+			{label: "2016", value: 52670 },
+			{label: "2015", value: 80267 },
+			{label: "2014", value: 94230 },
+			{label: "2013", value: 100730 },
+			{label: "2012", value: 115262 },
+			{label: "2011", value: 129046 },
+			{label: "2010", value: 146285 },
+			{label: "2009", value: 143111 },
+			{label: "2008", value: 161944 },
+			{label: "2007", value: 163425 },
+			{label: "2006", value: 192081 },
+			{label: "2005", value: 170884 },
+			{label: "2004", value: 239039 },
+			{label: "2003", value: 192624 },
+			{label: "2002", value: 173219 },
+			{label: "2001", value: 216270 },
+			{label: "2000", value: 238834 },
+			{label: "1999", value: 243211 },
+			{label: "1998", value: 125101 },
+			{label: "1997", value: 238915 } 
+            ];
         
 
 
@@ -187,8 +212,6 @@
                 return d.label;
             })
         ;
-
-
 
 
         bar.enter().append("rect")
