@@ -241,14 +241,14 @@
 
                 if (current_selection == 'milage') {
 
-                    div.html((d.label) + "<br/>" + d3.format(",")(d.value)
+                    div.html((d.label) + "<br/>Average Milage: " + d3.format(",")(d.value)
                         + ' km'
-                        + '<br/> ' + d3.format('%')(percentage_difference) + " increase"
+                        + '<br/>' + d3.format('%')(percentage_difference) + " increase"
                     );
                 }
                 else {
 
-                    div.html((d.label) + "<br>" + d3.format("$,")(d.value)
+                    div.html((d.label) + "<br> Average Price: " + d3.format("$,")(d.value)
                         + '<br/> ' + d3.format('%')(percentage_difference) + " price drop"
                     );
                 }
