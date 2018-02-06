@@ -31,6 +31,7 @@
     //replacemilage
 
 
+
     datasetTotal = [
         {label: "2015", value: 19},
         {label: "Category 2", value: 5},
@@ -89,7 +90,7 @@
         // height = parseInt(d3.select('body').style('height'), 10) - margin.top - margin.bottom;
         height = 250;
 
-    var div = d3.select("body").append("div").attr("class", "toolTip");
+    var tooltip_div = d3.select("body").append("div").attr("class", "toolTip");
 
     var formatPercent = d3.format("");
 
@@ -121,13 +122,17 @@
 
     var firstrun = true;
     var years = [];
+    var value_dict = {};
 
+
+    var firstrun = true;
+    var years = [];
+    var value_dict = {};
+
+    change(average_milages, 2);
     change(average_prices, 1);
 
-
     function change(dataset, colorcode) {
-
-        var value_dict = {};
 
         x.domain(dataset.map(function (d) {
             return d.label;
@@ -190,7 +195,7 @@
             for (var i = 0; i < years.length; i++) {
                 years[i].previous = years[i - 1];
             }
-            console.log(years);
+            // console.log(years);
         }
 
         // // Add the scatterplot
@@ -204,44 +209,84 @@
         //     ;})
         //     .attr("cx", function(d) { return x(d.date); })
         //     .attr("cy", function(d) { return y(d.close); });
-
+        first_year=null;
         bar
             .on("mousemove", function (d) {
-                div.style("left", d3.event.pageX + 10 + "px");
-                div.style("top", d3.event.pageY - 25 + "px");
-                div.style("display", "inline-block");
+                tooltip_div.style("left", d3.event.pageX + 10 + "px");
+                tooltip_div.style("top", d3.event.pageY - 25 + "px");
+                tooltip_div.style("display", "inline-block");
+
                 prev_val = parseFloat(value_dict[colorcode.toString() + '_' + years[Math.max(0, years.indexOf(d.label.toString()) - 1)]]);
                 curr_val = parseFloat(d.value);
 
+                var other_colorcode = colorcode;
+                if (other_colorcode == 1) {
+                    other_colorcode = 2
+                } else {
+                    other_colorcode = 1
+                }
+                ;
+
+                other_val = parseFloat(value_dict[other_colorcode.toString() + '_' + years[Math.max(0, years.indexOf(d.label.toString()))]]);
                 percentage_difference = (((prev_val - curr_val) / prev_val));
 
                 label_info = '';
                 metric_unit = '';
                 metric_info = '';
+                other_metric = '';
+                color = "green";
+
 
                 if (current_selection == 'milage') {
                     label_info = 'Avg Milage: ';
                     metric_unit = ' km'
                     metric_info = ' difference';
+                    other_metric = '<br/>Avg Price: $' + d3.format(",")(other_val);
+                    percentage_difference=-percentage_difference;
                 }
                 else {
-                    label_info = 'Avg Price: ';
-                    metric_info = " price drop";
+                    label_info = 'Avg Price: $';
+                    metric_info = " price diff";
                     // div.html((d.label) + "<br>Avg Price: " + d3.format("$,")(d.value)
                     //     + '<br/> ' + d3.format('%')(percentage_difference) + " price drop"
                     // );
+
+                    // if (other_val < 0) { color="red" };
+                    other_metric = '<br/>Avg Milage: <font =color="' + 'black' + '">' + d3.format(",")(other_val) + "</font> km";
+
+
+                }
+                ;
+                if (percentage_difference < 0) {
+                    color = "red"
                 };
 
-                div.html((d.label) + "<br/>" + label_info + d3.format(",")(d.value)
+                var metric_result = '<font color="' + color + '"> ' + d3.format("%")(percentage_difference) + "</font>";
+
+                // gets the first year to compare something to
+                if (first_year == null) { first_year=d.label.toString()};
+                var first_val= parseFloat(value_dict[colorcode.toString() + '_' + first_year]);
+
+                var firstsample_vs_metric_result  = d3.format('%')(((first_val - curr_val) / first_val));
+                firstsample_vs_metric_result=" <br/>" +
+                    + "first year: "  + first_year + "<br/>"
+                    + "first val: "   + first_val.toString() + "<br/>"
+                    + "curr val: "    + curr_val.toString() +"<br/>"
+                ;
+
+                tooltip_div.html((d.label) + "<br/>" + label_info + d3.format(",")(d.value)
                     + metric_unit
-                    + '<br/> ' + d3.format('%')(percentage_difference) + metric_info
+                    // + '<br/> ' + d3.format('%')(percentage_difference) + metric_info
+                    + '<br/> ' + metric_result + metric_info
+                    + '<font style="italic"><br/> ' + firstsample_vs_metric_result + metric_info + "</font>"
+                    + '<br/> ' + other_metric
                 );
 
             });
 
         bar
             .on("mouseout", function (d) {
-                div.style("display", "none");
+                tooltip_div.style("display", "none");
             });
 
         // removed data:
