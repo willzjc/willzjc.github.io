@@ -288,6 +288,9 @@
                 other_metric = '';
                 color = "green";
 
+                var first_val = parseFloat(value_dict[colorcode.toString() + '_' + years[0].toString()]);
+                var firstsample_vs_metric_result  = '';
+                firstsample_vs_metric_result=((first_val - curr_val) / first_val);
 
                 if (current_selection == 'milage') {
                     label_info = 'Avg Milage: ';
@@ -295,6 +298,7 @@
                     metric_info = ' difference';
                     other_metric = '<br/>Avg Price: $' + d3.format(",")(other_val);
                     percentage_difference=-percentage_difference;
+                    firstsample_vs_metric_result=-firstsample_vs_metric_result;
                 }
                 else {
                     label_info = 'Avg Price: $';
@@ -313,26 +317,14 @@
                     color = "red"
                 };
 
-                var metric_result = '<font color="' + color + '"> ' + d3.format("%")(percentage_difference) + "</font>";
+                var prev_comparison_metric_result = '<font color="' + color + '"> ' + d3.format("%")(percentage_difference) + "</font>";
 
-                // gets the first year to compare something to
-
-                // var first_val= parseFloat(value_dict[colorcode.toString() + '_' + first_year]);
-                var first_val = parseFloat(value_dict[colorcode.toString() + '_' + years[0].toString()]);
-                var firstsample_vs_metric_result  = '';
-                // firstsample_vs_metric_result=d3.format('%')(((first_val - curr_val) / first_val));
-                firstsample_vs_metric_result=" <br/>"
-                    + "first year: "  + years[0] + "<br/>"
-                    // + "first year: "  + first_year.toString() + "<br/>"
-                    // + "first val: "   + first_val.toString() + "<br/>"
-                    // + "curr val: "    + curr_val.toString() +"<br/>"
-                ;
 
                 tooltip_div.html((d.label) + "<br/>" + label_info + d3.format(",")(d.value)
                     + metric_unit
                     // + '<br/> ' + d3.format('%')(percentage_difference) + metric_info
-                    + '<br/> ' + metric_result + metric_info
-                    + '<font color="blue"><br/> ' + firstsample_vs_metric_result + metric_info + "</font>"
+                    + '<br/> ' + prev_comparison_metric_result + metric_info
+                    + '<font color="black"><br/>(<i>' + d3.format('%')(firstsample_vs_metric_result) + " vs first" + "</i>)</font>"
                     + '<br/> ' + other_metric
                 );
 
@@ -383,7 +375,7 @@
     table.append("thead");
     table.append("tbody");
 
-    var color = d3.scale.linear()
+    var d3color = d3.scale.linear()
         .domain([0, 1])
         .range(["red", "green"]);
 
@@ -422,7 +414,7 @@
                 html: function (row) {
                     rrange = (summary['sum_rating_max'] - summary['sum_rating_min']);
                     ratio_rating = (row.sum_rating - summary['sum_rating_min']) / rrange;
-                    clr = color(ratio_rating);
+                    clr = d3color(ratio_rating);
 
                     mx = summary['sum_rating_min'];
                     mn = summary['sum_rating_max'];
@@ -469,7 +461,7 @@
                 html: function (row) {
 
                     ratio_rating = 1 - (row.price - summary['price_min']) / (summary['price_max'] - summary['price_min'])
-                    clr = color(ratio_rating);
+                    clr = d3color(ratio_rating);
                     value = d3.format("$,")(row.price);
 
                     var text = rating_style_prefix + clr.trim() + ';"> ' + value
@@ -486,7 +478,7 @@
                     var vmetric = 'market_price';
                     var normalized_mkt_price = Math.max(1, row.market_price);
                     ratio_rating = (normalized_mkt_price - summary['price_min']) / (summary['price_max'] - summary['price_min'])
-                    clr = color(ratio_rating);
+                    clr = d3color(ratio_rating);
 
                     value = d3.format("$,")(normalized_mkt_price);
 
@@ -503,7 +495,7 @@
                 cl: "price_difference",
                 html: function (row) {
                     ratio_rating = (row.price_difference - summary['price_difference_min']) / (summary['price_difference_max'] - summary['price_difference_min'])
-                    clr = color(ratio_rating);
+                    clr = d3color(ratio_rating);
 
                     value = d3.format("$,")(row.price_difference);
 
@@ -565,7 +557,7 @@
                 html: function (row) {
 
                     ratio_rating = 1 - (row.price - summary['price_min']) / (summary['price_max'] - summary['price_min'])
-                    clr = color(ratio_rating);
+                    clr = d3color(ratio_rating);
 
                     var text = rating_style_prefix + clr.trim() + ';"> ' + row.price_rating
                         + '</color> </span>';
@@ -580,7 +572,7 @@
                 html: function (row) {
 
                     ratio_rating = 1 - (row.milage - summary['milage_min']) / (summary['milage_max'] - summary['milage_min'])
-                    clr = color(ratio_rating);
+                    clr = d3color(ratio_rating);
                     // inverseclr = color( 1 - ratio_rating );
                     // clr=summary['milage_max'];
 
@@ -596,7 +588,7 @@
                 html: function (row) {
 
                     ratio_rating = 1 - (row.age - summary['age_min']) / (summary['age_max'] - summary['age_min'])
-                    clr = color(ratio_rating);
+                    clr = d3color(ratio_rating);
 
                     var text = rating_style_prefix + clr.trim() + ';"> ' + row.age_rating
                         + '</color> </span>';

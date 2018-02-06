@@ -274,7 +274,6 @@ function countWords(text) {
 , "REBECCA ZITA: Sweet banget👫💟 #wv https://t.co/jNGqCpUAxv\n"
 , "CRUMBCATCHINGPATRIOT: He had EVERY right to it!\n"
 , "ERIC HOLM: Congrats to the Truman 2017 Hall of Fame class Pallo Norman Floyd Dombrowski Kelley-Zita What a great and deserving group #isdstrong #Thspatriots https://t.co/0eWwFhz8TF\n"
-, "ZITA: i will never get over how much fun last night was I LOVE U https://t.co/zJEERzcIZI\n"
       ]
     }
   , { name: "republican"
@@ -282,6 +281,7 @@ function countWords(text) {
       [
         "MALCOLM TURNBULL: " +
         "Thank you, thank you very much.\n",
+, "ALAN HENRY: Joseph Zita don’t make destructive choices!\n"
 , "CRUMBCATCHINGPATRIOT: Watch HS Goon Body Slams 62yr Old Teacher Over Getting His Phone Confiscated Disgusting https://t.co/QyaMfZ68j1\n"
 , "TINA ZITA: Sorry about that Got caught up in the chatter\n"
 , "JAMES STEEVES:  zita hi Tina Sorry--I planned to join your webinar but I got no info re logging in and now it seems too late I will listen to it when it is posted\n"
@@ -326,7 +326,6 @@ function countWords(text) {
 , "TINA ZITA: I have been playing with the last few weeks They had just added a twitter import feature I’ll be checking out tomorrow They will also help you import your storifies\n"
 , "CRUMBCATCHINGPATRIOT:  noyes You’ve shown your blatant ignorance .\n"
 , "CRUMBCATCHINGPATRIOT: Stinks like rotting fish.\n"
-, "CRUMBCATCHINGPATRIOT:  McMullin Wrong.\n"
       ]
     }
   ]
@@ -338,6 +337,8 @@ function countWords(text) {
     , title: "Opposition Leader (Labor Party)"
     },
 
+ "ALAN HENRY": { name: "ALAN HENRY", title: "Date: 06 Feb 2018 Rating: -0.750" } ,
+ "REBECCA ZITA": { name: "REBECCA ZITA", title: "Date: 06 Feb 2018 Rating: 0.000" } ,
  "JOHANNA B RSCH-SUPAN": { name: "JOHANNA B RSCH-SUPAN", title: "Date: 06 Feb 2018 Rating: 0.353" } ,
  "REBECCA ZITA": { name: "REBECCA ZITA", title: "Date: 06 Feb 2018 Rating: 0.000" } ,
  "CRUMBCATCHINGPATRIOT": { name: "CRUMBCATCHINGPATRIOT", title: "Date: 06 Feb 2018 Rating: 0.000" } ,
@@ -735,9 +736,7 @@ function countWords(text) {
  "REBECCA ZITA": { name: "REBECCA ZITA", title: "Date: 03 Feb 2018 Rating: 0.350" } ,
  "REBECCA ZITA": { name: "REBECCA ZITA", title: "Date: 03 Feb 2018 Rating: 0.000" } ,
  "CRUMBCATCHINGPATRIOT": { name: "CRUMBCATCHINGPATRIOT", title: "Date: 03 Feb 2018 Rating: 0.357" } ,
- "ERIC HOLM": { name: "ERIC HOLM", title: "Date: 03 Feb 2018 Rating: 0.700" } ,
- "CRUMBCATCHINGPATRIOT": { name: "CRUMBCATCHINGPATRIOT", title: "Date: 03 Feb 2018 Rating: -0.500" } ,
- "ZITA": { name: "ZITA", title: "Date: 03 Feb 2018 Rating: 0.267" } 
+ "ERIC HOLM": { name: "ERIC HOLM", title: "Date: 03 Feb 2018 Rating: 0.700" } 
 
     , "MALCOLM TURNBULL":
     { name: "Malcolm Turnbull"
@@ -747,33 +746,33 @@ function countWords(text) {
   }
 , topics:
   [
-       { name: "CRUMBCATCHINGPATRIOT", re: /\b(crumbcatchingpatriot)\b/gi, x: 777, y: 294 },
-       { name: "TINA", re: /\b(tina)\b/gi, x: 77, y: 210 },
-       { name: "love", re: /\b(love)\b/gi, x: 631, y: 812 },
-       { name: "MARK", re: /\b(mark)\b/gi, x: 717, y: 805 },
-       { name: "Thank", re: /\b(thank)\b/gi, x: 176, y: 76 },
-       { name: "one", re: /\b(one)\b/gi, x: 280, y: 734 },
-       { name: "Ics", re: /\b(ics)\b/gi, x: 476, y: 615 },
-       { name: "pd", re: /\b(pd)\b/gi, x: 231, y: 374 },
-       { name: "new", re: /\b(new)\b/gi, x: 528, y: 425 },
-       { name: "great", re: /\b(great)\b/gi, x: 380, y: 689 },
-       { name: "king", re: /\b(king)\b/gi, x: 782, y: 141 },
-       { name: "kid", re: /\b(kid)\b/gi, x: 471, y: 874 },
-       { name: "us", re: /\b(us)\b/gi, x: 236, y: 563 },
-       { name: "know", re: /\b(know)\b/gi, x: 188, y: 522 },
-       { name: "much", re: /\b(much)\b/gi, x: 420, y: 816 },
-       { name: "good", re: /\b(good)\b/gi, x: 29, y: 397 },
-       { name: "SuperBowl", re: /\b(superbowl)\b/gi, x: 447, y: 586 },
-       { name: "see", re: /\b(see)\b/gi, x: 551, y: 793 },
-       { name: "sumner", re: /\b(sumner)\b/gi, x: 463, y: 475 },
-       { name: "Upload", re: /\b(upload)\b/gi, x: 781, y: 57 },
-       { name: "cover", re: /\b(cover)\b/gi, x: 309, y: 855 },
-       { name: "Invite", re: /\b(invite)\b/gi, x: 635, y: 460 },
-       { name: "mention", re: /\b(mention)\b/gi, x: 856, y: 573 },
-       { name: "saying", re: /\b(saying)\b/gi, x: 239, y: 9 },
-       { name: "twitter", re: /\b(twitter)\b/gi, x: 500, y: 321 },
-       { name: "got", re: /\b(got)\b/gi, x: 687, y: 601 },
-       { name: "without", re: /\b(without)\b/gi, x: 355, y: 824 }
+       { name: "CRUMBCATCHINGPATRIOT", re: /\b(crumbcatchingpatriot)\b/gi, x: 615, y: 429 },
+       { name: "TINA", re: /\b(tina)\b/gi, x: 730, y: 208 },
+       { name: "MARK", re: /\b(mark)\b/gi, x: 375, y: 292 },
+       { name: "love", re: /\b(love)\b/gi, x: 266, y: 652 },
+       { name: "Thank", re: /\b(thank)\b/gi, x: 569, y: 377 },
+       { name: "one", re: /\b(one)\b/gi, x: 330, y: 845 },
+       { name: "Ics", re: /\b(ics)\b/gi, x: 808, y: 207 },
+       { name: "pd", re: /\b(pd)\b/gi, x: 676, y: 143 },
+       { name: "new", re: /\b(new)\b/gi, x: 338, y: 315 },
+       { name: "great", re: /\b(great)\b/gi, x: 122, y: 310 },
+       { name: "king", re: /\b(king)\b/gi, x: 539, y: 855 },
+       { name: "kid", re: /\b(kid)\b/gi, x: 664, y: 540 },
+       { name: "us", re: /\b(us)\b/gi, x: 578, y: 775 },
+       { name: "know", re: /\b(know)\b/gi, x: 402, y: 378 },
+       { name: "good", re: /\b(good)\b/gi, x: 24, y: 786 },
+       { name: "SuperBowl", re: /\b(superbowl)\b/gi, x: 362, y: 377 },
+       { name: "see", re: /\b(see)\b/gi, x: 758, y: 874 },
+       { name: "much", re: /\b(much)\b/gi, x: 266, y: 709 },
+       { name: "sumner", re: /\b(sumner)\b/gi, x: 496, y: 647 },
+       { name: "Upload", re: /\b(upload)\b/gi, x: 375, y: 693 },
+       { name: "cover", re: /\b(cover)\b/gi, x: 880, y: 384 },
+       { name: "Invite", re: /\b(invite)\b/gi, x: 839, y: 522 },
+       { name: "mention", re: /\b(mention)\b/gi, x: 11, y: 351 },
+       { name: "saying", re: /\b(saying)\b/gi, x: 330, y: 475 },
+       { name: "twitter", re: /\b(twitter)\b/gi, x: 281, y: 154 },
+       { name: "got", re: /\b(got)\b/gi, x: 752, y: 105 },
+       { name: "without", re: /\b(without)\b/gi, x: 363, y: 794 }
   ]
 });
 
