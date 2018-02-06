@@ -21,7 +21,7 @@ def main():
     api = TweetScan.TwitterClient()
 
     # calling function to get tweets
-    query = "trump"
+    query = "Zita"
     sentimentcount = 400
 
     messages_matrix = pd.DataFrame(columns=['user','upper_user','message','time','sentiment'])
