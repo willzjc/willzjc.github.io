@@ -1,22 +1,24 @@
 html, body {
-  height: 100%;
-  margin: 0;
-}
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  flex-wrap: wrap;
-  background-color: #56b3a3;
-}
-a {
-  text-decoration: none;
-}
-a::-moz-focus-inner {
-  border: 0;
+    height: 100%;
+    margin: 0;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: #56b3a3;
+}
+
+a {
+    text-decoration: none;
+}
+
+a::-moz-focus-inner {
+    border: 0;
+}
 
 .label {
     font-family: monospace;
@@ -26,121 +28,153 @@ a::-moz-focus-inner {
 }
 
 .button {
-  font-family: monospace;
-  position: relative;
-  width: 5.5rem;
-  height: 5.5rem;
-  margin: 1rem;
-  border-radius: 50%;
-}
-.button > span {
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
+    font-family: monospace;
+    position: relative;
+    width: 7.5rem;
+    height: 7.5rem;
+    margin: 1rem;
+    border-radius: 50%;
 }
 
+.button > span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
 
 .bg {
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-  transition: all 0.2s linear;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s linear;
 }
+
 .cancel {
-  flex: 1 1 100%;
-  margin-top: 1rem;
-  text-align: center;
+    flex: 1 1 100%;
+    margin-top: 1rem;
+    text-align: center;
 }
+
 .cancel a {
-  display: inline-block;
-  padding: 0.5rem;
-  border-radius: 5px;
-  color: #fff;
-  font-family: monospace;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  line-height: 1.4;
-  transition: background-color 0.1s linear;
+    display: inline-block;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: #fff;
+    font-family: monospace;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.4;
+    transition: background-color 0.1s linear;
 }
+
 .cancel a:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
 }
+
 .cancel a:active {
-  background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .symbol::before, .symbol::after {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  display: block;
-  margin: auto;
-  border-radius: 2px;
-  content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    margin: auto;
+    border-radius: 2px;
+    content: "";
 }
-.symbol::before{
-  width: 2rem;
-  height: 0.3rem;
-  background-color: #515676;
-  transition: background-color 1s linear;
+
+.symbol::before {
+    width: 2rem;
+    height: 0.3rem;
+    background-color: #515676;
+    transition: background-color 1s linear;
 }
+
 .plus .symbol::after {
-  width: 0.3rem;
-  height: 2rem;
-  background-color: #515676;
+    width: 0.3rem;
+    height: 2rem;
+    background-color: #515676;
 }
+
 .bg::before, .bg::after {
-  position: absolute;
-  top: -4.75rem;
-  left: -4.75rem;
-  display: block;
-  width: 15rem;
-  height: 15rem;
-  border: 4px solid #fff;
-  border-radius: 50%;
-  box-sizing: border-box;
+    position: absolute;
+    /*top: -4.75rem;*/
+    /*left: -4.75rem;*/
+    top: -3.75rem;
+    left: -3.75rem;
+    display: block;
+    width: 15rem;
+    height: 15rem;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    box-sizing: border-box;
 
-  content: "";
-  transform: scale(0.4);
-  opacity: 0;
+    content: "";
+    transform: scale(0.4);
+    opacity: 0;
 }
-.button:hover .bg {
-  background-color: rgba(255, 255, 255, 0.3)
-}
+
+/*.button:hover .bg {*/
+    /*background-color: rgba(255, 255, 255, 0.3);*/
+    /*background-color: #83f190;*/
+/*}*/
+
 .bg:target {
-  animation: push 1s ease-out;
-  transition: all 1s linear;
-  background-color: #def186;
+    animation: push 1s ease-out;
+    transition: all 1s linear;
+    background-color: #def186;
 
 }
+
 #plus:target {
 }
+
 #minus:target {
-  background-color: #515676;
+    background-color: #515676;
 }
+
 #minus:target + .symbol::before {
-  background-color: #def186;
+    background-color: #def186;
 }
+
 .bg:target::before, .bg:target::after {
-  animation: wave 1s ease-in-out;
+    animation: wave 1s ease-in-out;
 }
+
 .bg:target::before {
-  animation-delay: 0.2s;
+    animation-delay: 0.2s;
 }
+
 .bg:target::after {
-  animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    background-color: #def186;
 }
 
 @keyframes push {
-  15% {transform: scale(0.75); box-shadow: 0 0 1px rgba(0, 0, 0, 0.3)}
-  75% {transform: scale(1.1); box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)}
-  100% {transform: scale(1)}
+    15% {
+        transform: scale(0.75);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.3)
+    }
+    75% {
+        transform: scale(1.1);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)
+    }
+    100% {
+        transform: scale(1)
+    }
 }
 
 @keyframes wave {
-  10% {opacity: 0.3}
-  100% {transform: scale(1); opacity: 0}
+    10% {
+        opacity: 0.3
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0
+    }
 }
