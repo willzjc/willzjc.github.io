@@ -20,6 +20,30 @@ a::-moz-focus-inner {
     border: 0;
 }
 
+.img-circle {
+    position: absolute;
+    z-index: 999;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+    opacity: 0.25;
+    display: inline-block;
+}
+
+.img-circle:target {
+    position: absolute;
+    z-index: 999;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+    opacity: 1;
+    display: inline-block;
+}
+
 .label {
     font-family: monospace;
     color: #fff;
@@ -28,6 +52,7 @@ a::-moz-focus-inner {
 }
 
 .button {
+    /*z-index: 50;*/
     font-family: monospace;
     position: relative;
     width: 7.5rem;
@@ -37,6 +62,7 @@ a::-moz-focus-inner {
 }
 
 .button > span {
+    z-index: 50;
     position: absolute;
     display: block;
     width: 100%;
@@ -44,6 +70,7 @@ a::-moz-focus-inner {
 }
 
 .bg {
+    z-index: 50;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.2);
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
@@ -103,8 +130,6 @@ a::-moz-focus-inner {
 
 .bg::before, .bg::after {
     position: absolute;
-    /*top: -4.75rem;*/
-    /*left: -4.75rem;*/
     top: -3.75rem;
     left: -3.75rem;
     display: block;
@@ -120,9 +145,11 @@ a::-moz-focus-inner {
 }
 
 /*.button:hover .bg {*/
-    /*background-color: rgba(255, 255, 255, 0.3);*/
-    /*background-color: #83f190;*/
+/*background-color: rgba(255, 255, 255, 0.3);*/
+/*background-color: #83f190;*/
 /*}*/
+
+
 
 .bg:target {
     animation: push 1s ease-out;
@@ -178,3 +205,4 @@ a::-moz-focus-inner {
         opacity: 0
     }
 }
+
