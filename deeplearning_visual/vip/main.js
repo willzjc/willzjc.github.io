@@ -1218,7 +1218,7 @@ var HousingScatterPlotMatrixCanvas = Backbone.View.extend({
 
     // Static Plot
     this.staticPlot = new StaticScatterPlotView({
-      el: d3.select('#shadow-scatterplot'),
+      el: d3.select('#shadow-scatterplot_details'),
       scrollExtent: this.scrollExtent,
       dimensionsArray: this.dimensionsArray,
       points: this.data.points,
@@ -1239,7 +1239,7 @@ var HousingScatterPlotMatrixCanvas = Backbone.View.extend({
     // Labels
     this.labelsGroup = this.elevationView.svg.append('g');
     this.labelsGroup
-      .attr('id','scatterplot-labels-group')
+      .attr('id','scatterplot_details-labels-group')
       .attr('opacity', 0);
 
     this.labels = this.labelsGroup.selectAll('text')
@@ -5413,7 +5413,7 @@ var ScrollHint = new ScrollHinterView({
 });
 
 var IntroScatterPlot = new HousingScatterPlotMatrixCanvas({ 
-  el: d3.select("#intro-scatterplot"),
+  el: d3.select("#intro-scatterplot_details"),
   dimensionsArray: DIMENSIONS,
   data: {
     points: tree_training_set
@@ -5421,7 +5421,7 @@ var IntroScatterPlot = new HousingScatterPlotMatrixCanvas({
 });
 
 var IntroScatterSticky = new StickyDivView({ 
-  el: $("#intro-scatterplot"),
+  el: $("#intro-scatterplot_details"),
   topFn: function() { return 0; },
   bottomFn: function() { return $("#split").offset().top; }
 });
