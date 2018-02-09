@@ -1,0 +1,643 @@
+Country Name	Country Code	Indicator Name	Indicator Code	2011 [YR2011]	2012 [YR2012]
+Afghanistan	AFG	GDP per capita (current US$)	NY.GDP.PCAP.CD	613.979191599462	687.24547498268
+Afghanistan	AFG	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	54.2620802231022	53.8969630199163
+Afghanistan	AFG	Internet users (per 100 people)	IT.NET.USER.P2	5	5.45454545454545
+Albania	ALB	GDP per capita (current US$)	NY.GDP.PCAP.CD	4109.08201173014	3999.92531012266
+Albania	ALB	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	96.3933945027158	108.44733472084
+Albania	ALB	Internet users (per 100 people)	IT.NET.USER.P2	49	54.6559590399494
+Algeria	DZA	GDP per capita (current US$)	NY.GDP.PCAP.CD	5271.59031215714	5347.70473442317
+Algeria	DZA	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	98.9875901999747	103.305864403022
+Algeria	DZA	Internet users (per 100 people)	IT.NET.USER.P2	14	15.2280267564417
+American Samoa	ASM	GDP per capita (current US$)	NY.GDP.PCAP.CD	..	..
+American Samoa	ASM	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	..	..
+American Samoa	ASM	Internet users (per 100 people)	IT.NET.USER.P2	..	..
+Andorra	ADO	GDP per capita (current US$)	NY.GDP.PCAP.CD	..	..
+Andorra	ADO	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	75.4877270353392	74.2704357960648
+Andorra	ADO	Internet users (per 100 people)	IT.NET.USER.P2	81	86.4344246167258
+Angola	AGO	GDP per capita (current US$)	NY.GDP.PCAP.CD	5159.23366603997	5482.42804891957
+Angola	AGO	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	48.3779743457581	48.6100024119013
+Angola	AGO	Internet users (per 100 people)	IT.NET.USER.P2	14.776	16.9372101137398
+Antigua and Barbuda	ATG	GDP per capita (current US$)	NY.GDP.PCAP.CD	12420.1627617953	12733.4904316795
+Antigua and Barbuda	ATG	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	196.411194929251	198.617832283726
+Antigua and Barbuda	ATG	Internet users (per 100 people)	IT.NET.USER.P2	82	83.7871674459974
+Argentina	ARG	GDP per capita (current US$)	NY.GDP.PCAP.CD	10951.5827275637	11573.0649671755
+Argentina	ARG	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	134.921114445462	142.511758436845
+Argentina	ARG	Internet users (per 100 people)	IT.NET.USER.P2	51	55.8
+Armenia	ARM	GDP per capita (current US$)	NY.GDP.PCAP.CD	3421.72655571932	3351.38136439806
+Armenia	ARM	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	103.566373656715	106.878961920532
+Armenia	ARM	Internet users (per 100 people)	IT.NET.USER.P2	32	39.1607915666556
+Aruba	ABW	GDP per capita (current US$)	NY.GDP.PCAP.CD	25354.7824741086	..
+Aruba	ABW	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	..	124.324274544835
+Aruba	ABW	Internet users (per 100 people)	IT.NET.USER.P2	69	74
+Australia	AUS	GDP per capita (current US$)	NY.GDP.PCAP.CD	62125.7552299246	67555.7620895355
+Australia	AUS	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	108.335354944489	106.192815225723
+Australia	AUS	Internet users (per 100 people)	IT.NET.USER.P2	79.5	82.3495485010082
+Austria	AUT	GDP per capita (current US$)	NY.GDP.PCAP.CD	49338.7606551223	46642.2903264503
+Austria	AUT	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	154.783239984553	161.206988088028
+Austria	AUT	Internet users (per 100 people)	IT.NET.USER.P2	79.8	81
+Azerbaijan	AZE	GDP per capita (current US$)	NY.GDP.PCAP.CD	7189.81515142228	7163.70414342935
+Azerbaijan	AZE	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	108.747904448549	107.472132363142
+Azerbaijan	AZE	Internet users (per 100 people)	IT.NET.USER.P2	50	54.2
+"Bahamas, The"	BHS	GDP per capita (current US$)	NY.GDP.PCAP.CD	21490.3570814373	21908.2804602645
+"Bahamas, The"	BHS	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	86.0629767034588	72.308020781439
+"Bahamas, The"	BHS	Internet users (per 100 people)	IT.NET.USER.P2	65	71.7482028146963
+Bahrain	BHR	GDP per capita (current US$)	NY.GDP.PCAP.CD	22466.9451808413	..
+Bahrain	BHR	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	127.964126373689	156.228498291632
+Bahrain	BHR	Internet users (per 100 people)	IT.NET.USER.P2	77	88
+Bangladesh	BGD	GDP per capita (current US$)	NY.GDP.PCAP.CD	731.894167840472	752.156052513804
+Bangladesh	BGD	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	56.0612992741528	63.7627332400167
+Bangladesh	BGD	Internet users (per 100 people)	IT.NET.USER.P2	5	6.3
+Barbados	BRB	GDP per capita (current US$)	NY.GDP.PCAP.CD	15503.3285545982	14917.1495051568
+Barbados	BRB	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	127.01177329561	126.397843587222
+Barbados	BRB	Internet users (per 100 people)	IT.NET.USER.P2	71.7657	73.3298136924294
+Belarus	BLR	GDP per capita (current US$)	NY.GDP.PCAP.CD	6784.71183842843	6685.01874897634
+Belarus	BLR	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	111.877880725452	112.059545958446
+Belarus	BLR	Internet users (per 100 people)	IT.NET.USER.P2	39.6	46.9060058438776
+Belgium	BEL	GDP per capita (current US$)	NY.GDP.PCAP.CD	46422.122219905	43372.370713283
+Belgium	BEL	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	120.490110893973	119.385901910568
+Belgium	BEL	Internet users (per 100 people)	IT.NET.USER.P2	78	82
+Belize	BLZ	GDP per capita (current US$)	NY.GDP.PCAP.CD	4720.81699759707	..
+Belize	BLZ	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	69.9551470773257	50.6182699542388
+Belize	BLZ	Internet users (per 100 people)	IT.NET.USER.P2	18.7	25
+Benin	BEN	GDP per capita (current US$)	NY.GDP.PCAP.CD	745.915474802323	751.916316790793
+Benin	BEN	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	85.3326654887811	89.9058131674223
+Benin	BEN	Internet users (per 100 people)	IT.NET.USER.P2	3.5	3.79770474077515
+Bermuda	BMU	GDP per capita (current US$)	NY.GDP.PCAP.CD	85973.158416455	84460.3277474308
+Bermuda	BMU	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	..	139.553429027113
+Bermuda	BMU	Internet users (per 100 people)	IT.NET.USER.P2	88.336	91.2993045243401
+Bhutan	BTN	GDP per capita (current US$)	NY.GDP.PCAP.CD	2513.93675851974	2398.90581876592
+Bhutan	BTN	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	65.5845378433548	74.7411862060143
+Bhutan	BTN	Internet users (per 100 people)	IT.NET.USER.P2	21	25.434348914861
+Bolivia	BOL	GDP per capita (current US$)	NY.GDP.PCAP.CD	2319.60852304638	2575.6836947783
+Bolivia	BOL	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	82.82154592318	92.6384083905979
+Bolivia	BOL	Internet users (per 100 people)	IT.NET.USER.P2	30	34.1884342305183
+Bosnia and Herzegovina	BIH	GDP per capita (current US$)	NY.GDP.PCAP.CD	4754.07423360573	4555.64456959007
+Bosnia and Herzegovina	BIH	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	84.5173321024202	89.5331356071401
+Bosnia and Herzegovina	BIH	Internet users (per 100 people)	IT.NET.USER.P2	60	65.3560944772989
+Botswana	BWA	GDP per capita (current US$)	NY.GDP.PCAP.CD	7697.39621472802	7238.01936511298
+Botswana	BWA	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	142.818177431062	150.091100053233
+Botswana	BWA	Internet users (per 100 people)	IT.NET.USER.P2	8	11.5
+Brazil	BRA	GDP per capita (current US$)	NY.GDP.PCAP.CD	12575.9794079188	11339.5211084814
+Brazil	BRA	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	119.171895103575	125.187801209435
+Brazil	BRA	Internet users (per 100 people)	IT.NET.USER.P2	45	49.847999364427
+Brunei Darussalam	BRN	GDP per capita (current US$)	NY.GDP.PCAP.CD	40244.3118178838	41126.6128435587
+Brunei Darussalam	BRN	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	109.169626888835	113.768249324279
+Brunei Darussalam	BRN	Internet users (per 100 people)	IT.NET.USER.P2	56	60.2730650423193
+Bulgaria	BGR	GDP per capita (current US$)	NY.GDP.PCAP.CD	7286.64390183675	6978.05308420711
+Bulgaria	BGR	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	140.678123617152	145.727454364248
+Bulgaria	BGR	Internet users (per 100 people)	IT.NET.USER.P2	51	55.1480978664466
+Burkina Faso	BFA	GDP per capita (current US$)	NY.GDP.PCAP.CD	649.925229986443	634.320974595762
+Burkina Faso	BFA	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	45.2744588366997	57.0650619517785
+Burkina Faso	BFA	Internet users (per 100 people)	IT.NET.USER.P2	3	3.72503491597675
+Burundi	BDI	GDP per capita (current US$)	NY.GDP.PCAP.CD	246.91432710688	251.014522983849
+Burundi	BDI	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	22.3270856841122	25.6832392943643
+Burundi	BDI	Internet users (per 100 people)	IT.NET.USER.P2	1.11	1.21999994477793
+Cabo Verde	CPV	GDP per capita (current US$)	NY.GDP.PCAP.CD	3801.44976515179	3695.42448670453
+Cabo Verde	CPV	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	79.1931440214949	84.1639704354537
+Cabo Verde	CPV	Internet users (per 100 people)	IT.NET.USER.P2	32	34.7434141953015
+Cambodia	KHM	GDP per capita (current US$)	NY.GDP.PCAP.CD	878.383017792275	944.414246406843
+Cambodia	KHM	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	96.1679413678245	131.956711828444
+Cambodia	KHM	Internet users (per 100 people)	IT.NET.USER.P2	3.1	4.93986176461129
+Cameroon	CMR	GDP per capita (current US$)	NY.GDP.PCAP.CD	1204.69821237294	1166.91340980484
+Cameroon	CMR	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	52.3535920119666	64.0387635062543
+Cameroon	CMR	Internet users (per 100 people)	IT.NET.USER.P2	5	5.69898724036494
+Canada	CAN	GDP per capita (current US$)	NY.GDP.PCAP.CD	51554.0592083392	52218.9936865123
+Canada	CAN	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	79.7308588601758	75.7410848275925
+Canada	CAN	Internet users (per 100 people)	IT.NET.USER.P2	83	86.7658644038714
+Cayman Islands	CYM	GDP per capita (current US$)	NY.GDP.PCAP.CD	..	..
+Cayman Islands	CYM	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	167.674381709531	168.274994320466
+Cayman Islands	CYM	Internet users (per 100 people)	IT.NET.USER.P2	69.46594499	74.1265306872565
+Central African Republic	CAF	GDP per capita (current US$)	NY.GDP.PCAP.CD	498.780066855897	482.669726634042
+Central African Republic	CAF	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	22.119011677937	23.3897909469956
+Central African Republic	CAF	Internet users (per 100 people)	IT.NET.USER.P2	2.2	3
+Chad	TCD	GDP per capita (current US$)	NY.GDP.PCAP.CD	1006.31977054669	1035.25794597491
+Chad	TCD	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	31.8048004181339	35.4897603015509
+Chad	TCD	Internet users (per 100 people)	IT.NET.USER.P2	1.9	2.10000000005453
+Channel Islands	CHI	GDP per capita (current US$)	NY.GDP.PCAP.CD	..	..
+Channel Islands	CHI	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	..	..
+Channel Islands	CHI	Internet users (per 100 people)	IT.NET.USER.P2	..	..
+Chile	CHL	GDP per capita (current US$)	NY.GDP.PCAP.CD	14512.611293211	15452.1735981951
+Chile	CHL	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	129.708078247665	138.497719192337
+Chile	CHL	Internet users (per 100 people)	IT.NET.USER.P2	52.25	61.4181545577569
+China	CHN	GDP per capita (current US$)	NY.GDP.PCAP.CD	5447.34142164051	6091.01435174594
+China	CHN	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	73.187769263199	81.2647341689773
+China	CHN	Internet users (per 100 people)	IT.NET.USER.P2	38.3	42.3001174855995
+Colombia	COL	GDP per capita (current US$)	NY.GDP.PCAP.CD	7148.86369473573	7747.84132093192
+Colombia	COL	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	98.4514201541219	103.187441499294
+Colombia	COL	Internet users (per 100 people)	IT.NET.USER.P2	40.4	48.9843188
+Comoros	COM	GDP per capita (current US$)	NY.GDP.PCAP.CD	871.692017063965	830.519668201936
+Comoros	COM	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	28.7074752335389	32.327140315306
+Comoros	COM	Internet users (per 100 people)	IT.NET.USER.P2	5.5	5.97529630842855
+"Congo, Dem. Rep."	ZAR	GDP per capita (current US$)	NY.GDP.PCAP.CD	245.582655075047	261.836335009383
+"Congo, Dem. Rep."	ZAR	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	23.0894870989853	28.0085672242115
+"Congo, Dem. Rep."	ZAR	Internet users (per 100 people)	IT.NET.USER.P2	1.2	1.679961014645
+"Congo, Rep."	COG	GDP per capita (current US$)	NY.GDP.PCAP.CD	3414.05470950568	3153.73946113121
+"Congo, Rep."	COG	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	93.8404221706249	101.182855062634
+"Congo, Rep."	COG	Internet users (per 100 people)	IT.NET.USER.P2	5.6	6.10669502435836
+Costa Rica	CRI	GDP per capita (current US$)	NY.GDP.PCAP.CD	8660.83083516574	9386.30483528739
+Costa Rica	CRI	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	92.2047571444439	128.319647038576
+Costa Rica	CRI	Internet users (per 100 people)	IT.NET.USER.P2	42.12	47.5009145244347
+Cote d'Ivoire	CIV	GDP per capita (current US$)	NY.GDP.PCAP.CD	1241.5611109698	1243.98607464495
+Cote d'Ivoire	CIV	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	86.0632820278815	96.2719477882932
+Cote d'Ivoire	CIV	Internet users (per 100 people)	IT.NET.USER.P2	2.2	2.37895802994429
+Croatia	HRV	GDP per capita (current US$)	NY.GDP.PCAP.CD	14434.70172029	13880.5360700684
+Croatia	HRV	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	116.370610343164	113.310347688459
+Croatia	HRV	Internet users (per 100 people)	IT.NET.USER.P2	59.64	63
+Cuba	CUB	GDP per capita (current US$)	NY.GDP.PCAP.CD	6051.22200117364	..
+Cuba	CUB	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	11.6863350739515	14.9489308902465
+Cuba	CUB	Internet users (per 100 people)	IT.NET.USER.P2	23.23	25.6417038674676
+Curacao	CUW	GDP per capita (current US$)	NY.GDP.PCAP.CD	..	..
+Curacao	CUW	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	..	..
+Curacao	CUW	Internet users (per 100 people)	IT.NET.USER.P2	..	..
+Cyprus	CYP	GDP per capita (current US$)	NY.GDP.PCAP.CD	29206.5105966734	26070.3674278903
+Cyprus	CYP	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	97.7054606811611	98.3854455412225
+Cyprus	CYP	Internet users (per 100 people)	IT.NET.USER.P2	57.68	61
+Czech Republic	CZE	GDP per capita (current US$)	NY.GDP.PCAP.CD	20580.1776749779	18682.8127693761
+Czech Republic	CZE	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	126.112488042624	122.785116108971
+Czech Republic	CZE	Internet users (per 100 people)	IT.NET.USER.P2	72.97	75
+Denmark	DNK	GDP per capita (current US$)	NY.GDP.PCAP.CD	59889.005096349	56325.6584387785
+Denmark	DNK	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	116.745343371507	117.955892087203
+Denmark	DNK	Internet users (per 100 people)	IT.NET.USER.P2	90	93
+Djibouti	DJI	GDP per capita (current US$)	NY.GDP.PCAP.CD	..	..
+Djibouti	DJI	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	21.3180956840157	22.6507194041885
+Djibouti	DJI	Internet users (per 100 people)	IT.NET.USER.P2	7	8.26723289204519
+Dominica	DMA	GDP per capita (current US$)	NY.GDP.PCAP.CD	6780.53752748561	6691.71487206195
+Dominica	DMA	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	160.951606944958	161.531072193896
+Dominica	DMA	Internet users (per 100 people)	IT.NET.USER.P2	51.3135	55.1770141638519
+Dominican Republic	DOM	GDP per capita (current US$)	NY.GDP.PCAP.CD	5492.65498300871	5745.77987821163
+Dominican Republic	DOM	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	87.2178016684465	88.7535316265127
+Dominican Republic	DOM	Internet users (per 100 people)	IT.NET.USER.P2	38.5818974054268	45
+Ecuador	ECU	GDP per capita (current US$)	NY.GDP.PCAP.CD	5035.24249300543	5424.63361068466
+Ecuador	ECU	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	104.545598663035	110.708068564069
+Ecuador	ECU	Internet users (per 100 people)	IT.NET.USER.P2	31.4	35.1345062239322
+"Egypt, Arab Rep."	EGY	GDP per capita (current US$)	NY.GDP.PCAP.CD	2972.58351572603	3256.01846887917
+"Egypt, Arab Rep."	EGY	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	101.076338461028	115.29380829206
+"Egypt, Arab Rep."	EGY	Internet users (per 100 people)	IT.NET.USER.P2	39.83	44.07
+El Salvador	SLV	GDP per capita (current US$)	NY.GDP.PCAP.CD	3698.54618795117	3789.56755762781
+El Salvador	SLV	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	133.539333898676	138.07186920959
+El Salvador	SLV	Internet users (per 100 people)	IT.NET.USER.P2	18.9	25.5
+Equatorial Guinea	GNQ	GDP per capita (current US$)	NY.GDP.PCAP.CD	23473.4356448491	24035.7060899604
+Equatorial Guinea	GNQ	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	66.4886637703013	67.6700370439896
+Equatorial Guinea	GNQ	Internet users (per 100 people)	IT.NET.USER.P2	11.5	13.9431821913076
+Eritrea	ERI	GDP per capita (current US$)	NY.GDP.PCAP.CD	439.542371425812	504.302191150692
+Eritrea	ERI	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	4.46770988757737	5.4701764709466
+Eritrea	ERI	Internet users (per 100 people)	IT.NET.USER.P2	0.7	0.8
+Estonia	EST	GDP per capita (current US$)	NY.GDP.PCAP.CD	16808.948643136	16716.6712522956
+Estonia	EST	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	138.983109007808	154.545882029793
+Estonia	EST	Internet users (per 100 people)	IT.NET.USER.P2	76.5	79
+Ethiopia	ETH	GDP per capita (current US$)	NY.GDP.PCAP.CD	335.00288596709	453.568992739235
+Ethiopia	ETH	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	16.6717201124617	23.7164740969612
+Ethiopia	ETH	Internet users (per 100 people)	IT.NET.USER.P2	1.1	1.48281013861396
+Faeroe Islands	FRO	GDP per capita (current US$)	NY.GDP.PCAP.CD	..	..
+Faeroe Islands	FRO	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	122.792296829912	124.299541518085
+Faeroe Islands	FRO	Internet users (per 100 people)	IT.NET.USER.P2	80.7321728	85.3351892392109
+Fiji	FJI	GDP per capita (current US$)	NY.GDP.PCAP.CD	4324.68552926853	4467.10379118761
+Fiji	FJI	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	83.71660260293	98.0574819997671
+Fiji	FJI	Internet users (per 100 people)	IT.NET.USER.P2	28	33.7423567521104
+Finland	FIN	GDP per capita (current US$)	NY.GDP.PCAP.CD	48634.1756070716	45720.7693697217
+Finland	FIN	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	166.023804173623	172.508670319087
+Finland	FIN	Internet users (per 100 people)	IT.NET.USER.P2	89.37	91
+France	FRA	GDP per capita (current US$)	NY.GDP.PCAP.CD	42521.8129465461	39771.8428056603
+France	FRA	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	94.7566778222579	98.1439989617033
+France	FRA	Internet users (per 100 people)	IT.NET.USER.P2	79.58	83
+French Polynesia	PYF	GDP per capita (current US$)	NY.GDP.PCAP.CD	..	..
+French Polynesia	PYF	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	81.389963364344	81.6677567746295
+French Polynesia	PYF	Internet users (per 100 people)	IT.NET.USER.P2	49	52.8766305867993
+Gabon	GAB	GDP per capita (current US$)	NY.GDP.PCAP.CD	11768.6062909951	11256.5227634711
+Gabon	GAB	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	154.486456680802	187.355367091829
+Gabon	GAB	Internet users (per 100 people)	IT.NET.USER.P2	8	8.61671448924674
+"Gambia, The"	GMB	GDP per capita (current US$)	NY.GDP.PCAP.CD	517.752431961964	512.103199223786
+"Gambia, The"	GMB	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	78.8897378136291	83.6371238786986
+"Gambia, The"	GMB	Internet users (per 100 people)	IT.NET.USER.P2	10.8703	12.4492287209242
+Georgia	GEO	GDP per capita (current US$)	NY.GDP.PCAP.CD	3219.56996306535	3490.24531588016
+Georgia	GEO	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	102.340434083787	109.158590945977
+Georgia	GEO	Internet users (per 100 people)	IT.NET.USER.P2	36.56	45.5030980139962
+Germany	DEU	GDP per capita (current US$)	NY.GDP.PCAP.CD	44314.966161826	41862.7105230881
+Germany	DEU	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	132.298778790989	131.30491642621
+Germany	DEU	Internet users (per 100 people)	IT.NET.USER.P2	83	84
+Ghana	GHA	GDP per capita (current US$)	NY.GDP.PCAP.CD	1594.03080918738	1604.90578223229
+Ghana	GHA	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	84.7792958179296	100.283755472837
+Ghana	GHA	Internet users (per 100 people)	IT.NET.USER.P2	14.11	17.1076783234217
+Greece	GRC	GDP per capita (current US$)	NY.GDP.PCAP.CD	25630.7945141506	22082.8897548635
+Greece	GRC	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	106.478946369856	116.944125333505
+Greece	GRC	Internet users (per 100 people)	IT.NET.USER.P2	53	56
+Greenland	GRL	GDP per capita (current US$)	NY.GDP.PCAP.CD	..	..
+Greenland	GRL	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	102.523736386484	103.760907504363
+Greenland	GRL	Internet users (per 100 people)	IT.NET.USER.P2	64	64.8960100995989
+Grenada	GRD	GDP per capita (current US$)	NY.GDP.PCAP.CD	7766.47321565785	7266.67545674348
+Grenada	GRD	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	119.172466393364	121.553991814098
+Grenada	GRD	Internet users (per 100 people)	IT.NET.USER.P2	38.13	42.090255661502
+Guam	GUM	GDP per capita (current US$)	NY.GDP.PCAP.CD	..	..
+Guam	GUM	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	..	..
+Guam	GUM	Internet users (per 100 people)	IT.NET.USER.P2	57.7	61.5341593079002
+Guatemala	GTM	GDP per capita (current US$)	NY.GDP.PCAP.CD	3242.69079599363	3330.52523037525
+Guatemala	GTM	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	131.996258669259	137.321124679927
+Guatemala	GTM	Internet users (per 100 people)	IT.NET.USER.P2	12.3	16
+Guinea	GIN	GDP per capita (current US$)	NY.GDP.PCAP.CD	454.00227756489	491.789978100234
+Guinea	GIN	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	44.023523040151	45.6171385335536
+Guinea	GIN	Internet users (per 100 people)	IT.NET.USER.P2	1.3	1.49014436571885
+Guinea-Bissau	GNB	GDP per capita (current US$)	NY.GDP.PCAP.CD	595.829248527905	494.314615063207
+Guinea-Bissau	GNB	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	56.1785863647264	69.4465546405745
+Guinea-Bissau	GNB	Internet users (per 100 people)	IT.NET.USER.P2	2.672	2.89399062085531
+Guyana	GUY	GDP per capita (current US$)	NY.GDP.PCAP.CD	3258.04818837732	3583.96216981679
+Guyana	GUY	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	69.9377017089043	72.2057012524699
+Guyana	GUY	Internet users (per 100 people)	IT.NET.USER.P2	32	34.3080462212964
+Haiti	HTI	GDP per capita (current US$)	NY.GDP.PCAP.CD	732.209337497686	770.951240630501
+Haiti	HTI	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	41.4864516608261	59.4301732782456
+Haiti	HTI	Internet users (per 100 people)	IT.NET.USER.P2	9.5	10.8702960267506
+Honduras	HND	GDP per capita (current US$)	NY.GDP.PCAP.CD	2261.64919064349	2322.88056034085
+Honduras	HND	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	103.96588540582	93.1496990912069
+Honduras	HND	Internet users (per 100 people)	IT.NET.USER.P2	15.9	18.1198701421747
+"Hong Kong SAR, China"	HKG	GDP per capita (current US$)	NY.GDP.PCAP.CD	35172.517727497	36795.8198788131
+"Hong Kong SAR, China"	HKG	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	214.722303696884	227.93288357454
+"Hong Kong SAR, China"	HKG	Internet users (per 100 people)	IT.NET.USER.P2	72.2	72.8
+Hungary	HUN	GDP per capita (current US$)	NY.GDP.PCAP.CD	13783.8407435739	12530.5266356685
+Hungary	HUN	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	117.296818539941	116.380937946281
+Hungary	HUN	Internet users (per 100 people)	IT.NET.USER.P2	70	72
+Iceland	ISL	GDP per capita (current US$)	NY.GDP.PCAP.CD	44030.579880277	42416.0380294887
+Iceland	ISL	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	106.079243817169	105.394620609827
+Iceland	ISL	Internet users (per 100 people)	IT.NET.USER.P2	95.02	96
+India	IND	GDP per capita (current US$)	NY.GDP.PCAP.CD	1533.66130675127	1489.2290084658
+India	IND	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	71.9990549113182	68.7185069927522
+India	IND	Internet users (per 100 people)	IT.NET.USER.P2	10.07	12.5800609138955
+Indonesia	IDN	GDP per capita (current US$)	NY.GDP.PCAP.CD	3471.43459432781	3556.78571414021
+Indonesia	IDN	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	102.48856117174	115.195771639648
+Indonesia	IDN	Internet users (per 100 people)	IT.NET.USER.P2	12.28	15.36
+"Iran, Islamic Rep."	IRN	GDP per capita (current US$)	NY.GDP.PCAP.CD	6815.57019087288	..
+"Iran, Islamic Rep."	IRN	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	74.9252081579763	76.9159582741307
+"Iran, Islamic Rep."	IRN	Internet users (per 100 people)	IT.NET.USER.P2	21	25.997636032787
+Iraq	IRQ	GDP per capita (current US$)	NY.GDP.PCAP.CD	5686.60836402733	6454.61962797202
+Iraq	IRQ	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	78.123512357683	79.3874314350254
+Iraq	IRQ	Internet users (per 100 people)	IT.NET.USER.P2	5	7.1
+Ireland	IRL	GDP per capita (current US$)	NY.GDP.PCAP.CD	49343.5438984187	45931.7247863052
+Ireland	IRL	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	108.408454457354	107.128423246391
+Ireland	IRL	Internet users (per 100 people)	IT.NET.USER.P2	76.82	79
+Isle of Man	IMY	GDP per capita (current US$)	NY.GDP.PCAP.CD	..	..
+Isle of Man	IMY	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	..	..
+Isle of Man	IMY	Internet users (per 100 people)	IT.NET.USER.P2	..	..
+Israel	ISR	GDP per capita (current US$)	NY.GDP.PCAP.CD	33250.090902416	..
+Israel	ISR	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	121.657815179034	119.888182339204
+Israel	ISR	Internet users (per 100 people)	IT.NET.USER.P2	68.9	73.3650160988905
+Italy	ITA	GDP per capita (current US$)	NY.GDP.PCAP.CD	36147.6461034887	33071.8393135065
+Italy	ITA	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	157.991550205043	159.480625866237
+Italy	ITA	Internet users (per 100 people)	IT.NET.USER.P2	56.8	58
+Jamaica	JAM	GDP per capita (current US$)	NY.GDP.PCAP.CD	5321.44321429136	5440.4524646364
+Jamaica	JAM	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	108.121404164545	96.5384446848277
+Jamaica	JAM	Internet users (per 100 people)	IT.NET.USER.P2	37.49	46.5
+Japan	JPN	GDP per capita (current US$)	NY.GDP.PCAP.CD	46134.5682388357	46720.3566603016
+Japan	JPN	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	104.95179495654	109.434256920055
+Japan	JPN	Internet users (per 100 people)	IT.NET.USER.P2	79.0545209265596	79.05
+Jordan	JOR	GDP per capita (current US$)	NY.GDP.PCAP.CD	4665.94353968012	4909.02809377035
+Jordan	JOR	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	118.204758830293	139.134121903098
+Jordan	JOR	Internet users (per 100 people)	IT.NET.USER.P2	34.9	41
+Kazakhstan	KAZ	GDP per capita (current US$)	NY.GDP.PCAP.CD	11356.5834828398	12116.1546093196
+Kazakhstan	KAZ	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	155.742514692952	175.391484569262
+Kazakhstan	KAZ	Internet users (per 100 people)	IT.NET.USER.P2	50.6	53.3156691222464
+Kenya	KEN	GDP per capita (current US$)	NY.GDP.PCAP.CD	799.96124516075	942.540884848467
+Kenya	KEN	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	67.4860720070076	71.8881225470719
+Kenya	KEN	Internet users (per 100 people)	IT.NET.USER.P2	28	32.0954171077906
+Kiribati	KIR	GDP per capita (current US$)	NY.GDP.PCAP.CD	1735.55404575056	1736.19817071942
+Kiribati	KIR	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	13.6389265329944	15.5854276251705
+Kiribati	KIR	Internet users (per 100 people)	IT.NET.USER.P2	10	10.7467976841839
+"Korea, Dem. Rep."	PRK	GDP per capita (current US$)	NY.GDP.PCAP.CD	..	..
+"Korea, Dem. Rep."	PRK	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	4.08976460746337	6.92360800453798
+"Korea, Dem. Rep."	PRK	Internet users (per 100 people)	IT.NET.USER.P2	..	..
+"Korea, Rep."	KOR	GDP per capita (current US$)	NY.GDP.PCAP.CD	22388.3959679009	22590.1582538293
+"Korea, Rep."	KOR	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	108.504517016608	110.364837430291
+"Korea, Rep."	KOR	Internet users (per 100 people)	IT.NET.USER.P2	83.8	84.1
+Kosovo	KSV	GDP per capita (current US$)	NY.GDP.PCAP.CD	3705.67435058442	3568.04876786236
+Kosovo	KSV	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	..	..
+Kosovo	KSV	Internet users (per 100 people)	IT.NET.USER.P2	..	..
+Kuwait	KWT	GDP per capita (current US$)	NY.GDP.PCAP.CD	51496.9271485699	..
+Kuwait	KWT	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	175.091783585908	191.108376709678
+Kuwait	KWT	Internet users (per 100 people)	IT.NET.USER.P2	74.2	79.1782013155686
+Kyrgyz Republic	KGZ	GDP per capita (current US$)	NY.GDP.PCAP.CD	1124.07762304223	1159.92973953542
+Kyrgyz Republic	KGZ	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	116.402686654625	124.775072341933
+Kyrgyz Republic	KGZ	Internet users (per 100 people)	IT.NET.USER.P2	20	21.723508986846
+Lao PDR	LAO	GDP per capita (current US$)	NY.GDP.PCAP.CD	1265.70934429877	1417.07955773601
+Lao PDR	LAO	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	87.1631480539952	101.852325424142
+Lao PDR	LAO	Internet users (per 100 people)	IT.NET.USER.P2	9	10.747676189122
+Latvia	LVA	GDP per capita (current US$)	NY.GDP.PCAP.CD	13837.6055627756	14007.8775162772
+Latvia	LVA	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	102.935971062019	103.375500990794
+Latvia	LVA	Internet users (per 100 people)	IT.NET.USER.P2	71.68	74
+Lebanon	LBN	GDP per capita (current US$)	NY.GDP.PCAP.CD	9148.12901330179	9705.39223407255
+Lebanon	LBN	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	79.5181486616088	93.2027469645613
+Lebanon	LBN	Internet users (per 100 people)	IT.NET.USER.P2	52	61.249785718304
+Lesotho	LSO	GDP per capita (current US$)	NY.GDP.PCAP.CD	1243.90950590031	1193.03905080209
+Lesotho	LSO	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	56.173299547871	59.1708956402102
+Lesotho	LSO	Internet users (per 100 people)	IT.NET.USER.P2	4.2248	4.58961762996709
+Liberia	LBR	GDP per capita (current US$)	NY.GDP.PCAP.CD	376.928454386446	413.757414852906
+Liberia	LBR	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	49.1677509802421	56.3913356094352
+Liberia	LBR	Internet users (per 100 people)	IT.NET.USER.P2	3	3.7941
+Libya	LBY	GDP per capita (current US$)	NY.GDP.PCAP.CD	..	..
+Libya	LBY	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	155.69601411976	148.187718457865
+Libya	LBY	Internet users (per 100 people)	IT.NET.USER.P2	14	19.8637
+Liechtenstein	LIE	GDP per capita (current US$)	NY.GDP.PCAP.CD	..	..
+Liechtenstein	LIE	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	101.834508594094	103.870544500328
+Liechtenstein	LIE	Internet users (per 100 people)	IT.NET.USER.P2	85	89.4077
+Lithuania	LTU	GDP per capita (current US$)	NY.GDP.PCAP.CD	14148.3911548628	14183.01601695
+Lithuania	LTU	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	151.297921288134	151.779341488142
+Lithuania	LTU	Internet users (per 100 people)	IT.NET.USER.P2	65.05	68
+Luxembourg	LUX	GDP per capita (current US$)	NY.GDP.PCAP.CD	111812.968275435	103827.992278028
+Luxembourg	LUX	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	148.26753446615	145.46604453514
+Luxembourg	LUX	Internet users (per 100 people)	IT.NET.USER.P2	90.89	92
+"Macao SAR, China"	MAC	GDP per capita (current US$)	NY.GDP.PCAP.CD	67359.4735614647	78275.1475203699
+"Macao SAR, China"	MAC	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	243.498023324234	284.339164776602
+"Macao SAR, China"	MAC	Internet users (per 100 people)	IT.NET.USER.P2	60.2	64.2727
+"Macedonia, FYR"	MKD	GDP per capita (current US$)	NY.GDP.PCAP.CD	4961.80878331801	4565.26988416405
+"Macedonia, FYR"	MKD	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	107.235355708847	108.161226252368
+"Macedonia, FYR"	MKD	Internet users (per 100 people)	IT.NET.USER.P2	56.7	63.1477
+Madagascar	MDG	GDP per capita (current US$)	NY.GDP.PCAP.CD	457.207964959981	447.437128913523
+Madagascar	MDG	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	40.725859817449	39.0543674679702
+Madagascar	MDG	Internet users (per 100 people)	IT.NET.USER.P2	1.9	2.0549
+Malawi	MWI	GDP per capita (current US$)	NY.GDP.PCAP.CD	363.64155943787	268.053911345494
+Malawi	MWI	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	25.6914425226944	27.826295275743
+Malawi	MWI	Internet users (per 100 people)	IT.NET.USER.P2	3.33	4.3506
+Malaysia	MYS	GDP per capita (current US$)	NY.GDP.PCAP.CD	10058.043016656	10432.0624748686
+Malaysia	MYS	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	127.03525543403	140.935081811832
+Malaysia	MYS	Internet users (per 100 people)	IT.NET.USER.P2	61	65.8
+Maldives	MDV	GDP per capita (current US$)	NY.GDP.PCAP.CD	6487.56179268238	6566.64755083787
+Maldives	MDV	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	165.723363773545	172.841360044155
+Maldives	MDV	Internet users (per 100 people)	IT.NET.USER.P2	34	38.9301
+Mali	MLI	GDP per capita (current US$)	NY.GDP.PCAP.CD	739.168338440762	693.984361199431
+Mali	MLI	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	68.3222578840368	89.5454821487016
+Mali	MLI	Internet users (per 100 people)	IT.NET.USER.P2	2	2.1689
+Malta	MLT	GDP per capita (current US$)	NY.GDP.PCAP.CD	21963.8115969422	20847.5905712297
+Malta	MLT	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	124.863409555946	128.68238504623
+Malta	MLT	Internet users (per 100 people)	IT.NET.USER.P2	69.22	70
+Marshall Islands	MHL	GDP per capita (current US$)	NY.GDP.PCAP.CD	3251.73826078674	3470.64979545238
+Marshall Islands	MHL	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	..	..
+Marshall Islands	MHL	Internet users (per 100 people)	IT.NET.USER.P2	8.06	10
+Mauritania	MRT	GDP per capita (current US$)	NY.GDP.PCAP.CD	1154.0659361228	1106.13694724689
+Mauritania	MRT	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	93.5967686373724	111.062360317983
+Mauritania	MRT	Internet users (per 100 people)	IT.NET.USER.P2	4.5	5.3691
+Mauritius	MUS	GDP per capita (current US$)	NY.GDP.PCAP.CD	8748.14416612145	8119.54695629895
+Mauritius	MUS	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	99.0438491557815	113.091536554567
+Mauritius	MUS	Internet users (per 100 people)	IT.NET.USER.P2	34.95	41.3946
+Mexico	MEX	GDP per capita (current US$)	NY.GDP.PCAP.CD	9717.47306128687	9748.86868629861
+Mexico	MEX	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	82.3943725098131	86.7746203665349
+Mexico	MEX	Internet users (per 100 people)	IT.NET.USER.P2	34.96	38.42
+"Micronesia, Fed. Sts."	FSM	GDP per capita (current US$)	NY.GDP.PCAP.CD	3000.15005484138	3154.51386221773
+"Micronesia, Fed. Sts."	FSM	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	24.7440426027864	24.6213134935503
+"Micronesia, Fed. Sts."	FSM	Internet users (per 100 people)	IT.NET.USER.P2	22.8	25.9744230029883
+Moldova	MDA	GDP per capita (current US$)	NY.GDP.PCAP.CD	1970.11892711079	2037.55763297747
+Moldova	MDA	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	101.200807703765	115.937328977122
+Moldova	MDA	Internet users (per 100 people)	IT.NET.USER.P2	38	43.37
+Monaco	MCO	GDP per capita (current US$)	NY.GDP.PCAP.CD	163025.859027458	..
+Monaco	MCO	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	89.730996132893	93.6547793702742
+Monaco	MCO	Internet users (per 100 people)	IT.NET.USER.P2	80.3	87
+Mongolia	MNG	GDP per capita (current US$)	NY.GDP.PCAP.CD	3181.10440077669	3672.96694040922
+Mongolia	MNG	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	104.6466045398	117.622592760255
+Mongolia	MNG	Internet users (per 100 people)	IT.NET.USER.P2	12.5	16.4
+Montenegro	MNE	GDP per capita (current US$)	NY.GDP.PCAP.CD	7253.4520916983	7041.22459345616
+Montenegro	MNE	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	181.570585565138	177.940442101404
+Montenegro	MNE	Internet users (per 100 people)	IT.NET.USER.P2	40	56.8387825490631
+Morocco	MAR	GDP per capita (current US$)	NY.GDP.PCAP.CD	3044.10788758427	2902.32995755275
+Morocco	MAR	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	113.264872955309	119.687387188185
+Morocco	MAR	Internet users (per 100 people)	IT.NET.USER.P2	53	55
+Mozambique	MOZ	GDP per capita (current US$)	NY.GDP.PCAP.CD	511.299494155856	565.150745939723
+Mozambique	MOZ	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	32.8267482411403	33.1293907225056
+Mozambique	MOZ	Internet users (per 100 people)	IT.NET.USER.P2	4.3	4.8491
+Myanmar	MMR	GDP per capita (current US$)	NY.GDP.PCAP.CD	..	..
+Myanmar	MMR	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	2.5728222636671	11.164840308817
+Myanmar	MMR	Internet users (per 100 people)	IT.NET.USER.P2	0.98	1.0691
+Namibia	NAM	GDP per capita (current US$)	NY.GDP.PCAP.CD	5692.18883074631	5785.74818236006
+Namibia	NAM	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	96.3932506140265	103.003214724207
+Namibia	NAM	Internet users (per 100 people)	IT.NET.USER.P2	12	12.9414
+Nepal	NPL	GDP per capita (current US$)	NY.GDP.PCAP.CD	704.185848803499	690.205385292739
+Nepal	NPL	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	43.8055680878027	52.8197337620997
+Nepal	NPL	Internet users (per 100 people)	IT.NET.USER.P2	9	11.1493
+Netherlands	NLD	GDP per capita (current US$)	NY.GDP.PCAP.CD	49841.6122891579	45954.7333819681
+Netherlands	NLD	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	118.989566357627	117.522628026852
+Netherlands	NLD	Internet users (per 100 people)	IT.NET.USER.P2	92.3	93
+New Caledonia	NCL	GDP per capita (current US$)	NY.GDP.PCAP.CD	..	..
+New Caledonia	NCL	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	89.2055443928168	89.280538002203
+New Caledonia	NCL	Internet users (per 100 people)	IT.NET.USER.P2	50	58
+New Zealand	NZL	GDP per capita (current US$)	NY.GDP.PCAP.CD	36918.7881751774	37749.4427226249
+New Zealand	NZL	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	109.18541563739	110.327649808115
+New Zealand	NZL	Internet users (per 100 people)	IT.NET.USER.P2	86	89.5109
+Nicaragua	NIC	GDP per capita (current US$)	NY.GDP.PCAP.CD	1631.72392833097	1753.64236651583
+Nicaragua	NIC	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	82.1746144157807	89.7748374531352
+Nicaragua	NIC	Internet users (per 100 people)	IT.NET.USER.P2	10.6	13.5
+Niger	NER	GDP per capita (current US$)	NY.GDP.PCAP.CD	388.326731231388	394.775830895983
+Niger	NER	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	29.5157182832976	32.4166673125319
+Niger	NER	Internet users (per 100 people)	IT.NET.USER.P2	1.3	1.4077
+Nigeria	NGA	GDP per capita (current US$)	NY.GDP.PCAP.CD	1496.30331647621	1555.36061390834
+Nigeria	NGA	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	58.5750454249494	67.6818115566088
+Nigeria	NGA	Internet users (per 100 people)	IT.NET.USER.P2	28.43	32.8763
+Northern Mariana Islands	MNP	GDP per capita (current US$)	NY.GDP.PCAP.CD	..	..
+Northern Mariana Islands	MNP	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	..	..
+Northern Mariana Islands	MNP	Internet users (per 100 people)	IT.NET.USER.P2	..	..
+Norway	NOR	GDP per capita (current US$)	NY.GDP.PCAP.CD	99143.1651181185	99557.7312341265
+Norway	NOR	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	115.61690837971	115.548851905924
+Norway	NOR	Internet users (per 100 people)	IT.NET.USER.P2	93.97	95
+Oman	OMN	GDP per capita (current US$)	NY.GDP.PCAP.CD	23132.9389030431	..
+Oman	OMN	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	168.97410356816	181.732911805187
+Oman	OMN	Internet users (per 100 people)	IT.NET.USER.P2	48	60
+Pakistan	PAK	GDP per capita (current US$)	NY.GDP.PCAP.CD	1213.93138503534	1256.65956040377
+Pakistan	PAK	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	61.6109614054714	66.7688112450969
+Pakistan	PAK	Internet users (per 100 people)	IT.NET.USER.P2	9	9.9637
+Palau	PLW	GDP per capita (current US$)	NY.GDP.PCAP.CD	10332.1032612377	11005.8656286861
+Palau	PLW	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	74.9429860740453	82.6235668176125
+Palau	PLW	Internet users (per 100 people)	IT.NET.USER.P2	..	..
+Panama	PAN	GDP per capita (current US$)	NY.GDP.PCAP.CD	8372.57725487009	9534.40842483762
+Panama	PAN	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	188.604874852465	186.734422237186
+Panama	PAN	Internet users (per 100 people)	IT.NET.USER.P2	42.7	45.1999
+Papua New Guinea	PNG	GDP per capita (current US$)	NY.GDP.PCAP.CD	1767.2386619059	2184.1634610913
+Papua New Guinea	PNG	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	34.2181139574404	37.7818366017156
+Papua New Guinea	PNG	Internet users (per 100 people)	IT.NET.USER.P2	2	2.30195686635833
+Paraguay	PRY	GDP per capita (current US$)	NY.GDP.PCAP.CD	3956.72948180981	3813.47148779887
+Paraguay	PRY	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	99.402629908241	101.657353653922
+Paraguay	PRY	Internet users (per 100 people)	IT.NET.USER.P2	23.9	27.0758
+Peru	PER	GDP per capita (current US$)	NY.GDP.PCAP.CD	6112.16462609743	6795.77249780419
+Peru	PER	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	110.413663459198	98.8371763354124
+Peru	PER	Internet users (per 100 people)	IT.NET.USER.P2	36	38.2
+Philippines	PHL	GDP per capita (current US$)	NY.GDP.PCAP.CD	2357.57092433426	2587.01676209871
+Philippines	PHL	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	99.3018230606135	106.76732676413
+Philippines	PHL	Internet users (per 100 people)	IT.NET.USER.P2	29	36.2351
+Poland	POL	GDP per capita (current US$)	NY.GDP.PCAP.CD	13382.0721480115	12707.8543136195
+Poland	POL	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	130.970231062999	132.682309643034
+Poland	POL	Internet users (per 100 people)	IT.NET.USER.P2	64.88	65
+Portugal	PRT	GDP per capita (current US$)	NY.GDP.PCAP.CD	22513.5265976418	20165.286119153
+Portugal	PRT	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	115.388062280354	115.069350584751
+Portugal	PRT	Internet users (per 100 people)	IT.NET.USER.P2	57.76	64
+Puerto Rico	PRI	GDP per capita (current US$)	NY.GDP.PCAP.CD	26733.7611695212	27677.5255941778
+Puerto Rico	PRI	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	82.9889313276693	81.7473246103789
+Puerto Rico	PRI	Internet users (per 100 people)	IT.NET.USER.P2	48	51.4114
+Qatar	QAT	GDP per capita (current US$)	NY.GDP.PCAP.CD	89735.6818712772	..
+Qatar	QAT	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	123.110937139881	134.106751037006
+Qatar	QAT	Internet users (per 100 people)	IT.NET.USER.P2	86.2	88.1043668821783
+Romania	ROM	GDP per capita (current US$)	NY.GDP.PCAP.CD	8874.31517831925	9036.0361679301
+Romania	ROM	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	109.252935239646	106.13667776395
+Romania	ROM	Internet users (per 100 people)	IT.NET.USER.P2	44.02	50
+Russian Federation	RUS	GDP per capita (current US$)	NY.GDP.PCAP.CD	13284.032601861	14037.015448307
+Russian Federation	RUS	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	179.308702934644	183.518213935259
+Russian Federation	RUS	Internet users (per 100 people)	IT.NET.USER.P2	49	53.2748
+Rwanda	RWA	GDP per capita (current US$)	NY.GDP.PCAP.CD	570.166882760374	619.927057661997
+Rwanda	RWA	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	40.630670888563	50.4866841865167
+Rwanda	RWA	Internet users (per 100 people)	IT.NET.USER.P2	7	8.02385427694765
+Samoa	WSM	GDP per capita (current US$)	NY.GDP.PCAP.CD	3361.96167083846	3619.68990394731
+Samoa	WSM	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	..	..
+Samoa	WSM	Internet users (per 100 people)	IT.NET.USER.P2	11	12.92249
+San Marino	SMR	GDP per capita (current US$)	NY.GDP.PCAP.CD	..	..
+San Marino	SMR	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	111.753584370569	112.693692283612
+San Marino	SMR	Internet users (per 100 people)	IT.NET.USER.P2	49.6	50.8826
+Sao Tome and Principe	STP	GDP per capita (current US$)	NY.GDP.PCAP.CD	1355.44734446222	1400.32524535534
+Sao Tome and Principe	STP	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	68.26127719165	70.9805792480713
+Sao Tome and Principe	STP	Internet users (per 100 people)	IT.NET.USER.P2	20.1612	21.5724
+Saudi Arabia	SAU	GDP per capita (current US$)	NY.GDP.PCAP.CD	24116.1741324844	25136.2148172776
+Saudi Arabia	SAU	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	191.24269417073	184.678893492673
+Saudi Arabia	SAU	Internet users (per 100 people)	IT.NET.USER.P2	47.5	54
+Senegal	SEN	GDP per capita (current US$)	NY.GDP.PCAP.CD	1083.2616754797	1023.29435474286
+Senegal	SEN	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	73.2549596806155	87.5091099329453
+Senegal	SEN	Internet users (per 100 people)	IT.NET.USER.P2	17.5	19.2036
+Serbia	SRB	GDP per capita (current US$)	NY.GDP.PCAP.CD	5964.09519769607	5189.5793787732
+Serbia	SRB	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	125.392874001382	92.8027004700717
+Serbia	SRB	Internet users (per 100 people)	IT.NET.USER.P2	42.2	48.1
+Seychelles	SYC	GDP per capita (current US$)	NY.GDP.PCAP.CD	12289.2562966783	12858.1751984866
+Seychelles	SYC	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	145.713003142301	158.625199325448
+Seychelles	SYC	Internet users (per 100 people)	IT.NET.USER.P2	43.16400446	47.076
+Sierra Leone	SLE	GDP per capita (current US$)	NY.GDP.PCAP.CD	501.023224689941	634.922792952024
+Sierra Leone	SLE	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	35.6315963055187	36.0730929004562
+Sierra Leone	SLE	Internet users (per 100 people)	IT.NET.USER.P2	0.9	1.3
+Singapore	SGP	GDP per capita (current US$)	NY.GDP.PCAP.CD	47268.2289473424	51709.4533042869
+Singapore	SGP	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	150.239025831675	153.397518167799
+Singapore	SGP	Internet users (per 100 people)	IT.NET.USER.P2	71	74.1818
+Sint Maarten (Dutch part)	SXM	GDP per capita (current US$)	NY.GDP.PCAP.CD	..	..
+Sint Maarten (Dutch part)	SXM	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	..	..
+Sint Maarten (Dutch part)	SXM	Internet users (per 100 people)	IT.NET.USER.P2	..	..
+Slovak Republic	SVK	GDP per capita (current US$)	NY.GDP.PCAP.CD	17760.4143825731	16847.3603888159
+Slovak Republic	SVK	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	109.349480270683	111.206145905029
+Slovak Republic	SVK	Internet users (per 100 people)	IT.NET.USER.P2	74.44	80
+Slovenia	SVN	GDP per capita (current US$)	NY.GDP.PCAP.CD	24478.3495413267	22000.0695671819
+Slovenia	SVN	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	106.561926907556	110.078590941332
+Slovenia	SVN	Internet users (per 100 people)	IT.NET.USER.P2	69	70
+Solomon Islands	SLB	GDP per capita (current US$)	NY.GDP.PCAP.CD	1610.92428632511	1834.83970498894
+Solomon Islands	SLB	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	49.7715778780916	53.337534709902
+Solomon Islands	SLB	Internet users (per 100 people)	IT.NET.USER.P2	6	6.9974
+Somalia	SOM	GDP per capita (current US$)	NY.GDP.PCAP.CD	..	..
+Somalia	SOM	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	6.85370622796808	6.71603668099183
+Somalia	SOM	Internet users (per 100 people)	IT.NET.USER.P2	1.25	1.3767
+South Africa	ZAF	GDP per capita (current US$)	NY.GDP.PCAP.CD	7942.8341009557	7507.67493954937
+South Africa	ZAF	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	126.833190454423	134.79769850185
+South Africa	ZAF	Internet users (per 100 people)	IT.NET.USER.P2	33.97	41
+South Sudan	SSD	GDP per capita (current US$)	NY.GDP.PCAP.CD	1844.30064340445	943.043265914972
+South Sudan	SSD	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	..	18.8232176107012
+South Sudan	SSD	Internet users (per 100 people)	IT.NET.USER.P2	..	..
+Spain	ESP	GDP per capita (current US$)	NY.GDP.PCAP.CD	31472.5392958879	28624.4729064329
+Spain	ESP	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	113.222916551636	108.319012675984
+Spain	ESP	Internet users (per 100 people)	IT.NET.USER.P2	67.6	72
+Sri Lanka	LKA	GDP per capita (current US$)	NY.GDP.PCAP.CD	2835.99159436476	2923.20982902345
+Sri Lanka	LKA	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	87.0472988056199	95.7618777254512
+Sri Lanka	LKA	Internet users (per 100 people)	IT.NET.USER.P2	15	18.2854
+St. Kitts and Nevis	KNA	GDP per capita (current US$)	NY.GDP.PCAP.CD	13198.3643810694	14313.9743206927
+St. Kitts and Nevis	KNA	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	154.568245650412	156.433320297223
+St. Kitts and Nevis	KNA	Internet users (per 100 people)	IT.NET.USER.P2	77.6	79.3488989552935
+St. Lucia	LCA	GDP per capita (current US$)	NY.GDP.PCAP.CD	7023.32436284648	6848.2376333319
+St. Lucia	LCA	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	122.99765967599	127.675849578726
+St. Lucia	LCA	Internet users (per 100 people)	IT.NET.USER.P2	45	48.6281
+St. Martin (French part)	MAF	GDP per capita (current US$)	NY.GDP.PCAP.CD	..	..
+St. Martin (French part)	MAF	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	..	..
+St. Martin (French part)	MAF	Internet users (per 100 people)	IT.NET.USER.P2	..	..
+St. Vincent and the Grenadines	VCT	GDP per capita (current US$)	NY.GDP.PCAP.CD	6291.26432320375	6515.21754810501
+St. Vincent and the Grenadines	VCT	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	120.52210487816	123.881061014749
+St. Vincent and the Grenadines	VCT	Internet users (per 100 people)	IT.NET.USER.P2	43.01	47.52
+Sudan	SDN	GDP per capita (current US$)	NY.GDP.PCAP.CD	1537.59866544764	1580.00401697497
+Sudan	SDN	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	56.1389968535418	60.4928585602716
+Sudan	SDN	Internet users (per 100 people)	IT.NET.USER.P2	19	21
+Suriname	SUR	GDP per capita (current US$)	NY.GDP.PCAP.CD	8236.2029183863	9376.49537499942
+Suriname	SUR	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	178.875333148225	182.898862732251
+Suriname	SUR	Internet users (per 100 people)	IT.NET.USER.P2	32	34.6812
+Swaziland	SWZ	GDP per capita (current US$)	NY.GDP.PCAP.CD	3274.38729352788	3041.85045883652
+Swaziland	SWZ	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	63.7015615001704	65.9615472858257
+Swaziland	SWZ	Internet users (per 100 people)	IT.NET.USER.P2	18.13	20.7817825772944
+Sweden	SWE	GDP per capita (current US$)	NY.GDP.PCAP.CD	56755.3319349435	55041.1568371501
+Sweden	SWE	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	121.32781441977	122.619487431377
+Sweden	SWE	Internet users (per 100 people)	IT.NET.USER.P2	94	94
+Switzerland	CHE	GDP per capita (current US$)	NY.GDP.PCAP.CD	83087.0528408196	78924.7259001649
+Switzerland	CHE	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	130.914591472781	135.252050471514
+Switzerland	CHE	Internet users (per 100 people)	IT.NET.USER.P2	85.2	85.2
+Syrian Arab Republic	SYR	GDP per capita (current US$)	NY.GDP.PCAP.CD	..	3289.05632465025
+Syrian Arab Republic	SYR	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	63.1668574990982	61.2188691092634
+Syrian Arab Republic	SYR	Internet users (per 100 people)	IT.NET.USER.P2	22.5	24.3001
+Tajikistan	TJK	GDP per capita (current US$)	NY.GDP.PCAP.CD	834.64055238135	870.542106619998
+Tajikistan	TJK	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	90.6412221486786	92.2196064138397
+Tajikistan	TJK	Internet users (per 100 people)	IT.NET.USER.P2	13.03	14.51
+Tanzania	TZA	GDP per capita (current US$)	NY.GDP.PCAP.CD	530.394855229403	608.715894293703
+Tanzania	TZA	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	55.5328770397196	57.1157323007858
+Tanzania	TZA	Internet users (per 100 people)	IT.NET.USER.P2	12	13.0803
+Thailand	THA	GDP per capita (current US$)	NY.GDP.PCAP.CD	5192.11890669532	5479.76058007419
+Thailand	THA	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	111.631690273194	120.292544475171
+Thailand	THA	Internet users (per 100 people)	IT.NET.USER.P2	23.7	26.5
+Timor-Leste	TMP	GDP per capita (current US$)	NY.GDP.PCAP.CD	959.536687417083	1068.38931015763
+Timor-Leste	TMP	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	53.2269806575296	52.3082158434089
+Timor-Leste	TMP	Internet users (per 100 people)	IT.NET.USER.P2	0.9	0.9147
+Togo	TGO	GDP per capita (current US$)	NY.GDP.PCAP.CD	569.469715826065	574.119522324374
+Togo	TGO	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	50.4457080986863	55.9915404708382
+Togo	TGO	Internet users (per 100 people)	IT.NET.USER.P2	3.5	4
+Tonga	TON	GDP per capita (current US$)	NY.GDP.PCAP.CD	4046.11987034274	4493.72025525997
+Tonga	TON	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	52.6270464744663	53.3887559466494
+Tonga	TON	Internet users (per 100 people)	IT.NET.USER.P2	25	34.8609
+Trinidad and Tobago	TTO	GDP per capita (current US$)	NY.GDP.PCAP.CD	17686.7271819202	17436.50121061
+Trinidad and Tobago	TTO	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	135.64080662532	139.428896690523
+Trinidad and Tobago	TTO	Internet users (per 100 people)	IT.NET.USER.P2	55.2	59.5162
+Tunisia	TUN	GDP per capita (current US$)	NY.GDP.PCAP.CD	4350.33597633538	4236.79363099703
+Tunisia	TUN	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	116.930237396306	119.956463123408
+Tunisia	TUN	Internet users (per 100 people)	IT.NET.USER.P2	39.1	41.4416
+Turkey	TUR	GDP per capita (current US$)	NY.GDP.PCAP.CD	10604.8401475284	10666.0556786343
+Turkey	TUR	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	88.7046487870466	90.835677587542
+Turkey	TUR	Internet users (per 100 people)	IT.NET.USER.P2	43.07	45.13
+Turkmenistan	TKM	GDP per capita (current US$)	NY.GDP.PCAP.CD	5724.54158628157	6797.73430697525
+Turkmenistan	TKM	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	68.7716551874219	76.4653768332927
+Turkmenistan	TKM	Internet users (per 100 people)	IT.NET.USER.P2	5	7.1958
+Turks and Caicos Islands	TCA	GDP per capita (current US$)	NY.GDP.PCAP.CD	..	..
+Turks and Caicos Islands	TCA	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	..	..
+Turks and Caicos Islands	TCA	Internet users (per 100 people)	IT.NET.USER.P2	..	..
+Tuvalu	TUV	GDP per capita (current US$)	NY.GDP.PCAP.CD	3993.6518380158	4044.18946444615
+Tuvalu	TUV	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	21.6309535899259	28.3774196817675
+Tuvalu	TUV	Internet users (per 100 people)	IT.NET.USER.P2	30	35
+Uganda	UGA	GDP per capita (current US$)	NY.GDP.PCAP.CD	478.615644239593	547.006246137373
+Uganda	UGA	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	48.3841688036569	45.9178505968548
+Uganda	UGA	Internet users (per 100 people)	IT.NET.USER.P2	13.01354333	14.6896
+Ukraine	UKR	GDP per capita (current US$)	NY.GDP.PCAP.CD	3575.50732483853	3866.9897922327
+Ukraine	UKR	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	122.983535361001	132.050153773004
+Ukraine	UKR	Internet users (per 100 people)	IT.NET.USER.P2	28.70826284	33.7
+United Arab Emirates	ARE	GDP per capita (current US$)	NY.GDP.PCAP.CD	39057.8401080621	..
+United Arab Emirates	ARE	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	148.61885629617	169.941621340477
+United Arab Emirates	ARE	Internet users (per 100 people)	IT.NET.USER.P2	78	85
+United Kingdom	GBR	GDP per capita (current US$)	NY.GDP.PCAP.CD	39503.3146289646	39093.4728380825
+United Kingdom	GBR	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	130.751936906855	130.750773204138
+United Kingdom	GBR	Internet users (per 100 people)	IT.NET.USER.P2	86.84	87.0162
+United States	USA	GDP per capita (current US$)	NY.GDP.PCAP.CD	49853.6823403904	51748.561485176
+United States	USA	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	95.2752888046066	98.166103913115
+United States	USA	Internet users (per 100 people)	IT.NET.USER.P2	77.863021	81.0252
+Uruguay	URY	GDP per capita (current US$)	NY.GDP.PCAP.CD	13723.9218518615	14702.8003940863
+Uruguay	URY	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	140.751885794353	147.296625492271
+Uruguay	URY	Internet users (per 100 people)	IT.NET.USER.P2	51.4	55.1146
+Uzbekistan	UZB	GDP per capita (current US$)	NY.GDP.PCAP.CD	1544.73028524997	1716.52628363028
+Uzbekistan	UZB	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	91.6482143345379	72.207639957509
+Uzbekistan	UZB	Internet users (per 100 people)	IT.NET.USER.P2	30.2	36.5213
+Vanuatu	VUT	GDP per capita (current US$)	NY.GDP.PCAP.CD	3252.13499264466	3183.15575794249
+Vanuatu	VUT	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	55.7595300037864	54.4354998927184
+Vanuatu	VUT	Internet users (per 100 people)	IT.NET.USER.P2	9.2	10.598
+"Venezuela, RB"	VEN	GDP per capita (current US$)	NY.GDP.PCAP.CD	10727.9825698731	12728.7268472749
+"Venezuela, RB"	VEN	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	97.7752677753911	102.100081717741
+"Venezuela, RB"	VEN	Internet users (per 100 people)	IT.NET.USER.P2	40.22	44.0456
+Vietnam	VNM	GDP per capita (current US$)	NY.GDP.PCAP.CD	1543.02695033023	1755.21401648531
+Vietnam	VNM	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	143.389101197815	149.409997343817
+Vietnam	VNM	Internet users (per 100 people)	IT.NET.USER.P2	35.07	39.49
+Virgin Islands (U.S.)	VIR	GDP per capita (current US$)	NY.GDP.PCAP.CD	..	..
+Virgin Islands (U.S.)	VIR	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	..	..
+Virgin Islands (U.S.)	VIR	Internet users (per 100 people)	IT.NET.USER.P2	35.6	40.5479
+West Bank and Gaza	WBG	GDP per capita (current US$)	NY.GDP.PCAP.CD	..	..
+West Bank and Gaza	WBG	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	69.4775440236646	71.2046082329948
+West Bank and Gaza	WBG	Internet users (per 100 people)	IT.NET.USER.P2	41.08	..
+"Yemen, Rep."	YEM	GDP per capita (current US$)	NY.GDP.PCAP.CD	1361.3265301208	1494.4328319866
+"Yemen, Rep."	YEM	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	47.0486147513617	54.362145674672
+"Yemen, Rep."	YEM	Internet users (per 100 people)	IT.NET.USER.P2	14.905	17.4465
+Zambia	ZMB	GDP per capita (current US$)	NY.GDP.PCAP.CD	1408.56131949926	1469.12116226751
+Zambia	ZMB	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	60.5905591252634	75.8066599119233
+Zambia	ZMB	Internet users (per 100 people)	IT.NET.USER.P2	11.5	13.4682
+Zimbabwe	ZWE	GDP per capita (current US$)	NY.GDP.PCAP.CD	663.642622309306	714.233007225203
+Zimbabwe	ZWE	Mobile cellular subscriptions (per 100 people)	IT.CEL.SETS.P2	72.1320945639215	96.9282857621035
+Zimbabwe	ZWE	Internet users (per 100 people)	IT.NET.USER.P2	15.7	17.0908
