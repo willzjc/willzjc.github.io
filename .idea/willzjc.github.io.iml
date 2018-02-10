@@ -7,7 +7,7 @@
       <excludeFolder url="file://$MODULE_DIR$/timeline/keshif" />
       <excludeFolder url="file://$MODULE_DIR$/timeline/patternfly_timeline" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 2.7 virtualenv at C:\Users\Will-AMD\PycharmProjects\venv1" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">

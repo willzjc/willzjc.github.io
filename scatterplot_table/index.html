@@ -90,16 +90,16 @@
     <tr>
         <td style="width: 600px">
             <div style="margin-top: 0px; margin-left: 40px">
-                <button type="button" id="helpBtn" class="btn"><b>?</b></button>
+                <button type="button" id="helpBtn" class="btn"><b>?!</b></button>
             </div>
             <div id="helpDiv" style="margin-left: 40px; display: none">
                 <p style="font-size: 13px;">
                     <b>Note:</b> The X-axis (Time/capita) is drawn with a logaritmic scale<br>
-                    <b>Note:</b> Only countries with cellular, internet and Time data are included (174 out of 214
-                    countries)<br>
+                    <b>Note:</b> Only cars with milage, price and Time data are included (174 out of 214
+                    cars)<br>
                     <b>Usage:</b> a) Drag the gray rectangle around the chart to view different data points, b) Grab the
                     sides of the rectangle to change its size, c) Click the headers in the table to change the sort
-                    order, d) Hover over countries in the table to see the corresponding location in the scatter chart,
+                    order, d) Hover over cars in the table to see the corresponding location in the scatter chart,
                     e) Double click in the chart to remove the rectangle, and begin dragging to re-create
                 </p>
             </div>
@@ -107,8 +107,8 @@
     </tr>
 </table>
 <form>
-    <label><input type="radio" name="mode" value="internet" checked> Price</label>
-    <label><input type="radio" name="mode" value="cellular"> Milage</label>
+    <label><input type="radio" name="mode" value="price" checked> Price</label>
+    <label><input type="radio" name="mode" value="milage"> Milage</label>
 </form>
 <!--<script src="../d3/d3.v3.js"></script>-->
 <script src="http://d3js.org/d3.v3.min.js"></script>
@@ -129,6 +129,7 @@
     var label_code = "model";
     var metric_name = "metric";
     var metric_code = "metric_code";
+    var sort_polarity = 1;
 
     var margin = {top: 30, right: 30, bottom: 2, left: 60},
         data = [],
@@ -166,12 +167,12 @@
                 if (value === "..") {
                     include = false;
                     return;
-                } // exclude countries with any null values
+                } // exclude cars with any null values
 
                 item["name_" + c] = d.values[i].values[0][metric_name];
                 item["code_" + c] = d.values[i].values[0][metric_code];
                 // item["link_" + c] = d.values[i].values[0]['link'];          // each metric is returned by column names
-                item["value" + c] = + value;
+                item["value" + c] = +value;
             });
 
             if (include) data.push(item);
@@ -237,7 +238,7 @@
                 fillOpacity = 0.5,
                 colorFill,
                 colorStroke,
-                mode = "internet",
+                mode = "price",
                 colors = {
                     red: 'rgb(216, 50, 51)',
                     green: 'rgb(51, 164, 51)',
@@ -269,7 +270,7 @@
                 };
 
                 var yAccessor = function (d) {
-                    if (mode == "internet") return d.valueprice;
+                    if (mode == "price") return d.valueprice;
                     else return d.valuemilage;
                 }
 
@@ -279,15 +280,15 @@
                     .range([chartHeight, 0]);
 
                 // var offset=10000;
-                var offset = 40;
+                var offset = 5;
                 dataXmax = d3.max(data, xField) + offset;
                 var xScale = d3.scale.log()
                     .domain([d3.min(data, xField), d3.max(data, xField) + offset])
                     .range([0, chartWidth - 10]);
 
                 // set colors for this mode
-                colorFill = (mode === "internet" ? colors.orange : colors.green);
-                colorStroke = (mode === "internet" ? colors.orange : colors.green);
+                colorFill = (mode === "price" ? colors.orange : colors.green);
+                colorStroke = (mode === "price" ? colors.orange : colors.green);
 
                 // set color scale for circle color --> not used at the moment
                 var colorScale = d3.scale.linear()
@@ -462,8 +463,8 @@
 
             x.accessor = function (_) {
                 if (!arguments.length) return mode;
-                if (_ === "showprice") mode = "internet";
-                else mode = "cellular";
+                if (_ === "showprice") mode = "price";
+                else mode = "milage";
 
                 return x;
             }
@@ -503,7 +504,7 @@
                     });
 
                 var columnHead = ["Name", "Series", "Price", "Milage", "Age"];
-                var columnData = ["labelCode", "labelName", "valueprice", "valuemilage", "valueage","valuelink"];
+                var columnData = ["labelCode", "labelName", "valueprice", "valuemilage", "valueage", "valuelink"];
 
                 var thead = table.append("thead");
                 var tbody = table.append("tbody");
@@ -524,7 +525,11 @@
                     })
                     .on("click", function (d, i) {
                         sortColumn = columnData[i];
-                        x.sort();
+                        // x.sort_direction=
+                        // x.sort(function(a, b){return b-a});
+                        x.sort()
+
+                        // x.reverse()
                         x(div);
                     });
 
@@ -545,7 +550,7 @@
                             }
                             // Adding Hyperlink
                             if (column == "labelCode") {
-                                value = '<a href="' + d['hreflink'] + '">'+ value +'</a>';
+                                value = '<a href="' + d['hreflink'] + '">' + value + '</a>';
                             }
                             return {value: value};
                         });
@@ -578,12 +583,13 @@
             x.sort = function () {
                 var result = 0;
                 data.sort(function (a, b) {
-                    if (a[sortColumn] > b[sortColumn]) result = -1;
-                    if (a[sortColumn] < b[sortColumn]) result = 1;
-                    if (sortColumn === "labelCode" || sortColumn === "labelName") result *= -1;
-
+                    if (a[sortColumn] > b[sortColumn]) result = -1 * sort_polarity;
+                    if (a[sortColumn] < b[sortColumn]) result = 1 * sort_polarity;
+                    if (sortColumn === "labelCode" || sortColumn === "labelName") result *= -1 * sort_polarity;
                     return result;
                 });
+                sort_polarity *= -1;
+
             }
 
             return d3.rebind(x, dispatch, "on");
@@ -595,7 +601,7 @@
         d3.selectAll("input").on("change", change);
 
         function change() {
-            if (this.value === "internet") mode = "showprice";
+            if (this.value === "price") mode = "showprice";
             else mode = "showmilage";
             //console.log(mode);
 
