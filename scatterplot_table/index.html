@@ -35,6 +35,7 @@
 
     .axis text {
         /*font-family: sans-serif;*/
+        /*width: 100px;*/
         font-size: 12px;
     }
 
@@ -55,7 +56,7 @@
     form {
         position: absolute;
         left: 75px;
-        top: 55px;
+        top: 75px;
     }
 
     #table thead th:hover {
@@ -70,32 +71,31 @@
 <body>
 <table id="mainLayout" style="margin-top: 12px">
     <tr>
-        <td style="width: 500px; vertical-align: top">
+        <td style="width: 600px; vertical-align: top">
             <div id="chartDiv" style="border1: 1px solid black">
                 <h4 style="margin-top: 0px">
-                    <!--Alan mate drag the rectangle around <br/> -->
-                    Internet/Cellular Penetration vs. GDP/Capita 2012 (World Bank)</h4>
+                    Multi metric scatterplot - Carsales</h4>
+                <h6>Price and Milage vs Time</h6>
                 <svg id="svgDiv"></svg>
             </div>
         </td>
         <td style="vertical-align: top">
-            <div id="tableContainerDiv" style="height: 467px; border1: 1px solid black;">
-                <p style="font-size: 14px"><b>Source:</b> World Bank, World Development Indicators <br>(extracted March
-                    2014)</p>
+            <div id="tableContainerDiv" style="height: 600px; border1: 1px solid black;">
+                <p style="font-size: 14px"><b>Source: </b>carsales.com.au<br>Extracted at somedate</p>
                 <div id="tableDiv">
                 </div>
             </div>
         </td>
     </tr>
     <tr>
-        <td style="width: 500px">
+        <td style="width: 600px">
             <div style="margin-top: 0px; margin-left: 40px">
                 <button type="button" id="helpBtn" class="btn"><b>?</b></button>
             </div>
             <div id="helpDiv" style="margin-left: 40px; display: none">
                 <p style="font-size: 13px;">
-                    <b>Note:</b> The X-axis (GDP/capita) is drawn with a logaritmic scale<br>
-                    <b>Note:</b> Only countries with cellular, internet and GDP data are included (174 out of 214
+                    <b>Note:</b> The X-axis (Time/capita) is drawn with a logaritmic scale<br>
+                    <b>Note:</b> Only countries with cellular, internet and Time data are included (174 out of 214
                     countries)<br>
                     <b>Usage:</b> a) Drag the gray rectangle around the chart to view different data points, b) Grab the
                     sides of the rectangle to change its size, c) Click the headers in the table to change the sort
@@ -107,51 +107,71 @@
     </tr>
 </table>
 <form>
-    <label><input type="radio" name="mode" value="internet" checked> Internet penetration</label>
-    <label><input type="radio" name="mode" value="cellular"> Cellular penetration</label>
+    <label><input type="radio" name="mode" value="internet" checked> Price</label>
+    <label><input type="radio" name="mode" value="cellular"> Milage</label>
 </form>
 <!--<script src="../d3/d3.v3.js"></script>-->
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
     'use strict';
-    var margin = {top: 30, right: 30, bottom: 2, left: 30},
+
+    // time vs price
+    // milage vs price
+    //model,description,metric,metric_code,value
+
+    // var val_column_name = "2012 [YR2012]";
+    // var label_name ="Country Name";
+    // var label_code ="Country Code";
+    // var metric_name="Indicator Name";
+    // var metric_code="Indicator Code";
+    var val_column_name = "value";
+    var label_name = "description";
+    var label_code = "model";
+    var metric_name = "metric";
+    var metric_code = "metric_code";
+
+    var margin = {top: 30, right: 30, bottom: 2, left: 60},
         data = [],
         table, chart,
         commasFormatter = d3.format(",.0f"),
-        mode = "showInternet",
+        mode = "showprice",
         svgGroup;
 
     // get the raw data tsv file
-    d3.tsv("internetCellularGDP.txt", function (error, json) {
+    d3.csv("data.csv", function (error, json) {
 
         var nest = d3.nest()
             .key(function (d) {
-                return d["Country Code"];
+                return d[label_code];
             })
             .key(function (d) {
-                return d["Indicator Code"];
+                return d[metric_code];
             })
+
             .entries(json);
 
-        // create usable data structure, process country by country
+        // create usable data structure, process Name by Name
         nest.forEach(function (d) {
             var include = true;
             var item = {};
 
             item.key = d.key;
-            item.countryCode = d.key;
-            item.countryName = d.values[0].values[0]["Country Name"];
+            item.labelCode = d.key;
+            item.labelName = d.values[0].values[0][label_name];
+            item.hreflink = d.values[0].values[0]['link'];
 
-            ["GDP", "Cellular", "Internet"].forEach(function (c, i) {
-                var value = d.values[i].values[0]["2012 [YR2012]"];
+            ["price", "milage", "age"].forEach(function (c, i) {
+                // console.log(d.values[i].values[0]);
+                var value = d.values[i].values[0][val_column_name];
                 if (value === "..") {
                     include = false;
                     return;
                 } // exclude countries with any null values
 
-                item["indicatorName" + c] = d.values[i].values[0]["Indicator Name"];
-                item["indicatorCode" + c] = d.values[i].values[0]["Indicator Code"];
-                item["value" + c] = +value;
+                item["name_" + c] = d.values[i].values[0][metric_name];
+                item["code_" + c] = d.values[i].values[0][metric_code];
+                // item["link_" + c] = d.values[i].values[0]['link'];          // each metric is returned by column names
+                item["value" + c] = + value;
             });
 
             if (include) data.push(item);
@@ -182,8 +202,8 @@
         // select table div
         var tableDiv = d3.select("#tableDiv")
             .style("overflow", "scroll")
-            .style("width", "330px")
-            .style("height", "400px")
+            .style("width", "600px")
+            .style("height", "470px")
             .style("margin", "0px")
             .style("padding-left", "0px");
 
@@ -242,15 +262,15 @@
                 var chartHeight = height - 60;
 
                 var xField = function (d) {
-                    return d.valueGDP;
+                    return d.valueage;
                 };
                 var yField = function (d) {
                     return yAccessor(d);
                 };
 
                 var yAccessor = function (d) {
-                    if (mode == "internet") return d.valueInternet;
-                    else return d.valueCellular;
+                    if (mode == "internet") return d.valueprice;
+                    else return d.valuemilage;
                 }
 
                 dataYmax = d3.max(data, yField);
@@ -258,9 +278,11 @@
                     .domain([0, d3.max(data, yField)])
                     .range([chartHeight, 0]);
 
-                dataXmax = d3.max(data, xField) + 10000;
+                // var offset=10000;
+                var offset = 40;
+                dataXmax = d3.max(data, xField) + offset;
                 var xScale = d3.scale.log()
-                    .domain([d3.min(data, xField), d3.max(data, xField) + 10000])
+                    .domain([d3.min(data, xField), d3.max(data, xField) + offset])
                     .range([0, chartWidth - 10]);
 
                 // set colors for this mode
@@ -270,7 +292,7 @@
                 // set color scale for circle color --> not used at the moment
                 var colorScale = d3.scale.linear()
                     .domain([0, d3.max(data, function (d) {
-                        return d.valueGDP
+                        return d.valueage
                     })])
                     .range(["#17D84D", "#FF1D1D"])
                     .interpolate(d3.interpolateHsl);
@@ -300,7 +322,8 @@
                 var yaxis = d3.svg.axis()
                     .scale(yScale)
                     .orient("left") //left, right, top
-                    .ticks(4) //best guess
+                    // .ticks(4) //best guess
+                    .ticks(6) //best guess
 
                 // call y axis
                 var yg = g.append("g")
@@ -312,9 +335,12 @@
                     .attr("transform", "rotate(-90)")
                     .attr("y", 10)
                     .attr("x", -10)
+                    // .attr("y", 20)
+                    // .attr("x", -20)
                     .attr("dy", ".71em")
+                    // .attr("dy", ".91em")
                     .style("text-anchor", "end")
-                    .text("Penetration per 100 people");
+                    .text("Metric Value");
 
                 // format y axis
                 yg.selectAll("path").style({fill: "none", stroke: "gray"})
@@ -342,7 +368,7 @@
                     .attr("x", chartWidth - 20)
                     .attr("dy", ".71em")
                     .style("text-anchor", "end")
-                    .text("GDP per capita (curr $)");
+                    .text("Time Axis");
 
                 // format x axis
                 xg.attr("transform", "translate(" + [0, chartHeight] + ")")
@@ -436,7 +462,7 @@
 
             x.accessor = function (_) {
                 if (!arguments.length) return mode;
-                if (_ === "showInternet") mode = "internet";
+                if (_ === "showprice") mode = "internet";
                 else mode = "cellular";
 
                 return x;
@@ -457,7 +483,7 @@
         function tableView() {
             var dispatch = d3.dispatch(x, "hover");
             var data,
-                sortColumn = "countryCode";
+                sortColumn = "labelCode";
 
             function x(div) {
                 div.select("#table").remove();
@@ -467,7 +493,7 @@
                     .attr("id", "table")
                     .style("background-color", "white");
 
-                var columnWidths = ["10%", "30%", "20%", "20%", "20%"];
+                var columnWidths = ["35%", "10%", "20%", "20%", "10%"];
                 table.selectAll("col")
                     .data(columnWidths)
                     .enter()
@@ -476,8 +502,8 @@
                         return d;
                     });
 
-                var columnHead = ["Code", "Country", "Cellular use per 100 people", "Internet use per 100 people", "GDP per capita ($)"];
-                var columnData = ["countryCode", "countryName", "valueCellular", "valueInternet", "valueGDP"];
+                var columnHead = ["Name", "Series", "Price", "Milage", "Age"];
+                var columnData = ["labelCode", "labelName", "valueprice", "valuemilage", "valueage","valuelink"];
 
                 var thead = table.append("thead");
                 var tbody = table.append("tbody");
@@ -514,8 +540,12 @@
                         return columnData.map(function (column) {
                             var value = d[column];
                             if (typeof value == "number") {
-                                if (column === "valueGDP") value = commasFormatter(value)
-                                else value = value.toFixed(2);
+                                if (column === "valueage") value = commasFormatter(value)
+                                else value = commasFormatter(value.toFixed(0));
+                            }
+                            // Adding Hyperlink
+                            if (column == "labelCode") {
+                                value = '<a href="' + d['hreflink'] + '">'+ value +'</a>';
                             }
                             return {value: value};
                         });
@@ -550,7 +580,7 @@
                 data.sort(function (a, b) {
                     if (a[sortColumn] > b[sortColumn]) result = -1;
                     if (a[sortColumn] < b[sortColumn]) result = 1;
-                    if (sortColumn === "countryCode" || sortColumn === "countryName") result *= -1;
+                    if (sortColumn === "labelCode" || sortColumn === "labelName") result *= -1;
 
                     return result;
                 });
@@ -565,8 +595,8 @@
         d3.selectAll("input").on("change", change);
 
         function change() {
-            if (this.value === "internet") mode = "showInternet";
-            else mode = "showCellular";
+            if (this.value === "internet") mode = "showprice";
+            else mode = "showmilage";
             //console.log(mode);
 
             // regenerate the chart
