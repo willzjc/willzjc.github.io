@@ -495,7 +495,7 @@
                     .attr("id", "table")
                     .style("background-color", "white");
 
-                var columnWidths = ["35%", "10%", "20%", "20%", "10%"];
+                var columnWidths = ["25%", "42%", "10%", "10%", "5%"];
                 table.selectAll("col")
                     .data(columnWidths)
                     .enter()
@@ -504,7 +504,7 @@
                         return d;
                     });
 
-                var columnHead = ["Name", "Series", "Price", "Milage", "Age"];
+                var columnHead = ["Name", "Description", "Price", "Milage", "Age"];
                 var columnData = ["labelCode", "labelName", "valueprice", "valuemilage", "valueage", "valuelink"];
 
                 var thead = table.append("thead");
