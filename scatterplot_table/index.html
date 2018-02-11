@@ -15,7 +15,7 @@
     }
 
     #table td, #table th {
-        font-size: 12px;
+        font-size: 11.5px;
         line-height: 17px;
     }
 
@@ -161,6 +161,7 @@
             item.labelCode = d.key;
             item.labelName = d.values[0].values[0][label_name];
             item.hreflink = d.values[0].values[0]['link'];
+            item.rating = d.values[0].values[0]['rating'];
 
             ["price", "milage", "age"].forEach(function (c, i) {
                 // console.log(d.values[i].values[0]);
@@ -227,6 +228,7 @@
 
         chart.forceBrushEvent(); //TODO: upon initial load, table is not synced to brush
 
+        var colorScaleArray  = null;
 
         // chart function -----------------------------------------------------------------------------
         function scatterView() {
@@ -266,6 +268,15 @@
                 var xField = function (d) {
                     return d.valueage;
                 };
+
+                var xRating = function (d) {
+                    return d.rating;
+                };
+
+                colorScaleArray = d3.scale.linear()
+                    .domain([d3.min(data, xRating), d3.max(data, xRating)])
+                    .range(["red", "green"]);
+
                 var yField = function (d) {
                     return yAccessor(d);
                 };
@@ -279,6 +290,8 @@
                 var yScale = d3.scale.linear()
                     .domain([0, d3.max(data, yField)])
                     .range([chartHeight, 0]);
+
+
 
                 // var offset=10000;
                 var offset = 5;
@@ -495,7 +508,7 @@
                     .attr("id", "table")
                     .style("background-color", "white");
 
-                var columnWidths = ["25%", "42%", "10%", "10%", "5%"];
+                var columnWidths = ["22%", "48%", "10%", "10%", "5%","5%"];
                 table.selectAll("col")
                     .data(columnWidths)
                     .enter()
@@ -504,8 +517,8 @@
                         return d;
                     });
 
-                var columnHead = ["Name", "Description", "Price", "Milage", "Age"];
-                var columnData = ["labelCode", "labelName", "valueprice", "valuemilage", "valueage", "valuelink"];
+                var columnHead = ["Name", "Description", "Rating","Price", "Milage", "Age" ];
+                var columnData = ["labelCode", "labelName", "rating","valueprice", "valuemilage", "valueage"];
 
                 var thead = table.append("thead");
                 var tbody = table.append("tbody");
@@ -526,11 +539,7 @@
                     })
                     .on("click", function (d, i) {
                         sortColumn = columnData[i];
-                        // x.sort_direction=
-                        // x.sort(function(a, b){return b-a});
                         x.sort()
-
-                        // x.reverse()
                         x(div);
                     });
 
@@ -545,6 +554,7 @@
                     .data(function (d) {
                         return columnData.map(function (column) {
                             var value = d[column];
+
                             if (typeof value == "number") {
                                 if (column === "valueage") value = commasFormatter(value)
                                 else value = commasFormatter(value.toFixed(0));
@@ -553,6 +563,12 @@
                             if (column == "labelCode") {
                                 value = '<a href="' + d['hreflink'] + '">' + value + '</a>';
                             }
+
+                            // // Adding Color
+                            // if (column == "rating") {
+                            //     value = '<font color="' + colorScaleArray(value)+'" >' + value + '</font>';
+                            // }
+
                             return {value: value};
                         });
                     })
