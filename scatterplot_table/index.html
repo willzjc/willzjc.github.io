@@ -131,6 +131,7 @@
     var metric_name = "metric";
     var metric_code = "metric_code";
     var sort_polarity = 1;
+    var colorScaleArray  = null;
 
     var margin = {top: 30, right: 30, bottom: 2, left: 60},
         data = [],
@@ -228,7 +229,7 @@
 
         chart.forceBrushEvent(); //TODO: upon initial load, table is not synced to brush
 
-        var colorScaleArray  = null;
+
 
         // chart function -----------------------------------------------------------------------------
         function scatterView() {
@@ -274,8 +275,8 @@
                 };
 
                 colorScaleArray = d3.scale.linear()
-                    .domain([d3.min(data, xRating), d3.max(data, xRating)])
-                    .range(["red", "green"]);
+                    .domain([d3.min(data, xRating),0, d3.max(data, xRating)])
+                    .range(["red","black", "green"]);
 
                 var yField = function (d) {
                     return yAccessor(d);
@@ -508,7 +509,7 @@
                     .attr("id", "table")
                     .style("background-color", "white");
 
-                var columnWidths = ["22%", "48%", "10%", "10%", "5%","5%"];
+                var columnWidths = ["22%", "48%", "2%", "8%", "10%", "5%","5%"];
                 table.selectAll("col")
                     .data(columnWidths)
                     .enter()
@@ -517,8 +518,8 @@
                         return d;
                     });
 
-                var columnHead = ["Name", "Description", "Rating","Price", "Milage", "Age" ];
-                var columnData = ["labelCode", "labelName", "rating","valueprice", "valuemilage", "valueage"];
+                var columnHead = ["Name", "Description","R", "Rating","Price", "Milage", "Age" ];
+                var columnData = ["labelCode", "labelName", "i","rating","valueprice", "valuemilage", "valueage"];
 
                 var thead = table.append("thead");
                 var tbody = table.append("tbody");
@@ -564,10 +565,16 @@
                                 value = '<a href="' + d['hreflink'] + '">' + value + '</a>';
                             }
 
-                            // // Adding Color
-                            // if (column == "rating") {
-                            //     value = '<font color="' + colorScaleArray(value)+'" >' + value + '</font>';
-                            // }
+                            // Adding Color
+                            if (column == "i") {
+                                // d.style("background-color",colorScaleArray(d['rating']));
+                                var valrating=d['rating'];
+                                var symbol='&#10004;';
+                                if ( valrating < 0 ) {
+                                    symbol='&#10008;'
+                                }
+                                value = '<font color="' + colorScaleArray(valrating)+'" >' + symbol + '</font>';
+                            }
 
                             return {value: value};
                         });
