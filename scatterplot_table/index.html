@@ -294,9 +294,9 @@
 
 
                 // var offset=10000;
-                var offset = 5;
+                var offset = 1;
                 dataXmax = d3.max(data, xField) + offset;
-                var xScale = d3.scale.log()
+                var xScale = d3.scale.linear()
                     .domain([d3.min(data, xField), d3.max(data, xField) + offset])
                     .range([0, chartWidth - 10]);
 
