@@ -64,7 +64,7 @@
     }
 
     .btn {
-        background-image: linear-gradient(to bottom, rgb(255, 134, 26), #E6E6E6);
+        background-image: linear-gradient(to bottom, rgb(255, 22, 0), #E6E6E6);
     }
 
 </style>
@@ -302,8 +302,8 @@
                     .range([0, chartWidth - 10]);
 
                 // set colors for this mode
-                colorFill = (mode === "price" ? colors.orange : colors.green);
-                colorStroke = (mode === "price" ? colors.orange : colors.green);
+                colorFill = (mode === "price" ? colors.blue : colors.green);
+                colorStroke = (mode === "price" ? colors.blue : colors.green);
 
                 // set color scale for circle color --> not used at the moment
                 var colorScale = d3.scale.linear()
