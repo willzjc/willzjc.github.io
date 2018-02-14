@@ -26,96 +26,62 @@
 
     d3.select("input[value=\"total\"]").property("checked", true);
 
-
-    average_prices = [
-        {label: "2013 (1)", value: 9880},
-        {label: "2012 (7)", value: 9844},
-        {label: "2011 (14)", value: 9650},
-        {label: "2010 (30)", value: 9049},
-        {label: "2009 (37)", value: 8333},
-        {label: "2008 (64)", value: 8391},
-        {label: "2007 (62)", value: 7866},
-        {label: "2006 (32)", value: 6262},
-        {label: "2005 (36)", value: 6068},
-        {label: "2004 (39)", value: 5335},
-        {label: "2003 (33)", value: 5095},
-        {label: "2002 (19)", value: 4215},
-        {label: "2001 (21)", value: 3287},
-        {label: "2000 (19)", value: 3124},
-        {label: "1999 (11)", value: 2912},
-        {label: "1998 (5)", value: 2378},
-        {label: "1997 (10)", value: 1969},
-        {label: "1996 (7)", value: 2041},
-        {label: "1995 (6)", value: 2131},
-        {label: "1994 (2)", value: 2210},
-        {label: "1993 (7)", value: 1542},
-        {label: "1992 (1)", value: 6000},
-        {label: "1990 (2)", value: 4000},
-        {label: "1982 (1)", value: 3000},
-        {label: "1981 (2)", value: 5000},
-        {label: "1977 (1)", value: 9500}
-
-    ];
-
-
-    average_milages = [
-        {label: "2013 (1)", value: 132819},
-        {label: "2012 (7)", value: 102487},
-        {label: "2011 (14)", value: 124344},
-        {label: "2010 (30)", value: 129510},
-        {label: "2009 (37)", value: 132383},
-        {label: "2008 (64)", value: 132249},
-        {label: "2007 (62)", value: 132068},
-        {label: "2006 (32)", value: 151719},
-        {label: "2005 (36)", value: 159892},
-        {label: "2004 (39)", value: 169504},
-        {label: "2003 (33)", value: 177772},
-        {label: "2002 (19)", value: 206992},
-        {label: "2001 (21)", value: 221856},
-        {label: "2000 (19)", value: 222080},
-        {label: "1999 (11)", value: 199900},
-        {label: "1998 (5)", value: 251541},
-        {label: "1997 (10)", value: 191627},
-        {label: "1996 (7)", value: 207485},
-        {label: "1995 (6)", value: 166943},
-        {label: "1994 (2)", value: 150659},
-        {label: "1993 (7)", value: 238048},
-        {label: "1992 (1)", value: 210690},
-        {label: "1990 (2)", value: 152500},
-        {label: "1982 (1)", value: 88000},
-        {label: "1981 (2)", value: 150000},
-        {label: "1977 (1)", value: 20466}
-    ];
-
+    
+        average_prices = [
+			{label: "2018 (15)", value: 71282 },
+			{label: "2017 (54)", value: 69364 },
+			{label: "2016 (21)", value: 58913 },
+			{label: "2015 (18)", value: 48262 },
+			{label: "2014 (24)", value: 41304 },
+			{label: "2013 (9)", value: 28272 },
+			{label: "2012 (19)", value: 28309 },
+			{label: "2011 (17)", value: 22719 },
+			{label: "2009 (19)", value: 17510 },
+			{label: "2008 (29)", value: 15935 },
+			{label: "2007 (19)", value: 15155 },
+			{label: "2006 (4)", value: 10716 },
+			{label: "2005 (2)", value: 20150 },
+			{label: "2004 (6)", value: 9746 },
+			{label: "2003 (14)", value: 5954 },
+			{label: "2002 (7)", value: 5856 },
+			{label: "2001 (10)", value: 6029 },
+			{label: "2000 (1)", value: 4999 },
+			{label: "1999 (1)", value: 4900 },
+			{label: "1998 (3)", value: 3333 },
+			{label: "1997 (4)", value: 4650 },
+			{label: "1996 (2)", value: 3000 } 
+ 
+            ];
+        
+    
+        average_milages = [ 
+		{label: "2018 (15)", value: 0 },
+			{label: "2017 (54)", value: 2777 },
+			{label: "2016 (21)", value: 11997 },
+			{label: "2015 (18)", value: 33125 },
+			{label: "2014 (24)", value: 44140 },
+			{label: "2013 (9)", value: 69489 },
+			{label: "2012 (19)", value: 66085 },
+			{label: "2011 (17)", value: 94257 },
+			{label: "2009 (19)", value: 100250 },
+			{label: "2008 (29)", value: 115979 },
+			{label: "2007 (19)", value: 108623 },
+			{label: "2006 (4)", value: 91525 },
+			{label: "2005 (2)", value: 100900 },
+			{label: "2004 (6)", value: 128982 },
+			{label: "2003 (14)", value: 187214 },
+			{label: "2002 (7)", value: 190894 },
+			{label: "2001 (10)", value: 161496 },
+			{label: "2000 (1)", value: 209000 },
+			{label: "1999 (1)", value: 235000 },
+			{label: "1998 (3)", value: 261201 },
+			{label: "1997 (4)", value: 242883 },
+			{label: "1996 (2)", value: 201495 } 
+            ];
+        
 
     //replace_data
 
-    datasetTotal = [
-        {label: "2015", value: 19},
-        {label: "Category 2", value: 5},
-        {label: "Category 3", value: 13},
-        {label: "Category 4", value: 17},
-        {label: "Category 5", value: 19},
-        {label: "Category 6", value: 27}
-    ];
-
-    datasetOption1 = [
-        {label: "Category 1", value: 22},
-        {label: "Category 2", value: 33},
-        {label: "Category 3", value: 4},
-        {label: "Category 4", value: 15},
-        {label: "Category 5", value: 36},
-        {label: "Category 6", value: 0}
-    ];
-
-    datasetOption2 = [
-        {label: "Category 1", value: 10},
-        {label: "Category 2", value: 20},
-        {label: "Category 3", value: 30},
-        {label: "Category 4", value: 5},
-        {label: "Category 5", value: 12},
-        {label: "Category 6", value: 23}
-    ];
 
     d3.selectAll("input").on("change", selectDataset);
     var current_selection = '';
@@ -191,9 +157,9 @@
 
 <!--Search / Filter bar functionality-->
 <script>
-    function myFunction() {
+    function filter_word() {
         // Declare variables
-        var input, filter, table, tr, td, i, arraytd,rowstr,tdlist,arrayLength;
+        var input, filter, table, tr, td, i, arraytd, rowstr, tdlist, arrayLength;
         input = document.getElementById("myInput");
         filter = input.value.toUpperCase();
         table = document.getElementById("cars_table");
@@ -204,12 +170,12 @@
 
             arraytd = tr[i].getElementsByTagName("td");
             var tdlist = Array.prototype.slice.call(arraytd);
-            var rowstr='';
-            var myStringArray=tdlist.concat();
+            var rowstr = '';
+            var myStringArray = tdlist.concat();
             var arrayLength = myStringArray.length;
             for (var rowi = 0; rowi < arrayLength; rowi++) {
-                rowstr=rowstr+myStringArray[rowi].textContent+' ';
-                console.log(rowstr)
+                rowstr = rowstr + myStringArray[rowi].textContent + ' ';
+                // console.log(rowstr)
             }
             // for each (e in tdlist.concat() ) {
             //     rowstr=rowstr+e.text() + ' '
@@ -235,7 +201,7 @@
     }
 </script>
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Filter">
+<input type="text" id="myInput" onkeyup="filter_word()" placeholder="Filter">
 
 <div class="table-container"/>
 
@@ -497,6 +463,7 @@
                             d3.descending(a[d.cl], b[d.cl]);
                     });
                     table.call(renderTable);
+                    filter_word();
                 });
 
             var tr = table.select("tbody").selectAll("tr").data(records);
@@ -689,13 +656,8 @@
                 else {
                     label_info = 'Avg Price: $';
                     metric_info = " price diff";
-                    // div.html((d.label) + "<br>Avg Price: " + d3.format("$,")(d.value)
-                    //     + '<br/> ' + d3.format('%')(percentage_difference) + " price drop"
-                    // );
 
-                    // if (other_val < 0) { color="red" };
                     other_metric = '<br/>Avg Milage: <font =color="' + 'black' + '">' + d3.format(",")(other_val) + "</font> km";
-
 
                 }
                 ;
