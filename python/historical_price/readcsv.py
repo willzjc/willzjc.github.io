@@ -26,25 +26,30 @@ def drawdf(df):
 
 
     # print df
-    sample_data_table = FF.create_table(df.head())
-    py.iplot(sample_data_table, filename='sample-data-table')
+    # sample_data_table = FF.create_table(df.head())
+    # py.iplot(sample_data_table, filename='sample-data-table')
+    #
+    # trace1 = go.Scatter(
+    #                     x=df.index.values, y=df[u'Total Sales'], # Data
+    #                     mode='lines', name='Total Sales' # Additional options
+    #                    )
+    # trace2 = go.Scatter(x=df.index.values, y=df[u'Average Selling Price'], mode='lines', name='avg' )
+    # trace3 = go.Scatter(x=df.index.values, y=df[u'Items Sold'], mode='lines', name='sold')
+    #
+    # layout = go.Layout(title='Plot from csv data',
+    #                    plot_bgcolor='rgb(230, 230,230)')
+    #
+    # fig = go.Figure(data=[trace2], layout=layout)
+    #
+    # # Plot data in the notebook
+    # py.iplot(fig, filename='simple-plot-from-csv')
+    # import matplotlib.pyplot as plt
 
-    trace1 = go.Scatter(
-                        x=df.index.values, y=df[u'Total Sales'], # Data
-                        mode='lines', name='Total Sales' # Additional options
-                       )
-    trace2 = go.Scatter(x=df.index.values, y=df[u'Average Selling Price'], mode='lines', name='avg' )
-    trace3 = go.Scatter(x=df.index.values, y=df[u'Items Sold'], mode='lines', name='sold')
-
-    layout = go.Layout(title='Plot from csv data',
-                       plot_bgcolor='rgb(230, 230,230)')
-
-    fig = go.Figure(data=[trace2], layout=layout)
-
-    # Plot data in the notebook
-    py.iplot(fig, filename='simple-plot-from-csv')
-
+    # plt.figure();
     df.plot(y='Average Selling Price',use_index=True)
+    # df.show()
+    plt.show()
+    # plt.legend(loc='Average Selling Price')
 
 def main():
     df = pd.read_csv('data_dogfood.csv')
