@@ -345,7 +345,7 @@ def main():
     url='https://www.carsales.com.au/cars/results?q=%28And.Service.Carsales._.%28Or.%28C.Make.Nissan._.Model.350Z.%29_.%28C.Make.Nissan._.Model.370Z.%29%29%29&WT.z_srchsrcx=makemodel'
     url='https://www.carsales.com.au/cars/results?sortby=TopDeal&limit=12&q=%28And.%28C.Make.Mazda._.Model.3.%29_.State.New+South+Wales._.GenericGearType.Automatic._.Year.range%282010..%29._.Postcode.poi%282000x50km%29.%29'
     url='https://www.carsales.com.au/cars/results?sortby=TopDeal&limit=12&q=%28And.%28C.Make.Toyota._.Model.Camry.%29_.State.New+South+Wales._.Year.range%280..2014%29.%29'
-    url='https://www.carsales.com.au/cars/results?q=%28And.Service.Carsales._.State.New%20South%20Wales._.%28Or.%28C.Make.Mercedes-Benz._.%28C.MarketingGroup.C%20Class._.Model.C200.%29%29_.%28C.Make.Mercedes-Benz._.Model.C200%20Kompressor.%29_.%28C.Make.Mercedes-Benz._.Model.C200%20CDI.%29%29%29&WT.z_srchsrcx=makemodel'
+
 
     url='https://www.carsales.com.au/cars/results?q=%28And.Service.Carsales._.State.New%20South%20Wales._.%28Or.%28C.Make.Toyota._.Model.Prius.%29_.%28C.Make.Toyota._.Model.Prius%20C.%29_.%28C.Make.Toyota._.Model.Prius%20V.%29%29%29&WT.z_srchsrcx=makemodel'
 
@@ -354,6 +354,9 @@ def main():
     url='https://www.carsales.com.au/cars/toyota/camry/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
 
     url='https://www.carsales.com.au/cars/results?q=%28And.Service.Carsales._.%28Or.%28C.Make.Nissan._.Model.350Z.%29_.%28C.Make.Nissan._.Model.370Z.%29%29%29&WT.z_srchsrcx=makemodel'
+
+    #C200
+    url = 'https://www.carsales.com.au/cars/results?q=%28And.Service.Carsales._.State.New%20South%20Wales._.%28Or.%28C.Make.Mercedes-Benz._.%28C.MarketingGroup.C%20Class._.Model.C200.%29%29_.%28C.Make.Mercedes-Benz._.Model.C200%20Kompressor.%29_.%28C.Make.Mercedes-Benz._.Model.C200%20CDI.%29%29%29&WT.z_srchsrcx=makemodel'
 
     db_save = False
     USE_LOCAL_COPY = False
