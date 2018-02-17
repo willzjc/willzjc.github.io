@@ -12,7 +12,8 @@ import matplotlib.pyplot as plt
 
 from scipy.interpolate import spline
 from matplotlib import dates as mdates
-
+import matplotlib
+matplotlib.use('Qt5Agg')
 
 if sys.version_info[0] < 3:
     from StringIO import StringIO
@@ -150,7 +151,7 @@ def drawdf(df,draw_plot=True,product='unknown'):
     if os.path.exists(correlation_pickle):
         cdf=pd.read_pickle(correlation_pickle)
         # if not product in cdf.columns:
-        cdf[product]=corrslist
+        # cdf[product]=corrslist
 
     else:
         cdf=pd.DataFrame(columns=['offset',product])
@@ -164,6 +165,7 @@ def drawdf(df,draw_plot=True,product='unknown'):
     for c in cdf.columns:
         if 'offset' not in c:
             cdf['total']=cdf['total']+cdf[c]
+
 
 
     cdf.to_csv('correl.csv')
