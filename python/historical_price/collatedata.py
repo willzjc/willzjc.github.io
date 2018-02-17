@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import numpy as np
 
@@ -47,16 +48,18 @@ def drawdf(df):
 
     # plt.figure();
     df.plot(y='Average Selling Price',use_index=True)
-    # df.show()
     plt.show()
-    # plt.legend(loc='Average Selling Price')
+
+def readfiles():
+    basepath=os.getcwd() + '\\' + ref + '\\'
+    for f1,f2,f3 in os.walk():
+        print f3
 
 def main():
-    df = pd.read_csv('data_dogfood.csv')
-    drawdf(df)
-
-    df = pd.read_csv('data_milkpowder.csv')
-    drawdf(df)
+    # df = pd.read_csv('data_dogfood.csv')
+    # df = pd.read_csv('data_milkpowder.csv')
+    # drawdf(df)
+    readfiles()
 
 if __name__ == "__main__":
     main()
