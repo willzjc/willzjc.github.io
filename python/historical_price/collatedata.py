@@ -2,10 +2,16 @@ import os
 import pandas as pd
 import numpy as np
 import datetime
+
 import plotly
 import plotly.plotly as py
 import plotly.graph_objs as go
 import plotly.figure_factory as FF
+import cufflinks as cf
+
+
+plotly.tools.set_credentials_file(username='willzjc@gmail.com', api_key='nMap3MiO6fJx7AO5PnzT')
+
 import sys
 
 import matplotlib.pyplot as plt
@@ -13,20 +19,19 @@ import matplotlib.pyplot as plt
 from scipy.interpolate import spline
 from matplotlib import dates as mdates
 import matplotlib
-matplotlib.use('Qt5Agg')
+# matplotlib.use('Qt5Agg')
 
 if sys.version_info[0] < 3:
     from StringIO import StringIO
 else:
     from io import StringIO
 
-def drawdf(df,draw_plot=True,product='unknown'):
+def drawdf(df,draw_plot=True,product='unknown',analysis_mode=False):
 
 
     #Normalize DF First
 
     df['combined']=0
-    # df.set_index(pd.DatetimeIndex(df['date'])).resample('3M').plot(kind='bar')
 
     for eachitem in df.columns:
         if not 'date' in eachitem:
@@ -36,6 +41,8 @@ def drawdf(df,draw_plot=True,product='unknown'):
     # Get Total Rating based on average of
     df['average_sell_price']=df[[c for c in df.columns[1:]]].mean(axis=1)
 
+    df.set_index(pd.DatetimeIndex(df['date'])).resample('3M').mean().plot()
+
 
     # plot with all members
     # df.set_index(pd.DatetimeIndex(df['date'])).resample('M').plot()
@@ -44,6 +51,7 @@ def drawdf(df,draw_plot=True,product='unknown'):
     # df['dateindex']=pd.to_datetime(df['date'])
     df['date']=pd.to_datetime(df['date'])
     df=df.set_index(pd.DatetimeIndex(df['date']))
+
 
 
     cpi=pd.read_csv('ref/AUCPI',delimiter='\t')
@@ -64,7 +72,8 @@ def drawdf(df,draw_plot=True,product='unknown'):
     corrs={}
     corrslist=[]
     rng=range(-150,150)
-    if draw_plot:
+
+    if not analysis_mode:
         rng=[-91,0,91]
 
     for timeshift in rng:
@@ -146,12 +155,22 @@ def drawdf(df,draw_plot=True,product='unknown'):
             combined_df.average_sell_price.plot(legend=True, ax=axarr[0],kind='bar'
              ,color=combined_df.positive.map({True: 'g', False: 'r'}),title='Timeshift: '+ str(timeshift) + ' days')
 
+
+            combined_df.iplot(kind='scatter', filename='cufflinks-cf-simple-line')
+
+            # py.iplot([{
+            #     'x': combined_df.index,
+            #     'y': combined_df[col],
+            #     'name': col
+            # } for col in combined_df.columns if 'date' not in col ], filename='cufflinks-simple-line')
+
     cdf=None
     correlation_pickle='correl.pickle'
+
     if os.path.exists(correlation_pickle):
         cdf=pd.read_pickle(correlation_pickle)
-        # if not product in cdf.columns:
-        # cdf[product]=corrslist
+        if not product in cdf.columns:
+            cdf[product]=corrslist
 
     else:
         cdf=pd.DataFrame(columns=['offset',product])
@@ -172,9 +191,9 @@ def drawdf(df,draw_plot=True,product='unknown'):
 
     print cdf
 
-    if draw_plot:
-        plt.gcf().autofmt_xdate()
-        plt.show()
+    # if draw_plot:
+    #     plt.gcf().autofmt_xdate()
+    #     plt.show()
 
 def readfiles():
 
@@ -230,21 +249,21 @@ def readfiles():
         # print currentdf.columns
         df[headers['Keywords']] = currentdf['Average Selling Price']
 
-    # df['combined']=0
+    df['combined']=0
     df.to_csv('fileread.csv')
     return df
 
 def main():
     df=readfiles()
     init_df=df.copy()
-    drawdf(df,draw_plot=True,product='food')
+    drawdf(df,draw_plot=False,product='alcohol',analysis_mode=True)
 
     init_df['datetime'] = pd.to_datetime(init_df['date'])
     init_df=init_df.set_index(pd.DatetimeIndex(init_df['date']))
 
     # init_df.set_index('date')
 
-    print init_df.resample('3M',how='mean')
+    print init_df.resample('3M').mean
 
 
 if __name__ == "__main__":
