@@ -31,13 +31,13 @@
         </div>
     </div>
     <!-- not sure why all these styles necessary, not the point of this -->
-    <div style="clear: both; margin: 30px; float: left">
+    <div style="clear: both; margin: 30px; float: left;">
         <div id="table"></div>
-        <div id="download-type" style="clear: both; float: left">
+        <div id="download-type" style="clear: both; float: left;margin-top: 50px">
             <div><label><input type=radio name="operation" value="raw" checked="true">&nbsp;all data</label></div>
             <div><label><input type=radio name="operation" value="table">&nbsp;table data</label></div>
         </div>
-        <div style="float: left">
+        <div style="float: left; margin-top: 50px">
             <button class="btn" id="download">download</button>
         </div>
     </div>
@@ -54,11 +54,13 @@
             spenderRowChart = dc.rowChart("#chart-row-spenders");
 
         var table = dc.dataTable('#table');
-        d3.csv("data.csv", function (error, spendData) {/* do stuff */
+        // d3.csv("data.csv", function (error, spendData) {/* do stuff */
+
+        d3.tsv("data.tsv", function (error, spendData) {/* do stuff */
 
             // normalize/parse data
             spendData.forEach(function (d) {
-                d.Spent = d.Spent.match(/\d+/)[0];
+                d.FaceValue = d.FaceValue.match(/\d+/)[0];
             });
 
             // set crossfilter
@@ -67,16 +69,16 @@
                     return +d.Year;
                 }),
                 spendDim = ndx.dimension(function (d) {
-                    return Math.floor(d.Spent / 10);
+                    return Math.floor(d.FaceValue / 10);
                 }),
                 nameDim = ndx.dimension(function (d) {
                     return d.Name;
                 }),
                 spendPerYear = yearDim.group().reduceSum(function (d) {
-                    return +d.Spent;
+                    return +d.FaceValue;
                 }),
                 spendPerName = nameDim.group().reduceSum(function (d) {
-                    return +d.Spent;
+                    return +d.FaceValue;
                 }),
                 spendHist = spendDim.group().reduceCount();
 
@@ -91,14 +93,14 @@
             spendHistChart
                 .dimension(spendDim)
                 .group(spendHist)
-                .x(d3.scale.linear().domain([0, 10]))
+                .x(d3.scale.linear().domain([0, 3]))
                 .elasticY(true)
                 .controlsUseVisibility(true);
 
             spendHistChart.xAxis().tickFormat(function (d) {
                 return d * 10
             }); // convert back to base unit
-            spendHistChart.yAxis().ticks(2);
+            spendHistChart.yAxis().ticks(5);
 
             spenderRowChart
                 .dimension(nameDim)
@@ -107,7 +109,7 @@
                 .controlsUseVisibility(true);
 
             var allDollars = ndx.groupAll().reduceSum(function (d) {
-                return +d.Spent;
+                return +d.FaceValue;
             });
 
             table
@@ -116,21 +118,21 @@
                     return d.value;
                 })
                 .sortBy(function (d) {
-                    return +d.Spent;
+                    return +d.FaceValue;
                 })
                 .showGroups(false)
                 .columns(['Name',
                     {
-                        label: 'Spent',
+                        label: 'FaceValue',
                         format: function (d) {
-                            return '$' + d.Spent;
+                            return '$' + d.FaceValue;
                         }
                     },
                     'Year',
                     {
                         label: 'Percent of Total',
                         format: function (d) {
-                            return Math.floor((d.Spent / allDollars.value()) * 100) + '%';
+                            return Math.floor((d.FaceValue / allDollars.value()) * 100) + '%';
                         }
                     }]);
 
