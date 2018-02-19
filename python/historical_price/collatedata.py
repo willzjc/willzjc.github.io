@@ -257,7 +257,7 @@ def readfiles():
 def main():
     df=readfiles()
     init_df=df.copy()
-    drawdf(df,draw_plot=False,product='alcohol',analysis_mode=True)
+    drawdf(df,draw_plot=False,product='alcohol',analysis_mode=False)
 
     init_df['datetime'] = pd.to_datetime(init_df['date'])
     init_df=init_df.set_index(pd.DatetimeIndex(init_df['date']))
