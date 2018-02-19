@@ -182,7 +182,7 @@ def drawdf(df,draw_plot=True,product='unknown',analysis_mode=False):
     cdf.to_pickle(correlation_pickle)
     cdf['total']=0
     for c in cdf.columns:
-        if 'offset' not in c:
+        if ('offset' not in c) and 'total' not in c:
             cdf['total']=cdf['total']+cdf[c]
 
 
@@ -242,9 +242,10 @@ def readfiles():
             if df==None:
                 df=pd.DataFrame(columns=['date'])
                 df['date'] = currentdf['Date']
-        except:
+        except Exception as e:
             # TODO
-            print 'Deal with this exception another time'
+            print e
+            print 'Deal with this exception another time - likely some issue with comparing a NoneType to a DataFrame'
 
         # print currentdf.columns
         df[headers['Keywords']] = currentdf['Average Selling Price']
