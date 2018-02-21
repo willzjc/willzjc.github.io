@@ -17,6 +17,13 @@ if sys.version_info[0] < 3:
 else:
     from io import StringIO
 
+
+def plotinterpolate(df,**kwargs):
+    ndf = df.resample('M').mean()
+    ndf = ndf.resample('D')
+    tsint = df.interpolate(method='cubic')
+    tsint.plot(**kwargs)
+
 def drawdf(df,draw_plot=True,product='unknown',analysis_mode=False):
 
 
@@ -32,7 +39,13 @@ def drawdf(df,draw_plot=True,product='unknown',analysis_mode=False):
     # Get Total Rating based on average of
     df['average_sell_price']=df[[c for c in df.columns[1:]]].mean(axis=1)
 
-    df.set_index(pd.DatetimeIndex(df['date'])).resample('3M').mean().plot()
+
+    plotinterpolate(df.set_index(pd.DatetimeIndex(df['date'])).resample('3M').mean())
+
+
+    # plt.title()
+    figtitle='3Month index plot'
+    fig = plt.gcf().canvas.set_window_title(figtitle)
 
 
     # plot with all members
@@ -96,10 +109,15 @@ def drawdf(df,draw_plot=True,product='unknown',analysis_mode=False):
         # Read above link about the different Offset Aliases, S=Seconds
         # resampled_values = values.resample('2.5D')
         # cpi.diff()  # compute the difference between each point!
-        df.plot(y='average_sell_price',title=title)
-        ax = cpi.plot(y='CPI')
-        df.resample('M').mean().plot(y='average_sell_price',ax=ax,title=title)
+        # df.plot(y='average_sell_price',title=title)
 
+
+        plotinterpolate(df,y='average_sell_price', title=title) # simply plot average sell price only
+        ax = cpi.plot(y='CPI')
+        # df.resample('M').mean().plot(y='average_sell_price',ax=ax,title=title)
+        plotinterpolate(df.resample('M').mean(),y='average_sell_price',ax=ax,title=title)
+        figtitle = 'CPI vs Average Selling Price of Item'
+        fig = plt.gcf().canvas.set_window_title(figtitle)
 
         # xnew = np.linspace(df['combined'].min(), df['combined'].max(), 300)  # 300 represents number of points to make between T.min and T.max
 
@@ -154,10 +172,17 @@ def drawdf(df,draw_plot=True,product='unknown',analysis_mode=False):
             axarr[0].xaxis.set_major_formatter(datefmt)
             axarr[1].xaxis.set_major_formatter(datefmt)
 
-            combined_df.CPI.plot(ax=axarr[1], legend=True)
-            combined_df.average_sell_price.plot(legend=True, ax=axarr[0],kind='bar'
-             ,color=combined_df.positive.map({True: 'g', False: 'r'}),title=title)
+            # combined_df.CPI.plot(ax=axarr[1], legend=True)
+            plotinterpolate(combined_df,ax=axarr[1], legend=True,y=[c for c in combined_df.columns if c in ('CPI')])
+            # combined_df.average_sell_price.plot(legend=True, ax=axarr[0]
+            #  ,color=combined_df.positive.map({True: 'g', False: 'r'}),title=title)
 
+            combined_df.average_sell_price.plot(legend=True, ax=axarr[0], kind='bar'
+                                                , color=combined_df.positive.map({True: 'g', False: 'r'}), title=title)
+
+            figtitle = 'Bar(AVG Price) vs Price'
+
+            fig = plt.gcf().canvas.set_window_title(figtitle)
 
             # py.iplot([{
             #     'x': combined_df.index,
