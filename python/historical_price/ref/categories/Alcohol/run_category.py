@@ -1,13 +1,17 @@
-import pandas as pd
+#instantiation
+
 import os
-import numpy as np
-import scipy as sp
-import plotly.plotly as py
 from StringIO import StringIO
 
-import plotly.plotly as py
-import plotly.figure_factory as ff
 import pandas as pd
+from plotly.offline import *
+
+init_notebook_mode()
+
+import cufflinks as cf
+cf.go_offline() # required to use plotly offline (no account required).
+
+
 
 files=[]
 
@@ -77,5 +81,8 @@ def readfiles():
 df = readfiles()
 
 print df
+
+df.iplot()
+
 
 
