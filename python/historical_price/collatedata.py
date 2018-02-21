@@ -3,15 +3,6 @@ import pandas as pd
 import numpy as np
 import datetime
 
-import plotly
-import plotly.plotly as py
-import plotly.graph_objs as go
-import plotly.figure_factory as FF
-import cufflinks as cf
-
-
-plotly.tools.set_credentials_file(username='willzjc@gmail.com', api_key='nMap3MiO6fJx7AO5PnzT')
-
 import sys
 
 import matplotlib.pyplot as plt
@@ -52,8 +43,6 @@ def drawdf(df,draw_plot=True,product='unknown',analysis_mode=False):
     df['date']=pd.to_datetime(df['date'])
     df=df.set_index(pd.DatetimeIndex(df['date']))
 
-
-
     cpi=pd.read_csv('ref/AUCPI',delimiter='\t')
 
     print cpi
@@ -73,10 +62,25 @@ def drawdf(df,draw_plot=True,product='unknown',analysis_mode=False):
     corrslist=[]
     rng=range(-150,150)
 
+    mapping_df = pd.read_csv('correl.csv')
     if not analysis_mode:
-        rng=[-91,0,91]
+        rng=[
+            # 116,
+            # 13,
+            # 31,
+            # 2,
+            # 57,
+            # 1,
+            # 144,
+            # 123,
+            # 24,
+            # 181,
+            116
+        ]
 
     for timeshift in rng:
+        title="Category:" + product + " \nTimeshift: " + str(timeshift) + '. Correlation: ' \
+              + str(mapping_df.loc[mapping_df['offset']== timeshift]['total'].values[0])
         cpi=templatecpi.copy()
         df=templatedf.copy()
 
@@ -92,9 +96,9 @@ def drawdf(df,draw_plot=True,product='unknown',analysis_mode=False):
         # Read above link about the different Offset Aliases, S=Seconds
         # resampled_values = values.resample('2.5D')
         # cpi.diff()  # compute the difference between each point!
-        df.plot(y='average_sell_price',title="timeshift: " + str(timeshift))
+        df.plot(y='average_sell_price',title=title)
         ax = cpi.plot(y='CPI')
-        df.resample('M').mean().plot(y='average_sell_price',ax=ax,title="timeshift: " + str(timeshift))
+        df.resample('M').mean().plot(y='average_sell_price',ax=ax,title=title)
 
 
         # xnew = np.linspace(df['combined'].min(), df['combined'].max(), 300)  # 300 represents number of points to make between T.min and T.max
@@ -103,7 +107,6 @@ def drawdf(df,draw_plot=True,product='unknown',analysis_mode=False):
 
         # plt.plot(xnew, power_smooth)
 
-        #
 
         ##### Concat both tables #####
         combined_df=pd.concat([cpi,df],axis=1, join='inner')
@@ -153,10 +156,8 @@ def drawdf(df,draw_plot=True,product='unknown',analysis_mode=False):
 
             combined_df.CPI.plot(ax=axarr[1], legend=True)
             combined_df.average_sell_price.plot(legend=True, ax=axarr[0],kind='bar'
-             ,color=combined_df.positive.map({True: 'g', False: 'r'}),title='Timeshift: '+ str(timeshift) + ' days')
+             ,color=combined_df.positive.map({True: 'g', False: 'r'}),title=title)
 
-
-            combined_df.iplot(kind='scatter', filename='cufflinks-cf-simple-line')
 
             # py.iplot([{
             #     'x': combined_df.index,
@@ -164,36 +165,38 @@ def drawdf(df,draw_plot=True,product='unknown',analysis_mode=False):
             #     'name': col
             # } for col in combined_df.columns if 'date' not in col ], filename='cufflinks-simple-line')
 
-    cdf=None
-    correlation_pickle='correl.pickle'
+    if analysis_mode:
+        cdf=None
+        correlation_pickle='correl.pickle'
 
-    if os.path.exists(correlation_pickle):
-        cdf=pd.read_pickle(correlation_pickle)
-        if not product in cdf.columns:
-            cdf[product]=corrslist
+        if os.path.exists(correlation_pickle):
+            cdf=pd.read_pickle(correlation_pickle)
+            if not product in cdf.columns:
+                cdf[product]=corrslist
 
-    else:
-        cdf=pd.DataFrame(columns=['offset',product])
-        cdf['offset']=range(-150,150)
-        cdf[product] = corrslist
-        # for k in corrs.keys():
-        #     cdf[k] = corrs[k]
+        else:
+            cdf=pd.DataFrame(columns=['offset',product])
 
-    cdf.to_pickle(correlation_pickle)
-    cdf['total']=0
-    for c in cdf.columns:
-        if ('offset' not in c) and 'total' not in c:
-            cdf['total']=cdf['total']+cdf[c]
+            cdf['offset']=range(-150,150)
+            cdf[product] = corrslist
+            # for k in corrs.keys():
+            #     cdf[k] = corrs[k]
+
+        cdf.to_pickle(correlation_pickle)
+        cdf['total']=0
+        for c in cdf.columns:
+            if ('offset' not in c) and 'total' not in c:
+                cdf['total']=cdf['total']+cdf[c]
 
 
 
-    cdf.to_csv('correl.csv')
+        cdf.to_csv('correl.csv')
 
-    print cdf
+        print cdf
 
-    # if draw_plot:
-    #     plt.gcf().autofmt_xdate()
-    #     plt.show()
+    if draw_plot:
+        plt.gcf().autofmt_xdate()
+        plt.show()
 
 def readfiles():
 
@@ -255,9 +258,15 @@ def readfiles():
     return df
 
 def main():
+
+    plt.cla()  # Clear axis
+    plt.clf()  # Clear figure
+    plt.close()  # Close a figure window
+    plt.close('all') #close all
+
     df=readfiles()
     init_df=df.copy()
-    drawdf(df,draw_plot=False,product='alcohol',analysis_mode=False)
+    drawdf(df,draw_plot=True,product='alcohol',analysis_mode=False)
 
     init_df['datetime'] = pd.to_datetime(init_df['date'])
     init_df=init_df.set_index(pd.DatetimeIndex(init_df['date']))
