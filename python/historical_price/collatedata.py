@@ -21,8 +21,8 @@ else:
 def plotinterpolate(df,**kwargs):
     ndf = df.resample('M').mean()
     ndf = ndf.resample('D')
-    tsint = df.interpolate(method='cubic')
-    tsint.plot(**kwargs)
+    tsint = ndf.interpolate(method='cubic')
+    return tsint.plot(**kwargs)
 
 def drawdf(df,draw_plot=True,product='unknown',analysis_mode=False):
 
@@ -92,7 +92,10 @@ def drawdf(df,draw_plot=True,product='unknown',analysis_mode=False):
         ]
 
     for timeshift in rng:
-        title="Category:" + product + " \nTimeshift: " + str(timeshift) + '. Correlation: ' \
+        title="Category:" + product + " \nTimeshift: " + str(timeshift) \
+              + '. Correlation: ' \
+              + str(mapping_df.loc[mapping_df['offset'] == timeshift][product].values[0]) \
+              + '\n Total Correlation: ' \
               + str(mapping_df.loc[mapping_df['offset']== timeshift]['total'].values[0])
         cpi=templatecpi.copy()
         df=templatedf.copy()
@@ -113,7 +116,10 @@ def drawdf(df,draw_plot=True,product='unknown',analysis_mode=False):
 
 
         plotinterpolate(df,y='average_sell_price', title=title) # simply plot average sell price only
-        ax = cpi.plot(y='CPI')
+        # ax = cpi.plot(y='CPI')
+        ax = plotinterpolate(cpi,y='CPI')
+
+
         # df.resample('M').mean().plot(y='average_sell_price',ax=ax,title=title)
         plotinterpolate(df.resample('M').mean(),y='average_sell_price',ax=ax,title=title)
         figtitle = 'CPI vs Average Selling Price of Item'
