@@ -26,7 +26,6 @@ def plotinterpolate(df,**kwargs):
 
 def drawdf(df,draw_plot=True,product='unknown',analysis_mode=False):
 
-
     #Normalize DF First
 
     df['combined']=0
