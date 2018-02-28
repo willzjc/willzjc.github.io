@@ -1,0 +1,654 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<!--<link href="/assets/css/bootstrap.css" rel="stylesheet">-->
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+<style>
+    div {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    #table tr td:nth-child(3), #table tr td:nth-child(4), #table tr td:nth-child(5),
+    #table tr th:nth-child(3), #table tr th:nth-child(4), #table tr th:nth-child(5) {
+        text-align: right;
+    }
+
+    #table td, #table th {
+        font-size: 11.5px;
+        line-height: 17px;
+    }
+
+    .background {
+        fill: #4B9E9E;
+        fill-opacity: 0.1;
+    }
+
+    .extent {
+        fill: rgb(180, 180, 180);
+        fill-opacity: 0.4;
+    }
+
+    .resize rect {
+        fill: #276C86;
+    }
+
+    .axis text {
+        /*font-family: sans-serif;*/
+        /*width: 100px;*/
+        font-size: 12px;
+    }
+
+    input[type="radio"] {
+        vertical-align: top;
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    label {
+        font-size: 13px;
+        font-weight: normal;
+        line-height: 17px;
+        display: inline;
+        margin-left: 20px;
+    }
+
+    form {
+        position: absolute;
+        left: 75px;
+        top: 75px;
+    }
+
+    #table thead th:hover {
+        background-color: rgb(240, 240, 240) ! important;
+    }
+
+    .btn {
+        background-image: linear-gradient(to bottom, rgb(255, 22, 0), #E6E6E6);
+    }
+
+</style>
+<body>
+<table id="mainLayout" style="margin-top: 12px">
+    <tr>
+        <td style="width: 600px; vertical-align: top">
+            <div id="chartDiv" style="border1: 1px solid black">
+                <h4 style="margin-top: 0px">
+                    Multi metric scatterplot - Carsales</h4>
+                <h6>Price and Milage vs Time</h6>
+                <svg id="svgDiv"></svg>
+            </div>
+        </td>
+        <td style="vertical-align: top">
+            <div id="tableContainerDiv" style="height: 600px; border1: 1px solid black;">
+                <p style="font-size: 14px"><b>Source: </b>carsales.com.au<br>Extracted on 26 Feb 2018</p>
+                <div id="tableDiv">
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 600px">
+            <div style="margin-top: 0px; margin-left: 40px">
+                <button type="button" id="helpBtn" class="btn"><b>?!</b></button>
+            </div>
+            <div id="helpDiv" style="margin-left: 40px; display: none">
+                <p style="font-size: 13px;">
+                    <b>Note:</b> The X-axis (Time/capita) is drawn with a logaritmic scale<br>
+                    <b>Note:</b> Only cars with milage, price and Time data are included (174 out of 214
+                    cars)<br>
+                    <b>Usage:</b> a) Drag the gray rectangle around the chart to view different data points, b) Grab the
+                    sides of the rectangle to change its size, c) Click the headers in the table to change the sort
+                    order, d) Hover over cars in the table to see the corresponding location in the scatter chart,
+                    e) Double click in the chart to remove the rectangle, and begin dragging to re-create
+                </p>
+            </div>
+        </td>
+    </tr>
+</table>
+<form>
+    <label><input type="radio" name="mode" value="price" checked> Price</label>
+    <label><input type="radio" name="mode" value="milage"> Milage</label>
+</form>
+<!--<script src="../d3/d3.v3.js"></script>-->
+<!--<script src="http://d3js.org/d3.v3.min.js"></script>-->
+<script src="d3.v3.min.js"></script>
+<script>
+    'use strict';
+
+    // time vs price
+    // milage vs price
+    // model,description,metric,metric_code,value
+
+    // var val_column_name = "2012 [YR2012]";
+    // var label_name ="Country Name";
+    // var label_code ="Country Code";
+    // var metric_name="Indicator Name";
+    // var metric_code="Indicator Code";
+    var val_column_name = "value";
+    var label_name = "description";
+    var label_code = "model";
+    var metric_name = "metric";
+    var metric_code = "metric_code";
+    var sort_polarity = 1;
+    var colorScaleArray  = null;
+
+    var margin = {top: 30, right: 30, bottom: 2, left: 60},
+        data = [],
+        table, chart,
+        commasFormatter = d3.format(",.0f"),
+        mode = "showprice",
+        svgGroup;
+
+    // get the raw data tsv file
+    d3.csv("data.csv", function (error, json) {
+
+        var nest = d3.nest()
+            .key(function (d) {
+                return d[label_code];
+            })
+            .key(function (d) {
+                return d[metric_code];
+            })
+
+            .entries(json);
+
+        // create usable data structure, process Name by Name
+        nest.forEach(function (d) {
+            var include = true;
+            var item = {};
+
+            item.key = d.key;
+            item.labelCode = d.key;
+            item.labelName = d.values[0].values[0][label_name];
+            item.hreflink = d.values[0].values[0]['link'];
+            item.rating = d.values[0].values[0]['rating'];
+
+            ["price", "milage", "age"].forEach(function (c, i) {
+                // console.log(d.values[i].values[0]);
+                var value = d.values[i].values[0][val_column_name];
+                if (value === "..") {
+                    include = false;
+                    return;
+                } // exclude cars with any null values
+
+                item["name_" + c] = d.values[i].values[0][metric_name];
+                item["code_" + c] = d.values[i].values[0][metric_code];
+                // item["link_" + c] = d.values[i].values[0]['link'];          // each metric is returned by column names
+                item["value" + c] = +value;
+            });
+
+            if (include) data.push(item);
+        });
+
+        // select the chart div
+        var chartDiv = d3.select("#chartDiv")
+            .style("overflow", "scroll");
+
+        // select the svg element
+        var svg = d3.select("#svgDiv")
+            .attr("width", "580px")
+            .attr("height", "430px")
+            .style("margin-bottom", "10px")
+            .style("margin-right", "10px")
+            .style("background-color", "white");
+
+        svgGroup = svg.append("g")
+            .attr("transform", "translate(" + margin.left + ", " + margin.top + ")");
+
+        // create chart
+        chart = scatterView()
+            .accessor(mode)
+            .data(data);
+
+        chart(svgGroup);
+
+        // select table div
+        var tableDiv = d3.select("#tableDiv")
+            .style("overflow", "scroll")
+            .style("width", "600px")
+            .style("height", "470px")
+            .style("margin", "0px")
+            .style("padding-left", "0px");
+
+        // create table
+        table = tableView()
+            .data(data);
+
+        table(tableDiv);
+
+        // define handlers after chart and table are constructed
+        chart.on("filter", function (filtered) {
+            table.data(filtered);
+            table(tableDiv);
+        });
+
+        table.on("hover", function (item) {
+            chart.highlight(item)
+        });
+
+        chart.forceBrushEvent(); //TODO: upon initial load, table is not synced to brush
+
+
+
+        // chart function -----------------------------------------------------------------------------
+        function scatterView() {
+            var dispatch = d3.dispatch(chart, "filter");
+            var data,
+                dataYmax, dataXmax,
+                saveG,
+                radius = 7, radiusSelected = 9,
+                strokeWidth = 1,
+                fillOpacity = 0.5,
+                colorFill,
+                colorStroke,
+                mode = "price",
+                colors = {
+                    red: 'rgb(216, 50, 51)',
+                    green: 'rgb(51, 164, 51)',
+                    blue: 'rgb(42, 126, 184)',
+                    orange: 'rgb(255, 134, 26)'
+                }
+
+            function x(g) {
+                // save reference to svg group (for highlight method)
+                saveG = g;
+
+                // get dimensions of parent
+                var container = d3.select(g.node().parentNode);
+                var width = +container.attr("width").replace("px", "");
+                var height = +container.attr("height").replace("px", "");
+
+                // remove all previous elements in group
+                g.selectAll("*").remove();
+
+                // set dimensions
+                var chartWidth = width - 60;
+                var chartHeight = height - 60;
+
+                var xField = function (d) {
+                    return d.valueage;
+                };
+
+                var xRating = function (d) {
+                    return d.rating;
+                };
+
+                colorScaleArray = d3.scale.linear()
+                    .domain([d3.min(data, xRating),0, d3.max(data, xRating)])
+                    .range(["red","black", "green"]);
+
+                var yField = function (d) {
+                    return yAccessor(d);
+                };
+
+                var yAccessor = function (d) {
+                    if (mode == "price") return d.valueprice;
+                    else return d.valuemilage;
+                }
+
+                dataYmax = d3.max(data, yField);
+                var yScale = d3.scale.linear()
+                    .domain([0, d3.max(data, yField)])
+                    .range([chartHeight, 0]);
+
+
+
+                // var offset=10000;
+                var offset = 1;
+                dataXmax = d3.max(data, xField) + offset;
+                var xScale = d3.scale.linear()
+                    .domain([d3.min(data, xField), d3.max(data, xField) + offset])
+                    .range([0, chartWidth - 10]);
+
+                // set colors for this mode
+                colorFill = (mode === "price" ? colors.blue : colors.green);
+                colorStroke = (mode === "price" ? colors.blue : colors.green);
+
+                // set color scale for circle color --> not used at the moment
+                var colorScale = d3.scale.linear()
+                    .domain([0, d3.max(data, function (d) {
+                        return d.valueage
+                    })])
+                    .range(["#17D84D", "#FF1D1D"])
+                    .interpolate(d3.interpolateHsl);
+
+                // create circles for scatter chart, and bind data
+                var circles = g
+                    .selectAll("circle")
+                    .data(data)
+                    .enter()
+                    .append("circle")
+                    .attr("cx", function (d, i) {
+                        return xScale(xField(d));
+                    })
+                    .attr("cy", function (d, i) {
+                        return yScale(yField(d));
+                    })
+                    .attr("r", radius)
+                    .style("fill", colorFill)
+                    .style("stroke", colorStroke)
+                    .style("stroke-width", strokeWidth)
+                    .style("fill-opacity", fillOpacity)
+                    .on("click", function (d) {
+                        console.log(d.key);
+                    });
+
+                // setup y axis
+                var yaxis = d3.svg.axis()
+                    .scale(yScale)
+                    .orient("left") //left, right, top
+                    // .ticks(4) //best guess
+                    .ticks(6) //best guess
+
+                // call y axis
+                var yg = g.append("g")
+                    .call(yaxis)
+                    .attr("class", "axis");
+
+                yg
+                    .append("text")
+                    .attr("transform", "rotate(-90)")
+                    .attr("y", 10)
+                    .attr("x", -10)
+                    // .attr("y", 20)
+                    // .attr("x", -20)
+                    .attr("dy", ".71em")
+                    // .attr("dy", ".91em")
+                    .style("text-anchor", "end")
+                    .text("Metric Value");
+
+                // format y axis
+                yg.selectAll("path").style({fill: "none", stroke: "gray"})
+                //yg.selectAll(".tick text").attr("transform", "rotate(0)")
+                yg.selectAll("line").style({stroke: "#000"});
+
+                // setup x axis
+                var xaxis = d3.svg.axis()
+                    .scale(xScale)
+                    .orient("bottom") //left, right, top
+                    .ticks(5) // doesn't really work on a log scale
+                    //.tickFormat(function(d) { return commasFormatter(d); })
+                    .tickFormat(function (d) {
+                        return xScale.tickFormat(4, d3.format(",d"))(d)
+                    });
+
+                // call x axis
+                var xg = g.append("g")
+                    .call(xaxis)
+                    .attr("class", "axis");
+
+                xg.append("text")
+                //.attr("transform", "rotate(-90)")
+                    .attr("y", -20)
+                    .attr("x", chartWidth - 20)
+                    .attr("dy", ".71em")
+                    .style("text-anchor", "end")
+                    .text("Time Axis");
+
+                // format x axis
+                xg.attr("transform", "translate(" + [0, chartHeight] + ")")
+                xg.selectAll("path").style({fill: "none", stroke: "gray"})
+                xg.selectAll("line").style({stroke: "#000"})
+                //xg.selectAll(".tick text").attr("transform", "rotate(0)")
+
+                // create brush
+                var brush = d3.svg.brush()
+                    .x(xScale)
+                    .y(yScale)
+                    .extent([[2000, dataYmax * 0.3], [20000, dataYmax * 0.7]])
+                    .on("brush", brushed);
+
+                // create brush group
+                var brushg = g.append("g")
+                    .classed("brush", true)
+                    .call(brush);
+
+                // set brush styles (after brush is created)
+                //brushg.selectAll(".background").style({visibility: "visible"})
+                brushg.selectAll(".background").style({visibility: "none"})
+                brushg.selectAll(".extent").style({visibility: "visible"})
+                //brushg.selectAll(".resize rect").style({visibility: "visible"})
+
+                // initial invokation
+                brushed();
+
+                // brush handler
+                function brushed() {
+                    var minext = brush.extent()[0];
+                    var xmin = minext[0];
+                    var ymin = minext[1];
+
+                    var maxext = brush.extent()[1];
+                    var xmax = maxext[0];
+                    var ymax = maxext[1];
+
+                    var filtered = data.filter(function (d) {
+                        var x = xField(d);
+                        var y = yField(d);
+                        return x >= xmin
+                            && x <= xmax
+                            && y >= ymin
+                            && y <= ymax;
+                    })
+
+                    g.selectAll("circle")
+                        .style("stroke", colorStroke)
+                        .style("fill-opacity", fillOpacity)
+
+                    g.selectAll("circle")
+                        .data(filtered, function (d) {
+                            return d.key
+                        })
+                        //.style("stroke", "#FFFFFF")
+                        .style("stroke", "black")
+                        .style("fill-opacity", 0.8)
+
+                    if (filtered.length == 0) filtered = data;
+                    dispatch.filter(filtered);
+
+                } // end brush handler
+
+            } // end x function
+
+            x.data = function (_) {
+                if (!arguments.length) return data;
+                data = _;
+
+                return x;
+            }
+
+            x.highlight = function (_) {
+                saveG.selectAll("circle")
+                    .attr("r", radius)
+                    .style("stroke-width", strokeWidth)
+                    .style("fill", colorFill)
+                    .style("fill-opacity", fillOpacity)
+                    // matching data only
+                    .data(_, function (d) {
+                        return d.key
+                    })
+                    .attr("r", radiusSelected)
+                    .style("stroke-width", 1)
+                    .style("fill", colors.red)
+                    .style("fill-opacity", 1);
+
+                return x;
+            }
+
+            x.accessor = function (_) {
+                if (!arguments.length) return mode;
+                if (_ === "showprice") mode = "price";
+                else mode = "milage";
+
+                return x;
+            }
+
+            x.forceBrushEvent = function () {
+                //console.log('x.forceBrushEvent');
+
+                return x;
+            }
+
+            return d3.rebind(x, dispatch, "on");
+
+        } // end scatterView function
+
+
+        // table function -----------------------------------------------------------------------------
+        function tableView() {
+            var dispatch = d3.dispatch(x, "hover");
+            var data,
+                sortColumn = "labelCode";
+
+            function x(div) {
+                div.select("#table").remove();
+
+                var table = div.append("table")
+                    .attr("class", "table table-condensed table-bordered table-striped")
+                    .attr("id", "table")
+                    .style("background-color", "white");
+
+                var columnWidths = ["22%", "48%", "2%", "8%", "10%", "5%","5%"];
+                table.selectAll("col")
+                    .data(columnWidths)
+                    .enter()
+                    .append("col")
+                    .style("width", function (d) {
+                        return d;
+                    });
+
+                var columnHead = ["Name", "Description","R", "Rating","Price", "Milage", "Age" ];
+                var columnData = ["labelCode", "labelName", "i","rating","valueprice", "valuemilage", "valueage"];
+
+                var thead = table.append("thead");
+                var tbody = table.append("tbody");
+                thead.append("tr")
+                    .selectAll("th")
+                    .data(columnHead)
+                    .enter()
+                    .append("th")
+                    .attr("id", function (d, i) {
+                        return "head" + i;
+                    })
+                    .attr("class", "colHead")
+                    .style("background-color", function (d, i) {
+                        return (columnData[i] === sortColumn) ? "rgb(220, 220, 220)" : "white";
+                    })
+                    .text(function (d) {
+                        return d;
+                    })
+                    .on("click", function (d, i) {
+                        sortColumn = columnData[i];
+                        x.sort()
+                        x(div);
+                    });
+
+                // create table rows
+                var rows = tbody.selectAll("tr")
+                    .data(data)
+                    .enter()
+                    .append("tr");
+
+                // create cells
+                rows.selectAll("td")
+                    .data(function (d) {
+                        return columnData.map(function (column) {
+                            var value = d[column];
+
+                            if (typeof value == "number") {
+                                if (column === "valueage") value = commasFormatter(value)
+                                else value = commasFormatter(value.toFixed(0));
+                            }
+                            // Adding Hyperlink
+                            if (column == "labelCode") {
+                                value = '<a href="' + d['hreflink'] + '">' + value + '</a>';
+                            }
+
+                            // Adding Color column (ticks or crosses)
+                            if (column == "i") {
+                                // d.style("background-color",colorScaleArray(d['rating']));
+                                var valrating=d['rating'];
+                                var symbol='&#10004;';
+                                if ( valrating < 0 ) {
+                                    symbol='&#10008;'
+                                }
+                                value = '<font color="' + colorScaleArray(valrating)+'" >' + symbol + '</font>';
+                            }
+
+                            return {value: value};
+                        });
+                    })
+                    .enter()
+                    .append("td")
+                    .html(function (d) {
+                        return d.value;
+                    });
+
+                //rows.exit().remove();
+
+                // handle hover events
+                rows.on("mouseover", function (d, i) {
+                    dispatch.hover([d])
+                })
+                rows.on("mouseout", function (d, i) {
+                    dispatch.hover([])
+                })
+            }
+
+            x.data = function (_) {
+                if (!arguments.length) return data;
+                data = _;
+                x.sort();
+
+                return x;
+            }
+
+            x.sort = function () {
+                var result = 0;
+                data.sort(function (a, b) {
+                    if (a[sortColumn] > b[sortColumn]) result = -1 * sort_polarity;
+                    if (a[sortColumn] < b[sortColumn]) result = 1 * sort_polarity;
+                    if (sortColumn === "labelCode" || sortColumn === "labelName") result *= -1 * sort_polarity;
+                    return result;
+                });
+                sort_polarity *= -1;
+
+            }
+
+            return d3.rebind(x, dispatch, "on");
+
+        } // end tableView function
+
+
+        // controls -----------------------------------------------------------------------------------
+        d3.selectAll("input").on("change", change);
+
+        function change() {
+            if (this.value === "price") mode = "showprice";
+            else mode = "showmilage";
+            //console.log(mode);
+
+            // regenerate the chart
+            chart
+                .accessor(mode)
+                .data(data);
+
+            chart(svgGroup);
+        }
+
+        var helpBtn = d3.select("#helpBtn")
+            .on("click", function () {
+
+                // get current state of help div
+                var helpDiv = d3.select("#helpDiv");
+                if (helpDiv.style("display") == "none") helpDiv.style("display", "block");
+                else helpDiv.style("display", "none");
+
+                helpBtn[0][0].blur(); // remove focus
+            });
+
+
+    }); // end d3.tsv ajax
+
+</script>
