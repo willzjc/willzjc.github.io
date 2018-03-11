@@ -113,13 +113,14 @@ d3.csv('ndx.csv', function (data) {
             // p.absGain += (v.price_difference)/divider_offset;
             // p.absGain += (v.sum_rating)/divider_offset;
             p.absGain += (v.sum_rating)*10;
+            // p.absGain += (v.sum_rating)*1;
             // p.fluctuation += Math.abs(v.price_difference/divider_offset);
             p.fluctuation += Math.abs(v.sum_rating/divider_offset);
             p.sumIndex +=(v.sum_rating*sum_index_multiplier) / 2;
             // console.log(p.sumIndex);
             p.avgIndex = p.sumIndex / p.count;
             p.percentageGain = p.avgIndex ? (p.absGain / p.avgIndex) * 100 : 0;
-            p.fluctuationPercentage = (p.avgIndex ? (p.fluctuation / p.avgIndex) * 100 : 0) / 1 ;
+            p.fluctuationPercentage = (p.avgIndex ? (p.fluctuation / p.avgIndex) * 100 : 0) / 2 ;
             // console.log(p.fluctuationPercentage);
             return p;
         },
@@ -129,12 +130,13 @@ d3.csv('ndx.csv', function (data) {
         function (p, v) {
             --p.count;
             p.absGain -= (v.sum_rating)*10;
+            // p.absGain -= (v.sum_rating)*1;
             p.fluctuation -=Math.abs(v.sum_rating/divider_offset);
             p.sumIndex -=(v.sum_rating*sum_index_multiplier) / 2;
             // console.log(p.sumIndex);
             p.avgIndex = p.count ? p.sumIndex / p.count : 0;
             p.percentageGain = p.avgIndex ? (p.absGain / p.avgIndex) * 100 : 0;
-            p.fluctuationPercentage =(p.avgIndex ? (p.fluctuation / p.avgIndex) * 100 : 0) / 1 ;
+            p.fluctuationPercentage =(p.avgIndex ? (p.fluctuation / p.avgIndex) * 100 : 0) / 2 ;
             // console.log(p.fluctuationPercentage);
             return p;
         },
@@ -310,8 +312,9 @@ d3.csv('ndx.csv', function (data) {
         .elasticX(true)
         //`.yAxisPadding` and `.xAxisPadding` add padding to data above and below their max values in the same unit
         //domains as the Accessors.
-        .yAxisPadding(100)
-        .xAxisPadding(500)
+        .yAxisPadding(100000)
+        // .xAxisPadding(500)
+        .xAxisPadding(1000)
         // (_optional_) render horizontal grid lines, `default=false`
         .renderHorizontalGridLines(true)
         // (_optional_) render vertical grid lines, `default=false`
@@ -334,8 +337,9 @@ d3.csv('ndx.csv', function (data) {
             return [
                 p.key,
                 'Index Gain: ' + numberFormat(p.value.absGain),
-                'Index Gain in Percentage: ' + numberFormat(p.value.percentageGain) + '%',
-                'Fluctuation / Index Ratio: ' + numberFormat(p.value.fluctuationPercentage) + '%'
+                // 'Index Gain in Percentage: ' + numberFormat(p.value.percentageGain) + '%',
+                'Index Gain in Percentage: ' + numberFormat(p.value.percentageGain/1000) + '%',
+                'Fluctuation / Index Ratio: ' + numberFormat(p.value.fluctuationPercentage/100) + '%'
             ].join('\n');
         })
         //#### Customize Axes
