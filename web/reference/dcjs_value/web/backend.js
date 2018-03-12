@@ -322,7 +322,7 @@ d3.csv('ndx.csv', function (data) {
         // (_optional_) render an axis label below the x axis
         .xAxisLabel('Value Rating')
         // (_optional_) render a vertical axis lable left of the y axis
-        .yAxisLabel('Value Rating % shift')
+        .yAxisLabel('Deviation')
         //##### Labels and  Titles
 
         //Labels are displayed on the chart for each bubble. Titles displayed on mouseover.
@@ -336,9 +336,9 @@ d3.csv('ndx.csv', function (data) {
         .title(function (p) {
             return [
                 p.key,
-                'Index Gain: ' + numberFormat(p.value.absGain),
+                'Average Value Rating: ' + numberFormat(p.value.absGain),
                 // 'Index Gain in Percentage: ' + numberFormat(p.value.percentageGain) + '%',
-                'Index Gain in Percentage: ' + numberFormat(p.value.percentageGain/1000) + '%',
+                'Deviation In group: ' + numberFormat(p.value.percentageGain/1000) ,
                 'Fluctuation / Index Ratio: ' + numberFormat(p.value.fluctuationPercentage/100) + '%'
             ].join('\n');
         })
@@ -757,6 +757,7 @@ d3.csv('ndx.csv', function (data) {
 //#### Versions
 
 //Determine the current version of dc with `dc.version`
+minYear='1988';
 d3.selectAll('#version').text(dc.version);
 d3.select('h2').text("Car Pricing");
 d3.select('h5').text(("Year from " + minYear.toString()) + " to " + currentYear.toString() );
