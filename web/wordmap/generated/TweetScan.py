@@ -135,6 +135,6 @@ def main():
 if __name__ == "__main__":
     # calling main function
     previewcount = 20
-    sentimentquery = 'money'
+    sentimentquery = 'quantitative easing'
     sentimentcount = 400
     main()
