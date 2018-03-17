@@ -31,6 +31,17 @@ from sklearn import preprocessing  # For natrix normalization
 
 from IPython.display import display, HTML  # Formatting for Dataframes
 
+
+
+#####################################################################
+# Variables
+
+metrics = items = pricecolumns = salescolumns = weighcolumns = None
+
+
+#####################################################################
+# Functions
+
 def getExcelDf(xlfile='ref/archive/AU CPI Rates - Categorical Drilldown - 640105.xlsx',
             tab='Data1'):
     # xlfile='ref/archive/AU CPI Rates - Categorical Drilldown - 640105.xlsx'
@@ -114,13 +125,12 @@ def getProducts(basepath='ref/categories/Food and non-alcoholic beverages'):
 
             # Replace Strings
             currentdf = currentdf.replace('\sUSD', '', regex=True).apply(pd.to_numeric, errors='ignore')
-            #         print headers
+
             # Categorically segregating buying format
             item_name = '%s' % (headers['Keywords'])
             if 'Listing Format' in headers:
-                #             print headers
                 item_name = item_name + ' ' + headers['Listing Format']
-            #         print item_name
+
             df = pd.DataFrame(columns=['date'])
             df[item_name] = currentdf['Average Selling Price']
             df[item_name + "_sales"] = currentdf['Total Sales']
@@ -144,8 +154,8 @@ def getProducts(basepath='ref/categories/Food and non-alcoholic beverages'):
 
         # initialize df
         df = items_dict[items_dict.keys()[0]]
-        print('Verifying DF can be initialized...')
-        display(df.head(1))
+        print('Verifying that dataframe can be initialized for %s...'%(category))
+        # display(df.head(1))
 
         for i, item in enumerate(items_dict, start=0):
             if i >= 1:
@@ -186,42 +196,37 @@ def getProducts(basepath='ref/categories/Food and non-alcoholic beverages'):
     # display(df.tail(show_offset))
     return df
 
-df = getProducts()
-cpi = getCPI()
-print df.head()
 
 #######################################################################################################
-# Data enrichment
+#                                           Data Enrichment                                           #
 #######################################################################################################
 
-series_summary = df.copy()
+def enrichVariables(df):
+    series_summary = df.copy()
 
-series_summary=series_summary.sum()[[c for c in series_summary.columns if 'date' not in c]].astype(int)
-dfs=pd.DataFrame(series_summary,columns=['value'])
+    series_summary=series_summary.sum()[[c for c in series_summary.columns if 'date' not in c]].astype(int)
+    dfs=pd.DataFrame(series_summary,columns=['value'])
 
-# Get all row names which are metrics
-metrics=[]
-ml=list(filter(lambda x: keyword in x, dfs.index.values) for keyword in ['sales','weigh'])
-for l in ml: metrics=metrics+l
+    # Get all row names which are metrics
+    metrics=[]
+    ml=list(filter(lambda x: keyword in x, dfs.index.values) for keyword in ['sales','weigh'])
+    for l in ml: metrics=metrics+l
 
-# Get all rows which are base values
-items=list(set(dfs.index.values) -  set(metrics))
+    # Get all rows which are base values
+    items=list(set(dfs.index.values) -  set(metrics))
 
-# Worked out mean and sum
+    # Getting column names of the different dimensions
+    pricecolumns = [c for c in df.columns if (not 'date' in c and not 'sales' in c and     'weight' not in c)]
+    salescolumns = [c for c in df.columns if (not 'date' in c and     'sales' in c and not 'weight' in c)]
+    weighcolumns = [c for c in df.columns if (not 'date' in c and not 'sales' in c and     'weight' in c)]
 
-def getColumns(df,exclude_cols=None):
-    if not exclude_cols==None:
-        exclude_cols.append('date')
-    else:
-        exclude_cols=['date']
-    return [x for x in df.columns if x not in exclude_cols]
+    return metrics,items,pricecolumns, salescolumns,weighcolumns
 
-# Getting column names of the different dimensions
-pricecolumns = [c for c in df.columns if (not 'date' in c and not 'sales' in c and     'weight' not in c)]
-salescolumns = [c for c in df.columns if (not 'date' in c and     'sales' in c and not 'weight' in c)]
-weighcolumns = [c for c in df.columns if (not 'date' in c and not 'sales' in c and     'weight' in c)]
+def getSummary(dfs):
+    global pricecolumns
+    if pricecolumns == None:
+        metrics, items, pricecolumns, salescolumns, weighcolumns = enrichVariables(dfs)
 
-def getSummary(df):
     transformed_df=pd.DataFrame(columns=['item','avg_price','units_sold','revenue'])
 
     for i,item in enumerate(set(items)):                                    # Transform information to a new summary frame
@@ -256,12 +261,20 @@ def getSummary(df):
     total_df['total']=total_df['total'].map('{:,}'.format)
     return transformed_df,total_df
 
-transformed_df,total_df = getSummary(df)
-# Printing Summary
-print('Aggregate Stats of categories')
-#Display Categorical Summary
-display(HTML(transformed_df.to_html(index=False)))
-print('\n\nTotal of all')
-#Display Total Aggregate Summary
-display(total_df)
+
+
+if __name__ == "__main__":
+
+    price_df=getProducts()
+    cpi_df=getCPI()
+
+    df=price_df.copy()
+    transformed_df,total_df = getSummary(df)
+    # Printing Summary
+    print('Aggregate Stats of categories')
+    #Display Categorical Summary
+    display(HTML(transformed_df.to_html(index=False)))
+    print('\n\nTotal of all')
+    #Display Total Aggregate Summary
+    display(total_df)
 
