@@ -31,15 +31,19 @@ from sklearn import preprocessing  # For natrix normalization
 
 from IPython.display import display, HTML  # Formatting for Dataframes
 
+import qgrid
+
+
+
 #####################################################################
 # Variables
 
-metrics = None
-items = None
-pricecolumns = None
-salescolumns = None
-weighcolumns = None
-
+# metrics = None
+# items = None
+# pricecolumns = None
+# salescolumns = None
+# weighcolumns = None
+# cpi_category = None
 
 #####################################################################
 # Functions
@@ -316,7 +320,8 @@ def normalizeDF(combined_frame, replaceval=2):  # normalize scales
         # , limit=2048
     )
 
-    idf=idf.drop(columns=['date'])
+    if 'date' in idf.columns:
+        idf=idf.drop(columns=['date'])
 
     x = idf.values  # returns a numpy array
     min_max_scaler = preprocessing.MinMaxScaler()  # Scaling
@@ -328,10 +333,12 @@ def normalizeDF(combined_frame, replaceval=2):  # normalize scales
     new_frame = new_frame.set_index (pd.DatetimeIndex (combined_frame.index))  # puts original index back
 
     new_frame[new_frame == replaceval] = np.NaN
-    new_frame = new_frame - 0.5
+    # new_frame = new_frame - 0.5
 
     return new_frame
 
+def decorateText(t):
+    return t.replace('_',' ').title()
 
 # Average Weighted Means function
 def get_mean_weighted_rating(normalized_df_input, original_df_input):
@@ -377,11 +384,170 @@ def get_mean_weighted_rating(normalized_df_input, original_df_input):
 
     return n2df
 
+#### CPI df comparisons
+def compareCPIMetrics(
+ price_df,cpi_df,cpi_metric='diff',price_metric='mean'
+ , title = '', frequency='M'
+):
+    if title=='':
+        title='<b>CPI %s vs %s</b><br>%s Interval'%(cpi_metric,price_metric,frequency)
+
+    icpi=cpi_df.copy()
+    graph_ndf=price_df.copy()
+    cpivsprice_df = pd.concat([icpi[[
+        cpi_metric
+    ]].resample('1D').interpolate(type='cubic')
+        ,
+       graph_ndf[['mean']].copy().resample(frequency).mean().resample('1D').interpolate(type='cubic')
+       #  , graph_ndf[['mean']].copy().rolling('90D').mean().rename({'mean':'rollingavg'})
+       #  , graph_ndf[['mean']]
+       ], axis=1, join='inner')
+    cpivsprice_df = normalizeDF(cpivsprice_df)
+
+    return cpivsprice_df
+    # cpivsprice_df = cpivsprice_df.rename(columns={'mean': 'Average Weighted Price'})
+    # cpivsprice_df.iplot(title='<b>CPI delta vs Weighted Price</b><br>%s' % (cpi_category))
+    # iplot(plotdouble(cpivsprice_df,'diff','total_revenue'))
+
+#### CPI df comparisons
+def plotCompareCPIMetrics(
+ price_df,cpi_df,cpi_metric='diff',price_metric='mean'
+ , title = '', frequency='M', cpi_category='CPI'
+):
+    graph_df= compareCPIMetrics(
+        price_df, cpi_df, cpi_metric=cpi_metric, price_metric=price_metric
+        , title='', frequency=frequency)
+
+    if title=='':
+        title='<b>CPI %s vs %s</b><br>%s - %s Interval'%(cpi_metric,price_metric,decorateText(cpi_category),frequency)
+    title=title.replace('CPI CPI','CPI Index')              # Replace regular tracks
+    title=title.replace('mean','Weighted Mean Price')              # Replace regular tracks
+
+    # plotly plot graph
+    graph_df.iplot(title=title)
+    return graph_df
+
+#### Percentile threshold
+def filter_percentile(df,percentile=0.90):
+
+    if percentile < 1:
+        for c in df.columns:
+            if c not in ['date']:
+                q = df[c].quantile(percentile)
+                df[c] = df[df[c] < q][c]
+    return df
+
+
+def plot_final(icpi, normalized_prices, recalc_correlation=False, optimum_timeshift=0, show_corr=True
+    ,show_cpi_curve=False, show_offset=True, cpi_metric='diff',correlation_matrx=None
+    ):
+
+    if optimum_timeshift != 0:
+        scdf = correlation_matrx.copy()
+        highest_offset_row = scdf.loc[scdf['offset'] > -388].loc[scdf['offset'] < 55].sort_values(['correlation'],
+            ascending=False).head(n=1)
+        optimum_timeshift = highest_offset_row['offset'].values[0].astype(int)
+
+    bar_label = 'CPI % Change'
+    original_curve = 'Predictor'
+    new_curve = 'Time Shifted Predictor'
+
+
+    # normalized_prices[['mean']].iplot(title='Title Test NDF')
+
+    data1_cpi = icpi.copy()[cpi_metric]  # CPI change %
+    data1_cpi = data1_cpi.to_frame()
+    data1_cpi = data1_cpi.rename(columns={cpi_metric: bar_label})
+
+    # First Shift the actual curve
+    data2_normalized_prices = normalized_prices.copy().shift(-optimum_timeshift)[
+        'mean'].to_frame()  # Shifted Price Curve
+    data2_normalized_prices = data2_normalized_prices.rename(columns={'mean': new_curve})
+    data2_normalized_prices = data2_normalized_prices[data2_normalized_prices[new_curve].notnull()]
+
+    data3_original_prices = normalized_prices.copy()['mean'].to_frame()  # Prices
+    data3_original_prices = data3_original_prices.rename(columns={'mean': original_curve})
+    # data3_original_prices[[original_curve]].iplot()
+    # normalized_prices.copy()['mean'].to_frame().iplot()
+    h_offset_corr = 0
+
+    if recalc_correlation:
+        h_offset_corr = data2_normalized_prices[new_curve].corr(icpi[cpi_metric])
+    elif show_corr:
+        h_offset_corr = highest_offset_row['correlation'].values  # Correlation
+
+    # Combining Frames
+    combined_frame = pd.concat(
+        [data1_cpi, data2_normalized_prices, data3_original_prices[original_curve]]
+        #         map(normalize_df,[data1_cpi,data2_normalized_prices,data3_original_prices[original_curve]])
+        , axis=1)  # Combined
+    #     combined_frame=pd.concat([data1_cpi,data2_normalized_prices],axis=1)      # Combined
+    #     combined_frame=normalize_df(combined_frame) # normalize dataframe
+
+    title = '<b> %s </b><br>Interval: Monthly' % (category)
+    if show_offset:
+        title = '%s\t Offset: %s' % (title, optimum_timeshift)
+
+    if show_corr:
+        title = '%s\t Correlation: %s' % (title, round(h_offset_corr, 2))
+
+    title = title + '\t\tCPI Metric: %s' % (cpi_metric)
+
+    color1 = 'orange'
+    color2 = 'green'
+
+
+    # Comparing a substring of 1 list to another list
+    # Lambda combined with any()
+    # combined_frame.iplot(columns=filter(lambda x: not any(n in x for n in ['diff','CPI']), combined_frame.columns))
+    #     combined_frame=combined_frame.resample('W').mean().interpolate(kind='spine')
+    combined_frame = combined_frame.resample('W').mean()
+
+    fig1 = combined_frame.iplot(columns=[bar_label], kind='bar', asFigure=True, width=5, color=color1)
+
+    fig2 = combined_frame.iplot(columns=[original_curve]
+                                , kind='line', secondary_y=[original_curve]
+                                , asFigure=True, colors=['green'], width=5, dash='dot'
+                                )
+
+    fig3 = combined_frame.iplot(columns=[new_curve]
+                                , kind='line', secondary_y=[new_curve]
+                                , asFigure=True, colors=['purple'], width=5
+                                )
+
+    fig2['data'].extend(fig1['data'])
+    fig3['data'].extend(fig2['data'])
+    fig3.layout.title = title
+    iplot(fig3)
+
+
+# Adds deltas, date indexes, and interpolates delta
+def enrichCPI(df):
+
+    cpi=df.copy()
+    # Workout CPI delta
+    cpi['diff'] = cpi.CPI.diff()  # Calculating difference from previous year
+    cpi['diff'] = 100 * cpi['diff'] / ((cpi['CPI'] + cpi['CPI'].shift(-1)) / 2)
+
+    # Datetime index, resample, and then interpolate CPI
+    cpi = cpi.set_index(pd.DatetimeIndex(cpi.index))  # sets index as the date for prices
+    cpi = cpi.resample('D').mean()  # also time serializes dataframe so as to allow concatenation
+    cpi.CPI = cpi.CPI.interpolate(type='spline', limit_direction='both', order=1)
+
+    cpi['diff'] = 0
+    cpi['diff'] = cpi.CPI.diff()  # Calculating difference from previous period
+    cpi[['diff']] = cpi[['diff']].interpolate(type='spline', limit_direction='both', order=1)
+
+    # Filter out null
+    cpi = cpi[cpi['diff'].notnull()]
+    return cpi
+
 if __name__ == "__main__":
 
-    price_df = getProducts()
+    price_df = getProducts()            ## Initiation of variables
     cpi_df, cpi_category = getCPI()
     df = price_df.copy()
+    cpi = cpi_df.copy()
 
     transformed_df, total_df = getSummary(df)
     # Printing Summary
@@ -392,4 +558,9 @@ if __name__ == "__main__":
     # Display Total Aggregate Summary
     display (total_df)
 
+    percentile=0.98
+    df = filter_percentile(df, percentile)
     ndf = normalizeDF(df)
+
+    # cpi_vs_price = plotCompareCPIMetrics(ndf, cpi, cpi_metric='CPI', frequency='3M', cpi_category=cpi_category)
+
