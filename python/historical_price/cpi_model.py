@@ -30,7 +30,7 @@ from sklearn import preprocessing  # For natrix normalization
 # import seaborn as sns                             # For gradient color scales
 
 from IPython.display import display, HTML  # Formatting for Dataframes
-
+import qgrid
 
 START_OFFSET=-99
 END_OFFSET=0
