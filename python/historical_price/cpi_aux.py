@@ -7,6 +7,15 @@ import pandas as pd  # Pandas Matrix library
 
 import scipy as sp  # Required as the baseline data science module
 
+# Load Libraries for offline use
+# Edit 20180317-02
+import os  # Fundamental file management libraries
+
+import numpy as np  # Base Array library used by Pandas
+import pandas as pd  # Pandas Matrix library
+
+import scipy as sp  # Required as the baseline data science module
+
 try:
     from StringIO import StringIO  # Formulating a string as a filestream
 except ImportError:
@@ -31,7 +40,11 @@ from sklearn import preprocessing  # For natrix normalization
 
 from IPython.display import display, HTML  # Formatting for Dataframes
 
+# Dataframe addon
 import qgrid
+
+import ipywidgets as widgets  # Jupyter Widgets
+import random
 
 
 #####################################################################
@@ -77,13 +90,13 @@ def getProducts(basepath='ref/categories/Food and non-alcoholic beverages'):
     def readfiles(basepath):
 
         if basepath[-1] != '/':
-            basepath= basepath+'/'
+            basepath = basepath + '/'
 
         bol_recursive = False
         df = None
         # global category
 
-        category=basepath.split('/')[-1]
+        category = basepath.split('/')[-2]
 
         # category = 'Food and non-alcoholic beverages'
         # category = 'Furnitures'
@@ -169,7 +182,7 @@ def getProducts(basepath='ref/categories/Food and non-alcoholic beverages'):
         # print items_dict.keys()
         # print items_dict
         df = items_dict[items_dict.keys()[0]]
-        print('Verifying that dataframe can be initialized for %s...' % (category))
+        print('Verifying that dataframe can be initialized for: %s...' % (category))
         # display(df.head(1))
 
         for i, item in enumerate(items_dict, start=0):
@@ -204,7 +217,7 @@ def getProducts(basepath='ref/categories/Food and non-alcoholic beverages'):
     # df = readfiles(categorybasepath)
     df = readfiles(basepath)
     raw_df = df.copy()
-    print('Summary Statistics\nLength of list: %s' % (len(df)))
+    print('Dataframe Matrix Initialized: Row Length of matrix: %s' % (len(df)))
     show_offset = 2
     # df.reset_index()
     # display(df.head(show_offset))
@@ -353,9 +366,13 @@ def decorateText(t):
 
 # Get column names which are metrics
 def getMetricColumns(df):
-    pricecolumns = [s for s in df.columns if not any(xs in s for xs in ['sales', 'weigh', 'date'])]
-    weighcolumns = [s for s in df.columns if any(xs in s for xs in ['weigh']) and s not in 'date']
-    salescolumns = [s for s in df.columns if any(xs in s for xs in ['sales']) and s not in 'date']
+    pricecolumns = [s for s in df.columns if not any(xs in s for xs in ['sales', 'weigh', 'date', 'mean'])]
+
+    weighcolumns = [s for s in df.columns if any(xs in s for xs in ['weigh'])
+                    and not any(xs in s for xs in ['date', 'mean'])]
+    salescolumns = [s for s in df.columns if any(xs in s for xs in ['sales'])
+                    and not any(xs in s for xs in ['date', 'mean'])]
+
     return pricecolumns, weighcolumns, salescolumns
 
 
@@ -363,14 +380,15 @@ def getMetricColumns(df):
 def get_mean_weighted_rating(normalized_df_input, original_df_input):
     pricecolumns, weighcolumns, salescolumns = getMetricColumns(normalized_df_input)
 
-    normalized_df = normalized_df_input[pricecolumns].copy()
+    this_df = normalized_df_input[pricecolumns].copy()
     original_df = original_df_input.copy()
+
 
     original_df = original_df.set_index('date')
 
     # Get New Weighted Rating column names
     weighted_rating_columns = map(lambda x: x.replace('weighting', 'weighted_rating'), weighcolumns)
-    n2df = pd.concat([normalized_df, original_df[weighcolumns]], join_axes=[normalized_df.index], axis=1)
+    n2df = pd.concat([this_df, original_df[weighcolumns]], join_axes=[this_df.index], axis=1)
     #     n2df[weighcolumns] = n2df[weighcolumns].apply(np.log)             # Assign weighting based on sales
 
     #     weig    hted_rating_columns = map (lambda x: x.replace ('sales', 'weighted_rating'), salescolumns)
@@ -396,6 +414,7 @@ def get_mean_weighted_rating(normalized_df_input, original_df_input):
 
     # Logarithmic Weighted Average Mean
     n2df['weighted_mean'] = n2df['numerator'] / n2df['denominator']
+    n2df['mean'] = n2df['weighted_mean']
 
     n2df['total_revenue'] = original_df[salescolumns].sum(axis=1)
     n2df['total_sold'] = original_df[weighcolumns].sum(axis=1)
@@ -410,23 +429,39 @@ def get_mean_weighted_rating(normalized_df_input, original_df_input):
 #### CPI df comparisons
 def compareCPIMetrics(
         price_df, cpi_df, cpi_metric='diff', price_metric='mean'
-        , title='', frequency='M'
+        , title='', frequency='M', getRollingMean=False,cpi_category='',rolling_freq=None,normalize=True
 ):
+    # initialize frames
+    if rolling_freq==None:
+        rolling_freq=frequency
+    graph_ndf = (price_df.copy())
+
     if title == '':
         title = '<b>CPI %s vs %s</b><br>%s Interval' % (cpi_metric, price_metric, frequency)
 
+    # Add metrics on the pricing axis
+    # Rolling Average
+    price_metrics = [price_metric]
+    if getRollingMean:
+        metric_name=decorateText(price_metric+(('_rolling (%s)')%(rolling_freq)))
+        graph_ndf[[metric_name]] = graph_ndf[['total_revenue']].rolling(rolling_freq).mean()
+        price_metrics = price_metrics + [metric_name]
+
+    # Rename Metric names
+
+
     icpi = cpi_df.copy()
-    graph_ndf = (price_df.copy())
     cpivsprice_df = pd.concat([icpi[[
         cpi_metric
     ]].resample('1D').interpolate(type='cubic')
                                   ,
-                               graph_ndf[[price_metric]].copy().resample(frequency).mean().resample('1D').interpolate(
+                               graph_ndf[price_metrics].copy().resample(frequency).mean().resample('1D').interpolate(
                                    type='cubic')
                                #  , graph_ndf[['mean']].copy().rolling('90D').mean().rename({'mean':'rollingavg'})
                                #  , graph_ndf[['mean']]
                                ], axis=1, join='inner')
-    cpivsprice_df = normalizeDF(cpivsprice_df)
+    if normalize==True:
+        cpivsprice_df = normalizeDF(cpivsprice_df)
 
     return cpivsprice_df
     # cpivsprice_df = cpivsprice_df.rename(columns={'mean': 'Average Weighted Price'})
@@ -437,21 +472,59 @@ def compareCPIMetrics(
 #### CPI df comparisons
 def plotCompareCPIMetrics(
         price_df, cpi_df, cpi_metric='diff', price_metric='mean'
-        , title='', frequency='M', cpi_category='CPI'
+        , title='', frequency='M', getRollingMean=True, cpi_category='',rolling_freq=None, interpolate=False
+        ,normalize=False
 ):
-
     graph_df = compareCPIMetrics(
         price_df, cpi_df, cpi_metric=cpi_metric, price_metric=price_metric
-        , title='', frequency=frequency)
+        , title='', frequency=frequency,getRollingMean=getRollingMean,cpi_category='',rolling_freq=rolling_freq
+        ,normalize=normalize)
 
+
+    if interpolate:
+        graph_df=interpolateDF(graph_df)
     if title == '':
         title = '<b>CPI %s vs %s</b><br>%s - %s Interval' % (
-        cpi_metric, price_metric, decorateText(cpi_category), frequency)
+            cpi_metric, decorateText(price_metric), decorateText(cpi_category), frequency)
     title = title.replace('CPI CPI', 'CPI Index')  # Replace regular tracks
-    title = title.replace('mean', 'Weighted Mean Price')  # Replace regular tracks
+    title = title.replace('Mean', 'Weighted Mean Price')  # Replace regular tracks
+    title = decorateText(title)
 
-    # plotly plot graph
-    graph_df.iplot(title=title)
+    superset=graph_df.columns
+    metrics2_cpi  = [cpi_metric]
+    metrics1_mean = list(set(superset) - set(metrics2_cpi))
+
+    # Plotting two types of charts
+    def quickGetDouble(df, metrics1_mean, metrics2_cpi, color1='orange', color2='green', title=''):
+
+        # Mean scaling
+        rolling_mean_column = [x for x in metrics1_mean if 'roll' in x.lower()]
+        mean_columns = list(set(metrics1_mean) - set(rolling_mean_column))
+        fig1_mean = df.iplot(columns=mean_columns, kind='line', asFigure=True, width=3, color='orange',dash='dot')
+
+        # Rolling Mean scaling
+        df[rolling_mean_column]=df[mean_columns].rolling('90D').mean()
+        fig2_rolling = df.iplot(columns=rolling_mean_column, kind='line', asFigure=True, width=3, color='purple')
+
+        # CPI scaling
+        fig3_cpi = df.iplot(columns=metrics2_cpi, kind='line', secondary_y=metrics2_cpi, asFigure=True, colors='green', width=5)
+        fig3_cpi['data'].extend(fig1_mean['data'])
+        fig3_cpi['data'].extend(fig2_rolling['data'])
+        fig3_cpi.layout.title = title
+
+        # print '!!!!!!!!!!!!!!!!!!!!!!!!!!!',rolling_mean_column,mean_columns,metrics2_cpi
+        return fig3_cpi
+
+    # Give normalized graph polarity
+
+    graph_df = graph_df - 0.5
+    # Plotly plot graph
+
+    if not normalize:
+        iplot(quickGetDouble(graph_df, metrics1_mean, metrics2_cpi, color1='orange', color2='green', title=title))
+    else:
+
+        graph_df.iplot(title=title)
     return graph_df
 
 
@@ -466,7 +539,7 @@ def filter_percentile(df, percentile=0.90):
 
 
 def plot_final(icpi, normalized_prices, recalc_correlation=False, optimum_timeshift=0, show_corr=True
-               , show_cpi_curve=False, show_offset=True, cpi_metric='diff', correlation_matrx=None\
+               , show_cpi_curve=False, show_offset=True, cpi_metric='diff', correlation_matrx=None
                , category=''
                ):
     if optimum_timeshift != 0:
@@ -567,8 +640,64 @@ def enrichCPI(df):
     cpi = cpi[cpi['diff'].notnull()]
     return cpi
 
+def quickPlotCPIvPrice(basepath):
+    price_df = getProducts(basepath)
+    cpi_df, cpi_category = getCPI(basepath)
+    df = price_df.copy()
+    input_cpi = enrichCPI(cpi_df.copy())
+
+    percentile = 0.98
+    df = filter_percentile(df, percentile)
+
+    frequency = 'M'
+
+    pricecolumns,weighcolumns, salescolumns = getMetricColumns(df)
+    # Show Price (interlolated to 1M)
+    title = '<b>Average Price ($)</b><br>Outliers not filtered<br>Interpolated and bucketing interval set to: <i>%s</i>' % (
+        frequency)
+    interpolateDF(df, columns=pricecolumns, frequency=frequency).iplot(title=title)
+
+    # Show Units Sold (interlolated to 1M)
+    title = "<b>Units Sold</b><br>Outliers not filtered"
+    interpolateDF(df, columns=weighcolumns, frequency=frequency).iplot(title=title)
+
+    # Show Sales Revenue (interlolated to 1M)
+    title = "<b>Sales revenue of items ($)</b><br>Outliers not filtered"
+    interpolateDF(df, columns=salescolumns, frequency=frequency).iplot(title=title)
+
+    # Plotting of CPI
+    title = '<b>CPI - %s</b><br>Obtain CPI for the next step, including each point\'s derivative' % (
+        decorateText(cpi_category))
+    iplot(plotdouble(input_cpi, 'diff', 'CPI', title=title))
+
+    # if
+    # graph_ndf = normalizeDF(df)
+    grapg_df=df
+    grapg_df = get_mean_weighted_rating(normalized_df_input=grapg_df, original_df_input=df)
+
+    graph_frequency = '14D'
+    rolling_freq = '90D'
+    # graph_ndf[['total_revenue_rolling']] = graph_ndf[['total_revenue']].rolling(graph_frequency).mean()
+
+    cpi_vs_price = plotCompareCPIMetrics(grapg_df, input_cpi, cpi_metric='CPI',
+                                         frequency=graph_frequency, cpi_category=cpi_category, getRollingMean=True,
+                                         rolling_freq=rolling_freq)
+
+    cpidelta_vs_price = plotCompareCPIMetrics(grapg_df, input_cpi, cpi_metric='diff',
+                                              frequency=graph_frequency, cpi_category=cpi_category, getRollingMean=True,
+                                              rolling_freq=rolling_freq)
+
+    cpidelta_vs_total_revenue = plotCompareCPIMetrics(grapg_df, input_cpi, cpi_metric='diff'
+                                                      , price_metric='total_revenue', frequency=graph_frequency,
+                                                      cpi_category=cpi_category, getRollingMean=True,
+                                                      rolling_freq=rolling_freq)
+
+    cpi_vs_total_revenue = plotCompareCPIMetrics(grapg_df, input_cpi, cpi_metric='CPI', price_metric='total_revenue'
+                                                 , frequency=graph_frequency, cpi_category=cpi_category,
+                                                 getRollingMean=True, rolling_freq=rolling_freq)
 
 if __name__ == "__main__":
+
     price_df = getProducts('ref/categories/Food - Chocolate')
     cpi_df, cpi_category = getCPI('ref/categories/Food - Chocolate')
 
@@ -594,6 +723,4 @@ if __name__ == "__main__":
     # cpi_vs_price = plotCompareCPIMetrics(ndf, cpi, cpi_metric='CPI', frequency='3M', cpi_category=cpi_category)
 
     cpidelta_vs_revenue = plotCompareCPIMetrics(
-        ndf, cpi, cpi_metric='diff', price_metric='total_revenue', frequency='3M', cpi_category=cpi_category)
-
-
+        ndf, cpi, cpi_metric='diff', price_metric='total_revenue', frequency='90D', cpi_category=cpi_category)
