@@ -15,7 +15,7 @@ var ageChart = dc.pieChart('#age-chart');
 var dayOfWeekChart = dc.rowChart('#day-of-week-chart');
 var moveChart = dc.lineChart('#monthly-move-chart');
 var volumeChart = dc.barChart('#monthly-volume-chart');
-var yearlyBubbleChart = dc.bubbleChart('#yearly-bubble-chart');
+var topBubbleChart = dc.bubbleChart('#top-bubble-chart');
 var nasdaqCount = dc.dataCount('.dc-data-count');
 var nasdaqTable = dc.dataTable('.dc-data-table');
 
@@ -105,6 +105,8 @@ d3.csv('ndx.csv', function (data) {
         return d3.time.year(d.dd).getFullYear();
     });
     // Maintain running tallies by year as filters are applied or removed
+    //The bubble chart expects the groups are reduced to multiple values which are used
+    //to generate x, y, and radius for each key (bubble) in the group
     var yearlyPerformanceGroup = yearlyDimension.group().reduce(
         /* callback for when data is added to the current filter results */
         function (p, v) {
@@ -122,6 +124,7 @@ d3.csv('ndx.csv', function (data) {
             p.percentageGain = p.avgIndex ? (p.absGain / p.avgIndex) * 100 : 0;
             p.fluctuationPercentage = (p.avgIndex ? (p.fluctuation / p.avgIndex) * 100 : 0) / 2 ;
             // console.log(p.fluctuationPercentage);
+            console.log(p);
             return p;
         },
 
@@ -264,7 +267,7 @@ d3.csv('ndx.csv', function (data) {
     //on charts within the same chart group.
     // <br>API: [Bubble Chart](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#bubble-chart)
 
-    yearlyBubbleChart /* dc.bubbleChart('#yearly-bubble-chart', 'chartGroup') */
+    topBubbleChart /* dc.bubbleChart('#top-bubble-chart', 'chartGroup') */
         // (_optional_) define chart width, `default = 200`
         .width(990)
         // (_optional_) define chart height, `default = 200`
