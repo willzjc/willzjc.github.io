@@ -17,8 +17,14 @@ var moveChart = dc.lineChart('#monthly-move-chart');
 var volumeChart = dc.barChart('#monthly-volume-chart');
 var topBubbleChart = dc.bubbleChart('#top-bubble-chart');
 var nasdaqCount = dc.dataCount('.dc-data-count');
-var nasdaqTable = dc.dataTable('.dc-data-table');
 
+// require("js/dc-tableview.s");
+// dc.tableview(div, "chartGroupName");
+
+var table_of_entries = dc.dataTable('.dc-data-table');
+// var table_of_entries = dc.tableview('.dc-data-table');
+// var table_of_entries = dc.tableview('.dc-data-table');
+// dc.table
 // ### Anchor Div for Charts
 /*
 // A div anchor that can be identified by id
@@ -385,9 +391,9 @@ d3.csv('ndx.csv', function (data) {
         // (_optional_) render vertical grid lines, `default=false`
         .renderVerticalGridLines(true)
         // (_optional_) render an axis label below the x axis
-        .xAxisLabel('Value Rating')
+        .xAxisLabel('Price')
         // (_optional_) render a vertical axis lable left of the y axis
-        .yAxisLabel('Deviation')
+        .yAxisLabel('Milage')
         //##### Labels and  Titles
 
         //Labels are displayed on the chart for each bubble. Titles displayed on mouseover.
@@ -413,7 +419,7 @@ d3.csv('ndx.csv', function (data) {
         // so any additional method chaining applies to the axis, not the chart.
         .yAxis().tickFormat(function (v) {
             // return v + '%';
-            return v/1000 ;
+            return v ;
         });
 //######################################################################################################################
     // #### Pie/Donut Charts
@@ -656,7 +662,7 @@ d3.csv('ndx.csv', function (data) {
     // ```
     // or do it programmatically using `.columns()`.
 
-    nasdaqTable /* dc.dataTable('.dc-data-table', 'chartGroup') */
+    table_of_entries /* dc.dataTable('.dc-data-table', 'chartGroup') */
         .dimension(dateDimension)
         // Data table does not use crossfilter group but rather a closure
         // as a grouping function
@@ -694,10 +700,11 @@ d3.csv('ndx.csv', function (data) {
 
         // (_optional_) sort using the given field, `default = function(d){return d;}`
         .sortBy(function (d) {
-            return d.dd;
+            // return d.dd;
+            return d.sum_rating;
         })
         // (_optional_) sort order, `default = d3.ascending`
-        .order(d3.ascending)
+        .order(d3.descending)
         // (_optional_) custom renderlet to post-process chart using [D3](http://d3js.org)
         .on('renderlet', function (table) {
             table.selectAll('.dc-table-group').classed('info', true);
