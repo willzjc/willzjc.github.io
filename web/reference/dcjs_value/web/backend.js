@@ -101,20 +101,40 @@ d3.csv('ndx.csv', function (data) {
     var divider_offset=155;
     var sum_index_multiplier = 1;
     // Dimension by year
-    var yearlyDimension = ndx.dimension(function (d) {
+    var bubbleDimensionGroup = ndx.dimension(function (d) {
         return d3.time.year(d.dd).getFullYear();
     });
     // Maintain running tallies by year as filters are applied or removed
     //The bubble chart expects the groups are reduced to multiple values which are used
     //to generate x, y, and radius for each key (bubble) in the group
-    var yearlyPerformanceGroup = yearlyDimension.group().reduce(
+    var yearlyPerformanceGroup = bubbleDimensionGroup.group().reduce(
         /* callback for when data is added to the current filter results */
-        function (p, v) {
+        function (p, v) { // cde123
             ++p.count;
             // p.absGain += Math.abs(v.price_difference);
             // p.absGain += (v.price_difference)/divider_offset;
             // p.absGain += (v.sum_rating)/divider_offset;
+            // console.log(p.absGain,p.total_price);
             p.absGain += (v.sum_rating)*10;
+
+            // X Axis
+            p.total_price += v.price;
+            p.avg_price = p.count ? (p.total_price/p.count) : 0;
+            // console.log(p.absGain,p.total_price,p.avg_price,p.count);
+
+            // Y Axis
+            p.total_milage += v.milage;
+            p.avg_milage = p.count ? (p.total_milage/p.count) : 0;
+
+            // console.log(p.total_price);
+
+
+            // Radius
+            p.min_radius = p.count ?  Math.max( p.min_radius , v.sum_rating) : v.sum_rating;
+            p.max_radius =  p.count ?  Math.min( p.min_radius , v.sum_rating) : v.sum_rating;
+            p.radius = Math.abs(p.min_radius - p.max_radius);
+
+
             // p.absGain += (v.sum_rating)*1;
             // p.fluctuation += Math.abs(v.price_difference/divider_offset);
             p.fluctuation += Math.abs(v.sum_rating/divider_offset);
@@ -124,35 +144,67 @@ d3.csv('ndx.csv', function (data) {
             p.percentageGain = p.avgIndex ? (p.absGain / p.avgIndex) * 100 : 0;
             p.fluctuationPercentage = (p.avgIndex ? (p.fluctuation / p.avgIndex) * 100 : 0) / 2 ;
             // console.log(p.fluctuationPercentage);
-            console.log(p);
+            // console.log(p);
+            p.title=v.title;
+
+
+            console.log(p.title,'averagemilage = ' ,p.avg_milage,v.age,'count=',p.count);
+
             return p;
         },
 
         /* callback for when data is removed from the current filter results */
 
-        function (p, v) {
+        function (p, v) { //cde321
             --p.count;
             p.absGain -= (v.sum_rating)*10;
-            // p.absGain -= (v.sum_rating)*1;
+
+            p.total_price -= v.price;
+            p.avg_price = p.count ? (p.total_price/p.count) : 0;
+
+            p.title=v.title;
+
+            // X Axis
             p.fluctuation -=Math.abs(v.sum_rating/divider_offset);
             p.sumIndex -=(v.sum_rating*sum_index_multiplier) / 2;
-            // console.log(p.sumIndex);
+
+            // Y Axis
+            p.total_milage += v.milage;
+            p.avg_milage = p.count ? (p.total_milage/p.count) : 0;
+            // console.log(p.title,p.avg_milage);
+
+            // Radius
+            p.min_radius = p.count ?  Math.max( p.min_radius , v.sum_rating) : v.sum_rating;
+            p.max_radius =  p.count ?  Math.min( p.min_radius , v.sum_rating) : v.sum_rating;
+            p.radius = Math.abs(p.min_radius - p.max_radius);
+
             p.avgIndex = p.count ? p.sumIndex / p.count : 0;
             p.percentageGain = p.avgIndex ? (p.absGain / p.avgIndex) * 100 : 0;
             p.fluctuationPercentage =(p.avgIndex ? (p.fluctuation / p.avgIndex) * 100 : 0) / 2 ;
+
             // console.log(p.fluctuationPercentage);
+            console.log(p.title,'averagemilage = ' ,p.avg_milage,v.age,'count=',p.count);
+
             return p;
         },
         /* initialize p */
         function () {
             return {
+                min_radius:0,
+                max_radius:0,
+                radius : 0,
+                total_milage : 0,
+                avg_milage : 0,
+                avg_price : 0,
+                total_price : 0,
                 count: 0,
                 absGain: 0,
                 fluctuation: 0,
                 fluctuationPercentage: 0,
                 sumIndex: 0,
                 avgIndex: 0,
-                percentageGain: 0
+                percentageGain: 0,
+                title:''
             };
         }
     );
@@ -267,7 +319,7 @@ d3.csv('ndx.csv', function (data) {
     //on charts within the same chart group.
     // <br>API: [Bubble Chart](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#bubble-chart)
 
-    topBubbleChart /* dc.bubbleChart('#top-bubble-chart', 'chartGroup') */
+    topBubbleChart /* dc.bubbleChart('#top-bubble-chart', 'chartGroup') */ // abc123
         // (_optional_) define chart width, `default = 200`
         .width(990)
         // (_optional_) define chart height, `default = 200`
@@ -275,7 +327,7 @@ d3.csv('ndx.csv', function (data) {
         // (_optional_) define chart transition duration, `default = 750`
         .transitionDuration(1500)
         .margins({top: 10, right: 50, bottom: 30, left: 40})
-        .dimension(yearlyDimension)
+        .dimension(bubbleDimensionGroup)
         //The bubble chart expects the groups are reduced to multiple values which are used
         //to generate x, y, and radius for each key (bubble) in the group
         .group(yearlyPerformanceGroup)
@@ -289,22 +341,32 @@ d3.csv('ndx.csv', function (data) {
 
         // `.colorAccessor` - the returned value will be passed to the `.colors()` scale to determine a fill color
         .colorAccessor(function (d) {
+            // return d.value.absGain;
             return d.value.absGain;
         })
         // `.keyAccessor` - the `X` value will be passed to the `.x()` scale to determine pixel location
         .keyAccessor(function (p) {
-            return p.value.absGain;
+            // return p.value.absGain;
+            // console.log(p.avg_price);
+            return p.value.avg_price;
         })
+
         // `.valueAccessor` - the `Y` value will be passed to the `.y()` scale to determine pixel location
+        //
         .valueAccessor(function (p) {
-            return p.value.percentageGain;
+            // return p.value.percentageGain;
+            // console.log(p.absGain,p.total_price,p.avg_price,p.count);
+            // console.log(p.value.avg_milage, p.value.title);
+            return p.value.avg_milage;
         })
         // `.radiusValueAccessor` - the value will be passed to the `.r()` scale to determine radius size;
         //   by default this maps linearly to [0,100]
         .radiusValueAccessor(function (p) {
-            return p.value.fluctuationPercentage;
+            // return p.value.fluctuationPercentage;
+            return p.value.radius*10;
         })
-        .maxBubbleRelativeSize(0.3)
+
+        .maxBubbleRelativeSize(1)
         .x(d3.scale.linear().domain([-2500, 2500]))
         .y(d3.scale.linear().domain([-100, 100]))
         .r(d3.scale.linear().domain([0, 4000]))
@@ -317,7 +379,7 @@ d3.csv('ndx.csv', function (data) {
         //domains as the Accessors.
         .yAxisPadding(100000)
         // .xAxisPadding(500)
-        .xAxisPadding(1000)
+        .xAxisPadding(50000)
         // (_optional_) render horizontal grid lines, `default=false`
         .renderHorizontalGridLines(true)
         // (_optional_) render vertical grid lines, `default=false`
@@ -353,7 +415,7 @@ d3.csv('ndx.csv', function (data) {
             // return v + '%';
             return v/1000 ;
         });
-
+//######################################################################################################################
     // #### Pie/Donut Charts
 
     // Create a pie chart and use the given css selector as anchor. You can also specify
@@ -431,7 +493,7 @@ d3.csv('ndx.csv', function (data) {
         // Assign colors to each value in the x scale domain
         // .ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#dadaeb'])
         .ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#dadaeb'
-            ,'#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#dadaeb'
+            // ,'#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#dadaeb'
         ])
         // .ordin
         .label(function (d) {
@@ -604,7 +666,7 @@ d3.csv('ndx.csv', function (data) {
             return d.make;
         })
         // (_optional_) max number of records to be shown, `default = 25`
-        .size(10)
+        .size(50)
         // There are several ways to specify the columns; see the data-table documentation.
         // This code demonstrates generating the column header automatically based on the columns.
         .columns([
