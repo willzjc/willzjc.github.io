@@ -21,9 +21,9 @@ var nasdaqCount = dc.dataCount('.dc-data-count');
 // require("js/dc-tableview.s");
 // dc.tableview(div, "chartGroupName");
 
-var table_of_entries = dc.dataTable('.dc-data-table');
-// var table_of_entries = dc.tableview('.dc-data-table');
-// var table_of_entries = dc.tableview('.dc-data-table');
+var varDataTable = dc.dataTable('.dc-data-table');
+// var varDataTable = dc.tableview('.dc-data-table');
+// var varDataTable = dc.tableview('.dc-data-table');
 // dc.table
 // ### Anchor Div for Charts
 /*
@@ -67,20 +67,23 @@ var table_of_entries = dc.dataTable('.dc-data-table');
 //```
 
 var currentYear = (new Date()).getFullYear()
-var minYear=0;
+var minYear = 0;
 
 d3.csv('ndx.csv', function (data) {
     // Since its a csv file we need to format the data a bit.
     var dateFormat = d3.time.format('%m/%d/%Y');
     var numberFormat = d3.format('.2f');
+    var intFormat = d3.format('0f');
+
+
 
     // console.log(d3.min(data, function(d) { return d.value; }));
     // console.log(d3.max(data, function(d) { return d.value; }));
 
     data.forEach(function (d) {
         d.age = +d.age;
-        d.dd = new Date(currentYear-d.age, 1, 1)
-        minYear=(new Date(d3.min(d.age), 1, 1));
+        d.dd = new Date(currentYear - d.age, 1, 1)
+        minYear = (new Date(d3.min(d.age), 1, 1));
 
         // d.dd = dateFormat.parse(d.date);
         d.month = d3.time.month(d.dd); // pre-calculate month for better performance
@@ -104,7 +107,7 @@ d3.csv('ndx.csv', function (data) {
     //See the [crossfilter API](https://github.com/square/crossfilter/wiki/API-Reference) for reference.
     var ndx = crossfilter(data);
     var all = ndx.groupAll();
-    var divider_offset=155;
+    var divider_offset = 155;
     var sum_index_multiplier = 1;
     // Dimension by year
     var bubbleDimensionGroup = ndx.dimension(function (d) {
@@ -117,44 +120,45 @@ d3.csv('ndx.csv', function (data) {
         /* callback for when data is added to the current filter results */
         function (p, v) { // cde123
             ++p.count;
-            // p.absGain += Math.abs(v.price_difference);
-            // p.absGain += (v.price_difference)/divider_offset;
-            // p.absGain += (v.sum_rating)/divider_offset;
-            // console.log(p.absGain,p.total_price);
-            p.absGain += (v.sum_rating)*10;
+            // p.sum_of_value_rating += Math.abs(v.price_difference);
+            // p.sum_of_value_rating += (v.price_difference)/divider_offset;
+            // p.sum_of_value_rating += (v.sum_rating)/divider_offset;
+            // console.log(p.sum_of_value_rating,p.total_price);
+            p.sum_of_value_rating += (v.sum_rating);
+            p.avg_rating = p.sum_of_value_rating/p.count;
 
             // X Axis
             p.total_price += v.price;
-            p.avg_price = p.count ? (p.total_price/p.count) : 0;
-            // console.log(p.absGain,p.total_price,p.avg_price,p.count);
+            p.avg_price = p.count ? (p.total_price / p.count) : 0;
+            // console.log(p.sum_of_value_rating,p.total_price,p.avg_price,p.count);
 
             // Y Axis
             p.total_milage += v.milage;
-            p.avg_milage = p.count ? (p.total_milage/p.count) : 0;
+            p.avg_milage = p.count ? (p.total_milage / p.count) : 0;
 
             // console.log(p.total_price);
 
 
             // Radius
-            p.min_radius = p.count ?  Math.max( p.min_radius , v.sum_rating) : v.sum_rating;
-            p.max_radius =  p.count ?  Math.min( p.min_radius , v.sum_rating) : v.sum_rating;
+            p.min_radius = p.count ? Math.max(p.min_radius, v.sum_rating) : v.sum_rating;
+            p.max_radius = p.count ? Math.min(p.min_radius, v.sum_rating) : v.sum_rating;
             p.radius = Math.abs(p.min_radius - p.max_radius);
 
 
-            // p.absGain += (v.sum_rating)*1;
+            // p.sum_of_value_rating += (v.sum_rating)*1;
             // p.fluctuation += Math.abs(v.price_difference/divider_offset);
-            p.fluctuation += Math.abs(v.sum_rating/divider_offset);
-            p.sumIndex +=(v.sum_rating*sum_index_multiplier) / 2;
+            p.fluctuation += Math.abs(v.sum_rating / divider_offset);
+            p.sumIndex += (v.sum_rating * sum_index_multiplier) / 2;
             // console.log(p.sumIndex);
             p.avgIndex = p.sumIndex / p.count;
-            p.percentageGain = p.avgIndex ? (p.absGain / p.avgIndex) * 100 : 0;
-            p.fluctuationPercentage = (p.avgIndex ? (p.fluctuation / p.avgIndex) * 100 : 0) / 2 ;
+            p.percentageGain = p.avgIndex ? (p.sum_of_value_rating / p.avgIndex) * 100 : 0;
+            p.fluctuationPercentage = (p.avgIndex ? (p.fluctuation / p.avgIndex) * 100 : 0) / 2;
             // console.log(p.fluctuationPercentage);
             // console.log(p);
-            p.title=v.title;
+            p.title = v.title;
 
 
-            console.log(p.title,'averagemilage = ' ,p.avg_milage,v.age,'count=',p.count);
+            console.log(p.title, 'averagemilage = ', p.avg_milage, v.age, 'count=', p.count);
 
             return p;
         },
@@ -163,54 +167,56 @@ d3.csv('ndx.csv', function (data) {
 
         function (p, v) { //cde321
             --p.count;
-            p.absGain -= (v.sum_rating)*10;
+            p.sum_of_value_rating -= (v.sum_rating);
+            p.avg_rating = p.sum_of_value_rating/p.count;
 
             p.total_price -= v.price;
-            p.avg_price = p.count ? (p.total_price/p.count) : 0;
+            p.avg_price = p.count ? (p.total_price / p.count) : 0;
 
-            p.title=v.title;
+            p.title = v.title;
 
             // X Axis
-            p.fluctuation -=Math.abs(v.sum_rating/divider_offset);
-            p.sumIndex -=(v.sum_rating*sum_index_multiplier) / 2;
+            p.fluctuation -= Math.abs(v.sum_rating / divider_offset);
+            p.sumIndex -= (v.sum_rating * sum_index_multiplier) / 2;
 
             // Y Axis
             p.total_milage += v.milage;
-            p.avg_milage = p.count ? (p.total_milage/p.count) : 0;
+            p.avg_milage = p.count ? (p.total_milage / p.count) : 0;
             // console.log(p.title,p.avg_milage);
 
             // Radius
-            p.min_radius = p.count ?  Math.max( p.min_radius , v.sum_rating) : v.sum_rating;
-            p.max_radius =  p.count ?  Math.min( p.min_radius , v.sum_rating) : v.sum_rating;
+            p.min_radius = p.count ? Math.max(p.min_radius, v.sum_rating) : v.sum_rating;
+            p.max_radius = p.count ? Math.min(p.min_radius, v.sum_rating) : v.sum_rating;
             p.radius = Math.abs(p.min_radius - p.max_radius);
 
             p.avgIndex = p.count ? p.sumIndex / p.count : 0;
-            p.percentageGain = p.avgIndex ? (p.absGain / p.avgIndex) * 100 : 0;
-            p.fluctuationPercentage =(p.avgIndex ? (p.fluctuation / p.avgIndex) * 100 : 0) / 2 ;
+            p.percentageGain = p.avgIndex ? (p.sum_of_value_rating / p.avgIndex) * 100 : 0;
+            p.fluctuationPercentage = (p.avgIndex ? (p.fluctuation / p.avgIndex) * 100 : 0) / 2;
 
             // console.log(p.fluctuationPercentage);
-            console.log(p.title,'averagemilage = ' ,p.avg_milage,v.age,'count=',p.count);
+            console.log(p.title, 'averagemilage = ', p.avg_milage, v.age, 'count=', p.count);
 
             return p;
         },
         /* initialize p */
         function () {
             return {
-                min_radius:0,
-                max_radius:0,
-                radius : 0,
-                total_milage : 0,
-                avg_milage : 0,
-                avg_price : 0,
-                total_price : 0,
+                avg_rating: 0,
+                min_radius: 0,
+                max_radius: 0,
+                radius: 0,
+                total_milage: 0,
+                avg_milage: 0,
+                avg_price: 0,
+                total_price: 0,
                 count: 0,
-                absGain: 0,
+                sum_of_value_rating: 0,
                 fluctuation: 0,
                 fluctuationPercentage: 0,
                 sumIndex: 0,
                 avgIndex: 0,
                 percentageGain: 0,
-                title:''
+                title: ''
             };
         }
     );
@@ -225,23 +231,24 @@ d3.csv('ndx.csv', function (data) {
         return d.month;
     });
     // Group by total movement within month
-    var monthlyMoveGroup = moveMonths.group().reduceSum(function (d) {
-        return Math.abs(d.close - d.open);
+    var linePrice = moveMonths.group().reduceSum(function (d) {
+        // return Math.abs(d.close - d.open);
+        return Math.abs(d.price)/1000;
     });
     // Group by total volume within move, and scale down result
     var volumeByMonthGroup = moveMonths.group().reduceSum(function (d) {
         return d.volume / 500000;
     });
-    var indexAvgByMonthGroup = moveMonths.group().reduce(
+    var linePriceDifferenceGroup = moveMonths.group().reduce(
         function (p, v) {
             ++p.days;
-            p.total +=(v.price_difference) / 2;
+            p.total += (v.price_difference) / 2;
             p.avg = Math.round(p.total / p.days);
             return p;
         },
         function (p, v) {
             --p.days;
-            p.total -=(v.price_difference) / 2;
+            p.total -= (v.price_difference) / 2;
             p.avg = p.days ? Math.round(p.total / p.days) : 0;
             return p;
         },
@@ -294,20 +301,20 @@ d3.csv('ndx.csv', function (data) {
         // return day + '.' + name[day];
 
         // return d.age;
-        var modelName=d.model.trim();
+        var modelName = d.model.trim();
         // var modelName=d.age;
 
 
-        if (modelName == null || modelName ==''){
-            modelName='Default'
+        if (modelName == null || modelName == '') {
+            modelName = 'Default'
             // console.log(modelName + ' null');
-            return modelName +'.'+modelName;
+            return modelName + '.' + modelName;
 
 
         } else {
             // console.log(modelName + ' not null');
             // return modelName;
-            return modelName +'.'+modelName;
+            return modelName + '.' + modelName;
         }
     });
     var dayOfWeekGroup = dayOfWeek.group();
@@ -326,7 +333,7 @@ d3.csv('ndx.csv', function (data) {
     // <br>API: [Bubble Chart](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#bubble-chart)
 
     topBubbleChart /* dc.bubbleChart('#top-bubble-chart', 'chartGroup') */ // abc123
-        // (_optional_) define chart width, `default = 200`
+    // (_optional_) define chart width, `default = 200`
         .width(990)
         // (_optional_) define chart height, `default = 200`
         .height(250)
@@ -341,18 +348,18 @@ d3.csv('ndx.csv', function (data) {
         .colors(colorbrewer.RdYlGn[9])
         //(optional) define color domain to match your data domain if you want to bind data or color
         .colorDomain([-100, 1000])
-    //##### Accessors
+        //##### Accessors
 
         //Accessor functions are applied to each value returned by the grouping
 
         // `.colorAccessor` - the returned value will be passed to the `.colors()` scale to determine a fill color
         .colorAccessor(function (d) {
-            // return d.value.absGain;
-            return d.value.absGain;
+            // return d.value.sum_of_value_rating;
+            return d.value.sum_of_value_rating;
         })
         // `.keyAccessor` - the `X` value will be passed to the `.x()` scale to determine pixel location
         .keyAccessor(function (p) {
-            // return p.value.absGain;
+            // return p.value.sum_of_value_rating;
             // console.log(p.avg_price);
             return p.value.avg_price;
         })
@@ -361,7 +368,7 @@ d3.csv('ndx.csv', function (data) {
         //
         .valueAccessor(function (p) {
             // return p.value.percentageGain;
-            // console.log(p.absGain,p.total_price,p.avg_price,p.count);
+            // console.log(p.sum_of_value_rating,p.total_price,p.avg_price,p.count);
             // console.log(p.value.avg_milage, p.value.title);
             return p.value.avg_milage;
         })
@@ -369,7 +376,7 @@ d3.csv('ndx.csv', function (data) {
         //   by default this maps linearly to [0,100]
         .radiusValueAccessor(function (p) {
             // return p.value.fluctuationPercentage;
-            return p.value.radius*10;
+            return p.value.radius * 10;
         })
 
         .maxBubbleRelativeSize(1)
@@ -407,10 +414,11 @@ d3.csv('ndx.csv', function (data) {
         .title(function (p) {
             return [
                 p.key,
-                'Average Value Rating: ' + numberFormat(p.value.absGain),
+                'Average Value Rating: ' + numberFormat(p.value.avg_rating),
                 // 'Index Gain in Percentage: ' + numberFormat(p.value.percentageGain) + '%',
-                'Deviation In group: ' + numberFormat(p.value.percentageGain/1000) ,
-                'Fluctuation / Index Ratio: ' + numberFormat(p.value.fluctuationPercentage/100) + '%'
+                // 'Deviation In group: ' + numberFormat(p.value.percentageGain / 1000),
+                'Sample size: ' + intFormat(p.value.count),
+                'Fluctuation / Index Ratio: ' + numberFormat(p.value.fluctuationPercentage / 100) + '%'
             ].join('\n');
         })
         //#### Customize Axes
@@ -418,9 +426,9 @@ d3.csv('ndx.csv', function (data) {
         // Set a custom tick format. Both `.yAxis()` and `.xAxis()` return an axis object,
         // so any additional method chaining applies to the axis, not the chart.
         .yAxis().tickFormat(function (v) {
-            // return v + '%';
-            return v ;
-        });
+        // return v + '%';
+        return v;
+    });
 //######################################################################################################################
     // #### Pie/Donut Charts
 
@@ -433,15 +441,15 @@ d3.csv('ndx.csv', function (data) {
     gainOrLossChart /* dc.pieChart('#gain-loss-chart', 'chartGroup') */
     // (_optional_) define chart width, `default = 200`
         .width(180)
-    // (optional) define chart height, `default = 200`
+        // (optional) define chart height, `default = 200`
         .height(180)
-    // Define pie radius
+        // Define pie radius
         .radius(80)
-    // Set dimension
+        // Set dimension
         .dimension(gainOrLoss)
-    // Set group
+        // Set group
         .group(gainOrLossGroup)
-    // (_optional_) by default pie chart will use `group.key` as its label but you can overwrite it with a closure.
+        // (_optional_) by default pie chart will use `group.key` as its label but you can overwrite it with a closure.
         .label(function (d) {
             if (gainOrLossChart.hasFilter() && !gainOrLossChart.hasFilter(d.key)) {
                 return d.key + '(0%)';
@@ -478,10 +486,10 @@ d3.csv('ndx.csv', function (data) {
         .dimension(quarter)
 
 
-        // console.log(quarterGroup)
-        // .sort()
-        // .orderFunction(quarterGroup);
-        ;
+    // console.log(quarterGroup)
+    // .sort()
+    // .orderFunction(quarterGroup);
+    ;
 
     //#### Row Chart
 
@@ -533,7 +541,7 @@ d3.csv('ndx.csv', function (data) {
         // (_optional_) set filter brush rounding
         .round(dc.round.floor)
         .alwaysUseRounding(true)
-        .x(d3.scale.linear().domain([-25, 25]))
+        .x(d3.scale.linear().domain([-6, 6]))
         .renderHorizontalGridLines(true)
         // Customize the filter displayed in the control span
         .filterPrinter(function (filters) {
@@ -544,7 +552,9 @@ d3.csv('ndx.csv', function (data) {
 
     // Customize axes
     fluctuationChart.xAxis().tickFormat(
-        function (v) { return v + '%'; });
+        function (v) {
+            return v + '%';
+        });
     fluctuationChart.yAxis().ticks(5);
 
     //#### Stacked Area Chart
@@ -560,14 +570,14 @@ d3.csv('ndx.csv', function (data) {
         .margins({top: 30, right: 50, bottom: 25, left: 40})
         .dimension(moveMonths)
         .mouseZoomable(true)
-    // Specify a "range chart" to link its brush extent with the zoom of the current "focus chart".
+        // Specify a "range chart" to link its brush extent with the zoom of the current "focus chart".
         .rangeChart(volumeChart)
         .x(d3.time.scale().domain([new Date(1985, 0, 1), new Date(currentYear, 11, 31)]))
         .round(d3.time.month.round)
         .xUnits(d3.time.months)
         .elasticY(true)
         .renderHorizontalGridLines(true)
-    //##### Legend
+        //##### Legend
 
         // Position the legend relative to the chart origin and specify items' height and separation.
         .legend(dc.legend().x(800).y(10).itemHeight(13).gap(5))
@@ -575,13 +585,13 @@ d3.csv('ndx.csv', function (data) {
         // Add the base layer of the stack with group. The second parameter specifies a series name for use in the
         // legend.
         // The `.valueAccessor` will be used for the base layer
-        .group(indexAvgByMonthGroup, 'Monthly Index Average')
+        .group(linePriceDifferenceGroup, 'Price Savings/Difference')
         .valueAccessor(function (d) {
             return d.value.avg;
         })
         // Stack additional layers with `.stack`. The first paramenter is a new group.
         // The second parameter is the series name. The third is a value accessor.
-        .stack(monthlyMoveGroup, 'Monthly Index Move', function (d) {
+        .stack(linePrice, 'Price Average', function (d) {
             return d.value;
         })
         // Title can be called by any stack layer.
@@ -632,7 +642,7 @@ d3.csv('ndx.csv', function (data) {
         // `%filter-count` and `%total-count` are replaced with the values obtained.
         .html({
             some: '<strong>%filter-count</strong> selected out of <strong>%total-count</strong> records' +
-                ' | <a href=\'javascript:dc.filterAll(); dc.renderAll();\'>Reset All</a>',
+            ' | <a href=\'javascript:dc.filterAll(); dc.renderAll();\'>Reset All</a>',
             all: 'All records selected. Please click on the graph to apply filters.'
         });
 
@@ -662,7 +672,7 @@ d3.csv('ndx.csv', function (data) {
     // ```
     // or do it programmatically using `.columns()`.
 
-    table_of_entries /* dc.dataTable('.dc-data-table', 'chartGroup') */
+    varDataTable /* dc.dataTable('.dc-data-table', 'chartGroup') */
         .dimension(dateDimension)
         // Data table does not use crossfilter group but rather a closure
         // as a grouping function
@@ -678,24 +688,67 @@ d3.csv('ndx.csv', function (data) {
         .columns([
             // Use the `d.date` field; capitalized automatically
             'date',
-            // Use `d.open`, `d.close`
-            // 'open',
-            // 'close',
-            'title',
-            'sum_rating',
-            'price_difference',
-            'price',
-            'milage',
-            'age',
-            // {
-            //     // Specify a custom format for column 'Change' by using a label with a function.
-            //     label: 'Change',
-            //     format: function (d) {
-            //         return numberFormat(d.close - d.open);
-            //     }
-            // },
-            // Use `d.volume`
-            // 'volume'
+            {
+                label: 'title',
+                format: function (d) {
+                    return '<a href="' + d.link + '">' + d.title + '</a>';
+                }
+            }
+            , {
+                label: 'Rating',
+                format: function (d) {
+                    return parseFloat(Math.round(d.sum_rating * 100) / 100).toFixed(2)
+                    // return numberFormat(d.age_rating)
+                }
+            }
+           , {
+                label: 'Price Diff',
+                format: function (d) {
+                    // return parseFloat(Math.round(d.price_rating * 100) / 100).toFixed(2)
+                    // return numberFormat(d.age_rating)
+                    var val = d.price_difference;
+                    return '$'+val.toFixed().replace(/(\d)(?=(\d{3})+(,|$))/g, '$1,')
+
+                }
+            }            , {
+                label: 'Price',
+                format: function (d) {
+                    // return parseFloat(Math.round(d.price_rating * 100) / 100).toFixed(2)
+                    // return numberFormat(d.age_rating)
+                    var val = d.price;
+                    return '$'+val.toFixed().replace(/(\d)(?=(\d{3})+(,|$))/g, '$1,')
+
+                }
+            }
+            , {
+                label: 'Milage',
+                format: function (d) {
+                    var val = d.milage;
+                    return val.toFixed().replace(/(\d)(?=(\d{3})+(,|$))/g, '$1,')
+                    // return numberFormat(d.age_rating)
+                }
+            }             ,'age'
+            , {
+                label: 'PriceRating',
+                format: function (d) {
+                    return parseFloat(Math.round(d.price_rating * 100) / 100).toFixed(2)
+                    // return numberFormat(d.age_rating)
+                }
+            }
+            , {
+                label: 'MilageRating',
+                format: function (d) {
+                    return parseFloat(Math.round(d.milage_rating * 100) / 100).toFixed(2)
+                    // return numberFormat(d.age_rating)
+                }
+            }
+            , {
+                label: 'AgeRating',
+                format: function (d) {
+                    return parseFloat(Math.round(d.age_rating * 100) / 100).toFixed(2)
+                    // return numberFormat(d.age_rating)
+                }
+            }
         ])
 
         // (_optional_) sort using the given field, `default = function(d){return d;}`
@@ -706,8 +759,10 @@ d3.csv('ndx.csv', function (data) {
         // (_optional_) sort order, `default = d3.ascending`
         .order(d3.descending)
         // (_optional_) custom renderlet to post-process chart using [D3](http://d3js.org)
+
         .on('renderlet', function (table) {
             table.selectAll('.dc-table-group').classed('info', true);
+
         });
 
     /*
@@ -775,7 +830,7 @@ d3.csv('ndx.csv', function (data) {
             // Set crossfilter group
             .group(stateRaisedSum)
             // Closure used to retrieve x value from multi-value group
-            .keyAccessor(function(p) {return p.value.absGain;})
+            .keyAccessor(function(p) {return p.value.sum_of_value_rating;})
             // Closure used to retrieve y value from multi-value group
             .valueAccessor(function(p) {return p.value.percentageGain;})
             // (_optional_) define color function or array for bubbles
@@ -829,10 +884,10 @@ d3.csv('ndx.csv', function (data) {
 //#### Versions
 
 //Determine the current version of dc with `dc.version`
-minYear='1988';
+minYear = '1988';
 d3.selectAll('#version').text(dc.version);
 d3.select('h2').text("Car Pricing");
-d3.select('h5').text(("Year from " + minYear.toString()) + " to " + currentYear.toString() );
+d3.select('h5').text(("Year from " + minYear.toString()) + " to " + currentYear.toString());
 d3.select("#age-chart").select('strong').text("Age")
 d3.select("#gain-loss-chart").select('strong').text("Makes")
 d3.select("#day-of-week-chart").select('strong').text("Model")
