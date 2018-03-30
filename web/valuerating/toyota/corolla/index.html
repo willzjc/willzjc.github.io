@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="auxiliary/style.css">
-    <script type="text/javascript" src="auxiliary/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="auxiliary/jquery-live-preview.js"></script>
-    <link href="auxiliary/livepreview-demo.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="jquery-live-preview.js"></script>
+    <link href="livepreview-demo.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -19,7 +19,7 @@
     <!--<label><input type="radio" name="dataset" id="dataset" value="option2"> Option 2</label>-->
 </form>
 
-<script src="auxiliary/d3.v3.min.js" charset="utf-8"></script>
+<script src="d3.v3.min.js" charset="utf-8"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
 
 <script>
@@ -243,8 +243,8 @@
     }
 
     queue()
-        .defer(d3.json, "auxiliary/data/records.json")
-        .defer(d3.json, "auxiliary/data/summary.json")
+        .defer(d3.json, "data/records.json")
+        .defer(d3.json, "data/summary.json")
         .await(ready);
 
     rating_style_prefix = '<span class="text" style="text-align: right; padding-right: 5px; color: '
