@@ -10,7 +10,8 @@
 // Note: It is often a good idea to have these objects accessible at the global scope so that they can be modified or
 // filtered by other page controls.
 var gainOrLossChart = dc.pieChart('#gain-loss-chart');
-var fluctuationChart = dc.barChart('#fluctuation-chart');
+var histogram_value = dc.barChart('#fluctuation-chart');
+var histogram_years = dc.barChart('#histogram-years');
 var ageChart = dc.pieChart('#age-chart');
 var dayOfWeekChart = dc.rowChart('#day-of-week-chart');
 var moveChart = dc.lineChart('#monthly-move-chart');
@@ -271,7 +272,15 @@ d3.csv('ndx.csv', function (data) {
         // return Math.round((d.close - d.open) / d.open * 100);
         return Math.round(d.sum_rating);
     });
+
     var fluctuationGroup = fluctuation.group();
+
+    var yearlyHistogram = ndx.dimension(function (d) {
+        return Math.round(currentYear - d.age);
+    });
+
+    var yearlyHistogramGroup = yearlyHistogram.group();
+
 
     // Summarize volume by quarter
     var quarter = ndx.dimension(function (d) {
@@ -347,7 +356,7 @@ d3.csv('ndx.csv', function (data) {
         // (_optional_) define color function or array for bubbles: [ColorBrewer](http://colorbrewer2.org/)
         .colors(colorbrewer.RdYlGn[9])
         //(optional) define color domain to match your data domain if you want to bind data or color
-        .colorDomain([-100, 1000])
+        // .colorDomain([-100, 1000])
         //##### Accessors
 
         //Accessor functions are applied to each value returned by the grouping
@@ -390,7 +399,7 @@ d3.csv('ndx.csv', function (data) {
         .elasticX(true)
         //`.yAxisPadding` and `.xAxisPadding` add padding to data above and below their max values in the same unit
         //domains as the Accessors.
-        .yAxisPadding(100000)
+        .yAxisPadding(200000)
         // .xAxisPadding(500)
         .xAxisPadding(50000)
         // (_optional_) render horizontal grid lines, `default=false`
@@ -527,7 +536,7 @@ d3.csv('ndx.csv', function (data) {
     // to a specific group then any interaction with such chart will only trigger redraw
     // on other charts within the same chart group.
     // <br>API: [Bar Chart](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#bar-chart)
-    fluctuationChart /* dc.barChart('#volume-month-chart', 'chartGroup') */
+    histogram_value /* dc.barChart('#volume-month-chart', 'chartGroup') */
         .width(420)
         .height(180)
         .margins({top: 10, right: 50, bottom: 30, left: 40})
@@ -542,6 +551,17 @@ d3.csv('ndx.csv', function (data) {
         .round(dc.round.floor)
         .alwaysUseRounding(true)
         .x(d3.scale.linear().domain([-6, 6]))
+        .colors(d3.scale.ordinal().domain([-6,6])
+            .range(["#7591ff","#ffb342"]))
+
+        .colorAccessor(function(d) {
+            // if(d.value >0)
+            //     return "positive"
+            // return "negative";})
+            console.log('avgrating=',d.value.avg_rating);
+            return (d.value.avg_rating);
+        })
+
         .renderHorizontalGridLines(true)
         // Customize the filter displayed in the control span
         .filterPrinter(function (filters) {
@@ -551,11 +571,44 @@ d3.csv('ndx.csv', function (data) {
         });
 
     // Customize axes
-    fluctuationChart.xAxis().tickFormat(
+    histogram_value.xAxis().tickFormat(
         function (v) {
             return v + '%';
         });
-    fluctuationChart.yAxis().ticks(5);
+    histogram_value.yAxis().ticks(5);
+
+
+    //#### Bar Chart - histogram of years
+    histogram_years /* dc.barChart('#volume-month-chart', 'chartGroup') */
+        .width(990)
+        .height(200)
+        .transitionDuration(1000)
+
+        .dimension(yearlyHistogram)
+        .group(yearlyHistogramGroup)
+        .elasticY(true)
+        // (_optional_) whether bar should be center to its x value. Not needed for ordinal chart, `default=false`
+        .centerBar(true)
+        // (_optional_) set gap between bars manually in px, `default=2`
+        .gap(1)
+        // (_optional_) set filter brush rounding
+        .round(dc.round.floor)
+        .alwaysUseRounding(true)
+        .x(d3.scale.linear().domain([1985, 2020]))
+        .renderHorizontalGridLines(true)
+        // Customize the filter displayed in the control span
+        .filterPrinter(function (filters) {
+            var filter = filters[0], s = '';
+            s += intFormat(filter[0]) + ' -> ' + intFormat(filter[1]) + '';
+            return s;
+        });
+
+    // Customize axes
+    // histogram_years.xAxis().tickFormat(
+    //     function (v) {
+    //         return v + '%';
+    //     });
+    // histogram_years.yAxis().ticks(5);
 
     //#### Stacked Area Chart
 
