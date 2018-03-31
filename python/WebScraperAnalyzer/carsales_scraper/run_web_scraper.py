@@ -358,8 +358,12 @@ def main():
     #C200
     url = 'https://www.carsales.com.au/cars/results?q=%28And.Service.Carsales._.State.New%20South%20Wales._.%28Or.%28C.Make.Mercedes-Benz._.%28C.MarketingGroup.C%20Class._.Model.C200.%29%29_.%28C.Make.Mercedes-Benz._.Model.C200%20Kompressor.%29_.%28C.Make.Mercedes-Benz._.Model.C200%20CDI.%29%29%29&WT.z_srchsrcx=makemodel'
 
+
+    # BMW M3 20180401
+    url='https://www.carsales.com.au/cars/bmw/m3/m-models-marketinggroup/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
+
     db_save = False
-    USE_LOCAL_COPY = False
+    USE_LOCAL_COPY = True
 
     ######################################################################################
     print 'Processing first page: ' + url

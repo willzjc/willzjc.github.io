@@ -14,16 +14,16 @@ def download_webpage(url, overwrite,use_local_copy):
         print 'Using local cached copy at: ',localfile
     else:
 
-        authinfo = urllib.request.HTTPBasicAuthHandler()
+        # authinfo = urllib.request.HTTPBasicAuthHandler()
 
-        proxy_support = urllib.request.ProxyHandler({"http": "AUR\\srv-fx-proxy:GyDNH42Nw79q@sparpxyapp.aur.national.com.au:8080"})
+        # proxy_support = urllib.request.ProxyHandler({"http": "AUR\\srv-fx-proxy:GyDNH42Nw79q@sparpxyapp.aur.national.com.au:8080"})
 
         # build a new opener that adds authentication and caching FTP handlers
-        opener = urllib.request.build_opener(proxy_support, authinfo,
-                                             urllib.request.CacheFTPHandler)
+        # opener = urllib.request.build_opener(proxy_support, authinfo,
+        #                                      urllib.request.CacheFTPHandler)
 
         # install it
-        urllib.request.install_opener(opener)
+        # urllib.request.install_opener(opener)
 
         f = urllib.urlopen(url)
         content = f.read()

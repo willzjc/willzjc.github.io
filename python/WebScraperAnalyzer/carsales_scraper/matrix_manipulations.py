@@ -4,12 +4,15 @@ import json
 import pandas as pd
 import sqlite3
 import sqlite3
+import shutil
 from pandas.io import sql
+from auxiliary.file_ops import *
 
+import errno
+import os
 
 
 def calculate_analytics(df,weightings=None):
-
 
     if weightings is None:
         # defaults
@@ -64,7 +67,7 @@ def calculate_analytics(df,weightings=None):
 
 def save_output_files(df,weightings=None,
     extpath='C:/local/apps/wamp64/www/github/willzjc.github.io/valuerating/',prediction_model=None,USE_LOCAL_COPY=False
-                      ):
+  ):
 
     if (USE_LOCAL_COPY):
         df = pd.read_pickle('auxiliary/data/last_run.pk')
@@ -75,6 +78,9 @@ def save_output_files(df,weightings=None,
             'milage': 2,
             'price': 3
         }
+
+
+
 
     summarylist={}
     for metric in ['age','milage','price','sum_rating','price_difference']:
@@ -182,6 +188,21 @@ def save_output_files(df,weightings=None,
         f.close()
 
 
+
+
+    for path in ['output/summary.json',extpath + 'auxiliary/data/summary.json']:
+        with  open(path,'w') as f:
+            f.write(json.dumps(summarylist,indent=4, separators=(',', ': ')))
+            f.close()
+
+        with  open(path,'w') as f:
+            f.write(json.dumps(summarylist,indent=4, separators=(',', ': ')))
+            f.close()
+
+
+
+
+    copy_sub_category_dir(extpath=extpath,df=df)
 
 def main():
 

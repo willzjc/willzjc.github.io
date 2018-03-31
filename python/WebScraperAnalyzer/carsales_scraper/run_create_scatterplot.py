@@ -2,10 +2,12 @@ import pandas as pd
 import pandas as pd
 import sqlite3
 import os
+from auxiliary.file_ops import *
+
 # pd.read_sql('auxiliary/my_db.sqlite')
 conn = sqlite3.connect("auxiliary/my_db.sqlite")
 # df = pd.read_sql_query("select * from cars where model like 'Camry' and age > 2 and price < 15000 and age < 18;", conn)
-df = pd.read_sql_query("select * from cars where model like '911%'", conn)
+df = pd.read_sql_query("select * from cars where model like 'm3'", conn)
 # print df
 lines=[]
 lines.append('model,description,metric,metric_code,value,rating,link')
@@ -47,3 +49,6 @@ out='\n'.join(lines)
 with open (extpath+'data.csv','w') as f:
     f.write(out)
     f.close()
+
+copy_sub_file(df=df,extpath=extpath)
+
