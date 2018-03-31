@@ -7,6 +7,7 @@ import pandas as pd
 from auxiliary.data_container import data_rows
 from matrix_manipulations import save_output_files, calculate_analytics
 from auxiliary import web_get
+from run_create_scatterplot import *
 
 global url,page_loop_counter, pagination_offset, total_car_count, LIVE_DATA,df,db_save
 global car_ids
@@ -21,6 +22,8 @@ global total_car_count
 global dage
 global dmilage
 global dprice
+
+
 
 
 db_save=True
@@ -362,8 +365,11 @@ def main():
     # BMW M3 20180401
     url='https://www.carsales.com.au/cars/bmw/m3/m-models-marketinggroup/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
 
+
+    #Audi RS7
+    url='https://www.carsales.com.au/cars/audi/rs7/'
     db_save = False
-    USE_LOCAL_COPY = True
+    USE_LOCAL_COPY = False
 
     ######################################################################################
     print 'Processing first page: ' + url
@@ -391,5 +397,12 @@ def main():
 
     save_output_files(df,weightings,extpath='../../../web/valuerating/',prediction_model=prediction_model,USE_LOCAL_COPY=USE_LOCAL_COPY)
 
+    #Get scatterplot and recreate
+
+    #Get model
+    model=df.loc[0]['model'].lower()
+    run_create_scatterplot_from_model(model)
+
 if __name__ == "__main__":
     main()
+
