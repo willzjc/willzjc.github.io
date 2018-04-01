@@ -10,15 +10,16 @@
 // Note: It is often a good idea to have these objects accessible at the global scope so that they can be modified or
 // filtered by other page controls.
 var topBubbleChart = dc.bubbleChart('#top-bubble-chart');
-var makePiechart = dc.pieChart('#make-piechart');
-var histogramValue = dc.barChart('#fluctuation-chart');
-var histogram_years = dc.barChart('#histogram-years');
-var modelRowchart = dc.rowChart('#model-chart');
+var carMakePiechart = dc.pieChart('#make-piechart');
+var transmissionPiechartObject = dc.pieChart('#transmission-piechart');
+var valueratingHistogramObject = dc.barChart('#valuerating-histogram');
+var yearlyHistogramObject = dc.barChart('#yearly-histogram');
+var modelRowchartObject = dc.rowChart('#model-chart');
 // var ageChart = dc.pieChart('#subseries-chart');
-var seriesChart = dc.rowChart('#subseries-chart');
-var moveChart = dc.lineChart('#monthly-move-chart');
+var seriesRowchartObject = dc.rowChart('#subseries-chart');
+var moveChart = dc.lineChart('#pricediff-move-chart');
 var volumeChart = dc.barChart('#monthly-volume-chart');
-var nasdaqCount = dc.dataCount('.dc-data-count');
+var priceDiffDataCount = dc.dataCount('.dc-data-count');
 
 // require("js/dc-tableview.s");
 // dc.tableview(div, "chartGroupName");
@@ -84,6 +85,7 @@ d3.csv('ndx.csv', function (data) {
     // Since its a csv file we need to format the data a bit.
     var dateFormat = d3.time.format('%m/%d/%Y');
     var numberFormat = d3.format('.2f');
+    var numberSeperatorFormat = d3.format(',.2f');
     var intFormat = d3.format('0f');
 
 
@@ -156,8 +158,8 @@ d3.csv('ndx.csv', function (data) {
 
 
             // p.sum_of_value_rating += (v.sum_rating)*1;
-            // p.fluctuation += Math.abs(v.price_difference/divider_offset);
-            p.fluctuation += Math.abs(v.sum_rating / divider_offset);
+            // p.valueratingDimensions += Math.abs(v.price_difference/divider_offset);
+            p.valueratingDimensions += Math.abs(v.sum_rating / divider_offset);
             p.sumIndex += (v.sum_rating * sum_index_multiplier) / 2;
             // console.log(p.sumIndex);
             p.avgIndex = p.sumIndex / p.count;
@@ -186,11 +188,11 @@ d3.csv('ndx.csv', function (data) {
             p.title = v.title;
 
             // X Axis
-            p.fluctuation -= Math.abs(v.sum_rating / divider_offset);
+            p.valueratingDimensions -= Math.abs(v.sum_rating / divider_offset);
             p.sumIndex -= (v.sum_rating * sum_index_multiplier) / 2;
 
             // Y Axis
-            p.total_milage += v.milage;
+            p.total_milage -= v.milage;
             p.avg_milage = p.count ? (p.total_milage / p.count) : 0;
             // console.log(p.title,p.avg_milage);
 
@@ -267,22 +269,35 @@ d3.csv('ndx.csv', function (data) {
         }
     );
 
-    // Create categorical dimension
-    var gainOrLoss = ndx.dimension(function (d) {
+    // Car Make - Create categorical dimension
+    var carmakeDimensions = ndx.dimension(function (d) {
         // console.log(d.make);
         return d.make;
         // return d.open > d.close ? 'Loss' : 'Gain';
     });
     // Produce counts records in the dimension
-    var gainOrLossGroup = gainOrLoss.group();
+    var carmakeGroups = carmakeDimensions.group();
+
+    // Transmission - Create categorical dimension
+    var transmissionDimensions = ndx.dimension(function (d) {
+        var words = d.title.split(" ");      // Split the string using dot as separator
+        var lastVal = words.pop();       // Get last element
+        return lastVal;
+        // console.log(d.make);
+        // return d.transmission;
+        // return d.open > d.close ? 'Loss' : 'Gain';
+    });
+    // Produce counts records in the dimension
+    var transmissionGroups = transmissionDimensions.group();
+
 
     // Determine a histogram of percent changes
-    var fluctuation = ndx.dimension(function (d) {
+    var valueratingDimensions = ndx.dimension(function (d) {
         // return Math.round((d.close - d.open) / d.open * 100);
         return Math.round(d.sum_rating);
     });
 
-    var fluctuationGroup = fluctuation.group();
+    var valueratingDimenionGroups = valueratingDimensions.group();
 
     var yearlyHistogram = ndx.dimension(function (d) {
         return Math.round(currentYear - d.age);
@@ -424,9 +439,9 @@ d3.csv('ndx.csv', function (data) {
         .elasticX(true)
         //`.yAxisPadding` and `.xAxisPadding` add padding to data above and below their max values in the same unit
         //domains as the Accessors.
-        .yAxisPadding(200000)
+        .yAxisPadding(50000)
         // .xAxisPadding(500)
-        .xAxisPadding(50000)
+        .xAxisPadding(2000)
         // (_optional_) render horizontal grid lines, `default=false`
         .renderHorizontalGridLines(true)
         // (_optional_) render vertical grid lines, `default=false`
@@ -449,10 +464,12 @@ d3.csv('ndx.csv', function (data) {
             return [
                 p.key,
                 'Average Value Rating: ' + numberFormat(p.value.avg_rating),
+                'Average Price: $' + numberSeperatorFormat(p.value.avg_price),
+                'Average Milage: ' + numberSeperatorFormat(p.value.avg_milage),
                 // 'Index Gain in Percentage: ' + numberFormat(p.value.percentageGain) + '%',
                 // 'Deviation In group: ' + numberFormat(p.value.percentageGain / 1000),
                 'Sample size: ' + intFormat(p.value.count),
-                'Fluctuation / Index Ratio: ' + numberFormat(p.value.fluctuationPercentage / 100) + '%'
+                // 'Fluctuation / Index Ratio: ' + numberFormat(p.value.fluctuationPercentage / 100) + '%'
             ].join('\n');
         })
         //#### Customize Axes
@@ -472,7 +489,7 @@ d3.csv('ndx.csv', function (data) {
     // on other charts within the same chart group.
     // <br>API: [Pie Chart](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#pie-chart)
 
-    makePiechart /* dc.pieChart('#make-piechart', 'chartGroup') */
+    carMakePiechart /* dc.pieChart('#make-piechart', 'chartGroup') */
     // (_optional_) define chart width, `default = 200`
         .width(180)
         // (optional) define chart height, `default = 200`
@@ -480,12 +497,12 @@ d3.csv('ndx.csv', function (data) {
         // Define pie radius
         .radius(80)
         // Set dimension
-        .dimension(gainOrLoss)
+        .dimension(carmakeDimensions)
         // Set group
-        .group(gainOrLossGroup)
+        .group(carmakeGroups)
         // (_optional_) by default pie chart will use `group.key` as its label but you can overwrite it with a closure.
         .label(function (d) {
-            if (makePiechart.hasFilter() && !makePiechart.hasFilter(d.key)) {
+            if (carMakePiechart.hasFilter() && !carMakePiechart.hasFilter(d.key)) {
                 return d.key + '(0%)';
             }
             var label = d.key;
@@ -509,6 +526,32 @@ d3.csv('ndx.csv', function (data) {
         .colorAccessor(function(d, i){return d.value;})
         */;
 
+    transmissionPiechartObject /* dc.pieChart('#make-piechart', 'chartGroup') */
+    // (_optional_) define chart width, `default = 200`
+        .width(180)
+        // (optional) define chart height, `default = 200`
+        .height(180)
+        // Define pie radius
+        .radius(80)
+        // Set dimension
+        .dimension(transmissionDimensions)
+        // Set group
+        .group(transmissionGroups)
+        // (_optional_) by default pie chart will use `group.key` as its label but you can overwrite it with a closure.
+        .label(function (d) {
+            if (transmissionPiechartObject.hasFilter() && !transmissionPiechartObject.hasFilter(d.key)) {
+                return d.key + '(0%)';
+            }
+            var label = d.key;
+            if (all.value()) {
+                label += '(' + Math.floor(d.value / all.value() * 100) + '%)';
+            }
+            return label;
+        })
+        .ordinalColors([
+            '#0421dd', '#5d81ff'
+        ])
+    /*
     // seriesChart /* dc.pieChart('#subseries-chart', 'chartGroup') */
     //     .width(180)
     //     .height(180)
@@ -532,8 +575,9 @@ d3.csv('ndx.csv', function (data) {
     // to a specific group then any interaction with such chart will only trigger redraw
     // on other charts within the same chart group.
     // <br>API: [Row Chart](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#row-chart)
-    modelRowchart /* dc.rowChart('#model-chart', 'chartGroup') */
-        .width(180)
+    var rowchartWidth = 285 * 2;
+    modelRowchartObject /* dc.rowChart('#model-chart', 'chartGroup') */
+        .width(rowchartWidth / 2)
         .height(180)
         .margins({top: 20, left: 10, right: 10, bottom: 20})
         .group(modelRowchartGroup)
@@ -549,7 +593,7 @@ d3.csv('ndx.csv', function (data) {
         })
         // Title sets the row text
         .title(function (d) {
-            return d.value;
+            return d.key.split('.')[1] + ' (' + d.value + ')';
         })
         .elasticX(true)
         .xAxis().ticks(4);
@@ -562,8 +606,8 @@ d3.csv('ndx.csv', function (data) {
     // to a specific group then any interaction with such chart will only trigger redraw
     // on other charts within the same chart group.
     // <br>API: [Row Chart](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#row-chart)
-    seriesChart /* dc.rowChart('#model-chart', 'chartGroup') */
-        .width(180)
+    seriesRowchartObject /* dc.rowChart('#model-chart', 'chartGroup') */
+        .width(rowchartWidth/2)
         .height(180)
         .margins({top: 20, left: 10, right: 10, bottom: 20})
         .group(seriesRowGroup)
@@ -572,7 +616,7 @@ d3.csv('ndx.csv', function (data) {
         // .ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#dadaeb'])
         // .ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#dadaeb'
         // .ordinalColors([ '#2a07dd','#301ece','#3635c0','#3d4db1','#4364a3','#315364'])
-        .ordinalColors([ '#0421dd', '#0e2cc7', '#1838b0', '#22439a', '#2c4f83', '#365a6d' ])
+        .ordinalColors(['#0421dd', '#0e2cc7', '#1838b0', '#22439a', '#2c4f83', '#365a6d'])
         // .ordin
         .label(function (d) {
             // return d.key.split('.')[1];
@@ -580,7 +624,7 @@ d3.csv('ndx.csv', function (data) {
         })
         // Title sets the row text
         .title(function (d) {
-            return d.value;
+            return d.key + ' (' + d.value +')';
         })
         .elasticX(true)
         .xAxis().ticks(4);
@@ -595,62 +639,84 @@ d3.csv('ndx.csv', function (data) {
     //     .group(seriesRowGroup)
     //     .dimension(seriesRowDimensions)
 
-    //#### Bar Chart
-
+    var histogramWidth = 960;
+    //#### Bar Chart - Histogram
     // Create a bar chart and use the given css selector as anchor. You can also specify
     // an optional chart group for this chart to be scoped within. When a chart belongs
     // to a specific group then any interaction with such chart will only trigger redraw
     // on other charts within the same chart group.
     // <br>API: [Bar Chart](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#bar-chart)
-    histogramValue /* dc.barChart('#volume-month-chart', 'chartGroup') */
-        .width(420)
+    valueratingHistogramObject /* dc.barChart('#volume-month-chart', 'chartGroup') */
+        // .width(420)
+        // .width(495)
+        .width(histogramWidth/2)
         .height(180)
         .margins({top: 10, right: 50, bottom: 30, left: 40})
-        .dimension(fluctuation)
-        .group(fluctuationGroup)
+        .dimension(valueratingDimensions)
+        .group(valueratingDimenionGroups)
         .elasticY(true)
         // (_optional_) whether bar should be center to its x value. Not needed for ordinal chart, `default=false`
-        .centerBar(true)
+        // .centerBar(true)
+        .centerBar(false)
         // (_optional_) set gap between bars manually in px, `default=2`
         .gap(1)
         // (_optional_) set filter brush rounding
         .round(dc.round.floor)
         .alwaysUseRounding(true)
         .x(d3.scale.linear().domain([-6, 6]))
-        .colors(d3.scale.ordinal().domain([-6, 6])
-            .range(["#7591ff", "#ffb342"]))
+
+        // .colors(d3.scale.ordinal().domain([-6, 6])
+        //     .range(["#263f4d", "#63a5c8"]))
 
         .colorAccessor(function (d) {
             // if(d.value >0)
             //     return "positive"
             // return "negative";})
-            console.log('avgrating=', d.value.avg_rating);
-            return (d.value.avg_rating);
+            console.log('d.value = ', d.value);
+            return (d.value);
         })
+
+        // .ordinalColors([ '#0421dd', '#0e2cc7', '#1838b0', '#22439a', '#2c4f83', '#365a6d' ])
+        // .ordinalColors(["#cc0000","#b91201","#a72402","#943704","#824905","#6f5b06","#5d6d07","#4a7f08","#389109","#25a40b","#13b60c","#00c80d"])
+        .ordinalColors([
+            "#ff0000",
+            "#ff2401",
+            "#ff4802",
+            "#ff6c02",
+            "#ff9003",
+            "#ffb404",
+            "#c1dd0d",
+            "#9bde11",
+            "#76df16",
+            "#50e01a",
+            "#2be11f",
+            "#05e223"
+        ])
 
 
         .renderHorizontalGridLines(true)
         // Customize the filter displayed in the control span
         .filterPrinter(function (filters) {
             var filter = filters[0], s = '';
-            s += numberFormat(filter[0]) + '% -> ' + numberFormat(filter[1]) + '%';
+            s += numberFormat(filter[0]) + ' -> ' + numberFormat(filter[1]);
             return s;
         });
 
     // Customize axes
-    histogramValue.xAxis().tickFormat(
+    valueratingHistogramObject.xAxis().tickFormat(
         function (v) {
-            return v + '%';
+            // return v + '%';
+            return v;
         });
-    histogramValue.yAxis().ticks(5);
+    valueratingHistogramObject.yAxis().ticks(5);
 
 
     //#### Bar Chart - histogram of years
-    histogram_years /* dc.barChart('#volume-month-chart', 'chartGroup') */
-        .width(990)
+    yearlyHistogramObject /* dc.barChart('#volume-month-chart', 'chartGroup') */
+        // .width(990)
+        .width(histogramWidth/2)
         .height(200)
         .transitionDuration(1000)
-
         .dimension(yearlyHistogram)
         .group(yearlyHistogramGroup)
         .elasticY(true)
@@ -687,7 +753,7 @@ d3.csv('ndx.csv', function (data) {
     //Specify an area chart by using a line chart with `.renderArea(true)`.
     // <br>API: [Stack Mixin](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#stack-mixin),
     // [Line Chart](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#line-chart)
-    moveChart /* dc.lineChart('#monthly-move-chart', 'chartGroup') */
+    moveChart /* dc.lineChart('#pricediff-move-chart', 'chartGroup') */
         .renderArea(true)
         .width(990)
         .height(200)
@@ -759,7 +825,7 @@ d3.csv('ndx.csv', function (data) {
     //</div>
     //```
 
-    nasdaqCount /* dc.dataCount('.dc-data-count', 'chartGroup'); */
+    priceDiffDataCount /* dc.dataCount('.dc-data-count', 'chartGroup'); */
         .dimension(ndx)
         .group(all)
         // (_optional_) `.html` sets different html when some records or all records are selected.
@@ -768,7 +834,7 @@ d3.csv('ndx.csv', function (data) {
         .html({
             some: '<strong>%filter-count</strong> selected out of <strong>%total-count</strong> records' +
             ' | <a href=\'javascript:dc.filterAll(); dc.renderAll();\'>Reset All</a>',
-            all: 'All records selected. Please click on the graph to apply filters.'
+            all: 'All records selected. Please click on a graph to apply filters.'
         });
 
     //#### Data Table
@@ -807,7 +873,7 @@ d3.csv('ndx.csv', function (data) {
             return d.make;
         })
         // (_optional_) max number of records to be shown, `default = 25`
-        .size(50)
+        .size(20)
         // There are several ways to specify the columns; see the data-table documentation.
         // This code demonstrates generating the column header automatically based on the columns.
         .columns([
@@ -1016,7 +1082,7 @@ d3.select('h5').text(("Year from " + minYear.toString()) + " to " + currentYear.
 d3.select("#subseries-chart").select('strong').text("Series")
 d3.select("#make-piechart").select('strong').text("Car Make")
 d3.select("#model-chart").select('strong').text("Model")
-d3.select("#fluctuation-chart").select('strong').text("Value Rating Distribution")
+d3.select("#valuerating-histogram").select('strong').text("Value Rating Distribution")
 // Determine latest stable version in the repo via Github API
 d3.json('https://api.github.com/repos/dc-js/dc.js/releases/latest', function (error, latestRelease) {
     /*jshint camelcase: false */

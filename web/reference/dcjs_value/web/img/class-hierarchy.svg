@@ -333,16 +333,16 @@
 <path fill="none" stroke="black" d="M164.033,-297.16C185.517,-305.835 218.014,-318.956 242.312,-328.767"/>
 <polygon fill="black" stroke="black" points="241.255,-332.115 251.838,-332.613 243.875,-325.624 241.255,-332.115"/>
 </g>
-<!-- seriesChart -->
-<g id="node13" class="node"><title>seriesChart</title>
-<g id="a_node13"><a xlink:href="dc.seriesChart.html" xlink:title="seriesChart">
+<!-- seriesRowchartObject -->
+<g id="node13" class="node"><title>seriesRowchartObject</title>
+<g id="a_node13"><a xlink:href="dc.seriesRowchartObject.html" xlink:title="seriesRowchartObject">
 <ellipse fill="lightgreen" stroke="black" cx="528.938" cy="-394" rx="34.2756" ry="18"/>
-<text text-anchor="middle" x="528.938" y="-391" font-family="sans-serif" font-size="10.00">seriesChart</text>
+<text text-anchor="middle" x="528.938" y="-391" font-family="sans-serif" font-size="10.00">seriesRowchartObject</text>
 </a>
 </g>
 </g>
-<!-- compositeChart&#45;&gt;seriesChart -->
-<g id="edge11" class="edge"><title>compositeChart&#45;&gt;seriesChart</title>
+<!-- compositeChart&#45;&gt;seriesRowchartObject -->
+<g id="edge11" class="edge"><title>compositeChart&#45;&gt;seriesRowchartObject</title>
 <path fill="none" stroke="black" d="M458.835,-394C467.308,-394 476.175,-394 484.623,-394"/>
 <polygon fill="black" stroke="black" points="484.666,-397.5 494.666,-394 484.666,-390.5 484.666,-397.5"/>
 </g>

@@ -7874,7 +7874,7 @@ dc.compositeChart = function (parent, chartGroup) {
  *
  * Examples:
  * - {@link http://dc-js.github.io/dc.js/examples/series.html Series Chart}
- * @class seriesChart
+ * @class seriesRowchartObject
  * @memberof dc
  * @mixes dc.compositeChart
  * @example
