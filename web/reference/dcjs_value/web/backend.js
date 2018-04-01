@@ -9,14 +9,15 @@
 // Create chart objects associated with the container elements identified by the css selector.
 // Note: It is often a good idea to have these objects accessible at the global scope so that they can be modified or
 // filtered by other page controls.
-var gainOrLossChart = dc.pieChart('#gain-loss-chart');
-var histogram_value = dc.barChart('#fluctuation-chart');
+var topBubbleChart = dc.bubbleChart('#top-bubble-chart');
+var makePiechart = dc.pieChart('#make-piechart');
+var histogramValue = dc.barChart('#fluctuation-chart');
 var histogram_years = dc.barChart('#histogram-years');
-var ageChart = dc.pieChart('#age-chart');
-var dayOfWeekChart = dc.rowChart('#day-of-week-chart');
+var modelRowchart = dc.rowChart('#model-chart');
+// var ageChart = dc.pieChart('#subseries-chart');
+var seriesChart = dc.rowChart('#subseries-chart');
 var moveChart = dc.lineChart('#monthly-move-chart');
 var volumeChart = dc.barChart('#monthly-volume-chart');
-var topBubbleChart = dc.bubbleChart('#top-bubble-chart');
 var nasdaqCount = dc.dataCount('.dc-data-count');
 
 // require("js/dc-tableview.s");
@@ -67,6 +68,15 @@ var varDataTable = dc.dataTable('.dc-data-table');
 //jQuery.getJson('data.json', function(data){...});
 //```
 
+//Get top Groups, elminate others
+function getTops(source_group, number_of_items) {
+    return {
+        all: function () {
+            return source_group.top(number_of_items);
+        }
+    };
+}
+
 var currentYear = (new Date()).getFullYear()
 var minYear = 0;
 
@@ -75,7 +85,6 @@ d3.csv('ndx.csv', function (data) {
     var dateFormat = d3.time.format('%m/%d/%Y');
     var numberFormat = d3.format('.2f');
     var intFormat = d3.format('0f');
-
 
 
     // console.log(d3.min(data, function(d) { return d.value; }));
@@ -126,7 +135,7 @@ d3.csv('ndx.csv', function (data) {
             // p.sum_of_value_rating += (v.sum_rating)/divider_offset;
             // console.log(p.sum_of_value_rating,p.total_price);
             p.sum_of_value_rating += (v.sum_rating);
-            p.avg_rating = p.sum_of_value_rating/p.count;
+            p.avg_rating = p.sum_of_value_rating / p.count;
 
             // X Axis
             p.total_price += v.price;
@@ -169,7 +178,7 @@ d3.csv('ndx.csv', function (data) {
         function (p, v) { //cde321
             --p.count;
             p.sum_of_value_rating -= (v.sum_rating);
-            p.avg_rating = p.sum_of_value_rating/p.count;
+            p.avg_rating = p.sum_of_value_rating / p.count;
 
             p.total_price -= v.price;
             p.avg_price = p.count ? (p.total_price / p.count) : 0;
@@ -195,7 +204,7 @@ d3.csv('ndx.csv', function (data) {
             p.fluctuationPercentage = (p.avgIndex ? (p.fluctuation / p.avgIndex) * 100 : 0) / 2;
 
             // console.log(p.fluctuationPercentage);
-            console.log(p.title, 'averagemilage = ', p.avg_milage, v.age, 'count=', p.count);
+            console.log(p.title, 'averagemilage = ', p.avg_milage, v.age, 'count=', p.count, 'sum_of_value_rating=', p.sum_of_value_rating);
 
             return p;
         },
@@ -234,7 +243,7 @@ d3.csv('ndx.csv', function (data) {
     // Group by total movement within month
     var linePrice = moveMonths.group().reduceSum(function (d) {
         // return Math.abs(d.close - d.open);
-        return Math.abs(d.price)/1000;
+        return Math.abs(d.price) / 1000;
     });
     // Group by total volume within move, and scale down result
     var volumeByMonthGroup = moveMonths.group().reduceSum(function (d) {
@@ -281,30 +290,46 @@ d3.csv('ndx.csv', function (data) {
 
     var yearlyHistogramGroup = yearlyHistogram.group();
 
+    // var modelRowchartDimensions = ndx.dimension(function (d) {
+    //      // var day = d.dd.getDay();
+    //      // var name = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    //      // return day + '.' + name[day];
+    //
+    //      // return d.age;
+    //      var modelName = d.model.trim();
+    //      // var modelName=d.age;
+    //
+    //
+    //      if (modelName == null || modelName == '') {
+    //          modelName = 'Default'
+    //          // console.log(modelName + ' null');
+    //          return modelName + '.' + modelName;
+    //
+    //
+    //      } else {
+    //          // console.log(modelName + ' not null');
+    //          // return modelName;
+    //          return modelName + '.' + modelName;
+    //      }
+    //  });
 
-    // Summarize volume by quarter
-    var quarter = ndx.dimension(function (d) {
-        // var month = d.dd.getMonth();
-        // if (month <= 2) {
-        //     return 'Q1';
-        // } else if (month > 2 && month <= 5) {
-        //     return 'Q2';
-        // } else if (month > 5 && month <= 8) {
-        //     return 'Q3';
-        // } else {
-        //     return 'Q4';
-        // }
-        return d.age;
-    });
-    var quarterGroup = quarter.group().reduceSum(function (d) {
-        // return d.volume;
-        return d.age;
+    // Summarize volume by seriesRowDimensions
+    var seriesRowchartDimenions = ndx.dimension(function (d) {
+        var seriesName = d.series.trim();
+        return seriesName;
+        // return d.age;
     });
 
-    // console.log(quarterGroup);
+    var seriesRowGroup = getTops(seriesRowchartDimenions.group(), 6)
+    // var seriesRowGroup = getTops(seriesRowchartDimenions.group().reduceSum(function (d) {
+    //     // return d.volume;
+    //     return d.age;
+    // }));
+
+    // console.log(seriesRowGroup);
 
     // Counts per weekday
-    var dayOfWeek = ndx.dimension(function (d) {
+    var modelRowchartDimensions = ndx.dimension(function (d) {
         // var day = d.dd.getDay();
         // var name = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
         // return day + '.' + name[day];
@@ -326,7 +351,7 @@ d3.csv('ndx.csv', function (data) {
             return modelName + '.' + modelName;
         }
     });
-    var dayOfWeekGroup = dayOfWeek.group();
+    var modelRowchartGroup = getTops(modelRowchartDimensions.group(), 6);
 
     //### Define Chart Attributes
     // Define chart attributes using fluent methods. See the
@@ -364,7 +389,7 @@ d3.csv('ndx.csv', function (data) {
         // `.colorAccessor` - the returned value will be passed to the `.colors()` scale to determine a fill color
         .colorAccessor(function (d) {
             // return d.value.sum_of_value_rating;
-            return d.value.sum_of_value_rating;
+            return d.value.avg_rating;
         })
         // `.keyAccessor` - the `X` value will be passed to the `.x()` scale to determine pixel location
         .keyAccessor(function (p) {
@@ -447,7 +472,7 @@ d3.csv('ndx.csv', function (data) {
     // on other charts within the same chart group.
     // <br>API: [Pie Chart](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#pie-chart)
 
-    gainOrLossChart /* dc.pieChart('#gain-loss-chart', 'chartGroup') */
+    makePiechart /* dc.pieChart('#make-piechart', 'chartGroup') */
     // (_optional_) define chart width, `default = 200`
         .width(180)
         // (optional) define chart height, `default = 200`
@@ -460,7 +485,7 @@ d3.csv('ndx.csv', function (data) {
         .group(gainOrLossGroup)
         // (_optional_) by default pie chart will use `group.key` as its label but you can overwrite it with a closure.
         .label(function (d) {
-            if (gainOrLossChart.hasFilter() && !gainOrLossChart.hasFilter(d.key)) {
+            if (makePiechart.hasFilter() && !makePiechart.hasFilter(d.key)) {
                 return d.key + '(0%)';
             }
             var label = d.key;
@@ -484,20 +509,20 @@ d3.csv('ndx.csv', function (data) {
         .colorAccessor(function(d, i){return d.value;})
         */;
 
-    ageChart /* dc.pieChart('#age-chart', 'chartGroup') */
-        .width(180)
-        .height(180)
-        .radius(60)
-        // .innerRadius(30)
-        // .sort
-        .externalLabels(8)
-        .group(quarterGroup)
-        .dimension(quarter)
+    // seriesChart /* dc.pieChart('#subseries-chart', 'chartGroup') */
+    //     .width(180)
+    //     .height(180)
+    //     .radius(60)
+    //     // .innerRadius(30)
+    //     // .sort
+    //     .externalLabels(8)
+    //     .group(seriesRowGroup)
+    //     .dimension(seriesRowDimensions)
 
 
-    // console.log(quarterGroup)
+    // console.log(seriesRowGroup)
     // .sort()
-    // .orderFunction(quarterGroup);
+    // .orderFunction(seriesRowGroup);
     ;
 
     //#### Row Chart
@@ -507,12 +532,12 @@ d3.csv('ndx.csv', function (data) {
     // to a specific group then any interaction with such chart will only trigger redraw
     // on other charts within the same chart group.
     // <br>API: [Row Chart](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#row-chart)
-    dayOfWeekChart /* dc.rowChart('#day-of-week-chart', 'chartGroup') */
+    modelRowchart /* dc.rowChart('#model-chart', 'chartGroup') */
         .width(180)
         .height(180)
         .margins({top: 20, left: 10, right: 10, bottom: 20})
-        .group(dayOfWeekGroup)
-        .dimension(dayOfWeek)
+        .group(modelRowchartGroup)
+        .dimension(modelRowchartDimensions)
         // Assign colors to each value in the x scale domain
         // .ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#dadaeb'])
         .ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#dadaeb'
@@ -529,6 +554,47 @@ d3.csv('ndx.csv', function (data) {
         .elasticX(true)
         .xAxis().ticks(4);
 
+
+    //#### Row Chart
+
+    // Create a row chart and use the given css selector as anchor. You can also specify
+    // an optional chart group for this chart to be scoped within. When a chart belongs
+    // to a specific group then any interaction with such chart will only trigger redraw
+    // on other charts within the same chart group.
+    // <br>API: [Row Chart](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#row-chart)
+    seriesChart /* dc.rowChart('#model-chart', 'chartGroup') */
+        .width(180)
+        .height(180)
+        .margins({top: 20, left: 10, right: 10, bottom: 20})
+        .group(seriesRowGroup)
+        .dimension(seriesRowchartDimenions)
+        // Assign colors to each value in the x scale domain
+        // .ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#dadaeb'])
+        // .ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#dadaeb'
+        // .ordinalColors([ '#2a07dd','#301ece','#3635c0','#3d4db1','#4364a3','#315364'])
+        .ordinalColors([ '#0421dd', '#0e2cc7', '#1838b0', '#22439a', '#2c4f83', '#365a6d' ])
+        // .ordin
+        .label(function (d) {
+            // return d.key.split('.')[1];
+            return d.key;
+        })
+        // Title sets the row text
+        .title(function (d) {
+            return d.value;
+        })
+        .elasticX(true)
+        .xAxis().ticks(4);
+
+    // seriesChart /* dc.pieChart('#subseries-chart', 'chartGroup') */
+    //     .width(180)
+    //     .height(180)
+    //     .radius(60)
+    //     // .innerRadius(30)
+    //     // .sort
+    //     .externalLabels(8)
+    //     .group(seriesRowGroup)
+    //     .dimension(seriesRowDimensions)
+
     //#### Bar Chart
 
     // Create a bar chart and use the given css selector as anchor. You can also specify
@@ -536,7 +602,7 @@ d3.csv('ndx.csv', function (data) {
     // to a specific group then any interaction with such chart will only trigger redraw
     // on other charts within the same chart group.
     // <br>API: [Bar Chart](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#bar-chart)
-    histogram_value /* dc.barChart('#volume-month-chart', 'chartGroup') */
+    histogramValue /* dc.barChart('#volume-month-chart', 'chartGroup') */
         .width(420)
         .height(180)
         .margins({top: 10, right: 50, bottom: 30, left: 40})
@@ -551,16 +617,17 @@ d3.csv('ndx.csv', function (data) {
         .round(dc.round.floor)
         .alwaysUseRounding(true)
         .x(d3.scale.linear().domain([-6, 6]))
-        .colors(d3.scale.ordinal().domain([-6,6])
-            .range(["#7591ff","#ffb342"]))
+        .colors(d3.scale.ordinal().domain([-6, 6])
+            .range(["#7591ff", "#ffb342"]))
 
-        .colorAccessor(function(d) {
+        .colorAccessor(function (d) {
             // if(d.value >0)
             //     return "positive"
             // return "negative";})
-            console.log('avgrating=',d.value.avg_rating);
+            console.log('avgrating=', d.value.avg_rating);
             return (d.value.avg_rating);
         })
+
 
         .renderHorizontalGridLines(true)
         // Customize the filter displayed in the control span
@@ -571,11 +638,11 @@ d3.csv('ndx.csv', function (data) {
         });
 
     // Customize axes
-    histogram_value.xAxis().tickFormat(
+    histogramValue.xAxis().tickFormat(
         function (v) {
             return v + '%';
         });
-    histogram_value.yAxis().ticks(5);
+    histogramValue.yAxis().ticks(5);
 
 
     //#### Bar Chart - histogram of years
@@ -601,7 +668,12 @@ d3.csv('ndx.csv', function (data) {
             var filter = filters[0], s = '';
             s += intFormat(filter[0]) + ' -> ' + intFormat(filter[1]) + '';
             return s;
-        });
+        })
+        .title(function (d) {
+            // return dateFormat(d.key) + '\n' + numberFormat(value);
+            return (d.value.avg_rating);
+        })
+    ;
 
     // Customize axes
     // histogram_years.xAxis().tickFormat(
@@ -754,22 +826,22 @@ d3.csv('ndx.csv', function (data) {
                     // return numberFormat(d.age_rating)
                 }
             }
-           , {
+            , {
                 label: 'Price Diff',
                 format: function (d) {
                     // return parseFloat(Math.round(d.price_rating * 100) / 100).toFixed(2)
                     // return numberFormat(d.age_rating)
                     var val = d.price_difference;
-                    return '$'+val.toFixed().replace(/(\d)(?=(\d{3})+(,|$))/g, '$1,')
+                    return '$' + val.toFixed().replace(/(\d)(?=(\d{3})+(,|$))/g, '$1,')
 
                 }
-            }            , {
+            }, {
                 label: 'Price',
                 format: function (d) {
                     // return parseFloat(Math.round(d.price_rating * 100) / 100).toFixed(2)
                     // return numberFormat(d.age_rating)
                     var val = d.price;
-                    return '$'+val.toFixed().replace(/(\d)(?=(\d{3})+(,|$))/g, '$1,')
+                    return '$' + val.toFixed().replace(/(\d)(?=(\d{3})+(,|$))/g, '$1,')
 
                 }
             }
@@ -780,7 +852,7 @@ d3.csv('ndx.csv', function (data) {
                     return val.toFixed().replace(/(\d)(?=(\d{3})+(,|$))/g, '$1,')
                     // return numberFormat(d.age_rating)
                 }
-            }             ,'age'
+            }, 'age'
             , {
                 label: 'PriceRating',
                 format: function (d) {
@@ -941,9 +1013,9 @@ minYear = '1988';
 d3.selectAll('#version').text(dc.version);
 d3.select('h2').text("Car Pricing");
 d3.select('h5').text(("Year from " + minYear.toString()) + " to " + currentYear.toString());
-d3.select("#age-chart").select('strong').text("Age")
-d3.select("#gain-loss-chart").select('strong').text("Makes")
-d3.select("#day-of-week-chart").select('strong').text("Model")
+d3.select("#subseries-chart").select('strong').text("Series")
+d3.select("#make-piechart").select('strong').text("Car Make")
+d3.select("#model-chart").select('strong').text("Model")
 d3.select("#fluctuation-chart").select('strong').text("Value Rating Distribution")
 // Determine latest stable version in the repo via Github API
 d3.json('https://api.github.com/repos/dc-js/dc.js/releases/latest', function (error, latestRelease) {
