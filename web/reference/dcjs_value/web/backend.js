@@ -381,7 +381,7 @@ d3.csv('data.csv', function (data) {
         // return d.open > d.close ? 'Loss' : 'Gain';
     });
     // Produce counts records in the dimension
-    var carMakeGroups =  getTops(carMakeDimensions.group(), 6);
+    var carMakeGroups = getTops(carMakeDimensions.group(), 6);
 
     // Transmission - Create categorical dimension
     var transmissionDimensions = input_data.dimension(function (d) {
@@ -589,7 +589,7 @@ d3.csv('data.csv', function (data) {
         // Set group
         .group(carMakeGroups)
         // Ordinal Colors for Pie Chart
-        .ordinalColors(pie_chart_ordinal_colors )
+        .ordinalColors(pie_chart_ordinal_colors)
 
         // (_optional_) by default pie chart will use `group.key` as its label but you can overwrite it with a closure.
         .label(function (d) {
@@ -983,16 +983,8 @@ d3.csv('data.csv', function (data) {
                     // return numberFormat(d.age_rating)
                 }
             }
-            , {
-                label: 'Price Diff',
-                format: function (d) {
-                    // return parseFloat(Math.round(d.price_rating * 100) / 100).toFixed(2)
-                    // return numberFormat(d.age_rating)
-                    var val = d.price_difference;
-                    return '$' + val.toFixed().replace(/(\d)(?=(\d{3})+(,|$))/g, '$1,')
 
-                }
-            }, {
+            , {
                 label: 'Price',
                 format: function (d) {
                     // return parseFloat(Math.round(d.price_rating * 100) / 100).toFixed(2)
@@ -1002,6 +994,17 @@ d3.csv('data.csv', function (data) {
 
                 }
             }
+            , {
+                label: 'Price Diff',
+                format: function (d) {
+                    // return parseFloat(Math.round(d.price_rating * 100) / 100).toFixed(2)
+                    // return numberFormat(d.age_rating)
+                    var val = d.price_difference;
+                    return '$' + val.toFixed().replace(/(\d)(?=(\d{3})+(,|$))/g, '$1,')
+
+                }
+            }
+
             , {
                 label: 'Milage',
                 format: function (d) {
