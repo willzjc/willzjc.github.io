@@ -26,7 +26,7 @@
 
     <h2></h2>
     <h5></h5>
-
+    <a href="javascript:dc.filterAll(); dc.renderAll();">Reset All</a>
     <div class="row">
         <div id="top-bubble-chart" class="dc-chart">
             <strong>Yearly Performance</strong> (radius: fluctuation/index ratio, color: gain/loss)
@@ -39,7 +39,7 @@
 
     <div class="row">
         <div id="make-piechart">
-            <strong>Days by Gain/Loss</strong>
+            <strong>Car Makes</strong>
             <a class="reset" href="javascript:carMakePiechart.filterAll();dc.redrawAll();"
                style="display: none;">reset</a>
 
@@ -55,7 +55,7 @@
         </div>
 
         <div id="model-chart">
-            <strong>Day of Week</strong>
+            <strong>Model</strong>
             <a class="reset" href="javascript:modelRowchartObject.filterAll();dc.redrawAll();"
                style="display: none;">reset</a>
 
@@ -63,7 +63,7 @@
         </div>
 
         <div id="subseries-chart">
-            <strong>Quarters</strong>
+            <strong>Series</strong>
             <a class="reset" href="javascript:seriesRowchartObject.filterAll();dc.redrawAll();"
                style="display: none;">reset</a>
 
@@ -82,7 +82,7 @@
         </div>
 
         <div id="yearly-histogram">
-            <strong>Yearly Histogram</strong>
+            <strong>Yearly Histogram (frequency distribution)</strong>
             <span class="reset" style="display: none;">range: <span class="filter"></span></span>
             <a class="reset" href="javascript:yearlyHistogramObject.filterAll();dc.redrawAll();"
                style="display: none;">reset</a>
