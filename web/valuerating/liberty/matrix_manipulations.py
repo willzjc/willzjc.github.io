@@ -101,12 +101,12 @@ def save_output_files(df, weightings=None,
 def main():
     import auxiliary.db_operations as dbo
 
-    query = "select * from cars where date_created > '%s' and make like 'toyota' and model like 'prius' " % datetime.datetime(
+    query = "select * from cars_20180402 where date_created > '%s' and make like 'toyota' and model like 'prius' " % datetime.datetime(
         2017, 1, 1).isoformat()
-    query = "select * from cars where date_created > '%s' and make like 'bmw'" % datetime.datetime(
+    query = "select * from cars_20180402 where date_created > '%s' and make like 'bmw'" % datetime.datetime(
         2018, 1, 1).isoformat()
 
-    query = "select * from cars where date_created >= '%s' and make like 'bmw'" % datetime.datetime(
+    query = "select * from cars_20180402 where date_created >= '%s' and make like 'bmw'" % datetime.datetime(
         2018, 1, 21).isoformat()
 
     db_interface = dbo.db_interface()

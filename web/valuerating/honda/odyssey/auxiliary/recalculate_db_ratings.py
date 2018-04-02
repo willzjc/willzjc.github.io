@@ -139,7 +139,7 @@ class data_rows():
             self.recalc_metrics(metric)
 
         for id in self.matrices.keys():
-            sql = 'insert into cars ('
+            sql = 'insert into cars_20180402 ('
             record = self.matrices[id]
 
             sql = sql + ','.join(fields) + ') values ( ' + ','.join(self.quote(s) for s in record) + ' ) ' \
@@ -172,8 +172,8 @@ if __name__ == "__main__":
     # cursor = records.connection.cursor()
 
     # Select record
-    sql = "select * from cars where make like %s" % ("'toyota'")
-    sql = "select * from cars where make like 'Mazda' and title like '%sp25%' and transmission like '%Auto%'"
+    sql = "select * from cars_20180402 where make like %s" % ("'toyota'")
+    sql = "select * from cars_20180402 where make like 'Mazda' and title like '%sp25%' and transmission like '%Auto%'"
     records.execute(sql)
 
     # numfields = len(cursor.description)

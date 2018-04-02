@@ -62,7 +62,7 @@ class db_interface():
 
         cursor = self.connection.cursor()
 
-        sql = "insert into cars (id, title, link, make, model,series, transmission, age, age_rating, milage, milage_rating, price, price_rating)" \
+        sql = "insert into cars_20180402 (id, title, link, make, model,series, transmission, age, age_rating, milage, milage_rating, price, price_rating)" \
               + " values (" + ','.join(self.quote(s) for s in
                                        [id, title, link, make, model, series, transmission, age, age_rating, milage,
                                         milage_rating, price, price_rating]) + ")"
