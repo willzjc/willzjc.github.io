@@ -969,9 +969,10 @@ d3.csv('data.csv', function (data) {
         // This code demonstrates generating the column header automatically based on the columns.
         .columns([
             // Use the `d.date` field; capitalized automatically
-            'date',
+
+
             {
-                label: 'title',
+                label: 'Model',
                 format: function (d) {
                     return '<a href="' + d.link + '">' + d.title + '</a>';
                 }
@@ -995,7 +996,7 @@ d3.csv('data.csv', function (data) {
                 }
             }
             , {
-                label: 'Price Diff',
+                label: 'Delta',
                 format: function (d) {
                     // return parseFloat(Math.round(d.price_rating * 100) / 100).toFixed(2)
                     // return numberFormat(d.age_rating)
@@ -1014,24 +1015,32 @@ d3.csv('data.csv', function (data) {
                 }
             }, 'age'
             , {
-                label: 'PriceRating',
+                label: 'Rating (P)',
                 format: function (d) {
                     return parseFloat(Math.round(d.price_rating * 100) / 100).toFixed(2)
                     // return numberFormat(d.age_rating)
                 }
             }
             , {
-                label: 'MilageRating',
+                label: 'Rating (M)',
                 format: function (d) {
                     return parseFloat(Math.round(d.milage_rating * 100) / 100).toFixed(2)
                     // return numberFormat(d.age_rating)
                 }
             }
             , {
-                label: 'AgeRating',
+                label: 'Rating (A)',
                 format: function (d) {
                     return parseFloat(Math.round(d.age_rating * 100) / 100).toFixed(2)
                     // return numberFormat(d.age_rating)
+                }
+            }
+                ,
+            {
+                label: 'Chart',
+                format: function (d) {
+                    var scatter_link = '../../../scatterplot_table/'+d.make +'/'+ d.model;
+                    return '<a href="' + scatter_link  + '">' + 'Scatter' + '</a>';
                 }
             }
         ])
