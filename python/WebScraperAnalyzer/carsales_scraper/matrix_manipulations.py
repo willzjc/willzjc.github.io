@@ -65,9 +65,9 @@ def calculate_analytics(df,weightings=None):
     print prediction_model.summary()
     return df,prediction_model
 
-def save_output_files(df,weightings=None,
-    extpath='C:/local/apps/wamp64/www/github/willzjc.github.io/valuerating/',prediction_model=None,USE_LOCAL_COPY=False
-  ):
+def create_web_files(df, weightings=None,
+                     extpath='C:/local/apps/wamp64/www/github/willzjc.github.io/valuerating/', prediction_model=None, USE_LOCAL_COPY=False
+                     ):
 
     if (USE_LOCAL_COPY):
         df = pd.read_pickle('auxiliary/data/last_run.pk')
@@ -200,8 +200,6 @@ def save_output_files(df,weightings=None,
             f.close()
 
 
-
-
     copy_sub_category_dir(extpath=extpath,df=df)
 
 def main():
@@ -234,7 +232,7 @@ def main():
 
     df = df[columns]    # Rearrange columns
     df = calculate_analytics(df,weightings)
-    save_output_files(df,weightings)
+    create_web_files(df, weightings)
 
 if __name__ == "__main__":
     main()

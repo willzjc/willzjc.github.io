@@ -5,7 +5,7 @@ import re
 import pandas as pd
 
 from auxiliary.data_container import data_rows
-from matrix_manipulations import save_output_files, calculate_analytics
+from matrix_manipulations import create_web_files, calculate_analytics
 from auxiliary import web_get
 from run_create_scatterplot import *
 
@@ -368,6 +368,16 @@ def main():
 
     #Audi RS7
     url='https://www.carsales.com.au/cars/audi/rs7/'
+
+    #Astin Martin
+    url='https://www.carsales.com.au/cars/astonmartin/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
+
+    # BMW All 3 Series
+    url='https://www.carsales.com.au/cars/bmw/3-series-marketinggroup/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
+
+    # VW Polo
+    url='https://www.carsales.com.au/cars/volkswagen/polo/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
+    url='https://www.carsales.com.au/cars/volkswagen/polo/66tsi-trendline-badge/new-south-wales-state/?WT.z_srchsrcx=makemodel'
     db_save = False
     USE_LOCAL_COPY = False
 
@@ -395,7 +405,7 @@ def main():
     if db_save:
         save_to_db()
 
-    save_output_files(df,weightings,extpath='../../../web/valuerating/',prediction_model=prediction_model,USE_LOCAL_COPY=USE_LOCAL_COPY)
+    create_web_files(df, weightings, extpath='../../../web/valuerating/', prediction_model=prediction_model, USE_LOCAL_COPY=USE_LOCAL_COPY)
 
     #Get scatterplot and recreate
 

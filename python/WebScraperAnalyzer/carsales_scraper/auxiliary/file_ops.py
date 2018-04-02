@@ -44,7 +44,7 @@ def copy_sub_category_dir(df,extpath):
 
 def copy_sub_file(df,extpath):
     ## Recreate file in subfolder
-
+    # print df.columns
     make=df.loc[0]['make'].lower()
     model=df.loc[0]['model'].lower()
 
