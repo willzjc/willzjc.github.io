@@ -21,6 +21,14 @@ var volumeMainMoveChart = dc.lineChart('#pricediff-move-chart');
 var volumeRangeChart = dc.barChart('#price-volume-chart');
 var priceDiffDataCount = dc.dataCount('.dc-data-count');
 
+var pie_chart_ordinal_colors = [
+    "#2d77ad",
+    "#448dbf",
+    "#5ba4d2",
+    "#72bae4",
+    "#5ba4d2",
+    "#448dbf"
+];
 var row_chart_ordinal_colors = [
     // '#3182bd',
     // '#3d8bc2',
@@ -373,7 +381,7 @@ d3.csv('data.csv', function (data) {
         // return d.open > d.close ? 'Loss' : 'Gain';
     });
     // Produce counts records in the dimension
-    var carMakeGroups = carMakeDimensions.group();
+    var carMakeGroups =  getTops(carMakeDimensions.group(), 6);
 
     // Transmission - Create categorical dimension
     var transmissionDimensions = input_data.dimension(function (d) {
@@ -580,6 +588,9 @@ d3.csv('data.csv', function (data) {
         .dimension(carMakeDimensions)
         // Set group
         .group(carMakeGroups)
+        // Ordinal Colors for Pie Chart
+        .ordinalColors(pie_chart_ordinal_colors )
+
         // (_optional_) by default pie chart will use `group.key` as its label but you can overwrite it with a closure.
         .label(function (d) {
             if (carMakePiechart.hasFilter() && !carMakePiechart.hasFilter(d.key)) {
