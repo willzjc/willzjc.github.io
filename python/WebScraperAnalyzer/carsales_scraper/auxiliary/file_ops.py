@@ -3,6 +3,9 @@ import shutil
 import errno
 
 
+
+
+
 def mkdir_p(path):
     try:
         os.makedirs(path)
@@ -42,7 +45,7 @@ def copy_sub_category_dir(df,extpath):
                 shutil.copy(rfile,dst)
 
 
-def copy_sub_file(df,extpath):
+def copy_sub_file(df,extpath,exclude_files = ['.py','template']):
     ## Recreate file in subfolder
     # print df.columns
     make=df.loc[0]['make'].lower()
@@ -68,5 +71,8 @@ def copy_sub_file(df,extpath):
         for file in os.listdir(src):
             rfile=os.path.realpath(src+file)
             if os.path.isfile(rfile):
+                if any(s in rfile for s in exclude_files):
+                    print 'Excluding: ',rfile
+                    continue
                 print 'copying %s to %s'%(rfile,dst)
                 shutil.copy(rfile,dst)

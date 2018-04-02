@@ -3,11 +3,14 @@ import time
 import re
 
 import pandas as pd
-
+import run_create_dcjs
 from auxiliary.data_container import data_rows
-from matrix_manipulations import create_web_files, calculate_analytics
+from matrix_manipulations import calculate_analytics
+
 from auxiliary import web_get
+
 from run_create_scatterplot import *
+from run_create_table import *
 
 global url,page_loop_counter, pagination_offset, total_car_count, LIVE_DATA,df,db_save
 global car_ids
@@ -377,7 +380,12 @@ def main():
 
     # VW Polo
     url='https://www.carsales.com.au/cars/volkswagen/polo/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-    url='https://www.carsales.com.au/cars/volkswagen/polo/66tsi-trendline-badge/new-south-wales-state/?WT.z_srchsrcx=makemodel'
+    # url='https://www.carsales.com.au/cars/volkswagen/polo/66tsi-trendline-badge/new-south-wales-state/?WT.z_srchsrcx=makemodel'
+
+    # Mercedes C250
+    url='https://www.carsales.com.au/cars/mercedesbenz/c250/c-class-marketinggroup/new-south-wales-state/?WT.z_srchsrcx=makemodel'
+    # Mercedes C63
+    url='https://www.carsales.com.au/cars/mercedesbenz/c63/c-class-marketinggroup/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
     db_save = False
     USE_LOCAL_COPY = False
 
@@ -411,7 +419,11 @@ def main():
 
     #Get model
     model=df.loc[0]['model'].lower()
+
+    # Creates scatterplot webhost output files (for model only)
     run_create_scatterplot_from_model(model)
+    # Creates dcjs webhost output files (redoes entire db repo)
+    run_create_dcjs.run_all()
 
 if __name__ == "__main__":
     main()
