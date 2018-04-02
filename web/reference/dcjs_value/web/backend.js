@@ -148,7 +148,7 @@ d3.csv('data.csv', function (data) {
         return d.age;
     }), 1, 1)).getFullYear();
 
-    console.log(maxRangeYear,minRangeYear);
+    //console.log(maxRangeYear,minRangeYear);
     // minRangeYear= d3.max(input_data.age, function (d) {
     //     return d3.min(d);
     // });
@@ -178,7 +178,7 @@ d3.csv('data.csv', function (data) {
             // p.sum_of_value_rating += Math.abs(v.price_difference);
             // p.sum_of_value_rating += (v.price_difference)/divider_offset;
             // p.sum_of_value_rating += (v.sum_rating)/divider_offset;
-            // // console.log(p.sum_of_value_rating,p.total_price);
+            // // //console.log(p.sum_of_value_rating,p.total_price);
 
             p.total_diff += (v.price_difference);
             p.avg_diff = p.count ? (p.total_diff / p.count) : 0;
@@ -190,13 +190,13 @@ d3.csv('data.csv', function (data) {
             // X Axis
             p.total_price += v.price;
             p.avg_price = p.count ? (p.total_price / p.count) : 0;
-            // // console.log(p.sum_of_value_rating,p.total_price,p.avg_price,p.count);
+            // // //console.log(p.sum_of_value_rating,p.total_price,p.avg_price,p.count);
 
             // Y Axis
             p.total_milage += v.milage;
             p.avg_milage = p.count ? (p.total_milage / p.count) : 0;
 
-            // // console.log(p.total_price);
+            // // //console.log(p.total_price);
 
             // Radius Calculation (incremental)
             p.min_radius = p.count ? Math.max(p.min_radius, v.sum_rating) : v.sum_rating;
@@ -208,15 +208,15 @@ d3.csv('data.csv', function (data) {
             // p.valueratingDimensions += Math.abs(v.price_difference/divider_offset);
             p.valueratingDimensions += Math.abs(v.sum_rating / divider_offset);
             p.sumIndex += (v.sum_rating * sum_index_multiplier) / 2;
-            // // console.log(p.sumIndex);
+            // // //console.log(p.sumIndex);
             p.avgIndex = p.sumIndex / p.count;
             p.percentageGain = p.avgIndex ? (p.sum_of_value_rating / p.avgIndex) * 100 : 0;
             p.fluctuationPercentage = (p.avgIndex ? (p.fluctuation / p.avgIndex) * 100 : 0) / 2;
-            // // console.log(p.fluctuationPercentage);
-            // // console.log(p);
+            // // //console.log(p.fluctuationPercentage);
+            // // //console.log(p);
             p.title = v.title;
 
-            // // console.log(p.title, 'averagemilage = ', p.avg_milage, v.age, 'count=', p.count);
+            // // //console.log(p.title, 'averagemilage = ', p.avg_milage, v.age, 'count=', p.count);
 
             return p;
         },
@@ -244,7 +244,7 @@ d3.csv('data.csv', function (data) {
             // Y Axis
             p.total_milage -= v.milage;
             p.avg_milage = p.count ? (p.total_milage / p.count) : 0;
-            // // console.log(p.title,p.avg_milage);
+            // // //console.log(p.title,p.avg_milage);
 
             // Radius Calculation (decremental)
             p.min_radius = p.count ? Math.max(p.min_radius, v.sum_rating) : v.sum_rating;
@@ -255,8 +255,8 @@ d3.csv('data.csv', function (data) {
             p.percentageGain = p.avgIndex ? (p.sum_of_value_rating / p.avgIndex) * 100 : 0;
             p.fluctuationPercentage = (p.avgIndex ? (p.fluctuation / p.avgIndex) * 100 : 0) / 2;
 
-            // // console.log(p.fluctuationPercentage);
-            // console.log(p.title, 'averagemilage = ', p.avg_milage, v.age, 'count=', p.count, 'sum_of_value_rating=', p.sum_of_value_rating);
+            // // //console.log(p.fluctuationPercentage);
+            // //console.log(p.title, 'averagemilage = ', p.avg_milage, v.age, 'count=', p.count, 'sum_of_value_rating=', p.sum_of_value_rating);
 
             return p;
         },
@@ -310,7 +310,7 @@ d3.csv('data.csv', function (data) {
         function (p, v) {
             ++p.count;
 
-            // console.log('avg_diff = ', v.price_difference,p);
+            // //console.log('avg_diff = ', v.price_difference,p);
 
             p.total_diff += (v.price_difference);
             p.avg_diff = p.count ? Math.round(p.total_diff / p.count) : 0;
@@ -322,7 +322,7 @@ d3.csv('data.csv', function (data) {
         function (p, v) {
             --p.count;
 
-            // console.log('avg_diff = ', v.price_difference,p);
+            // //console.log('avg_diff = ', v.price_difference,p);
 
             p.total_diff -= (v.price_difference);
             p.avg_diff = p.count ? Math.round(p.total_diff / p.count) : 0;
@@ -368,7 +368,7 @@ d3.csv('data.csv', function (data) {
 
     // Car Make - Create categorical dimension
     var carMakeDimensions = input_data.dimension(function (d) {
-        // // console.log(d.make);
+        // // //console.log(d.make);
         return d.make;
         // return d.open > d.close ? 'Loss' : 'Gain';
     });
@@ -380,7 +380,7 @@ d3.csv('data.csv', function (data) {
         var words = d.title.split(" ");      // Split the string using dot as separator
         var lastVal = words.pop();       // Get last element
         return lastVal;
-        // // console.log(d.make);
+        // // //console.log(d.make);
         // return d.transmission;
         // return d.open > d.close ? 'Loss' : 'Gain';
     });
@@ -416,7 +416,7 @@ d3.csv('data.csv', function (data) {
     //     return d.age;
     // }));
 
-    // // console.log(seriesRowGroup);
+    // // //console.log(seriesRowGroup);
 
     // Counts per weekday
     var modelRowchartDimensions = input_data.dimension(function (d) {
@@ -431,12 +431,12 @@ d3.csv('data.csv', function (data) {
 
         if (modelName == null || modelName == '') {
             modelName = 'Default'
-            // // console.log(modelName + ' null');
+            // // //console.log(modelName + ' null');
             return modelName + '.' + modelName;
 
 
         } else {
-            // // console.log(modelName + ' not null');
+            // // //console.log(modelName + ' not null');
             // return modelName;
             return modelName + '.' + modelName;
         }
@@ -484,7 +484,7 @@ d3.csv('data.csv', function (data) {
         // `.keyAccessor` - the `X` value will be passed to the `.x()` scale to determine pixel location
         .keyAccessor(function (p) {
             // return p.value.sum_of_value_rating;
-            // // console.log(p.avg_price);
+            // // //console.log(p.avg_price);
             return p.value.avg_price;
         })
 
@@ -492,8 +492,8 @@ d3.csv('data.csv', function (data) {
         //
         .valueAccessor(function (p) {
             // return p.value.percentageGain;
-            // // console.log(p.sum_of_value_rating,p.total_price,p.avg_price,p.count);
-            // // console.log(p.value.avg_milage, p.value.title);
+            // // //console.log(p.sum_of_value_rating,p.total_price,p.avg_price,p.count);
+            // // //console.log(p.value.avg_milage, p.value.title);
             return p.value.avg_milage;
         })
         // `.radiusValueAccessor` - the value will be passed to the `.r()` scale to determine radius size;
@@ -643,7 +643,7 @@ d3.csv('data.csv', function (data) {
     //     .dimension(seriesRowDimensions)
 
 
-    // // console.log(seriesRowGroup)
+    // // //console.log(seriesRowGroup)
     // .sort()
     // .orderFunction(seriesRowGroup);
     ;
@@ -743,7 +743,7 @@ d3.csv('data.csv', function (data) {
         //     // if(d.value >0)
         //     //     return "positive"
         //     // return "negative";})
-        //     // console.log('d.value = ', d.value);
+        //     // //console.log('d.value = ', d.value);
         //     return (d.value);
         // })
 
@@ -865,7 +865,7 @@ d3.csv('data.csv', function (data) {
 
         .group(priceAverageLinechartGroup, 'Average Price')
         .valueAccessor(function (d) {
-            // console.log('val acc: ', d);
+            // //console.log('val acc: ', d);
             return d.value.avg;
         })
 
@@ -885,7 +885,7 @@ d3.csv('data.csv', function (data) {
                 + '\n' + 'Sample Size: ' + d.value.count;
         })
         .yAxis().tickFormat(function (v) {
-        // console.log("numberSeperatorFormat(v / 100000)",numberSeperatorFormat(v / 100000));
+        // //console.log("numberSeperatorFormat(v / 100000)",numberSeperatorFormat(v / 100000));
         // return numberSeperatorFormat(v / 100000) + 'k';
         // return numberSeperatorFormat(v / 100000) + 'k';
         return '$' + intFormat(v / 1000) + 'k';
@@ -909,7 +909,7 @@ d3.csv('data.csv', function (data) {
         .alwaysUseRounding(true)
         .xUnits(d3.time.months)
     // .yAxis().tickFormat(function (v) {
-    //     // console.log("numberSeperatorFormat(v / 100000)",numberSeperatorFormat(v / 100000));
+    //     // //console.log("numberSeperatorFormat(v / 100000)",numberSeperatorFormat(v / 100000));
     //     // return numberSeperatorFormat(v / 100000) + 'k';
     //     // return numberSeperatorFormat(v / 100000) + 'k';
     //     return v/100000;
