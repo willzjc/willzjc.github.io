@@ -17,10 +17,24 @@ var yearlyHistogramObject = dc.barChart('#yearly-histogram');
 var modelRowchartObject = dc.rowChart('#model-chart');
 // var ageChart = dc.pieChart('#subseries-chart');
 var seriesRowchartObject = dc.rowChart('#subseries-chart');
-var moveChart = dc.lineChart('#pricediff-move-chart');
-var volumeChart = dc.barChart('#monthly-volume-chart');
+var volumeMainMoveChart = dc.lineChart('#pricediff-move-chart');
+var volumeRangeChart = dc.barChart('#price-volume-chart');
 var priceDiffDataCount = dc.dataCount('.dc-data-count');
 
+var row_chart_ordinal_colors = [
+    // '#3182bd',
+    // '#3d8bc2',
+    // '#4894c7',
+    // '#549ccc',
+    // '#5fa5d1',
+    // '#6baed6'
+    '#2d77ad',
+    '#3982b5',
+    '#468dbd',
+    '#5298c6',
+    '#5fa3ce',
+    '#6baed6'
+];
 // require("js/dc-tableview.s");
 // dc.tableview(div, "chartGroupName");
 
@@ -79,26 +93,27 @@ function getTops(source_group, number_of_items) {
 }
 
 var currentYear = (new Date()).getFullYear()
-var minYear = 0;
+var minRangeYear = null;
+var maxRangeYear = null;
 
 d3.csv('data.csv', function (data) {
     // Since its a csv file we need to format the data a bit.
     var dateFormat = d3.time.format('%m/%d/%Y');
+    var monthFormat = d3.time.format('%b %Y');
     var numberFormat = d3.format('.2f');
     var numberSeperatorFormat = d3.format(',.0f');
     var intFormat = d3.format('0f');
-
-
-    // // console.log(d3.min(data, function(d) { return d.value; }));
-    // // console.log(d3.max(data, function(d) { return d.value; }));
+    var intSeperatorFormat = d3.format(',0f');
 
     data.forEach(function (d) {
         d.age = +d.age;
-        d.dd = new Date(currentYear - d.age, 1, 1)
-        minYear = (new Date(d3.min(d.age), 1, 1));
+        d.dd_year = new Date(currentYear - d.age, 1, 1)
 
-        // d.dd = dateFormat.parse(d.date);
-        d.month = d3.time.month(d.dd); // pre-calculate month for better performance
+        // d.max_age = d.max_age ? d3.max(d.age, d.max_age) : d.age;
+        // d.min_age = d.min_age ? d3.min(d.age, d.max_age) : d.age;
+
+        // d.dd_year = dateFormat.parse(d.date);
+        d.month = d3.time.month(d.dd_year); // pre-calculate month for better performance
         d.close = +d.close; // coerce to number
         d.open = +d.open;
         // d.id = +d.id;
@@ -115,9 +130,33 @@ d3.csv('data.csv', function (data) {
         d.price_difference = +d.price_difference;
     });
 
+    // maxRangeYear= d3.max(input_data.age, function (d) {
+    //     return d3.max(d);
+    // });
+
+    // maxRangeYear = input_data.dimension()
+    // (function (d) {
+    //     return d3.time.year(d.dd_year).getFullYear();
+    // });
+
+    // Getting the max and min of anything :)
+    maxRangeYear = d3.time.year(new Date(currentYear - d3.min(data, function (d) {
+        return d.age;
+    }), 1, 1)).getFullYear();
+
+    minRangeYear = d3.time.year(new Date(currentYear - d3.max(data, function (d) {
+        return d.age;
+    }), 1, 1)).getFullYear();
+
+    console.log(maxRangeYear,minRangeYear);
+    // minRangeYear= d3.max(input_data.age, function (d) {
+    //     return d3.min(d);
+    // });
     //### Create Crossfilter Dimensions and Groups
     //See the [crossfilter API](https://github.com/square/crossfilter/wiki/API-Reference) for reference.
     var input_data = crossfilter(data);
+
+
     var all = input_data.groupAll();
     var divider_offset = 155;
     var sum_index_multiplier = 1;
@@ -126,7 +165,7 @@ d3.csv('data.csv', function (data) {
     // Dimension by year
 
     var bubbleDimensionGroup = input_data.dimension(function (d) {
-        return d3.time.year(d.dd).getFullYear();
+        return d3.time.year(d.dd_year).getFullYear();
     });
 
     // Maintain running tallies by year as filters are applied or removed
@@ -140,6 +179,11 @@ d3.csv('data.csv', function (data) {
             // p.sum_of_value_rating += (v.price_difference)/divider_offset;
             // p.sum_of_value_rating += (v.sum_rating)/divider_offset;
             // // console.log(p.sum_of_value_rating,p.total_price);
+
+            p.total_diff += (v.price_difference);
+            p.avg_diff = p.count ? (p.total_diff / p.count) : 0;
+
+
             p.sum_of_value_rating += (v.sum_rating);
             p.avg_rating = p.sum_of_value_rating / p.count;
 
@@ -181,6 +225,10 @@ d3.csv('data.csv', function (data) {
 
         function (p, v) { //cde321
             --p.count;
+
+            p.total_diff -= (v.price_difference);
+            p.avg_diff = p.count ? (p.total_diff / p.count) : 0;
+
             p.sum_of_value_rating -= (v.sum_rating);
             p.avg_rating = p.sum_of_value_rating / p.count;
 
@@ -212,17 +260,21 @@ d3.csv('data.csv', function (data) {
 
             return p;
         },
-        /* initialize p */
+        /* initialize p - pvars*/
         function () {
             return {
                 avg_rating: 0,
+                avg_pricediff: 0,
                 min_radius: 0,
                 max_radius: 0,
                 radius: 0,
                 total_milage: 0,
                 avg_milage: 0,
                 avg_price: 0,
+                avg_diff: 0,
                 total_price: 0,
+                total_diff: 0,
+                // total_: 0,
                 count: 0,
                 sum_of_value_rating: 0,
                 fluctuation: 0,
@@ -237,48 +289,91 @@ d3.csv('data.csv', function (data) {
 
     // Dimension by full date
     var dateDimension = input_data.dimension(function (d) {
-        return d.dd;
+        return d.dd_year;
     });
-
+////////////////////////////////////////////////////////////////////////////////
     // Dimension by month
-    var moveMonths = input_data.dimension(function (d) {
+    var volumeChartDimensions = input_data.dimension(function (d) {
         return d.month;
     });
+
     // Group by total movement within month
-    var linePrice = moveMonths.group().reduceSum(function (d) {
-        // return Math.abs(d.close - d.open);
-        return Math.abs(d.price) / 1000;
-    });
-    // Group by total volume within move, and scale down result
-    var volumeByMonthGroup = moveMonths.group().reduceSum(function (d) {
-        return d.volume / 500000;
-    });
-    var linePriceDifferenceGroup = moveMonths.group().reduce(
+    // var priceFluctuationsLinechartGroup = volumeChartDimensions.group().reduceSum(function (d) {
+    //     // return Math.abs(d.close - d.open);
+    //     // return Math.abs(d.price) / 1000;
+    //     return Math.abs(d.price);
+    // });
+
+    // Group by price difference of group
+    var offset_multiplier = 200;
+    var priceFluctuationsLinechartGroup = volumeChartDimensions.group().reduce(
         function (p, v) {
-            ++p.days;
-            p.total += (v.price_difference) / 2;
-            p.avg = Math.round(p.total / p.days);
+            ++p.count;
+
+            // console.log('avg_diff = ', v.price_difference,p);
+
+            p.total_diff += (v.price_difference);
+            p.avg_diff = p.count ? Math.round(p.total_diff / p.count) : 0;
+
+            // p.avg = p.count ? Math.round(p.total_diff / p.count) : 0;
+
             return p;
         },
         function (p, v) {
-            --p.days;
-            p.total -= (v.price_difference) / 2;
-            p.avg = p.days ? Math.round(p.total / p.days) : 0;
+            --p.count;
+
+            // console.log('avg_diff = ', v.price_difference,p);
+
+            p.total_diff -= (v.price_difference);
+            p.avg_diff = p.count ? Math.round(p.total_diff / p.count) : 0;
+
             return p;
         },
+        // Initialize P variables
         function () {
-            return {days: 0, total: 0, avg: 0};
+            return {
+                count: 0, total: 0, avg: 0
+                , avg_diff: 0, total_diff: 0
+            };
+        }
+    );
+
+    // Group by total volume within move, and scale down result
+    var volumeChartGroups = volumeChartDimensions.group().reduceSum(function (d) {
+        return d.volume;
+    });
+
+    // Price Average difference
+    var priceAverageLinechartGroup = volumeChartDimensions.group().reduce(
+        function (p, v) {
+            ++p.count;
+            p.total += (v.price);
+            p.avg = p.count ? Math.round(p.total / p.count) : 0;
+            return p;
+        },
+        function (p, v) {
+            --p.count;
+            p.total -= (v.price);
+            p.avg = p.count ? Math.round(p.total / p.count) : 0;
+            return p;
+        },
+        // Initialize P variables
+        function () {
+            return {
+                count: 0, total: 0, avg: 0
+                , avg_diff: 0, total_diff: 0
+            };
         }
     );
 
     // Car Make - Create categorical dimension
-    var carmakeDimensions = input_data.dimension(function (d) {
+    var carMakeDimensions = input_data.dimension(function (d) {
         // // console.log(d.make);
         return d.make;
         // return d.open > d.close ? 'Loss' : 'Gain';
     });
     // Produce counts records in the dimension
-    var carmakeGroups = carmakeDimensions.group();
+    var carMakeGroups = carMakeDimensions.group();
 
     // Transmission - Create categorical dimension
     var transmissionDimensions = input_data.dimension(function (d) {
@@ -307,28 +402,6 @@ d3.csv('data.csv', function (data) {
 
     var yearlyHistogramGroup = yearlyHistogram.group();
 
-    // var modelRowchartDimensions = input_data.dimension(function (d) {
-    //      // var day = d.dd.getDay();
-    //      // var name = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-    //      // return day + '.' + name[day];
-    //
-    //      // return d.age;
-    //      var modelName = d.model.trim();
-    //      // var modelName=d.age;
-    //
-    //
-    //      if (modelName == null || modelName == '') {
-    //          modelName = 'Default'
-    //          // // console.log(modelName + ' null');
-    //          return modelName + '.' + modelName;
-    //
-    //
-    //      } else {
-    //          // // console.log(modelName + ' not null');
-    //          // return modelName;
-    //          return modelName + '.' + modelName;
-    //      }
-    //  });
 
     // Summarize volume by seriesRowDimensions
     var seriesRowchartDimenions = input_data.dimension(function (d) {
@@ -347,7 +420,7 @@ d3.csv('data.csv', function (data) {
 
     // Counts per weekday
     var modelRowchartDimensions = input_data.dimension(function (d) {
-        // var day = d.dd.getDay();
+        // var day = d.dd_year.getDay();
         // var name = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
         // return day + '.' + name[day];
 
@@ -443,7 +516,7 @@ d3.csv('data.csv', function (data) {
         //domains as the Accessors.
         .yAxisPadding(70000)
         // .xAxisPadding(500)
-        .xAxisPadding(2000)
+        .xAxisPadding(3388)
         // (_optional_) render horizontal grid lines, `default=false`
         .renderHorizontalGridLines(true)
         // (_optional_) render vertical grid lines, `default=false`
@@ -504,9 +577,9 @@ d3.csv('data.csv', function (data) {
         // Define pie radius
         .radius(80)
         // Set dimension
-        .dimension(carmakeDimensions)
+        .dimension(carMakeDimensions)
         // Set group
-        .group(carmakeGroups)
+        .group(carMakeGroups)
         // (_optional_) by default pie chart will use `group.key` as its label but you can overwrite it with a closure.
         .label(function (d) {
             if (carMakePiechart.hasFilter() && !carMakePiechart.hasFilter(d.key)) {
@@ -591,9 +664,7 @@ d3.csv('data.csv', function (data) {
         .dimension(modelRowchartDimensions)
         // Assign colors to each value in the x scale domain
         // .ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#dadaeb'])
-        .ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#dadaeb'
-            // ,'#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#dadaeb'
-        ])
+        .ordinalColors(row_chart_ordinal_colors)
         // .ordin
         .label(function (d) {
             return d.key.split('.')[1];
@@ -619,12 +690,8 @@ d3.csv('data.csv', function (data) {
         .margins({top: 20, left: 10, right: 10, bottom: 20})
         .group(seriesRowGroup)
         .dimension(seriesRowchartDimenions)
-        // Assign colors to each value in the x scale domain
-        // .ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#dadaeb'])
-        // .ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#dadaeb'
-        // .ordinalColors([ '#2a07dd','#301ece','#3635c0','#3d4db1','#4364a3','#315364'])
-        .ordinalColors(['#0421dd', '#0e2cc7', '#1838b0', '#22439a', '#2c4f83', '#365a6d'])
-        // .ordin
+        .ordinalColors(row_chart_ordinal_colors)
+
         .label(function (d) {
             // return d.key.split('.')[1];
             return d.key;
@@ -636,17 +703,9 @@ d3.csv('data.csv', function (data) {
         .elasticX(true)
         .xAxis().ticks(4);
 
-    // seriesChart /* dc.pieChart('#subseries-chart', 'chartGroup') */
-    //     .width(180)
-    //     .height(180)
-    //     .radius(60)
-    //     // .innerRadius(30)
-    //     // .sort
-    //     .externalLabels(8)
-    //     .group(seriesRowGroup)
-    //     .dimension(seriesRowDimensions)
 
     var histogramWidth = 960;
+    var histogramHeight = 188;
     //#### Bar Chart - Histogram
     // Create a bar chart and use the given css selector as anchor. You can also specify
     // an optional chart group for this chart to be scoped within. When a chart belongs
@@ -657,7 +716,7 @@ d3.csv('data.csv', function (data) {
     // .width(420)
     // .width(495)
         .width(histogramWidth / 2)
-        .height(180)
+        .height(histogramHeight)
         .margins({top: 10, right: 50, bottom: 30, left: 40})
         .dimension(valueratingDimensions)
         .group(valueratingDimenionGroups)
@@ -671,16 +730,32 @@ d3.csv('data.csv', function (data) {
         .round(dc.round.floor)
         .alwaysUseRounding(true)
         .x(d3.scale.linear().domain([-6, 6]))
-
+        //
         // .colors(d3.scale.ordinal().domain([-6, 6])
-        //     .range(["#263f4d", "#63a5c8"]))
+        //     .range([
+        //             "#ff1600",
+        //             "#cdff00",
+        //             "#2df400"
+        //         ]
+        //     ))
 
+        // .colorAccessor(function (d) {
+        //     // if(d.value >0)
+        //     //     return "positive"
+        //     // return "negative";})
+        //     // console.log('d.value = ', d.value);
+        //     return (d.value);
+        // })
+
+        // .colorDomain([-6, 6])
+        // .colors(colorbrewer.RdYlGn[6])
+        //(optional) define color domain to match your data domain if you want to bind data or color
+
+        //##### Accessors
+        //Accessor functions are applied to each value returned by the grouping
+        // `.colorAccessor` - the returned value will be passed to the `.colors()` scale to determine a fill color
         .colorAccessor(function (d) {
-            // if(d.value >0)
-            //     return "positive"
-            // return "negative";})
-            // console.log('d.value = ', d.value);
-            return (d.value);
+            return d.key;
         })
 
         // .ordinalColors([ '#0421dd', '#0e2cc7', '#1838b0', '#22439a', '#2c4f83', '#365a6d' ])
@@ -700,7 +775,6 @@ d3.csv('data.csv', function (data) {
             "#05e223"
         ])
 
-
         .renderHorizontalGridLines(true)
         // Customize the filter displayed in the control span
         .filterPrinter(function (filters) {
@@ -717,12 +791,11 @@ d3.csv('data.csv', function (data) {
         });
     valueratingHistogramObject.yAxis().ticks(5);
 
-
     //#### Bar Chart - histogram of years
     yearlyHistogramObject /* dc.barChart('#volume-month-chart', 'chartGroup') */
     // .width(990)
         .width(histogramWidth / 2)
-        .height(200)
+        .height(histogramHeight)
         .transitionDuration(1000)
         .dimension(yearlyHistogram)
         .group(yearlyHistogramGroup)
@@ -742,6 +815,7 @@ d3.csv('data.csv', function (data) {
             s += intFormat(filter[0]) + ' -> ' + intFormat(filter[1]) + '';
             return s;
         })
+        .renderTitle(true)
         .title(function (d) {
             // return dateFormat(d.key) + '\n' + numberFormat(value);
             return (d.value.avg_rating);
@@ -765,16 +839,16 @@ d3.csv('data.csv', function (data) {
     //Specify an area chart by using a line chart with `.renderArea(true)`.
     // <br>API: [Stack Mixin](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#stack-mixin),
     // [Line Chart](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#line-chart)
-    moveChart /* dc.lineChart('#pricediff-move-chart', 'chartGroup') */
+    volumeMainMoveChart /* dc.lineChart('#pricediff-move-chart', 'chartGroup') */
         .renderArea(true)
         .width(990)
         .height(200)
         .transitionDuration(1000)
         .margins({top: 30, right: 50, bottom: 25, left: 40})
-        .dimension(moveMonths)
+        .dimension(volumeChartDimensions)
         .mouseZoomable(true)
         // Specify a "range chart" to link its brush extent with the zoom of the current "focus chart".
-        .rangeChart(volumeChart)
+        .rangeChart(volumeRangeChart)
         .x(d3.time.scale().domain([new Date(1985, 0, 1), new Date(currentYear, 11, 31)]))
         .round(d3.time.month.round)
         .xUnits(d3.time.months)
@@ -788,40 +862,59 @@ d3.csv('data.csv', function (data) {
         // Add the base layer of the stack with group. The second parameter specifies a series name for use in the
         // legend.
         // The `.valueAccessor` will be used for the base layer
-        .group(linePriceDifferenceGroup, 'Price Savings/Difference')
+
+        .group(priceAverageLinechartGroup, 'Average Price')
         .valueAccessor(function (d) {
+            // console.log('val acc: ', d);
             return d.value.avg;
         })
+
         // Stack additional layers with `.stack`. The first paramenter is a new group.
         // The second parameter is the series name. The third is a value accessor.
-        .stack(linePrice, 'Price Average', function (d) {
-            return d.value;
+        .stack(priceFluctuationsLinechartGroup, 'Price Fluctuation', function (d) {
+            return d.value.avg_diff;
         })
         // Title can be called by any stack layer.
         .title(function (d) {
-            var value = d.value.avg ? d.value.avg : d.value;
+            var value = d.value.avg_diff;
+            var metric = d.value.avg_diff ? 'Price Fluctuations' : (value = d.value.avg, 'Average Price');
             if (isNaN(value)) {
                 value = 0;
             }
-            return dateFormat(d.key) + '\n' + numberFormat(value);
-        });
+            return monthFormat(d.key) + '\n' + metric + ': $' + intSeperatorFormat(value)
+                + '\n' + 'Sample Size: ' + d.value.count;
+        })
+        .yAxis().tickFormat(function (v) {
+        // console.log("numberSeperatorFormat(v / 100000)",numberSeperatorFormat(v / 100000));
+        // return numberSeperatorFormat(v / 100000) + 'k';
+        // return numberSeperatorFormat(v / 100000) + 'k';
+        return '$' + intFormat(v / 1000) + 'k';
+
+    })
+    ;
 
     //#### Range Chart
-
     // Since this bar chart is specified as "range chart" for the area chart, its brush extent
     // will always match the zoom of the area chart.
-    volumeChart.width(990) /* dc.barChart('#monthly-volume-chart', 'chartGroup'); */
+    volumeRangeChart
+        .width(990) /* dc.barChart('#price-volume-chart', 'chartGroup'); */
         .height(40)
         .margins({top: 0, right: 50, bottom: 20, left: 40})
-        .dimension(moveMonths)
-        .group(volumeByMonthGroup)
+        .dimension(volumeChartDimensions)
+        .group(volumeChartGroups)
         .centerBar(true)
         .gap(1)
         .x(d3.time.scale().domain([new Date(1985, 0, 1), new Date(currentYear, 11, 31)]))
         .round(d3.time.month.round)
         .alwaysUseRounding(true)
-        .xUnits(d3.time.months);
-
+        .xUnits(d3.time.months)
+    // .yAxis().tickFormat(function (v) {
+    //     // console.log("numberSeperatorFormat(v / 100000)",numberSeperatorFormat(v / 100000));
+    //     // return numberSeperatorFormat(v / 100000) + 'k';
+    //     // return numberSeperatorFormat(v / 100000) + 'k';
+    //     return v/100000;
+    //     }   )
+    ;
     //#### Data Count
 
     // Create a data count widget and use the given css selector as anchor. You can also specify
@@ -849,31 +942,6 @@ d3.csv('data.csv', function (data) {
             all: 'All records selected. Please click on a graph to apply filters.'
         });
 
-    //#### Data Table
-
-    // Create a data table widget and use the given css selector as anchor. You can also specify
-    // an optional chart group for this chart to be scoped within. When a chart belongs
-    // to a specific group then any interaction with such chart will only trigger redraw
-    // on other charts within the same chart group.
-    // <br>API: [Data Table Widget](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#data-table-widget)
-    //
-    // You can statically define the headers like in
-    //
-    // ```html
-    //    <!-- anchor div for data table -->
-    //    <div id='data-table'>
-    //       <!-- create a custom header -->
-    //       <div class='header'>
-    //           <span>Date</span>
-    //           <span>Open</span>
-    //           <span>Close</span>
-    //           <span>Change</span>
-    //           <span>Volume</span>
-    //       </div>
-    //       <!-- data rows will filled in here -->
-    //    </div>
-    // ```
-    // or do it programmatically using `.columns()`.
 
     varDataTable /* dc.dataTable('.dc-data-table', 'chartGroup') */
         .dimension(dateDimension)
@@ -881,7 +949,7 @@ d3.csv('data.csv', function (data) {
         // as a grouping function
         .group(function (d) {
             // var format = d3.format('yyyy');
-            // return d.dd.getFullYear() ;
+            // return d.dd_year.getFullYear() ;
             return d.make;
         })
         // (_optional_) max number of records to be shown, `default = 25`
@@ -956,7 +1024,7 @@ d3.csv('data.csv', function (data) {
 
         // (_optional_) sort using the given field, `default = function(d){return d;}`
         .sortBy(function (d) {
-            // return d.dd;
+            // return d.dd_year;
             return d.sum_rating;
         })
         // (_optional_) sort order, `default = d3.ascending`
@@ -1081,21 +1149,24 @@ d3.csv('data.csv', function (data) {
     // Or you can choose to redraw only those charts associated with a specific chart group
     dc.redrawAll('group');
     */
+    d3.selectAll('#year-range').text('(' + minRangeYear + ' - ' + maxRangeYear + ')');
 
 });
 
 //#### Versions
 
 //Determine the current version of dc with `dc.version`
-minYear = '1988';
+// minRangeYear = '1988';
 d3.selectAll('#version').text(dc.version);
-d3.select('h2').text("Car Pricing");
-d3.select('h5').text(("Year from " + minYear.toString()) + " to " + currentYear.toString());
+// d3.select('h2').text("Car Pricing");
+// d3.select('h5').text(("Year from " + minRangeYear.toString()) + " to " + currentYear.toString());
 // d3.select("#subseries-chart").select('strong').text("Series")
 // d3.select("#make-piechart").select('strong').text("Car Make")
 // d3.select("#model-chart").select('strong').text("Model")
 // d3.select("#valuerating-histogram").select('strong').text("Value Rating Distribution")
+
 // Determine latest stable version in the repo via Github API
+
 d3.json('https://api.github.com/repos/dc-js/dc.js/releases/latest', function (error, latestRelease) {
     /*jshint camelcase: false */
     /* jscs:disable */

@@ -2402,7 +2402,7 @@ dc.baseMixin = function (_chart) {
      *     // mix of dc API and d3 manipulation
      *     chart.select('g.y').style('display', 'none');
      *     // its a closure so you can also access other chart variable available in the closure scope
-     *     moveChart.filter(chart.filter());
+     *     volumeMainMoveChart.filter(chart.filter());
      * });
      * @param {Function} renderletFunction
      * @returns {dc.baseMixin}
@@ -7626,9 +7626,9 @@ dc.compositeChart = function (parent, chartGroup) {
      * @memberof dc.compositeChart
      * @instance
      * @example
-     * moveChart.compose([
+     * volumeMainMoveChart.compose([
      *     // when creating sub-chart you need to pass in the parent chart
-     *     dc.lineChart(moveChart)
+     *     dc.lineChart(volumeMainMoveChart)
      *         .group(indexAvgByMonthGroup) // if group is missing then parent's group will be used
      *         .valueAccessor(function (d){return d.value.avg;})
      *         // most of the normal functions will continue to work in a composed chart
@@ -7639,7 +7639,7 @@ dc.compositeChart = function (parent, chartGroup) {
      *             if(isNaN(value)) value = 0;
      *             return dateFormat(d.key) + '\n' + numberFormat(value);
      *         }),
-     *     dc.barChart(moveChart)
+     *     dc.barChart(volumeMainMoveChart)
      *         .group(volumeByMonthGroup)
      *         .centerBar(true)
      * ]);
