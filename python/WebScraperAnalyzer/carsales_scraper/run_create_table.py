@@ -279,7 +279,6 @@ def create_web_files(df, weightings=None,
 
     copy_sub_file(df=df, extpath=extpath)
 
-
 if __name__ == '__main__':
     # run_create_scatterplot_from_model(model=model)
     run_create_all()

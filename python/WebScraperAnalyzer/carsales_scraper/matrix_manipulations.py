@@ -7,7 +7,7 @@ import sqlite3
 import shutil
 from pandas.io import sql
 from auxiliary.file_ops import *
-
+from run_create_table import *
 import errno
 import os
 
