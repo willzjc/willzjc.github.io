@@ -15,17 +15,17 @@ def mkdir_p(path):
         else:
             raise
 
-def copy_sub_category_dir(df,extpath):
+def copy_sub_category_dir(df,extpath,exclude_files = ['.py','template']):
     ## Recreate file in subfolder
 
-    make=df.loc[0]['make'].lower()
-    model=df.loc[0]['model'].lower()
+    make=df.loc[0]['make'].lower().replace('/','_')
+    model=df.loc[0]['model'].lower().replace('/','_')
 
     def copy_sub_dir_files(src,dst):
         NOTHING_HAPPENS=True
 
     target_path=extpath+'/'+make+'/'+model
-    checkdir=(target_path+'/auxiliary/data').replace('//','/')
+    checkdir=(target_path+'/auxiliary/data').replace('//','/').replace(' ','_')
     checkdir=os.path.realpath(checkdir)
     if not os.path.exists(checkdir):
         # print 'Creating directory %s if not exist'%(target_path)
@@ -35,12 +35,15 @@ def copy_sub_category_dir(df,extpath):
     for path in ['','/auxiliary/','/auxiliary/data/']:
 
         src=(extpath+'/'+path).replace('//','/')
-        dst=os.path.realpath(target_path+'/'+path.replace('//','/'))
+        dst=os.path.realpath(target_path+'/'+path.replace('//','/')).replace(' ','_')
 
         # Get source file
         for file in os.listdir(src):
             rfile=os.path.realpath(src+file)
             if os.path.isfile(rfile):
+                if any(s in rfile for s in exclude_files):
+                    print 'Excluding: ',rfile
+                    continue
                 print 'copying %s to %s'%(rfile,dst)
                 shutil.copy(rfile,dst)
 
@@ -48,14 +51,16 @@ def copy_sub_category_dir(df,extpath):
 def copy_sub_file(df,extpath,exclude_files = ['.py','template']):
     ## Recreate file in subfolder
     # print df.columns
-    make=df.loc[0]['make'].lower()
-    model=df.loc[0]['model'].lower()
+    make=df.loc[0]['make'].lower().replace('/','_')
+    model=df.loc[0]['model'].lower().replace('/','_')
 
     def copy_sub_dir_files(src,dst):
         NOTHING_HAPPENS=True
 
     target_path=extpath+'/'+make+'/'+model
-    checkdir=(target_path+'/auxiliary/data').replace('//','/')
+    target_path=target_path.replace(' ','_')
+
+    checkdir=(target_path+'/auxiliary/data').replace('//','/').replace(' ','_')
     checkdir=os.path.realpath(checkdir).replace('//','/')
     if not os.path.exists(checkdir):
         # print 'Creating directory %s if not exist'%(target_path)
@@ -65,7 +70,7 @@ def copy_sub_file(df,extpath,exclude_files = ['.py','template']):
     for path in ['']:
 
         src=(extpath+'/'+path).replace('//','/')
-        dst=os.path.realpath(target_path+'/'+path.replace('//','/'))
+        dst=os.path.realpath(target_path+'/'+path.replace('//','/')).replace(' ','_')
 
         # Get source file
         for file in os.listdir(src):

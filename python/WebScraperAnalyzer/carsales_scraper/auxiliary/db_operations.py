@@ -49,7 +49,7 @@ class db_interface ():
         self.db_save(container['id'],container['title'],container['link'],container['make'],container['model'],container['series'],
                      container['transmission'],container['age'],container['age_rating'],container['milage'],container['milage_rating'],
                      container['price'],container['price_rating'])
-            
+
         return 0
         # except Exception as e:
         #     print 'db_save_df() exception:',e
@@ -75,5 +75,10 @@ class db_interface ():
             print 'Car : ' + title + ' (' + id + ') already exists in database!'
             return 1
 
+        # Remove Duplicates
+        cursor.execute('DELETE FROM cars WHERE rowid NOT IN (SELECT min(rowid) FROM cars GROUP BY id)')
+
         self.connection.commit()
+
+
         return 0

@@ -27,8 +27,6 @@ global dmilage
 global dprice
 
 
-
-
 db_save=True
 
 df = pd.DataFrame(columns=['id','title','link','make','model','series','transmission','price','milage','age'])
@@ -37,8 +35,6 @@ entry_already_in_db =False
 run_until_pagenum   =0     # Set to higher if you want to live scrape but terminate earlier
 LIVE_DATA           =True
 # LIVE_DATA=False       # Uncomment if you want to simulate scraping and just do parsing
-
-
 
 car_ids             =[]
 ages                =[]
@@ -107,6 +103,13 @@ def get_useful_xml_elements(tree,df):
     global dprice
 
     global total_car_count
+    
+    def merge_tokens(tokens, patterns):
+        # line = ' '.join(tokens)
+        if filter(lambda x: filter(lambda y: x in y.lower(), tokens), patterns):
+            tokens[1] = tokens[1] + ' ' + tokens[2]
+            tokens = tokens[0:2] + tokens[3:]
+    
     # < span   class ="count" > (1, 539) < / span >
     # Get total tocs
 
@@ -119,13 +122,13 @@ def get_useful_xml_elements(tree,df):
             "div[contains(@class, 'listing-header')]/div[contains(@class, 'n_columns')]/div[contains(@class, 'save-button')]/@data-csn-item-id")
         title_string  = element.xpath("div[contains(@class, 'listing-header')]/div[contains(@class, 'n_columns')]/div[contains(@class, 'n_width-max title ')]/a/h2/text()")
         price_string  = element.xpath("div[contains(@class, 'listing-body')]/div[contains(@class,'n_columns')]/div[contains(@class, 'price')]" +
-                               "/a/div[contains(@class,'price')][text()[contains(.,'$')]]" +
-                               "/text()")
+           "/a/div[contains(@class,'price')][text()[contains(.,'$')]]" +
+           "/text()")
         # // span[contains( @class , 'myclass') and text() = 'qwerty']
 
         milage_string = element.xpath("div[contains(@class, 'listing-body')]/div[contains(@class,'n_columns')]" +
-                               "/div[contains(@class, 'ad-features')]/div[contains(@class, 'vehicle-features')]/div[contains(@class, 'listing-feature')]" +
-                               "/div[contains(@class, 'feature-text')][text()[contains(.,'km')]]/text()")
+               "/div[contains(@class, 'ad-features')]/div[contains(@class, 'vehicle-features')]/div[contains(@class, 'listing-feature')]" +
+               "/div[contains(@class, 'feature-text')][text()[contains(.,'km')]]/text()")
 
         link_string = element.xpath("div[contains(@class, 'listing-header')]/div[contains(@class, 'n_columns')]/div[contains(@class, 'n_width-max title ')]/a/@href")
 
@@ -137,7 +140,8 @@ def get_useful_xml_elements(tree,df):
             #                    dprice.sets[index], dmilage.sets[index], dage.sets[index]]
 
             car_id='.'.join(header).strip()
-            title = ''.join(title_string).strip()
+            title_string = ''.join(title_string).strip()
+            car_description = ''.join(title_string).strip()
             age = thisyear - parse_numeric(''.join(title_string).strip()[:4])
             milage = parse_float(''.join(milage_string).strip())
             link = 'https://www.carsales.com.au' + ''.join(link_string).strip()
@@ -146,16 +150,31 @@ def get_useful_xml_elements(tree,df):
             series = ''
 
             # Post processing - Title contains make, model, and series information, so extract as such
+            # As such it requires tokenization
             try:
-                make = title.split(' ')[1]
-                model = title.split(' ')[2]
-                series = (' '.join(title.split(' ')[3:])).replace('Auto', '').replace('Manual', '').strip()
-                transmission = title.split(' ')[-1]
+
+                # split description/title string
+                car_description_tokenized = car_description.split(' ')
+############################## Car Make Combiner  ##############################
+                if filter(lambda x: x in car_description.lower(), ['aston martin', 'land rover']):
+                    # car_description=car_description.replace(' ','-',2)
+                    car_description_tokenized[1] = car_description_tokenized[1]+' '+car_description_tokenized[2]
+                    car_description_tokenized = car_description_tokenized[0:2] + car_description_tokenized[3:]
+
+############################## Car Model Combiner ##############################
+                make = car_description_tokenized[1]
+                if filter(lambda x: x in car_description_tokenized[2].lower(), ['v8', 'v10', 'v12']):
+                    car_description_tokenized[1] = car_description_tokenized[1]+' '+car_description_tokenized[2]
+                    car_description_tokenized = car_description_tokenized[0:2] + car_description_tokenized[3:]
+
+                model = car_description_tokenized[2]
+                series = (' '.join(car_description_tokenized[3:])).replace('Auto', '').replace('Manual', '').strip()
+                transmission = car_description_tokenized[-1]
             except Exception as e:
                 print 'String op failed: ',e
 
             car_ids.append(car_id)
-            titles.append(title)
+            titles.append(car_description)
             ages.append(age)
             prices.append(price)
             milages.append(milage)
@@ -164,7 +183,7 @@ def get_useful_xml_elements(tree,df):
 
             df.loc[len(df)] = [
                 car_id,
-                title,
+                car_description,
                 link,
                 make,
                 model,
@@ -372,8 +391,6 @@ def main():
     #Audi RS7
     url='https://www.carsales.com.au/cars/audi/rs7/'
 
-    #Astin Martin
-    url='https://www.carsales.com.au/cars/astonmartin/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
 
     # BMW All 3 Series
     url='https://www.carsales.com.au/cars/bmw/3-series-marketinggroup/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
@@ -386,6 +403,13 @@ def main():
     url='https://www.carsales.com.au/cars/mercedesbenz/c250/c-class-marketinggroup/new-south-wales-state/?WT.z_srchsrcx=makemodel'
     # Mercedes C63
     url='https://www.carsales.com.au/cars/mercedesbenz/c63/c-class-marketinggroup/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
+
+    # Astin Martin
+    url = 'https://www.carsales.com.au/cars/astonmartin/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
+
+    # Toyota Corolla
+    url = 'https://www.carsales.com.au/cars/toyota/corolla/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
+
     db_save = False
     USE_LOCAL_COPY = False
 
