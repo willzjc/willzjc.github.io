@@ -45,9 +45,12 @@ def calculate_analytics(df,weightings=None):
             df=df.drop([metric + '_std'],  axis=1)
             df=df.drop([metric + '_mean'], axis=1)
 
-    # Force inserts a column called 'row_count' into dtaframe
-    df.insert(0, 'row_count', range(1, len(df)+1))
 
+
+    # Force inserts a column called 'row_count' into dtaframe
+    if 'row_count' in df:
+        df=df.drop(columns=['row_count'])
+    df.insert(0, 'row_count', range(1, len(df)+1))
 
     import statsmodels.api as sm        # Required for regression prediction
 

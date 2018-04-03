@@ -9,7 +9,8 @@ import matrix_manipulations
 
 def create_web_files(df, weightings=None,
                      extpath='C:/local/apps/wamp64/www/github/willzjc.github.io/valuerating/', prediction_model=None,
-                     USE_LOCAL_COPY=False
+                     USE_LOCAL_COPY=False,
+                     db_write=True
                      ):
     if (USE_LOCAL_COPY):
         df = pd.read_pickle('auxiliary/data/last_run.pk')
@@ -98,8 +99,9 @@ def create_web_files(df, weightings=None,
 
     df.to_csv('output/records.csv')
 
-    with sqlite3.connect('auxiliary/my_db.sqlite') as cnx:
-        df.to_sql('cars', cnx, if_exists='append')
+    if db_write:
+        with sqlite3.connect('auxiliary/my_db.sqlite') as cnx:
+            df.to_sql('cars', cnx, if_exists='append')
 
     for path in ['output/records.json', extpath + 'auxiliary/data/records.json']:
         with open(path, 'w') as f:
@@ -137,23 +139,38 @@ def create_web_files(df, weightings=None,
 
 def run_create_all():
     conn = sqlite3.connect("auxiliary/my_db.sqlite")
+    cleantb = conn.execute('DELETE FROM cars WHERE rowid NOT IN (SELECT min(rowid) FROM cars GROUP BY id);')
+    conn.commit()
+    conn.close()
+
+    conn = sqlite3.connect("auxiliary/my_db.sqlite")
+
     res = conn.execute('select distinct model from cars')
+
 
     for r in res:
         model = r[0]
-        df = pd.read_sql('select * from cars where model =\'%s\'' % (model))
+        df = pd.read_sql('select * from cars where model =\'%s\'' % (model),conn)
         # Recalculate all regressions
-        df, prediction_model = matrix_manipulations.calculate_analytics(df=df)
 
-        create_web_files()
+        try:
+            df, prediction_model = matrix_manipulations.calculate_analytics(df=df)
+            create_web_files(df,db_write=False)
+        except Exception as e:
+            print 'Error with:',e
+            print 'df failed:',df
+
 
     # df = pd.read_sql_query("select * from cars where model like 'Camry' and age > 2 and price < 15000 and age < 18;", conn)
     # run_create_scatterplot_from_model(conn)
 
 
 def create_web_files(df, weightings=None,
-                     extpath='C:/local/apps/wamp64/www/github/willzjc.github.io/valuerating/', prediction_model=None,
-                     USE_LOCAL_COPY=False
+                     # extpath='C:/local/apps/wamp64/www/github/willzjc.github.io/web/valuerating/',
+                     extpath='../../../web/valuerating/',
+                     prediction_model=None,
+                     USE_LOCAL_COPY=False,
+                     db_write=True
                      ):
     if (USE_LOCAL_COPY):
         df = pd.read_pickle('auxiliary/data/last_run.pk')
@@ -241,8 +258,9 @@ def create_web_files(df, weightings=None,
 
     df.to_csv('output/records.csv')
 
-    with sqlite3.connect('auxiliary/my_db.sqlite') as cnx:
-        df.to_sql('cars', cnx, if_exists='append')
+    if db_write:
+        with sqlite3.connect('auxiliary/my_db.sqlite') as cnx:
+            df.to_sql('cars', cnx, if_exists='append')
 
     for path in ['output/records.json', extpath + 'auxiliary/data/records.json']:
         with open(path, 'w') as f:
@@ -275,7 +293,7 @@ def create_web_files(df, weightings=None,
             f.write(json.dumps(summarylist, indent=4, separators=(',', ': ')))
             f.close()
 
-    copy_sub_category_dir(extpath=extpath, df=df)
+    copy_sub_category_dir(df=df,extpath=extpath)
 
     copy_sub_file(df=df, extpath=extpath)
 

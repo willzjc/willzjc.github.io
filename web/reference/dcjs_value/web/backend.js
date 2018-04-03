@@ -1040,7 +1040,10 @@ d3.csv('data.csv', function (data) {
                 label: 'Chart',
                 format: function (d) {
                     var scatter_link = '../../../scatterplot_table/'+d.make +'/'+ d.model;
-                    return '<a href="' + scatter_link  + '">' + 'Scatter' + '</a>';
+                    var summary_link = '../../../value_rating/'+d.make +'/'+ d.model;
+                    return '<a href="' + scatter_link  + '">' + 'Scatter' + '</a>' + ' / '
+                          +'<a href="' + summary_link  + '">' + 'Summary' + '</a>'
+                        ;
                 }
             }
         ])

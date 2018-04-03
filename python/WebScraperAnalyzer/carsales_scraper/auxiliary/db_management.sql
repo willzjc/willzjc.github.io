@@ -38,4 +38,4 @@
 -- Deletes Duplicates
 -- DELETE FROM cars WHERE rowid NOT IN (SELECT min(rowid) FROM cars GROUP BY id);
 DELETE FROM cars WHERE rowid NOT IN (SELECT min(rowid) FROM cars GROUP BY id);
-select * from cars;
+select count(*) from cars;
