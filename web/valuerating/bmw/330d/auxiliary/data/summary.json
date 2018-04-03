@@ -1,0 +1,23 @@
+{
+    "price_max": 39999.0,
+    "sum_rating_max": 2.23271012901565,
+    "2009_milage_mean": 89878,
+    "2010_milage_mean": 105000,
+    "price_weight": 3,
+    "sum_rating_min": -3.375937404106474,
+    "2010_price_mean": 21888,
+    "2011_price_mean": 26993,
+    "2009_price_mean": 25850,
+    "2013_milage_mean": 33706,
+    "price_min": 20990.0,
+    "milage_weight": 2,
+    "milage_max": 125879.0,
+    "price_difference_max": 4119.0,
+    "age_min": 5.0,
+    "2011_milage_mean": 103067,
+    "age_max": 9.0,
+    "price_difference_min": -7212.0,
+    "milage_min": 33706.0,
+    "age_weight": 1,
+    "2013_price_mean": 39999
+}

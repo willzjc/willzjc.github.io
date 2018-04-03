@@ -1,0 +1,19 @@
+{
+    "price_max": 4850.0,
+    "sum_rating_max": 4.242640687119286,
+    "2002_milage_mean": 163150,
+    "2002_price_mean": 4850,
+    "price_weight": 3,
+    "2004_price_mean": 3500,
+    "sum_rating_min": -4.242640687119286,
+    "2004_milage_mean": 103675,
+    "milage_weight": 2,
+    "price_min": 3500.0,
+    "milage_max": 163150.0,
+    "price_difference_max": 0.0,
+    "age_min": 14.0,
+    "age_max": 16.0,
+    "price_difference_min": -1.0,
+    "milage_min": 103675.0,
+    "age_weight": 1
+}

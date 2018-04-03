@@ -1,0 +1,19 @@
+{
+    "price_max": 27990.0,
+    "sum_rating_max": 1.7230020850431962,
+    "price_weight": 3,
+    "2012_price_mean": 27950,
+    "sum_rating_min": -1.473605664856995,
+    "milage_weight": 2,
+    "2013_milage_mean": 75680,
+    "price_min": 27500.0,
+    "milage_max": 97500.0,
+    "price_difference_max": -1.0,
+    "age_min": 5.0,
+    "age_max": 6.0,
+    "price_difference_min": -1.0,
+    "2012_milage_mean": 53010,
+    "milage_min": 53010.0,
+    "age_weight": 1,
+    "2013_price_mean": 27745
+}
