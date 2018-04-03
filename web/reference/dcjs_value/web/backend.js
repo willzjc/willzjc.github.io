@@ -1041,7 +1041,7 @@ d3.csv('data.csv', function (data) {
                 label: 'Chart',
                 format: function (d) {
                     var scatter_link = '../../../scatterplot_table/'+d.make +'/'+ d.model;
-                    var summary_link = '../../../value_rating/'+d.make +'/'+ d.model;
+                    var summary_link = '../../../valuerating/'+d.make +'/'+ d.model;
 
                     return '<a href="' + scatter_link.toLowerCase()  + '">' + 'Scatter' + '</a>' + ' / '
                           +'<a href="' + summary_link.toLowerCase()  + '">' + 'Summary' + '</a>'
