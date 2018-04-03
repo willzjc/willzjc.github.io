@@ -1,0 +1,21 @@
+{
+    "price_max": 499900.0,
+    "sum_rating_max": 5.342278365699064,
+    "price_weight": 3,
+    "sum_rating_min": -5.408444354185254,
+    "2016_milage_mean": 1350,
+    "2016_price_mean": 429990,
+    "2018_price_mean": 417994,
+    "2017_milage_mean": 2509,
+    "price_min": 403325.0,
+    "milage_weight": 2,
+    "milage_max": 8500.0,
+    "2017_price_mean": 460218,
+    "price_difference_max": 42988.0,
+    "age_weight": 1,
+    "age_min": 0.0,
+    "age_max": 2.0,
+    "price_difference_min": -48642.0,
+    "milage_min": 0.0,
+    "2018_milage_mean": 49
+}

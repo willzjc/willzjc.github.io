@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="jquery-live-preview.js"></script>
-    <link href="livepreview-demo.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="auxiliary/style.css">
+    <script type="text/javascript" src="auxiliary/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="auxiliary/jquery-live-preview.js"></script>
+    <link href="auxiliary/livepreview-demo.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -19,7 +19,7 @@
     <!--<label><input type="radio" name="dataset" id="dataset" value="option2"> Option 2</label>-->
 </form>
 
-<script src="d3.v3.min.js" charset="utf-8"></script>
+<script src="auxiliary/d3.v3.min.js" charset="utf-8"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
 
 <script>
@@ -28,71 +28,72 @@
 
     
         average_prices = [
-			{label: "2017 (88)", value: 23834 },
-			{label: "2016 (211)", value: 19492 },
-			{label: "2015 (110)", value: 17682 },
-			{label: "2014 (139)", value: 16451 },
-			{label: "2013 (118)", value: 15360 },
-			{label: "2012 (81)", value: 13488 },
-			{label: "2011 (57)", value: 11922 },
-			{label: "2010 (59)", value: 10626 },
-			{label: "2009 (58)", value: 9554 },
-			{label: "2008 (75)", value: 8865 },
-			{label: "2007 (67)", value: 8105 },
-			{label: "2006 (32)", value: 6262 },
-			{label: "2005 (36)", value: 5973 },
-			{label: "2004 (38)", value: 5302 },
-			{label: "2003 (33)", value: 5095 },
-			{label: "2002 (19)", value: 4215 },
-			{label: "2001 (21)", value: 3287 },
-			{label: "2000 (19)", value: 3124 },
-			{label: "1999 (11)", value: 2912 },
-			{label: "1998 (5)", value: 2378 },
-			{label: "1997 (10)", value: 1969 },
-			{label: "1996 (7)", value: 2041 },
-			{label: "1995 (6)", value: 2131 },
-			{label: "1994 (2)", value: 2210 },
-			{label: "1993 (6)", value: 1500 },
-			{label: "1992 (1)", value: 6000 },
-			{label: "1990 (2)", value: 4000 },
-			{label: "1982 (1)", value: 3000 },
-			{label: "1981 (1)", value: 5000 },
-			{label: "1977 (1)", value: 9500 } 
- 
+			{label: "2018 (125)", value: 26587 },
+			{label: "2017 (180)", value: 26605 },
+			{label: "2016 (235)", value: 18799 },
+			{label: "2015 (108)", value: 17791 },
+			{label: "2014 (106)", value: 16517 },
+			{label: "2013 (99)", value: 15147 },
+			{label: "2012 (72)", value: 13522 },
+			{label: "2011 (50)", value: 11740 },
+			{label: "2010 (45)", value: 10343 },
+			{label: "2009 (47)", value: 9951 },
+			{label: "2008 (75)", value: 8829 },
+			{label: "2007 (46)", value: 7901 },
+			{label: "2006 (42)", value: 6087 },
+			{label: "2005 (36)", value: 5769 },
+			{label: "2004 (25)", value: 5702 },
+			{label: "2003 (32)", value: 4834 },
+			{label: "2002 (23)", value: 4503 },
+			{label: "2001 (14)", value: 3962 },
+			{label: "2000 (17)", value: 3501 },
+			{label: "1999 (6)", value: 2848 },
+			{label: "1998 (12)", value: 2820 },
+			{label: "1997 (2)", value: 2424 },
+			{label: "1996 (4)", value: 1987 },
+			{label: "1995 (1)", value: 2990 },
+			{label: "1994 (2)", value: 2375 },
+			{label: "1993 (6)", value: 1750 },
+			{label: "1992 (1)", value: 1800 },
+			{label: "1991 (1)", value: 1700 },
+			{label: "1990 (1)", value: 2000 },
+			{label: "1987 (2)", value: 3750 },
+			{label: "1983 (2)", value: 6750 } 
             ];
         
     
         average_milages = [ 
-		{label: "2017 (88)", value: 1960 },
-			{label: "2016 (211)", value: 35228 },
-			{label: "2015 (110)", value: 45067 },
-			{label: "2014 (139)", value: 59944 },
-			{label: "2013 (118)", value: 67768 },
-			{label: "2012 (81)", value: 78583 },
-			{label: "2011 (57)", value: 95723 },
-			{label: "2010 (59)", value: 105400 },
-			{label: "2009 (58)", value: 118908 },
-			{label: "2008 (75)", value: 125177 },
-			{label: "2007 (67)", value: 128571 },
-			{label: "2006 (32)", value: 151719 },
-			{label: "2005 (36)", value: 163649 },
-			{label: "2004 (38)", value: 170615 },
-			{label: "2003 (33)", value: 177772 },
-			{label: "2002 (19)", value: 206992 },
-			{label: "2001 (21)", value: 221856 },
-			{label: "2000 (19)", value: 222080 },
-			{label: "1999 (11)", value: 199900 },
-			{label: "1998 (5)", value: 251541 },
-			{label: "1997 (10)", value: 191627 },
-			{label: "1996 (7)", value: 207485 },
-			{label: "1995 (6)", value: 166943 },
-			{label: "1994 (2)", value: 150659 },
-			{label: "1993 (6)", value: 232806 },
-			{label: "1992 (1)", value: 210690 },
-			{label: "1990 (2)", value: 152500 },
-			{label: "1982 (1)", value: 88000 },
-			{label: "1981 (1)", value: 150000 },
-			{label: "1977 (1)", value: 20466 } 
+		{label: "2018 (125)", value: 10 },
+			{label: "2017 (180)", value: 3852 },
+			{label: "2016 (235)", value: 39325 },
+			{label: "2015 (108)", value: 45580 },
+			{label: "2014 (106)", value: 58572 },
+			{label: "2013 (99)", value: 68043 },
+			{label: "2012 (72)", value: 79508 },
+			{label: "2011 (50)", value: 94536 },
+			{label: "2010 (45)", value: 108650 },
+			{label: "2009 (47)", value: 113130 },
+			{label: "2008 (75)", value: 125860 },
+			{label: "2007 (46)", value: 131723 },
+			{label: "2006 (42)", value: 162975 },
+			{label: "2005 (36)", value: 164866 },
+			{label: "2004 (25)", value: 167982 },
+			{label: "2003 (32)", value: 176802 },
+			{label: "2002 (23)", value: 195537 },
+			{label: "2001 (14)", value: 189206 },
+			{label: "2000 (17)", value: 198951 },
+			{label: "1999 (6)", value: 205399 },
+			{label: "1998 (12)", value: 192878 },
+			{label: "1997 (2)", value: 215894 },
+			{label: "1996 (4)", value: 211422 },
+			{label: "1995 (1)", value: 307595 },
+			{label: "1994 (2)", value: 155000 },
+			{label: "1993 (6)", value: 208591 },
+			{label: "1992 (1)", value: 246000 },
+			{label: "1991 (1)", value: 145000 },
+			{label: "1990 (1)", value: 155000 },
+			{label: "1987 (2)", value: 316000 },
+			{label: "1983 (2)", value: 119834 } 
             ];
         
 
@@ -243,8 +244,8 @@
     }
 
     queue()
-        .defer(d3.json, "data/records.json")
-        .defer(d3.json, "data/summary.json")
+        .defer(d3.json, "auxiliary/data/records.json")
+        .defer(d3.json, "auxiliary/data/summary.json")
         .await(ready);
 
     rating_style_prefix = '<span class="text" style="text-align: right; padding-right: 5px; color: '

@@ -1,0 +1,19 @@
+{
+    "price_max": 750000.0,
+    "sum_rating_max": 1.4142135623730947,
+    "1967_price_mean": 650000,
+    "price_weight": 3,
+    "sum_rating_min": -1.4142135623730947,
+    "milage_weight": 2,
+    "price_min": 650000.0,
+    "milage_max": 59515.0,
+    "1966_price_mean": 750000,
+    "price_difference_max": 0.0,
+    "age_weight": 1,
+    "age_min": 51.0,
+    "age_max": 52.0,
+    "price_difference_min": 0.0,
+    "1967_milage_mean": 59515,
+    "milage_min": 31027.0,
+    "1966_milage_mean": 31027
+}
