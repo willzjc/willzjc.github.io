@@ -410,6 +410,17 @@ def main():
     # Toyota Corolla
     url = 'https://www.carsales.com.au/cars/toyota/corolla/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
 
+    #bmw 320i repeat
+    url='https://www.carsales.com.au/cars/results?q=%28And.Service.Carsales._.State.New%20South%20Wales._.%28Or.%28C.Make.BMW._.%28C.MarketingGroup.3%20Series._.Model.320i.%29%29_.%28C.Make.BMW._.Model.320d.%29%29%29&WT.z_srchsrcx=makemodel'
+
+    # Jag
+    url='https://www.carsales.com.au/cars/jaguar/epace/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
+    # Jag E-Type
+    url='https://www.carsales.com.au/cars/jaguar/etype/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
+
+    # Mazda 3
+    url='https://www.carsales.com.au/cars/mazda/3/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
+
     db_save = False
     USE_LOCAL_COPY = False
 
