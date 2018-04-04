@@ -21,6 +21,9 @@ var volumeMainMoveChart = dc.lineChart('#pricediff-move-chart');
 var volumeRangeChart = dc.barChart('#price-volume-chart');
 var priceDiffDataCount = dc.dataCount('.dc-data-count');
 
+var makeRowchartObject = dc.rowChart('#make-row-chart');
+
+
 var pie_chart_ordinal_colors = [
     "#2d77ad",
     "#448dbf",
@@ -380,8 +383,9 @@ d3.csv('data.csv', function (data) {
         return d.make;
         // return d.open > d.close ? 'Loss' : 'Gain';
     });
+
     // Produce counts records in the dimension
-    var carMakeGroups = getTops(carMakeDimensions.group(), 6);
+    var carMakeGroups = getTops(carMakeDimensions.group(), 10);
 
     // Transmission - Create categorical dimension
     var transmissionDimensions = input_data.dimension(function (d) {
@@ -452,6 +456,17 @@ d3.csv('data.csv', function (data) {
 
     var modelRowchartGroup = getTops(modelRowchartDimensions.group(), 6);
 
+    
+    
+        // Summarize volume by makeRowDimensions
+    var makeRowchartDimenions = input_data.dimension(function (d) {
+        var makeName = d.make.trim();
+        return makeName;
+        // return d.age;
+    });
+
+    var makeRowGroup = makeRowchartDimenions.group()
+    
     //### Define Chart Attributes
     // Define chart attributes using fluent methods. See the
     // [dc.js API Reference](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md) for more information
@@ -1063,6 +1078,32 @@ d3.csv('data.csv', function (data) {
             table.selectAll('.dc-table-group').classed('info', true);
 
         });
+
+    // Create a row chart and use the given css selector as anchor. You can also specify
+    // an optional chart group for this chart to be scoped within. When a chart belongs
+    // to a specific group then any interaction with such chart will only trigger redraw
+    // on other charts within the same chart group.
+    // <br>API: [Row Chart](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#row-chart)
+    makeRowchartObject /* dc.rowChart('#model-chart', 'chartGroup') */
+        .width(932)
+        // .height(500)
+        .margins({top: 20, left: 10, right: 10, bottom: 20})
+        .group(makeRowGroup)
+        .dimension(makeRowchartDimenions)
+        .ordinalColors(row_chart_ordinal_colors)
+
+        .label(function (d) {
+            // return d.key.split('.')[1];
+            return d.key;
+        })
+        // Title sets the row text
+        .title(function (d) {
+            return d.key + ' (' + d.value + ')';
+        })
+        .elasticX(true)
+        .xAxis().ticks(4);
+
+
 
     /*
     //#### Geo Choropleth Chart
