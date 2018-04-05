@@ -62,6 +62,7 @@ def copy_sub_file(df,extpath,exclude_files = ['.py','template']):
 
     checkdir=(target_path+'/auxiliary/data').replace('//','/').replace(' ','_')
     checkdir=os.path.realpath(checkdir).replace('//','/')
+
     if not os.path.exists(checkdir):
         # print 'Creating directory %s if not exist'%(target_path)
         print 'Target Path %s doesn\'t exist'%(target_path)

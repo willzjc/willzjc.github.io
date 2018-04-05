@@ -13,7 +13,7 @@ def cleandb_create_all(dcjs_csv_outpath):
     conn_clean.commit()
 
     conn = sqlite3.connect("auxiliary/my_db.sqlite")
-    cursor = conn.execute('select * from cars')
+    cursor = conn.execute('select * from cars order by sum_rating DESC')
 
     with open(dcjs_csv_outpath, 'wb') as f:
         writer = csv.writer(f)
@@ -27,10 +27,10 @@ def copy_to_dcjs_path(dcjs_csv_outpath):
     dcjs_web_dir_csv_outpath=dcjs_web_dir_csv_outpath+'/data.csv'
     shutil.copy(dcjs_csv_outpath,dcjs_web_dir_csv_outpath)
 
-def run_all():
+def run_create_all():
     dcjs_csv_outpath = 'output/dcjs_data.csv'
     cleandb_create_all(dcjs_csv_outpath)
     copy_to_dcjs_path(dcjs_csv_outpath)
 
 if __name__ =='__main__':
-    run_all()
+    run_create_all()

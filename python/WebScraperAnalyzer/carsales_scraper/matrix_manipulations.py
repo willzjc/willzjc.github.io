@@ -7,7 +7,7 @@ import sqlite3
 import shutil
 from pandas.io import sql
 from auxiliary.file_ops import *
-from run_create_table import *
+from create_webfiles_table import *
 import errno
 import os
 
@@ -69,38 +69,52 @@ def calculate_analytics(df,weightings=None):
     return df,prediction_model
 
 
+def recalculate_ratings():
+    # import auxiliary.db_operations as dbo
+    #
+    # query = "select * from cars where date_created > '%s' and make like 'toyota' and model like 'prius' " % datetime.datetime(2017,1,1).isoformat()
+    # query = "select * from cars where date_created > '%s' and make like 'bmw'" % datetime.datetime(
+    #     2018, 1, 1).isoformat()
+    #
+    # query = "select * from cars where date_created >= '%s' and make like 'bmw'" % datetime.datetime(
+    #     2018, 1, 21).isoformat()
+    #
+    # db_interface=dbo.db_interface()
 
-def main():
+    conn_clean = sqlite3.connect("auxiliary/my_db.sqlite")
+    cursor = conn_clean.execute('DELETE FROM cars WHERE rowid NOT IN (SELECT min(rowid) FROM cars GROUP BY id)')
+    conn_clean.commit()
 
-    import auxiliary.db_operations as dbo
+    conn = sqlite3.connect("auxiliary/my_db.sqlite")
 
-    query = "select * from cars where date_created > '%s' and make like 'toyota' and model like 'prius' " % datetime.datetime(2017,1,1).isoformat()
-    query = "select * from cars where date_created > '%s' and make like 'bmw'" % datetime.datetime(
-        2018, 1, 1).isoformat()
+    res = conn.execute('select distinct model from cars')
 
-    query = "select * from cars where date_created >= '%s' and make like 'bmw'" % datetime.datetime(
-        2018, 1, 21).isoformat()
+    for r in res:
+        model = r[0]
+        df = pd.read_sql('select * from cars where model =\'%s\'' % (model),conn)
 
-    db_interface=dbo.db_interface()
+        # cursor = conn.execute('select * from cars order by sum_rating DESC')
+        #
+        # df = pd.read_sql(query, con=db_interface.connection)
+        # Rearrangement of 2 last columns (shuffs datestamps to the front)
+        columns = df.columns.tolist()
+        columns = columns[0:2] + columns[-2:] + columns[2:-2]
+        columns.remove('link')
+        columns.insert(1, 'link')
 
-    df = pd.read_sql(query, con=db_interface.connection)
-    # Rearrangement of 2 last columns (shuffs datestamps to the front)
-    columns = df.columns.tolist()
-    columns = columns[0:2] + columns[-2:] + columns[2:-2]
-    columns.remove('link')
-    columns.insert(1, 'link')
+        # See coefficients below
+        weightings = {
+            'age': 1,
+            'milage': 2,
+            'price':3
+        }
+
+        df = df[columns]    # Rearrange columns
+        df = calculate_analytics(df,weightings)
+        create_web_files(df, weightings)
 
 
-    # See coefficients below
-    weightings = {
-        'age': 1,
-        'milage': 2,
-        'price':3
-    }
 
-    df = df[columns]    # Rearrange columns
-    df = calculate_analytics(df,weightings)
-    create_web_files(df, weightings)
 
 if __name__ == "__main__":
-    main()
+    recalculate_ratings()

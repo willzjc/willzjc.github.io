@@ -134,7 +134,7 @@ def create_web_files(df, weightings=None,
             f.write(json.dumps(summarylist, indent=4, separators=(',', ': ')))
             f.close()
 
-    copy_sub_category_dir(extpath=extpath, df=df)
+    copy_sub_file(extpath=extpath, df=df)
 
 
 def run_create_all():
@@ -145,8 +145,9 @@ def run_create_all():
 
     conn = sqlite3.connect("auxiliary/my_db.sqlite")
 
-    res = conn.execute('select distinct model from cars')
+    # Get Each Model's Rating based on distinct model
 
+    res = conn.execute('select distinct model from cars')
 
     for r in res:
         model = r[0]
@@ -293,7 +294,7 @@ def create_web_files(df, weightings=None,
             f.write(json.dumps(summarylist, indent=4, separators=(',', ': ')))
             f.close()
 
-    copy_sub_category_dir(df=df,extpath=extpath)
+    # copy_sub_category_dir(df=df,extpath=extpath)
 
     copy_sub_file(df=df, extpath=extpath)
 

@@ -3,14 +3,14 @@ import time
 import re
 
 import pandas as pd
-import run_create_dcjs
+import create_webfiles_dcjs
 from auxiliary.data_container import data_rows
 from matrix_manipulations import calculate_analytics
 
 from auxiliary import web_get
 
-from run_create_scatterplot import *
-from run_create_table import *
+from create_webfiles_scatterplot import *
+from create_webfiles_table import *
 
 global url,page_loop_counter, pagination_offset, total_car_count, LIVE_DATA,df,db_save
 global car_ids
@@ -448,7 +448,8 @@ def main():
     if db_save:
         save_to_db()
 
-    create_web_files(df, weightings, extpath='../../../web/valuerating/', prediction_model=prediction_model, USE_LOCAL_COPY=USE_LOCAL_COPY)
+    # Create Basuc Table
+    create_webfiles_table.create_web_files(df, weightings, extpath='../../../web/valuerating/', prediction_model=prediction_model, USE_LOCAL_COPY=USE_LOCAL_COPY)
 
     #Get scatterplot and recreate
 
@@ -458,7 +459,7 @@ def main():
     # Creates scatterplot webhost output files (for model only)
     run_create_scatterplot_from_model(model)
     # Creates dcjs webhost output files (redoes entire db repo)
-    run_create_dcjs.run_all()
+    create_webfiles_dcjs.run_create_all()
 
 if __name__ == "__main__":
     main()
