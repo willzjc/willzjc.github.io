@@ -1061,9 +1061,13 @@ d3.csv('data.csv', function (data) {
                 format: function (d) {
                     var scatter_link = '../../../scatterplot_table/'+d.make +'/'+ d.model;
                     var summary_link = '../../../valuerating/'+d.make +'/'+ d.model;
-
-                    return '<a href="' + scatter_link.toLowerCase().replace(' ','_')  + '">' + 'Scatter' + '</a>' + ' / '
-                          +'<a href="' + summary_link.toLowerCase().replace(' ','_')  + '">' + 'Summary' + '</a>'
+                    // var show_scatter = 'scatter';
+                    var show_scatter = '<img src="img/icon_dots.png" style="width:16px;height:16px;"></img>';
+                    var show_summary = '<img src="img/icon_bars.png" style="width:16px;height:16px;"></img>';
+                    return '<a href="' + scatter_link.toLowerCase().replace(' ','_')  + '">'
+                        + show_scatter + '</a>' + ' '
+                          +'<a href="' + summary_link.toLowerCase().replace(' ','_')  + '">'
+                        + show_summary + '</a>'
                         ;
                 }
             }
