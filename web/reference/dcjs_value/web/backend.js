@@ -757,6 +757,7 @@ d3.csv('data.csv', function (data) {
         .round(dc.round.floor)
         .alwaysUseRounding(true)
         .x(d3.scale.linear().domain([-6, 6]))
+
         //
         // .colors(d3.scale.ordinal().domain([-6, 6])
         //     .range([
@@ -811,11 +812,14 @@ d3.csv('data.csv', function (data) {
         });
 
     // Customize axes
+    // valueratingHistogramObject.xAxis().ticks(24);
+
     valueratingHistogramObject.xAxis().tickFormat(
         function (v) {
             // return v + '%';
             return v;
         });
+
     valueratingHistogramObject.yAxis().ticks(5);
 
     //#### Bar Chart - histogram of years
@@ -1058,8 +1062,8 @@ d3.csv('data.csv', function (data) {
                     var scatter_link = '../../../scatterplot_table/'+d.make +'/'+ d.model;
                     var summary_link = '../../../valuerating/'+d.make +'/'+ d.model;
 
-                    return '<a href="' + scatter_link.toLowerCase()  + '">' + 'Scatter' + '</a>' + ' / '
-                          +'<a href="' + summary_link.toLowerCase()  + '">' + 'Summary' + '</a>'
+                    return '<a href="' + scatter_link.toLowerCase().replace(' ','_')  + '">' + 'Scatter' + '</a>' + ' / '
+                          +'<a href="' + summary_link.toLowerCase().replace(' ','_')  + '">' + 'Summary' + '</a>'
                         ;
                 }
             }
