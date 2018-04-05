@@ -28,22 +28,36 @@
         An analysis into pricing for second hand automobiles - <a href="javascript:dc.filterAll(); dc.renderAll();">Reset
         All</a>
         <div id="year-range"></div>
-        `
         <br/>
     </div>
 
+
+
     <div class="row">
         <div id="top-bubble-chart" class="dc-chart">
-            <strong>Yearly Performance</strong> <br/>(radius: Value variation, color: Average value rating)
+            <strong>Yearly Performance</strong> <br/>(Radius: Value variation, Color: Average value rating)
             <a class="reset" href="javascript:topBubbleChart.filterAll();dc.redrawAll();"
                style="display: none;">reset</a>
             <div class="clearfix"></div>
         </div>
     </div>
 
+    <!-- Car make chart-->
     <div class="row">
+        <strong>Car Make</strong>
+        <div id="make-row-chart">
+
+            <a class="reset" href="javascript:makeRowchartObject.filterAll();dc.redrawAll();"
+               style="display: none;">reset</a>
+
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+    <div class="row">
+
         <div id="make-piechart">
-            <strong>Car Makes</strong>
+            <strong>Make Proportion</strong>
             <a class="reset" href="javascript:carMakePiechart.filterAll();dc.redrawAll();"
                style="display: none;">reset</a>
 
@@ -57,6 +71,8 @@
 
             <div class="clearfix"></div>
         </div>
+
+
 
         <div id="model-chart">
             <strong>Model</strong>
@@ -127,16 +143,7 @@
 
     <div class="clearfix"></div>
 
-    <div class="row">
-        <strong>Makes</strong>
-        <div id="make-row-chart">
 
-            <a class="reset" href="javascript:makeRowchartObject.filterAll();dc.redrawAll();"
-               style="display: none;">reset</a>
-
-            <div class="clearfix"></div>
-        </div>
-    </div>
 </div>
 
 </div>
