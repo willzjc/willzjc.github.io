@@ -210,8 +210,8 @@ d3.csv('data.csv', function (data) {
             // // //console.log(p.total_price);
 
             // Radius Calculation (incremental)
-            p.min_radius = p.count ? Math.max(p.min_radius, v.sum_rating) : v.sum_rating;
-            p.max_radius = p.count ? Math.min(p.max_radius, v.sum_rating) : v.sum_rating;
+            p.min_radius = p.count ? Math.min(p.min_radius, v.sum_rating) : v.sum_rating;
+            p.max_radius = p.count ? Math.max(p.max_radius, v.sum_rating) : v.sum_rating;
             p.radius = Math.abs(p.min_radius - p.max_radius) * radius_amplifier;
 
 
@@ -258,8 +258,8 @@ d3.csv('data.csv', function (data) {
             // // //console.log(p.title,p.avg_milage);
 
             // Radius Calculation (decremental)
-            p.min_radius = p.count ? Math.max(p.min_radius, v.sum_rating) : v.sum_rating;
-            p.max_radius = p.count ? Math.min(p.max_radius, v.sum_rating) : v.sum_rating;
+            p.min_radius = p.count ? Math.min(p.min_radius, v.sum_rating) : v.sum_rating;
+            p.max_radius = p.count ? Math.max(p.max_radius, v.sum_rating) : v.sum_rating;
             p.radius = Math.abs(p.min_radius - p.max_radius) * radius_amplifier;
 
             p.avgIndex = p.count ? p.sumIndex / p.count : 0;
