@@ -3,7 +3,7 @@ from wordcloud import WordCloud, STOPWORDS
 import sys
 
 import enchant
-import TweetScan
+import Auxiliary_TweetScan
 import operator
 import tweepy
 import pandas as pd
@@ -18,7 +18,7 @@ def hasNumbers(inputString):
 
 def main():
 
-    api = TweetScan.TwitterClient()
+    api = Auxiliary_TweetScan.TwitterClient()
 
     # calling function to get tweets
     query = "quantitative easing"
