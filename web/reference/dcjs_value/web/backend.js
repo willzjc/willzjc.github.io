@@ -19,7 +19,7 @@ var modelRowchartObject = dc.rowChart('#model-chart');
 var seriesRowchartObject = dc.rowChart('#subseries-chart');
 var volumeMainMoveChart = dc.lineChart('#pricediff-move-chart');
 var volumeRangeChart = dc.barChart('#price-volume-chart');
-var priceDiffDataCount = dc.dataCount('.dc-data-count');
+var pricesDataTableView = dc.dataCount('.dc-data-count');
 
 var makeRowchartObject = dc.rowChart('#make-row-chart');
 
@@ -540,7 +540,7 @@ d3.csv('data.csv', function (data) {
         //domains as the Accessors.
         .yAxisPadding(70000)
         // .xAxisPadding(500)
-        .xAxisPadding(3388)
+        .xAxisPadding(33883)
         // (_optional_) render horizontal grid lines, `default=false`
         .renderHorizontalGridLines(true)
         // (_optional_) render vertical grid lines, `default=false`
@@ -961,7 +961,7 @@ d3.csv('data.csv', function (data) {
     //</div>
     //```
 
-    priceDiffDataCount /* dc.dataCount('.dc-data-count', 'chartGroup'); */
+    pricesDataTableView /* dc.dataCount('.dc-data-count', 'chartGroup'); */
         .dimension(input_data)
         .group(all)
         // (_optional_) `.html` sets different html when some records or all records are selected.
