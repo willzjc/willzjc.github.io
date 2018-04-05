@@ -299,8 +299,8 @@ d3.csv('data.csv', function (data) {
     );
 
     // Dimension by full date
-    var dateDimension = input_data.dimension(function (d) {
-        return d.dd_year;
+    var sum_ratingDimension = input_data.dimension(function (d) {
+        return d.sum_rating;
     });
 ////////////////////////////////////////////////////////////////////////////////
     // Dimension by month
@@ -456,9 +456,8 @@ d3.csv('data.csv', function (data) {
 
     var modelRowchartGroup = getTops(modelRowchartDimensions.group(), 6);
 
-    
-    
-        // Summarize volume by makeRowDimensions
+
+    // Summarize volume by makeRowDimensions
     var makeRowchartDimenions = input_data.dimension(function (d) {
         var makeName = d.make.trim();
         return makeName;
@@ -466,7 +465,7 @@ d3.csv('data.csv', function (data) {
     });
 
     var makeRowGroup = makeRowchartDimenions.group()
-    
+
     //### Define Chart Attributes
     // Define chart attributes using fluent methods. See the
     // [dc.js API Reference](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md) for more information
@@ -975,7 +974,7 @@ d3.csv('data.csv', function (data) {
 
 
     varDataTable /* dc.dataTable('.dc-data-table', 'chartGroup') */
-        .dimension(dateDimension)
+        .dimension(sum_ratingDimension)
         // Data table does not use crossfilter group but rather a closure
         // as a grouping function
         .group(function (d) {
@@ -1000,9 +999,15 @@ d3.csv('data.csv', function (data) {
             , {
                 label: 'Rating',
                 format: function (d) {
-                    return parseFloat(Math.round(d.sum_rating * 100) / 100).toFixed(2)
-                    // return numberFormat(d.age_rating)
-                }
+                    // return parseFloat(Math.round(d.sum_rating * 100) / 100).toFixed(2)
+                    var val = parseFloat(Math.round(d.sum_rating * 100) / 100).toFixed(2);
+
+                    var val_str = val.toString();
+
+                    if (val < 0) {
+                        val_str = '<font color="red">' + val_str + '</font>';
+                    }
+                    return val_str;                   }
             }
 
             , {
@@ -1021,7 +1026,11 @@ d3.csv('data.csv', function (data) {
                     // return parseFloat(Math.round(d.price_rating * 100) / 100).toFixed(2)
                     // return numberFormat(d.age_rating)
                     var val = d.price_difference;
-                    return '$' + val.toFixed().replace(/(\d)(?=(\d{3})+(,|$))/g, '$1,')
+                    var val_str = '$' + val.toFixed().replace(/(\d)(?=(\d{3})+(,|$))/g, '$1,')
+                    if (val < 0) {
+                        val_str = '<font color="red">' + val_str + '</font>';
+                    }
+                    return val_str;
 
                 }
             }
@@ -1029,44 +1038,64 @@ d3.csv('data.csv', function (data) {
             , {
                 label: 'Milage',
                 format: function (d) {
+
                     var val = d.milage;
-                    return val.toFixed().replace(/(\d)(?=(\d{3})+(,|$))/g, '$1,')
-                    // return numberFormat(d.age_rating)
+                    var val_str = val.toFixed().replace(/(\d)(?=(\d{3})+(,|$))/g, '$1,')
+
+                    if (val < 0) {
+                        val_str = '<font color="red">' + val_str + '</font>';
+                    }
+                    return val_str;
                 }
             }, 'age'
             , {
-                label: 'Rating (P)',
+                label: '<img src="img/icon_price.png" style="width:16px;height:16px;"></img> Rating',
                 format: function (d) {
-                    return parseFloat(Math.round(d.price_rating * 100) / 100).toFixed(2)
-                    // return numberFormat(d.age_rating)
-                }
+                    var val = parseFloat(Math.round(d.price_rating * 100) / 100).toFixed(2);
+                    var val_str = val.toString();
+
+                    if (val < 0) {
+                        val_str = '<font color="red">' + val_str + '</font>';
+                    }
+                    return val_str;                }
             }
             , {
-                label: 'Rating (M)',
+                label: '<img src="img/icon_milage.png" style="width:16px;height:16px;"></img> Rating',
                 format: function (d) {
-                    return parseFloat(Math.round(d.milage_rating * 100) / 100).toFixed(2)
-                    // return numberFormat(d.age_rating)
-                }
+                    // return parseFloat(Math.round(d.milage_rating * 100) / 100).toFixed(2)
+                    var val = parseFloat(Math.round(d.milage_rating * 100) / 100).toFixed(2);
+                    var val_str = val.toString();
+
+                    if (val < 0) {
+                        val_str = '<font color="red">' + val_str + '</font>';
+                    }
+                    return val_str;                  }
             }
             , {
-                label: 'Rating (A)',
+                label: '<img src="img/icon_age.png" style="width:16px;height:16px;"></img> Rating',
                 format: function (d) {
-                    return parseFloat(Math.round(d.age_rating * 100) / 100).toFixed(2)
-                    // return numberFormat(d.age_rating)
-                }
+                    // return parseFloat(Math.round(d.age_rating * 100) / 100).toFixed(2)
+                    var val = parseFloat(Math.round(d.age_rating * 100) / 100).toFixed(2);
+
+                    var val_str = val.toString();
+
+                    if (val < 0) {
+                        val_str = '<font color="red">' + val_str + '</font>';
+                    }
+                    return val_str;                     }
             }
-                ,
+            ,
             {
                 label: 'Chart',
                 format: function (d) {
-                    var scatter_link = '../../../scatterplot_table/'+d.make +'/'+ d.model;
-                    var summary_link = '../../../valuerating/'+d.make +'/'+ d.model;
+                    var scatter_link = '../../../scatterplot_table/' + d.make + '/' + d.model;
+                    var summary_link = '../../../valuerating/' + d.make + '/' + d.model;
                     // var show_scatter = 'scatter';
                     var show_scatter = '<img src="img/icon_dots.png" style="width:16px;height:16px;"></img>';
                     var show_summary = '<img src="img/icon_bars.png" style="width:16px;height:16px;"></img>';
-                    return '<a href="' + scatter_link.toLowerCase().replace(' ','_')  + '">'
+                    return '<a href="' + scatter_link.toLowerCase().replace(' ', '_') + '">'
                         + show_scatter + '</a>' + ' '
-                          +'<a href="' + summary_link.toLowerCase().replace(' ','_')  + '">'
+                        + '<a href="' + summary_link.toLowerCase().replace(' ', '_') + '">'
                         + show_summary + '</a>'
                         ;
                 }
@@ -1110,7 +1139,6 @@ d3.csv('data.csv', function (data) {
         })
         .elasticX(true)
         .xAxis().ticks(4);
-
 
 
     /*
