@@ -36,6 +36,13 @@ class db_interface ():
         cursor.execute(sql)
         self.connection.commit()
 
+    def save_update_df(self,df):
+        print 'Saving to database'
+
+        for index, row in df.iterrows():
+            # print row
+            db_interface.db_save_df(row)
+
     def db_save_df(self, df_array):
         # try:
         import pandas

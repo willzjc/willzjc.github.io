@@ -52,34 +52,32 @@ def calculate_analytics(df,weightings=None):
         df=df.drop(columns=['row_count'])
     df.insert(0, 'row_count', range(1, len(df)+1))
 
-    import statsmodels.api as sm        # Required for regression prediction
+    prediction_model=None
+    try:
+        import statsmodels.api as sm        # Required for regression prediction
 
-    # print df
-    df_X=df[['milage','age']]           # Choose variables
-    df_X=sm.add_constant(df_X)          # Add constant
-    df_y=df.price                       # Choose target
+        # print df
+        df_X=df[['milage','age']]           # Choose variables
+        df_X=sm.add_constant(df_X)          # Add constant
+        df_y=df.price                       # Choose target
 
-    prediction_model=sm.OLS(df_y.astype(float),df_X.astype(float)).fit()
-    df['market_price'] = ((df['milage'] * prediction_model.params['milage']) + (df['age'] * prediction_model.params['age']) + prediction_model.params['const']).astype(int)
+        prediction_model=sm.OLS(df_y.astype(float),df_X.astype(float)).fit()
+        df['market_price'] = ((df['milage'] * prediction_model.params['milage']) + (df['age'] * prediction_model.params['age']) + prediction_model.params['const']).astype(int)
 
-    df['price_difference'] =  (df['market_price']-df['price']).astype(int)
+        df['price_difference'] =  (df['market_price']-df['price']).astype(int)
 
-
-    print prediction_model.summary()
+        print prediction_model.summary()
+    except Exception as e:
+        print len(df)
+        df['market_price'] = df['price']
+        df['price_difference'] = 0
+        print e
     return df,prediction_model
 
 
-def recalculate_ratings():
-    # import auxiliary.db_operations as dbo
-    #
-    # query = "select * from cars where date_created > '%s' and make like 'toyota' and model like 'prius' " % datetime.datetime(2017,1,1).isoformat()
-    # query = "select * from cars where date_created > '%s' and make like 'bmw'" % datetime.datetime(
-    #     2018, 1, 1).isoformat()
-    #
-    # query = "select * from cars where date_created >= '%s' and make like 'bmw'" % datetime.datetime(
-    #     2018, 1, 21).isoformat()
-    #
-    # db_interface=dbo.db_interface()
+
+def recalculate_ratings(db_save=False,create_webfiles_table=True
+    ,model=None):
 
     conn_clean = sqlite3.connect("auxiliary/my_db.sqlite")
     cursor = conn_clean.execute('DELETE FROM cars WHERE rowid NOT IN (SELECT min(rowid) FROM cars GROUP BY id)')
@@ -111,10 +109,15 @@ def recalculate_ratings():
 
         df = df[columns]    # Rearrange columns
         df = calculate_analytics(df,weightings)
-        create_web_files(df, weightings)
+
+        # Saves to db
+        if db_save:
+            dostuff=True
 
 
-
+        # Creates files for tables
+        if create_webfiles_table:
+            create_web_files(df, weightings)
 
 if __name__ == "__main__":
-    recalculate_ratings()
+    recalculate_ratings(db_save=True,create_webfiles_table=False)

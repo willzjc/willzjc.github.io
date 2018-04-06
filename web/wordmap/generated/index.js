@@ -87,182 +87,167 @@ function countWords(text) {
       [
         "BILL SHORTEN: " +
         "Women and Men of Australia\n",
-, "KRIS: The skills shortage would disappear if they paid normal wages which they can't because quantitative easing is ruining supply chains https://t.co/6YLPPA5kN4\n"
-, "KRIS: As i have explained wages offered are too low for the skills they want to buy. Hence skilled people refuse to work for low wages in Germany and elsewhere. Reason Quantitative easing and low rates which have cracked global supply chains https://t.co/6YLPPA5kN4\n"
-, "MICHAEL TARPEY: Oh come on Chas no conspiracy here Look up Quantitative Easing by Federal Reserve It is the electronic creation of from nothing This is the modern day printing press Go to YouTube What is Quantitative Easing and look and listen to economists defination.\n"
-, "CURRENCIES.CO.UK: Quantitative Easing and Italian election update read more here https://t.co/l01osHRtBq #GBPEUR #EURGBP\n"
-, "THINK CURRENCY: Quantitative Easing and Italian election update read more here https://t.co/ZOVN8YjHoI #GBPEUR #EURGBP\n"
-, "POWERBROKER SOFTWARE: Global deal flow defies headwinds facing property investors Despite headwinds posed by the unwinding of quantitative easing in the west and regulatory clampdown to the east global commercial real estate markets are back trading near record peaks a https://t.co/dykCTFvYI3\n"
-, "FTA: #ftadvertisingFT Property Global Despite headwinds posed by the unwinding of quantitative easing in the west and regulatory clampdown to the east global commercial real estate markets are back trading near record peaks a decade after https://t.co/fj8qWVbJAf #ftadvertising https://t.co/YbKioutIvx\n"
-, "SI PEERTROWSKI: Quantitative easing is precisely that We have already been printing money Second if economic output expands due to printed money then it mitigates inflation.\n"
-, "THE PROPHET: The search for a true “store of value has led me down a deeper philosophical path than I anticipated What do we value?How do you preserve wealth in a world of quantitative easing and ultra low interest rates??\n"
-, "ROSS NUGENT: Global Markets in 'Uncharted Waters of Volatility The Bank for International Settlements the so-called central bank for central banks thinks global market volatility is here to stay as policymakers unwind years of easy money and quantitative easing.\n"
-, "MALLOWSTREETPENSIONS: NEW An easing to quantitative easing Markets react to ECB announcement video https://t.co/3mPnFPmAJ3 https://t.co/8UI95j57no\n"
-, "GOODSTAR: Ok Genius How much did the £465bn in Quantitative Easing Cost you?\n"
-, "INERTIA: Its not gambling Its a long call. Long #HODL investment in the reinvention of financial independence An opt out of the debt based ponzi scheme we so lovingly refer to as 'quantitative easing'\n"
-, "MICHAEL LAMARR: The stock market did go up under BHO because of quantitative easing not because of a good economy The only jobs created under BHO were low paying part time jobs that he had nothing to do with The man did everything possible to kill our economy.\n"
-, "CHRIS BARLOW: Yes and quantitative easing an eye watering 500 billion from the magic tree made the assets of the asset rich richer and benefited the good volk didly squat.\n"
-, "MIKE MILLAR:  m  Damo  Raval And Cameron started the quantitative easing program that has literally given a half trillion to the bank's and isn't on the govt book but the boe That is benefit system for record profit making bank's none has gone into the economy as the rich (surprise surprise )kept it all.\n"
-, "CRUDE LIBERTARIAN: #bbcdp The brilliance of quantitative easing instituted by Gordon Brown maintained by the Conservatives is corroding pensions it's the price of the so-called 'cheap borrowing that politicians are unwilling to address.\n"
-, "ACCURATETRADING: I stopped my rant short because I have meeting soon but this is opposite of the Federal Reserve forced Quantitative Easing I'll end my shortened rant with my favorite Rick Santelli 'Rant of the Year from 2/9/09 https://t.co/RjyaC8mjEI #stockmarket $DIA $QQQ $SPY $SPSM\n"
-, "CHRIS MCGRATH: 'Quantitative easing on Re Magic Money Tree U.K government BoE found £200,000,000,000 in 2009 Austerity is a political choice https://t.co/hmy2BdMbQY\n"
-, "MC: QE BofE ‘we make these purchases from the private sector’ ‘most of these assets are government bonds (also known as gilts)’..... https://t.co/3JKRpyFkuM\n"
-, "SHAREEFBABIKR: Airdrops QE This is a NO FUD tweet it’s just food for thoughts do you think the #blockchain instrument called airdrops equals to the quantitative easing of the legacy financial system did the enfant technology reached the easing stage already or we are putting it on high spe\n"
-, "FOOL ON THE HILLZ: The Alms Industry supports the Arms Industry &amp Religious Relics &amp Icons are the ultimate Crypto Currency That's the underlying drive for Never ending Crusading World Wars as High Priest Clerics Caste Class seek Quantitative Easing through other Political Memes such as Genocide!\n"
-, "FOOL ON THE HILLZ: #Clausewitz War &amp Genocide is the continuation of Quantitative Easing by other Political Means &amp more Economic Memes!\n"
-, "TED: If the money given to the banks by the Tory govt as Quantitative Easing had been used to hire people to public sector jobs on good pay instead it would have done more for the economy &amp the knock-on spending would have helped with the debt #bbcnews\n"
-, "ROTHSCHILDISH  WE COLONIZED KANGZ!:  HasCome  wolf  87to98  Sayz  i    of hesse  York GDP growth is how all national leaders are measured historically Not just obama!Total gdp growth under obama was 1.6% That’s 3rd world This is what happenes when you spend most of you Energy on how to fluff the numbers Like with QE (quantitative easing) His QE didn’t work\n"
-, "POLITICAL DOBERMAN: Actually that is a perfect description of politics Obama Care quantitative easing Deficit spending Unfunded liabilities Gawd I could go on....\n"
-, "UNLIVABLEREGION: Instead of targeting foreign speculators it's 'eat the rich only 'rich is anyone who lived worked paid taxes 40 yrs Meanwhile govt creates real estate bubble with quantitative easing and immigration then takes it out of YOUR inheritance You won't cheer when it's your turn\n"
-, "DAVID BINNS: Tracked it down online A superb article about Quantitative Easing from last October which I dug out and reread this morning A great primer for understanding the lynchpin to our present economic climate https://t.co/LPYF0GkFW6\n"
-, "MANCHESTER FOR EUROPE #FBPE#ABTV#WATON: The Impact Studies sounds pretty horrendous for the North West and don’t forget that they were forecasts for leaving the EU which we haven’t as get and also didn’t allow for the quantitative easing and loosening of monetary policy by the Bank of England https://t.co/wsnYM6hqCE\n"
-, "#EX-RVID5774 [ TC]: John Oliver Quantitative Easing Debunked By Real Journalist https://t.co/TA82jew7A2 via\n"
-, "DAVID B COHEN: Quantitative easing Grasshopper The work of the Fed not Obama And given that job growth gets harder as more time passes since the last recession the current state of the economy is impressive That's why optimism abounds.\n"
-, "WALLACE NOLL: China is also building infrastructure projects all over the world you can bet they use this special financing source quantitative easing by public banks for those also; https://t.co/AUxUzvRZ2g\n"
-, "RICH EAGLESON: You are right (not about Mexico lol but Obama's Quantitative Easing did nothing to really help anyone accept the big banks and the stock market is the president for ALL He's interested in helping everyone.\n"
-, "BOB KERNS: Are you talking about Quantitative Easing That's kind of a mixed bag because much of people's savings are in the form of stock Yet stock ownership (direct or in mutual funds is heavily weighted toward the wealthier 'The rich get richer is out of control.\n"
-, "BOYD'S BACKYARD: Quantitative easing is my favorite term from economics that also describes constipation cures.\n"
-, "ANGRY NORTHERNER #FBPE: Oh yeah totally But that's done via one of many Quantitative Easing mechanisms Eg injecting it as a loan from a central bank into the banking system to then be loaned out to in turn stimulate the economy QE isn't just printing money though.\n"
-, "JAY: Central Bank wants to stop printing euro notes here . good times are back . the ladies stopping the quantitative easing and are literally stopping printing money https://t.co/baCXJxELoa\n"
-, "IMPERIAL BUSINESS: Professor David Miles warns that quantitative easing may never end Read the full article https://t.co/hV697ONvSd #finance #quantitativeeasing #qe https://t.co/aUl5gSNuuY\n"
-, "JOHN IOANNOU: The irony is that you shouldn't be texting while you work But don't let me spoil your venture capital fund raising campaign I'm sure you'll get millions maybe billions due to quantitative easing.\n"
-, "T J LEVI: He already has ALL of Obama's quantitative easing and bailouts did squat for economic growth or job creation I guess shovel ready jobs weren't that shovel ready He added more debt to the national debt then ALL presidents before him combined Community organizer for hire !\n"
-, "CAPPY LOVE: Sovereign debt issues coming VERY VERY soon for most countries We can thank the central banks for this after the financial crisis with their bailout/quantitative easing policy to save the “to big to fail banks.\n"
-, "JUST PURE INFORMATION:  Sur #LookingForNews &gt;&gt;&gt WSJ With central banks winding down quantitative easing hedge funds find more room to trade https://t.co/trtQ9iQuuo via https://t.co/ewkC6sMXRz https://t.co/cmRisPg5Hq\n"
-, "SKENDERBEG: With central banks winding down quantitative easing hedge funds find more room to trade https://t.co/tLCG7JqoNS via https://t.co/rs6GSmoeXh\n"
-, "SYKESFANCLUB: New post 'An Easing To Quantitative Easing Markets React To ECB Announcement https://t.co/AOH9GVWRyk\n"
-, "BRIAN CHOLERTON:  Swindon Austerity isn't hitting everyone Quantitative easing working massively in favour of those with tangible assets and hit those with savings hardest The rich get richer while those below them pay for it Classic policy #UnrigtheSystem\n"
-, "FAKE LNP: This will enable Quantitative Easing during the next financial crisis We can repurchase those bonds Isn't that great?\n"
-, "JACKSCHITT:  hill123  ao  ric  Gorelioni  Badger  ray239  Villa Not hyperinflation. Inflation yes but we are not like Venezuela...yet. If the Fed starts Quantitative Easing again which is printing more money then it's time to worry https://t.co/gMUD6cIy2w\n"
-, "LOWELL THE BERNER: Causing a $23Trillion loss in the stock market... $4.5 Trillion in Quantitative Easing 3 bailouts and direct cash infusions plus taxpayers guaranteeing Too Big To Fail policy continues? Good Job Lloyd.\n"
-, "MODERNAGE BUDDHA: &amp then they try &amp fix the problem like in 2008 by inflating the currency &amp quantitative easing We borrow &amp print money to buy our own treasury bonds &amp to buy stocks to artificially cause a boom but that only adds liabilities on top of our trillions in debt plus entitlements owed\n"
-, "TERRY W ROBERTSON:  gail To this day more able bodied Males are out of Workforce during Obama under-employed was at Record highs The Economy was growing at average of 2.2 per Year Corporate Taxes/Regs were at World highs Only reason Market did well is numerous Quantitative Easing/Low Interest Rates.\n"
-, "BG BINGHAM: You make this way too easy I suggest you look up the words quantitative easing Lol Obama made his fat cat golfing buddies on Wall Street rich Mega rich! https://t.co/NRXWVpontw\n"
-, "ZORRO BORICUA: Quantitative Easing wasn’t a real bull market Now the real bull market begins based on real supply and demand.\n"
-, "JOE M: Because the Fed isn't going to throw out rate hikes like beads at mardi gra.. It's going to be a steady 3-4 hikes per year until we completely get away from quantitative easing. That said your point does nothing to detract from what is clearly a strong economy.\n"
-, "DEAN RIGGS:  AKA Becker  s Quantitative easing is pretty much printing money for banks to loan And that's only the recent bs.\n"
-, "CLIFFY: Right along with all that quantitative easing 😂\n"
-, "FRANKLIN: No It has it uses It can be used to 'charge a slowing economy for eg by Quantitative Easing purchase of govt securities thereby increasing money supply which encourages lending and improves economic activity But just printing money is not the ideal way https://t.co/rNpzc5vcXk\n"
-, "AXA IM UK: IFA Three years ago the European Central Bank started its #QuantitativeEasing programme Learn more about its impact in our Economic calendar https://t.co/2AnaULs90l https://t.co/BCEg72sPYG\n"
-, "JOE JONKLER: We are hearing the same as this from across the Atlantic and for the very good reason that it's long overdue including in the UK https://t.co/mZBvbVevv1 #QE #Interest #Rates\n"
-, "GREYBEARD:  aonami I know all about quantitative easing A dodgy practice at the best of times yet not actually printing money If Capitalism wasn't so bent this practice would be illegal\n"
-, "BIG INDIAN BEAR: Please explain to your investors the impact (and now reverse impact of Quantitative Easing 10yr bull market finished Zero cost money no longer available Money is expensive now so risks higher so equities lower 🐻🐻🐻🐻\n"
-, "JW: Short answer Greed Poverty a byproduct of bad economic policy compounded by quantitative easing that has greatly skewed the distribution of wealth Addiction in large part the influence of pharmaceutical industry and the flood of opiates being prescribed.\n"
-, "BIG INDIAN BEAR: Nifty50 Nov '08 2550 Nifty50 Mar '18 10300 We have been in a bull market since 9yrs! Liquidity (quantitative easing has driven prices of all asset classes Now interest rates are rising globally after a decade High possibility of a multi-year bear market phase #Nifty\n"
-, "FOREX FOR ALL: Forex Euro Rises As ECB Drops Pledge To Extend QE ======== https://t.co/FOFS7hSVLi The euro rose across the board on Thursday after the European Central Bank dropped its pledge to expand its quantitative easing bond purchasing stimulus...... More: https://t.co/CmD4FV4Ipz https://t.co/d2M41TcoUR\n"
-, "IAN BULLOUGH: Absolute rubbish Butter mountains milk lakes CAP payments protectionism Quantitative easing on a massive scale forced immigration quotas Eurozone crushing southern economies massive youth unemployment The Single Market is the definition of protectionism and isolation.\n"
-, "POSITIVE MONEY EUROPE:  ZYN 1 We are talking about giving 500 to 1000 EUR one shot Who would stop working for that kind of money 2 HM still more equitable than pushing asset prices through quantitative easing.\n"
-, "WILLY SMYTHE:  Groupthink ...or DJT just gave NK what they want To be seen as equal on the world stage NK has offered to meet with the last 4 sitting presidents This is nothing new PS GW Bush did quantitative easing too LOL🤷🏼‍♂ but hey keep on believing in a reality TV show host.\n"
-, "FXCC FOREX TRADING: US Economic growth continued at a moderate paste #ECB left its interest rates #quantitativeeasing and forward guidance unchanged https://t.co/LsTKu1pHQX #DailyAnalysis #ForexTrading #FXCC #ABrokerOnYourSide #News #FX #MorningRollCall\n"
-, "EMMANUEL ASHIBUOGWU:  Batey The build up and signs to the imminent Global financial collapse is all around us huge unsustainable debt US Govt borrowing in trillions of dollars poor political leadership greedy politicians federal reserve printing excess dollars in what it calls quantitative easing\n"
-, "BIDASK CAPITAL: European Central Bank dropped its pledge to expand its quantitative easing bond purchasing stimulus program in a more hawkish rate statement than expected. The central bank also left euro zone interest rates unchanged at a record low of zero as expected.\n"
-, "ANDREW PALMER: Japan has learned that dropping rates to zero and keeping them there is not very effective Quantitative easing (QE does not work no matter how large the intervention becomes It’s interesting that this experiment doesn’t seem to matter to anyone.\n"
-, "STEVE DEMETRIOU: I see it as interest rates being up against the zero lower bound an unprecedented and not well understood phenomenon that resisted quantitative easing hence the several rounds of QE Monetary policy alone was insufficient booster and Obama was thwarted by the GOP fiscally.\n"
-, "MAULDIN ECONOMICS: The always entertaining Grant Williams wakes up the SIC crowd after lunch with some visual aids we can’t possibly describe Briefly they involve snakes ladders and quantitative easing https://t.co/8xxHOQp6Vj #sic2018 #2018sic #economy https://t.co/i6tYNxxVQM\n"
-, "JON LIEBERKIND: The #euro was on a roundtrip today #ECB President #Draghi dropped his pledge to increase quantitative easing if the inflation outlook or financial conditions were to worsen the so-called “easing bias. However this hawkish statement were then followed by more dovish tunes https://t.co/hpHxf0z64X\n"
-, "WALLACE NOLL: not only that they're using quantitative easing to finance infrastructure improvements both in China &amp around the world while US uses quantitative easing to give money to rich people on the excuse that it stops the financial bubbles from collapsing.\n"
-, "REDGE NKOSI: Here https://t.co/I0WHsd0x88 and here among many others https://t.co/EY2bPZOAmn That is QE for China There are many more.\n"
-, "TREVOR CASWELL: Sigh “Dow 36,000, a book he co-authored near the peak of the dot-com bubble argued equity markets would soar yet further His concern that quantitative easing might spark inflation proved wrong and his claim recent tax cuts could pay for themselves cuts against most analyses. https://t.co/wBCrrcI73M\n"
-, "FRONT BUSINESS NEWS: Market Extra 5 takeaways from the ECB’s tiny step toward a QE exit https://t.co/jiWPJqaxfC European Central Bank President Mario Draghi pulls off a verbal tightrope act unexpectedly moving a step closer to ending quantitative easing but soothing investor worries.\n"
-, "PROFESSOR: There’s broad agreement among Governing Council members that quantitative easing should probably come to a halt by the end of 2018 BBG\n"
-, "ZEROHEDGE: There’s broad agreement among Governing Council members that quantitative easing should probably come to a halt by the end of 2018 BBG\n"
-, "ANNE LOUISE KER: The European Central Bank has taken a further step towards ending its crisis-era stimulus measures dropping an explicit commitment to buy more bonds and expand its quantitative easing programme if necessary.\n"
-, "EDDY FINCH:  Vanseveren their own currency and buy back debt via quantitative easing The banking crisis affected everyone but the eurozone was particularly slow to recover and hasn't ever really recovered if we are being honest The only long-term solution to the euro is in my view greater integration\n"
-, "TRADERSNEWS: Equity indices in London rose on Thursday alongside their European peers as European Central Bank chief Mario Draghi signalled that the central bank's exit from quantitative easing would be gradual.\n"
-, "CONGRESS WEALTH MGMT: It took five years of unprecedented quantitative easing (money printing/bond buying/drive interest rates lower to get global central banks balance sheets to grow from $5 trillion to more than $17 trillion It may take a decade or longer to work that buying binge off.\n"
-, "NEWSGW: Pound LIVE ECB drops quantitative easing programme despite Italian Election uncertainty THE NEWS GROUP OF WORLD https://t.co/8f5DPruBSJ https://t.co/ThaWdnOJWi\n"
-, "JON BILLINGS #FBPE: @ cat weasel  J Irwin WIPING OUT DEBT of the banks is a VERY different economic idea to Quantitative easing Quantitative easing is literally producing money in an attempt to control economic factors such as inflation and interest rates as well as increasing demand and supply for investment.\n"
-, "WWW.RIGHTNOWNEWS.US: New post (Mario Draghi to END Quantitative Easing despite potential chaos from Italian elections has been published on Right Now News https://t.co/XvVjPnhGKW https://t.co/JlEK03wnPs\n"
-, "SHUVANKAR MUKHERJEE: Mario #Draghi forgot #QE stands for 'Quantitative Easing .. If Everything is great in #Eurozone . What the hell is he 'Easing . can you explain this please I'm at a loss ...\n"
-, "NEWS GRABBER: BLMBRG Quantitative easing terms is germany But germany was already strong without quantitative easing https://t.co/TnYZSRZ9k6\n"
-, "MALUNDA WANDA: Better you read and understand before a rush to comment All governments do that but only coach their actions in technical terms that laymen like you wouldn't understand Ever read or heard of quantitative easing did you understand what it entailed?\n"
-, "REDGE NKOSI: What you say &amp think you know as quantitative easing is NOT QE There is a macroeconomic model that gave rise to the phrase QE &amp that what u say is QE is not &amp does not constitute QE It is reserve expansion or high powered money expansion or M1 expansion Thats what banks did https://t.co/ry9znihy8w\n"
-, "MORE BUSINESS NEWS: Pound LIVE ECB drops quantitative easing programme despite Italian Election uncertainty https://t.co/BMs8Dqm2kv https://t.co/EL3tlfws9m\n"
-, "HANDELSBLATT GLOBAL: The ECB is holding interest rates steady at 0.0 and making no changes to its program of quantitative easing #QE #ECB #EZB\n"
-, "FINANCIALPARTNERS: BREAKING ECB holds interest rates steady and makes no changes to its program of quantitative easing https://t.co/OTq2BZN8dQ. https://t.co/NyHqWqjdw6\n"
-, "DAILY EXPRESS: Pound LIVE ECB drops quantitative easing programme despite Italian Election uncertainty https://t.co/4H2ClkCzbg\n"
-, "BIG MEECHIO KAKU: If you consider the bailouts rounds of Quantitative Easing zero to near zero interest rates the new tax bill ALONG with this legislation...It's quite the pill https://t.co/3hQlCI0Zrw\n"
-, "MASTER GUCHI: “Quantitative Easing and Asset Bubbles in a Stock-flow Consistent Framework” Cameron Haas Tai Young-Taft 2017 https://t.co/0jTLGQphqB #経 #経論QE #経論金融\n"
-, "FINANZLINKSECONOMY: 🇪��� ECB Holds Rates Steady Removes Possibility of Increase to Quantitative Easing https://t.co/RzFhKmp1Kh INVESTINGcom\n"
-, "ECONOMICS GLOBAL: ECB Holds Rates Steady Removes Possibility of Increase to Quantitative Easing #Stocks #Trading #FOREX #Traders #tariff #ECB #Euro #Markets #European #Draghi https://t.co/OxriiVUy6y\n"
-, "BLOOMBERG ASIA: BREAKING ECB holds interest rates steady and makes no changes to its program of quantitative easing https://t.co/2ztJcicIgQ https://t.co/qmMX849DzT\n"
-, "BLOOMBERG TV: BREAKING ECB holds interest rates steady and makes no changes to its program of quantitative easing https://t.co/TZAiATMr6g https://t.co/1PE5BqTpNO\n"
-, "BLOOMBERG: BREAKING ECB holds interest rates steady and makes no changes to its program of quantitative easing https://t.co/crOksgfH57 https://t.co/H9uw6WoKra\n"
-, "WILLIAM GEORGE: Retweeted Positive Money Europe ( ): BIG NEWS Quantitative easing might stop in the coming.. https://t.co/oS5mlGJ8CE\n"
-, "JERRY TAYLOR #FBPE #LIBDEM #LONDEPENDENCE: @ cat weasel  J Irwin Other descriptions of Quantitative Easing are available I was sceptical initially still harbour doubts but so far it seems to have worked better than I expected Not all Gordon Brown’s ideas were bad The USA Fed and ECB seem to agree.\n"
-, "THE CURRENCY SCENE: #currency #cryptocurrency Detailed European Central Bank (ECB Exit Strategy to Keep EUR/USD Bid European Central Bank (ECB to Keep Rates on Hold Stick to Quantitative Easing (QE Program Updated Staff Projections on Tap Will the G https://t.co/Jt63BQrn9k https://t.co/1iiGqeHjCp\n"
-, "DAILY EXPRESS: The end of Quantitative Easing Euro to SOAR as confident ECB meets on Thursday https://t.co/yeqW4fIjGE\n"
-, "BITCEYLON: #banks get their money from the printing presses of central banks. Some call it printing money without collateral sophisticated countries call is quantitative easing. One causes #hyperinflation the other #deflation depending on the country of origin\n"
-, "JERRY FLETCHER: That's what we've seen in the past decades as the superrich have sucked the middle and lower classes dry with various grand thefts like LIBOR quantitative easing corporate bailouts and a raft of others.\n"
-, "JONES MAHONEY:  Is A Racket Well many bonds are sold so that is a form of borrowing so yes I am aware of the bs 'quantitative easing that goes on.\n"
-, "ALEX SONG: With central banks winding down quantitative easing hedge funds find more room to trade https://t.co/wfhoB6AscN via\n"
-, "TOBEY GELDER: Kim please supply references Without references your statements are at best disinformation BTW about $10T of today’s debt was added during the BHO years a lot of it via Quantitative Easing which a great smokescreen for [DemocRAT graft\n"
-, "ROBERT LERELOU: 5 c if the economic outlook is very deteriorated and the #USFED is left with no choice other than starting quantitative easing again (and may then have to print great amounts of USD then #BTC will skyrocket alongside other risky assets like stocks.\n"
-, "RIGSBY: It can print as much cash as it likes but the prospect of devaluation on world markets should not be ignored quantitative easing I think they call it...\n"
-, "CRYPTOIQ: Do you lack the basic technical understanding to make assumptions on what a decentralized exchange is how it functions You're ok with CDOs Bespoke Tranche Opps Fractional Reserve Banking Debt Backed Loans Quantitative Easing but not a trustless measure of value &amp exchange?\n"
-, "ASK YOURSELF:  laura And what about the fabled quantitative easing used when bailing out the banks? Of course we can't do that to help the NHS or avoid austerity.\n"
-, "WTC: Yea let’s ignore Obama’s print and spend method of artificially propping up the markets through quantitative easing Let’s ignore that part of history right And obama spending more than all presidents combined with nothing to show for it SMH #thanksObama\n"
-, "EDDY FINCH:  Osborne  blog can't spend what it likes and issue currency to cover it so it would have to issue bonds then it's up to the bank of England whether it uses quantitative easing to buy the bonds by issuing currency Investors can abandon a currency though and a run on the was a real fear of\n"
-, "RON KLINE: Tell that to plp when the looses it value QE is fine when everyone is doing but everyone has stopped now so you will end up with the yen effect a fall in value that will lead to inflation due to our imports https://t.co/XSseb1Odqz\n"
-, "PHILIP ALEXANDER: The Fed wants to shrink its balance sheet as quantitative easing winds down But the Basel liquidity coverage ratio might make that much harder than it looks Great analysis from Kris Devasabai https://t.co/eQRaVwJjHC\n"
-, "COLUMBIATHREADNEEDLE: Candid discussion between Colin Moore and Ted Truscott on market volatility changing interest rates quantitative easing and emerging markets in this Q&amp;A https://t.co/7RQHWnnzCf\n"
-, "EDDY FINCH:  Osborne  blog argue that the UK should not have embarked on the deficit reduction programme it did at the end of 2010 forgetting of course that actually the UK's Bank of England has used quantitative easing (doing exactly what you described here quite extensively where it has deemed it\n"
-, "LUCA LUCCHESI: Do you really want more quantitative easing and stimulus Those BoE policies are actually hurting the working class the most They are however really good for those who own equities and assets such as real estate and fancy art.\n"
-, "EP CAPITAL: The end of Quantitative Easing Euro to SOAR as confident ECB meets on Thursday https://t.co/7V5l3r7Z23\n"
-, "E-RECEP:  SGS An economic depression postponed by quantitative easing...\n"
-, "DAILY EXPRESS: The end of Quantitative Easing Euro to SOAR as confident ECB meets on Thursday https://t.co/yeqW4fIjGE\n"
-, "CDR AN0NWELL:  Trader  cinerea  National Right.. look who’s been running the Fed Where’s all our money going? It’s not a coincidence Israel’s our largest military sink while also pushing quantitative easing in the Fed You’re a joke shill\n"
-, "MPT: Homes are expensive mostly because the banks got involved through credit creation. This Govts policy on Quantitative Easing (QE has just poured more credit creation into asset price speculation and we’ve had some of biggest increases in asset prices in recent times\n"
-, "NURJAHANASHA: The end of Quantitative Easing Euro to SOAR as confident ECB meets on Thursday. https://t.co/n8caOGQJgg https://t.co/h0DZa7W0yq\n"
-, "NEWS JOX: The end of Quantitative Easing Euro to SOAR as confident ECB meets on Thursday City &amp Business | Finance https://t.co/99n58VZiR4\n"
-, "DON MASHAK: I liked a video https://t.co/Yyj0vn2bI7 Quantitative easing\n"
-, "ALT KATIE HOPKINS: If people were prevented from voting we'd no longer live in a democracy because that's what a democracy is In addition studied economics &amp seems to have forgotten about quantitative easing which is when a bank 'Prints money for the government rather than borrowing x\n"
-, "JEREL SHAW: #deregulate more I'm still in shock when the so-called 'quantitative easing (Giving free money to the banks took place under Obama It appeared to be so arbitrary and surreal Can never (Never satisfy greed as the same ones keep scamming the American public.\n"
-, "ROB POTTER: What factors may have affected recent volatility Take a closer look at how rising interest rates and inflation plus the Fed’s move to end quantitative easing may have affected investor behavior according to Ameriprise economic experts https://t.co/egwTi4YbiQ\n"
-, "FOXX:  lefty  riri  2016  Bad John 4  O B C H  Initials Eu is heading for disaster You do know it's being proped up with quantitative easing..? The French want out Germans moving very much that way Italy Open your own eyes look deeper.\n"
-, "LARRY CHIANG: Quantitative Easing 13 Calling a bubble too early is like being just-sa-wrong https://t.co/QKnKAeUtsZ\n"
-, "D MATHESON: ...the socialist just love quantitative easing everybody gets rich like in the Weimar Republic https://t.co/Qt4jQrmBEA\n"
-, "VICTOR PUNCH NAZIS LICATA: China produced commodities at a loss just as long as it hurt the US How did the US fight back against this aggressive economic sabotage We printed more money ('quantitative easing') We more than quadrupled our money supply.. so where did the inflation go https://t.co/dZnZcxlLgq\n"
-, "KUBIAKFINANCIAL: What factors may have affected recent volatility Take a closer look at how rising interest rates and inflation plus the Fed’s move to end quantitative easing may have affected investor behavior according to Ameriprise economic experts https://t.co/DZgzvJ8lSE\n"
-, "MELISSA R POE: 'The academic field of economics rose with our economy and everyone not just economists, talked of costs &amp earnings and cash equivalents &amp quantitative easing Then the economy collapsed and all we had left was this shitty vocabulary. —Amy Rowland\n"
-, "WHISTLE BLOGS: Federal Reserve Whistleblower Tells America The REAL Reason For Quantitative Easing https://t.co/IxVs9Fntyj\n"
-, "DIAMONDPRIVATEWEALTH: What factors may have affected recent volatility Take a closer look at how rising interest rates and inflation plus the Fed’s move to end quantitative easing may have affected investor behavior according to Ameriprise economic experts https://t.co/nt2piGePOt\n"
-, "POSITIVE MONEY: “Osborne and his colleagues ensured that those responsible for the crisis benefited from the Bank of England’s quantitative easing programme which inflated asset prices largely owned by the more affluent” points out https://t.co/rc9KCn2FTF\n"
-, "LIBSTURNTAIL&BLOCKME:  faith  lXXl  daniel  MB  manocchio Speaking just economically that's also true The bankers have been running everything for a century A bank picked Obama's cabinet and he gave the 1 $4 trillion The economy 'recovered thru the quantitative easy policy. https://t.co/wDlz5zjznV\n"
-, "SAM: All this money is mostly printed on a printing press and it is all legal as it is the Central Banks and its called Quantitative Easing QE..debt\n"
-, "DAVID REIGLE: The end of Quantitative Easing Euro to SOAR as confident ECB meets on Thursday https://t.co/s2GWgrZY6L\n"
-, "ANGELIQUE:  Marney You can't take back what is already owned by Qatar for example The European Central Bank’s $1.2trn quantitative easing programme has underpinned asset prices including property It has slowed down but it is still substantial Erdogan funded a huge mosque in Cambridge.\n"
-, "THEDOBRICKLITTLEGRP: What factors may have affected recent volatility Take a closer look at how rising interest rates and inflation plus the Fed’s move to end quantitative easing may have affected investor behavior according to Ameriprise economic experts https://t.co/4HeBWy4jxL\n"
-, "INDIANAPLUS: Bahahahahaha US recovery was exclusively from quantitative easing NOTHING ELSE It has been a decade of free money.\n"
-, "L HONDERS: Quantitative easing is alive The ECB's balance sheet is now bigger in than the FED's balance sheet in USD$ https://t.co/pcoqewZbla\n"
-, ": When I began studying economics I remember being told (what we now call 'quantitative easing was like a sledgehammer and would never actually be used by the Fed 'Never turned out to be 3 official 'quantitative easings a few years later. Nothing I learned in school was true!\n"
-, "ENEWSRADAR: https://t.co/u8gB9ToKE8 The end of Quantitative Easing Euro to SOAR as confident ECB meets on Thursday https://t.co/p33QWQkD4E\n"
-, "WWW.RIGHTNOWNEWS.US: New post (The end of Quantitative Easing Euro to SOAR as confident ECB meets on Thursday has been published on Right Now News https://t.co/oA7xrzP70o https://t.co/CdV6gyqORN\n"
-, "QUANTAMIZE: BOJ Kuroda reiterated that the 2 inflation target is a top priority for the BOJ This may ease investor concerns about a deceleration in the quantitative easing policy pursued by the BOJ #Japan #BOJ $USDJPY $nifty\n"
-, "MELBAL BUSINESS NEWS: The end of Quantitative Easing Euro to SOAR as confident ECB meets on Thursday https://t.co/lI51lsCFEF https://t.co/PoAljhkWSq\n"
-, "BALMEL DIRECTORY: The end of Quantitative Easing Euro to SOAR as confident ECB meets on Thursday https://t.co/ApjcwJx2nY https://t.co/6dwyqqJ3JL\n"
-, "EXPRESS BUSINESS NEW: The end of Quantitative Easing Euro to SOAR as confident ECB meets on Thursday GLOBAL money markets will turn their attention to the ECB meeting later this week for clues as to how and when the bank will withdraw its hefty stimulus programme -» Get https://t.co/2YJAif220A https://t.co/yzGNPGekeG\n"
-, "AUTO BLOG GLOBAL: The end of Quantitative Easing Euro to SOAR as confident ECB meets on Thursday https://t.co/MOdF0C3kZr\n"
-, "MORE BUSINESS NEWS: The end of Quantitative Easing Euro to SOAR as confident ECB meets on Thursday https://t.co/9lfoq3xdc7 https://t.co/mDkeKQGPAe\n"
-, "SOYNADIE: The end of Quantitative Easing Euro to SOAR as confident ECB meets on Thursday City &amp Business Finance https://t.co/ZYaw5XGJoi https://t.co/JbWGjbWmPt\n"
-, "SOYNADIE PRESS: The end of Quantitative Easing Euro to SOAR as confident ECB meets on Thursday City &amp Business Finance https://t.co/00HZOXRSFy https://t.co/PH6Xu6vDAg\n"
-, "SOYNADIE: The end of Quantitative Easing Euro to SOAR as confident ECB meets on Thursday City &amp Business Finance https://t.co/TB10wTqum0 https://t.co/fdyG7qHOsX\n"
-, "SOYNADIE ORG: The end of Quantitative Easing Euro to SOAR as confident ECB meets on Thursday City &amp Business Finance https://t.co/NyTMqokYh7 https://t.co/iVVnX7fOEK\n"
-, "PERIODISTA URBANO: The end of Quantitative Easing Euro to SOAR as confident ECB meets on Thursday City &amp Business Finance https://t.co/7KYegsVOif https://t.co/SFku3kT9qc\n"
-, "NEWSGW: The end of Quantitative Easing Euro to SOAR as confident ECB meets on Thursday THE NEWS GROUP OF WORLD https://t.co/NjRbwAjlFa https://t.co/x5trs8VXpN\n"
-, "DAILY EXPRESS: The end of Quantitative Easing Euro to SOAR as confident ECB meets on Thursday https://t.co/yeqW4fIjGE\n"
-, "JOHN BELL: Agenda now appears to have switched to wealth inequality. I wonder how much of that has been caused by the effects of quantitative easing on assets?\n"
-, "BEVAN BOY: https://t.co/Dq6EVOhrjE John Redwood lets the cat out of the bag Austerity was unecessary and quantitative easing is more than acceptable for a country that can print its own money.\n"
-, "DR PENNIES: market value measured with dollars dollars vastly overvalued inflation...zero cost lending quantitative easing increased speculation high liquidity spending bubble pull back money hedges in finite assets (property/land metals and now crypto) so...pls elaborate?\n"
-, "NIGEL CURRIE: Economy booming reduce debt. Economy tanking borrow. Quantitative easing.. OK at the time but is a trick that can't continue indefinitely. Money is created against wealth it really doesn't grow on trees.\n"
-, "THE WEB OF EVIL: Along with general tedium of accusations that Labour squandered ££ you can argue all day over quantitative easing but most rightwing critics don't even seem to know that's where the money went I'm SO BORED with the wilful ignorance surrounding Liam Byrne's Treasury note https://t.co/D18J1pZLmX\n"
-, "KENNETH WHITE JR: What factors may have affected recent volatility Take a closer look at how rising interest rates and inflation plus the Fed’s move to end quantitative easing may have affected investor behavior according to Ameriprise economic experts https://t.co/9UxhthytkR\n"
-, "FRED MCELWAINE:  rook ...forecasts were based on immediate notification of article 50 Carney’s quantitative easing was effectively the ‘emergency budget’ but Leavers are a literal bunch None of these things mattered to Leavers though as soon as the referendum was called they knew how they...\n"
-, "JAMES MACEACHERN: Osborne had predicted to have UK running a surplus by 2015 and yet the OBR is now predicting that UK will run a deficit until at least 2031 UK has used quantitative easing to greatly reduce its deficit which will eventually be reversed There are many other ways than austerity.\n"
-, "RANDOM NOISE: You think housing is a free market With planning regulations environmental regulations affordable housing regulations quantitative easing local political lobbying.. you are very ill-informed.\n"
-, "TRUTH IN ACCOUNTING: great article on quantitative easing We featured it in our newsletter https://t.co/z0jWhVqznR\n"
-, ": Fed Reserve Chairman Powell just dropped a major hint that the Central Bank has been aggressively utilizing a controversial tool it used earnestly in response to GREAT RECESSION &amp its aftermath—Bond Purchases also known as Quantitative Easing or #QE https://t.co/NjHm8VcRgR\n"
-, "DEPLORABLE SMALL PEOPLE   STABLEGENIUS: You're right It's the Federal Reserve and they propped up Obummer throughout his 8 years with Quantitative Easing. https://t.co/5LIV1HmHAq\n"
+, "WALLACE NOLL:  Stockman the chinese are the masters at using quantitative easing to focus industry's efforts to dominate whatever sector they choose to dominate The American system of financing new endeavors is failing;\n"
+, "POSITIVE MONEY EUROPE: Greening quantitative easing isn't a new thing Back in 2015 it was already being proposed by the French government's think tank  Gouv https://t.co/tZ7OAICesE\n"
+, "RASHEED MUHAMMAD: (Video Sub-Prime Mortgages and Quantitative Easing IS The New Normal https://t.co/qhB90dQXBx https://t.co/JPWOeoANGQ\n"
+, "LARRY CHIANG: Nice chart What does it look like if you use Wu Xia for the nominal funds rate instead to account for QE (Quantitative Easing) [HT #QE7 https://t.co/2jjiX5Sexr\n"
+, "BENZTRADER: Sub-Prime Mortgages and Quantitative Easing IS The New Normal Economic.. https://t.co/2bCNEa5e9i via\n"
+, "DEVRA #REUNION: The new economics shows this to be the case One version was the quantitative easing which put 'money into financial institutions Should have actually printed the stuff and sent a good lot to every individual in the UK This would have helped the poor and revived the economy https://t.co/P6CL42Kjoz\n"
+, "MARGINALREVOLUTIONU: NEW video How the Fed Works After the Great Recession https://t.co/BFpQtXtu5c explores how and why the Fed changed tactics when the 2008 financial crisis hit #econ #Macro #FederalReserve https://t.co/wfHD4y9xU8\n"
+, "EKEM BRANCH: Bank of England has established that the costs to date of #EURef outcome are £700m a week in lost economic output (GDP) despite a virtual doubling of emergency measures (Quantitative Easing to stabilise financial markets after The Great Recession #TheGreatBrexitDelusion https://t.co/jQGcWkGcq3\n"
+, "JACK DUNN: The stock market has been disconnected from reality for years due to Quantitative Easing.  regan More jobs full-time jobs means a better economy ADP showed MTM increases in every Sector seasonally adjusted More jobs more real estate sales more retail\n"
+, "TUOMAS MALINEN: #QuantitativeTightening 'Experts warn that the global money supply is slowing much faster than widely appreciated suggesting that the shift away from quantitative easing by the major central banks is already starting to have profound consequences.' https://t.co/OUsJRImo7c\n"
+, "THE JUDD SCHOOL ECONOMICS POLITICS DEPARTMENT: Remember QE isn’t printing more money Excellent video here for Yr13 Economists Quantitative Easing (Evaluating QE in the UK Economy https://t.co/WpDPGOyP4b via #aqaeconomics #revision\n"
+, "SACHIN GARG: I wld say quantitative easing 3.0 print more money...stimulus to economy and devalue dollar...that's universal tarrif A better fit for tat.\n"
+, "JESSE GREEN: There was no recovery lol It was just reinflating a bubble due to constant FED quantitative easing and 0 interest rates Looks like you also know nothing Bush made the housing bubble Obama made the everything bubble He just got lucky to exit before it pops.\n"
+, "KK: Economic Policy followed after World War 2 by US is coming back to haunt them Also Quantitative Easing.\n"
+, "IG:HKVIBEZ: You forgot to add 'printed more money via quantitative easing https://t.co/hkPxBNtxj2\n"
+, "RICHARD MONAGHAN: The entire problem here is the theory that an increase in the deficit spending will be inflationary Yet after nearly 10 years of Quantitative Easing this entire theory has been proven to be just nonsense.\n"
+, "BEN RICKERT: If the supply growth matters that much why hasn't there been massive dollar inflation after the huge supply increase via quantitative easing?\n"
+, "G RAN OLSSON: “Yet after nearly 10 years of Quantitative Easing this entire theory has been proven to be just nonsense There are so many loaded assumptions hidden at its core that one must wonder how rational people still believe in a theory that cannot be proven by history. https://t.co/ZRIZmMHRTF\n"
+, "BLOOMBERG ECONOMICS: Good economic news is no longer unspeakable in Japan The central bank has been too obsessed with reassuring investors that stimulus would continue https://t.co/FwdPxQaWxf via https://t.co/gpZu1GYn6S\n"
+, "COLFESECONOMICS: #AQAEcon perfect for macro. Quantitative Easing (Evaluating QE in the UK Economy https://t.co/4sLvXdu3tT via\n"
+, "TEDHU: Good News Is No Longer Unspeakable in Japan https://t.co/NdkvnJSLvI\n"
+, "DAVID MARTIN: Good economic news is no longer unspeakable in Japan reports  Eco https://t.co/QWdiYx543j via\n"
+, "YUKO TAKEO: Good economic news is no longer unspeakable in Japan reports  Eco https://t.co/3vmjWqsUvW via\n"
+, "WANALYTICS:  Rock That’s because your thinking has been trained by 10 years of quantitative easing This is a different environment now.. healthy markets that aren’t supported by 0 money don’t just set all time highs every month.\n"
+, "CHRIS KLINEPETER:  Fetish Because they just printed magical money with quantitative easing Held very low interest rates There will be many problems because of this Adding to the deficit with no intention to correct it\n"
+, "BLOOMBERG VIEW: Good economic news is no longer unspeakable in Japan reports  Eco https://t.co/8yEWWPKZIh https://t.co/uMd9AFfLFX\n"
+, "COYOTES BAR:  j thank you you have just confirmed that you are so dumb its unbelievable have you never heard of a central bank or quantitative easing how about knowing the tories have borrowed more money than EVERY gvmnt ever!! in just 8 years!! politics and finance isn't for you\n"
+, "BLOOMBERG: Good economic news is no longer unspeakable in Japan reports  Eco https://t.co/kFFFRuyzQJ via https://t.co/hrT9ThT1RR\n"
+, "IRC NOT ROOTBEER: Their stock price is seriously grossly over inflated anyway just like Flakebook Twitter and many others. over inflated with tax payer quantitative easing money funneled into the stock market to pump it up under Obamas admin.\n"
+, "KEITH BURGE: The predictions assumed Article 50 would be triggered immediately and did not factor in the huge quantitative easing undertaken But in time the predictions will come to pass should Brexit proceed.\n"
+, "JAMES MACEACHERN:  3502  payne  Anderson  scott  watson You support a United Kingdom that defends its status as a sovereign independent country at any cost including bailouts big deficits debt of 259 of GDP high inflation high interest rates £435bn of quantitative easing high unemployment oil crises and human lives etc.\n"
+, "LUKE BRADLEY:  Dot J 'Quantitative Easing not as clumsy or as random as a stimulus bill a more elegant weapon for a more civilized age.'\n"
+, "PMG_BARNHAM: More than a simple comparison of the current scheme cash flow i.e taking future projected income and expenditure and discounting back to present time whilst recognising that Quantitative easing whilst inflating current assets values has reduced future investments returns\n"
+, "CROUTON: Austerity is a lie Most developed countries are owed as much as they owe If they chose to pay off each other’s debts they would have a balanced budget Just like all the banks did in ‘08 (except they got quantitative easing and increased their monopolies before doing that)\n"
+, "ED CONWAY: Quantitative easing represented a £350,000-plus boost for Britain's wealthiest 10% according to the 's own analysis And the oldest benefited most of all https://t.co/prKOxDiDPg https://t.co/aFJLx6vA8q\n"
+, "TONY CLEWES #FBPE:  Flaneur16  may How much money has the Bank of England and the US Fed spent on Quantitative Easing Look at UK Balance of Payments for a basket case economy caused by UK government ignoring manufacturing.\n"
+, "MRA MARKETING: Monetarists say shift from quantitative easing is causing money supply slowdown and risks economic global showdown later this year  mag https://t.co/x5XnD41yKj\n"
+, "ANDREA: Remarkable that the PMIs are so low considering the amount of #quantitative #easing that the has put in the #system.#Risk #riskmanagement #news #NewsDay\n"
+, "DEEPAK SINGH: How much world has changed since Nov 2015? Interest rates in the US back then was near zero percent. Now it is near 1.75% Quantitative Easing now is in History books\n"
+, "TUTOR2U ECONOMICS: NEW REVISION VIDEO for A LEVEL &amp IB ECONOMICS Quantitative Easing (Monetary Policy Update 2018) This is an essential new revision video for all Year 13 Economics students as they prepare for the summer exams Superb update on use of Quantitative Easing https://t.co/IW8lGu4bTs\n"
+, "MARKET PRICE INDEX: #Uganda is not alone Many African countries loaded up on cheap credit during the quantitative-easing era and now face elevated interest costs as developed-market rates creep up #ConsultMPI\n"
+, "JAMES CRAWFORD: More mortgages &amp high suv sales to minorities driving sales driving debt being covered by quantitative easing???\n"
+, "JEFF SANDERS: The stock markets rise is easily attributable to federal reserve quantitative easing that was performed to stop the 2008 crisis from becoming the 2008 depression Alas those actions merely kicked the can and I am pretty sure the trump depression will be starting soon.\n"
+, "HAKON KHAJAVEI: Begs the question why did President Obama specifically win because of the recession Didn’t all of the candidates run during the recession Also fun fact the president doesn’t have control of the money supply (quantitative easing) Thats the federal reserve.\n"
+, "STACEY JOHNSON:  beat3r 1 Trump supporters are the ONLY wants to initiate Obama discussion thus far. 2 No it’s not a coincidence that rates were not hiked during Obama’s time We were in a period of quantitative easing for reasons that make sense now inflation is concern Use your head.\n"
+, "PREPARE MATHEW 25: Love ya ted kusinsky but obama stole 50 Percent then put back 37 Percent leaving a loss of 13 percent and SUPERMAN DONALD JOHN TRUMP AND QUANTITATIVE EASING AND Magic Has HAD ALL GAINS WAIT 5 MINUTES ITS GOING TO CRASH BIG WITH YUAN PETRO DOLLAR PRESIDENT U THE KING https://t.co/t9z9X8gxfz\n"
+, "MYTRADEPH-ABACUS SEC: Today's Short Takes In Focus Quantitative Easing $FLI $SMPH $RLC $ALI $MEG $VLL $BEL $RLT $SLI $GERI Read the full report at https://t.co/r7o32ppvVy #ShortTakes #SwitchToMyTrade\n"
+, "GREG POWELL: It was the Federal Reserve massive quantitative easing 1,2 &amp 3 that brought us out of the Great Recession Obama policies were anti-business and anti-growth.\n"
+, "KAZ LOKUCIEWSKI: I'm an objective remainer There can be no over all 'forecast I would bank on so many variables including influx outflow of illicit funds though London unrestricted by EU anti tax avoidance directive increasing pension age and quantitative easing https://t.co/faMRjREh2Z\n"
+, "ROONOMICS: If a question comes up in June to the effect 'Explain how QE works or 'Has QE been an effective policy' this article from Tutor2U is brilliant https://t.co/cpb94yb1uF\n"
+, "BETHLEHEM: I know bitcoin &amp cryptocurrency aren't synonymous however there is 21 million bitcoin total in circulation This was Nakamoto's solution to the derivative/quantitative easing BS that actually did more damage to the global economy than helped it.\n"
+, "KRIS: Decreasing demand for food?! Who believes this stuff? I have explained this 1 million times COST of doing business is sky high due to Quantitative easing which shot up the commodity prices Hence farmers are making no money https://t.co/E1aapsrVT6\n"
+, "PAUL TOWER: Thanks Trump Worst opening since the Great Depression FYI it's only gonna get worse from here now that quantitative easing has tightened Will be good for #Bitcoin #Crypto #cryptocurrency #tyt https://t.co/UQYvsm5ktR\n"
+, "JOSEPH JONES: Quantitative Easing Troubled Asset Relief Program Too Big to Fail. … Short Term Incentive for Rental (STIR) Established 2009 After rebrand to Rental 100 bringing ever more impressive levels of unaffordability\n"
+, "TEEMU SINTONEN: In this upside-down world borrowers get paid and savers penalized Central bank unconventional monetary policy tools such as negative interest rates #NIRP and quantitative easing #QE punish banks that have a sound financial position with cash instead of further extending loans https://t.co/Gt0XA7PIqV\n"
+, "DPLORABLEBSTRD: You really need to learn economics He did nothing for the economic crisis even while President After the crash of '08 the Fed simply instituted Quantitative Easing It was an open ended blank check to the bankers payed for by the little guy And he as a senator supported it\n"
+, "ANDREAS CSEH: It doesn’t take a genius to notice that something is up with the #markets The great economic crash of 2008 barely shows up against the enormity of both the Dot Com boom and the “Quantitative Easing boom of the past five or six years 🎈��� https://t.co/gXKRldJHQ1 https://t.co/ZvVCE9YHoR\n"
+, "AGENT CRYPTIC PSYPHER: Pay all UK 25-year-olds a £10000 inheritance says thinktank https://t.co/ZR6BlRCgUj As effective as quantitative easing with same result\n"
+, "ALFRED GILLHAM: Just joking but may need them Had problems with a £20 Scottish note in Brighton Wouldn't accept So much for quantitative easing!\n"
+, "1911A1CUSTOM: Nah Just get the Fed to print more Recycle reuse renew It’s called quantitative easing.\n"
+, "JEFF WHITE: yes. This 'miraculous Quantitative Easing... So.. if 'money becomes available at near zero cost.. might not the wealthiest in the world use it to buy up every greenbelt every mine (Rio Tinton anyone) every seaport &amp shipping company? Right.. under.. our.. noses\n"
+, "VINAY RAO: March is usually bearish sentiment (not sure why) The risk is that global economic outlook improves and fiats are not debased by quantitative easing So crypto coins stop seeming worthwhile but blockchain and fiat linked tokens abound.\n"
+, "JULIAN COX: Fact: Under Obama not only was tax given to the Federal Reserve to write another $10 Trillion of debt (mostly bonds to add insult to injury tax was paid directly to Wall Street to bid up the bond market!!!!!!! Look up Quantitative Easing The above is a perfect description.\n"
+, "GERALD NASH: That’s what I was thinking Like today’s quantitative easing methods actually seem to be working just fine imo\n"
+, "TERRY VICTORY: You honestly have no idea about the dynamics of Quantitative Easing if you compare these charts.\n"
+, "ONEDADSFINANCE: Umm.. quantitative easing isn’t fiscal ‘spending but thanks for coming out.\n"
+, "CHASFAX: Slowest growth of any developed country we'd be in recession now without quantitative easing manufacturers planning to shed tens of thousands of jobs financial companies choosing between Frankfurt and Paris and we won't be leaving for nearly three years No drama eh?\n"
+, "MARK JEFFERSON: Then the federal reserve decided quantitative easing would help keep the country from default so they started “printing money as fast as they could expanding the supply and lowering interest rates to help keep the economy artificially afloat.\n"
+, "DANIEL MCBRIDE: Quantitative easing ‘reduced UK wealth inequality’ says BoE driven mainly buy QE inflating house prices. Younger people have been priced out the housing market and so in future we'll see wealth inequality sky-rocket. https://t.co/Mblq4CvHLh via #inequality #housing\n"
+, "MATT PALASKY: Quantitative easing the subject of this article is not giving free money away It is the government injecting money into the economy by purchasing investments.\n"
+, "HOWARD ARCHER: Likely to be a controversial view #Quantitative #easing ‘reduced #UK #wealth inequality’ says #BoE https://t.co/Hn42YzRGt0 via\n"
+, "MARTIN GOODSON: 'Quantitative easing ‘reduced UK wealth inequality’ says BoE says FT in most gullible headline ever How about all the people with zero wealth They seem to be completely missing from the first graph https://t.co/I5u9cjy7EX via\n"
+, "THAT SCOTTISH GUY: There will be more quantitative easing if banks not lending to each other,your dollar/pound worth less,inflation will rise\n"
+, "DANIEL WALTER: Getting the conclusion that fits nicely but looks fake Quantitative easing ‘reduced UK wealth inequality’ says BoE https://t.co/9Ca5xuUJCV via\n"
+, "RANJAN BALAKUMARAN: Quantitative easing ‘reduced UK wealth inequality’ says BoE via Nearly fell for this https://t.co/rnBnMOyYOn\n"
+, "ANDREW MCNALLY: How can raising the price of a necessity reduce inequality It crowds out the scope to own productive assets #housepriceillusion Quantitative easing ‘reduced UK wealth inequality’ says BoE via https://t.co/UO8QElGcPS\n"
+, "ENOCH POWELL:  kudlow The Fed printed $4 trillion out of thin air and pumped it into the markets under quantitative easing during the Obama years and our GDP growth never cracked 2 in 8 years Bank were basically given free money to loan and the economy never managed more than a shrug.\n"
+, "WYNOTME307:  sable  always  Jammin  Y 6  pleiades  nod  USA That is fine We have been short of money for years. What do you not understand about 'quantitative Easing? Our US Currency is setting over in Europe If they buy Euros we get our money back Huge win for USA.\n"
+, "IAN HOPKINS: While may and her cronies throw quantitative easing at banks and the city of london imagine flipping that upside down and easing youth pain to create economic movement The current approach as Walton with child poverty rate at over 40%.\n"
+, "JASON: TARP was just the first round Shit at least the banks had to pay back that money The quantitative easing was nothing more than trillions in printed cash.\n"
+, "JASON: Amazing how you found the strength to give major banks trillions in quantitative easing It takes real courage to support “what is possible!”\n"
+, "JASON: Weird we never talk about things being too expensive when it comes to funding 800 overseas military installations Only some We did 17 trillion in quantitative easing that’s a cute term for free money Those banks are larger and more profitable than they’ve ever been.\n"
+, "JASON: Only cost millions of pensions and homes lost tens of thousands of suicides But billionaires who received quantitative easing (free money and 0 loans paid it back What a hero!!!\n"
+, "ELYK SNOMMIS: “Trickle down is a made up term by leftist to denigrate “supply side economics It’s been shown throughout history that lowering taxes on investors and producers creates wealth Not artificial wealth like Obama’s Quantitative Easing garbage Real wealth that people invest.\n"
+, "PATRICK GERARD: There’s only a correction if the markets are rational Quantitative Easing made a good case that they aren’t Stock buybacks arguably make a case they aren’t And yeah Russia They’re betting on global collapse on multiple fronts because it’s their only hope of survival...\n"
+, "THE PROPHET: The real estate market in BC and ON got ahead of themselves but in the long term there may actually be some truth to the statement “if you don’t buy your kids a house they won’t be able to afford one. Family wealth becomes very important in a world of quantitative easing.\n"
+, "ZORAIDA S NCHEZ: Abenomics Looks a Lot Like Reaganomics 'Abe’s reforms like Reagan’s are best described as neoliberal Kuroda enacted a dramatic program of quantitative easing that finally ended the country’s long spell of deflation' https://t.co/CSuPSWwbO1 https://t.co/Ld6ieCrykJ\n"
+, "CATHY BAILEY: Now the Nobel Prize Committee regretted giving Obama that award for doing nothing As far as Stock Market why not do some research on quantitative easing as the Feds pumping into the markets.\n"
+, "PAUL GAMBLES:  InTheWilds  v20  UK  Lloyd But if we have to revisit QE NIRP&amp;ZIRP again (&amp I agree w that we ain't seen 0 yet then here's a golden oldie from back in 2014 (in the presentation version of this I quoted Blackadder 'total blocks but for the CNBC article I toned it down https://t.co/6F4LOM3JrT\n"
+, "BILL MILLER:  witkowski No it's not Jedi you are not Look at the type of jobs created by 44.. They were not sustainable The market went up due to quantitative easing.. cheap money.. 10s of millions gave up and left the job market making the artificially low Go.past the headlines dig padiwan\n"
+, "BRIAN J HURLEY:  Ken  weed Obama manipulated the Bond market to keep interest rates down to look good and cost America trillions “quantitative easing look into it then try to blame trump\n"
+, "BILL MILLER:  ellis90  heider No that was quantitative easing.. cheap $ and 0 interest. No thanks 44\n"
+, "KITTYSCALP: Stage 3 Public forced to sell off their bags before 15th of April to pay 2017 gains Smart money finish to distribute stocks at the highs to dumb money Central banks Quantitative Easing bubble burst stock market crash Stage 4 for cryptos and precious metals\n"
+, "THE ROMBACH REPORT: Jeff Have the Federal Reserve pay for the wall out of $100 billion income it earns from its $4 trillion portfolio of govt debt purchased via the Fed's QUANTITATIVE EASING program during the Great Recession If not the Fed will only remit that income back to US Treasury.\n"
+, "JOSEPH LEEMAN: I'm sure Trump will get blamed.. you know not the end of Quantitative Easing or cheap money https://t.co/03mquzKsKF\n"
+, "TIMOTHY WILLIS: Good to see quantitative easing letting up in the face of higher interest rates Oh wait.. Perhaps can help me understand U.S Fed buys $2.9 bln of mortgage bonds sells none https://t.co/HV7TumqteT\n"
+, "ABHISHEK RAJURKAR: Quantitative easing has pernicious effects that favour the wealthy John Butler https://t.co/mf2hAq05Xf\n"
+, "SIMON MAYHEW-ARCHER: Why is mid-morning TV dedicated to “exposing low-level insurance scammers and benefit cheats Where are the daytime programmes about the Panama papers property-owning money-launderers &amp the efficacy of quantitative easing Which causes more damage to the “common person” 🤔\n"
+, "VERNER VERASS: Shifting decimal point 2create $$: …central banks create money by buying securities such as government bonds from banks,-w-electronic cash that didn't exist before New money swells size-o-bank reserves in economy by the quantity-o-assets purchased—hence 'quantitative easing https://t.co/cUSYEi5iMK\n"
+, "ROSIE RICHENS #FBPE #WATON #ABTV: If money isn’t devalued when you put more into circulation why has the pound been devalued Mark Carney pumped £300Bn of quantitative easing into the FTSE when the pound crashed The pound ended up being devalued against other currencies That was nothing to do with productivity.\n"
+, "WALTON MCGUINTY: picture Quantitative Easing 4 coming to a market near you.\n"
+, "ANDREW WAUGH: You couldn't vote for Juncker or his pals and the EU budget and the subsidies and who the EU grants accession to or quantitative easing or pretty much everything else Just like the rest of us actually.\n"
+, "MAREKANI ?: Hotep capitalism 101 'arbeit macht frei or a whole lot of quantitative easing redlining Jim Crow &amp crony capitalism (guess it depends on what side of the Atlantic you reside https://t.co/R0BY3NgPI4\n"
+, "DR SIMON LEE: Melrose was ready for action takeover target GKN wasn't Like the rescue of the banks and quantitative easing this is the triumph of short-termism and rentier interests over long-term wealth creation Welcome to 'Global Britain'. https://t.co/uR2cUeEagt #AltAusterity\n"
+, "PHIL WEBBER: Spending more on NHS would save the UK money by enabling more people to work longer and pay more tax Govt spent £475bn on Quantitative easing and no-one even blinked Tax is there to keep inflation under control Spend on NHS a v.g investment.\n"
+, "HAKON REDDER: ECBs Knot “Top priority is to normalize monetary policy and strengthen EMU men også Acknowledged the need to move slowly ECB’s balance sheet could stay inflated for years .. reinvest the proceeds of debt holdings under quantitative easing as they mature Hvad er signalet ?\n"
+, "ZVI: Natural (Uncontrolled/Non-elastic Scarcity Controlled/Elastic Money Supply Open Market Operations Quantitative Easing “MV=P…Que Love and Circularity in the Time of Crypto by Anshuman Mehta https://t.co/u4WVf9gGRa\n"
+, "THE GAYTRIARCH FLEETING MOMENTS OF COGNIZANCE: Housing market collapses the president attempts Keynesian economic theory to 'jump start the economy through quantitative easing. This sudden surge of money in the economy siphons almost directly to the wealthy as they hold the majority of ownership.\n"
+, "ALEXANDER CHENG: Investors confidence on US market is the strongest basing on Dow Jones over 4,000 points since January 2017 The US market sans quantitative easing is back by real GDP from manufacturing construction finance unemp rate..🇺🇸🙏🏻🤠🍷🏌️\n"
+, "NAPOLEON: Which is not being responded to Under 40s can't afford houses, wages have been stagnant and quantitative easing has not benefited the masses Corbyn could well ride this to a win.\n"
+, "LUKAS DUPASS: You can thank Obama's 'Quantitative Easing Wall Street subsidiza program during his admin.. $blns went to Obama Choice WS Stocks being fed by US Treasury.. approx $11bln in 8 yrs sound right https://t.co/8oNdvslpmN\n"
+, "KIKO KOBAYASHI: Once nuclear power generation melts down or explodes, Just as we can not control, Now in the world of finance, Including controversial quantitative easing and loss of value of Fiat Currency separated from.. https://t.co/sbdQhwPtNd\n"
+, "WILMA SCHROVER:  of Europe Hardly a nightmare with an ECB creating 80 billion per month out of nothing Quantitative easing is easy .. and quantitative.\n"
+, "ALAN SKED: Latest economic indicators suggest that the economic revival in Europe may have peaked This will cause doubts about ending the ECB’s quantitative easing in October Meanwhile Italy’s economic situation remains unclear until a new government can be found Expect confusion.\n"
+, "SHADYBOOTS: no doubt, quantitative easing Fed mandated low interest rates and deficit spending are the basis of our current economic stability. it wont last QE is ending,rates rising\n"
+, "GUY KILTY: This is a great listen on the effects of a decade of Quantitative Easing https://t.co/qDNGflpS24\n"
+, "JOE SHMOE:  IS TOXIC Gfc mate Read about it. Also take a look quantitative easing and tell me we aren’t headed towards a #creditBubble The neoliberal economic myth you staunchly defending is debunked.\n"
+, "POSITIVE MONEY: Today 7pm Southampton Is Inflation a Danger with Quantitative Easing for People https://t.co/nsAIvICK4b All welcome #QEforPeople\n"
+, "BANK OF ENGLAND RESEARCH: #bankunderground How have low interest rates and quantitative easing affected individual households in the UK Find out more here… https://t.co/MqAED41i3B https://t.co/zpFqebFoGq\n"
+, "SCHOLAR OF NOTHING: More related to new tranche's of Quantitative Easing coming India's way https://t.co/O2Q1aOUg9x\n"
+, "JUDAS THOMAS: Perhaps you have heard the words of Queen Rotschild Lucifandres is my hell Is she your savior? 'My gradnmother is no devil worshipper.' we want money to work for us not the other way around thanks for the quantitative easing it will fix the quantity before quantity problem.\n"
+, "S T E V E: Which of my Business for Scotland ‘friends do you suggest I ask https://t.co/sEMcBwyLP7 Please advise Thanks.\n"
+, "JIM H:  YVA All is changing under t leadership of Monetary devaluation set in motion by liberal policy of quantitative easing &amp manufacturing will return once t trade imbalances r corrected &amp playing fields bcome level again US is THE major consumer nation&amp;others need r mkts 2survive\n"
+, "TONY: What history are you referencing exactly Pre or post unprecedented quantitative easing #QE1 #QE2 #QE3 #QE4?\n"
+, "NAH    BABY    NAH: THE PRICE WE WILL PAY FOR QUANTITATIVE EASING Fed’s Bostic says sympathetic to adopting price-level targeting https://t.co/UmirlxCtPD\n"
+, "FACTSNOPINIONS: The paper more or less shredded former Fed chief Ben Bernanke’s favorite defense of his quantitative easing (QE programs that QE lowered Treasury yields. Bernanke Beliefs Busted New Research Foretells QE Domination https://t.co/45aCGeIZ25\n"
+, "STEPHEN IERARDO: Hahahahahahahahaha yeah the market increased under Obama because he took over after a recession which was more like a depression papered over with quantitative easing PAHHHLLLEEEESSE\n"
+, "NATHANIEL    JGUTHRIE:  salupa5 LOL The comment of the ignorant right here folks Pitty Christopher here for he lacks any understanding of what he speaks. https://t.co/BU2viezrVb QE1 was set in place in November 2008 Your ignorance is just so sad.\n"
+, "AGORACOM GEORGE: 1 'Toronto home buyers (AKA .. the market 2 When 'Quantitative Easing &amp 'Stimulus became policy 10 years ago the entire purpose was to .. wait for it .. stimulate investment You can't complain when it actually happens. 3 The market will correct or rise on its own\n"
+, "ROBERT PEARSON: of course Any easing whether qualitative or quantitative is designed to counter deflationary forces and introduce inflation Why would you do it otherwise The key thing is that if easing is to be successful it must be readily and quickly reversible.\n"
+, "POSITIVE MONEY: Tomorrow 6.30pm Southampton Is Inflation a Danger with Quantitative Easing for People https://t.co/nsAIvICK4b All welcome #QEforPeople\n"
+, "LAUREN A JOHNSTON: in the presence of lumpy demography and voluntary voting policies of intergenerational easing as much as quantitative easing may instigate a structurally shift in the marginal ability to consume changing the marginal propensity to consume and thus lifting aggregate demand.\n"
+, "ALEXANDER CHENG: The strongest US market is back by stronger economy with increased productions from manufacturing and other sectors including jobs take-home pay and investors confidence sans quantitative easing a real GDP strength.🇺🇸🤠🙏🏻🍷🏌️\n"
+, "EDWARD HARRISON: 'Despite the continued decline in nominal interest rates under the ECB’s quantitative easing programme since January 2015 the real interest rate for Italians remains higher than 1% in contrast the real interest rate for Germans is –1%'\n"
+, "VASILY NEKRASOV: Many 'experts' at least in Germany state nowadays currently the markets are driven by macroeconomic factors (FED and ECB policies quantitative easing etc thus the #stockpicking does not make sense We show that it still does. https://t.co/XiOwSx4l6t\n"
+, "DPLORABLEBSTRD: Pls point to the Obam a policy that is responsible for the current boom Ya can't because he wasnt responsible during his presidency just as he's not responsible now During his presidency the Fed Res implemented Quantitative Easing Wanna talk about rich assholes Id start there\n"
+, "TEODROSE FIKRE: 'Right to work is no different than 'collateral damage and 'Quantitative Easing' grifters and leeches deploy euphemisms to hide their pernicious intentions https://t.co/WsdsCwx1x9\n"
+, "ROY TOPOL: South Africa's unique version of quantitative easing.. https://t.co/xLPP9Uruhn\n"
+, "BIGERNMCCRAKEN: Be holier than thou art if you want-I watched my beloved country get ran in the ground for 8 years Markets propped up by quantitative easing no growth in the economy men using women’s bathrooms and now its shown our intel agencies were used against political opponents.\n"
+, "PRICE ACTION: What a joker 😂 Yes let's vote for more Quantitative Easing more food banks higher rates of homelessness less fire fighters &amp police...\n"
+, "THEPRODIGALCHAMPION: Paid for by the same people who fund TYT.😂😂��� I love how you have to stage your points I didn't like Obama because of the NDAA TARP State Back Terrorism in Syria Lybia and Ukraine Quantitative Easing 1,2,3 trying to pass TPP ACA .\n"
+, "DAVID HAMU: Weak argument The strong economy probably has more to do with 2 factors: 1 Fed chair Yellen Quantitative Easing 2 Trump's Tax Reform\n"
+, "PAIGE KRISTINSON: Essentially that is equivalent to printing money or as it's called these day quantitative easing The downside is that by devaluing the money in this way can lead to high inflation Back in the late 1970's inflation was high so everyone decided it was not such a good idea.\n"
+, "EM TAYLOR #FBPE: And we would have been if Mark Carney hadn't pumped 40 years worth of EU money into the banks to prop them up the very next day But you've conveniently forgotten that Nothing like a bit of quantitative easing to right your idiocy eh?\n"
+, "DIMITRIS T ANTONATOS: Praise for Obama everyone seems to be giving him is completely off Quantitative easing and the 4.5 trillion he gave to corporate America is the biggest scam anyone has ever given to the rich in this country 4.5 trillion Such a mistake to vote for him twice.\n"
+, "BERNAS: I think the printer should issue some more USDT for that juicy quantitative easing on the crypto markets.. God damn is that not going to hurt when it bursts!\n"
+, "BOOTIFULGREY:  politics The magic money tree was invoked in quantitative easing in the trillions but unfortunately it wasn't spent on nhs or anything else useful Without debt there is no economy It isn't like a household budget.\n"
+, "EKEM BRANCH:  clegg Name countries with which the UK has a trade surplus #TheGreatBrexitDelusion “EU Membership costs more than benefits. UK has lost c£700m a week in GDP since #EURef Full #Leave storm yet to hit Quantitative Easing to counteract ‘08 crash was doubled in ‘16 to avert new crisis.\n"
+, "WIZGICIANBRB: Quantitative easing does not create financial assets It does not go into the pockets of billionaires QE is monetary policy. Congress fiscal policy creates new financial assets and enriches billionaires through corporate subsidies tax breaks etc. Hudson yes.\n"
+, "GUS KUEHNE: Down the road to destruction of the $US Dollar expect that the Fed will start a new program of quantitative easing soon.. they can't fight inflation by just raising interest rates because doing so would increase interest on the debt to crushing levels.\n"
+, "POSITIVE MONEY: Good points by 'The problem with quantitative easing is that all the extra wealth went to people with the lowest propensity to spend it. Future QE should be designed to direct money into the real economy https://t.co/XvO6jYJusk\n"
+, "PAUL ROMANO: What factors may have affected recent volatility Take a closer look at how rising interest rates and inflation plus the Fed’s move to end quantitative easing may have affected investor behavior according to Ameriprise economic experts https://t.co/uEhEDaTabp\n"
+, "JOY DOREEN BIIRA: “Uganda is not alone Many African countries loaded up on cheap credit during the quantitative-easing era and now face elevated interest costs as developed-market rates creep up. .. https://t.co/Z1n4nIxEBC\n"
+, "JANET STEAD:  za Yes if only they concentrated on good free education and health paid for by honest to goodness taxpayers and a bit of quantitative easing Taking away the land will cause chaos and disinvestment When Roger Federer builds his first SA school it will be a day to celebrate unity.\n"
+, "SCHOLAR OF NOTHING:  mahajan This is a kind of quantitative easing Just keep on reissuing NCDs with actual repayment\n"
+, "ROB CARVER: There is an abbreviated version of my piece on QE and fixed income CTA strategies on the site https://t.co/gBRrvHeMv4\n"
+, "THE LIBERTY MACHINE: Wow You do know what Quantitative Easing is right Also when you start a trade war with China and the DJIA is down 3000 points from the 52 week high that isn’t the day to brag about the economy #Economics101\n"
+, "MARMADUKEBLACK: That's just old German speak for Quantitative Easing.\n"
+, "ALISTAIR NICHOLLS: Translation we want the Bank of England to increase interest rates (now that there's no more free money from Quantitative Easing https://t.co/YhxqJUenKk\n"
+, "AXA IM UK: IFA What’s moving #investment markets and how can history shape our understanding of potential opportunities today as well as threats Learn more about what’s happening in the world of #finance in our Economic calendar https://t.co/RgGJUvsnKH https://t.co/0DWU9nq0kG\n"
+, "NIPUN KALRA: $EURUSD is cheap in PPP terms Quantitative easing is slowing down and will soon come to a halt in Euro Potential hikes in 2019 Euro is fundamentally a long bet on a long horizon.\n"
       ]
     }
   , { name: "republican"
@@ -270,84 +255,86 @@ function countWords(text) {
       [
         "MALCOLM TURNBULL: " +
         "Thank you, thank you very much.\n",
-, "DANIEL SCHULZ: You should see people's faces if you'd explain the 'created out of thin air book money or quantitative easing scam that the global banks do.\n"
-, "KRIS: As I explained this several times thus far 'labor shortages means companies can't afford to pay normal wages due to Quantitative Easing and low rates wages have dropped people refuse to work for little money https://t.co/FFQ0Nrpr0i\n"
-, "RICHARD WEISS:  leslie  ellie  Misfit  anomaly  Read NZ  red  the People7  To Duopoly Controlling creation of money (spending is limited if creation of money is limited is the way to manage inflation Quantitative easing hasn't resulted in inflation because the money resides in the accounts of the 0.01 which has a low velocity https://t.co/QePnKR1nUM\n"
-, "SERIAL TRADER: We haven't even talked about the Federal Reserve's QE1 QE2 QE3 QE3 113 increase. You add up all of Bernanke's quantitative easing and he could have simply just given every single US citizen roughly $10,000 Family of four?...$40,000.\n"
-, "JAMES MACEACHERN:  3502  Nabb  U A R UK is a low wage economy and has been running deficits for 43 of the last 50 years It's been bailed out twice and narrowly avoided a third bailout by 2 hours It's currently relying on £435bn of quantitative easing and has a high debt to GDP ratio No-one knows the future.\n"
-, "ALEX SCHAEFER: Too Big To Fail and Quantitative Easing are the biggest welfare programs in history Fact more taxpayer money was doled out to criminal banks from 2008 to 2017 than has been given to 'lazy bums and Americans et al since the inception of Welfare programs in America 80 years ago.\n"
-, "DARREN MOORE: Tbh this compares favourable to the £350 billion spent on quantitative easing which generated zero value for the public https://t.co/r39Me1Q1I1\n"
-, "DAVID B COHEN: It's an opinion piece by an Obama cheerleader it reads like a partisan polemic that demonizes Republicans Economic performance under Obama would have been even worse had the Fed not launched an unsustainable quantitative easing scheme to overcome the Obama-induced credit crunch\n"
-, "OBEY THE REPUBLIC:  JKT Quantitative Easing &amp TARP bailouts is not capitalism the merger of quasi provate central banks bailing out private banks threw government endorsements is called fascism,but liberals &amp socialist love giving capitalism a bad name so they adopt the term crony-capitalism 2 fool ppl\n"
-, "RICARDO PEDRAZ: Josh Ryan-Collins advocates the ECB should play a stronger role in supporting a sustainable finance system Green macroprudential policies + Green credit guidance Incorporating sustainability criteria into quantitative easing https://t.co/RjXbxw5Xwf\n"
-, "EDMUND BURKE: 4 To stanch the arterial exsanguination radical experiments (read Quantitative Easing are tried on a living patient like extreme unction in hopes that the bleeding will stop The result the loss of half a generation's life-goals and no reward for saving 8/\n"
-, "CHRIS FAGAN: SAME ECONOMIC IDIOTS THAT TOLD US QUANTITATIVE EASING IS NOT INFLATION......\n"
-, "THE RETAIL CRYPTO INVESTOR: Money printing quantitative easing is the tech term But it means the central banks just print money from thin air 😂\n"
-, "PEACE UNITY HOPE:  Alexand  Pro  nimmo  riri  Stubble  UK  Sticks Real  Tee  Initials Not the stop the war people we were very let down...we have always had debts so how could we be richest Debts from ending slavery only ended recently Quantitative easing is ordinary tax payers bailing out corrupt banking systems...we should have chucked them out &amp;seized assets\n"
-, "THE AUTOMATIC EARTH: Debt Rattle March 11 2018 Quantitative easing too is subject to diminishing returns And quantitative tightening can only make that much worse Some might call this a Catch 22. https://t.co/nmC66GeHym https://t.co/EFrwcH5qG0\n"
-, "PROBABLEREPROBATE...: Clap trap Quantitative Easing of 500 Billion Debt of 1.75 Trillion Brexit yet to come Austerity used as political weapon to decimate public services Stagnant wages,productivity &amp a demoralised NHS...Tories are a failed project run by extremist ideologies That's the message.\n"
+, ": Nick Rowe Quantitative easing is a stupid way to deal with the ze.. https://t.co/RsAXHFhj2p よ https://t.co/r214lklsAa\n"
+, "JEEPY: I don't think people like you really understand how GODDAMNED UPSIDE DOWN the fucking economy was that Dubya handed over to Obama I have a MBA and can tell you we were on planet WTF None of my profs ever mentioned quantitative easing in 1994 'cause THAT'S CRAZY TALK.\n"
+, "GREGORY RHO: i'm not sure if you liberal dirtbags have ever heard of quantitative easing but those microblips you're blaming on trump aren't what you should be concerned about the real hurt is coming and it has very little to do with the current president.\n"
+, "GORDON GRANT: Read up on quantitative easing and you'll see that governments are already printing vast amounts of money from thin air US govt has created 4.5trillion USD worth since the GFC.\n"
+, "WALTER LANGE: As long as Draghi is carrying on his quantitative easing program (30 bln per month) markets will go up.y\n"
+, "CASEY SCHUHMACHER:  Otto Every lawyer economist and politico is against it We are in a mess (thank you quantitative easing) it's time to quit with the shell game and get back to goods having real value\n"
+, "HOONG-WAI:  Rees Mogg Another Remainer who is ignorant of economics It is not economically advantageous to 'prop up the pound' Carney was exercising Quantitative Easing for other reasons.\n"
+, "0      0: https://t.co/MAjjFpTuDo Subprime mortgages And Quantitative Easing is The New Normal / Silver Reports Uncut\n"
+, "RAY L: Still the quantitative easing from Dodd Frank Bill The Federal Reserve added more than $4 trillion to its balance sheet in the half decade between 2009 and 2014 This money is artificially inflating the market to keep 401K’s up https://t.co/Tu6gS46nr5\n"
+, "CITIZEN KANE: Currencies are created If you consider £360B of UK Quantitative Easing it was electronically created from nothing UK gained but no one lost out as UK inflation rate decreased https://t.co/bFAeWUeBuC\n"
+, "PT: No it’s not Markets stopped rising when quantitative easing turned to quantitative tightening This just makes them jump up and down.\n"
+, "JACK DUNN: We could find $85B a month for Quantitative Easing.. We can't find $25B for the #FourPillars plan Seriously.\n"
+, "TOM UREN: Not sure if this is quantitative easing or seignoriage...\n"
+, "ACE KOZMO: Obama was releasing money into the system..quantitative easing..fake money that devalued the American dollar..and intern falsely propped up the stock markets ..Trump will never do that..\n"
+, "FRED QUIN: This is a correction to bernakes quantitative easing run for the past 8 years now that interest rates are taking affect and trade wars that should have happened years ago are taking affect\n"
+, "MUSSO: The FT ��� &lt;Rates are expected to remain at historic lows until the middle of next year. 👉Before then the bank is set to call time on quantitative easing probably at the end of this year&gt;\n"
+, "VANGUARD UK ADVISERS: Bond yields are rising as central banks withdraw emergency measures raising interest rates and winding down quantitative easing However we expect the pace of increases to be slow and rates to remain low https://t.co/MK594pCFs1 https://t.co/0K4fZhTpsI\n"
+, "BTG ADVISORY: Nearly three-quarters of retired households lost over £500 in savings income due to the Bank of England’s strategy of quantitative easing following the financial crisis https://t.co/sunhmrfo6Z\n"
+, "ELINA SEPP L: 'Rates are expected to remain at historic lows until the middle of next year Before then the bank is set to call time on quantitative easing probably at the end of this year would not discuss the timing of any tightening. https://t.co/Bal3SiX92J\n"
+, "KEVIN A TUCKER: Obama for almost his enitire Presidency artificially put billions into the market d “quantitative easing” Liberals hate facts Worst most income racsist dishonest corrupt President in US history.\n"
+, "KEVIN A TUCKER: SUCH BULLSHIT Obama for almost his enitire Presidency artificially put billions into the market d “quantitative easing” Worst most income racsist dishonest corrupt President in US history.\n"
+, "KEVIN A TUCKER: SUCH BULLSHIT Obama for almost his enitire Presidency artificially put billions into the market d “quantitative easing” Worst most income racsist dishonest corrupt President in US history.\n"
+, "GR8MKR2017: Quantitative Easing is the only thing Obama could manage given 8 years of GOP recalcitrance &amp obstruction The GOP deliberately did all they could to strangle the economy thinking they could destroy Obama’s administration Rump has ridden the coattails of the Obama recovery.\n"
+, "WALLACE NOLL: china uses quantitative easing for national goals including infrastructure and the conquest of any industry they wish to conquer they create money from thin air and fund businesses to take over whatever sector they want then they forgive loans and do it again;\n"
+, "ZAKBOT: Flow (Sail Away Sail Away)” I get shit all over this *sprays chrome paint into Canada but austerity. Quantitative easing\n"
+, "LORENZO: So Wall Street sould dictate our foreign policy Trump could always do Quantitative Easing like the Obama administration did to falsely raise the stock market..\n"
+, "MILTONMIKE: So no The economy did not like Obama at all Without 10 years of 0 interest rates and trillions in mostly wasted stimulus and fed quantitative easing The markets would have been much lower All that fake stuff has ended and Trump has reversed nearly every Obama policy.\n"
+, "JONNYJAMES: even worse 100s of billions of taxpayer was used to 'bail out the banksters No one went to prison Elite crimes were rewarded The largest financial crimes in US history were rewarded with several TRILLION in subsidies tax-breaks bailouts &amp 'quantitative easing (QE)\n"
+, "DPLORABLEBSTRD:  skibenes  gypsies He didn't turn the economy around In '08 before his presidency even began the Fed instituted Quantitative Easing It was basically an open ended blank check to the mega banks It was followed by QE2 etc and falsely propped up the market Obama had nothing to do with it.\n"
+, "THE EQUEDIA LETTER: The Dramatic Drop and Quantitative Easing 4 https://t.co/ccbNBp67eP\n"
 , "CAPITAL CONFLICT: The Currency Wars are over Having tripled the monetary base as a per cent of GDP the world’s major central banks are now winding up No more quantitative easing No more attempts to devalue the dollar euro or yen https://t.co/AxWu110Dor\n"
-, "EXPONENTIAL INVESTOR: The Currency Wars are over Having tripled the monetary base as a per cent of GDP the world’s major central banks are now winding up No more quantitative easing No more attempts to devalue the dollar euro or yen https://t.co/DJeY0OLNvY\n"
-, "GEORGE E: Commodities Assets Real Estate etc. Trillions of dollars of quantitative easing &amp stimulas will make a Hard assets bubble like no tomorrow I totally agree with what your layen down.\n"
-, "PHILIP KENNEDY [LTC]: Quantitative easing and artificially low interest rates hurt the U.S economy and that’s why Trump is president I help ordinary people financially navigate the Bush/Obama/Trump depression.\n"
-, "WALLACE NOLL: US does quantitative easing that results in unjust enrichment for privileged rich people China does quantitative easing that results in a trillion dollars worth of infrastructure projects tax-free America on suicide path losing badly at everything; https://t.co/WaSxsUm0rX\n"
-, "ITECOIN HODLER [ TC]:  MAD  LTC  Jake The Litecoin Foundation can not regulate the supply of coins. Ripple has coins lock away for quantitative easing later hmm where have I heard that before?\n"
-, "MORNINGSTAR.CO.UK: Hobson QE is Painfully Thankfully Coming to an End THE WEEK: Quantitative easing which few people understood and no one will miss is slowly coming to an end says Rodney Hobson https://t.co/gz8WVojmkh https://t.co/y92vyMNXWz\n"
-, "DIANE JAMES MEP: Is there any credence to #Conservative 's assertion that the Bank of England will unwind Quantitative Easing and sell £530 billion of bonds as soon as Base rates hit 'around 2%?\n"
-, "MARK TWAIN: Primed by SEVERAL TRILLION dollars in Quantitative Easing of course which goosed the markets to artificially inflated values I am mega bearish on this market as it is disgustingly overvaluated https://t.co/GamZKsm5lO\n"
-, "AJ #GOBOLTS: I don't know how this opinion could be taken seriously without referencing the dominant force in the bull market as quantitative easing matched with stock buy backs.\n"
-, "ANDYGUITAR:  Trump Train Ever heard of quantitative easing President Trump is trying to undo all of this disastrous Obama crap!\n"
-, "MORNINGSTAR.CO.UK: Hobson QE is Painfully Thankfully Coming to an End THE WEEK: Quantitative easing which few people understood and no one will miss is slowly coming to an end says Rodney Hobson https://t.co/MNCJAGbw8w https://t.co/EeRtB3mZhz\n"
-, "DAN EXTRA RIFFLE: I'm sorry your friends were all murdered but the real tragedy is quantitative easing https://t.co/SgXaTxbmh7\n"
-, "MORNINGSTAR.CO.UK: Hobson QE is Painfully Thankfully Coming to an End THE WEEK: Quantitative easing which few people understood and no one will miss is slowly coming to an end says Rodney Hobson https://t.co/adKgYzTqZ8 https://t.co/pqh7byAIoP\n"
-, "CHRISTOPHER A HARTWELL:  veron ...especially when they threaten the cozy status quo of quantitative easing to infinity What a terrible anti-German hit job I expect more from\n"
-, "SCOTT BARLOW: I think you mean 'monetary' Central bank printing (whatever you want to call it...quantitative easing etc.\n"
-, "COMPOUNDPROFITS: If you mean Quantitative Easing that BUYS other instruments eg Bonds so it cannot repay debt  luggar\n"
-, "OZ: by historical standards due to the FOMC’s large-scale purchases of longer-term Treasury and agency debt beginning in 2008 These programs commonly referred as quantitative easing or QE ended in October 2014 and the process of shrinking the Fed’s balance sheet to reduce\n"
-, "DAVID BELLE: Quantitative Easing is the BoE cancelling the governments debt so when it matures the debt is about 20-30 lower It just looks like that because it’s on the BoE’s balance sheet still Largely irrelevant if not put back on the market https://t.co/5piCxU6vCp\n"
-, "CLARIE DARROW: So if anyone says we are too poor I say wonder why and let’s look at the quantitative easing borrowing mad Westminster government ? Indynow !\n"
-, "BOB SMITH: That’s because they’re trapped in the quantitative easing\n"
-, "PBI_GESTION: ECB said quantitative easing will continue at the pace of 30 billion euros until at least the end of September but left out the so-called easing bias that the plan could be increased in “size and/or duration if the inflation outlook deteriorates https://t.co/dwJRe3ETGQ\n"
-, "PATRICK BROMPTON: What benefits the great EU economy With negative interest rates and quantitative easing of 60 billion Euros per month structural unemployment up to 40 of those under 30 where Spain and Italy are poorer than they were after the 2008 crash and France is riddled with bad debt.\n"
-, "CHRIS FAGAN: The same economic MORONS.. Who told us QUANTITATIVE EASING is not Inflation.......\n"
-, "MARIO MUNTA: to keep interest rates and pace of quantitative easing at current levels 'for as long as necessary' confirms ECB President Mario Draghi https://t.co/Fq0idhLZws https://t.co/VJY7GoNnXV\n"
-, "POSITIVE MONEY EUROPE: It is necessary to align private finance with climate goals but this will only produce effects on medium to long run We need to boost the low carbon transition ASAP We can afford to boost public investments if we coordinate with #ECB's quantitative easing https://t.co/ySDomFV5SZ\n"
-, "EDWARD FENLEY: Feed the economy Not sure what you mean by that Do you mean like Quantitative Easing Pumping money into the market?\n"
-, "ALASDAIR THOMPSON: Oh you mean quantitative easing which funded the inflation of assets to offset the debts against them But it didn’t increase the price of milk to $250,000 a litre\n"
-, "JOE EMERSBERGER: An under-appreciated risk to the UK economy in spite of the BOE’s low interest rates and aggressive quantitative easing during the past decade there is still substantial risk that monetary policy might unnecessarily slow the economy or worse in the coming years https://t.co/b0IGyqA6Sg\n"
-, "NEWS BY MURALI KUMAR: The ECB isn’t expected to change policy on Thursday but the Governing Council may discuss a change to pave the way for the end of quantitative easing.\n"
-, "MONI RUNA:  robert so the immediate injection of Quantitative easing to cushion us from the fall out was nothing That only bought extra time for companies to plan ahead and that they did Hope you are wrong but tough times ahead You are only safe if you have assets and no children to support\n"
-, "CAM INVESTOR: Plus the other jolly ruse Printing it Quantitative easing (easing of the value of the money you have inflation).\n"
-, "TONEDAGGER: Sorry but quantitative easing &amp printing money is stagnation not a recovery https://t.co/mhCDfqgYCe\n"
-, "RON KLINE: QE is fine when everyone is doing so but employ it unilaterally and the will fall as the yen did This will create inflation as imports increase in price https://t.co/XSseb1Odqz\n"
-, "MILE HIGH MESSIAH: It’s complicated obviously lots going on but Obama Quantitative Easing is worse monetary policy in our history and one could only assume he trying to fuck our economy On top of that Obama added more debt than 200 years and 43 POTUS b4 him combined Stop making excuses R none\n"
-, "MATT: Mad that people think that Quantitative easing is the same thing as printing money 🙄\n"
-, "RICHARD KRAUSS: #USA #Forbes #Headlines #NEWS broadcast by Dalio Tudor And Gross Are All Wrong It is not a bond bear market It will turn bullish And quantitative easing is coming back https://t.co/nfUUF2tSPo\n"
-, "MING KERR: It's already proven that Quantitative Easing does not cause runaway inflation and does not have to be spent on banks. Think carefully about that for a few years Steve... You may finally 'get what the Tories have done who they are...\n"
-, "MING KERR: 'A government does not need to balance its books...' Quantitative Easing does not have to be spent on banks alone... https://t.co/0UQqSMV1Ry\n"
-, "MATT J WHITEHEAD: Our biggest danger right now is actually (3) but significant inflation won't kick in on a measly 30 spending ratio Inflation IS a bad thing which we should watch out for but it's really only a risk if we do quantitative easing in large amounts not take on actual debt.\n"
-, "ONE AMIGO: Very bad idea Rates are rising &amp quantitative easing is being reversed.\n"
-, "M9 TRADE LEND BTC: 'Quantitative Easing Not a bad name for a Laxative and even a worse name to cover up money printing Stefan Molyneux\n"
-, "NEWS BY MURALI KUMAR: The ECB isn’t expected to change policy on Thursday but the Governing Council may discuss a change to pave the way for the end of quantitative easing.\n"
-, "JAMES MARTINELLI:  aaron  Troll  obsession  msmarshas  Reality  Girk Yea cuz every president before him f’d over all the new deal regulations which made banking stable But hardly restrictive He gave trillions in quantitative easing to Wall Street also.\n"
-, "ALT KATIE HOPKINS: British Intelligence funded my place at to Study #Economics What a waste of (#TaxPayer as as I appear to have forgotten what Quantitative Easing is x https://t.co/vJvknIbe8S\n"
-, "GUY VERMINTWAT MEP: you do know they've be falsely inflating their economy with Quantitative Easing to the tune of 2.5 trillion Euro's and buying naff bonds.\n"
-, "JERRY TAYLOR #FBPE #LIBDEM #LONDEPENDENCE:  J Irwin @ cat weasel The Coalition did get the economy going and encouraged investment It also continued Brown’s QE program https://t.co/XkBQyPd8yj Historically the government has always been poor at investing money where it’s needed Politics always gets in the way too.\n"
-, "BOB KLEINSCHMIDT: It's a little late for controlling the Federal Reserve Rand Shoulda did that during the Obama Administration with Ben Bernanke running the circus 3 rounds of quantitative easing and we're buying our own debt Crazy\n"
-, "ARTHOUSE EL POFIT: Too big to fail and just look up Where all the cash from Quantitative easing has gone to as logic would be to give a massive tax break for people earning under £50,000 to increase spending power button no no instead they gave it to the banks and my wage raise this year 3.6%\n"
-, "MICHAEL:  de That’s called quantitative easing.. “Printing money is like saying illegal alien.\n"
-, "PATRICK CHOVANEC: Mar 5 1918 American economist James Tobin (who developed at least one of the theories behind Quantitative Easing and who oversaw Janet Yellen's dissertation was born in Champaign Illinois #100yearsago https://t.co/GM63MdU4Tx\n"
-, "SANTOS TAMANG (BLON): China woke up to surprise even after continuing to buy US Treasury bills after 2008 financial crisis but US shocked Beijing by starting Quantitative Easing printing of new paper dollars The message by DC was “yes it’s our money but it’s your problem now and we don’t care”.\n"
-, "L HONDERS: Europe's economy has been ascending. EURUSD is stable lately (also less translation risk compared to EM's or Japan). Quantitative Easing is still active. General P/E's are cheaper than US's P/E's.\n"
-, "POLITICSCANBECUTE: Senator Schumer delicately tends to quantitative easing Lick my tears wet the bed with em don't trust liberals!\n"
-, "EMILIO PANTOJAS: Where do you get your numbers Shows them to the Board and Judge Swain. Quantitative Easing is not available to PR.\n"
-, "KRIS: I have been telling you about supply chains breakdown for 3-4 years already due to low rates and quantitative easing https://t.co/71UV4xdmWy\n"
-, "KRIS: I have been telling you about supply chains breakdown for 3-4 years already due to low rates and quantitative easing https://t.co/t4LbXHOVlK\n"
-, "EXPONENTIAL INVESTOR: The Currency Wars are over Having tripled the monetary base as a per cent of GDP the world’s major central banks are now winding up No more quantitative easing No more attempts to devalue the dollar euro or yen https://t.co/ns8HlMciCQ\n"
-, "CAPITAL CONFLICT: The Currency Wars are over Having tripled the monetary base as a per cent of GDP the world’s major central banks are now winding up No more quantitative easing No more attempts to devalue the dollar euro or yen https://t.co/AxWu110Dor\n"
-, "ELSCOTTO: Quantitative Easing wasn’t targeted in the right direction and directly lead to inflation of property prices whilst making borrowing difficult Again the Government has to accept responsibility for its part in creating the problem.\n"
-, "TONY WESTON #MMT:  gordon  Swindon UK Bank of England a publib body created £435B for Quantitative Easing Very little inflation happened.\n"
-, "KRIS: Maersk going from bad to worse as global trade is cracking faster due to low rates and quantitative easing https://t.co/DTzZ8JLnz1\n"
+, "CLLR JOHN FULHAM: #Labour’s decision to print £435bn in quantitative easing/new money kept hospitals heated police paid services secured by exceptionally funding the deficit The alternative would’ve been vicious trap of modern Greek proportions #PoliticsMakesADifference https://t.co/7AOHL0Ilci\n"
+, "WHAT IF INVESTING: Someone at should be made to write a paper on causation &amp correlation then be fired for writing this crap What nonsense Quantitative easing ‘reduced UK wealth inequality’ says BoE https://t.co/U7yiJADNye via\n"
+, "FRANKLIN DEHOUSSE: Extremely stimulating contribution about quantitative easing and #inequality #QE https://t.co/3jIsR9HGKd via\n"
+, "ROBIN WIGGLESWORTH: Quantitative easing ‘reduced UK wealth inequality’ says BoE Regardless hard money types bleating about inequality always sounded pretty ridiculous. https://t.co/rvLg3MmU5f\n"
+, "JACOB HENSON: You're retarded if you think quantitative easing is the answer.\n"
+, "JASON: It wasn’t less expensive Quantitative easing it literally free money to the largest banks to the tune of nearly the national debt https://t.co/0QQDbDzn6I\n"
+, "JASON: And it was Obama who did the quantitative easing which dwarfs TARP Further Obama didn’t have to go along with TARP but I guess it’s hard not to when you already let Citigroup pick Cabinet.\n"
+, "DR CHRIS GRAVES:  arch The reason for the failure of Gilts Plus is quantitative easing and the break in the relationship between gilts and equities /5\n"
+, "JOHN HAMPSHIRE:  rod Yep correctly did not maintain the small Aussie version of quantitative easing (QE that got us through the GFC from 2008 and began winding it back.\n"
+, "PETER OBRIEN: 1 Quantitative easing is the reason the EU is broke 2 GDP got nothing to do with it. 3 Raw numbers mean everything 2008 11.7 2016 41.1 You lie. 4 It's not yours It belongs to the nation And it's not to be spent on crackpot economics.\n"
+, "REYNARD FOXX: 1 Yes you can heard of quantitative easing? 2 GDP is cash flow to cover repayments 3 Raw numbers mean nothing 2008 28% 1972 21% 4 It IS mine\n"
+, "NICHOLAS MEGNA:  characterz Are you speaking about QE Quantitative Easing Zero Interest Rate Policy and endless bailouts which transferred $14T trillion with a T to US globalists And never punished the criminal bankers or pursue charges of war crimes against W?\n"
+, "GARY VAUGHN: Dollar down 14 after his first year and interest rates spiking Tell the damn truth about the jobs All those came from Quantitative easing and you morons know it so that goes to the black man Trump is killing the economy Numbers don't lie.\n"
+, "ALEXANDER CHENG:  Cat The Dow Jones closed with 400 million trades From January 2017 to current Dow Jones still has 4,000 points cushion The US market’s strength is back by stronger indications from finance manufacturing retails and sans quantitative easing real-time GDP.🇺🇸\n"
+, "VANGUARD UK ADVISERS: Bond yields are rising as central banks withdraw emergency measures raising interest rates and winding down quantitative easing However we expect the pace of increases to be slow and rates to remain low https://t.co/YMzXjW7sM6 https://t.co/XxB12lZopb\n"
+, "SIMON BROOKE: Or rather 'when it goes wrong we'll be bailed out with enormous injections of taxpayer money and quantitative easing so whatever happens to the little people we'll be personally rich'\n"
+, "S1W: So the bubble is going to pop soon Heck of a correlation here (weird one at that) Will ‘quantitative easing help keep the stock market alive Where are we now what Q4 Q5… https://t.co/fHBLzcEakM\n"
+, "ELI C.: Even you are an economic Imbecile What idiot Hussein did was “Quantitative Easing he made the illusion of a robust economy by Printing money Money for the stock market to use but the private sector couldn’t benefit That moron couldn’t get near 3 GDP 1st one NEVER to do it\n"
+, "ANDI LUTZ: https://t.co/ocNUGe7EHs Quantitative Easing Analyzing The Argument Of Stock Market Indifference We recently came across an article on SA that rejects the notion of quantitative easing's impact on the stock market Although we do agree with the author that QE did little to imp…\n"
+, "BENNY FITZSCROUNGER: We haven't left yet and while other nations economies have grown the UKs is stagnant there are affects valuation and a whopping intervention by the B of E quantitative easing firms leaving but we haven't had the Brexshit cliff and that won't come until after the transition.\n"
+, "COLIN:  Amene Ohh and 1 Was deregulating Wall Street again 10 years after global meltdown by criminals on Wall Street Who lost their homes to pay quantitative easing again in the trillions Who went to jail?\n"
+, "VANGUARD UK ADVISERS: Bond yields are rising as central banks withdraw emergency measures raising interest rates and winding down quantitative easing However we expect the pace of increases to be slow and rates to remain low https://t.co/yDvku8Nj8i https://t.co/l6sPdAp2iP\n"
+, "TVB777: You google 'quantitative easing' and I'll block you to avoid unnecessary long arguments.\n"
+, "GUS GARCIA III: GDP up. Wages up Employment up Black and Hispanic employment way up Homeownership up Corporate earnings up US investment up Manufacturing jobs up. ...without $7.5 Trillion Of quantitative easing ...without 0 Fed rates Even as Fed has raised rates 4x since election.\n"
+, "PAPIKI: Am I the only one who sees having a currency not backed by gold as wrong Or is quantitative easing good If any other person does it they go to jail but the banks do it everyday Banks are literally ruining our economy how ironic.. P.s Banks are outdated. #Blockchain\n"
+, "DANNY ANSON: NOT THE POOR 'Quantitative Easing Explained Who Gets Fed’s Printed Money Text and… https://t.co/6wYUp3Q6Pt\n"
+, "SIALO KIMIRING: Because of 'quantitative easing and other economic factors of the USA since 2008 that feed potential hyper inflation the USA leans on Communist China to purchase US Treasury Bonds China is forced to support the US .. and recently Europe #KingsofEast\n"
+, "KANK THE ANTI OLIGARCH: Cancelling student debt sounds impossible until you realize that the government spent trillions on the iraq war and the federal bailout yet cancelling student debt would be in the billions Quantitative easing through the federal reserve isn't impossible people.\n"
+, "TONY FORREST:  3502  Anderson  scott  payne  watson  U A R Quantitative Easing Previously you were of the opinion that QE was a cure for constipation You may be anally retentive but if anything you have a bad case of keyboard incontinence?\n"
+, "CHRIS IVES: Suspected that might be the case Probably something to do with the Petro-Yuan https://t.co/eB1unMdJoS It's not like the government lies to us is it Quantitative Easing was for the people so long as you are a banker needing to shore up your balance sheets!\n"
+, "DAKOTA REYNOLDS: And there were other ppl who wanted it because the Democrats and Republicans both had several candidates Plus his economic policy of quantitative easing into the federal Reserve did not did nothing but devalue the dollar A BIG reason I hated him was his disastrous treating of\n"
+, "S T E V E:  Anderson  scott  payne  watson  U A R I wonder just WHO is confused here briGenius or biz4Scotland https://t.co/sEMcBwyLP7\n"
+, "GIORGINAS:  eu  may Oh dear.. Did you miss the £435 billion of quantitative easing ie Printing money the #uk did Did you miss shocking #uk productivity levels Did you miss the fact #uk camouflages some of its pension liabilities making its debt gdp ratio look better than it really is?\n"
+, "ALIN TONCZ: Yeah by pumping fake printed money into it Oidiot was good at manipulating details just to show results Quantitative easing was the name of the game and you Libs got played for 8 straight years.\n"
+, "DENNIS USHER: Look up quantitative easing Mike The only president in our history that never saw 3 GDP in any one quarter Pathetic!\n"
+, "DANIEL LACALLE: Scary: Quantitative Easing and the “New Normal in Monetary Policy https://t.co/QsVe0esOF6\n"
+, "K G HOHENSTAUFFEN: Gaddafi was murdered because he wanted a return to Gold Standard Something that the ideologues of Quantitative Easing hated https://t.co/vKuspcatD7\n"
+, "VIVEK SRINIVASAN: This will be beyond devastating to the US economy and more importantly to the dollar This will expose the fundamental of the dollar A move like Quantitative Easing will not be possible in the future. If China is involved: Almost all of Africa will mov https://t.co/jSqlCaudLX\n"
+, "CHABIS: '$45M in new SLand shillings is injected into the economy annually Shocking levels of quantitative easing has led to hyperinflation and the depreciation of the local currency  jama https://t.co/CUJup8fn9M\n"
+, "VANGUARD UK ADVISERS: Bond yields are rising as central banks withdraw emergency measures raising interest rates and winding down quantitative easing However we expect the pace of increases to be slow and rates to remain low https://t.co/eVfTdyOIqB https://t.co/ad6Mr17RCK\n"
+, "KEN NONEOFURBUSINESS: Only because all of the quantitative easing that was going on and all the other money that the Fed dumped into the market\n"
+, "TREVOR GREEN: Or they could just print money as a percentage of the GDP quantitative easing and leave us the fuck alone.\n"
+, "SOOTSG: You mean the stock market increase built on the 5 Trillion dollars of play money the fed printed through quantitative easing and zero fed rate Yet the economy never grew above 2 annually Not a great return on the overall 10 Trillion of Obama debt.\n"
+, "KEITH JONES:  YVA Sorry to hurt your feelings zack the reason the dow went up under shit stain was his printing of 2 trillion dollars under his quantitative easing plan.. Also the banks were not paying any interest on savings or cd's so the only place to put investment was the market.\n"
+, "JAY TROLLSTEIN II: Sorry Trump isn't doesn't Quantitative Easing and 0 interest rates helping him.\n"
+, "EDWARD BROWN:  Kotecha Grew at a slow rate due to quantitative easing.\n"
+, "ZACH RICHARDS: The national debt has just passed $21T Labor force participation rate is at a dismal 63% Quantitative easing has brought unimaginable inflation The Feds artificial rates have created bubbles across multiple asset classes Consumer debt is at an all time high Strong???\n"
+, "COLIN: Gave Trillion to crooks on Wall Street in quantitative easing because “to big to fail while making millions conned US citizens and globally homeless And guess what Democrats are letting them do it again hand in hand with Republicans Absolutely repugnant https://t.co/4zZwL4KrqY\n"
+, "DAMARIS COLHOUN: 'The idea that we can suddenly reverse quantitative easing and have no knock-on consequences for stocks seems a little pie-in-the-sky. https://t.co/OeP0JAh8AC\n"
       ]
     }
   ]
@@ -359,406 +346,395 @@ function countWords(text) {
     , title: "Opposition Leader (Labor Party)"
     },
 
- "KRIS": { name: "KRIS", title: "Date: 13 Mar 2018 Rating: 0.150" } ,
- "KRIS": { name: "KRIS", title: "Date: 13 Mar 2018 Rating: 0.100" } ,
- "DANIEL SCHULZ": { name: "DANIEL SCHULZ", title: "Date: 13 Mar 2018 Rating: -0.200" } ,
- "MALLOWSTREETPENSIONS": { name: "MALLOWSTREETPENSIONS", title: "Date: 13 Mar 2018 Rating: 0.000" } ,
- "MICHAEL TARPEY": { name: "MICHAEL TARPEY", title: "Date: 13 Mar 2018 Rating: 0.200" } ,
- "CURRENCIES.CO.UK": { name: "CURRENCIES.CO.UK", title: "Date: 13 Mar 2018 Rating: 0.250" } ,
- "THINK CURRENCY": { name: "THINK CURRENCY", title: "Date: 13 Mar 2018 Rating: 0.250" } ,
- "POWERBROKER SOFTWARE": { name: "POWERBROKER SOFTWARE", title: "Date: 13 Mar 2018 Rating: 0.050" } ,
- "KRIS": { name: "KRIS", title: "Date: 13 Mar 2018 Rating: -0.010" } ,
- "RICHARD WEISS": { name: "RICHARD WEISS", title: "Date: 13 Mar 2018 Rating: -0.036" } ,
- "ICMR INDIA": { name: "ICMR INDIA", title: "Date: 13 Mar 2018 Rating: 0.000" } ,
- "PIP": { name: "PIP", title: "Date: 13 Mar 2018 Rating: 0.000" } ,
- "CRYPTOGRABBER": { name: "CRYPTOGRABBER", title: "Date: 13 Mar 2018 Rating: 0.000" } ,
- "CERBERUS RADIO NETWORK": { name: "CERBERUS RADIO NETWORK", title: "Date: 13 Mar 2018 Rating: 0.000" } ,
- "FTA": { name: "FTA", title: "Date: 13 Mar 2018 Rating: 0.050" } ,
- "NEP-MON": { name: "NEP-MON", title: "Date: 13 Mar 2018 Rating: 0.000" } ,
- "BLUE DIAMOND": { name: "BLUE DIAMOND", title: "Date: 13 Mar 2018 Rating: 0.000" } ,
- "RACHIT SHAH": { name: "RACHIT SHAH", title: "Date: 12 Mar 2018 Rating: 0.000" } ,
- "SERIAL TRADER": { name: "SERIAL TRADER", title: "Date: 12 Mar 2018 Rating: -0.057" } ,
- "SI PEERTROWSKI": { name: "SI PEERTROWSKI", title: "Date: 12 Mar 2018 Rating: 0.119" } ,
- "THE PROPHET": { name: "THE PROPHET", title: "Date: 12 Mar 2018 Rating: 0.049" } ,
- "JAMES MACEACHERN": { name: "JAMES MACEACHERN", title: "Date: 12 Mar 2018 Rating: -0.006" } ,
- "CONFUSED": { name: "CONFUSED", title: "Date: 12 Mar 2018 Rating: 0.000" } ,
- "LISETTEINBLUE": { name: "LISETTEINBLUE", title: "Date: 12 Mar 2018 Rating: 0.000" } ,
- "RICKY MARSH": { name: "RICKY MARSH", title: "Date: 12 Mar 2018 Rating: 0.000" } ,
- "JOURNO LIST": { name: "JOURNO LIST", title: "Date: 12 Mar 2018 Rating: 0.000" } ,
- "DANIEL NICOLAUS": { name: "DANIEL NICOLAUS", title: "Date: 12 Mar 2018 Rating: 0.000" } ,
- "JAMES LAZARUS #FBPE": { name: "JAMES LAZARUS #FBPE", title: "Date: 12 Mar 2018 Rating: 0.000" } ,
- "LIONEL FRANKENSTEIN": { name: "LIONEL FRANKENSTEIN", title: "Date: 12 Mar 2018 Rating: 0.000" } ,
- "K": { name: "K", title: "Date: 12 Mar 2018 Rating: 0.000" } ,
- "JAMES MACEACHERN": { name: "JAMES MACEACHERN", title: "Date: 12 Mar 2018 Rating: 0.000" } ,
- "ROSS NUGENT": { name: "ROSS NUGENT", title: "Date: 12 Mar 2018 Rating: 0.072" } ,
- "ALEX SCHAEFER": { name: "ALEX SCHAEFER", title: "Date: 12 Mar 2018 Rating: -0.130" } ,
- "MALLOWSTREETPENSIONS": { name: "MALLOWSTREETPENSIONS", title: "Date: 12 Mar 2018 Rating: 0.136" } ,
- "MONEYTRIGZ": { name: "MONEYTRIGZ", title: "Date: 12 Mar 2018 Rating: 0.000" } ,
- "NISHA LONG": { name: "NISHA LONG", title: "Date: 12 Mar 2018 Rating: 0.000" } ,
- "GWM GROUP": { name: "GWM GROUP", title: "Date: 12 Mar 2018 Rating: 0.000" } ,
- "GUARDIAN GS": { name: "GUARDIAN GS", title: "Date: 12 Mar 2018 Rating: 0.000" } ,
- "GOODSTAR": { name: "GOODSTAR", title: "Date: 12 Mar 2018 Rating: 0.350" } ,
- "INERTIA": { name: "INERTIA", title: "Date: 12 Mar 2018 Rating: 0.125" } ,
- "MICHAEL LAMARR": { name: "MICHAEL LAMARR", title: "Date: 12 Mar 2018 Rating: 0.175" } ,
- "CHRIS BARLOW": { name: "CHRIS BARLOW", title: "Date: 12 Mar 2018 Rating: 0.525" } ,
- "DARREN MOORE": { name: "DARREN MOORE", title: "Date: 12 Mar 2018 Rating: -0.050" } ,
- "MIKE MILLAR": { name: "MIKE MILLAR", title: "Date: 12 Mar 2018 Rating: 0.104" } ,
- "RUSSELL INVESTMENTS": { name: "RUSSELL INVESTMENTS", title: "Date: 12 Mar 2018 Rating: 0.000" } ,
- "CRUDE LIBERTARIAN": { name: "CRUDE LIBERTARIAN", title: "Date: 12 Mar 2018 Rating: 0.400" } ,
- "ACCURATETRADING": { name: "ACCURATETRADING", title: "Date: 12 Mar 2018 Rating: 0.050" } ,
- "CHRIS FAGAN": { name: "CHRIS FAGAN", title: "Date: 12 Mar 2018 Rating: 0.000" } ,
- "CHRIS MCGRATH": { name: "CHRIS MCGRATH", title: "Date: 12 Mar 2018 Rating: 0.250" } ,
- "MC": { name: "MC", title: "Date: 12 Mar 2018 Rating: 0.250" } ,
- "SHAREEFBABIKR": { name: "SHAREEFBABIKR", title: "Date: 12 Mar 2018 Rating: 0.080" } ,
- "RICHARD HOLLAND": { name: "RICHARD HOLLAND", title: "Date: 12 Mar 2018 Rating: 0.000" } ,
- "CRYPTOGRABBER": { name: "CRYPTOGRABBER", title: "Date: 12 Mar 2018 Rating: 0.000" } ,
- "CERBERUS RADIO NETWORK": { name: "CERBERUS RADIO NETWORK", title: "Date: 12 Mar 2018 Rating: 0.000" } ,
- "FOOL ON THE HILLZ": { name: "FOOL ON THE HILLZ", title: "Date: 12 Mar 2018 Rating: 0.006" } ,
- "FOOL ON THE HILLZ": { name: "FOOL ON THE HILLZ", title: "Date: 12 Mar 2018 Rating: 0.156" } ,
- "DAVID B COHEN": { name: "DAVID B COHEN", title: "Date: 12 Mar 2018 Rating: -0.100" } ,
- "OBEY THE REPUBLIC": { name: "OBEY THE REPUBLIC", title: "Date: 12 Mar 2018 Rating: -0.050" } ,
- "BEVAN BOY": { name: "BEVAN BOY", title: "Date: 12 Mar 2018 Rating: 0.000" } ,
- "SCLEROTIC NEUROTIC": { name: "SCLEROTIC NEUROTIC", title: "Date: 11 Mar 2018 Rating: 0.000" } ,
- "TED": { name: "TED", title: "Date: 11 Mar 2018 Rating: 0.400" } ,
- "GRAEME HOUCHIN": { name: "GRAEME HOUCHIN", title: "Date: 11 Mar 2018 Rating: 0.000" } ,
- "ECOINTERNET": { name: "ECOINTERNET", title: "Date: 11 Mar 2018 Rating: 0.000" } ,
- "GORDON VICK": { name: "GORDON VICK", title: "Date: 11 Mar 2018 Rating: 0.000" } ,
- "ROTHSCHILDISH  WE COLONIZED KANGZ!": { name: "ROTHSCHILDISH  WE COLONIZED KANGZ!", title: "Date: 11 Mar 2018 Rating: 0.100" } ,
- "POLITICAL DOBERMAN": { name: "POLITICAL DOBERMAN", title: "Date: 11 Mar 2018 Rating: 0.500" } ,
- "UNLIVABLEREGION": { name: "UNLIVABLEREGION", title: "Date: 11 Mar 2018 Rating: 0.165" } ,
- "RUSSELL INVESTMENTS": { name: "RUSSELL INVESTMENTS", title: "Date: 11 Mar 2018 Rating: 0.000" } ,
- "RICARDO PEDRAZ": { name: "RICARDO PEDRAZ", title: "Date: 11 Mar 2018 Rating: -0.050" } ,
- "EDMUND BURKE": { name: "EDMUND BURKE", title: "Date: 11 Mar 2018 Rating: -0.146" } ,
- "CHRIS BURNS": { name: "CHRIS BURNS", title: "Date: 11 Mar 2018 Rating: 0.000" } ,
- "CHRIS FAGAN": { name: "CHRIS FAGAN", title: "Date: 11 Mar 2018 Rating: -0.200" } ,
- "PHILIP KENNEDY [LTC]": { name: "PHILIP KENNEDY [LTC]", title: "Date: 11 Mar 2018 Rating: 0.000" } ,
- "DAVID BINNS": { name: "DAVID BINNS", title: "Date: 11 Mar 2018 Rating: 0.307" } ,
- "THE RETAIL CRYPTO INVESTOR": { name: "THE RETAIL CRYPTO INVESTOR", title: "Date: 11 Mar 2018 Rating: -0.200" } ,
- "DRIEHAUS": { name: "DRIEHAUS", title: "Date: 11 Mar 2018 Rating: 0.000" } ,
- "PEACE UNITY HOPE": { name: "PEACE UNITY HOPE", title: "Date: 11 Mar 2018 Rating: -0.058" } ,
- "MANCHESTER FOR EUROPE #FBPE#ABTV#WATON": { name: "MANCHESTER FOR EUROPE #FBPE#ABTV#WATON", title: "Date: 11 Mar 2018 Rating: 0.250" } ,
- "THE AUTOMATIC EARTH": { name: "THE AUTOMATIC EARTH", title: "Date: 11 Mar 2018 Rating: -0.189" } ,
- "PROBABLEREPROBATE...": { name: "PROBABLEREPROBATE...", title: "Date: 11 Mar 2018 Rating: -0.167" } ,
- "G": { name: "G", title: "Date: 11 Mar 2018 Rating: 0.000" } ,
- "CAPITAL CONFLICT": { name: "CAPITAL CONFLICT", title: "Date: 11 Mar 2018 Rating: -0.247" } ,
- "#EX-RVID5774 [ TC]": { name: "#EX-RVID5774 [ TC]", title: "Date: 11 Mar 2018 Rating: 0.200" } ,
- "EXPONENTIAL INVESTOR": { name: "EXPONENTIAL INVESTOR", title: "Date: 11 Mar 2018 Rating: -0.247" } ,
- "SIMON ROWE": { name: "SIMON ROWE", title: "Date: 11 Mar 2018 Rating: 0.000" } ,
- "KENNETH ARMITAGE": { name: "KENNETH ARMITAGE", title: "Date: 11 Mar 2018 Rating: 0.000" } ,
- "CRYPTOGRABBER": { name: "CRYPTOGRABBER", title: "Date: 11 Mar 2018 Rating: 0.000" } ,
- "DAVID B COHEN": { name: "DAVID B COHEN", title: "Date: 11 Mar 2018 Rating: 0.280" } ,
- "GEORGE E": { name: "GEORGE E", title: "Date: 11 Mar 2018 Rating: -0.062" } ,
- "JOHN DUMOND": { name: "JOHN DUMOND", title: "Date: 11 Mar 2018 Rating: 0.000" } ,
- "JEFFREY GRUBB": { name: "JEFFREY GRUBB", title: "Date: 11 Mar 2018 Rating: 0.000" } ,
- "PHILIP KENNEDY [LTC]": { name: "PHILIP KENNEDY [LTC]", title: "Date: 10 Mar 2018 Rating: -0.083" } ,
- "CONSERVATARIAN": { name: "CONSERVATARIAN", title: "Date: 10 Mar 2018 Rating: 0.000" } ,
- "WALLACE NOLL": { name: "WALLACE NOLL", title: "Date: 10 Mar 2018 Rating: 0.179" } ,
- "RICH EAGLESON": { name: "RICH EAGLESON", title: "Date: 10 Mar 2018 Rating: 0.307" } ,
- "WALLACE NOLL": { name: "WALLACE NOLL", title: "Date: 10 Mar 2018 Rating: -0.008" } ,
- "BOB KERNS": { name: "BOB KERNS", title: "Date: 10 Mar 2018 Rating: 0.179" } ,
- "RUSSELL INVESTMENTS": { name: "RUSSELL INVESTMENTS", title: "Date: 10 Mar 2018 Rating: 0.000" } ,
- "BOYD'S BACKYARD": { name: "BOYD'S BACKYARD", title: "Date: 10 Mar 2018 Rating: 0.500" } ,
- "BILL CREGO": { name: "BILL CREGO", title: "Date: 10 Mar 2018 Rating: 0.000" } ,
- "DANIELLE KURTZLEBEN": { name: "DANIELLE KURTZLEBEN", title: "Date: 10 Mar 2018 Rating: 0.000" } ,
- "ANGRY NORTHERNER #FBPE": { name: "ANGRY NORTHERNER #FBPE", title: "Date: 10 Mar 2018 Rating: 0.167" } ,
- "JAY": { name: "JAY", title: "Date: 10 Mar 2018 Rating: 0.225" } ,
- "ITECOIN HODLER [ TC]": { name: "ITECOIN HODLER [ TC]", title: "Date: 10 Mar 2018 Rating: -0.312" } ,
- "IMPERIAL BUSINESS": { name: "IMPERIAL BUSINESS", title: "Date: 10 Mar 2018 Rating: 0.350" } ,
- "JOHN IOANNOU": { name: "JOHN IOANNOU", title: "Date: 10 Mar 2018 Rating: 0.188" } ,
- "T J LEVI": { name: "T J LEVI", title: "Date: 10 Mar 2018 Rating: 0.306" } ,
- "CAPPY LOVE": { name: "CAPPY LOVE", title: "Date: 10 Mar 2018 Rating: 0.043" } ,
- "JUST PURE INFORMATION": { name: "JUST PURE INFORMATION", title: "Date: 10 Mar 2018 Rating: 0.115" } ,
- "SKENDERBEG": { name: "SKENDERBEG", title: "Date: 10 Mar 2018 Rating: 0.115" } ,
- "SIGNALS.ME": { name: "SIGNALS.ME", title: "Date: 10 Mar 2018 Rating: 0.000" } ,
- "PROGRESSIVES-R-FOOLS": { name: "PROGRESSIVES-R-FOOLS", title: "Date: 10 Mar 2018 Rating: 0.000" } ,
- "BULL STREET": { name: "BULL STREET", title: "Date: 10 Mar 2018 Rating: 0.000" } ,
- "SYKESFANCLUB": { name: "SYKESFANCLUB", title: "Date: 10 Mar 2018 Rating: 0.136" } ,
- "JOHN HAMPSHIRE": { name: "JOHN HAMPSHIRE", title: "Date: 10 Mar 2018 Rating: 0.000" } ,
- "BRIAN CHOLERTON": { name: "BRIAN CHOLERTON", title: "Date: 10 Mar 2018 Rating: 0.181" } ,
- "NEP-CMP": { name: "NEP-CMP", title: "Date: 10 Mar 2018 Rating: 0.000" } ,
- "CRYPTOGRABBER": { name: "CRYPTOGRABBER", title: "Date: 10 Mar 2018 Rating: 0.000" } ,
- "WALLACE NOLL": { name: "WALLACE NOLL", title: "Date: 10 Mar 2018 Rating: 0.000" } ,
- "MORNINGSTAR.CO.UK": { name: "MORNINGSTAR.CO.UK", title: "Date: 10 Mar 2018 Rating: -0.400" } ,
- "CHRISTIE STEPHENSON": { name: "CHRISTIE STEPHENSON", title: "Date: 10 Mar 2018 Rating: 0.000" } ,
- "DVOLATILITY PRO": { name: "DVOLATILITY PRO", title: "Date: 09 Mar 2018 Rating: 0.000" } ,
- "FAKE LNP": { name: "FAKE LNP", title: "Date: 09 Mar 2018 Rating: 0.267" } ,
- "DVOLATILITY PRO": { name: "DVOLATILITY PRO", title: "Date: 09 Mar 2018 Rating: 0.000" } ,
- "JACKSCHITT": { name: "JACKSCHITT", title: "Date: 09 Mar 2018 Rating: 0.500" } ,
- "JOHNNYMULKA": { name: "JOHNNYMULKA", title: "Date: 09 Mar 2018 Rating: 0.000" } ,
- "TALKMARKETS": { name: "TALKMARKETS", title: "Date: 09 Mar 2018 Rating: 0.000" } ,
- "RUSSELL INVESTMENTS": { name: "RUSSELL INVESTMENTS", title: "Date: 09 Mar 2018 Rating: 0.000" } ,
- "LOWELL THE BERNER": { name: "LOWELL THE BERNER", title: "Date: 09 Mar 2018 Rating: 0.075" } ,
- "MODERNAGE BUDDHA": { name: "MODERNAGE BUDDHA", title: "Date: 09 Mar 2018 Rating: 0.125" } ,
- "TERRY W ROBERTSON": { name: "TERRY W ROBERTSON", title: "Date: 09 Mar 2018 Rating: 0.142" } ,
- "BENJAMIN DEAN": { name: "BENJAMIN DEAN", title: "Date: 09 Mar 2018 Rating: 0.000" } ,
- "DIANE JAMES MEP": { name: "DIANE JAMES MEP", title: "Date: 09 Mar 2018 Rating: -0.800" } ,
- "BG BINGHAM": { name: "BG BINGHAM", title: "Date: 09 Mar 2018 Rating: 0.496" } ,
- "MARK TWAIN": { name: "MARK TWAIN", title: "Date: 09 Mar 2018 Rating: -0.533" } ,
- "AJ #GOBOLTS": { name: "AJ #GOBOLTS", title: "Date: 09 Mar 2018 Rating: -0.333" } ,
- "ANDYGUITAR": { name: "ANDYGUITAR", title: "Date: 09 Mar 2018 Rating: -0.850" } ,
- "FOREX WARRIOR": { name: "FOREX WARRIOR", title: "Date: 09 Mar 2018 Rating: 0.000" } ,
- "** NEW RESEARCH ***": { name: "** NEW RESEARCH ***", title: "Date: 09 Mar 2018 Rating: 0.000" } ,
- "MORNINGSTAR.CO.UK": { name: "MORNINGSTAR.CO.UK", title: "Date: 09 Mar 2018 Rating: -0.400" } ,
- "TOBY SHORT": { name: "TOBY SHORT", title: "Date: 09 Mar 2018 Rating: 0.000" } ,
- "ZORRO BORICUA": { name: "ZORRO BORICUA", title: "Date: 09 Mar 2018 Rating: 0.200" } ,
- "DAN EXTRA RIFFLE": { name: "DAN EXTRA RIFFLE", title: "Date: 09 Mar 2018 Rating: -0.150" } ,
- "MATT BENSON": { name: "MATT BENSON", title: "Date: 09 Mar 2018 Rating: 0.000" } ,
- "SAGAR": { name: "SAGAR", title: "Date: 09 Mar 2018 Rating: 0.000" } ,
- "JOE M": { name: "JOE M", title: "Date: 09 Mar 2018 Rating: 0.233" } ,
- "JUSTIN BEAVER": { name: "JUSTIN BEAVER", title: "Date: 09 Mar 2018 Rating: 0.000" } ,
- "DEAN RIGGS": { name: "DEAN RIGGS", title: "Date: 09 Mar 2018 Rating: 0.113" } ,
- "CLIFFY": { name: "CLIFFY", title: "Date: 09 Mar 2018 Rating: 0.286" } ,
- "MORNINGSTAR.CO.UK": { name: "MORNINGSTAR.CO.UK", title: "Date: 09 Mar 2018 Rating: -0.400" } ,
- "MONEYCORP PAYMENTS": { name: "MONEYCORP PAYMENTS", title: "Date: 09 Mar 2018 Rating: 0.000" } ,
- "FELIPE DIOGENES": { name: "FELIPE DIOGENES", title: "Date: 09 Mar 2018 Rating: 0.000" } ,
- "CHRISTOPHER A HARTWELL": { name: "CHRISTOPHER A HARTWELL", title: "Date: 09 Mar 2018 Rating: -0.233" } ,
- "THOMAS ATCHESON": { name: "THOMAS ATCHESON", title: "Date: 09 Mar 2018 Rating: 0.000" } ,
- "FRANKLIN": { name: "FRANKLIN", title: "Date: 09 Mar 2018 Rating: 0.550" } ,
- "AXA IM UK": { name: "AXA IM UK", title: "Date: 09 Mar 2018 Rating: 0.175" } ,
- "JOE JONKLER": { name: "JOE JONKLER", title: "Date: 09 Mar 2018 Rating: 0.287" } ,
- "CHRIS": { name: "CHRIS", title: "Date: 09 Mar 2018 Rating: 0.000" } ,
- "GREYBEARD": { name: "GREYBEARD", title: "Date: 09 Mar 2018 Rating: 0.167" } ,
- "BIG INDIAN BEAR": { name: "BIG INDIAN BEAR", title: "Date: 09 Mar 2018 Rating: 0.050" } ,
- "JW": { name: "JW", title: "Date: 09 Mar 2018 Rating: 0.103" } ,
- "BIG INDIAN BEAR": { name: "BIG INDIAN BEAR", title: "Date: 09 Mar 2018 Rating: 0.080" } ,
- "FOREX FOR ALL": { name: "FOREX FOR ALL", title: "Date: 09 Mar 2018 Rating: 0.275" } ,
- "IAN BULLOUGH": { name: "IAN BULLOUGH", title: "Date: 09 Mar 2018 Rating: 0.033" } ,
- "POSITIVE MONEY EUROPE": { name: "POSITIVE MONEY EUROPE", title: "Date: 09 Mar 2018 Rating: 0.550" } ,
- "DAILY EXPRESS": { name: "DAILY EXPRESS", title: "Date: 09 Mar 2018 Rating: 0.000" } ,
- "WILLY SMYTHE": { name: "WILLY SMYTHE", title: "Date: 09 Mar 2018 Rating: 0.234" } ,
- "FXCC FOREX TRADING": { name: "FXCC FOREX TRADING", title: "Date: 09 Mar 2018 Rating: 0.067" } ,
- "SCOTT BARLOW": { name: "SCOTT BARLOW", title: "Date: 09 Mar 2018 Rating: -0.156" } ,
- "RMB GLOBAL MARKETS": { name: "RMB GLOBAL MARKETS", title: "Date: 09 Mar 2018 Rating: 0.000" } ,
- "EMMANUEL ASHIBUOGWU": { name: "EMMANUEL ASHIBUOGWU", title: "Date: 09 Mar 2018 Rating: 0.000" } ,
- "SCOFIELD!": { name: "SCOFIELD!", title: "Date: 09 Mar 2018 Rating: 0.000" } ,
- "FOREX WARRIOR": { name: "FOREX WARRIOR", title: "Date: 09 Mar 2018 Rating: 0.000" } ,
- "ROBERTO ROSANO": { name: "ROBERTO ROSANO", title: "Date: 09 Mar 2018 Rating: 0.000" } ,
- "BIDASK CAPITAL": { name: "BIDASK CAPITAL", title: "Date: 09 Mar 2018 Rating: 0.038" } ,
- "ANDREW PALMER": { name: "ANDREW PALMER", title: "Date: 09 Mar 2018 Rating: 0.161" } ,
- "CRYPTOGRABBER": { name: "CRYPTOGRABBER", title: "Date: 09 Mar 2018 Rating: 0.000" } ,
- "COMPOUNDPROFITS": { name: "COMPOUNDPROFITS", title: "Date: 09 Mar 2018 Rating: -0.219" } ,
- "STEVE DEMETRIOU": { name: "STEVE DEMETRIOU", title: "Date: 09 Mar 2018 Rating: 0.300" } ,
- "OZ": { name: "OZ", title: "Date: 09 Mar 2018 Rating: -0.142" } ,
- "DAVID BELLE": { name: "DAVID BELLE", title: "Date: 08 Mar 2018 Rating: -0.250" } ,
- "CLARIE DARROW": { name: "CLARIE DARROW", title: "Date: 08 Mar 2018 Rating: -0.591" } ,
- "BOB SMITH": { name: "BOB SMITH", title: "Date: 08 Mar 2018 Rating: -0.200" } ,
- "MAULDIN ECONOMICS": { name: "MAULDIN ECONOMICS", title: "Date: 08 Mar 2018 Rating: 0.125" } ,
- "BOB SMALSER": { name: "BOB SMALSER", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "PBI_GESTION": { name: "PBI_GESTION", title: "Date: 08 Mar 2018 Rating: -0.150" } ,
- "PATRICK BROMPTON": { name: "PATRICK BROMPTON", title: "Date: 08 Mar 2018 Rating: -0.067" } ,
- "JON LIEBERKIND": { name: "JON LIEBERKIND", title: "Date: 08 Mar 2018 Rating: 0.250" } ,
- "WALLACE NOLL": { name: "WALLACE NOLL", title: "Date: 08 Mar 2018 Rating: 0.081" } ,
- "WPJ": { name: "WPJ", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "REDGE NKOSI": { name: "REDGE NKOSI", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "REDGE NKOSI": { name: "REDGE NKOSI", title: "Date: 08 Mar 2018 Rating: 0.500" } ,
- "TREVOR CASWELL": { name: "TREVOR CASWELL", title: "Date: 08 Mar 2018 Rating: 0.020" } ,
- "BELT ROAD": { name: "BELT ROAD", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "FRONT BUSINESS NEWS": { name: "FRONT BUSINESS NEWS", title: "Date: 08 Mar 2018 Rating: 0.020" } ,
- "PROFESSOR": { name: "PROFESSOR", title: "Date: 08 Mar 2018 Rating: 0.062" } ,
- "ZEROHEDGE": { name: "ZEROHEDGE", title: "Date: 08 Mar 2018 Rating: 0.062" } ,
- "ANNE LOUISE KER": { name: "ANNE LOUISE KER", title: "Date: 08 Mar 2018 Rating: 0.100" } ,
- "EDDY FINCH": { name: "EDDY FINCH", title: "Date: 08 Mar 2018 Rating: 0.229" } ,
- "DAVID REIGLE": { name: "DAVID REIGLE", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "JOSEPHGERMANOS": { name: "JOSEPHGERMANOS", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "TRADERSNEWS": { name: "TRADERSNEWS", title: "Date: 08 Mar 2018 Rating: 0.120" } ,
- "JONATHAN": { name: "JONATHAN", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "JOUMANNA BERCETCHE": { name: "JOUMANNA BERCETCHE", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "JOHN RYCKMAN": { name: "JOHN RYCKMAN", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "INTL FCSTONE": { name: "INTL FCSTONE", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "CHRIS FAGAN": { name: "CHRIS FAGAN", title: "Date: 08 Mar 2018 Rating: -0.200" } ,
- "MOODYSANALYTICS ECON": { name: "MOODYSANALYTICS ECON", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "MEHRDAD YOUSEFI": { name: "MEHRDAD YOUSEFI", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "AUTO BLOG GLOBAL": { name: "AUTO BLOG GLOBAL", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "CONGRESS WEALTH MGMT": { name: "CONGRESS WEALTH MGMT", title: "Date: 08 Mar 2018 Rating: 0.275" } ,
- "TERENCE HOOSON": { name: "TERENCE HOOSON", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "MARIO MUNTA": { name: "MARIO MUNTA", title: "Date: 08 Mar 2018 Rating: -0.017" } ,
- "MORE BUSINESS NEWS": { name: "MORE BUSINESS NEWS", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "NEWSGW": { name: "NEWSGW", title: "Date: 08 Mar 2018 Rating: 0.068" } ,
- "NEWSPAPER REPORT": { name: "NEWSPAPER REPORT", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "JON BILLINGS #FBPE": { name: "JON BILLINGS #FBPE", title: "Date: 08 Mar 2018 Rating: 0.100" } ,
- "NEWS JOX": { name: "NEWS JOX", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "DAVID GEH CHEOW HOCK": { name: "DAVID GEH CHEOW HOCK", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "WWW.RIGHTNOWNEWS.US": { name: "WWW.RIGHTNOWNEWS.US", title: "Date: 08 Mar 2018 Rating: 0.106" } ,
- "TURFLINE/TRADING": { name: "TURFLINE/TRADING", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "SHUVANKAR MUKHERJEE": { name: "SHUVANKAR MUKHERJEE", title: "Date: 08 Mar 2018 Rating: 0.800" } ,
- "DRIEHAUS": { name: "DRIEHAUS", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "NEWS GRABBER": { name: "NEWS GRABBER", title: "Date: 08 Mar 2018 Rating: 0.433" } ,
- "MELBAL BUSINESS NEWS": { name: "MELBAL BUSINESS NEWS", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "BALMEL DIRECTORY": { name: "BALMEL DIRECTORY", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "EXPRESS BUSINESS NEW": { name: "EXPRESS BUSINESS NEW", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "BANGLADESH NEWS 24": { name: "BANGLADESH NEWS 24", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "CITY A.M.": { name: "CITY A.M.", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "...DAVID JONES": { name: "...DAVID JONES", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "NO MORE EXCUSES": { name: "NO MORE EXCUSES", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "NEWSGW": { name: "NEWSGW", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "BOB HUBBUCK": { name: "BOB HUBBUCK", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "MALUNDA WANDA": { name: "MALUNDA WANDA", title: "Date: 08 Mar 2018 Rating: 0.167" } ,
- "ALESSANDRO": { name: "ALESSANDRO", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "REDGE NKOSI": { name: "REDGE NKOSI", title: "Date: 08 Mar 2018 Rating: 0.160" } ,
- "MORE BUSINESS NEWS": { name: "MORE BUSINESS NEWS", title: "Date: 08 Mar 2018 Rating: 0.068" } ,
- "DAILY EXPRESS": { name: "DAILY EXPRESS", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "HANDELSBLATT GLOBAL": { name: "HANDELSBLATT GLOBAL", title: "Date: 08 Mar 2018 Rating: 0.167" } ,
- "NIKSTRADE": { name: "NIKSTRADE", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "FINANCIALPARTNERS": { name: "FINANCIALPARTNERS", title: "Date: 08 Mar 2018 Rating: 0.167" } ,
- "DAILY EXPRESS": { name: "DAILY EXPRESS", title: "Date: 08 Mar 2018 Rating: 0.068" } ,
- "WALTER VANNELLI #FX": { name: "WALTER VANNELLI #FX", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "BIG MEECHIO KAKU": { name: "BIG MEECHIO KAKU", title: "Date: 08 Mar 2018 Rating: 0.118" } ,
- "MASTER GUCHI": { name: "MASTER GUCHI", title: "Date: 08 Mar 2018 Rating: 0.250" } ,
- "FINANZLINKSECONOMY": { name: "FINANZLINKSECONOMY", title: "Date: 08 Mar 2018 Rating: 0.167" } ,
- "ABUCHI ORJI": { name: "ABUCHI ORJI", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "ECONOMICS GLOBAL": { name: "ECONOMICS GLOBAL", title: "Date: 08 Mar 2018 Rating: 0.083" } ,
- "THE KING OF AMERICA": { name: "THE KING OF AMERICA", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "BLOOMBERG ASIA": { name: "BLOOMBERG ASIA", title: "Date: 08 Mar 2018 Rating: 0.167" } ,
- "BLOOMBERG TV": { name: "BLOOMBERG TV", title: "Date: 08 Mar 2018 Rating: 0.167" } ,
- "BLOOMBERG": { name: "BLOOMBERG", title: "Date: 08 Mar 2018 Rating: 0.167" } ,
- "WILLIAM GEORGE": { name: "WILLIAM GEORGE", title: "Date: 08 Mar 2018 Rating: 0.114" } ,
- "JERRY TAYLOR #FBPE #LIBDEM #LONDEPENDENCE": { name: "JERRY TAYLOR #FBPE #LIBDEM #LONDEPENDENCE", title: "Date: 08 Mar 2018 Rating: 0.011" } ,
- "POSITIVE MONEY EUROPE": { name: "POSITIVE MONEY EUROPE", title: "Date: 08 Mar 2018 Rating: -0.008" } ,
- "PLSA": { name: "PLSA", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "THE CURRENCY SCENE": { name: "THE CURRENCY SCENE", title: "Date: 08 Mar 2018 Rating: 0.080" } ,
- "ALESSANDRO": { name: "ALESSANDRO", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "DAILY EXPRESS": { name: "DAILY EXPRESS", title: "Date: 08 Mar 2018 Rating: 0.500" } ,
- "MEHRDAD YOUSEFI": { name: "MEHRDAD YOUSEFI", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "EMGIST": { name: "EMGIST", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "BSIC": { name: "BSIC", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "URS LA TROMPETTE": { name: "URS LA TROMPETTE", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "EDWARD FENLEY": { name: "EDWARD FENLEY", title: "Date: 08 Mar 2018 Rating: -0.292" } ,
- "BULLISH TRADING": { name: "BULLISH TRADING", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "JEN JONES": { name: "JEN JONES", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "ALASDAIR THOMPSON": { name: "ALASDAIR THOMPSON", title: "Date: 08 Mar 2018 Rating: -0.312" } ,
- "BITCEYLON": { name: "BITCEYLON", title: "Date: 08 Mar 2018 Rating: 0.125" } ,
- "JERRY FLETCHER": { name: "JERRY FLETCHER", title: "Date: 08 Mar 2018 Rating: 0.031" } ,
- "JONES MAHONEY": { name: "JONES MAHONEY", title: "Date: 08 Mar 2018 Rating: 0.375" } ,
- "CRYPTOGRABBER": { name: "CRYPTOGRABBER", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "JOE EMERSBERGER": { name: "JOE EMERSBERGER", title: "Date: 08 Mar 2018 Rating: -0.238" } ,
- "NEWS BY MURALI KUMAR": { name: "NEWS BY MURALI KUMAR", title: "Date: 08 Mar 2018 Rating: -0.100" } ,
- "FORBES INVESTING": { name: "FORBES INVESTING", title: "Date: 08 Mar 2018 Rating: 0.000" } ,
- "ALEX SONG": { name: "ALEX SONG", title: "Date: 08 Mar 2018 Rating: 0.115" } ,
- "TOBEY GELDER": { name: "TOBEY GELDER", title: "Date: 08 Mar 2018 Rating: 0.900" } ,
- "ROBERT LERELOU": { name: "ROBERT LERELOU", title: "Date: 08 Mar 2018 Rating: 0.136" } ,
- "RIGSBY": { name: "RIGSBY", title: "Date: 08 Mar 2018 Rating: 0.200" } ,
- "MONI RUNA": { name: "MONI RUNA", title: "Date: 08 Mar 2018 Rating: -0.065" } ,
- "PETER.RAUTH": { name: "PETER.RAUTH", title: "Date: 07 Mar 2018 Rating: 0.000" } ,
- "CRYPTOIQ": { name: "CRYPTOIQ", title: "Date: 07 Mar 2018 Rating: 0.167" } ,
- "ASK YOURSELF": { name: "ASK YOURSELF", title: "Date: 07 Mar 2018 Rating: 0.700" } ,
- "WTC": { name: "WTC", title: "Date: 07 Mar 2018 Rating: 0.062" } ,
- "JONATHAN WITHALL": { name: "JONATHAN WITHALL", title: "Date: 07 Mar 2018 Rating: 0.000" } ,
- "CAM INVESTOR": { name: "CAM INVESTOR", title: "Date: 07 Mar 2018 Rating: -0.125" } ,
- "GURTIN MUNI BOND MGT": { name: "GURTIN MUNI BOND MGT", title: "Date: 07 Mar 2018 Rating: 0.000" } ,
- "EDDY FINCH": { name: "EDDY FINCH", title: "Date: 07 Mar 2018 Rating: 0.200" } ,
- "TONEDAGGER": { name: "TONEDAGGER", title: "Date: 07 Mar 2018 Rating: -0.500" } ,
- "RON KLINE": { name: "RON KLINE", title: "Date: 07 Mar 2018 Rating: -0.042" } ,
- "ERIC": { name: "ERIC", title: "Date: 07 Mar 2018 Rating: 0.000" } ,
- "RON KLINE": { name: "RON KLINE", title: "Date: 07 Mar 2018 Rating: 0.146" } ,
- "PHILIP ALEXANDER": { name: "PHILIP ALEXANDER", title: "Date: 07 Mar 2018 Rating: 0.186" } ,
- "SEAN GANNON": { name: "SEAN GANNON", title: "Date: 07 Mar 2018 Rating: 0.000" } ,
- "MILE HIGH MESSIAH": { name: "MILE HIGH MESSIAH", title: "Date: 07 Mar 2018 Rating: -0.043" } ,
- "CARMEL NEALE": { name: "CARMEL NEALE", title: "Date: 07 Mar 2018 Rating: 0.000" } ,
- "MATT": { name: "MATT", title: "Date: 07 Mar 2018 Rating: -0.312" } ,
- "RICHARD KRAUSS": { name: "RICHARD KRAUSS", title: "Date: 07 Mar 2018 Rating: -0.167" } ,
- "COLUMBIATHREADNEEDLE": { name: "COLUMBIATHREADNEEDLE", title: "Date: 07 Mar 2018 Rating: 0.600" } ,
- "EDDY FINCH": { name: "EDDY FINCH", title: "Date: 07 Mar 2018 Rating: 0.083" } ,
- "FINANCE  DRIVER": { name: "FINANCE  DRIVER", title: "Date: 07 Mar 2018 Rating: 0.000" } ,
- "LUCA LUCCHESI": { name: "LUCA LUCCHESI", title: "Date: 07 Mar 2018 Rating: 0.338" } ,
- "MING KERR": { name: "MING KERR", title: "Date: 07 Mar 2018 Rating: -0.100" } ,
- "MING KERR": { name: "MING KERR", title: "Date: 07 Mar 2018 Rating: -0.100" } ,
- "JOHN MEHARG": { name: "JOHN MEHARG", title: "Date: 07 Mar 2018 Rating: 0.000" } ,
- "MATT J WHITEHEAD": { name: "MATT J WHITEHEAD", title: "Date: 07 Mar 2018 Rating: -0.049" } ,
- "EP CAPITAL": { name: "EP CAPITAL", title: "Date: 07 Mar 2018 Rating: 0.500" } ,
- "E-RECEP": { name: "E-RECEP", title: "Date: 07 Mar 2018 Rating: 0.200" } ,
- "CDR AN0NWELL": { name: "CDR AN0NWELL", title: "Date: 07 Mar 2018 Rating: 0.000" } ,
- "DAILY EXPRESS": { name: "DAILY EXPRESS", title: "Date: 07 Mar 2018 Rating: 0.500" } ,
- "CDR AN0NWELL": { name: "CDR AN0NWELL", title: "Date: 07 Mar 2018 Rating: 0.093" } ,
- "MPT": { name: "MPT", title: "Date: 07 Mar 2018 Rating: 0.125" } ,
- "NURJAHANASHA": { name: "NURJAHANASHA", title: "Date: 07 Mar 2018 Rating: 0.500" } ,
- "ONE AMIGO": { name: "ONE AMIGO", title: "Date: 07 Mar 2018 Rating: -0.910" } ,
- "M9 TRADE LEND BTC": { name: "M9 TRADE LEND BTC", title: "Date: 07 Mar 2018 Rating: -0.025" } ,
- "NEWS BY MURALI KUMAR": { name: "NEWS BY MURALI KUMAR", title: "Date: 07 Mar 2018 Rating: -0.100" } ,
- "JAMES MARTINELLI": { name: "JAMES MARTINELLI", title: "Date: 07 Mar 2018 Rating: -0.078" } ,
- "NEWS JOX": { name: "NEWS JOX", title: "Date: 07 Mar 2018 Rating: 0.500" } ,
- "DON MASHAK": { name: "DON MASHAK", title: "Date: 07 Mar 2018 Rating: 0.600" } ,
- "ALT KATIE HOPKINS": { name: "ALT KATIE HOPKINS", title: "Date: 06 Mar 2018 Rating: -0.100" } ,
- "ALT KATIE HOPKINS": { name: "ALT KATIE HOPKINS", title: "Date: 06 Mar 2018 Rating: 0.136" } ,
- "OLIVER BEIGE": { name: "OLIVER BEIGE", title: "Date: 06 Mar 2018 Rating: 0.000" } ,
- "JEREL SHAW": { name: "JEREL SHAW", title: "Date: 06 Mar 2018 Rating: 0.150" } ,
- "ROB POTTER": { name: "ROB POTTER", title: "Date: 06 Mar 2018 Rating: 0.100" } ,
- "FOXX": { name: "FOXX", title: "Date: 06 Mar 2018 Rating: 0.032" } ,
- "LARRY CHIANG": { name: "LARRY CHIANG", title: "Date: 06 Mar 2018 Rating: 0.100" } ,
- "D MATHESON": { name: "D MATHESON", title: "Date: 06 Mar 2018 Rating: 0.438" } ,
- "GUY VERMINTWAT MEP": { name: "GUY VERMINTWAT MEP", title: "Date: 06 Mar 2018 Rating: -0.400" } ,
- "JERRY TAYLOR #FBPE #LIBDEM #LONDEPENDENCE": { name: "JERRY TAYLOR #FBPE #LIBDEM #LONDEPENDENCE", title: "Date: 06 Mar 2018 Rating: -0.200" } ,
- "VICTOR PUNCH NAZIS LICATA": { name: "VICTOR PUNCH NAZIS LICATA", title: "Date: 06 Mar 2018 Rating: 0.230" } ,
- "KUBIAKFINANCIAL": { name: "KUBIAKFINANCIAL", title: "Date: 06 Mar 2018 Rating: 0.100" } ,
- "MELISSA R POE": { name: "MELISSA R POE", title: "Date: 06 Mar 2018 Rating: 0.200" } ,
- "BRIAN KATULIS": { name: "BRIAN KATULIS", title: "Date: 06 Mar 2018 Rating: 0.000" } ,
- "WHISTLE BLOGS": { name: "WHISTLE BLOGS", title: "Date: 06 Mar 2018 Rating: 0.200" } ,
- "DIAMONDPRIVATEWEALTH": { name: "DIAMONDPRIVATEWEALTH", title: "Date: 06 Mar 2018 Rating: 0.100" } ,
- "KAI HOWIE": { name: "KAI HOWIE", title: "Date: 06 Mar 2018 Rating: 0.000" } ,
- "POSITIVE MONEY": { name: "POSITIVE MONEY", title: "Date: 06 Mar 2018 Rating: 0.391" } ,
- "LIBSTURNTAIL&BLOCKME": { name: "LIBSTURNTAIL&BLOCKME", title: "Date: 06 Mar 2018 Rating: 0.361" } ,
- "SAM": { name: "SAM", title: "Date: 06 Mar 2018 Rating: 0.233" } ,
- "DAVID REIGLE": { name: "DAVID REIGLE", title: "Date: 06 Mar 2018 Rating: 0.500" } ,
- "ANGELIQUE": { name: "ANGELIQUE", title: "Date: 06 Mar 2018 Rating: 0.049" } ,
- "THEDOBRICKLITTLEGRP": { name: "THEDOBRICKLITTLEGRP", title: "Date: 06 Mar 2018 Rating: 0.100" } ,
- "CERBERUS RADIO NETWORK": { name: "CERBERUS RADIO NETWORK", title: "Date: 06 Mar 2018 Rating: 0.000" } ,
- "INDIANAPLUS": { name: "INDIANAPLUS", title: "Date: 06 Mar 2018 Rating: 0.400" } ,
- "L HONDERS": { name: "L HONDERS", title: "Date: 06 Mar 2018 Rating: 0.050" } ,
- "BOB KLEINSCHMIDT": { name: "BOB KLEINSCHMIDT", title: "Date: 06 Mar 2018 Rating: -0.122" } ,
- "ARTHOUSE EL POFIT": { name: "ARTHOUSE EL POFIT", title: "Date: 06 Mar 2018 Rating: -0.167" } ,
- "": { name: "", title: "Date: 06 Mar 2018 Rating: 0.059" } ,
- "ENEWSRADAR": { name: "ENEWSRADAR", title: "Date: 06 Mar 2018 Rating: 0.500" } ,
- "WWW.RIGHTNOWNEWS.US": { name: "WWW.RIGHTNOWNEWS.US", title: "Date: 06 Mar 2018 Rating: 0.307" } ,
- "MICHAEL": { name: "MICHAEL", title: "Date: 06 Mar 2018 Rating: -0.375" } ,
- "QUANTAMIZE": { name: "QUANTAMIZE", title: "Date: 06 Mar 2018 Rating: 0.500" } ,
- "MELBAL BUSINESS NEWS": { name: "MELBAL BUSINESS NEWS", title: "Date: 06 Mar 2018 Rating: 0.500" } ,
- "BALMEL DIRECTORY": { name: "BALMEL DIRECTORY", title: "Date: 06 Mar 2018 Rating: 0.500" } ,
- "EXPRESS BUSINESS NEW": { name: "EXPRESS BUSINESS NEW", title: "Date: 06 Mar 2018 Rating: 0.167" } ,
- "AUTO BLOG GLOBAL": { name: "AUTO BLOG GLOBAL", title: "Date: 06 Mar 2018 Rating: 0.500" } ,
- "MORE BUSINESS NEWS": { name: "MORE BUSINESS NEWS", title: "Date: 06 Mar 2018 Rating: 0.500" } ,
- "SOYNADIE": { name: "SOYNADIE", title: "Date: 06 Mar 2018 Rating: 0.500" } ,
- "SOYNADIE PRESS": { name: "SOYNADIE PRESS", title: "Date: 06 Mar 2018 Rating: 0.500" } ,
- "SOYNADIE": { name: "SOYNADIE", title: "Date: 06 Mar 2018 Rating: 0.500" } ,
- "SOYNADIE ORG": { name: "SOYNADIE ORG", title: "Date: 06 Mar 2018 Rating: 0.500" } ,
- "PERIODISTA URBANO": { name: "PERIODISTA URBANO", title: "Date: 06 Mar 2018 Rating: 0.500" } ,
- "PATRICK CHOVANEC": { name: "PATRICK CHOVANEC", title: "Date: 06 Mar 2018 Rating: -0.150" } ,
- "NEWSGW": { name: "NEWSGW", title: "Date: 06 Mar 2018 Rating: 0.500" } ,
- "DAILY EXPRESS": { name: "DAILY EXPRESS", title: "Date: 06 Mar 2018 Rating: 0.500" } ,
- "JOHN BELL": { name: "JOHN BELL", title: "Date: 06 Mar 2018 Rating: 0.200" } ,
- "I AM SOVEREIGN": { name: "I AM SOVEREIGN", title: "Date: 06 Mar 2018 Rating: 0.000" } ,
- "MILLENNIAL FOR TRUMP": { name: "MILLENNIAL FOR TRUMP", title: "Date: 06 Mar 2018 Rating: 0.000" } ,
- "SANTOS TAMANG (BLON)": { name: "SANTOS TAMANG (BLON)", title: "Date: 06 Mar 2018 Rating: -0.141" } ,
- "L HONDERS": { name: "L HONDERS", title: "Date: 06 Mar 2018 Rating: -0.137" } ,
- "VALUE RESEARCH": { name: "VALUE RESEARCH", title: "Date: 06 Mar 2018 Rating: 0.000" } ,
- "BEVAN BOY": { name: "BEVAN BOY", title: "Date: 06 Mar 2018 Rating: 0.550" } ,
- "POLITICSCANBECUTE": { name: "POLITICSCANBECUTE", title: "Date: 06 Mar 2018 Rating: 0.000" } ,
- "DR PENNIES": { name: "DR PENNIES", title: "Date: 06 Mar 2018 Rating: 0.165" } ,
- "POLITICSCANBECUTE": { name: "POLITICSCANBECUTE", title: "Date: 06 Mar 2018 Rating: -0.212" } ,
- "CRYPTOGRABBER": { name: "CRYPTOGRABBER", title: "Date: 06 Mar 2018 Rating: 0.000" } ,
- "NIGEL CURRIE": { name: "NIGEL CURRIE", title: "Date: 06 Mar 2018 Rating: 0.350" } ,
- "RASIKA THAPA": { name: "RASIKA THAPA", title: "Date: 06 Mar 2018 Rating: 0.000" } ,
- "EMILIO PANTOJAS": { name: "EMILIO PANTOJAS", title: "Date: 05 Mar 2018 Rating: -0.200" } ,
- "THE WEB OF EVIL": { name: "THE WEB OF EVIL", title: "Date: 05 Mar 2018 Rating: 0.017" } ,
- "NEP-ACC": { name: "NEP-ACC", title: "Date: 05 Mar 2018 Rating: 0.000" } ,
- "PAUL ROOK": { name: "PAUL ROOK", title: "Date: 05 Mar 2018 Rating: 0.000" } ,
- "KRIS": { name: "KRIS", title: "Date: 05 Mar 2018 Rating: -0.062" } ,
- "KRIS": { name: "KRIS", title: "Date: 05 Mar 2018 Rating: -0.062" } ,
- "TEAMNICK #FBPE": { name: "TEAMNICK #FBPE", title: "Date: 05 Mar 2018 Rating: 0.000" } ,
- "EXPONENTIAL INVESTOR": { name: "EXPONENTIAL INVESTOR", title: "Date: 05 Mar 2018 Rating: -0.247" } ,
- "CAPITAL CONFLICT": { name: "CAPITAL CONFLICT", title: "Date: 05 Mar 2018 Rating: -0.247" } ,
- "KENNETH WHITE JR": { name: "KENNETH WHITE JR", title: "Date: 05 Mar 2018 Rating: 0.100" } ,
- "CERBERUS RADIO NETWORK": { name: "CERBERUS RADIO NETWORK", title: "Date: 05 Mar 2018 Rating: 0.000" } ,
- "FRED MCELWAINE": { name: "FRED MCELWAINE", title: "Date: 05 Mar 2018 Rating: 0.600" } ,
- "JAMES MACEACHERN": { name: "JAMES MACEACHERN", title: "Date: 05 Mar 2018 Rating: 0.219" } ,
- "RANDOM NOISE": { name: "RANDOM NOISE", title: "Date: 05 Mar 2018 Rating: 0.150" } ,
- "TRUTH IN ACCOUNTING": { name: "TRUTH IN ACCOUNTING", title: "Date: 05 Mar 2018 Rating: 0.800" } ,
- "": { name: "", title: "Date: 05 Mar 2018 Rating: 0.353" } ,
- "PEDRO DA COSTA": { name: "PEDRO DA COSTA", title: "Date: 05 Mar 2018 Rating: 0.000" } ,
- "ELSCOTTO": { name: "ELSCOTTO", title: "Date: 05 Mar 2018 Rating: -0.038" } ,
- "TONY WESTON #MMT": { name: "TONY WESTON #MMT", title: "Date: 05 Mar 2018 Rating: -0.244" } ,
- "DEPLORABLE SMALL PEOPLE   STABLEGENIUS": { name: "DEPLORABLE SMALL PEOPLE   STABLEGENIUS", title: "Date: 05 Mar 2018 Rating: 0.286" } ,
- "CIGMAN FREUD CERTIFIES TRUMP AS STABLE": { name: "CIGMAN FREUD CERTIFIES TRUMP AS STABLE", title: "Date: 05 Mar 2018 Rating: 0.000" } ,
- "PAUL SHEARD": { name: "PAUL SHEARD", title: "Date: 05 Mar 2018 Rating: 0.000" } ,
- "KRIS": { name: "KRIS", title: "Date: 05 Mar 2018 Rating: -0.245" } 
+ "ANDREA": { name: "ANDREA", title: "Date: 05 Apr 2018 Rating: 0.000" } ,
+ "SHARESWATCH.COM.AU": { name: "SHARESWATCH.COM.AU", title: "Date: 05 Apr 2018 Rating: 0.000" } ,
+ "": { name: "", title: "Date: 05 Apr 2018 Rating: -0.800" } ,
+ "JEEPY": { name: "JEEPY", title: "Date: 05 Apr 2018 Rating: -0.331" } ,
+ "WALLACE NOLL": { name: "WALLACE NOLL", title: "Date: 05 Apr 2018 Rating: 0.045" } ,
+ "POSITIVE MONEY EUROPE": { name: "POSITIVE MONEY EUROPE", title: "Date: 05 Apr 2018 Rating: 0.045" } ,
+ "RASHEED MUHAMMAD": { name: "RASHEED MUHAMMAD", title: "Date: 05 Apr 2018 Rating: 0.143" } ,
+ "RICHARD SCHOFIELD": { name: "RICHARD SCHOFIELD", title: "Date: 05 Apr 2018 Rating: 0.000" } ,
+ "MY INFO": { name: "MY INFO", title: "Date: 05 Apr 2018 Rating: 0.000" } ,
+ "LARRY CHIANG": { name: "LARRY CHIANG", title: "Date: 05 Apr 2018 Rating: 0.600" } ,
+ "GREGORY RHO": { name: "GREGORY RHO", title: "Date: 05 Apr 2018 Rating: -0.073" } ,
+ "BENZTRADER": { name: "BENZTRADER", title: "Date: 04 Apr 2018 Rating: 0.162" } ,
+ "DEVRA #REUNION": { name: "DEVRA #REUNION", title: "Date: 04 Apr 2018 Rating: 0.073" } ,
+ "JACK DUNN": { name: "JACK DUNN", title: "Date: 04 Apr 2018 Rating: 0.000" } ,
+ "GORDON GRANT": { name: "GORDON GRANT", title: "Date: 04 Apr 2018 Rating: -0.033" } ,
+ "BLACKSTRAT": { name: "BLACKSTRAT", title: "Date: 04 Apr 2018 Rating: 0.000" } ,
+ "WALTER LANGE": { name: "WALTER LANGE", title: "Date: 04 Apr 2018 Rating: -0.050" } ,
+ "BRIAN NORWOOD": { name: "BRIAN NORWOOD", title: "Date: 04 Apr 2018 Rating: 0.000" } ,
+ "CASEY SCHUHMACHER": { name: "CASEY SCHUHMACHER", title: "Date: 04 Apr 2018 Rating: -0.094" } ,
+ "MARGINALREVOLUTIONU": { name: "MARGINALREVOLUTIONU", title: "Date: 04 Apr 2018 Rating: 0.312" } ,
+ "HOONG-WAI": { name: "HOONG-WAI", title: "Date: 04 Apr 2018 Rating: -0.138" } ,
+ "EKEM BRANCH": { name: "EKEM BRANCH", title: "Date: 04 Apr 2018 Rating: 0.333" } ,
+ "0      0": { name: "0      0", title: "Date: 04 Apr 2018 Rating: -0.071" } ,
+ "JACK DUNN": { name: "JACK DUNN", title: "Date: 04 Apr 2018 Rating: 0.368" } ,
+ "TUOMAS MALINEN": { name: "TUOMAS MALINEN", title: "Date: 04 Apr 2018 Rating: 0.078" } ,
+ "RAY L": { name: "RAY L", title: "Date: 04 Apr 2018 Rating: -0.089" } ,
+ "GOLDEN SEEDS FX": { name: "GOLDEN SEEDS FX", title: "Date: 04 Apr 2018 Rating: 0.000" } ,
+ "CITIZEN KANE": { name: "CITIZEN KANE", title: "Date: 04 Apr 2018 Rating: -0.400" } ,
+ "THE JUDD SCHOOL ECONOMICS POLITICS DEPARTMENT": { name: "THE JUDD SCHOOL ECONOMICS POLITICS DEPARTMENT", title: "Date: 04 Apr 2018 Rating: 0.750" } ,
+ "SACHIN GARG": { name: "SACHIN GARG", title: "Date: 04 Apr 2018 Rating: 0.350" } ,
+ "ALTERNATIVERETURN": { name: "ALTERNATIVERETURN", title: "Date: 04 Apr 2018 Rating: 0.000" } ,
+ "CERBERUS RADIO NETWORK": { name: "CERBERUS RADIO NETWORK", title: "Date: 04 Apr 2018 Rating: 0.000" } ,
+ "JESSE GREEN": { name: "JESSE GREEN", title: "Date: 04 Apr 2018 Rating: 0.252" } ,
+ "PT": { name: "PT", title: "Date: 04 Apr 2018 Rating: -0.156" } ,
+ "CRYPTOGRABBER": { name: "CRYPTOGRABBER", title: "Date: 04 Apr 2018 Rating: 0.000" } ,
+ "DANIEL MOSS": { name: "DANIEL MOSS", title: "Date: 04 Apr 2018 Rating: 0.000" } ,
+ "KK": { name: "KK", title: "Date: 04 Apr 2018 Rating: 0.100" } ,
+ "IG:HKVIBEZ": { name: "IG:HKVIBEZ", title: "Date: 04 Apr 2018 Rating: 0.500" } ,
+ "RICHARD MONAGHAN": { name: "RICHARD MONAGHAN", title: "Date: 04 Apr 2018 Rating: 0.033" } ,
+ "BEN RICKERT": { name: "BEN RICKERT", title: "Date: 04 Apr 2018 Rating: 0.200" } ,
+ "G RAN OLSSON": { name: "G RAN OLSSON", title: "Date: 04 Apr 2018 Rating: 0.108" } ,
+ "BLUE COAT ECONOMICS": { name: "BLUE COAT ECONOMICS", title: "Date: 04 Apr 2018 Rating: 0.000" } ,
+ "BLOOMBERG ECONOMICS": { name: "BLOOMBERG ECONOMICS", title: "Date: 04 Apr 2018 Rating: 0.100" } ,
+ "COLFESECONOMICS": { name: "COLFESECONOMICS", title: "Date: 04 Apr 2018 Rating: 1.000" } ,
+ "RENAUD HUCK": { name: "RENAUD HUCK", title: "Date: 04 Apr 2018 Rating: 0.000" } ,
+ "TEDHU": { name: "TEDHU", title: "Date: 04 Apr 2018 Rating: 0.700" } ,
+ "DAVID MARTIN": { name: "DAVID MARTIN", title: "Date: 04 Apr 2018 Rating: 0.450" } ,
+ "YUKO TAKEO": { name: "YUKO TAKEO", title: "Date: 04 Apr 2018 Rating: 0.450" } ,
+ "NEWSCO INC.": { name: "NEWSCO INC.", title: "Date: 04 Apr 2018 Rating: 0.000" } ,
+ "WANALYTICS": { name: "WANALYTICS", title: "Date: 03 Apr 2018 Rating: 0.250" } ,
+ "CHRIS KLINEPETER": { name: "CHRIS KLINEPETER", title: "Date: 03 Apr 2018 Rating: 0.333" } ,
+ "JACK DUNN": { name: "JACK DUNN", title: "Date: 03 Apr 2018 Rating: -0.333" } ,
+ "BLOOMBERG VIEW": { name: "BLOOMBERG VIEW", title: "Date: 03 Apr 2018 Rating: 0.450" } ,
+ "COYOTES BAR": { name: "COYOTES BAR", title: "Date: 03 Apr 2018 Rating: 0.111" } ,
+ "TOM UREN": { name: "TOM UREN", title: "Date: 03 Apr 2018 Rating: -0.250" } ,
+ "BLOOMBERG": { name: "BLOOMBERG", title: "Date: 03 Apr 2018 Rating: 0.450" } ,
+ "IRC NOT ROOTBEER": { name: "IRC NOT ROOTBEER", title: "Date: 03 Apr 2018 Rating: 0.250" } ,
+ "KEITH BURGE": { name: "KEITH BURGE", title: "Date: 03 Apr 2018 Rating: 0.400" } ,
+ "DANIEL LACALLE": { name: "DANIEL LACALLE", title: "Date: 03 Apr 2018 Rating: 0.000" } ,
+ "JORDAN": { name: "JORDAN", title: "Date: 03 Apr 2018 Rating: 0.000" } ,
+ "JAMES MACEACHERN": { name: "JAMES MACEACHERN", title: "Date: 03 Apr 2018 Rating: 0.080" } ,
+ "LUKE BRADLEY": { name: "LUKE BRADLEY", title: "Date: 03 Apr 2018 Rating: 0.183" } ,
+ "ACE KOZMO": { name: "ACE KOZMO", title: "Date: 03 Apr 2018 Rating: -0.200" } ,
+ "PMG_BARNHAM": { name: "PMG_BARNHAM", title: "Date: 03 Apr 2018 Rating: 0.062" } ,
+ "CROUTON": { name: "CROUTON", title: "Date: 03 Apr 2018 Rating: 0.169" } ,
+ "BILL CREGO": { name: "BILL CREGO", title: "Date: 03 Apr 2018 Rating: 0.000" } ,
+ "ED CONWAY": { name: "ED CONWAY", title: "Date: 03 Apr 2018 Rating: 0.550" } ,
+ "STEPHEN MILLER": { name: "STEPHEN MILLER", title: "Date: 03 Apr 2018 Rating: 0.000" } ,
+ "TONY CLEWES #FBPE": { name: "TONY CLEWES #FBPE", title: "Date: 03 Apr 2018 Rating: 0.050" } ,
+ "CERBERUS RADIO NETWORK": { name: "CERBERUS RADIO NETWORK", title: "Date: 03 Apr 2018 Rating: 0.000" } ,
+ "FRED QUIN": { name: "FRED QUIN", title: "Date: 03 Apr 2018 Rating: -0.250" } ,
+ "CRYPTOGRABBER": { name: "CRYPTOGRABBER", title: "Date: 03 Apr 2018 Rating: 0.000" } ,
+ "QUANTMINDS": { name: "QUANTMINDS", title: "Date: 03 Apr 2018 Rating: 0.000" } ,
+ "MRA MARKETING": { name: "MRA MARKETING", title: "Date: 03 Apr 2018 Rating: 0.067" } ,
+ "ANDREA": { name: "ANDREA", title: "Date: 03 Apr 2018 Rating: 0.375" } ,
+ "MUSSO": { name: "MUSSO", title: "Date: 03 Apr 2018 Rating: -0.025" } ,
+ "VANGUARD UK ADVISERS": { name: "VANGUARD UK ADVISERS", title: "Date: 03 Apr 2018 Rating: -0.114" } ,
+ "BTG ADVISORY": { name: "BTG ADVISORY", title: "Date: 03 Apr 2018 Rating: -0.006" } ,
+ "DEEPAK SINGH": { name: "DEEPAK SINGH", title: "Date: 03 Apr 2018 Rating: 0.100" } ,
+ "TUTOR2U ECONOMICS": { name: "TUTOR2U ECONOMICS", title: "Date: 03 Apr 2018 Rating: 0.318" } ,
+ "GLOBALCAPITAL": { name: "GLOBALCAPITAL", title: "Date: 03 Apr 2018 Rating: 0.000" } ,
+ "ELINA SEPP L": { name: "ELINA SEPP L", title: "Date: 03 Apr 2018 Rating: -0.025" } ,
+ "KEVIN A TUCKER": { name: "KEVIN A TUCKER", title: "Date: 03 Apr 2018 Rating: -0.450" } ,
+ "KEVIN A TUCKER": { name: "KEVIN A TUCKER", title: "Date: 03 Apr 2018 Rating: -0.317" } ,
+ "KEVIN A TUCKER": { name: "KEVIN A TUCKER", title: "Date: 03 Apr 2018 Rating: -0.317" } ,
+ "MARKET PRICE INDEX": { name: "MARKET PRICE INDEX", title: "Date: 03 Apr 2018 Rating: 0.300" } ,
+ "PARKSTONE ECONOMICS": { name: "PARKSTONE ECONOMICS", title: "Date: 03 Apr 2018 Rating: 0.000" } ,
+ "ICHAEL G #MLK50": { name: "ICHAEL G #MLK50", title: "Date: 03 Apr 2018 Rating: 0.000" } ,
+ "THE LAST DON": { name: "THE LAST DON", title: "Date: 03 Apr 2018 Rating: 0.000" } ,
+ "GR8MKR2017": { name: "GR8MKR2017", title: "Date: 03 Apr 2018 Rating: -0.100" } ,
+ "JAMES CRAWFORD": { name: "JAMES CRAWFORD", title: "Date: 03 Apr 2018 Rating: 0.330" } ,
+ "CAMPION SIXTH FORM": { name: "CAMPION SIXTH FORM", title: "Date: 03 Apr 2018 Rating: 0.000" } ,
+ "JEFF SANDERS": { name: "JEFF SANDERS", title: "Date: 03 Apr 2018 Rating: 0.105" } ,
+ "CERBERUS RADIO NETWORK": { name: "CERBERUS RADIO NETWORK", title: "Date: 03 Apr 2018 Rating: 0.000" } ,
+ "BOLO": { name: "BOLO", title: "Date: 03 Apr 2018 Rating: 0.000" } ,
+ "HAKON KHAJAVEI": { name: "HAKON KHAJAVEI", title: "Date: 03 Apr 2018 Rating: 0.550" } ,
+ "STACEY JOHNSON": { name: "STACEY JOHNSON", title: "Date: 03 Apr 2018 Rating: 0.100" } ,
+ "WILLIAM HARKER": { name: "WILLIAM HARKER", title: "Date: 03 Apr 2018 Rating: 0.000" } ,
+ "PREPARE MATHEW 25": { name: "PREPARE MATHEW 25", title: "Date: 03 Apr 2018 Rating: 0.250" } ,
+ "MYTRADEPH-ABACUS SEC": { name: "MYTRADEPH-ABACUS SEC", title: "Date: 03 Apr 2018 Rating: 0.175" } ,
+ "WALLACE NOLL": { name: "WALLACE NOLL", title: "Date: 03 Apr 2018 Rating: -0.400" } ,
+ "GREG POWELL": { name: "GREG POWELL", title: "Date: 03 Apr 2018 Rating: 0.400" } ,
+ "ZAKBOT": { name: "ZAKBOT", title: "Date: 03 Apr 2018 Rating: -0.200" } ,
+ "LORENZO": { name: "LORENZO", title: "Date: 02 Apr 2018 Rating: -0.263" } ,
+ "KAZ LOKUCIEWSKI": { name: "KAZ LOKUCIEWSKI", title: "Date: 02 Apr 2018 Rating: 0.250" } ,
+ "ROONOMICS": { name: "ROONOMICS", title: "Date: 02 Apr 2018 Rating: 0.750" } ,
+ "BETHLEHEM": { name: "BETHLEHEM", title: "Date: 02 Apr 2018 Rating: 0.125" } ,
+ "KRIS": { name: "KRIS", title: "Date: 02 Apr 2018 Rating: 0.018" } ,
+ "TUTOR2U GEOFF": { name: "TUTOR2U GEOFF", title: "Date: 02 Apr 2018 Rating: 0.000" } ,
+ "PAUL TOWER": { name: "PAUL TOWER", title: "Date: 02 Apr 2018 Rating: 0.050" } ,
+ "MAURICE": { name: "MAURICE", title: "Date: 02 Apr 2018 Rating: 0.000" } ,
+ "MICHAEL J WALKER": { name: "MICHAEL J WALKER", title: "Date: 02 Apr 2018 Rating: 0.000" } ,
+ "REV DAN WOODHOUSE": { name: "REV DAN WOODHOUSE", title: "Date: 02 Apr 2018 Rating: 0.000" } ,
+ "MAURITIUSGOLD": { name: "MAURITIUSGOLD", title: "Date: 02 Apr 2018 Rating: 0.000" } ,
+ "MILTONMIKE": { name: "MILTONMIKE", title: "Date: 02 Apr 2018 Rating: -0.100" } ,
+ "JONNYJAMES": { name: "JONNYJAMES", title: "Date: 02 Apr 2018 Rating: -0.133" } ,
+ "JOSEPH JONES": { name: "JOSEPH JONES", title: "Date: 02 Apr 2018 Rating: 0.083" } ,
+ "TEEMU SINTONEN": { name: "TEEMU SINTONEN", title: "Date: 02 Apr 2018 Rating: 0.017" } ,
+ "JASON": { name: "JASON", title: "Date: 02 Apr 2018 Rating: 0.000" } ,
+ "DPLORABLEBSTRD": { name: "DPLORABLEBSTRD", title: "Date: 02 Apr 2018 Rating: 0.035" } ,
+ "ANDREAS CSEH": { name: "ANDREAS CSEH", title: "Date: 02 Apr 2018 Rating: 0.200" } ,
+ "DPLORABLEBSTRD": { name: "DPLORABLEBSTRD", title: "Date: 02 Apr 2018 Rating: -0.133" } ,
+ "MARK RIDER": { name: "MARK RIDER", title: "Date: 02 Apr 2018 Rating: 0.000" } ,
+ "LAWRENCE TURNER": { name: "LAWRENCE TURNER", title: "Date: 02 Apr 2018 Rating: 0.000" } ,
+ "CRYPTOGRABBER": { name: "CRYPTOGRABBER", title: "Date: 02 Apr 2018 Rating: 0.000" } ,
+ "AGENT CRYPTIC PSYPHER": { name: "AGENT CRYPTIC PSYPHER", title: "Date: 02 Apr 2018 Rating: 0.300" } ,
+ "NAME CANNOT BE BLANK": { name: "NAME CANNOT BE BLANK", title: "Date: 02 Apr 2018 Rating: 0.000" } ,
+ "ALFRED GILLHAM": { name: "ALFRED GILLHAM", title: "Date: 02 Apr 2018 Rating: 0.250" } ,
+ "TODD POWELL": { name: "TODD POWELL", title: "Date: 02 Apr 2018 Rating: 0.000" } ,
+ "1911A1CUSTOM": { name: "1911A1CUSTOM", title: "Date: 02 Apr 2018 Rating: 0.500" } ,
+ "CERBERUS RADIO NETWORK": { name: "CERBERUS RADIO NETWORK", title: "Date: 02 Apr 2018 Rating: 0.000" } ,
+ "JEFF WHITE": { name: "JEFF WHITE", title: "Date: 02 Apr 2018 Rating: 0.262" } ,
+ "VINAY RAO": { name: "VINAY RAO", title: "Date: 02 Apr 2018 Rating: 0.040" } ,
+ "JULIAN COX": { name: "JULIAN COX", title: "Date: 02 Apr 2018 Rating: 0.376" } ,
+ "THE EQUEDIA LETTER": { name: "THE EQUEDIA LETTER", title: "Date: 02 Apr 2018 Rating: -0.433" } ,
+ "GERALD NASH": { name: "GERALD NASH", title: "Date: 02 Apr 2018 Rating: 0.208" } ,
+ "ANH NGUYEN": { name: "ANH NGUYEN", title: "Date: 02 Apr 2018 Rating: 0.000" } ,
+ "NEP-CBA": { name: "NEP-CBA", title: "Date: 02 Apr 2018 Rating: 0.000" } ,
+ "JG1977": { name: "JG1977", title: "Date: 02 Apr 2018 Rating: 0.000" } ,
+ "NEP-MAC": { name: "NEP-MAC", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "TERRY VICTORY": { name: "TERRY VICTORY", title: "Date: 01 Apr 2018 Rating: 0.600" } ,
+ "ONEDADSFINANCE": { name: "ONEDADSFINANCE", title: "Date: 01 Apr 2018 Rating: 0.200" } ,
+ "EMIR OMERAGI": { name: "EMIR OMERAGI", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "LARK FI": { name: "LARK FI", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "CAPITAL CONFLICT": { name: "CAPITAL CONFLICT", title: "Date: 01 Apr 2018 Rating: -0.247" } ,
+ "CHASFAX": { name: "CHASFAX", title: "Date: 01 Apr 2018 Rating: 0.067" } ,
+ "AL MONTEITH": { name: "AL MONTEITH", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "BRADLEY KIESER": { name: "BRADLEY KIESER", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "FLORIAN KEULERS": { name: "FLORIAN KEULERS", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "MARK JEFFERSON": { name: "MARK JEFFERSON", title: "Date: 01 Apr 2018 Rating: 0.100" } ,
+ "MAURO DEL CORNO": { name: "MAURO DEL CORNO", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "MARK CURRAN": { name: "MARK CURRAN", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "DANIEL MCBRIDE": { name: "DANIEL MCBRIDE", title: "Date: 01 Apr 2018 Rating: 0.056" } ,
+ "S B": { name: "S B", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "PROSPER HOME LOANS": { name: "PROSPER HOME LOANS", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "CLLR JOHN FULHAM": { name: "CLLR JOHN FULHAM", title: "Date: 01 Apr 2018 Rating: -0.033" } ,
+ "MATT PALASKY": { name: "MATT PALASKY", title: "Date: 01 Apr 2018 Rating: 0.117" } ,
+ "MIKE HARRIS": { name: "MIKE HARRIS", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "WHAT IF INVESTING": { name: "WHAT IF INVESTING", title: "Date: 01 Apr 2018 Rating: -0.800" } ,
+ "HOWARD ARCHER": { name: "HOWARD ARCHER", title: "Date: 01 Apr 2018 Rating: 0.275" } ,
+ "ROGER MAYER": { name: "ROGER MAYER", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "MARTIN GOODSON": { name: "MARTIN GOODSON", title: "Date: 01 Apr 2018 Rating: 0.183" } ,
+ "MICHEL NEUMARK": { name: "MICHEL NEUMARK", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "THAT SCOTTISH GUY": { name: "THAT SCOTTISH GUY", title: "Date: 01 Apr 2018 Rating: 0.400" } ,
+ "JASON NEIL PATTISON": { name: "JASON NEIL PATTISON", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "THABANG": { name: "THABANG", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "CRYPTOGRABBER": { name: "CRYPTOGRABBER", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "EAGLESTAR.NET": { name: "EAGLESTAR.NET", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "PEDRO SOUSA": { name: "PEDRO SOUSA", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "DANIEL WALTER": { name: "DANIEL WALTER", title: "Date: 01 Apr 2018 Rating: 0.050" } ,
+ "RANJAN BALAKUMARAN": { name: "RANJAN BALAKUMARAN", title: "Date: 01 Apr 2018 Rating: 0.100" } ,
+ "FRANKLIN DEHOUSSE": { name: "FRANKLIN DEHOUSSE", title: "Date: 01 Apr 2018 Rating: -0.125" } ,
+ "BRIAN GROOM": { name: "BRIAN GROOM", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "CHRISTIAN EBUDDY": { name: "CHRISTIAN EBUDDY", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "TAPAN SAHNI": { name: "TAPAN SAHNI", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "VESA AHONIEMI": { name: "VESA AHONIEMI", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "YUICHI": { name: "YUICHI", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "ORELEX": { name: "ORELEX", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "ARCHES EUROPE": { name: "ARCHES EUROPE", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "ROBIN WIGGLESWORTH": { name: "ROBIN WIGGLESWORTH", title: "Date: 01 Apr 2018 Rating: -0.125" } ,
+ "ANDREW MCNALLY": { name: "ANDREW MCNALLY", title: "Date: 01 Apr 2018 Rating: 0.600" } ,
+ "JAIME HARTIG CFP": { name: "JAIME HARTIG CFP", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "FINANCE RADAR": { name: "FINANCE RADAR", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "US BUSINESS NEWS": { name: "US BUSINESS NEWS", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "JACOB HENSON": { name: "JACOB HENSON", title: "Date: 01 Apr 2018 Rating: -0.800" } ,
+ "HELLO NEWS": { name: "HELLO NEWS", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "MYALLIES NEWS": { name: "MYALLIES NEWS", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "FINANCIAL TIMES": { name: "FINANCIAL TIMES", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "GORDON'S ECONOMICS": { name: "GORDON'S ECONOMICS", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "GAVIN JACKSON": { name: "GAVIN JACKSON", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "MSSMONEY": { name: "MSSMONEY", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "RICHARD LEE": { name: "RICHARD LEE", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "OCEANSIDE HOTELS": { name: "OCEANSIDE HOTELS", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "MYBRANDOWL": { name: "MYBRANDOWL", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "ENOCH POWELL": { name: "ENOCH POWELL", title: "Date: 01 Apr 2018 Rating: 0.167" } ,
+ "DATAMAN": { name: "DATAMAN", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "UNIPREMUIM PAPERS": { name: "UNIPREMUIM PAPERS", title: "Date: 01 Apr 2018 Rating: 0.000" } ,
+ "WYNOTME307": { name: "WYNOTME307", title: "Date: 31 Mar 2018 Rating: 0.323" } ,
+ "DAN BITHER": { name: "DAN BITHER", title: "Date: 31 Mar 2018 Rating: 0.000" } ,
+ "MIKE": { name: "MIKE", title: "Date: 31 Mar 2018 Rating: 0.000" } ,
+ "IAN HOPKINS": { name: "IAN HOPKINS", title: "Date: 31 Mar 2018 Rating: 0.015" } ,
+ "JASON": { name: "JASON", title: "Date: 31 Mar 2018 Rating: 0.000" } ,
+ "JASON": { name: "JASON", title: "Date: 31 Mar 2018 Rating: 0.008" } ,
+ "JASON": { name: "JASON", title: "Date: 31 Mar 2018 Rating: 0.000" } ,
+ "JASON": { name: "JASON", title: "Date: 31 Mar 2018 Rating: 0.216" } ,
+ "JASON": { name: "JASON", title: "Date: 31 Mar 2018 Rating: -0.042" } ,
+ "JASON": { name: "JASON", title: "Date: 31 Mar 2018 Rating: 0.037" } ,
+ "JASON": { name: "JASON", title: "Date: 31 Mar 2018 Rating: -0.146" } ,
+ "JASON": { name: "JASON", title: "Date: 31 Mar 2018 Rating: 0.133" } ,
+ "ELYK SNOMMIS": { name: "ELYK SNOMMIS", title: "Date: 31 Mar 2018 Rating: 0.074" } ,
+ "PATRICK GERARD": { name: "PATRICK GERARD", title: "Date: 31 Mar 2018 Rating: 0.140" } ,
+ "DR CHRIS GRAVES": { name: "DR CHRIS GRAVES", title: "Date: 31 Mar 2018 Rating: -0.317" } ,
+ "CHRISTOPHER KELAHER": { name: "CHRISTOPHER KELAHER", title: "Date: 31 Mar 2018 Rating: 0.000" } ,
+ "THE PROPHET": { name: "THE PROPHET", title: "Date: 31 Mar 2018 Rating: 0.234" } ,
+ "ZORAIDA S NCHEZ": { name: "ZORAIDA S NCHEZ", title: "Date: 31 Mar 2018 Rating: 0.129" } ,
+ "CRYPTOGRABBER": { name: "CRYPTOGRABBER", title: "Date: 31 Mar 2018 Rating: 0.000" } ,
+ "JOHN HAMPSHIRE": { name: "JOHN HAMPSHIRE", title: "Date: 31 Mar 2018 Rating: -0.125" } ,
+ "PETER OBRIEN": { name: "PETER OBRIEN", title: "Date: 31 Mar 2018 Rating: -0.214" } ,
+ "REYNARD FOXX": { name: "REYNARD FOXX", title: "Date: 31 Mar 2018 Rating: -0.272" } ,
+ "CATHY BAILEY": { name: "CATHY BAILEY", title: "Date: 31 Mar 2018 Rating: 0.100" } ,
+ "PAUL GAMBLES": { name: "PAUL GAMBLES", title: "Date: 31 Mar 2018 Rating: 0.036" } ,
+ "NICHOLAS MEGNA": { name: "NICHOLAS MEGNA", title: "Date: 31 Mar 2018 Rating: -0.263" } ,
+ "BILL MILLER": { name: "BILL MILLER", title: "Date: 31 Mar 2018 Rating: 0.069" } ,
+ "SCOTT PARRISH": { name: "SCOTT PARRISH", title: "Date: 31 Mar 2018 Rating: 0.000" } ,
+ "BRIAN J HURLEY": { name: "BRIAN J HURLEY", title: "Date: 31 Mar 2018 Rating: 0.272" } ,
+ "BILL MILLER": { name: "BILL MILLER", title: "Date: 31 Mar 2018 Rating: 0.150" } ,
+ "THE CORNER": { name: "THE CORNER", title: "Date: 30 Mar 2018 Rating: 0.000" } ,
+ "KITTYSCALP": { name: "KITTYSCALP", title: "Date: 30 Mar 2018 Rating: 0.007" } ,
+ "GARY VAUGHN": { name: "GARY VAUGHN", title: "Date: 30 Mar 2018 Rating: -0.218" } ,
+ "ALEXANDER CHENG": { name: "ALEXANDER CHENG", title: "Date: 30 Mar 2018 Rating: -0.033" } ,
+ "THE ROMBACH REPORT": { name: "THE ROMBACH REPORT", title: "Date: 30 Mar 2018 Rating: 0.267" } ,
+ "CATHERINE MARY WAFER#FBPE": { name: "CATHERINE MARY WAFER#FBPE", title: "Date: 30 Mar 2018 Rating: 0.000" } ,
+ "RICKROW": { name: "RICKROW", title: "Date: 30 Mar 2018 Rating: 0.000" } ,
+ "VANGUARD UK ADVISERS": { name: "VANGUARD UK ADVISERS", title: "Date: 30 Mar 2018 Rating: -0.114" } ,
+ "ABDULLAH ALJINAAHI": { name: "ABDULLAH ALJINAAHI", title: "Date: 30 Mar 2018 Rating: 0.000" } ,
+ "JOSEPH LEEMAN": { name: "JOSEPH LEEMAN", title: "Date: 30 Mar 2018 Rating: 0.450" } ,
+ "TIMOTHY WILLIS": { name: "TIMOTHY WILLIS", title: "Date: 30 Mar 2018 Rating: 0.475" } ,
+ "SUNEYE RAE HOLMES": { name: "SUNEYE RAE HOLMES", title: "Date: 30 Mar 2018 Rating: 0.000" } ,
+ "ABHISHEK RAJURKAR": { name: "ABHISHEK RAJURKAR", title: "Date: 30 Mar 2018 Rating: 0.500" } ,
+ "CRYPTOGRABBER": { name: "CRYPTOGRABBER", title: "Date: 30 Mar 2018 Rating: 0.000" } ,
+ "ANDY STEPHENSON": { name: "ANDY STEPHENSON", title: "Date: 30 Mar 2018 Rating: 0.000" } ,
+ "GIAMPAOLO": { name: "GIAMPAOLO", title: "Date: 30 Mar 2018 Rating: 0.000" } ,
+ "SIMON MAYHEW-ARCHER": { name: "SIMON MAYHEW-ARCHER", title: "Date: 30 Mar 2018 Rating: 0.100" } ,
+ "VERNER VERASS": { name: "VERNER VERASS", title: "Date: 30 Mar 2018 Rating: 0.045" } ,
+ "RAY SLAYMAKER": { name: "RAY SLAYMAKER", title: "Date: 30 Mar 2018 Rating: 0.000" } ,
+ "BEN MCCONAGHY": { name: "BEN MCCONAGHY", title: "Date: 30 Mar 2018 Rating: 0.000" } ,
+ "ROSIE RICHENS #FBPE #WATON #ABTV": { name: "ROSIE RICHENS #FBPE #WATON #ABTV", title: "Date: 30 Mar 2018 Rating: 0.188" } ,
+ "VERNER VERASS": { name: "VERNER VERASS", title: "Date: 30 Mar 2018 Rating: 0.000" } ,
+ "SIMON BROOKE": { name: "SIMON BROOKE", title: "Date: 30 Mar 2018 Rating: -0.078" } ,
+ "S1W": { name: "S1W", title: "Date: 30 Mar 2018 Rating: -0.200" } ,
+ "ROBERT RICHER": { name: "ROBERT RICHER", title: "Date: 30 Mar 2018 Rating: 0.000" } ,
+ "BILL": { name: "BILL", title: "Date: 30 Mar 2018 Rating: 0.000" } ,
+ "ELI C.": { name: "ELI C.", title: "Date: 30 Mar 2018 Rating: -0.350" } ,
+ "MICHELLE LEMARIE": { name: "MICHELLE LEMARIE", title: "Date: 30 Mar 2018 Rating: 0.000" } ,
+ "STOCK MARKET TIME": { name: "STOCK MARKET TIME", title: "Date: 30 Mar 2018 Rating: 0.000" } ,
+ "BOOK MANAGEMENT": { name: "BOOK MANAGEMENT", title: "Date: 30 Mar 2018 Rating: 0.000" } ,
+ "WALTON MCGUINTY": { name: "WALTON MCGUINTY", title: "Date: 29 Mar 2018 Rating: 0.100" } ,
+ "ANDI LUTZ": { name: "ANDI LUTZ", title: "Date: 29 Mar 2018 Rating: -0.094" } ,
+ "IG:HKVIBEZ": { name: "IG:HKVIBEZ", title: "Date: 29 Mar 2018 Rating: 0.000" } ,
+ "ANDREW WAUGH": { name: "ANDREW WAUGH", title: "Date: 29 Mar 2018 Rating: 0.150" } ,
+ "BENNY FITZSCROUNGER": { name: "BENNY FITZSCROUNGER", title: "Date: 29 Mar 2018 Rating: -0.062" } ,
+ "JARRATT DAVIS": { name: "JARRATT DAVIS", title: "Date: 29 Mar 2018 Rating: 0.000" } ,
+ "MAREKANI ?": { name: "MAREKANI ?", title: "Date: 29 Mar 2018 Rating: 0.200" } ,
+ "DR SIMON LEE": { name: "DR SIMON LEE", title: "Date: 29 Mar 2018 Rating: 0.275" } ,
+ "PHIL WEBBER": { name: "PHIL WEBBER", title: "Date: 29 Mar 2018 Rating: 0.350" } ,
+ "COLIN": { name: "COLIN", title: "Date: 29 Mar 2018 Rating: -0.050" } ,
+ "HAKON REDDER": { name: "HAKON REDDER", title: "Date: 29 Mar 2018 Rating: 0.100" } ,
+ "ZVI": { name: "ZVI", title: "Date: 29 Mar 2018 Rating: 0.200" } ,
+ "THE GAYTRIARCH FLEETING MOMENTS OF COGNIZANCE": { name: "THE GAYTRIARCH FLEETING MOMENTS OF COGNIZANCE", title: "Date: 29 Mar 2018 Rating: 0.200" } ,
+ "ALEXANDER CHENG": { name: "ALEXANDER CHENG", title: "Date: 29 Mar 2018 Rating: 0.100" } ,
+ "NAPOLEON": { name: "NAPOLEON", title: "Date: 29 Mar 2018 Rating: 0.800" } ,
+ "TIMMYDARTZ": { name: "TIMMYDARTZ", title: "Date: 29 Mar 2018 Rating: 0.000" } ,
+ "ZORAIDA S NCHEZ": { name: "ZORAIDA S NCHEZ", title: "Date: 29 Mar 2018 Rating: 0.000" } ,
+ "CRYPTOGRABBER": { name: "CRYPTOGRABBER", title: "Date: 29 Mar 2018 Rating: 0.000" } ,
+ "VANGUARD UK ADVISERS": { name: "VANGUARD UK ADVISERS", title: "Date: 29 Mar 2018 Rating: -0.114" } ,
+ "CATHY BAILEY": { name: "CATHY BAILEY", title: "Date: 29 Mar 2018 Rating: 0.000" } ,
+ "CATHY BAILEY": { name: "CATHY BAILEY", title: "Date: 29 Mar 2018 Rating: 0.000" } ,
+ "TVB777": { name: "TVB777", title: "Date: 29 Mar 2018 Rating: -0.225" } ,
+ "JFMCKEON": { name: "JFMCKEON", title: "Date: 29 Mar 2018 Rating: 0.000" } ,
+ "LUKAS DUPASS": { name: "LUKAS DUPASS", title: "Date: 29 Mar 2018 Rating: 0.343" } ,
+ "KIKO KOBAYASHI": { name: "KIKO KOBAYASHI", title: "Date: 28 Mar 2018 Rating: 0.197" } ,
+ "MICHAEL GARZA": { name: "MICHAEL GARZA", title: "Date: 28 Mar 2018 Rating: 0.000" } ,
+ "THE FINANCIAL FRIEND": { name: "THE FINANCIAL FRIEND", title: "Date: 28 Mar 2018 Rating: 0.000" } ,
+ "GOWDY FINANCIAL GRP": { name: "GOWDY FINANCIAL GRP", title: "Date: 28 Mar 2018 Rating: 0.000" } ,
+ "COIN SPECTATOR": { name: "COIN SPECTATOR", title: "Date: 28 Mar 2018 Rating: 0.000" } ,
+ "CERBERUS RADIO NETWORK": { name: "CERBERUS RADIO NETWORK", title: "Date: 28 Mar 2018 Rating: 0.000" } ,
+ "WILMA SCHROVER": { name: "WILMA SCHROVER", title: "Date: 28 Mar 2018 Rating: 0.071" } ,
+ "GUS GARCIA III": { name: "GUS GARCIA III", title: "Date: 28 Mar 2018 Rating: -0.083" } ,
+ "NEONTASTER": { name: "NEONTASTER", title: "Date: 28 Mar 2018 Rating: 0.000" } ,
+ "ALAN SKED": { name: "ALAN SKED", title: "Date: 28 Mar 2018 Rating: 0.247" } ,
+ "TOM COLLINS": { name: "TOM COLLINS", title: "Date: 28 Mar 2018 Rating: 0.000" } ,
+ "SHADYBOOTS": { name: "SHADYBOOTS", title: "Date: 28 Mar 2018 Rating: 0.050" } ,
+ "BANK OF ENGLAND RESEARCH": { name: "BANK OF ENGLAND RESEARCH", title: "Date: 28 Mar 2018 Rating: 0.000" } ,
+ "PAPIKI": { name: "PAPIKI", title: "Date: 28 Mar 2018 Rating: -0.053" } ,
+ "CERBERUS RADIO NETWORK": { name: "CERBERUS RADIO NETWORK", title: "Date: 28 Mar 2018 Rating: 0.000" } ,
+ "DANNY ANSON": { name: "DANNY ANSON", title: "Date: 28 Mar 2018 Rating: -0.400" } ,
+ "BIGERNMCCRAKEN": { name: "BIGERNMCCRAKEN", title: "Date: 28 Mar 2018 Rating: 0.000" } ,
+ "GUY KILTY": { name: "GUY KILTY", title: "Date: 28 Mar 2018 Rating: 0.800" } ,
+ "JOE SHMOE": { name: "JOE SHMOE", title: "Date: 28 Mar 2018 Rating: 0.200" } ,
+ "SIALO KIMIRING": { name: "SIALO KIMIRING", title: "Date: 28 Mar 2018 Rating: -0.045" } ,
+ "CRYPTOGRABBER": { name: "CRYPTOGRABBER", title: "Date: 28 Mar 2018 Rating: 0.000" } ,
+ "POSITIVE MONEY": { name: "POSITIVE MONEY", title: "Date: 28 Mar 2018 Rating: 0.800" } ,
+ "KANK THE ANTI OLIGARCH": { name: "KANK THE ANTI OLIGARCH", title: "Date: 28 Mar 2018 Rating: -0.478" } ,
+ "TONY FORREST": { name: "TONY FORREST", title: "Date: 28 Mar 2018 Rating: -0.433" } ,
+ "CHRIS IVES": { name: "CHRIS IVES", title: "Date: 28 Mar 2018 Rating: -0.062" } ,
+ "BANK OF ENGLAND RESEARCH": { name: "BANK OF ENGLAND RESEARCH", title: "Date: 28 Mar 2018 Rating: 0.167" } ,
+ "SCHOLAR OF NOTHING": { name: "SCHOLAR OF NOTHING", title: "Date: 28 Mar 2018 Rating: 0.212" } ,
+ "GABBYGIRL": { name: "GABBYGIRL", title: "Date: 28 Mar 2018 Rating: 0.000" } ,
+ "JON YATES": { name: "JON YATES", title: "Date: 28 Mar 2018 Rating: 0.000" } ,
+ "JUDAS THOMAS": { name: "JUDAS THOMAS", title: "Date: 28 Mar 2018 Rating: 0.038" } ,
+ "MYSNUGGLE_EBOOKS": { name: "MYSNUGGLE_EBOOKS", title: "Date: 28 Mar 2018 Rating: 0.000" } ,
+ "DAKOTA REYNOLDS": { name: "DAKOTA REYNOLDS", title: "Date: 27 Mar 2018 Rating: -0.254" } ,
+ "S T E V E": { name: "S T E V E", title: "Date: 27 Mar 2018 Rating: 0.200" } ,
+ "JIM H": { name: "JIM H", title: "Date: 27 Mar 2018 Rating: 0.062" } ,
+ "THE CORNER": { name: "THE CORNER", title: "Date: 27 Mar 2018 Rating: 0.000" } ,
+ "S T E V E": { name: "S T E V E", title: "Date: 27 Mar 2018 Rating: 0.000" } ,
+ "S T E V E": { name: "S T E V E", title: "Date: 27 Mar 2018 Rating: -0.400" } ,
+ "GIORGINAS": { name: "GIORGINAS", title: "Date: 27 Mar 2018 Rating: -0.100" } ,
+ "TONY": { name: "TONY", title: "Date: 27 Mar 2018 Rating: 0.425" } ,
+ "NAH    BABY    NAH": { name: "NAH    BABY    NAH", title: "Date: 27 Mar 2018 Rating: 0.500" } ,
+ "ALIN TONCZ": { name: "ALIN TONCZ", title: "Date: 27 Mar 2018 Rating: -0.000" } ,
+ "FACTSNOPINIONS": { name: "FACTSNOPINIONS", title: "Date: 27 Mar 2018 Rating: 0.194" } ,
+ "STEPHEN IERARDO": { name: "STEPHEN IERARDO", title: "Date: 27 Mar 2018 Rating: 0.500" } ,
+ "NATHANIEL    JGUTHRIE": { name: "NATHANIEL    JGUTHRIE", title: "Date: 27 Mar 2018 Rating: 0.195" } ,
+ "FXTRADER HUB": { name: "FXTRADER HUB", title: "Date: 27 Mar 2018 Rating: 0.000" } ,
+ "DENNIS USHER": { name: "DENNIS USHER", title: "Date: 27 Mar 2018 Rating: -0.500" } ,
+ "AGORACOM GEORGE": { name: "AGORACOM GEORGE", title: "Date: 27 Mar 2018 Rating: 0.200" } ,
+ "DANIEL LACALLE": { name: "DANIEL LACALLE", title: "Date: 27 Mar 2018 Rating: -0.071" } ,
+ "MIRIAM BRETT": { name: "MIRIAM BRETT", title: "Date: 27 Mar 2018 Rating: 0.000" } ,
+ "ROBERT PEARSON": { name: "ROBERT PEARSON", title: "Date: 27 Mar 2018 Rating: 0.321" } ,
+ "POSITIVE MONEY": { name: "POSITIVE MONEY", title: "Date: 27 Mar 2018 Rating: 0.800" } ,
+ "K G HOHENSTAUFFEN": { name: "K G HOHENSTAUFFEN", title: "Date: 27 Mar 2018 Rating: -0.450" } ,
+ "CERBERUS RADIO NETWORK": { name: "CERBERUS RADIO NETWORK", title: "Date: 27 Mar 2018 Rating: 0.000" } ,
+ "PUR48TED (PRONOUNCED PER-FOR-A-TED)": { name: "PUR48TED (PRONOUNCED PER-FOR-A-TED)", title: "Date: 27 Mar 2018 Rating: 0.000" } ,
+ "VIVEK SRINIVASAN": { name: "VIVEK SRINIVASAN", title: "Date: 27 Mar 2018 Rating: -0.020" } ,
+ "LAUREN A JOHNSTON": { name: "LAUREN A JOHNSTON", title: "Date: 27 Mar 2018 Rating: 0.200" } ,
+ "ALEXANDER CHENG": { name: "ALEXANDER CHENG", title: "Date: 27 Mar 2018 Rating: 0.025" } ,
+ "EDWARD HARRISON": { name: "EDWARD HARRISON", title: "Date: 27 Mar 2018 Rating: 0.217" } ,
+ "VASILY NEKRASOV": { name: "VASILY NEKRASOV", title: "Date: 27 Mar 2018 Rating: 0.067" } ,
+ "DPLORABLEBSTRD": { name: "DPLORABLEBSTRD", title: "Date: 27 Mar 2018 Rating: 0.135" } ,
+ "CHABIS": { name: "CHABIS", title: "Date: 27 Mar 2018 Rating: -0.288" } ,
+ "TEODROSE FIKRE": { name: "TEODROSE FIKRE", title: "Date: 27 Mar 2018 Rating: 0.143" } ,
+ "ROY TOPOL": { name: "ROY TOPOL", title: "Date: 27 Mar 2018 Rating: 0.375" } ,
+ "BIGERNMCCRAKEN": { name: "BIGERNMCCRAKEN", title: "Date: 27 Mar 2018 Rating: 0.350" } ,
+ "QUANTMINDS": { name: "QUANTMINDS", title: "Date: 27 Mar 2018 Rating: 0.000" } ,
+ "VANGUARD UK ADVISERS": { name: "VANGUARD UK ADVISERS", title: "Date: 27 Mar 2018 Rating: -0.114" } ,
+ "CRYPTOGRABBER": { name: "CRYPTOGRABBER", title: "Date: 27 Mar 2018 Rating: 0.000" } ,
+ "NEP-MON": { name: "NEP-MON", title: "Date: 27 Mar 2018 Rating: 0.000" } ,
+ "PRICE ACTION": { name: "PRICE ACTION", title: "Date: 27 Mar 2018 Rating: 0.271" } ,
+ "JAMES THORP": { name: "JAMES THORP", title: "Date: 27 Mar 2018 Rating: 0.000" } ,
+ "CERBERUS RADIO NETWORK": { name: "CERBERUS RADIO NETWORK", title: "Date: 27 Mar 2018 Rating: 0.000" } ,
+ "THEPRODIGALCHAMPION": { name: "THEPRODIGALCHAMPION", title: "Date: 27 Mar 2018 Rating: 0.167" } ,
+ "KEN NONEOFURBUSINESS": { name: "KEN NONEOFURBUSINESS", title: "Date: 27 Mar 2018 Rating: -0.062" } ,
+ "TREVOR GREEN": { name: "TREVOR GREEN", title: "Date: 27 Mar 2018 Rating: -0.400" } ,
+ "SOOTSG": { name: "SOOTSG", title: "Date: 27 Mar 2018 Rating: -0.178" } ,
+ "BRANDON REEVES": { name: "BRANDON REEVES", title: "Date: 26 Mar 2018 Rating: 0.000" } ,
+ "DAVID HAMU": { name: "DAVID HAMU", title: "Date: 26 Mar 2018 Rating: 0.186" } ,
+ "PAIGE KRISTINSON": { name: "PAIGE KRISTINSON", title: "Date: 26 Mar 2018 Rating: 0.103" } ,
+ "EM TAYLOR #FBPE": { name: "EM TAYLOR #FBPE", title: "Date: 26 Mar 2018 Rating: 0.071" } ,
+ "KEITH JONES": { name: "KEITH JONES", title: "Date: 26 Mar 2018 Rating: -0.233" } ,
+ "DILLON": { name: "DILLON", title: "Date: 26 Mar 2018 Rating: 0.000" } ,
+ "DIMITRIS T ANTONATOS": { name: "DIMITRIS T ANTONATOS", title: "Date: 26 Mar 2018 Rating: 0.119" } ,
+ "JAY TROLLSTEIN II": { name: "JAY TROLLSTEIN II", title: "Date: 26 Mar 2018 Rating: -0.500" } ,
+ "BREAKS 'N REVS": { name: "BREAKS 'N REVS", title: "Date: 26 Mar 2018 Rating: 0.000" } ,
+ "BERNAS": { name: "BERNAS", title: "Date: 26 Mar 2018 Rating: 0.625" } ,
+ "BOOTIFULGREY": { name: "BOOTIFULGREY", title: "Date: 26 Mar 2018 Rating: 0.050" } ,
+ "EKEM BRANCH": { name: "EKEM BRANCH", title: "Date: 26 Mar 2018 Rating: 0.329" } ,
+ "WIZGICIANBRB": { name: "WIZGICIANBRB", title: "Date: 26 Mar 2018 Rating: 0.034" } ,
+ "GUS KUEHNE": { name: "GUS KUEHNE", title: "Date: 26 Mar 2018 Rating: 0.127" } ,
+ "EDWARD BROWN": { name: "EDWARD BROWN", title: "Date: 26 Mar 2018 Rating: -0.213" } ,
+ "POSITIVE MONEY": { name: "POSITIVE MONEY", title: "Date: 26 Mar 2018 Rating: 0.200" } ,
+ "PAUL ROMANO": { name: "PAUL ROMANO", title: "Date: 26 Mar 2018 Rating: 0.100" } ,
+ "ZACH RICHARDS": { name: "ZACH RICHARDS", title: "Date: 26 Mar 2018 Rating: -0.002" } ,
+ "JOY DOREEN BIIRA": { name: "JOY DOREEN BIIRA", title: "Date: 26 Mar 2018 Rating: 0.300" } ,
+ "JANET STEAD": { name: "JANET STEAD", title: "Date: 26 Mar 2018 Rating: 0.390" } ,
+ "JASON O'MAHONY": { name: "JASON O'MAHONY", title: "Date: 26 Mar 2018 Rating: 0.000" } ,
+ "SCHOLAR OF NOTHING": { name: "SCHOLAR OF NOTHING", title: "Date: 26 Mar 2018 Rating: 0.300" } ,
+ "ROB CARVER": { name: "ROB CARVER", title: "Date: 26 Mar 2018 Rating: 0.100" } ,
+ "NEP-EEC": { name: "NEP-EEC", title: "Date: 26 Mar 2018 Rating: 0.000" } ,
+ "THE LIBERTY MACHINE": { name: "THE LIBERTY MACHINE", title: "Date: 26 Mar 2018 Rating: 0.098" } ,
+ "MARMADUKEBLACK": { name: "MARMADUKEBLACK", title: "Date: 26 Mar 2018 Rating: 0.050" } ,
+ "COLIN": { name: "COLIN", title: "Date: 26 Mar 2018 Rating: -0.075" } ,
+ "CRYPTOGRABBER": { name: "CRYPTOGRABBER", title: "Date: 26 Mar 2018 Rating: 0.000" } ,
+ "ALISTAIR NICHOLLS": { name: "ALISTAIR NICHOLLS", title: "Date: 26 Mar 2018 Rating: 0.075" } ,
+ "AXA IM UK": { name: "AXA IM UK", title: "Date: 26 Mar 2018 Rating: 0.233" } ,
+ "CERBERUS RADIO NETWORK": { name: "CERBERUS RADIO NETWORK", title: "Date: 26 Mar 2018 Rating: 0.000" } ,
+ "ETMARKETS": { name: "ETMARKETS", title: "Date: 26 Mar 2018 Rating: 0.000" } ,
+ "NIPUN KALRA": { name: "NIPUN KALRA", title: "Date: 26 Mar 2018 Rating: 0.029" } ,
+ "DAMARIS COLHOUN": { name: "DAMARIS COLHOUN", title: "Date: 25 Mar 2018 Rating: -0.094" } 
 
     , "MALCOLM TURNBULL":
     { name: "Malcolm Turnbull"
@@ -768,33 +744,33 @@ function countWords(text) {
   }
 , topics:
   [
-       { name: "money", re: /\b(money)\b/gi, x: 668, y: 412 },
-       { name: "central", re: /\b(central)\b/gi, x: 879, y: 745 },
-       { name: "end", re: /\b(end)\b/gi, x: 27, y: 730 },
-       { name: "debt", re: /\b(debt)\b/gi, x: 549, y: 383 },
-       { name: "market", re: /\b(market)\b/gi, x: 749, y: 197 },
-       { name: "QE", re: /\b(qe)\b/gi, x: 531, y: 252 },
-       { name: "economy", re: /\b(economy)\b/gi, x: 552, y: 193 },
-       { name: "interest", re: /\b(interest)\b/gi, x: 330, y: 98 },
-       { name: "bank", re: /\b(bank)\b/gi, x: 80, y: 816 },
-       { name: "inflation", re: /\b(inflation)\b/gi, x: 869, y: 775 },
-       { name: "Obama", re: /\b(obama)\b/gi, x: 875, y: 267 },
-       { name: "meets", re: /\b(meets)\b/gi, x: 776, y: 377 },
-       { name: "ECB", re: /\b(ecb)\b/gi, x: 445, y: 78 },
-       { name: "confident", re: /\b(confident)\b/gi, x: 813, y: 93 },
-       { name: "SOAR", re: /\b(soar)\b/gi, x: 650, y: 454 },
-       { name: "Euro", re: /\b(euro)\b/gi, x: 378, y: 503 },
-       { name: "economic", re: /\b(economic)\b/gi, x: 620, y: 410 },
-       { name: "year", re: /\b(year)\b/gi, x: 705, y: 170 },
-       { name: "US", re: /\b(us)\b/gi, x: 219, y: 268 },
-       { name: "NEW", re: /\b(new)\b/gi, x: 222, y: 668 },
-       { name: "asset", re: /\b(asset)\b/gi, x: 345, y: 227 },
-       { name: "bond", re: /\b(bond)\b/gi, x: 95, y: 716 },
-       { name: "global", re: /\b(global)\b/gi, x: 803, y: 251 },
-       { name: "UK", re: /\b(uk)\b/gi, x: 421, y: 315 },
-       { name: "now", re: /\b(now)\b/gi, x: 281, y: 40 },
-       { name: "people", re: /\b(people)\b/gi, x: 518, y: 699 },
-       { name: "trillion", re: /\b(trillion)\b/gi, x: 482, y: 498 }
+       { name: "money", re: /\b(money)\b/gi, x: 608, y: 344 },
+       { name: "market", re: /\b(market)\b/gi, x: 55, y: 398 },
+       { name: "Obama", re: /\b(obama)\b/gi, x: 50, y: 276 },
+       { name: "economy", re: /\b(economy)\b/gi, x: 396, y: 734 },
+       { name: "economic", re: /\b(economic)\b/gi, x: 648, y: 300 },
+       { name: "Fed", re: /\b(fed)\b/gi, x: 574, y: 830 },
+       { name: "US", re: /\b(us)\b/gi, x: 587, y: 131 },
+       { name: "year", re: /\b(year)\b/gi, x: 589, y: 253 },
+       { name: "interest", re: /\b(interest)\b/gi, x: 33, y: 81 },
+       { name: "QE", re: /\b(qe)\b/gi, x: 283, y: 759 },
+       { name: "trillion", re: /\b(trillion)\b/gi, x: 323, y: 709 },
+       { name: "bank", re: /\b(bank)\b/gi, x: 264, y: 656 },
+       { name: "back", re: /\b(back)\b/gi, x: 306, y: 337 },
+       { name: "new", re: /\b(new)\b/gi, x: 368, y: 187 },
+       { name: "now", re: /\b(now)\b/gi, x: 608, y: 237 },
+       { name: "debt", re: /\b(debt)\b/gi, x: 551, y: 43 },
+       { name: "inflation", re: /\b(inflation)\b/gi, x: 719, y: 854 },
+       { name: "GDP", re: /\b(gdp)\b/gi, x: 878, y: 127 },
+       { name: "nothing", re: /\b(nothing)\b/gi, x: 299, y: 728 },
+       { name: "Trump", re: /\b(trump)\b/gi, x: 201, y: 75 },
+       { name: "people", re: /\b(people)\b/gi, x: 610, y: 4 },
+       { name: "look", re: /\b(look)\b/gi, x: 858, y: 418 },
+       { name: "rate", re: /\b(rate)\b/gi, x: 243, y: 155 },
+       { name: "time", re: /\b(time)\b/gi, x: 430, y: 831 },
+       { name: "real", re: /\b(real)\b/gi, x: 267, y: 252 },
+       { name: "good", re: /\b(good)\b/gi, x: 449, y: 783 },
+       { name: "stock", re: /\b(stock)\b/gi, x: 785, y: 882 }
   ]
 });
 

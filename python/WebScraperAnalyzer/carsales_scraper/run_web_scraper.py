@@ -9,8 +9,9 @@ from matrix_manipulations import calculate_analytics
 
 from auxiliary import web_get
 
-from create_webfiles_scatterplot import *
-from create_webfiles_table import *
+# from create_webfiles_scatterplot import *
+# from create_webfiles_table import *
+import create_webfiles_table,create_webfiles_scatterplot ,create_webfiles_dcjs
 
 global url,page_loop_counter, pagination_offset, total_car_count, LIVE_DATA,df,db_save
 global car_ids
@@ -209,7 +210,7 @@ def quote(s):
         return str("'"+s+"'")
 
 
-def save_to_db():
+def save_to_db(df):
 
     global db_save
     global car_ids
@@ -237,11 +238,9 @@ def save_to_db():
         import auxiliary.db_operations as dbo
         db_interface = dbo.db_interface()
 
-    print 'Saving to database'
+        print 'Saving to database'
 
-    for index, row in df.iterrows():
-        # print row
-        db_interface.db_save_df(row)
+        db_interface.save_update_df(df)
 
     output.write('\0')
     output.close()
@@ -446,18 +445,19 @@ def main():
 
     df,prediction_model=calculate_analytics(df,weightings)
     if db_save:
-        save_to_db()
+        save_to_db(df=df)
 
-    # Create Basuc Table
-    create_webfiles_table.create_web_files(df, weightings, extpath='../../../web/valuerating/', prediction_model=prediction_model, USE_LOCAL_COPY=USE_LOCAL_COPY)
+    # Create basic table
+    create_webfiles_table.create_web_files(df, weightings,
+        extpath='../../../web/valuerating/', prediction_model=prediction_model,
+        USE_LOCAL_COPY=USE_LOCAL_COPY)
 
-    #Get scatterplot and recreate
-
-    #Get model
+    #Get car model name
     model=df.loc[0]['model'].lower()
 
     # Creates scatterplot webhost output files (for model only)
-    run_create_scatterplot_from_model(model)
+    create_webfiles_scatterplot.run_create_all()
+
     # Creates dcjs webhost output files (redoes entire db repo)
     create_webfiles_dcjs.run_create_all()
 
