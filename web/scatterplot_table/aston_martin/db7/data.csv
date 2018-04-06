@@ -1,0 +1,13 @@
+model,description,metric,metric_code,value,rating,link
+AGC-AD-14577466,DB7 - 2003 Aston Martin DB7 Vantage Auto,price,price,89990,0.23,https://www.carsales.com.au/dealer/details/Aston-Martin-DB7-2003/AGC-AD-14577466/?Cr=86
+AGC-AD-14577466,DB7 - 2003 Aston Martin DB7 Vantage Auto,milage,milage,59285,0.23,https://www.carsales.com.au/dealer/details/Aston-Martin-DB7-2003/AGC-AD-14577466/?Cr=86
+AGC-AD-14577466,DB7 - 2003 Aston Martin DB7 Vantage Auto,age,age,15,0.23,https://www.carsales.com.au/dealer/details/Aston-Martin-DB7-2003/AGC-AD-14577466/?Cr=86
+SSE-AD-3390899,DB7 - 2002 Aston Martin DB7 Vantage Auto,price,price,85000,-0.26,https://www.carsales.com.au/private/details/Aston-Martin-DB7-2002/SSE-AD-3390899/?Cr=100
+SSE-AD-3390899,DB7 - 2002 Aston Martin DB7 Vantage Auto,milage,milage,66000,-0.26,https://www.carsales.com.au/private/details/Aston-Martin-DB7-2002/SSE-AD-3390899/?Cr=100
+SSE-AD-3390899,DB7 - 2002 Aston Martin DB7 Vantage Auto,age,age,16,-0.26,https://www.carsales.com.au/private/details/Aston-Martin-DB7-2002/SSE-AD-3390899/?Cr=100
+SSE-AD-2946891,DB7 - 2002 Aston Martin DB7 Vantage Auto,price,price,118900,-0.78,https://www.carsales.com.au/private/details/Aston-Martin-DB7-2002/SSE-AD-2946891/?Cr=103
+SSE-AD-2946891,DB7 - 2002 Aston Martin DB7 Vantage Auto,milage,milage,63100,-0.78,https://www.carsales.com.au/private/details/Aston-Martin-DB7-2002/SSE-AD-2946891/?Cr=103
+SSE-AD-2946891,DB7 - 2002 Aston Martin DB7 Vantage Auto,age,age,16,-0.78,https://www.carsales.com.au/private/details/Aston-Martin-DB7-2002/SSE-AD-2946891/?Cr=103
+OAG-AD-15412419,DB7 - 1997 Aston Martin DB7 Auto,price,price,89888,-0.78,https://www.carsales.com.au/dealer/details/Aston-Martin-DB7-1997/OAG-AD-15412419/?Cr=42
+OAG-AD-15412419,DB7 - 1997 Aston Martin DB7 Auto,milage,milage,65128,-0.78,https://www.carsales.com.au/dealer/details/Aston-Martin-DB7-1997/OAG-AD-15412419/?Cr=42
+OAG-AD-15412419,DB7 - 1997 Aston Martin DB7 Auto,age,age,21,-0.78,https://www.carsales.com.au/dealer/details/Aston-Martin-DB7-1997/OAG-AD-15412419/?Cr=42
