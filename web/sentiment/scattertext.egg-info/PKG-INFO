@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: scattertext
+Version: 0.0.2.19
+Summary: An NLP package to visualize interesting terms in text.
+Home-page: https://github.com/JasonKessler/scattertext
+Author: Jason Kessler
+Author-email: jason.kessler@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
