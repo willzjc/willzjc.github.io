@@ -420,6 +420,14 @@ def main():
     # Mazda 3
     url='https://www.carsales.com.au/cars/mazda/3/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
 
+    # VW Golf
+    url='https://www.carsales.com.au/cars/volkswagen/golf/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
+    url='https://www.carsales.com.au/cars/results?sortby=TopDeal&limit=12&q=%28And.%28C.Make.Volkswagen._.Model.Golf.%29_.State.New+South+Wales._.Postcode.poi%282000x25km%29._.Year.range%282002..%29.%29'
+
+    # Audi
+    url='https://www.carsales.com.au/cars/audi/a5/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
+    url='https://www.carsales.com.au/cars/audi/a3/new-south-wales-state/?WT.z_srchsrcx=makemodel'
+
     db_save = False
     USE_LOCAL_COPY = False
 

@@ -259,9 +259,12 @@ def create_web_files(df, weightings=None,
 
     df.to_csv('output/records.csv')
 
+    if 'prid' in df.columns:
+        df=df.drop(columns=['prid'])
+
     if db_write:
         with sqlite3.connect('auxiliary/my_db.sqlite') as cnx:
-            df.to_sql('cars', cnx, if_exists='append')
+            df.to_sql('cars', cnx, if_exists='append',index=False)
 
     for path in ['output/records.json', extpath + 'auxiliary/data/records.json']:
         with open(path, 'w') as f:
