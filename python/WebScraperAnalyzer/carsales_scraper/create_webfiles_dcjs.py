@@ -32,5 +32,5 @@ def run_create_all():
     cleandb_create_all(dcjs_csv_outpath)
     copy_to_dcjs_path(dcjs_csv_outpath)
 
-if __name__ =='__main__':
+if __name__ =='__main__': 
     run_create_all()
