@@ -151,16 +151,15 @@ def run_create_all():
 
     for r in res:
         model = r[0]
-        df = pd.read_sql('select * from cars where model =\'%s\'' % (model),conn)
+        df = pd.read_sql('select * from cars where model =\'%s\'' % (model), conn)
         # Recalculate all regressions
 
         try:
             df, prediction_model = matrix_manipulations.calculate_analytics(df=df)
-            create_web_files(df,db_write=False)
+            create_web_files(df, db_write=False)
         except Exception as e:
-            print 'Error with:',e
-            print 'df failed:',df
-
+            print 'Error with:', e
+            print 'df failed:', df
 
     # df = pd.read_sql_query("select * from cars where model like 'Camry' and age > 2 and price < 15000 and age < 18;", conn)
     # run_create_scatterplot_from_model(conn)
@@ -222,8 +221,7 @@ def create_web_files(df, weightings=None,
         # for k in data_average_price.keys():
         #     dataset = data_average_price[k]
         replacetxt = """
-        average_prices = [
-			""" + ',\n\t\t\t'.join(
+        average_prices = [""" + ',\n\t\t\t'.join(
             [data_average_price[key] for key in sorted(data_average_price.iterkeys(), reverse=True)]) + """ 
             ];
         """
@@ -231,8 +229,7 @@ def create_web_files(df, weightings=None,
         bf = bf.replace('//replaceprice', replacetxt)
 
         replacetxt = """
-        average_milages = [ 
-		""" + ',\n\t\t\t'.join(
+        average_milages = [ """ + ',\n\t\t\t'.join(
             [data_average_milage[key] for key in sorted(data_average_milage.iterkeys(), reverse=True)]) + """ 
             ];
         """
@@ -260,11 +257,11 @@ def create_web_files(df, weightings=None,
     df.to_csv('output/records.csv')
 
     if 'prid' in df.columns:
-        df=df.drop(columns=['prid'])
+        df = df.drop(columns=['prid'])
 
     if db_write:
         with sqlite3.connect('auxiliary/my_db.sqlite') as cnx:
-            df.to_sql('cars', cnx, if_exists='append',index=False)
+            df.to_sql('cars', cnx, if_exists='append', index=False)
 
     for path in ['output/records.json', extpath + 'auxiliary/data/records.json']:
         with open(path, 'w') as f:
@@ -300,6 +297,7 @@ def create_web_files(df, weightings=None,
     # copy_sub_category_dir(df=df,extpath=extpath)
 
     copy_sub_file(df=df, extpath=extpath)
+
 
 if __name__ == '__main__':
     # run_create_scatterplot_from_model(model=model)
