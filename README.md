@@ -1,1 +1,1 @@
-![baby](https://i.imgur.com/KZ68aUA.jpg)
+![baby](https://i.imgur.com/5zIDjQH.png)
