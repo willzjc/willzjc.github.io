@@ -435,6 +435,9 @@ def main():
     url='https://www.carsales.com.au/cars/toyota/prius/new-south-wales-state/hatch-bodystyle/?WT.z_srchsrcx=makemodel'
     url='https://www.carsales.com.au/cars/toyota/priusc/new-south-wales-state/?WT.z_srchsrcx=makemodel'
 
+    # Mini
+    url='https://www.carsales.com.au/cars/mini/hatch/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
+
     db_save = False
     USE_LOCAL_COPY = False
 
