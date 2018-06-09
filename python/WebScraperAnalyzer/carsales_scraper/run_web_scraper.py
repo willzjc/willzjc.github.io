@@ -438,6 +438,9 @@ def main():
     # Mini
     url='https://www.carsales.com.au/cars/mini/hatch/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
 
+
+    # Kia Rio
+    url='https://www.carsales.com.au/cars/kia/rio/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
     db_save = False
     USE_LOCAL_COPY = False
 
