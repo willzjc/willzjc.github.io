@@ -2,7 +2,6 @@ import json
 import datetime
 import pandas as pd
 import sqlite3
-import os
 from auxiliary.file_ops import *
 import matrix_manipulations
 

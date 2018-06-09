@@ -1,7 +1,5 @@
 import pandas as pd
-import pandas as pd
 import sqlite3
-import os
 from auxiliary.file_ops import *
 
 def run_create_all():

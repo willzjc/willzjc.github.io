@@ -1,4 +1,4 @@
-import MySQLdb
+# import MySQLdb
 
 class db_interface ():
 

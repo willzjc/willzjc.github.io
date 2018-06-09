@@ -1,8 +1,6 @@
 import statistics
-# import MySQLdb
 import datetime
-# import MySQLdb
-
+import sqlite3
 
 class data_rows():
 
@@ -37,11 +35,12 @@ class data_rows():
 
     def create_connection(self):
 
-        self.connection = MySQLdb.connect(host="localhost",  # your host, usually localhost
-                                     user="root",  # your username
-                                     port=3306,
-                                     passwd="password",  # your password
-                                     db="carsales")  # name of the data base
+        # self.connection = MySQLdb.connect(host="localhost",  # your host, usually localhost
+        #                              user="root",  # your username
+        #                              port=3306,
+        #                              passwd="password",  # your password
+        #                              db="carsales")  # name of the data base
+        self.connection = sqlite3.connect('carsales.db')
 
     def is_number(self,s):
         try:

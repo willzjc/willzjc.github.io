@@ -1,0 +1,8 @@
+cufflinks
+scikit-learn
+IPython
+qgrid
+ipywidgets
+pandas
+numpy
+statistics
