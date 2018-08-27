@@ -446,6 +446,10 @@ def main():
     # BMW - M3
     url = 'https://www.carsales.com.au/cars/bmw/m3/m-models-marketinggroup/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
 
+    # KIRA
+    url='https://www.carsales.com.au/cars/kia/cerato/new-south-wales-state/sedan-bodystyle/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
+    url='https://www.carsales.com.au/cars/kia/cerato/new-south-wales-state/coupe-bodystyle/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
+
     db_save = False
     USE_LOCAL_COPY = False
 

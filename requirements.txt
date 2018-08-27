@@ -3,7 +3,8 @@ scikit-learn
 IPython
 qgrid
 ipywidgets
-pandas
+pandas==0.22.0
 numpy
 statistics
 lxml
+statsmodels

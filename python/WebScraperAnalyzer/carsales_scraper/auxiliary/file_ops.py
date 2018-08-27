@@ -74,11 +74,18 @@ def copy_sub_file(df,extpath,exclude_files = ['.py','template']):
         dst=os.path.realpath(target_path+'/'+path.replace('//','/')).replace(' ','_')
 
         # Get source file
-        for file in os.listdir(src):
-            rfile=os.path.realpath(src+file)
-            if os.path.isfile(rfile):
-                if any(s in rfile for s in exclude_files):
-                    print 'Excluding: ',rfile
-                    continue
-                print 'copying %s to %s'%(rfile,dst)
-                shutil.copy(rfile,dst)
+        for constituents in ['','/auxiliary','/auxiliary/data']:
+            # mkdir_p(src+constituents)
+            sourcepath=src+constituents
+            sourcepath=sourcepath.replace('//','/')
+            if os.path.exists(sourcepath):
+                for file in os.listdir(sourcepath):
+                    rfile=os.path.realpath(src+constituents+'/'+file)
+                    if os.path.isfile(rfile):
+                        if any(s in rfile for s in exclude_files):
+                            print 'Excluding: ',rfile
+                            continue
+                        print 'copying %s to %s'%(rfile,dst+constituents+'/'+file)
+                        if not os.path.exists(dst+constituents+'/'):
+                            mkdir_p(dst+constituents+'/')
+                        shutil.copy(rfile,dst+constituents+'/'+file)
