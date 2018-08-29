@@ -2,3 +2,7 @@
 desktop.ini
 *.eml
 venv/
+.pyc
+.pkl
+.ipynb_checkpoints/
+

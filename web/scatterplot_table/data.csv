@@ -1,205 +1,325 @@
 model,description,metric,metric_code,value,rating,link
-SSE-AD-5398689,R8 - 2015 Audi R8 Auto quattro,price,price,180000,3.31,https://www.carsales.com.au/private/details/Audi-R8-2015/SSE-AD-5398689/?Cr=15
-SSE-AD-5398689,R8 - 2015 Audi R8 Auto quattro,milage,milage,11670,3.31,https://www.carsales.com.au/private/details/Audi-R8-2015/SSE-AD-5398689/?Cr=15
-SSE-AD-5398689,R8 - 2015 Audi R8 Auto quattro,age,age,3,3.31,https://www.carsales.com.au/private/details/Audi-R8-2015/SSE-AD-5398689/?Cr=15
-OAG-AD-16147529,R8 - 2015 Audi R8 Auto quattro,price,price,215888,2.94,https://www.carsales.com.au/dealer/details/Audi-R8-2015/OAG-AD-16147529/?Cr=30
-OAG-AD-16147529,R8 - 2015 Audi R8 Auto quattro,milage,milage,2781,2.94,https://www.carsales.com.au/dealer/details/Audi-R8-2015/OAG-AD-16147529/?Cr=30
-OAG-AD-16147529,R8 - 2015 Audi R8 Auto quattro,age,age,3,2.94,https://www.carsales.com.au/dealer/details/Audi-R8-2015/OAG-AD-16147529/?Cr=30
-OAG-AD-16311916,R8 - 2013 Audi R8 Auto quattro,price,price,169990,2.38,https://www.carsales.com.au/dealer/details/Audi-R8-2013/OAG-AD-16311916/?Cr=29
-OAG-AD-16311916,R8 - 2013 Audi R8 Auto quattro,milage,milage,19890,2.38,https://www.carsales.com.au/dealer/details/Audi-R8-2013/OAG-AD-16311916/?Cr=29
-OAG-AD-16311916,R8 - 2013 Audi R8 Auto quattro,age,age,5,2.38,https://www.carsales.com.au/dealer/details/Audi-R8-2013/OAG-AD-16311916/?Cr=29
-SSE-AD-5414903,R8 - 2016 Audi R8 Auto quattro,price,price,229999,2.32,https://www.carsales.com.au/private/details/Audi-R8-2016/SSE-AD-5414903/?Cr=17
-SSE-AD-5414903,R8 - 2016 Audi R8 Auto quattro,milage,milage,8150,2.32,https://www.carsales.com.au/private/details/Audi-R8-2016/SSE-AD-5414903/?Cr=17
-SSE-AD-5414903,R8 - 2016 Audi R8 Auto quattro,age,age,2,2.32,https://www.carsales.com.au/private/details/Audi-R8-2016/SSE-AD-5414903/?Cr=17
-OAG-AD-15954883,R8 - 2011 Audi R8 Manual quattro,price,price,149990,2.29,https://www.carsales.com.au/dealer/details/Audi-R8-2011/OAG-AD-15954883/?Cr=6
-OAG-AD-15954883,R8 - 2011 Audi R8 Manual quattro,milage,milage,21800,2.29,https://www.carsales.com.au/dealer/details/Audi-R8-2011/OAG-AD-15954883/?Cr=6
-OAG-AD-15954883,R8 - 2011 Audi R8 Manual quattro,age,age,7,2.29,https://www.carsales.com.au/dealer/details/Audi-R8-2011/OAG-AD-15954883/?Cr=6
-OAG-AD-15954883,R8 - 2011 Audi R8 Manual quattro,price,price,149990,2.29,https://www.carsales.com.au/dealer/details/Audi-R8-2011/OAG-AD-15954883/?Cr=6
-OAG-AD-15954883,R8 - 2011 Audi R8 Manual quattro,milage,milage,21800,2.29,https://www.carsales.com.au/dealer/details/Audi-R8-2011/OAG-AD-15954883/?Cr=6
-OAG-AD-15954883,R8 - 2011 Audi R8 Manual quattro,age,age,7,2.29,https://www.carsales.com.au/dealer/details/Audi-R8-2011/OAG-AD-15954883/?Cr=6
-SSE-AD-5302602,R8 - 2015 Audi R8 Auto quattro,price,price,199990,2.15,https://www.carsales.com.au/private/details/Audi-R8-2015/SSE-AD-5302602/?Cr=53
-SSE-AD-5302602,R8 - 2015 Audi R8 Auto quattro,milage,milage,18003,2.15,https://www.carsales.com.au/private/details/Audi-R8-2015/SSE-AD-5302602/?Cr=53
-SSE-AD-5302602,R8 - 2015 Audi R8 Auto quattro,age,age,3,2.15,https://www.carsales.com.au/private/details/Audi-R8-2015/SSE-AD-5302602/?Cr=53
-SSE-AD-5007241,R8 - 2016 Audi R8 Auto quattro,price,price,249800,2.15,https://www.carsales.com.au/private/details/Audi-R8-2016/SSE-AD-5007241/?Cr=33
-SSE-AD-5007241,R8 - 2016 Audi R8 Auto quattro,milage,milage,2900,2.15,https://www.carsales.com.au/private/details/Audi-R8-2016/SSE-AD-5007241/?Cr=33
-SSE-AD-5007241,R8 - 2016 Audi R8 Auto quattro,age,age,2,2.15,https://www.carsales.com.au/private/details/Audi-R8-2016/SSE-AD-5007241/?Cr=33
-SSE-AD-5557821,R8 - 2009 Audi R8 Auto quattro,price,price,133000,1.83,https://www.carsales.com.au/private/details/Audi-R8-2009/SSE-AD-5557821/?Cr=3
-SSE-AD-5557821,R8 - 2009 Audi R8 Auto quattro,milage,milage,27000,1.83,https://www.carsales.com.au/private/details/Audi-R8-2009/SSE-AD-5557821/?Cr=3
-SSE-AD-5557821,R8 - 2009 Audi R8 Auto quattro,age,age,9,1.83,https://www.carsales.com.au/private/details/Audi-R8-2009/SSE-AD-5557821/?Cr=3
-SSE-AD-5557821,R8 - 2009 Audi R8 Auto quattro,price,price,133000,1.83,https://www.carsales.com.au/private/details/Audi-R8-2009/SSE-AD-5557821/?Cr=3
-SSE-AD-5557821,R8 - 2009 Audi R8 Auto quattro,milage,milage,27000,1.83,https://www.carsales.com.au/private/details/Audi-R8-2009/SSE-AD-5557821/?Cr=3
-SSE-AD-5557821,R8 - 2009 Audi R8 Auto quattro,age,age,9,1.83,https://www.carsales.com.au/private/details/Audi-R8-2009/SSE-AD-5557821/?Cr=3
-OAG-AD-16204600,R8 - 2008 Audi R8 Auto quattro,price,price,129990,1.83,https://www.carsales.com.au/dealer/details/Audi-R8-2008/OAG-AD-16204600/?Cr=5
-OAG-AD-16204600,R8 - 2008 Audi R8 Auto quattro,milage,milage,24898,1.83,https://www.carsales.com.au/dealer/details/Audi-R8-2008/OAG-AD-16204600/?Cr=5
-OAG-AD-16204600,R8 - 2008 Audi R8 Auto quattro,age,age,10,1.83,https://www.carsales.com.au/dealer/details/Audi-R8-2008/OAG-AD-16204600/?Cr=5
-OAG-AD-16204600,R8 - 2008 Audi R8 Auto quattro,price,price,129990,1.83,https://www.carsales.com.au/dealer/details/Audi-R8-2008/OAG-AD-16204600/?Cr=5
-OAG-AD-16204600,R8 - 2008 Audi R8 Auto quattro,milage,milage,24898,1.83,https://www.carsales.com.au/dealer/details/Audi-R8-2008/OAG-AD-16204600/?Cr=5
-OAG-AD-16204600,R8 - 2008 Audi R8 Auto quattro,age,age,10,1.83,https://www.carsales.com.au/dealer/details/Audi-R8-2008/OAG-AD-16204600/?Cr=5
-OAG-AD-16096481,R8 - 2018 Audi R8 RWS Auto,price,price,298864,1.23,https://www.carsales.com.au/demo/details/Audi-R8-2018/OAG-AD-16096481/?Cr=31
-OAG-AD-16096481,R8 - 2018 Audi R8 RWS Auto,milage,milage,2261,1.23,https://www.carsales.com.au/demo/details/Audi-R8-2018/OAG-AD-16096481/?Cr=31
-OAG-AD-16096481,R8 - 2018 Audi R8 RWS Auto,age,age,0,1.23,https://www.carsales.com.au/demo/details/Audi-R8-2018/OAG-AD-16096481/?Cr=31
-OAG-AD-14989277,R8 - 2017 Audi R8 Auto quattro,price,price,299000,1.14,https://www.carsales.com.au/bncis/details/Audi-R8-2017/OAG-AD-14989277/?Cr=12
-OAG-AD-14989277,R8 - 2017 Audi R8 Auto quattro,milage,milage,10,1.14,https://www.carsales.com.au/bncis/details/Audi-R8-2017/OAG-AD-14989277/?Cr=12
-OAG-AD-14989277,R8 - 2017 Audi R8 Auto quattro,age,age,1,1.14,https://www.carsales.com.au/bncis/details/Audi-R8-2017/OAG-AD-14989277/?Cr=12
-SSE-AD-5524625,R8 - 2012 Audi R8 Auto quattro,price,price,179990,0.93,https://www.carsales.com.au/private/details/Audi-R8-2012/SSE-AD-5524625/?Cr=24
-SSE-AD-5524625,R8 - 2012 Audi R8 Auto quattro,milage,milage,30150,0.93,https://www.carsales.com.au/private/details/Audi-R8-2012/SSE-AD-5524625/?Cr=24
-SSE-AD-5524625,R8 - 2012 Audi R8 Auto quattro,age,age,6,0.93,https://www.carsales.com.au/private/details/Audi-R8-2012/SSE-AD-5524625/?Cr=24
-OAG-AD-15817583,R8 - 2014 Audi R8 Auto quattro,price,price,209900,0.86,https://www.carsales.com.au/dealer/details/Audi-R8-2014/OAG-AD-15817583/?Cr=39
-OAG-AD-15817583,R8 - 2014 Audi R8 Auto quattro,milage,milage,26431,0.86,https://www.carsales.com.au/dealer/details/Audi-R8-2014/OAG-AD-15817583/?Cr=39
-OAG-AD-15817583,R8 - 2014 Audi R8 Auto quattro,age,age,4,0.86,https://www.carsales.com.au/dealer/details/Audi-R8-2014/OAG-AD-15817583/?Cr=39
-SSE-AD-5571967,R8 - 2016 Audi R8 plus Auto quattro,price,price,280000,0.85,https://www.carsales.com.au/private/details/Audi-R8-2016/SSE-AD-5571967/?Cr=2
-SSE-AD-5571967,R8 - 2016 Audi R8 plus Auto quattro,milage,milage,7200,0.85,https://www.carsales.com.au/private/details/Audi-R8-2016/SSE-AD-5571967/?Cr=2
-SSE-AD-5571967,R8 - 2016 Audi R8 plus Auto quattro,age,age,2,0.85,https://www.carsales.com.au/private/details/Audi-R8-2016/SSE-AD-5571967/?Cr=2
-SSE-AD-5571967,R8 - 2016 Audi R8 plus Auto quattro,price,price,280000,0.85,https://www.carsales.com.au/private/details/Audi-R8-2016/SSE-AD-5571967/?Cr=2
-SSE-AD-5571967,R8 - 2016 Audi R8 plus Auto quattro,milage,milage,7200,0.85,https://www.carsales.com.au/private/details/Audi-R8-2016/SSE-AD-5571967/?Cr=2
-SSE-AD-5571967,R8 - 2016 Audi R8 plus Auto quattro,age,age,2,0.85,https://www.carsales.com.au/private/details/Audi-R8-2016/SSE-AD-5571967/?Cr=2
-SSE-AD-5621529,R8 - 2016 Audi R8 plus Auto quattro,price,price,285000,0.70,https://www.carsales.com.au/private/details/Audi-R8-2016/SSE-AD-5621529/?Cr=20
-SSE-AD-5621529,R8 - 2016 Audi R8 plus Auto quattro,milage,milage,7103,0.70,https://www.carsales.com.au/private/details/Audi-R8-2016/SSE-AD-5621529/?Cr=20
-SSE-AD-5621529,R8 - 2016 Audi R8 plus Auto quattro,age,age,2,0.70,https://www.carsales.com.au/private/details/Audi-R8-2016/SSE-AD-5621529/?Cr=20
-SSE-AD-5490064,R8 - 2008 Audi R8 Auto quattro,price,price,135000,0.65,https://www.carsales.com.au/private/details/Audi-R8-2008/SSE-AD-5490064/?Cr=34
-SSE-AD-5490064,R8 - 2008 Audi R8 Auto quattro,milage,milage,37000,0.65,https://www.carsales.com.au/private/details/Audi-R8-2008/SSE-AD-5490064/?Cr=34
-SSE-AD-5490064,R8 - 2008 Audi R8 Auto quattro,age,age,10,0.65,https://www.carsales.com.au/private/details/Audi-R8-2008/SSE-AD-5490064/?Cr=34
-OAG-AD-14511780,R8 - 2016 Audi R8 plus Auto quattro,price,price,299900,0.62,https://www.carsales.com.au/dealer/details/Audi-R8-2016/OAG-AD-14511780/?Cr=19
-OAG-AD-14511780,R8 - 2016 Audi R8 plus Auto quattro,milage,milage,2480,0.62,https://www.carsales.com.au/dealer/details/Audi-R8-2016/OAG-AD-14511780/?Cr=19
-OAG-AD-14511780,R8 - 2016 Audi R8 plus Auto quattro,age,age,2,0.62,https://www.carsales.com.au/dealer/details/Audi-R8-2016/OAG-AD-14511780/?Cr=19
-OAG-AD-16329399,R8 - 2010 Audi R8 Auto quattro,price,price,138888,0.58,https://www.carsales.com.au/dealer/details/Audi-R8-2010/OAG-AD-16329399/?Cr=28
-OAG-AD-16329399,R8 - 2010 Audi R8 Auto quattro,milage,milage,43000,0.58,https://www.carsales.com.au/dealer/details/Audi-R8-2010/OAG-AD-16329399/?Cr=28
-OAG-AD-16329399,R8 - 2010 Audi R8 Auto quattro,age,age,8,0.58,https://www.carsales.com.au/dealer/details/Audi-R8-2010/OAG-AD-16329399/?Cr=28
-SHRM-AD-501300,R8 - 2018 Audi R8 RWS Auto,price,price,326343,0.56,https://www.carsales.com.au/bnc/details/Audi-R8-2018/SHRM-AD-501300/?Cr=45
-SHRM-AD-501300,R8 - 2018 Audi R8 RWS Auto,milage,milage,0,0.56,https://www.carsales.com.au/bnc/details/Audi-R8-2018/SHRM-AD-501300/?Cr=45
-SHRM-AD-501300,R8 - 2018 Audi R8 RWS Auto,age,age,0,0.56,https://www.carsales.com.au/bnc/details/Audi-R8-2018/SHRM-AD-501300/?Cr=45
-SSE-AD-5593246,R8 - 2013 Audi R8 Auto quattro,price,price,160000,0.56,https://www.carsales.com.au/private/details/Audi-R8-2013/SSE-AD-5593246/?Cr=41
-SSE-AD-5593246,R8 - 2013 Audi R8 Auto quattro,milage,milage,45221,0.56,https://www.carsales.com.au/private/details/Audi-R8-2013/SSE-AD-5593246/?Cr=41
-SSE-AD-5593246,R8 - 2013 Audi R8 Auto quattro,age,age,5,0.56,https://www.carsales.com.au/private/details/Audi-R8-2013/SSE-AD-5593246/?Cr=41
-SSE-AD-5570049,R8 - 2008 Audi R8 Auto quattro,price,price,135000,0.55,https://www.carsales.com.au/private/details/Audi-R8-2008/SSE-AD-5570049/?Cr=23
-SSE-AD-5570049,R8 - 2008 Audi R8 Auto quattro,milage,milage,38200,0.55,https://www.carsales.com.au/private/details/Audi-R8-2008/SSE-AD-5570049/?Cr=23
-SSE-AD-5570049,R8 - 2008 Audi R8 Auto quattro,age,age,10,0.55,https://www.carsales.com.au/private/details/Audi-R8-2008/SSE-AD-5570049/?Cr=23
-OAG-AD-16177048,R8 - 2016 Audi R8 plus Auto quattro,price,price,298480,0.48,https://www.carsales.com.au/dealer/details/Audi-R8-2016/OAG-AD-16177048/?Cr=9
-OAG-AD-16177048,R8 - 2016 Audi R8 plus Auto quattro,milage,milage,4700,0.48,https://www.carsales.com.au/dealer/details/Audi-R8-2016/OAG-AD-16177048/?Cr=9
-OAG-AD-16177048,R8 - 2016 Audi R8 plus Auto quattro,age,age,2,0.48,https://www.carsales.com.au/dealer/details/Audi-R8-2016/OAG-AD-16177048/?Cr=9
-SSE-AD-4670315,R8 - 2016 Audi R8 plus Auto quattro,price,price,299000,0.43,https://www.carsales.com.au/private/details/Audi-R8-2016/SSE-AD-4670315/?Cr=8
-SSE-AD-4670315,R8 - 2016 Audi R8 plus Auto quattro,milage,milage,5100,0.43,https://www.carsales.com.au/private/details/Audi-R8-2016/SSE-AD-4670315/?Cr=8
-SSE-AD-4670315,R8 - 2016 Audi R8 plus Auto quattro,age,age,2,0.43,https://www.carsales.com.au/private/details/Audi-R8-2016/SSE-AD-4670315/?Cr=8
-SSE-AD-4670315,R8 - 2016 Audi R8 plus Auto quattro,price,price,299000,0.43,https://www.carsales.com.au/private/details/Audi-R8-2016/SSE-AD-4670315/?Cr=8
-SSE-AD-4670315,R8 - 2016 Audi R8 plus Auto quattro,milage,milage,5100,0.43,https://www.carsales.com.au/private/details/Audi-R8-2016/SSE-AD-4670315/?Cr=8
-SSE-AD-4670315,R8 - 2016 Audi R8 plus Auto quattro,age,age,2,0.43,https://www.carsales.com.au/private/details/Audi-R8-2016/SSE-AD-4670315/?Cr=8
-OAG-AD-12030409,R8 - 2010 Audi R8 Auto quattro,price,price,179990,0.40,https://www.carsales.com.au/dealer/details/Audi-R8-2010/OAG-AD-12030409/?Cr=27
-OAG-AD-12030409,R8 - 2010 Audi R8 Auto quattro,milage,milage,29925,0.40,https://www.carsales.com.au/dealer/details/Audi-R8-2010/OAG-AD-12030409/?Cr=27
-OAG-AD-12030409,R8 - 2010 Audi R8 Auto quattro,age,age,8,0.40,https://www.carsales.com.au/dealer/details/Audi-R8-2010/OAG-AD-12030409/?Cr=27
-OAG-AD-16250844,R8 - 2016 Audi R8 plus Auto quattro,price,price,279990,0.30,https://www.carsales.com.au/dealer/details/Audi-R8-2016/OAG-AD-16250844/?gts=OAG-AD-16250844&gtssaleid=OAG-AD-16250844&rankingType=TopSpot
-OAG-AD-16250844,R8 - 2016 Audi R8 plus Auto quattro,milage,milage,13700,0.30,https://www.carsales.com.au/dealer/details/Audi-R8-2016/OAG-AD-16250844/?gts=OAG-AD-16250844&gtssaleid=OAG-AD-16250844&rankingType=TopSpot
-OAG-AD-16250844,R8 - 2016 Audi R8 plus Auto quattro,age,age,2,0.30,https://www.carsales.com.au/dealer/details/Audi-R8-2016/OAG-AD-16250844/?gts=OAG-AD-16250844&gtssaleid=OAG-AD-16250844&rankingType=TopSpot
-OAG-AD-16250844,R8 - 2016 Audi R8 plus Auto quattro,price,price,279990,0.30,https://www.carsales.com.au/dealer/details/Audi-R8-2016/OAG-AD-16250844/?gts=OAG-AD-16250844&gtssaleid=OAG-AD-16250844&rankingType=TopSpot
-OAG-AD-16250844,R8 - 2016 Audi R8 plus Auto quattro,milage,milage,13700,0.30,https://www.carsales.com.au/dealer/details/Audi-R8-2016/OAG-AD-16250844/?gts=OAG-AD-16250844&gtssaleid=OAG-AD-16250844&rankingType=TopSpot
-OAG-AD-16250844,R8 - 2016 Audi R8 plus Auto quattro,age,age,2,0.30,https://www.carsales.com.au/dealer/details/Audi-R8-2016/OAG-AD-16250844/?gts=OAG-AD-16250844&gtssaleid=OAG-AD-16250844&rankingType=TopSpot
-OAG-AD-14251013,R8 - 2011 Audi R8 Auto quattro,price,price,149900,0.17,https://www.carsales.com.au/dealer/details/Audi-R8-2011/OAG-AD-14251013/?Cr=18
-OAG-AD-14251013,R8 - 2011 Audi R8 Auto quattro,milage,milage,47000,0.17,https://www.carsales.com.au/dealer/details/Audi-R8-2011/OAG-AD-14251013/?Cr=18
-OAG-AD-14251013,R8 - 2011 Audi R8 Auto quattro,age,age,7,0.17,https://www.carsales.com.au/dealer/details/Audi-R8-2011/OAG-AD-14251013/?Cr=18
-SSE-AD-5595658,R8 - 2008 Audi R8 Auto quattro,price,price,130000,0.13,https://www.carsales.com.au/private/details/Audi-R8-2008/SSE-AD-5595658/?Cr=47
-SSE-AD-5595658,R8 - 2008 Audi R8 Auto quattro,milage,milage,45000,0.13,https://www.carsales.com.au/private/details/Audi-R8-2008/SSE-AD-5595658/?Cr=47
-SSE-AD-5595658,R8 - 2008 Audi R8 Auto quattro,age,age,10,0.13,https://www.carsales.com.au/private/details/Audi-R8-2008/SSE-AD-5595658/?Cr=47
-OAG-AD-16288848,R8 - 2016 Audi R8 plus Auto quattro,price,price,303880,0.13,https://www.carsales.com.au/dealer/details/Audi-R8-2016/OAG-AD-16288848/?Cr=32
-OAG-AD-16288848,R8 - 2016 Audi R8 plus Auto quattro,milage,milage,6854,0.13,https://www.carsales.com.au/dealer/details/Audi-R8-2016/OAG-AD-16288848/?Cr=32
-OAG-AD-16288848,R8 - 2016 Audi R8 plus Auto quattro,age,age,2,0.13,https://www.carsales.com.au/dealer/details/Audi-R8-2016/OAG-AD-16288848/?Cr=32
-SSE-AD-5014659,R8 - 2010 Audi R8 Auto quattro,price,price,175000,0.13,https://www.carsales.com.au/private/details/Audi-R8-2010/SSE-AD-5014659/?Cr=37
-SSE-AD-5014659,R8 - 2010 Audi R8 Auto quattro,milage,milage,35000,0.13,https://www.carsales.com.au/private/details/Audi-R8-2010/SSE-AD-5014659/?Cr=37
-SSE-AD-5014659,R8 - 2010 Audi R8 Auto quattro,age,age,8,0.13,https://www.carsales.com.au/private/details/Audi-R8-2010/SSE-AD-5014659/?Cr=37
-OAG-AD-16222929,R8 - 2008 Audi R8 Auto quattro,price,price,114984,0.12,https://www.carsales.com.au/dealer/details/Audi-R8-2008/OAG-AD-16222929/?Cr=25
-OAG-AD-16222929,R8 - 2008 Audi R8 Auto quattro,milage,milage,50738,0.12,https://www.carsales.com.au/dealer/details/Audi-R8-2008/OAG-AD-16222929/?Cr=25
-OAG-AD-16222929,R8 - 2008 Audi R8 Auto quattro,age,age,10,0.12,https://www.carsales.com.au/dealer/details/Audi-R8-2008/OAG-AD-16222929/?Cr=25
-SSE-AD-5545760,R8 - 2008 Audi R8 Manual quattro,price,price,135000,0.07,https://www.carsales.com.au/private/details/Audi-R8-2008/SSE-AD-5545760/?Cr=11
-SSE-AD-5545760,R8 - 2008 Audi R8 Manual quattro,milage,milage,43950,0.07,https://www.carsales.com.au/private/details/Audi-R8-2008/SSE-AD-5545760/?Cr=11
-SSE-AD-5545760,R8 - 2008 Audi R8 Manual quattro,age,age,10,0.07,https://www.carsales.com.au/private/details/Audi-R8-2008/SSE-AD-5545760/?Cr=11
-SSE-AD-4736488,R8 - 2010 Audi R8 Auto quattro,price,price,195000,-0.08,https://www.carsales.com.au/private/details/Audi-R8-2010/SSE-AD-4736488/?Cr=0
-SSE-AD-4736488,R8 - 2010 Audi R8 Auto quattro,milage,milage,30000,-0.08,https://www.carsales.com.au/private/details/Audi-R8-2010/SSE-AD-4736488/?Cr=0
-SSE-AD-4736488,R8 - 2010 Audi R8 Auto quattro,age,age,8,-0.08,https://www.carsales.com.au/private/details/Audi-R8-2010/SSE-AD-4736488/?Cr=0
-SSE-AD-4736488,R8 - 2010 Audi R8 Auto quattro,price,price,195000,-0.08,https://www.carsales.com.au/private/details/Audi-R8-2010/SSE-AD-4736488/?Cr=0
-SSE-AD-4736488,R8 - 2010 Audi R8 Auto quattro,milage,milage,30000,-0.08,https://www.carsales.com.au/private/details/Audi-R8-2010/SSE-AD-4736488/?Cr=0
-SSE-AD-4736488,R8 - 2010 Audi R8 Auto quattro,age,age,8,-0.08,https://www.carsales.com.au/private/details/Audi-R8-2010/SSE-AD-4736488/?Cr=0
-SHRM-AD-501301,R8 - 2018 Audi R8 RWS Auto,price,price,349133,-0.15,https://www.carsales.com.au/bnc/details/Audi-R8-2018/SHRM-AD-501301/?Cr=42
-SHRM-AD-501301,R8 - 2018 Audi R8 RWS Auto,milage,milage,0,-0.15,https://www.carsales.com.au/bnc/details/Audi-R8-2018/SHRM-AD-501301/?Cr=42
-SHRM-AD-501301,R8 - 2018 Audi R8 RWS Auto,age,age,0,-0.15,https://www.carsales.com.au/bnc/details/Audi-R8-2018/SHRM-AD-501301/?Cr=42
-OAG-AD-16321742,R8 - 2011 Audi R8 Manual quattro,price,price,134888,-0.32,https://www.carsales.com.au/dealer/details/Audi-R8-2011/OAG-AD-16321742/?Cr=13
-OAG-AD-16321742,R8 - 2011 Audi R8 Manual quattro,milage,milage,58397,-0.32,https://www.carsales.com.au/dealer/details/Audi-R8-2011/OAG-AD-16321742/?Cr=13
-OAG-AD-16321742,R8 - 2011 Audi R8 Manual quattro,age,age,7,-0.32,https://www.carsales.com.au/dealer/details/Audi-R8-2011/OAG-AD-16321742/?Cr=13
-OAG-AD-16320411,R8 - 2017 Audi R8 plus Auto quattro,price,price,339747,-0.32,https://www.carsales.com.au/dealer/details/Audi-R8-2017/OAG-AD-16320411/?Cr=7
-OAG-AD-16320411,R8 - 2017 Audi R8 plus Auto quattro,milage,milage,2285,-0.32,https://www.carsales.com.au/dealer/details/Audi-R8-2017/OAG-AD-16320411/?Cr=7
-OAG-AD-16320411,R8 - 2017 Audi R8 plus Auto quattro,age,age,1,-0.32,https://www.carsales.com.au/dealer/details/Audi-R8-2017/OAG-AD-16320411/?Cr=7
-OAG-AD-16320411,R8 - 2017 Audi R8 plus Auto quattro,price,price,339747,-0.32,https://www.carsales.com.au/dealer/details/Audi-R8-2017/OAG-AD-16320411/?Cr=7
-OAG-AD-16320411,R8 - 2017 Audi R8 plus Auto quattro,milage,milage,2285,-0.32,https://www.carsales.com.au/dealer/details/Audi-R8-2017/OAG-AD-16320411/?Cr=7
-OAG-AD-16320411,R8 - 2017 Audi R8 plus Auto quattro,age,age,1,-0.32,https://www.carsales.com.au/dealer/details/Audi-R8-2017/OAG-AD-16320411/?Cr=7
-SSE-AD-5600116,R8 - 2013 Audi R8 Plus Auto quattro,price,price,195000,-0.38,https://www.carsales.com.au/private/details/Audi-R8-2013/SSE-AD-5600116/?gts=SSE-AD-5600116&gtssaleid=SSE-AD-5600116&rankingType=Spotlight
-SSE-AD-5600116,R8 - 2013 Audi R8 Plus Auto quattro,milage,milage,43484,-0.38,https://www.carsales.com.au/private/details/Audi-R8-2013/SSE-AD-5600116/?gts=SSE-AD-5600116&gtssaleid=SSE-AD-5600116&rankingType=Spotlight
-SSE-AD-5600116,R8 - 2013 Audi R8 Plus Auto quattro,age,age,5,-0.38,https://www.carsales.com.au/private/details/Audi-R8-2013/SSE-AD-5600116/?gts=SSE-AD-5600116&gtssaleid=SSE-AD-5600116&rankingType=Spotlight
-SSE-AD-5600116,R8 - 2013 Audi R8 Plus Auto quattro,price,price,195000,-0.38,https://www.carsales.com.au/private/details/Audi-R8-2013/SSE-AD-5600116/?gts=SSE-AD-5600116&gtssaleid=SSE-AD-5600116&rankingType=Spotlight
-SSE-AD-5600116,R8 - 2013 Audi R8 Plus Auto quattro,milage,milage,43484,-0.38,https://www.carsales.com.au/private/details/Audi-R8-2013/SSE-AD-5600116/?gts=SSE-AD-5600116&gtssaleid=SSE-AD-5600116&rankingType=Spotlight
-SSE-AD-5600116,R8 - 2013 Audi R8 Plus Auto quattro,age,age,5,-0.38,https://www.carsales.com.au/private/details/Audi-R8-2013/SSE-AD-5600116/?gts=SSE-AD-5600116&gtssaleid=SSE-AD-5600116&rankingType=Spotlight
-OAG-AD-16296895,R8 - 2016 Audi R8 plus Auto quattro,price,price,314747,-0.41,https://www.carsales.com.au/dealer/details/Audi-R8-2016/OAG-AD-16296895/?Cr=4
-OAG-AD-16296895,R8 - 2016 Audi R8 plus Auto quattro,milage,milage,9301,-0.41,https://www.carsales.com.au/dealer/details/Audi-R8-2016/OAG-AD-16296895/?Cr=4
-OAG-AD-16296895,R8 - 2016 Audi R8 plus Auto quattro,age,age,2,-0.41,https://www.carsales.com.au/dealer/details/Audi-R8-2016/OAG-AD-16296895/?Cr=4
-OAG-AD-16296895,R8 - 2016 Audi R8 plus Auto quattro,price,price,314747,-0.41,https://www.carsales.com.au/dealer/details/Audi-R8-2016/OAG-AD-16296895/?Cr=4
-OAG-AD-16296895,R8 - 2016 Audi R8 plus Auto quattro,milage,milage,9301,-0.41,https://www.carsales.com.au/dealer/details/Audi-R8-2016/OAG-AD-16296895/?Cr=4
-OAG-AD-16296895,R8 - 2016 Audi R8 plus Auto quattro,age,age,2,-0.41,https://www.carsales.com.au/dealer/details/Audi-R8-2016/OAG-AD-16296895/?Cr=4
-OAG-AD-16316250,R8 - 2018 Audi R8 RWS Auto,price,price,359888,-0.49,https://www.carsales.com.au/bncis/details/Audi-R8-2018/OAG-AD-16316250/?Cr=14
-OAG-AD-16316250,R8 - 2018 Audi R8 RWS Auto,milage,milage,25,-0.49,https://www.carsales.com.au/bncis/details/Audi-R8-2018/OAG-AD-16316250/?Cr=14
-OAG-AD-16316250,R8 - 2018 Audi R8 RWS Auto,age,age,0,-0.49,https://www.carsales.com.au/bncis/details/Audi-R8-2018/OAG-AD-16316250/?Cr=14
-SSE-AD-5632999,R8 - 2009 Audi R8 Auto quattro,price,price,179000,-0.51,https://www.carsales.com.au/private/details/Audi-R8-2009/SSE-AD-5632999/?gts=SSE-AD-5632999&gtssaleid=SSE-AD-5632999&rankingType=Spotlight
-SSE-AD-5632999,R8 - 2009 Audi R8 Auto quattro,milage,milage,37850,-0.51,https://www.carsales.com.au/private/details/Audi-R8-2009/SSE-AD-5632999/?gts=SSE-AD-5632999&gtssaleid=SSE-AD-5632999&rankingType=Spotlight
-SSE-AD-5632999,R8 - 2009 Audi R8 Auto quattro,age,age,9,-0.51,https://www.carsales.com.au/private/details/Audi-R8-2009/SSE-AD-5632999/?gts=SSE-AD-5632999&gtssaleid=SSE-AD-5632999&rankingType=Spotlight
-SSE-AD-5632999,R8 - 2009 Audi R8 Auto quattro,price,price,179000,-0.51,https://www.carsales.com.au/private/details/Audi-R8-2009/SSE-AD-5632999/?gts=SSE-AD-5632999&gtssaleid=SSE-AD-5632999&rankingType=Spotlight
-SSE-AD-5632999,R8 - 2009 Audi R8 Auto quattro,milage,milage,37850,-0.51,https://www.carsales.com.au/private/details/Audi-R8-2009/SSE-AD-5632999/?gts=SSE-AD-5632999&gtssaleid=SSE-AD-5632999&rankingType=Spotlight
-SSE-AD-5632999,R8 - 2009 Audi R8 Auto quattro,age,age,9,-0.51,https://www.carsales.com.au/private/details/Audi-R8-2009/SSE-AD-5632999/?gts=SSE-AD-5632999&gtssaleid=SSE-AD-5632999&rankingType=Spotlight
-SSE-AD-5145578,R8 - 2012 Audi R8 Manual quattro,price,price,179000,-0.54,https://www.carsales.com.au/private/details/Audi-R8-2012/SSE-AD-5145578/?Cr=21
-SSE-AD-5145578,R8 - 2012 Audi R8 Manual quattro,milage,milage,48000,-0.54,https://www.carsales.com.au/private/details/Audi-R8-2012/SSE-AD-5145578/?Cr=21
-SSE-AD-5145578,R8 - 2012 Audi R8 Manual quattro,age,age,6,-0.54,https://www.carsales.com.au/private/details/Audi-R8-2012/SSE-AD-5145578/?Cr=21
-SSE-AD-4571045,R8 - 2016 Audi R8 plus Auto quattro,price,price,315888,-0.72,https://www.carsales.com.au/private/details/Audi-R8-2016/SSE-AD-4571045/?Cr=40
-SSE-AD-4571045,R8 - 2016 Audi R8 plus Auto quattro,milage,milage,12500,-0.72,https://www.carsales.com.au/private/details/Audi-R8-2016/SSE-AD-4571045/?Cr=40
-SSE-AD-4571045,R8 - 2016 Audi R8 plus Auto quattro,age,age,2,-0.72,https://www.carsales.com.au/private/details/Audi-R8-2016/SSE-AD-4571045/?Cr=40
-OAG-AD-15345760,R8 - 2008 Audi R8 Auto quattro,price,price,104990,-0.95,https://www.carsales.com.au/dealer/details/Audi-R8-2008/OAG-AD-15345760/?Cr=35
-OAG-AD-15345760,R8 - 2008 Audi R8 Auto quattro,milage,milage,67100,-0.95,https://www.carsales.com.au/dealer/details/Audi-R8-2008/OAG-AD-15345760/?Cr=35
-OAG-AD-15345760,R8 - 2008 Audi R8 Auto quattro,age,age,10,-0.95,https://www.carsales.com.au/dealer/details/Audi-R8-2008/OAG-AD-15345760/?Cr=35
-SSE-AD-4699550,R8 - 2014 Audi R8 Auto quattro,price,price,299995,-1.07,https://www.carsales.com.au/private/details/Audi-R8-2014/SSE-AD-4699550/?Cr=26
-SSE-AD-4699550,R8 - 2014 Audi R8 Auto quattro,milage,milage,15995,-1.07,https://www.carsales.com.au/private/details/Audi-R8-2014/SSE-AD-4699550/?Cr=26
-SSE-AD-4699550,R8 - 2014 Audi R8 Auto quattro,age,age,4,-1.07,https://www.carsales.com.au/private/details/Audi-R8-2014/SSE-AD-4699550/?Cr=26
-SSE-AD-5587937,R8 - 2008 Audi R8 Auto quattro,price,price,112000,-1.24,https://www.carsales.com.au/private/details/Audi-R8-2008/SSE-AD-5587937/?Cr=22
-SSE-AD-5587937,R8 - 2008 Audi R8 Auto quattro,milage,milage,68000,-1.24,https://www.carsales.com.au/private/details/Audi-R8-2008/SSE-AD-5587937/?Cr=22
-SSE-AD-5587937,R8 - 2008 Audi R8 Auto quattro,age,age,10,-1.24,https://www.carsales.com.au/private/details/Audi-R8-2008/SSE-AD-5587937/?Cr=22
-SHRM-AD-5846568,R8 - 2018 Audi R8 Auto quattro,price,price,397586,-1.66,https://www.carsales.com.au/bnc/details/Audi-R8-2018/SHRM-AD-5846568/?Cr=44
-SHRM-AD-5846568,R8 - 2018 Audi R8 Auto quattro,milage,milage,0,-1.66,https://www.carsales.com.au/bnc/details/Audi-R8-2018/SHRM-AD-5846568/?Cr=44
-SHRM-AD-5846568,R8 - 2018 Audi R8 Auto quattro,age,age,0,-1.66,https://www.carsales.com.au/bnc/details/Audi-R8-2018/SHRM-AD-5846568/?Cr=44
-OAG-AD-16225027,R8 - 2009 Audi R8 Auto quattro,price,price,159888,-1.75,https://www.carsales.com.au/dealer/details/Audi-R8-2009/OAG-AD-16225027/?Cr=16
-OAG-AD-16225027,R8 - 2009 Audi R8 Auto quattro,milage,milage,59612,-1.75,https://www.carsales.com.au/dealer/details/Audi-R8-2009/OAG-AD-16225027/?Cr=16
-OAG-AD-16225027,R8 - 2009 Audi R8 Auto quattro,age,age,9,-1.75,https://www.carsales.com.au/dealer/details/Audi-R8-2009/OAG-AD-16225027/?Cr=16
-SSE-AD-5266521,R8 - 2008 Audi R8 Auto quattro,price,price,119000,-1.93,https://www.carsales.com.au/private/details/Audi-R8-2008/SSE-AD-5266521/?Cr=36
-SSE-AD-5266521,R8 - 2008 Audi R8 Auto quattro,milage,milage,73615,-1.93,https://www.carsales.com.au/private/details/Audi-R8-2008/SSE-AD-5266521/?Cr=36
-SSE-AD-5266521,R8 - 2008 Audi R8 Auto quattro,age,age,10,-1.93,https://www.carsales.com.au/private/details/Audi-R8-2008/SSE-AD-5266521/?Cr=36
-OAG-AD-16200694,R8 - 2017 Audi R8 plus Neuburg Edition Auto quattro,price,price,399800,-2.08,https://www.carsales.com.au/demo/details/Audi-R8-2017/OAG-AD-16200694/?Cr=10
-OAG-AD-16200694,R8 - 2017 Audi R8 plus Neuburg Edition Auto quattro,milage,milage,880,-2.08,https://www.carsales.com.au/demo/details/Audi-R8-2017/OAG-AD-16200694/?Cr=10
-OAG-AD-16200694,R8 - 2017 Audi R8 plus Neuburg Edition Auto quattro,age,age,1,-2.08,https://www.carsales.com.au/demo/details/Audi-R8-2017/OAG-AD-16200694/?Cr=10
-SSE-AD-4925413,R8 - 2010 Audi R8 Manual quattro,price,price,169500,-2.21,https://www.carsales.com.au/private/details/Audi-R8-2010/SSE-AD-4925413/?Cr=1
-SSE-AD-4925413,R8 - 2010 Audi R8 Manual quattro,milage,milage,64766,-2.21,https://www.carsales.com.au/private/details/Audi-R8-2010/SSE-AD-4925413/?Cr=1
-SSE-AD-4925413,R8 - 2010 Audi R8 Manual quattro,age,age,8,-2.21,https://www.carsales.com.au/private/details/Audi-R8-2010/SSE-AD-4925413/?Cr=1
-SSE-AD-4925413,R8 - 2010 Audi R8 Manual quattro,price,price,169500,-2.21,https://www.carsales.com.au/private/details/Audi-R8-2010/SSE-AD-4925413/?Cr=1
-SSE-AD-4925413,R8 - 2010 Audi R8 Manual quattro,milage,milage,64766,-2.21,https://www.carsales.com.au/private/details/Audi-R8-2010/SSE-AD-4925413/?Cr=1
-SSE-AD-4925413,R8 - 2010 Audi R8 Manual quattro,age,age,8,-2.21,https://www.carsales.com.au/private/details/Audi-R8-2010/SSE-AD-4925413/?Cr=1
-OAG-AD-15925757,R8 - 2017 Audi R8 Auto quattro,price,price,399000,-2.36,https://www.carsales.com.au/demo/details/Audi-R8-2017/OAG-AD-15925757/?Cr=38
-OAG-AD-15925757,R8 - 2017 Audi R8 Auto quattro,milage,milage,4500,-2.36,https://www.carsales.com.au/demo/details/Audi-R8-2017/OAG-AD-15925757/?Cr=38
-OAG-AD-15925757,R8 - 2017 Audi R8 Auto quattro,age,age,1,-2.36,https://www.carsales.com.au/demo/details/Audi-R8-2017/OAG-AD-15925757/?Cr=38
-SHRM-AD-5846535,R8 - 2018 Audi R8 Auto quattro,price,price,420453,-2.37,https://www.carsales.com.au/bnc/details/Audi-R8-2018/SHRM-AD-5846535/?Cr=49
-SHRM-AD-5846535,R8 - 2018 Audi R8 Auto quattro,milage,milage,0,-2.37,https://www.carsales.com.au/bnc/details/Audi-R8-2018/SHRM-AD-5846535/?Cr=49
-SHRM-AD-5846535,R8 - 2018 Audi R8 Auto quattro,age,age,0,-2.37,https://www.carsales.com.au/bnc/details/Audi-R8-2018/SHRM-AD-5846535/?Cr=49
-SHRM-AD-5846536,R8 - 2018 Audi R8 Auto quattro,price,price,420453,-2.37,https://www.carsales.com.au/bnc/details/Audi-R8-2018/SHRM-AD-5846536/?Cr=50
-SHRM-AD-5846536,R8 - 2018 Audi R8 Auto quattro,milage,milage,0,-2.37,https://www.carsales.com.au/bnc/details/Audi-R8-2018/SHRM-AD-5846536/?Cr=50
-SHRM-AD-5846536,R8 - 2018 Audi R8 Auto quattro,age,age,0,-2.37,https://www.carsales.com.au/bnc/details/Audi-R8-2018/SHRM-AD-5846536/?Cr=50
-SSE-AD-4794538,R8 - 2009 Audi R8 Manual quattro,price,price,134999,-2.52,https://www.carsales.com.au/private/details/Audi-R8-2009/SSE-AD-4794538/?Cr=46
-SSE-AD-4794538,R8 - 2009 Audi R8 Manual quattro,milage,milage,78000,-2.52,https://www.carsales.com.au/private/details/Audi-R8-2009/SSE-AD-4794538/?Cr=46
-SSE-AD-4794538,R8 - 2009 Audi R8 Manual quattro,age,age,9,-2.52,https://www.carsales.com.au/private/details/Audi-R8-2009/SSE-AD-4794538/?Cr=46
-SHRM-AD-5846591,R8 - 2018 Audi R8 plus Auto quattro,price,price,435872,-2.85,https://www.carsales.com.au/bnc/details/Audi-R8-2018/SHRM-AD-5846591/?Cr=48
-SHRM-AD-5846591,R8 - 2018 Audi R8 plus Auto quattro,milage,milage,0,-2.85,https://www.carsales.com.au/bnc/details/Audi-R8-2018/SHRM-AD-5846591/?Cr=48
-SHRM-AD-5846591,R8 - 2018 Audi R8 plus Auto quattro,age,age,0,-2.85,https://www.carsales.com.au/bnc/details/Audi-R8-2018/SHRM-AD-5846591/?Cr=48
-SSE-AD-5439333,R8 - 2011 Audi R8 Auto quattro,price,price,135000,-3.57,https://www.carsales.com.au/private/details/Audi-R8-2011/SSE-AD-5439333/?Cr=52
-SSE-AD-5439333,R8 - 2011 Audi R8 Auto quattro,milage,milage,97000,-3.57,https://www.carsales.com.au/private/details/Audi-R8-2011/SSE-AD-5439333/?Cr=52
-SSE-AD-5439333,R8 - 2011 Audi R8 Auto quattro,age,age,7,-3.57,https://www.carsales.com.au/private/details/Audi-R8-2011/SSE-AD-5439333/?Cr=52
-SHRM-AD-487549,R8 - 2018 Audi R8 plus Auto quattro,price,price,459101,-3.57,https://www.carsales.com.au/bnc/details/Audi-R8-2018/SHRM-AD-487549/?Cr=51
-SHRM-AD-487549,R8 - 2018 Audi R8 plus Auto quattro,milage,milage,0,-3.57,https://www.carsales.com.au/bnc/details/Audi-R8-2018/SHRM-AD-487549/?Cr=51
-SHRM-AD-487549,R8 - 2018 Audi R8 plus Auto quattro,age,age,0,-3.57,https://www.carsales.com.au/bnc/details/Audi-R8-2018/SHRM-AD-487549/?Cr=51
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,price,price,22990,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=Showcase
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,milage,milage,2002,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=Showcase
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,age,age,1,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=Showcase
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,price,price,22888,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,milage,milage,2931,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,age,age,1,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,price,price,25888,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,milage,milage,2018,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,age,age,1,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,price,price,15750,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,milage,milage,48000,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,age,age,5,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,price,price,12980,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=TopSpot
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,milage,milage,65850,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=TopSpot
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,age,age,6,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=TopSpot
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,price,price,11500,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,milage,milage,64798,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,age,age,9,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,price,price,27888,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,2516,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,price,price,27990,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,2065,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,price,price,27588,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,5000,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,price,price,29880,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,milage,milage,5010,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,age,age,1,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,price,price,22290,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,milage,milage,49506,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,age,age,2,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,price,price,27990,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,milage,milage,28531,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,age,age,1,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,price,price,22990,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=TopSpot
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,milage,milage,2002,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=TopSpot
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,age,age,1,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=TopSpot
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,price,price,22990,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=Showcase
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,milage,milage,2002,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=Showcase
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,age,age,1,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=Showcase
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,price,price,22990,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=Showcase
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,milage,milage,2002,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=Showcase
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,age,age,1,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=Showcase
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,price,price,22990,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=Showcase
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,milage,milage,2002,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=Showcase
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,age,age,1,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=Showcase
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,price,price,22990,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=TopSpot
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,milage,milage,2002,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=TopSpot
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,age,age,1,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=TopSpot
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,price,price,22990,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=TopSpot
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,milage,milage,2002,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=TopSpot
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,age,age,1,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=TopSpot
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,price,price,22990,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=TopSpot
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,milage,milage,2002,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=TopSpot
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,age,age,1,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=TopSpot
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,price,price,22990,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=TopSpot
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,milage,milage,2002,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=TopSpot
+OAG-AD-15312266,Civic - 2017 Honda Civic VTi Auto,age,age,1,2.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-15312266/?gts=OAG-AD-15312266&gtssaleid=OAG-AD-15312266&rankingType=TopSpot
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,price,price,22888,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,milage,milage,2931,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,age,age,1,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,price,price,22888,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,milage,milage,2931,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,age,age,1,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,price,price,22888,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,milage,milage,2931,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,age,age,1,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,price,price,22888,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,milage,milage,2931,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,age,age,1,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,price,price,22888,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,milage,milage,2931,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,age,age,1,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,price,price,22888,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,milage,milage,2931,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,age,age,1,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,price,price,22888,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,milage,milage,2931,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,age,age,1,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,price,price,22888,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,milage,milage,2931,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16162834,Civic - 2017 Honda Civic VTi Auto,age,age,1,2.21,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162834/?Cr=7
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,price,price,25888,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,milage,milage,2018,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,age,age,1,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,price,price,25888,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,milage,milage,2018,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,age,age,1,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,price,price,25888,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,milage,milage,2018,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,age,age,1,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,price,price,25888,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,milage,milage,2018,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,age,age,1,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,price,price,25888,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,milage,milage,2018,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,age,age,1,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,price,price,25888,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,milage,milage,2018,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,age,age,1,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,price,price,25888,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,milage,milage,2018,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,age,age,1,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,price,price,25888,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,milage,milage,2018,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+OAG-AD-16258956,Civic - 2017 Honda Civic VTi-S Auto,age,age,1,0.80,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16258956/?Cr=3
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,price,price,15750,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,milage,milage,48000,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,age,age,5,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,price,price,15750,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,milage,milage,48000,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,age,age,5,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,price,price,15750,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,milage,milage,48000,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,age,age,5,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,price,price,15750,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,milage,milage,48000,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,age,age,5,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,price,price,15750,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,milage,milage,48000,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,age,age,5,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,price,price,15750,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,milage,milage,48000,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,age,age,5,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,price,price,15750,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,milage,milage,48000,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,age,age,5,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,price,price,15750,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,milage,milage,48000,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+SSE-AD-5166778,Civic - 2013 Honda Civic VTi-L Auto,age,age,5,0.66,https://www.carsales.com.au/private/details/Honda-Civic-2013/SSE-AD-5166778/?Cr=5
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,price,price,12980,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=Showcase
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,milage,milage,65850,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=Showcase
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,age,age,6,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=Showcase
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,price,price,12980,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=TopSpot
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,milage,milage,65850,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=TopSpot
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,age,age,6,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=TopSpot
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,price,price,12980,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=Showcase
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,milage,milage,65850,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=Showcase
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,age,age,6,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=Showcase
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,price,price,12980,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=Showcase
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,milage,milage,65850,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=Showcase
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,age,age,6,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=Showcase
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,price,price,12980,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=Showcase
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,milage,milage,65850,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=Showcase
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,age,age,6,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=Showcase
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,price,price,12980,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=TopSpot
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,milage,milage,65850,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=TopSpot
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,age,age,6,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=TopSpot
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,price,price,12980,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=Showcase
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,milage,milage,65850,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=Showcase
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,age,age,6,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=Showcase
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,price,price,12980,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=TopSpot
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,milage,milage,65850,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=TopSpot
+OAG-AD-16247281,Civic - 2012 Honda Civic VTi Auto,age,age,6,0.24,https://www.carsales.com.au/dealer/details/Honda-Civic-2012/OAG-AD-16247281/?gts=OAG-AD-16247281&gtssaleid=OAG-AD-16247281&rankingType=TopSpot
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,price,price,11500,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,milage,milage,64798,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,age,age,9,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,price,price,11500,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,milage,milage,64798,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,age,age,9,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,price,price,11500,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,milage,milage,64798,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,age,age,9,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,price,price,11500,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,milage,milage,64798,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,age,age,9,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,price,price,11500,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,milage,milage,64798,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,age,age,9,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,price,price,11500,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,milage,milage,64798,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,age,age,9,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,price,price,11500,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,milage,milage,64798,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,age,age,9,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,price,price,11500,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,milage,milage,64798,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16132376,Civic - 2009 Honda Civic 40th Anniversary Auto,age,age,9,-0.10,https://www.carsales.com.au/dealer/details/Honda-Civic-2009/OAG-AD-16132376/?Cr=0
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,price,price,27888,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,2516,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,price,price,27888,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,2516,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,price,price,27888,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,2516,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,price,price,27888,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,2516,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,price,price,27888,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,2516,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,price,price,27888,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,2516,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,price,price,27888,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,2516,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,price,price,27888,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,2516,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16162833,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.23,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16162833/?Cr=1
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,price,price,27990,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,2065,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,price,price,27990,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,2065,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,price,price,27990,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,2065,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,price,price,27990,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,2065,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,price,price,27990,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,2065,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,price,price,27990,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,2065,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,price,price,27990,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,2065,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,price,price,27990,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,2065,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-16054593,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.25,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-16054593/?Cr=6
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,price,price,27588,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,5000,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,price,price,27588,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,5000,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,price,price,27588,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,5000,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,price,price,27588,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,5000,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,price,price,27588,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,5000,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,price,price,27588,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,5000,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,price,price,27588,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,5000,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,price,price,27588,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,milage,milage,5000,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-14712608,Civic - 2017 Honda Civic VTi-L Auto,age,age,1,-0.28,https://www.carsales.com.au/demo/details/Honda-Civic-2017/OAG-AD-14712608/?gts=OAG-AD-14712608&gtssaleid=OAG-AD-14712608&rankingType=Showcase
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,price,price,29880,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,milage,milage,5010,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,age,age,1,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,price,price,29880,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,milage,milage,5010,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,age,age,1,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,price,price,29880,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,milage,milage,5010,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,age,age,1,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,price,price,29880,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,milage,milage,5010,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,age,age,1,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,price,price,29880,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,milage,milage,5010,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,age,age,1,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,price,price,29880,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,milage,milage,5010,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,age,age,1,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,price,price,29880,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,milage,milage,5010,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,age,age,1,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,price,price,29880,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,milage,milage,5010,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16214066,Civic - 2017 Honda Civic VTi-LX Auto,age,age,1,-1.42,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16214066/?Cr=4
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,price,price,22290,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,milage,milage,49506,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,age,age,2,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,price,price,22290,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,milage,milage,49506,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,age,age,2,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,price,price,22290,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,milage,milage,49506,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,age,age,2,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,price,price,22290,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,milage,milage,49506,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,age,age,2,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,price,price,22290,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,milage,milage,49506,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,age,age,2,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,price,price,22290,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,milage,milage,49506,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,age,age,2,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,price,price,22290,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,milage,milage,49506,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,age,age,2,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,price,price,22290,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,milage,milage,49506,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16249452,Civic - 2016 Honda Civic VTi-S Auto,age,age,2,-1.53,https://www.carsales.com.au/dealer/details/Honda-Civic-2016/OAG-AD-16249452/?Cr=2
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,price,price,27990,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,milage,milage,28531,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,age,age,1,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,price,price,27990,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,milage,milage,28531,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,age,age,1,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,price,price,27990,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,milage,milage,28531,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,age,age,1,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,price,price,27990,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,milage,milage,28531,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,age,age,1,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,price,price,27990,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,milage,milage,28531,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,age,age,1,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,price,price,27990,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,milage,milage,28531,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,age,age,1,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,price,price,27990,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,milage,milage,28531,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,age,age,1,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,price,price,27990,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,milage,milage,28531,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
+OAG-AD-16236437,Civic - 2017 Honda Civic VTi-LX Auto,age,age,1,-2.32,https://www.carsales.com.au/dealer/details/Honda-Civic-2017/OAG-AD-16236437/?gts=OAG-AD-16236437&gtssaleid=OAG-AD-16236437&rankingType=Showcase
