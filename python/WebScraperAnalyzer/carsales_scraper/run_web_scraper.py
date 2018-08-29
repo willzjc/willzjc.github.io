@@ -3,14 +3,13 @@ import time
 import re
 
 import pandas as pd
-import create_webfiles_dcjs
+
 from auxiliary.data_container import data_rows
 from matrix_manipulations import calculate_analytics
 
 from auxiliary import web_get
 
-# from create_webfiles_scatterplot import *
-# from create_webfiles_table import *
+# Local Module loading
 import create_webfiles_table,create_webfiles_scatterplot ,create_webfiles_dcjs
 
 global url,page_loop_counter, pagination_offset, total_car_count, LIVE_DATA,df,db_save
@@ -226,7 +225,6 @@ def save_to_db(df):
     global dmilage
     global dprice
 
-
     print 'Scraping Finished - Time for Analytics'
     output = open('output/process_id_dump_output.csv','w')
     headerline='id,Title,Age,Age_rating,Milage,Milage_rating,Price,Price_rating,Sum_rating,Predicted_PriceLink'
@@ -278,177 +276,8 @@ def main():
 
     global url,page_loop_counter,pagination_offset,total_car_count,LIVE_DATA,df,db_save
 
-    # USE_LOCAL_COPY = False
-    # bmw 3 series
-    url = 'https://www.carsales.com.au/car/bmw/3-series-marketinggroup/new-south-wales-state/?limit=24&setype=pagination&sortby=LastUpdated&offset=0&silo=stock&WT.z_srchsrcx=makemodel&'
-    # toyota camry
-    url = 'https://www.carsales.com.au/car/toyota/camry/altise-badge/new-south-wales-state/?offset=0&setype=pagination&limit=24&WT.z_srchsrcx=makemodel&'
-    # honda civic
-    url = 'https://www.carsales.com.au/car/honda/civic/new-south-wales-state/sedan-bodystyle/4-doors/?offset=24&setype=pagination&limit=24&WT.z_srchsrcx=makemodel&'
-    # mazda 3 really filtered
-    url = 'https://www.carsales.com.au/cars/results?q=%28And.Year.range%282010..%29._.Service.Carsales._.%28C.Make.Mazda._.Model.3.%29_.State.New%20South%20Wales._.FuelEconomy.7L%2F100km%20or%20less._.Doors.4.%29&sortby=TopDeal&limit=12'
-    # toyota prius (all models)
-    url = 'https://www.carsales.com.au/cars/results?q=%28And.Service.Carsales._.State.New%20South%20Wales._.%28Or.%28C.Make.Toyota._.Model.Prius.%29_.%28C.Make.Toyota._.Model.Prius%20C.%29_.%28C.Make.Toyota._.Model.Prius%20V.%29%29%29&silo=stock&WT.z_srchsrcx=makemodel&sortby=TopDeal'
-    # bmw 3 series nsw, > 2010
-    url = 'https://www.carsales.com.au/cars/results?sortby=TopDeal&limit=12&q=%28And.%28C.Make.BMW._.MarketingGroup.3+Series.%29_.State.New+South+Wales._.Year.range%282010..%29.%29'
-
-    url = 'https://www.carsales.com.au/car/toyota/camry/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel&'
-    url = 'https://www.carsales.com.au/car/honda/accord/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel&'
-    url = 'https://www.carsales.com.au/car/honda/civic/new-south-wales-state/?WT.z_srchsrcx=makemodel'
-    # bmw-320i
-    url = 'https://www.carsales.com.au/car/bmw/320i/3-series-marketinggroup/new-south-wales-state/?WT.z_srchsrcx=makemodel'
-
-    # corolla
-    url = 'https://www.carsales.com.au/cars/results?sortby=TopDeal&limit=12&q=%28And.Service.Carsales._.%28C.Make.Toyota._.Model.Corolla.%29_.State.New+South+Wales._.Price.range%28..20200%29.%29'
-
-    # camry - desc updated, sub $150000, NSW
-    url = 'https://www.carsales.com.au/cars/results?sortby=LastUpdated&limit=12&q=%28And.Service.Carsales._.%28C.Make.Toyota._.Model.Camry.%29_.State.New+South+Wales._.Price.range%28..15150%29.%29'
-
-    # honda civic
-    url = 'https://www.carsales.com.au/car/honda/civic/new-south-wales-state/?sortby=LastUpdated&offset=0&setype=sort&silo=stock&vertical=car&WT.z_srchsrcx=makemodel&'
-
-    url = 'https://www.carsales.com.au/car/nissan/micra/new-south-wales-state/?WT.z_srchsrcx=makemodel'
-
-    # Toyota Camry NSW (no price cap)
-    url = 'https://www.carsales.com.au/car/toyota/camry/new-south-wales-state/?sortby=LastUpdated&offset=0&setype=sort&area=Stock&vertical=car&WT.z_srchsrcx=makemodel&'
-
-    # Lancer
-    url = 'https://www.carsales.com.au/car/mitsubishi/lancer/new-south-wales-state/?sortby=LastUpdated&offset=0&setype=sort&WT.z_srchsrcx=makemodel&'
-
-    # Yaris
-    url = 'https://www.carsales.com.au/car/toyota/yaris/new-south-wales-state/?sortby=LastUpdated&WT.z_srchsrcx=makemodel'
-
-    # Pulsar
-    url = 'https://www.carsales.com.au/car/nissan/pulsar/new-south-wales-state/?WT.z_srchsrcx=makemodel'
-
-    # corolla
-    url = 'https://www.carsales.com.au/cars/results?sortby=TopDeal&limit=12&q=%28And.Service.Carsales._.%28C.Make.Toyota._.Model.Corolla.%29_.State.New+South+Wales._.Price.range%28..20200%29.%29'
-
-    # Honda Civic
-    url = 'https://www.carsales.com.au/cars/results?q=%28And.Service.Carsales._.Odometer.range%280..120000%29._.State.New%20South%20Wales._.BodyStyle.Sedan._.GenericGearType.Automatic._.%28C.Make.Honda._.Model.Civic.%29%29&sortby=~Price&limit=12'
-
-    # Corolla < 150,000km, > 2005, auto
-    url = 'https://www.carsales.com.au/cars/results?q=%28And.Price.range%28..20200%29._.Odometer.range%280..150000%29._.Year.range%282004..%29._.Service.Carsales._.%28C.Make.Toyota._.Model.Corolla.%29_.State.New%20South%20Wales._.GenericGearType.Automatic.%29&sortby=~Price&limit=12'
-
-    # Volvo - XC60 - NSW
-    url = 'https://www.carsales.com.au/car/volvo/xc60/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel&'
-
-    url = 'https://www.carsales.com.au/cars/results?q=%28And.Price.range%28..20200%29._.Odometer.range%280..150000%29._.Year.range%282004..%29._.Service.Carsales._.%28C.Make.Toyota._.Model.Corolla.%29_.State.New%20South%20Wales._.GenericGearType.Automatic.%29&sortby=~Price&limit=12'
-
-    # Mazda Hatch
-    url = 'https://www.carsales.com.au/car/mazda/3/new-south-wales-state/hatch-bodystyle/?WT.z_srchsrcx=makemodel'
-
-    # corolla
-    url = 'https://www.carsales.com.au/cars/results?sortby=TopDeal&limit=12&q=%28And.Service.Carsales._.%28C.Make.Toyota._.Model.Corolla.%29_.State.New+South+Wales._.Price.range%28..20200%29.%29'
-
-    #################################################################
-
-    # url='https://www.carsales.com.au/cars/dodge/caliber/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-    url = 'https://www.carsales.com.au/cars/results?sortby=TopDeal&limit=12&q=%28And.Service.Carsales._.%28C.Make.Toyota._.%28C.Model.Camry._.Badge.Altise.%29%29_.State.New+South+Wales._.Price.range%28..10100%29.%29'
-    url = 'https://www.carsales.com.au/cars/lotus/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-    url = 'https://www.carsales.com.au/cars/nissan/micra/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-
-    url = 'https://www.carsales.com.au/cars/bmw/116i/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-    url='https://www.carsales.com.au/cars/kia/grandcarnival/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-    url='https://www.carsales.com.au/cars/results?q=(And.Service.Carsales._.(C.Make.Subaru._.Model.Forester.)_.State.New%20South%20Wales._.Price.range(..10000).)&area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-    url='https://www.carsales.com.au/cars/chevrolet/camaro/coupe-bodystyle/'
-    url='https://www.carsales.com.au/cars/results?q=%28And.Postcode.poi%282000x25km%29._.Year.range%282010..%29._.Service.Carsales._.%28C.Make.Volkswagen._.Model.Golf.%29_.State.New%20South%20Wales._.FuelType.Diesel.%29&sortby=TopDeal&limit=12'
-    url='https://www.carsales.com.au/cars/results?sortby=TopDeal&limit=12&q=%28And.Price.range%28..15000%29._.Service.Carsales._.%28C.Make.Holden._.Model.Astra.%29_.State.New+South+Wales._.GenericGearType.Automatic._.Year.range%282007..%29.%29'
-    url='https://www.carsales.com.au/cars/results?sortby=TopDeal&limit=12&q=%28And.Service.Carsales._.%28C.Make.Holden._.Model.Astra.%29_.State.New+South+Wales._.GenericGearType.Automatic._.Year.range%282007..%29._.Price.range%28..20200%29.%29'
-    url='https://www.carsales.com.au/cars/results?q=(And.Service.Carsales._.(C.Make.BMW._.(C.MarketingGroup.X%20Models._.Model.X5.))_.State.New%20South%20Wales._.Price.range(..70000).)&area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-    url='https://www.carsales.com.au/cars/bmw/320i/3-series-marketinggroup/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-    url='https://www.carsales.com.au/cars/bmw/320d/3-series-marketinggroup/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-    url='https://www.carsales.com.au/cars/results?sortby=TopDeal&limit=12&q=%28And.Service.Carsales._.%28C.Make.Toyota._.Model.Corolla.%29_.State.New+South+Wales._.Price.range%28..15150%29._.Year.range%282009..%29.%29'
-    url='https://www.carsales.com.au/cars/honda/cr-v/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-    url = 'https://www.carsales.com.au/cars/audi/q5/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-    url='https://www.carsales.com.au/cars/nissan/370z/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-    url='https://www.carsales.com.au/cars/bmw/335i/3-series-marketinggroup/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-    url='https://www.carsales.com.au/cars/results?sortby=TopDeal&limit=12&q=%28And.%28C.Make.BMW._.%28C.MarketingGroup.3+Series._.Model.335i.%29%29_.Year.range%282013..2014%29.%29'
-    url='https://www.carsales.com.au/cars/subaru/liberty/new-south-wales-state/automatic-transmission/?WT.z_srchsrcx=makemodel'
-    url='https://www.carsales.com.au/cars/nissan/350z/?WT.z_srchsrcx=makemodel'
-    url='https://www.carsales.com.au/cars/results?q=%28And.Service.Carsales._.%28Or.%28C.Make.Nissan._.Model.350Z.%29_.%28C.Make.Nissan._.Model.370Z.%29%29%29&WT.z_srchsrcx=makemodel'
-    url='https://www.carsales.com.au/cars/results?sortby=TopDeal&limit=12&q=%28And.%28C.Make.Mazda._.Model.3.%29_.State.New+South+Wales._.GenericGearType.Automatic._.Year.range%282010..%29._.Postcode.poi%282000x50km%29.%29'
-    url='https://www.carsales.com.au/cars/results?sortby=TopDeal&limit=12&q=%28And.%28C.Make.Toyota._.Model.Camry.%29_.State.New+South+Wales._.Year.range%280..2014%29.%29'
-
-
-    url='https://www.carsales.com.au/cars/results?q=%28And.Service.Carsales._.State.New%20South%20Wales._.%28Or.%28C.Make.Toyota._.Model.Prius.%29_.%28C.Make.Toyota._.Model.Prius%20C.%29_.%28C.Make.Toyota._.Model.Prius%20V.%29%29%29&WT.z_srchsrcx=makemodel'
-
-    #BMW 320
-    url='https://www.carsales.com.au/cars/results?q=%28And.Service.Carsales._.State.New%20South%20Wales._.%28Or.%28C.Make.BMW._.%28C.MarketingGroup.3%20Series._.Model.320i.%29%29_.%28C.Make.BMW._.Model.320d.%29%29%29&WT.z_srchsrcx=makemodel'
-    url='https://www.carsales.com.au/cars/toyota/camry/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-
-    url='https://www.carsales.com.au/cars/results?q=%28And.Service.Carsales._.%28Or.%28C.Make.Nissan._.Model.350Z.%29_.%28C.Make.Nissan._.Model.370Z.%29%29%29&WT.z_srchsrcx=makemodel'
-
-    #C200
-    url = 'https://www.carsales.com.au/cars/results?q=%28And.Service.Carsales._.State.New%20South%20Wales._.%28Or.%28C.Make.Mercedes-Benz._.%28C.MarketingGroup.C%20Class._.Model.C200.%29%29_.%28C.Make.Mercedes-Benz._.Model.C200%20Kompressor.%29_.%28C.Make.Mercedes-Benz._.Model.C200%20CDI.%29%29%29&WT.z_srchsrcx=makemodel'
-
-
-    # BMW M3 20180401
-    url='https://www.carsales.com.au/cars/bmw/m3/m-models-marketinggroup/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-
-
-    #Audi RS7
-    url='https://www.carsales.com.au/cars/audi/rs7/'
-
-
-    # BMW All 3 Series
-    url='https://www.carsales.com.au/cars/bmw/3-series-marketinggroup/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-
-    # VW Polo
-    url='https://www.carsales.com.au/cars/volkswagen/polo/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-    # url='https://www.carsales.com.au/cars/volkswagen/polo/66tsi-trendline-badge/new-south-wales-state/?WT.z_srchsrcx=makemodel'
-
-    # Mercedes C250
-    url='https://www.carsales.com.au/cars/mercedesbenz/c250/c-class-marketinggroup/new-south-wales-state/?WT.z_srchsrcx=makemodel'
-    # Mercedes C63
-    url='https://www.carsales.com.au/cars/mercedesbenz/c63/c-class-marketinggroup/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-
-    # Astin Martin
-    url = 'https://www.carsales.com.au/cars/astonmartin/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-
-    # Toyota Corolla
-    url = 'https://www.carsales.com.au/cars/toyota/corolla/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-
-    #bmw 320i repeat
-    url='https://www.carsales.com.au/cars/results?q=%28And.Service.Carsales._.State.New%20South%20Wales._.%28Or.%28C.Make.BMW._.%28C.MarketingGroup.3%20Series._.Model.320i.%29%29_.%28C.Make.BMW._.Model.320d.%29%29%29&WT.z_srchsrcx=makemodel'
-
-    # Jag
-    url='https://www.carsales.com.au/cars/jaguar/epace/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-    # Jag E-Type
-    url='https://www.carsales.com.au/cars/jaguar/etype/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-
-    # Mazda 3
-    url='https://www.carsales.com.au/cars/mazda/3/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-
-    # VW Golf
-    url='https://www.carsales.com.au/cars/volkswagen/golf/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-    url='https://www.carsales.com.au/cars/results?sortby=TopDeal&limit=12&q=%28And.%28C.Make.Volkswagen._.Model.Golf.%29_.State.New+South+Wales._.Postcode.poi%282000x25km%29._.Year.range%282002..%29.%29'
-
-    # Audi
-    url='https://www.carsales.com.au/cars/audi/a5/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-    url='https://www.carsales.com.au/cars/audi/a3/new-south-wales-state/?WT.z_srchsrcx=makemodel'
-
-    # Lexus
-    url='https://www.carsales.com.au/cars/lexus/ct200h/new-south-wales-state/hatch-bodystyle/?WT.z_srchsrcx=makemodel'
-
-    # Prius
-    url='https://www.carsales.com.au/cars/toyota/prius/new-south-wales-state/hatch-bodystyle/?WT.z_srchsrcx=makemodel'
-    url='https://www.carsales.com.au/cars/toyota/priusc/new-south-wales-state/?WT.z_srchsrcx=makemodel'
-
-    # Mini
-    url='https://www.carsales.com.au/cars/mini/hatch/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-
-
-    # Kia Rio
-    url='https://www.carsales.com.au/cars/kia/rio/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-
-
-    # BMW - M3
-    url = 'https://www.carsales.com.au/cars/bmw/m3/m-models-marketinggroup/new-south-wales-state/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-
-    # KIRA
-    url='https://www.carsales.com.au/cars/kia/cerato/new-south-wales-state/sedan-bodystyle/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
-    url='https://www.carsales.com.au/cars/kia/cerato/new-south-wales-state/coupe-bodystyle/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
+    url_list = open('url_list','r').read().split('\n')
+    url = [url for url in url_list if len(url.strip()) > 0 and url.strip()[0] != '#'][-1]
 
     db_save = False
     USE_LOCAL_COPY = False
