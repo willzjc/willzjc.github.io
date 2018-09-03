@@ -1,8 +1,10 @@
-.idea
 desktop.ini
-*.eml
-venv/
+.eml
 .pyc
 .pkl
-.ipynb_checkpoints/
-
+.pk
+.swp
+.*.swp
+.ipynb_checkpoints
+venv
+.idea
