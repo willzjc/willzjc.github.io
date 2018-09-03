@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="auxiliary/style.css">
+    <script type="text/javascript" src="auxiliary/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="auxiliary/jquery-live-preview.js"></script>
+    <link href="auxiliary/livepreview-demo.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<form>
+    <label><input type="radio" name="dataset" id="dataset1" value="total" checked>Price by Year</label>
+    <label><input type="radio" name="dataset" id="dataset2" value="option1">Milage by Year</label>
+    <!--<label><input type="radio" name="dataset" id="dataset" value="option2"> Option 2</label>-->
+</form>
+
+<script src="auxiliary/d3.v3.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
+
+<script>
+
+    d3.select("input[value=\"total\"]").property("checked", true);
+
+    
+        average_prices = [{label: "2016 (19)", value: 183908 },
+			{label: "2015 (13)", value: 146834 },
+			{label: "2014 (11)", value: 94407 },
+			{label: "2013 (2)", value: 96000 },
+			{label: "2011 (11)", value: 79354 },
+			{label: "2010 (4)", value: 69661 },
+			{label: "2009 (3)", value: 56133 },
+			{label: "2008 (6)", value: 47441 },
+			{label: "2007 (4)", value: 54097 },
+			{label: "2006 (5)", value: 43307 } 
+            ];
+        
+    
+        average_milages = [ {label: "2016 (19)", value: 11601 },
+			{label: "2015 (13)", value: 16001 },
+			{label: "2014 (11)", value: 25752 },
+			{label: "2013 (2)", value: 40611 },
+			{label: "2011 (11)", value: 61967 },
+			{label: "2010 (4)", value: 77770 },
+			{label: "2009 (3)", value: 78404 },
+			{label: "2008 (6)", value: 72682 },
+			{label: "2007 (4)", value: 60715 },
+			{label: "2006 (5)", value: 110762 } 
+            ];
+        
+
+    //replace_data
+
+
+    d3.selectAll("input").on("change", selectDataset);
+    var current_selection = '';
+
+    function selectDataset() {
+        var value = this.value;
+        if (value == "total") {
+            current_selection = 'price';
+            change(average_prices, 1);
+
+        }
+        else if (value == "option1") {
+            current_selection = 'milage';
+            change(average_milages, 2);
+
+        }
+        else if (value == "option2") {
+            change(datasetOption2, 3);
+        }
+    }
+
+    var margin = {
+            top: (parseInt(d3.select('body').style('height'), 10) / 10),
+            right: (parseInt(d3.select('body').style('width'), 10) / 20),
+            bottom: (parseInt(d3.select('body').style('height'), 10) / 10),
+            // bottom: 0,
+            left: (parseInt(d3.select('body').style('width'), 10) / 20)
+        },
+        width = parseInt(d3.select('body').style('width'), 10) - margin.left - margin.right,
+        // height = parseInt(d3.select('body').style('height'), 10) - margin.top - margin.bottom;
+        height = 250;
+
+
+    var formatPercent = d3.format("");
+
+    var x = d3.scale.ordinal()
+        .rangeRoundBands([0, width], .2, 0.5);
+
+    var y = d3.scale.linear()
+        .range([height, 0]);
+
+    var xAxis = d3.svg.axis()
+        .scale(x)
+        .orient("bottom");
+
+    var yAxis = d3.svg.axis()
+        .scale(y)
+        .orient("left")
+        .tickFormat(formatPercent);
+
+    var svg = d3.select("body").append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom + 25)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    svg.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis);
+
+    var firstrun = true;
+    var years = [];
+    var value_dict = {};
+
+
+    var firstrun = true;
+    var years = [];
+    var value_dict = {};
+
+
+</script>
+
+<!--Search / Filter bar functionality-->
+<script>
+    function filter_word() {
+        // Declare variables
+        var input, filter, table, tr, td, i, arraytd, rowstr, tdlist, arrayLength;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("cars_table");
+        tr = table.getElementsByTagName("tr");
+
+        // Loop through all table rows, and hide those who don't match the search query
+        for (i = 0; i < tr.length; i++) {
+
+            arraytd = tr[i].getElementsByTagName("td");
+            var tdlist = Array.prototype.slice.call(arraytd);
+            var rowstr = '';
+            var myStringArray = tdlist.concat();
+            var arrayLength = myStringArray.length;
+            for (var rowi = 0; rowi < arrayLength; rowi++) {
+                rowstr = rowstr + myStringArray[rowi].textContent + ' ';
+                // console.log(rowstr)
+            }
+            // for each (e in tdlist.concat() ) {
+            //     rowstr=rowstr+e.text() + ' '
+            // }
+
+            if (rowstr.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+            } else {
+                tr[i].style.display = "none";
+            }
+            // inputList.forEach(function (entry) {
+            //     td=entry;
+            //     if (td) {
+            //         if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            //             tr[i].style.display = "";
+            //         } else {
+            //             tr[i].style.display = "none";
+            //         }
+            //     }
+            // });
+
+        }
+    }
+</script>
+
+<input type="text" id="myInput" onkeyup="filter_word()" placeholder="Filter">
+
+<div class="table-container"/>
+
+
+<script type="text/javascript">
+
+    var table = d3.select(".table-container").append("table");
+    table.attr('class', 'main_table');
+    table.attr('id', 'cars_table');
+
+    table.append("thead");
+    table.append("tbody");
+
+    var d3color = d3.scale.linear()
+        .domain([0, 1])
+        .range(["red", "green"]);
+
+    function getColorRating(rating, mn, mx) {
+        var color = d3.scale.linear()
+            .domain([mn, mx])
+            .range(["red", "green"]);
+        return color(rating);
+    }
+
+    queue()
+        .defer(d3.json, "auxiliary/data/records.json")
+        .defer(d3.json, "auxiliary/data/summary.json")
+        .await(ready);
+
+    rating_style_prefix = '<span class="text" style="text-align: right; padding-right: 5px; color: '
+
+    function ready(error, records, summary) {
+
+        if (error) throw error;
+
+        var columns = [
+            {
+                head: "Index",
+                cl: "row_count",
+                html: function (row) {
+                    // var preview = '<a href="http://www.bing.com" target="_blank" class="livepreview">Hover over to preview, click to link!/</a>'
+                    var text = '<span class="text" style="text-align: center;"> ' + row.row_count + ' </span>';
+                    return text;
+                }
+            }
+            ,
+            {
+                head: "Overall Value",
+                cl: "sum_rating",
+                html: function (row) {
+                    rrange = (summary['sum_rating_max'] - summary['sum_rating_min']);
+                    ratio_rating = (row.sum_rating - summary['sum_rating_min']) / rrange;
+                    clr = d3color(ratio_rating);
+
+                    mx = summary['sum_rating_min'];
+                    mn = summary['sum_rating_max'];
+
+
+                    var linearScale = d3.scale.linear()
+                        .domain([mn, mx])
+                        .range([-6, 6]);
+
+                    var icon = '<span class="fa fa-check" style="color:' + clr.trim() + ';" ></span>';
+                    if (row.sum_rating < 0) {
+                        icon = '<span class="fa fa-times" style="color:' + clr.trim() + ';" ></span>';
+                    }
+
+                    var nIcons = (Math.abs(linearScale(row.sum_rating)));
+
+                    var text = '<span class="text" style="color: ' + clr.trim() + ';"> ' + row.sum_rating.toFixed(2)
+                        // +'  ' + nIcons
+                        + ' </span>';
+
+                    return text + d3.range(nIcons)
+                        .map(function () {
+                            return icon;
+                        }).join("");
+
+                }
+            }
+            ,
+            {
+                head: "Title",
+                cl: "title",
+                html: function (row) {
+                    var value = row.title;
+                    var text = '<span class="title"><a href="' + row.link + '">' + value + '</a> </span>';
+                    return text;
+
+                }
+
+            }
+
+            , {
+                head: "Price",
+                cl: "price",
+                html: function (row) {
+
+                    ratio_rating = 1 - (row.price - summary['price_min']) / (summary['price_max'] - summary['price_min'])
+                    clr = d3color(ratio_rating);
+                    value = d3.format("$,")(row.price);
+
+                    var text = rating_style_prefix + clr.trim() + ';"> ' + value
+                        + '</color> </span>';
+                    return text;
+                }
+            }
+
+            , {
+                head: "Model Price",
+                cl: "market_price",
+                html: function (row) {
+
+                    var vmetric = 'market_price';
+                    var normalized_mkt_price = Math.max(1, row.market_price);
+                    ratio_rating = (normalized_mkt_price - summary['price_min']) / (summary['price_max'] - summary['price_min'])
+                    clr = d3color(ratio_rating);
+
+                    value = d3.format("$,")(normalized_mkt_price);
+
+                    var text = rating_style_prefix + 'black' + ';"> ' + value
+                        // + ' ' + ratio_rating
+                        + '</color> </span>';
+                    return text;
+                }
+            }
+
+
+            , {
+                head: "Saving",
+                cl: "price_difference",
+                html: function (row) {
+                    ratio_rating = (row.price_difference - summary['price_difference_min']) / (summary['price_difference_max'] - summary['price_difference_min'])
+                    clr = d3color(ratio_rating);
+
+                    value = d3.format("$,")(row.price_difference);
+
+                    var text = rating_style_prefix + clr.trim() + ';"> ' + value
+                        // + ' ' + ratio_rating
+                        + '</color> </span>';
+                    return text;
+                }
+            }
+
+            , {
+                head: "Age",
+                cl: "age",
+                html: function (row) {
+
+
+                    var text = '<span class="text">' + row.age + '</span>';
+                    return text;
+                }
+            }
+            , {
+                head: "Milage",
+                cl: "milage",
+                html: function (row) {
+                    var text = '<span class="text">' + d3.format(",")(row.milage) + 'km</span>';
+                    return text;
+                }
+            }
+            ,
+            {
+                head: "Transmission",
+                cl: "transmission",
+                html: function (row) {
+
+                    var text = '<span class="text">' + row.transmission + '</span>';
+                    return text;
+                }
+            }
+            ,
+            {
+                head: "Make",
+                cl: "make",
+                html: function (row) {
+                    var text = '<span class="text"  style="text-align: center;">' + row.make + '</span>';
+                    return text;
+                }
+            }
+            , {
+                head: "Model",
+                cl: "model",
+                html: function (row) {
+                    var text = '<span class="text"  style="text-align: center;">' + row.model + '</span>';
+                    return text;
+                }
+            }
+            , {
+                head: "Price Rating (" + summary.price_weight.toFixed(2) + ")",
+                cl: "price_rating",
+                html: function (row) {
+
+                    ratio_rating = 1 - (row.price - summary['price_min']) / (summary['price_max'] - summary['price_min'])
+                    clr = d3color(ratio_rating);
+
+                    var text = rating_style_prefix + clr.trim() + ';"> ' + row.price_rating
+                        + '</color> </span>';
+                    return text;
+                }
+            }
+
+            , {
+
+                head: "Milage Rating (" + summary.milage_weight.toFixed(2) + ")",
+                cl: "milage_rating",
+                html: function (row) {
+
+                    ratio_rating = 1 - (row.milage - summary['milage_min']) / (summary['milage_max'] - summary['milage_min'])
+                    clr = d3color(ratio_rating);
+                    // inverseclr = color( 1 - ratio_rating );
+                    // clr=summary['milage_max'];
+
+                    var text = rating_style_prefix + clr.trim() + ';"> ' + row.milage_rating
+                        // + ' ' + ratio_rating
+                        + '</color> </span>';
+                    return text;
+                }
+            }
+            , {
+                head: "Age Rating (" + summary.age_weight.toFixed(2) + ")",
+                cl: "age_rating",
+                html: function (row) {
+
+                    ratio_rating = 1 - (row.age - summary['age_min']) / (summary['age_max'] - summary['age_min'])
+                    clr = d3color(ratio_rating);
+
+                    var text = rating_style_prefix + clr.trim() + ';"> ' + row.age_rating
+                        + '</color> </span>';
+                    return text;
+                }
+            }
+
+
+        ];
+
+        table.call(renderTable);
+
+        function renderTable(table) {
+
+            table.select("thead")
+                .selectAll("th")
+                .data(columns)
+                .enter().append("th")
+                .attr("class", function (d) {
+                    return d.cl;
+                })
+                .text(function (d) {
+                    return d.head;
+                })
+                .on("click", function (d) {
+                    var ascending = d.ascending ? false : true;
+                    d.ascending = ascending;
+
+                    records.sort(function (a, b) {
+                        return ascending ?
+                            d3.ascending(a[d.cl], b[d.cl]) :
+                            d3.descending(a[d.cl], b[d.cl]);
+                    });
+                    table.call(renderTable);
+                    filter_word();
+                });
+
+            var tr = table.select("tbody").selectAll("tr").data(records);
+
+            tr.enter().append("tr")
+                .on("mouseenter", mouseenter)
+                .on("mouseleave", mouseleave);
+
+            var td = tr.selectAll("td")
+                .data(function (row, i) {
+                    return columns.map(function (c) {
+                        var cell = {};
+                        d3.keys(c).forEach(function (k) {
+                            cell[k] = typeof c[k] == 'function' ? c[k](row, i) : c[k];
+                        });
+                        return cell;
+                    })
+                })
+
+            td.enter().append("td")
+                .attr("class", function (d) {
+                    return d.cl;
+                })
+                .style("background-color", "#fff")
+                .style("border-bottom", ".5px solid white");
+
+            td.html(function (d) {
+                return d.html;
+            });
+        }
+    }
+
+    function mouseenter() {
+        d3.select(this).selectAll("td")
+            .style("background-color", "#f0f0f0")
+            .style("border-bottom", ".5px solid slategrey");
+    }
+
+    function mouseleave() {
+        d3.select(this).selectAll("td")
+            .style("background-color", "#fff")
+            .style("border-bottom", ".5px solid white");
+    }
+</script>
+<script>
+    function change(dataset, colorcode) {
+
+        x.domain(dataset.map(function (d) {
+            return d.label;
+        }));
+        y.domain([0, d3.max(dataset, function (d) {
+            return d.value;
+        })]);
+
+        svg.append("g")
+            .attr("class", "x axis")
+            .attr("transform", "translate(0," + height + ")")
+            .call(xAxis);
+
+        svg.select(".y.axis").remove();
+        svg.select(".x.axis").remove();
+
+        svg.append("g")
+            .attr("class", "y axis")
+            .call(yAxis)
+            .append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 6)
+            .attr("dy", ".71em")
+            .style("text-anchor", "end")
+            .text("Distribution");
+
+        var bar = svg.selectAll(".bar")
+
+            .data(dataset, function (d) {
+                return d.label;
+            })
+        ;
+
+
+        bar.enter().append("rect")
+            .attr("class", "bar")
+            .attr("x", function (d) {
+                years.push(d.label.toString());
+                return x(d.label);
+            })
+            .attr("y", function (d) {
+                return y(d.value);
+            })
+            .attr("height", function (d) {
+                return height - y(d.value);
+            })
+            .attr("width", x.rangeBand())
+            .attr("fill", function (d) {
+                if (colorcode == 1) {
+                    return "steelblue";
+                }
+                else {
+                    return "red";
+                }
+                ;
+            })
+        ;
+        // new data:
+        if (firstrun) {
+            for (var i = 0; i < years.length; i++) {
+                years[i].previous = years[i - 1];
+            }
+            // console.log(years);
+        }
+
+        // // Add the scatterplot_details
+        // svg.selectAll("dot")
+        //     .data(data)
+        // .enter().append("circle")
+        //     .attr("r", 3.5)
+        //     .style("fill", function(d) {
+        //         if (d.close <= 400) {return "red"}
+        //         else 	{ return "black" }
+        //     ;})
+        //     .attr("cx", function(d) { return x(d.date); })
+        //     .attr("cy", function(d) { return y(d.close); });
+
+
+        // removed data:
+        bar.exit().remove();
+
+        // updated data: - actual transition
+        bar
+            .transition()
+            .duration(750)
+            .attr("y", function (d) {
+                return y(d.value);
+            })
+            .attr("fill", function (d) {
+                if (colorcode == 1) {
+                    return "steelblue";
+                }
+                else {
+                    return "green";
+                }
+                ;
+            })
+            .attr("height", function (d) {
+                firstrun = false;
+                value_dict[colorcode.toString() + '_' + d.label] = d.value;
+                return height - y(d.value);
+            });
+
+        var tooltip_div = d3.select("body").append("div").attr("class", "toolTip");
+        bar
+            .on("mousemove", function (d) {
+                tooltip_div.style("left", d3.event.pageX + 10 + "px");
+                tooltip_div.style("top", d3.event.pageY - 25 + "px");
+                tooltip_div.style("display", "inline-block");
+
+
+                prev_val = parseFloat(value_dict[colorcode.toString() + '_' + years[Math.max(0, years.indexOf(d.label.toString()) - 1)]]);
+                curr_val = parseFloat(d.value);
+
+                var other_colorcode = colorcode;
+                if (other_colorcode == 1) {
+                    other_colorcode = 2
+                } else {
+                    other_colorcode = 1
+                }
+                ;
+
+                other_val = parseFloat(value_dict[other_colorcode.toString() + '_' + years[Math.max(0, years.indexOf(d.label.toString()))]]);
+                percentage_difference = (((prev_val - curr_val) / prev_val));
+
+                label_info = '';
+                metric_unit = '';
+                metric_info = '';
+                other_metric = '';
+                color = "green";
+
+                var first_val = parseFloat(value_dict[colorcode.toString() + '_' + years[0].toString()]);
+                var firstsample_vs_metric_result = '';
+                firstsample_vs_metric_result = ((first_val - curr_val) / first_val);
+
+                if (current_selection == 'milage') {
+                    label_info = 'Avg Milage: ';
+                    metric_unit = ' km'
+                    metric_info = ' difference';
+                    other_metric = '<br/>Avg Price: $' + d3.format(",")(other_val);
+                    percentage_difference = -percentage_difference;
+                    firstsample_vs_metric_result = -firstsample_vs_metric_result;
+                }
+                else {
+                    label_info = 'Avg Price: $';
+                    metric_info = " price diff";
+
+                    other_metric = '<br/>Avg Milage: <font =color="' + 'black' + '">' + d3.format(",")(other_val) + "</font> km";
+
+                }
+                ;
+                if (percentage_difference < 0) {
+                    color = "red"
+                }
+                ;
+
+                var prev_comparison_metric_result = '<font color="' + color + '"> ' + d3.format("%")(percentage_difference) + "</font>";
+
+
+                tooltip_div.html((d.label) + "<br/>" + label_info + d3.format(",")(d.value)
+                    + metric_unit
+                    // + '<br/> ' + d3.format('%')(percentage_difference) + metric_info
+                    + '<br/> ' + prev_comparison_metric_result + metric_info
+                    + '<font color="black"><br/>(<i>' + d3.format('%')(firstsample_vs_metric_result) + " vs first" + "</i>)</font>"
+                    + '<br/> ' + other_metric
+                );
+
+            });
+
+        bar
+            .on("mouseout", function (d) {
+                tooltip_div.style("display", "none");
+            });
+    };
+
+    change(average_milages, 2);
+    change(average_prices, 1);
+</script>
+
+</body>
+
+</html>
