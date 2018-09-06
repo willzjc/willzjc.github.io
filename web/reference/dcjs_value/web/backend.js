@@ -350,9 +350,29 @@ d3.csv('data.csv', function (data) {
     );
 
     // Group by total volume within move, and scale down result
-    var volumeChartGroups = volumeChartDimensions.group().reduceSum(function (d) {
-        return d.volume;
-    });
+    var volumeChartGroups = volumeChartDimensions.group().reduce(
+        function (p, v) {
+												// console.log(v,p);
+            ++p.count;
+            p.total += (v.price);
+            p.avg = p.count ? Math.round(p.total / p.count) : 0;
+            return p;
+        },
+        function (p, v) {
+												// console.log(v,p);
+            --p.count;
+            p.total -= (v.price);
+            p.avg = p.count ? Math.round(p.total / p.count) : 0;
+            return p;
+        },
+        // Initialize P variables
+        function () {
+            return {
+                count: 0, total: 0, avg: 0
+                , avg_diff: 0, total_diff: 0
+            };
+        }
+    );
 
     // Price Average difference
     var priceAverageLinechartGroup = volumeChartDimensions.group().reduce(
@@ -932,8 +952,11 @@ d3.csv('data.csv', function (data) {
         .margins({top: 0, right: 50, bottom: 20, left: 40})
         .dimension(volumeChartDimensions)
         .group(volumeChartGroups)
+								.valueAccessor(function (d) {
+            return d.value.count;
+        })
         .centerBar(true)
-        .gap(1)
+        .gap(-23)
         .x(d3.time.scale().domain([new Date(1985, 0, 1), new Date(currentYear, 11, 31)]))
         .round(d3.time.month.round)
         .alwaysUseRounding(true)
