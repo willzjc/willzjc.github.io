@@ -124,10 +124,12 @@ d3.csv('data.csv', function (data) {
         // d.min_age = d.min_age ? d3.min(d.age, d.max_age) : d.age;
 
         // d.dd_year = dateFormat.parse(d.date);
-        d.month = d3.time.month(d.dd_year); // pre-calculate month for better performance
-        d.close = +d.close; // coerce to number
+        d.month = d3.time.month(d.dd_year);     // pre-calculate month for better performance
+        // d.date_added
+
+        d.close = +d.close;                     // coerce to number
         d.open = +d.open;
-        // d.id = +d.id;
+
         d.row_count = +d.row_count;
         d.price = +d.price;
         d.milage = +d.milage;
@@ -139,6 +141,13 @@ d3.csv('data.csv', function (data) {
         d.sum_rating = +d.sum_rating;
         d.market_price = +d.market_price;
         d.price_difference = +d.price_difference;
+
+        // Try to parse date
+        d.date_scraped = new Date(Date.parse(d.date_added));
+        d.month_scraped =  d3.time.month(d.date_scraped);
+
+        // console.log(d.date_scraped.getMonth());
+
     });
 
     // maxRangeYear= d3.max(input_data.age, function (d) {
@@ -308,6 +317,10 @@ d3.csv('data.csv', function (data) {
         return d.month;
     });
 
+    var scrapedDateChartDimensions = input_data.dimension(function (d) {
+        return d.month_scraped;
+    });
+
     // Group by total movement within month
     // var priceFluctuationsLinechartGroup = volumeChartDimensions.group().reduceSum(function (d) {
     //     // return Math.abs(d.close - d.open);
@@ -315,8 +328,33 @@ d3.csv('data.csv', function (data) {
     //     return Math.abs(d.price);
     // });
 
+
+    // Group by total volume within move, and scale down result
+    var scrapedDateChartGroups = scrapedDateChartDimensions.group().reduce(
+        function (p, v) {
+												// console.log(v,p);
+            ++p.count;
+
+            return p;
+        },
+        function (p, v) {
+												// console.log(v,p);
+            --p.count;
+
+            return p;
+        },
+        // Initialize P variables
+        function () {
+            return {
+                count: 0
+            };
+        }
+    );
+
+
+
     // Group by price difference of group
-    var offset_multiplier = 200;
+
     var priceFluctuationsLinechartGroup = volumeChartDimensions.group().reduce(
         function (p, v) {
             ++p.count;
@@ -943,7 +981,7 @@ d3.csv('data.csv', function (data) {
     })
     ;
 
-    //#### Range Chart
+    //#### Range and Frequency Chart
     // Since this bar chart is specified as "range chart" for the area chart, its brush extent
     // will always match the zoom of the area chart.
     volumeRangeChart
@@ -952,12 +990,13 @@ d3.csv('data.csv', function (data) {
         .margins({top: 0, right: 50, bottom: 20, left: 40})
         .dimension(volumeChartDimensions)
         .group(volumeChartGroups)
-								.valueAccessor(function (d) {
+        .valueAccessor(function (d) {
             return d.value.count;
         })
         .centerBar(true)
         .gap(-23)
         .x(d3.time.scale().domain([new Date(1985, 0, 1), new Date(currentYear, 11, 31)]))
+        // .x(d3.time.scale().domain([new Date(currentYear-2, 11, 31), new Date(currentYear, 11, 31)]))
         .round(d3.time.month.round)
         .alwaysUseRounding(true)
         .xUnits(d3.time.months)
