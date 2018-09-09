@@ -67,6 +67,7 @@ def calculate_analytics(df,weightings=None):
         df['price_difference'] =  (df['market_price']-df['price']).astype(int)
 
         print prediction_model.summary()
+
     except Exception as e:
         print len(df)
         df['market_price'] = df['price']

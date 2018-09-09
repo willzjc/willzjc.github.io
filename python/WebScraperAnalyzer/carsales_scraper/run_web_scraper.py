@@ -303,6 +303,7 @@ def main():
     }
 
     df,prediction_model=calculate_analytics(df,weightings)
+
     if db_save:
         save_to_db(df=df)
 
