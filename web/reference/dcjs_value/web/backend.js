@@ -308,6 +308,13 @@ d3.csv('data.csv', function (data) {
         return d.month;
     });
 
+    // Group by total volume within move, and scale down result
+    var volumeByMonthGroup = volumeChartDimensions.group().reduceSum(function (d) {
+        // return d.volume / 500000;
+        // console.log(d.volume);
+        return d.volume ;
+    });
+
     // Group by total movement within month
     // var priceFluctuationsLinechartGroup = volumeChartDimensions.group().reduceSum(function (d) {
     //     // return Math.abs(d.close - d.open);
@@ -931,7 +938,7 @@ d3.csv('data.csv', function (data) {
         .height(40)
         .margins({top: 0, right: 50, bottom: 20, left: 40})
         .dimension(volumeChartDimensions)
-        .group(volumeChartGroups)
+        .group(volumeByMonthGroup)
         .centerBar(true)
         .gap(1)
         .x(d3.time.scale().domain([new Date(1985, 0, 1), new Date(currentYear, 11, 31)]))
