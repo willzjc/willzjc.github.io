@@ -8,3 +8,4 @@ desktop.ini
 .ipynb_checkpoints
 venv
 .idea
+*.pyc
