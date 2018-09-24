@@ -2,7 +2,9 @@ desktop.ini
 .eml
 .pyc
 .pkl
+*.pkl
 .pk
+*.pk
 .swp
 .*.swp
 .ipynb_checkpoints
