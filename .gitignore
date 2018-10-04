@@ -15,3 +15,5 @@ desktop.ini
 venv
 .idea
 *.idea
+venv/
+venv_pycharm/
