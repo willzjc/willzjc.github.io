@@ -15,16 +15,10 @@ def download_webpage(url, overwrite,use_local_copy):
         print 'Using local cached copy at: ',localfile
     else:
 
-        # authinfo = urllib.request.HTTPBasicAuthHandler()
+	
+	# For when running behind a company proxy (self signed ssl certificates)
+	# Ignores warning as html pages are not run by a browser when scraped
 
-        # proxy_support = urllib.request.ProxyHandler({"http": "AUR\\srv-fx-proxy:GyDNH42Nw79q@sparpxyapp.aur.national.com.au:8080"})
-
-        # build a new opener that adds authentication and caching FTP handlers
-        # opener = urllib.request.build_opener(proxy_support, authinfo,
-        #                                      urllib.request.CacheFTPHandler)
-
-        # install it
-        # urllib.request.install_opener(opener)
 	ctx = ssl.create_default_context()
 	ctx.check_hostname = False
 	ctx.verify_mode = ssl.CERT_NONE
