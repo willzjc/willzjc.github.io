@@ -1,7 +1,8 @@
 import os
 import datetime
 import re
-import urllib
+import urllib2
+import ssl
 
 localfile='output/local_url_cache.html'
 
@@ -24,8 +25,12 @@ def download_webpage(url, overwrite,use_local_copy):
 
         # install it
         # urllib.request.install_opener(opener)
+	ctx = ssl.create_default_context()
+	ctx.check_hostname = False
+	ctx.verify_mode = ssl.CERT_NONE
 
-        f = urllib.urlopen(url)
+
+        f = urllib2.urlopen(url=url,context=ctx)
         content = f.read()
 
         f = open(localfile, 'w')
