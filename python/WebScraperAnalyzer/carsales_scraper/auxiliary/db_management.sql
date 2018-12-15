@@ -39,3 +39,4 @@
 -- DELETE FROM cars WHERE rowid NOT IN (SELECT min(rowid) FROM cars GROUP BY id);
 DELETE FROM cars WHERE rowid NOT IN (SELECT min(rowid) FROM cars GROUP BY id);
 select count(*) from cars;
+
