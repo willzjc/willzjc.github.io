@@ -1,9 +1,6 @@
 desktop.ini
-.eml
 *.eml
-.pyc
 *.pyc
-.pkl
 *.pkl
 .pk
 *.pk
