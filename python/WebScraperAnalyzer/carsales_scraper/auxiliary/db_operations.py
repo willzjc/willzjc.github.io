@@ -37,6 +37,7 @@ class db_interface ():
         self.connection.commit()
 
     def save_update_df(self,df):
+        
         print 'Saving to database'
 
         for index, row in df.iterrows():

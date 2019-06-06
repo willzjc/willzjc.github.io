@@ -1,7 +1,7 @@
 import datetime
 import time
 import re
-
+import sys
 import pandas as pd
 
 from auxiliary.data_container import data_rows
@@ -272,12 +272,22 @@ def pagination_scrape(page_loop_counter,url,pagination_offset,doc_count,LIVE_DAT
     return df
 
 # Main Application
+
 def main():
 
     global url,page_loop_counter,pagination_offset,total_car_count,LIVE_DATA,df,db_save
 
+
     url_list = open('url_list','r').read().split('\n')
     url = [url for url in url_list if len(url.strip()) > 0 and url.strip()[0] != '#'][-1]
+
+
+    print sys.argv
+
+    if len(sys.argv) > 1:
+        url=sys.argv[1]
+
+    print url
 
     db_save = False
     USE_LOCAL_COPY = False

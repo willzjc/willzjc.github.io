@@ -1,199 +1,325 @@
 model,description,metric,metric_code,value,rating,link
-SSE-AD-6062853,6 - 2013 Mazda 6 Sport GJ Auto,price,price,15000,2.52,https://www.carsales.com.au/cars/details/Mazda-6-2013/SSE-AD-6062853/?Cr=298
-SSE-AD-6062853,6 - 2013 Mazda 6 Sport GJ Auto,milage,milage,49758,2.52,https://www.carsales.com.au/cars/details/Mazda-6-2013/SSE-AD-6062853/?Cr=298
-SSE-AD-6062853,6 - 2013 Mazda 6 Sport GJ Auto,age,age,6,2.52,https://www.carsales.com.au/cars/details/Mazda-6-2013/SSE-AD-6062853/?Cr=298
-SSE-AD-6076262,6 - 2013 Mazda 6 Sport GJ Auto,price,price,15500,2.37,https://www.carsales.com.au/cars/details/Mazda-6-2013/SSE-AD-6076262/?gts=SSE-AD-6076262&gtssaleid=SSE-AD-6076262&rankingType=Spotlight
-SSE-AD-6076262,6 - 2013 Mazda 6 Sport GJ Auto,milage,milage,52000,2.37,https://www.carsales.com.au/cars/details/Mazda-6-2013/SSE-AD-6076262/?gts=SSE-AD-6076262&gtssaleid=SSE-AD-6076262&rankingType=Spotlight
-SSE-AD-6076262,6 - 2013 Mazda 6 Sport GJ Auto,age,age,6,2.37,https://www.carsales.com.au/cars/details/Mazda-6-2013/SSE-AD-6076262/?gts=SSE-AD-6076262&gtssaleid=SSE-AD-6076262&rankingType=Spotlight
-SSE-AD-5683569,6 - 2015 Mazda 6 Touring GJ Series 2 Auto,price,price,23500,2.11,https://www.carsales.com.au/cars/details/Mazda-6-2015/SSE-AD-5683569/?Cr=301
-SSE-AD-5683569,6 - 2015 Mazda 6 Touring GJ Series 2 Auto,milage,milage,25000,2.11,https://www.carsales.com.au/cars/details/Mazda-6-2015/SSE-AD-5683569/?Cr=301
-SSE-AD-5683569,6 - 2015 Mazda 6 Touring GJ Series 2 Auto,age,age,4,2.11,https://www.carsales.com.au/cars/details/Mazda-6-2015/SSE-AD-5683569/?Cr=301
-SSE-AD-5719242,6 - 2010 Mazda 6 Classic GH Series 2 Auto,price,price,10000,2.10,https://www.carsales.com.au/cars/details/Mazda-6-2010/SSE-AD-5719242/?Cr=121
-SSE-AD-5719242,6 - 2010 Mazda 6 Classic GH Series 2 Auto,milage,milage,75000,2.10,https://www.carsales.com.au/cars/details/Mazda-6-2010/SSE-AD-5719242/?Cr=121
-SSE-AD-5719242,6 - 2010 Mazda 6 Classic GH Series 2 Auto,age,age,9,2.10,https://www.carsales.com.au/cars/details/Mazda-6-2010/SSE-AD-5719242/?Cr=121
-SSE-AD-6092245,6 - 2009 Mazda 6 Classic GH Series 1 Manual,price,price,11999,2.04,https://www.carsales.com.au/cars/details/Mazda-6-2009/SSE-AD-6092245/?Cr=118
-SSE-AD-6092245,6 - 2009 Mazda 6 Classic GH Series 1 Manual,milage,milage,56999,2.04,https://www.carsales.com.au/cars/details/Mazda-6-2009/SSE-AD-6092245/?Cr=118
-SSE-AD-6092245,6 - 2009 Mazda 6 Classic GH Series 1 Manual,age,age,10,2.04,https://www.carsales.com.au/cars/details/Mazda-6-2009/SSE-AD-6092245/?Cr=118
-OAG-AD-16609205,6 - 2018 Mazda 6 Sport GL Series Auto,price,price,31288,2.03,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-16609205/?Cr=4
-OAG-AD-16609205,6 - 2018 Mazda 6 Sport GL Series Auto,milage,milage,0,2.03,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-16609205/?Cr=4
-OAG-AD-16609205,6 - 2018 Mazda 6 Sport GL Series Auto,age,age,1,2.03,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-16609205/?Cr=4
-OAG-AD-16943482,6 - 2017 Mazda 6 Touring GL Series Auto,price,price,29980,1.97,https://www.carsales.com.au/cars/details/Mazda-6-2017/OAG-AD-16943482/?Cr=2
-OAG-AD-16943482,6 - 2017 Mazda 6 Touring GL Series Auto,milage,milage,3245,1.97,https://www.carsales.com.au/cars/details/Mazda-6-2017/OAG-AD-16943482/?Cr=2
-OAG-AD-16943482,6 - 2017 Mazda 6 Touring GL Series Auto,age,age,2,1.97,https://www.carsales.com.au/cars/details/Mazda-6-2017/OAG-AD-16943482/?Cr=2
-OAG-AD-17225548,6 - 2018 Mazda 6 Sport GL Series Auto,price,price,31999,1.85,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-17225548/?Cr=247
-OAG-AD-17225548,6 - 2018 Mazda 6 Sport GL Series Auto,milage,milage,2090,1.85,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-17225548/?Cr=247
-OAG-AD-17225548,6 - 2018 Mazda 6 Sport GL Series Auto,age,age,1,1.85,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-17225548/?Cr=247
-SSE-AD-6039118,6 - 2013 Mazda 6 GT GJ Auto,price,price,18900,1.83,https://www.carsales.com.au/cars/details/Mazda-6-2013/SSE-AD-6039118/?Cr=59
-SSE-AD-6039118,6 - 2013 Mazda 6 GT GJ Auto,milage,milage,50000,1.83,https://www.carsales.com.au/cars/details/Mazda-6-2013/SSE-AD-6039118/?Cr=59
-SSE-AD-6039118,6 - 2013 Mazda 6 GT GJ Auto,age,age,6,1.83,https://www.carsales.com.au/cars/details/Mazda-6-2013/SSE-AD-6039118/?Cr=59
-SSE-AD-6011911,6 - 2012 Mazda 6 Touring GH Series 2 Auto,price,price,16000,1.65,https://www.carsales.com.au/cars/details/Mazda-6-2012/SSE-AD-6011911/?Cr=119
-SSE-AD-6011911,6 - 2012 Mazda 6 Touring GH Series 2 Auto,milage,milage,67700,1.65,https://www.carsales.com.au/cars/details/Mazda-6-2012/SSE-AD-6011911/?Cr=119
-SSE-AD-6011911,6 - 2012 Mazda 6 Touring GH Series 2 Auto,age,age,7,1.65,https://www.carsales.com.au/cars/details/Mazda-6-2012/SSE-AD-6011911/?Cr=119
-SSE-AD-6008189,6 - 2015 Mazda 6 Sport GJ Series 2 Auto,price,price,24000,1.63,https://www.carsales.com.au/cars/details/Mazda-6-2015/SSE-AD-6008189/?Cr=295
-SSE-AD-6008189,6 - 2015 Mazda 6 Sport GJ Series 2 Auto,milage,milage,39500,1.63,https://www.carsales.com.au/cars/details/Mazda-6-2015/SSE-AD-6008189/?Cr=295
-SSE-AD-6008189,6 - 2015 Mazda 6 Sport GJ Series 2 Auto,age,age,4,1.63,https://www.carsales.com.au/cars/details/Mazda-6-2015/SSE-AD-6008189/?Cr=295
-OAG-AD-17059972,6 - 2018 Mazda 6 GT GL Series Auto,price,price,33990,1.51,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-17059972/?Cr=67
-OAG-AD-17059972,6 - 2018 Mazda 6 GT GL Series Auto,milage,milage,1853,1.51,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-17059972/?Cr=67
-OAG-AD-17059972,6 - 2018 Mazda 6 GT GL Series Auto,age,age,1,1.51,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-17059972/?Cr=67
-OAG-AD-17204899,6 - 2013 Mazda 6 Atenza GJ Auto,price,price,23999,1.34,https://www.carsales.com.au/cars/details/Mazda-6-2013/OAG-AD-17204899/?Cr=0
-OAG-AD-17204899,6 - 2013 Mazda 6 Atenza GJ Auto,milage,milage,35306,1.34,https://www.carsales.com.au/cars/details/Mazda-6-2013/OAG-AD-17204899/?Cr=0
-OAG-AD-17204899,6 - 2013 Mazda 6 Atenza GJ Auto,age,age,6,1.34,https://www.carsales.com.au/cars/details/Mazda-6-2013/OAG-AD-17204899/?Cr=0
-SHRM-AD-5970478,6 - 2019 Mazda 6 Sport GL Series Auto,price,price,37108,1.22,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970478/?Cr=125
-SHRM-AD-5970478,6 - 2019 Mazda 6 Sport GL Series Auto,milage,milage,0,1.22,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970478/?Cr=125
-SHRM-AD-5970478,6 - 2019 Mazda 6 Sport GL Series Auto,age,age,0,1.22,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970478/?Cr=125
-OAG-AD-17217991,6 - 2014 Mazda 6 Sport GJ Auto,price,price,14952,1.17,https://www.carsales.com.au/cars/details/Mazda-6-2014/OAG-AD-17217991/?Cr=63
-OAG-AD-17217991,6 - 2014 Mazda 6 Sport GJ Auto,milage,milage,107061,1.17,https://www.carsales.com.au/cars/details/Mazda-6-2014/OAG-AD-17217991/?Cr=63
-OAG-AD-17217991,6 - 2014 Mazda 6 Sport GJ Auto,age,age,5,1.17,https://www.carsales.com.au/cars/details/Mazda-6-2014/OAG-AD-17217991/?Cr=63
-SHRM-AD-5970473,6 - 2019 Mazda 6 Sport GL Series Auto,price,price,37408,1.17,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970473/?Cr=187
-SHRM-AD-5970473,6 - 2019 Mazda 6 Sport GL Series Auto,milage,milage,0,1.17,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970473/?Cr=187
-SHRM-AD-5970473,6 - 2019 Mazda 6 Sport GL Series Auto,age,age,0,1.17,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970473/?Cr=187
-SHRM-AD-6013354,6 - 2019 Mazda 6 Sport GL Series Auto,price,price,37408,1.17,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-6013354/?Cr=128
-SHRM-AD-6013354,6 - 2019 Mazda 6 Sport GL Series Auto,milage,milage,0,1.17,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-6013354/?Cr=128
-SHRM-AD-6013354,6 - 2019 Mazda 6 Sport GL Series Auto,age,age,0,1.17,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-6013354/?Cr=128
-OAG-AD-16928511,6 - 2017 Mazda 6 Atenza GL Series Auto,price,price,30555,1.13,https://www.carsales.com.au/cars/details/Mazda-6-2017/OAG-AD-16928511/?gts=OAG-AD-16928511&gtssaleid=OAG-AD-16928511&rankingType=Showcase
-OAG-AD-16928511,6 - 2017 Mazda 6 Atenza GL Series Auto,milage,milage,30671,1.13,https://www.carsales.com.au/cars/details/Mazda-6-2017/OAG-AD-16928511/?gts=OAG-AD-16928511&gtssaleid=OAG-AD-16928511&rankingType=Showcase
-OAG-AD-16928511,6 - 2017 Mazda 6 Atenza GL Series Auto,age,age,2,1.13,https://www.carsales.com.au/cars/details/Mazda-6-2017/OAG-AD-16928511/?gts=OAG-AD-16928511&gtssaleid=OAG-AD-16928511&rankingType=Showcase
-OAG-AD-17202076,6 - 2016 Mazda 6 Touring GJ Series 2 Auto,price,price,22880,1.07,https://www.carsales.com.au/cars/details/Mazda-6-2016/OAG-AD-17202076/?Cr=60
-OAG-AD-17202076,6 - 2016 Mazda 6 Touring GJ Series 2 Auto,milage,milage,74599,1.07,https://www.carsales.com.au/cars/details/Mazda-6-2016/OAG-AD-17202076/?Cr=60
-OAG-AD-17202076,6 - 2016 Mazda 6 Touring GJ Series 2 Auto,age,age,3,1.07,https://www.carsales.com.au/cars/details/Mazda-6-2016/OAG-AD-17202076/?Cr=60
-SSE-AD-6034413,6 - 2012 Mazda 6 Touring GJ Auto,price,price,19999,1.00,https://www.carsales.com.au/cars/details/Mazda-6-2012/SSE-AD-6034413/?Cr=303
-SSE-AD-6034413,6 - 2012 Mazda 6 Touring GJ Auto,milage,milage,66000,1.00,https://www.carsales.com.au/cars/details/Mazda-6-2012/SSE-AD-6034413/?Cr=303
-SSE-AD-6034413,6 - 2012 Mazda 6 Touring GJ Auto,age,age,7,1.00,https://www.carsales.com.au/cars/details/Mazda-6-2012/SSE-AD-6034413/?Cr=303
-SSE-AD-6086787,6 - 2005 Mazda 6 Classic GG Series 2 Auto,price,price,10000,0.96,https://www.carsales.com.au/cars/details/Mazda-6-2005/SSE-AD-6086787/?gts=SSE-AD-6086787&gtssaleid=SSE-AD-6086787&rankingType=Spotlight
-SSE-AD-6086787,6 - 2005 Mazda 6 Classic GG Series 2 Auto,milage,milage,80000,0.96,https://www.carsales.com.au/cars/details/Mazda-6-2005/SSE-AD-6086787/?gts=SSE-AD-6086787&gtssaleid=SSE-AD-6086787&rankingType=Spotlight
-SSE-AD-6086787,6 - 2005 Mazda 6 Classic GG Series 2 Auto,age,age,14,0.96,https://www.carsales.com.au/cars/details/Mazda-6-2005/SSE-AD-6086787/?gts=SSE-AD-6086787&gtssaleid=SSE-AD-6086787&rankingType=Spotlight
-OAG-AD-17214509,6 - 2015 Mazda 6 Touring GJ Series 2 Auto,price,price,23990,0.89,https://www.carsales.com.au/cars/details/Mazda-6-2015/OAG-AD-17214509/?Cr=70
-OAG-AD-17214509,6 - 2015 Mazda 6 Touring GJ Series 2 Auto,milage,milage,66970,0.89,https://www.carsales.com.au/cars/details/Mazda-6-2015/OAG-AD-17214509/?Cr=70
-OAG-AD-17214509,6 - 2015 Mazda 6 Touring GJ Series 2 Auto,age,age,4,0.89,https://www.carsales.com.au/cars/details/Mazda-6-2015/OAG-AD-17214509/?Cr=70
-OAG-AD-17204002,6 - 2018 Mazda 6 GT GL Series Auto,price,price,36950,0.85,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-17204002/?Cr=5
-OAG-AD-17204002,6 - 2018 Mazda 6 GT GL Series Auto,milage,milage,7129,0.85,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-17204002/?Cr=5
-OAG-AD-17204002,6 - 2018 Mazda 6 GT GL Series Auto,age,age,1,0.85,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-17204002/?Cr=5
-OAG-AD-16927717,6 - 2018 Mazda 6 Atenza GL Series Auto,price,price,37999,0.84,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-16927717/?gts=OAG-AD-16927717&gtssaleid=OAG-AD-16927717&rankingType=TopSpot
-OAG-AD-16927717,6 - 2018 Mazda 6 Atenza GL Series Auto,milage,milage,1011,0.84,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-16927717/?gts=OAG-AD-16927717&gtssaleid=OAG-AD-16927717&rankingType=TopSpot
-OAG-AD-16927717,6 - 2018 Mazda 6 Atenza GL Series Auto,age,age,1,0.84,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-16927717/?gts=OAG-AD-16927717&gtssaleid=OAG-AD-16927717&rankingType=TopSpot
-SSE-AD-5964221,6 - 2004 Mazda 6 Classic GG Series 1 Auto,price,price,4200,0.76,https://www.carsales.com.au/cars/details/Mazda-6-2004/SSE-AD-5964221/?Cr=185
-SSE-AD-5964221,6 - 2004 Mazda 6 Classic GG Series 1 Auto,milage,milage,117203,0.76,https://www.carsales.com.au/cars/details/Mazda-6-2004/SSE-AD-5964221/?Cr=185
-SSE-AD-5964221,6 - 2004 Mazda 6 Classic GG Series 1 Auto,age,age,15,0.76,https://www.carsales.com.au/cars/details/Mazda-6-2004/SSE-AD-5964221/?Cr=185
-OAG-AD-17217036,6 - 2017 Mazda 6 GT GL Series Auto,price,price,36990,0.68,https://www.carsales.com.au/cars/details/Mazda-6-2017/OAG-AD-17217036/?Cr=236
-OAG-AD-17217036,6 - 2017 Mazda 6 GT GL Series Auto,milage,milage,5702,0.68,https://www.carsales.com.au/cars/details/Mazda-6-2017/OAG-AD-17217036/?Cr=236
-OAG-AD-17217036,6 - 2017 Mazda 6 GT GL Series Auto,age,age,2,0.68,https://www.carsales.com.au/cars/details/Mazda-6-2017/OAG-AD-17217036/?Cr=236
-OAG-AD-17177170,6 - 2018 Mazda 6 GT GL Series Auto,price,price,39999,0.37,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-17177170/?Cr=62
-OAG-AD-17177170,6 - 2018 Mazda 6 GT GL Series Auto,milage,milage,5194,0.37,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-17177170/?Cr=62
-OAG-AD-17177170,6 - 2018 Mazda 6 GT GL Series Auto,age,age,1,0.37,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-17177170/?Cr=62
-OAG-AD-16266897,6 - 2018 Mazda 6 GT GL Series Auto,price,price,41320,0.24,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-16266897/?Cr=0
-OAG-AD-16266897,6 - 2018 Mazda 6 GT GL Series Auto,milage,milage,1657,0.24,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-16266897/?Cr=0
-OAG-AD-16266897,6 - 2018 Mazda 6 GT GL Series Auto,age,age,1,0.24,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-16266897/?Cr=0
-OAG-AD-17130162,6 - 2013 Mazda 6 Sport GJ Auto,price,price,14990,0.10,https://www.carsales.com.au/cars/details/Mazda-6-2013/OAG-AD-17130162/?Cr=61
-OAG-AD-17130162,6 - 2013 Mazda 6 Sport GJ Auto,milage,milage,139160,0.10,https://www.carsales.com.au/cars/details/Mazda-6-2013/OAG-AD-17130162/?Cr=61
-OAG-AD-17130162,6 - 2013 Mazda 6 Sport GJ Auto,age,age,6,0.10,https://www.carsales.com.au/cars/details/Mazda-6-2013/OAG-AD-17130162/?Cr=61
-SSE-AD-6057458,6 - 2013 Mazda 6 Atenza GJ Auto,price,price,17300,0.02,https://www.carsales.com.au/cars/details/Mazda-6-2013/SSE-AD-6057458/?Cr=68
-SSE-AD-6057458,6 - 2013 Mazda 6 Atenza GJ Auto,milage,milage,126952,0.02,https://www.carsales.com.au/cars/details/Mazda-6-2013/SSE-AD-6057458/?Cr=68
-SSE-AD-6057458,6 - 2013 Mazda 6 Atenza GJ Auto,age,age,6,0.02,https://www.carsales.com.au/cars/details/Mazda-6-2013/SSE-AD-6057458/?Cr=68
-SHRM-AD-5970494,6 - 2019 Mazda 6 Touring GL Series Auto,price,price,44685,-0.10,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970494/?Cr=178
-SHRM-AD-5970494,6 - 2019 Mazda 6 Touring GL Series Auto,milage,milage,0,-0.10,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970494/?Cr=178
-SHRM-AD-5970494,6 - 2019 Mazda 6 Touring GL Series Auto,age,age,0,-0.10,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970494/?Cr=178
-SHRM-AD-5970500,6 - 2019 Mazda 6 Touring GL Series Auto,price,price,44985,-0.15,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970500/?Cr=122
-SHRM-AD-5970500,6 - 2019 Mazda 6 Touring GL Series Auto,milage,milage,0,-0.15,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970500/?Cr=122
-SHRM-AD-5970500,6 - 2019 Mazda 6 Touring GL Series Auto,age,age,0,-0.15,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970500/?Cr=122
-SSE-AD-6094339,6 - 2011 Mazda 6 Classic GH Series 2 Auto,price,price,11500,-0.16,https://www.carsales.com.au/cars/details/Mazda-6-2011/SSE-AD-6094339/?Cr=124
-SSE-AD-6094339,6 - 2011 Mazda 6 Classic GH Series 2 Auto,milage,milage,156000,-0.16,https://www.carsales.com.au/cars/details/Mazda-6-2011/SSE-AD-6094339/?Cr=124
-SSE-AD-6094339,6 - 2011 Mazda 6 Classic GH Series 2 Auto,age,age,8,-0.16,https://www.carsales.com.au/cars/details/Mazda-6-2011/SSE-AD-6094339/?Cr=124
-OAG-AD-17214725,6 - 2008 Mazda 6 Classic GH Series 1 Manual,price,price,5990,-0.57,https://www.carsales.com.au/cars/details/Mazda-6-2008/OAG-AD-17214725/?Cr=69
-OAG-AD-17214725,6 - 2008 Mazda 6 Classic GH Series 1 Manual,milage,milage,184505,-0.57,https://www.carsales.com.au/cars/details/Mazda-6-2008/OAG-AD-17214725/?Cr=69
-OAG-AD-17214725,6 - 2008 Mazda 6 Classic GH Series 1 Manual,age,age,11,-0.57,https://www.carsales.com.au/cars/details/Mazda-6-2008/OAG-AD-17214725/?Cr=69
-OAG-AD-16645002,6 - 2005 Mazda 6 Classic GG Series 1 Manual,price,price,5990,-0.67,https://www.carsales.com.au/cars/details/Mazda-6-2005/OAG-AD-16645002/?Cr=66
-OAG-AD-16645002,6 - 2005 Mazda 6 Classic GG Series 1 Manual,milage,milage,165900,-0.67,https://www.carsales.com.au/cars/details/Mazda-6-2005/OAG-AD-16645002/?Cr=66
-OAG-AD-16645002,6 - 2005 Mazda 6 Classic GG Series 1 Manual,age,age,14,-0.67,https://www.carsales.com.au/cars/details/Mazda-6-2005/OAG-AD-16645002/?Cr=66
-SSE-AD-5940541,6 - 2006 Mazda 6 Classic GG Series 2 Auto,price,price,3500,-0.88,https://www.carsales.com.au/cars/details/Mazda-6-2006/SSE-AD-5940541/?Cr=302
-SSE-AD-5940541,6 - 2006 Mazda 6 Classic GG Series 2 Auto,milage,milage,197000,-0.88,https://www.carsales.com.au/cars/details/Mazda-6-2006/SSE-AD-5940541/?Cr=302
-SSE-AD-5940541,6 - 2006 Mazda 6 Classic GG Series 2 Auto,age,age,13,-0.88,https://www.carsales.com.au/cars/details/Mazda-6-2006/SSE-AD-5940541/?Cr=302
-SHRM-AD-5970504,6 - 2019 Mazda 6 GT GL Series Auto,price,price,49148,-0.88,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970504/?Cr=177
-SHRM-AD-5970504,6 - 2019 Mazda 6 GT GL Series Auto,milage,milage,0,-0.88,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970504/?Cr=177
-SHRM-AD-5970504,6 - 2019 Mazda 6 GT GL Series Auto,age,age,0,-0.88,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970504/?Cr=177
-SHRM-AD-5970507,6 - 2019 Mazda 6 GT GL Series Auto,price,price,49148,-0.88,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970507/?Cr=239
-SHRM-AD-5970507,6 - 2019 Mazda 6 GT GL Series Auto,milage,milage,0,-0.88,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970507/?Cr=239
-SHRM-AD-5970507,6 - 2019 Mazda 6 GT GL Series Auto,age,age,0,-0.88,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970507/?Cr=239
-SHRM-AD-6006985,6 - 2019 Mazda 6 GT GL Series Auto,price,price,49148,-0.88,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-6006985/?Cr=243
-SHRM-AD-6006985,6 - 2019 Mazda 6 GT GL Series Auto,milage,milage,0,-0.88,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-6006985/?Cr=243
-SHRM-AD-6006985,6 - 2019 Mazda 6 GT GL Series Auto,age,age,0,-0.88,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-6006985/?Cr=243
-SHRM-AD-5970508,6 - 2019 Mazda 6 GT GL Series Auto,price,price,49148,-0.88,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970508/?Cr=184
-SHRM-AD-5970508,6 - 2019 Mazda 6 GT GL Series Auto,milage,milage,0,-0.88,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970508/?Cr=184
-SHRM-AD-5970508,6 - 2019 Mazda 6 GT GL Series Auto,age,age,0,-0.88,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970508/?Cr=184
-SHRM-AD-5970512,6 - 2019 Mazda 6 GT GL Series Auto,price,price,49148,-0.88,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970512/?Cr=129
-SHRM-AD-5970512,6 - 2019 Mazda 6 GT GL Series Auto,milage,milage,0,-0.88,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970512/?Cr=129
-SHRM-AD-5970512,6 - 2019 Mazda 6 GT GL Series Auto,age,age,0,-0.88,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970512/?Cr=129
-SHRM-AD-5970511,6 - 2019 Mazda 6 GT GL Series Auto,price,price,49148,-0.88,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970511/?Cr=127
-SHRM-AD-5970511,6 - 2019 Mazda 6 GT GL Series Auto,milage,milage,0,-0.88,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970511/?Cr=127
-SHRM-AD-5970511,6 - 2019 Mazda 6 GT GL Series Auto,age,age,0,-0.88,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970511/?Cr=127
-SHRM-AD-6011186,6 - 2019 Mazda 6 GT GL Series Auto,price,price,49448,-0.93,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-6011186/?Cr=126
-SHRM-AD-6011186,6 - 2019 Mazda 6 GT GL Series Auto,milage,milage,0,-0.93,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-6011186/?Cr=126
-SHRM-AD-6011186,6 - 2019 Mazda 6 GT GL Series Auto,age,age,0,-0.93,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-6011186/?Cr=126
-OAG-AD-17195081,6 - 2019 Mazda 6 Atenza GL Series Auto,price,price,49870,-1.01,https://www.carsales.com.au/cars/details/Mazda-6-2019/OAG-AD-17195081/?gts=OAG-AD-17195081&gtssaleid=OAG-AD-17195081&rankingType=Showcase
-OAG-AD-17195081,6 - 2019 Mazda 6 Atenza GL Series Auto,milage,milage,0,-1.01,https://www.carsales.com.au/cars/details/Mazda-6-2019/OAG-AD-17195081/?gts=OAG-AD-17195081&gtssaleid=OAG-AD-17195081&rankingType=Showcase
-OAG-AD-17195081,6 - 2019 Mazda 6 Atenza GL Series Auto,age,age,0,-1.01,https://www.carsales.com.au/cars/details/Mazda-6-2019/OAG-AD-17195081/?gts=OAG-AD-17195081&gtssaleid=OAG-AD-17195081&rankingType=Showcase
-SHRM-AD-6006140,6 - 2019 Mazda 6 GT GL Series Auto,price,price,50303,-1.08,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-6006140/?Cr=241
-SHRM-AD-6006140,6 - 2019 Mazda 6 GT GL Series Auto,milage,milage,0,-1.08,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-6006140/?Cr=241
-SHRM-AD-6006140,6 - 2019 Mazda 6 GT GL Series Auto,age,age,0,-1.08,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-6006140/?Cr=241
-SHRM-AD-6006138,6 - 2019 Mazda 6 GT GL Series Auto,price,price,50303,-1.08,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-6006138/?Cr=245
-SHRM-AD-6006138,6 - 2019 Mazda 6 GT GL Series Auto,milage,milage,0,-1.08,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-6006138/?Cr=245
-SHRM-AD-6006138,6 - 2019 Mazda 6 GT GL Series Auto,age,age,0,-1.08,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-6006138/?Cr=245
-SHRM-AD-5970517,6 - 2019 Mazda 6 GT GL Series Auto,price,price,50303,-1.08,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970517/?Cr=183
-SHRM-AD-5970517,6 - 2019 Mazda 6 GT GL Series Auto,milage,milage,0,-1.08,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970517/?Cr=183
-SHRM-AD-5970517,6 - 2019 Mazda 6 GT GL Series Auto,age,age,0,-1.08,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970517/?Cr=183
-SHRM-AD-5970519,6 - 2019 Mazda 6 GT GL Series Auto,price,price,50303,-1.08,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970519/?Cr=181
-SHRM-AD-5970519,6 - 2019 Mazda 6 GT GL Series Auto,milage,milage,0,-1.08,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970519/?Cr=181
-SHRM-AD-5970519,6 - 2019 Mazda 6 GT GL Series Auto,age,age,0,-1.08,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970519/?Cr=181
-OAG-AD-17003242,6 - 2018 Mazda 6 Atenza GL Series Auto,price,price,48990,-1.11,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-17003242/?Cr=65
-OAG-AD-17003242,6 - 2018 Mazda 6 Atenza GL Series Auto,milage,milage,2059,-1.11,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-17003242/?Cr=65
-OAG-AD-17003242,6 - 2018 Mazda 6 Atenza GL Series Auto,age,age,1,-1.11,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-17003242/?Cr=65
-SHRM-AD-6006137,6 - 2019 Mazda 6 GT GL Series Auto,price,price,50603,-1.13,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-6006137/?Cr=240
-SHRM-AD-6006137,6 - 2019 Mazda 6 GT GL Series Auto,milage,milage,0,-1.13,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-6006137/?Cr=240
-SHRM-AD-6006137,6 - 2019 Mazda 6 GT GL Series Auto,age,age,0,-1.13,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-6006137/?Cr=240
-SHRM-AD-5970523,6 - 2019 Mazda 6 GT GL Series Auto,price,price,50603,-1.13,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970523/?Cr=180
-SHRM-AD-5970523,6 - 2019 Mazda 6 GT GL Series Auto,milage,milage,0,-1.13,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970523/?Cr=180
-SHRM-AD-5970523,6 - 2019 Mazda 6 GT GL Series Auto,age,age,0,-1.13,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970523/?Cr=180
-OAG-AD-16637081,6 - 2018 Mazda 6 Atenza GL Series Auto,price,price,49888,-1.22,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-16637081/?Cr=64
-OAG-AD-16637081,6 - 2018 Mazda 6 Atenza GL Series Auto,milage,milage,345,-1.22,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-16637081/?Cr=64
-OAG-AD-16637081,6 - 2018 Mazda 6 Atenza GL Series Auto,age,age,1,-1.22,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-16637081/?Cr=64
-SSE-AD-6078785,6 - 2005 Mazda 6 MPS GG Series 2 Manual 4WD,price,price,13750,-1.54,https://www.carsales.com.au/cars/details/Mazda-6-2005/SSE-AD-6078785/?Cr=120
-SSE-AD-6078785,6 - 2005 Mazda 6 MPS GG Series 2 Manual 4WD,milage,milage,148000,-1.54,https://www.carsales.com.au/cars/details/Mazda-6-2005/SSE-AD-6078785/?Cr=120
-SSE-AD-6078785,6 - 2005 Mazda 6 MPS GG Series 2 Manual 4WD,age,age,14,-1.54,https://www.carsales.com.au/cars/details/Mazda-6-2005/SSE-AD-6078785/?Cr=120
-SHRM-AD-5970527,6 - 2019 Mazda 6 Atenza GL Series Auto,price,price,53033,-1.56,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970527/?Cr=186
-SHRM-AD-5970527,6 - 2019 Mazda 6 Atenza GL Series Auto,milage,milage,0,-1.56,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970527/?Cr=186
-SHRM-AD-5970527,6 - 2019 Mazda 6 Atenza GL Series Auto,age,age,0,-1.56,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970527/?Cr=186
-SHRM-AD-6006977,6 - 2019 Mazda 6 Atenza GL Series Auto,price,price,53033,-1.56,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-6006977/?Cr=238
-SHRM-AD-6006977,6 - 2019 Mazda 6 Atenza GL Series Auto,milage,milage,0,-1.56,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-6006977/?Cr=238
-SHRM-AD-6006977,6 - 2019 Mazda 6 Atenza GL Series Auto,age,age,0,-1.56,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-6006977/?Cr=238
-SHRM-AD-5970540,6 - 2019 Mazda 6 Atenza GL Series Auto,price,price,53033,-1.56,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970540/?Cr=123
-SHRM-AD-5970540,6 - 2019 Mazda 6 Atenza GL Series Auto,milage,milage,0,-1.56,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970540/?Cr=123
-SHRM-AD-5970540,6 - 2019 Mazda 6 Atenza GL Series Auto,age,age,0,-1.56,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970540/?Cr=123
-SHRM-AD-5970532,6 - 2019 Mazda 6 Atenza GL Series Auto,price,price,53333,-1.61,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970532/?Cr=237
-SHRM-AD-5970532,6 - 2019 Mazda 6 Atenza GL Series Auto,milage,milage,0,-1.61,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970532/?Cr=237
-SHRM-AD-5970532,6 - 2019 Mazda 6 Atenza GL Series Auto,age,age,0,-1.61,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970532/?Cr=237
-OAG-AD-16856628,6 - 2018 Mazda 6 Atenza GL Series Auto,price,price,52252,-1.62,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-16856628/?Cr=1
-OAG-AD-16856628,6 - 2018 Mazda 6 Atenza GL Series Auto,milage,milage,0,-1.62,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-16856628/?Cr=1
-OAG-AD-16856628,6 - 2018 Mazda 6 Atenza GL Series Auto,age,age,1,-1.62,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-16856628/?Cr=1
-OAG-AD-16796849,6 - 2018 Mazda 6 Atenza GL Series Auto,price,price,52252,-1.63,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-16796849/?Cr=3
-OAG-AD-16796849,6 - 2018 Mazda 6 Atenza GL Series Auto,milage,milage,348,-1.63,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-16796849/?Cr=3
-OAG-AD-16796849,6 - 2018 Mazda 6 Atenza GL Series Auto,age,age,1,-1.63,https://www.carsales.com.au/cars/details/Mazda-6-2018/OAG-AD-16796849/?Cr=3
-SHRM-AD-5970547,6 - 2019 Mazda 6 Atenza GL Series Auto,price,price,54188,-1.76,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970547/?Cr=188
-SHRM-AD-5970547,6 - 2019 Mazda 6 Atenza GL Series Auto,milage,milage,0,-1.76,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970547/?Cr=188
-SHRM-AD-5970547,6 - 2019 Mazda 6 Atenza GL Series Auto,age,age,0,-1.76,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970547/?Cr=188
-SSE-AD-6049898,6 - 2003 Mazda 6 Limited GG Series 1 Auto,price,price,3500,-1.78,https://www.carsales.com.au/cars/details/Mazda-6-2003/SSE-AD-6049898/?Cr=305
-SSE-AD-6049898,6 - 2003 Mazda 6 Limited GG Series 1 Auto,milage,milage,208000,-1.78,https://www.carsales.com.au/cars/details/Mazda-6-2003/SSE-AD-6049898/?Cr=305
-SSE-AD-6049898,6 - 2003 Mazda 6 Limited GG Series 1 Auto,age,age,16,-1.78,https://www.carsales.com.au/cars/details/Mazda-6-2003/SSE-AD-6049898/?Cr=305
-SHRM-AD-5970545,6 - 2019 Mazda 6 Atenza GL Series Auto,price,price,54488,-1.81,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970545/?Cr=179
-SHRM-AD-5970545,6 - 2019 Mazda 6 Atenza GL Series Auto,milage,milage,0,-1.81,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970545/?Cr=179
-SHRM-AD-5970545,6 - 2019 Mazda 6 Atenza GL Series Auto,age,age,0,-1.81,https://www.carsales.com.au/cars/details/Mazda-6-2019/SHRM-AD-5970545/?Cr=179
-SSE-AD-5951495,6 - 2011 Mazda 6 Classic GH Series 2 Auto,price,price,5000,-1.92,https://www.carsales.com.au/cars/details/Mazda-6-2011/SSE-AD-5951495/?Cr=182
-SSE-AD-5951495,6 - 2011 Mazda 6 Classic GH Series 2 Auto,milage,milage,262850,-1.92,https://www.carsales.com.au/cars/details/Mazda-6-2011/SSE-AD-5951495/?Cr=182
-SSE-AD-5951495,6 - 2011 Mazda 6 Classic GH Series 2 Auto,age,age,8,-1.92,https://www.carsales.com.au/cars/details/Mazda-6-2011/SSE-AD-5951495/?Cr=182
-SSE-AD-6027230,6 - 2005 Mazda 6 Classic GG Series 1 Manual,price,price,3450,-2.46,https://www.carsales.com.au/cars/details/Mazda-6-2005/SSE-AD-6027230/?Cr=242
-SSE-AD-6027230,6 - 2005 Mazda 6 Classic GG Series 1 Manual,milage,milage,248000,-2.46,https://www.carsales.com.au/cars/details/Mazda-6-2005/SSE-AD-6027230/?Cr=242
-SSE-AD-6027230,6 - 2005 Mazda 6 Classic GG Series 1 Manual,age,age,14,-2.46,https://www.carsales.com.au/cars/details/Mazda-6-2005/SSE-AD-6027230/?Cr=242
-SSE-AD-6094850,6 - 2004 Mazda 6 Limited GG Series 1 Auto,price,price,3800,-2.48,https://www.carsales.com.au/cars/details/Mazda-6-2004/SSE-AD-6094850/?Cr=246
-SSE-AD-6094850,6 - 2004 Mazda 6 Limited GG Series 1 Auto,milage,milage,239000,-2.48,https://www.carsales.com.au/cars/details/Mazda-6-2004/SSE-AD-6094850/?Cr=246
-SSE-AD-6094850,6 - 2004 Mazda 6 Limited GG Series 1 Auto,age,age,15,-2.48,https://www.carsales.com.au/cars/details/Mazda-6-2004/SSE-AD-6094850/?Cr=246
-SSE-AD-6047068,6 - 2003 Mazda 6 Classic GG Series 1 Manual,price,price,2200,-4.05,https://www.carsales.com.au/cars/details/Mazda-6-2003/SSE-AD-6047068/?Cr=304
-SSE-AD-6047068,6 - 2003 Mazda 6 Classic GG Series 1 Manual,milage,milage,300009,-4.05,https://www.carsales.com.au/cars/details/Mazda-6-2003/SSE-AD-6047068/?Cr=304
-SSE-AD-6047068,6 - 2003 Mazda 6 Classic GG Series 1 Manual,age,age,16,-4.05,https://www.carsales.com.au/cars/details/Mazda-6-2003/SSE-AD-6047068/?Cr=304
+OAG-AD-17220431,i40 - 2016 Hyundai i40 Active Auto,price,price,20990,2.75,https://www.carsales.com.au/cars/details/Hyundai-i40-2016/OAG-AD-17220431/?Cr=69
+OAG-AD-17220431,i40 - 2016 Hyundai i40 Active Auto,milage,milage,15580,2.75,https://www.carsales.com.au/cars/details/Hyundai-i40-2016/OAG-AD-17220431/?Cr=69
+OAG-AD-17220431,i40 - 2016 Hyundai i40 Active Auto,age,age,3,2.75,https://www.carsales.com.au/cars/details/Hyundai-i40-2016/OAG-AD-17220431/?Cr=69
+OAG-AD-17273536,i40 - 2015 Hyundai i40 Active Auto,price,price,19990,2.59,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17273536/?Cr=124
+OAG-AD-17273536,i40 - 2015 Hyundai i40 Active Auto,milage,milage,14595,2.59,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17273536/?Cr=124
+OAG-AD-17273536,i40 - 2015 Hyundai i40 Active Auto,age,age,4,2.59,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17273536/?Cr=124
+OAG-AD-17212605,i40 - 2015 Hyundai i40 Active Auto,price,price,17990,2.24,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17212605/?Cr=64
+OAG-AD-17212605,i40 - 2015 Hyundai i40 Active Auto,milage,milage,37774,2.24,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17212605/?Cr=64
+OAG-AD-17212605,i40 - 2015 Hyundai i40 Active Auto,age,age,4,2.24,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17212605/?Cr=64
+OAG-AD-17142701,i40 - 2015 Hyundai i40 Active Auto,price,price,16985,2.06,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17142701/?Cr=0
+OAG-AD-17142701,i40 - 2015 Hyundai i40 Active Auto,milage,milage,49637,2.06,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17142701/?Cr=0
+OAG-AD-17142701,i40 - 2015 Hyundai i40 Active Auto,age,age,4,2.06,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17142701/?Cr=0
+SSE-AD-6044682,i40 - 2015 Hyundai i40 Active Auto,price,price,17999,2.05,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/SSE-AD-6044682/?Cr=123
+SSE-AD-6044682,i40 - 2015 Hyundai i40 Active Auto,milage,milage,42700,2.05,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/SSE-AD-6044682/?Cr=123
+SSE-AD-6044682,i40 - 2015 Hyundai i40 Active Auto,age,age,4,2.05,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/SSE-AD-6044682/?Cr=123
+OAG-AD-17264914,i40 - 2014 Hyundai i40 Elite Auto,price,price,14990,1.74,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17264914/?Cr=181
+OAG-AD-17264914,i40 - 2014 Hyundai i40 Elite Auto,milage,milage,59911,1.74,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17264914/?Cr=181
+OAG-AD-17264914,i40 - 2014 Hyundai i40 Elite Auto,age,age,5,1.74,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17264914/?Cr=181
+OAG-AD-17096945,i40 - 2017 Hyundai i40 Active Auto,price,price,20888,1.63,https://www.carsales.com.au/cars/details/Hyundai-i40-2017/OAG-AD-17096945/?Cr=2
+OAG-AD-17096945,i40 - 2017 Hyundai i40 Active Auto,milage,milage,56392,1.63,https://www.carsales.com.au/cars/details/Hyundai-i40-2017/OAG-AD-17096945/?Cr=2
+OAG-AD-17096945,i40 - 2017 Hyundai i40 Active Auto,age,age,2,1.63,https://www.carsales.com.au/cars/details/Hyundai-i40-2017/OAG-AD-17096945/?Cr=2
+OAG-AD-17196742,i40 - 2016 Hyundai i40 Active Auto,price,price,19400,1.62,https://www.carsales.com.au/cars/details/Hyundai-i40-2016/OAG-AD-17196742/?gts=OAG-AD-17196742&gtssaleid=OAG-AD-17196742&rankingType=Showcase
+OAG-AD-17196742,i40 - 2016 Hyundai i40 Active Auto,milage,milage,55339,1.62,https://www.carsales.com.au/cars/details/Hyundai-i40-2016/OAG-AD-17196742/?gts=OAG-AD-17196742&gtssaleid=OAG-AD-17196742&rankingType=Showcase
+OAG-AD-17196742,i40 - 2016 Hyundai i40 Active Auto,age,age,3,1.62,https://www.carsales.com.au/cars/details/Hyundai-i40-2016/OAG-AD-17196742/?gts=OAG-AD-17196742&gtssaleid=OAG-AD-17196742&rankingType=Showcase
+OAG-AD-17121807,i40 - 2018 Hyundai i40 Active Auto,price,price,29880,1.38,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/OAG-AD-17121807/?Cr=1
+OAG-AD-17121807,i40 - 2018 Hyundai i40 Active Auto,milage,milage,10011,1.38,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/OAG-AD-17121807/?Cr=1
+OAG-AD-17121807,i40 - 2018 Hyundai i40 Active Auto,age,age,1,1.38,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/OAG-AD-17121807/?Cr=1
+OAG-AD-17169709,i40 - 2014 Hyundai i40 Active Auto,price,price,14990,1.35,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17169709/?Cr=61
+OAG-AD-17169709,i40 - 2014 Hyundai i40 Active Auto,milage,milage,69803,1.35,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17169709/?Cr=61
+OAG-AD-17169709,i40 - 2014 Hyundai i40 Active Auto,age,age,5,1.35,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17169709/?Cr=61
+OAG-AD-17277614,i40 - 2015 Hyundai i40 Active Auto,price,price,18888,1.34,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17277614/?Cr=127
+OAG-AD-17277614,i40 - 2015 Hyundai i40 Active Auto,milage,milage,54192,1.34,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17277614/?Cr=127
+OAG-AD-17277614,i40 - 2015 Hyundai i40 Active Auto,age,age,4,1.34,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17277614/?Cr=127
+OAG-AD-17260707,i40 - 2012 Hyundai i40 Active Auto,price,price,17990,1.34,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17260707/?Cr=119
+OAG-AD-17260707,i40 - 2012 Hyundai i40 Active Auto,milage,milage,24500,1.34,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17260707/?Cr=119
+OAG-AD-17260707,i40 - 2012 Hyundai i40 Active Auto,age,age,7,1.34,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17260707/?Cr=119
+OAG-AD-17090815,i40 - 2013 Hyundai i40 Active Auto,price,price,12850,1.09,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17090815/?Cr=125
+OAG-AD-17090815,i40 - 2013 Hyundai i40 Active Auto,milage,milage,79669,1.09,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17090815/?Cr=125
+OAG-AD-17090815,i40 - 2013 Hyundai i40 Active Auto,age,age,6,1.09,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17090815/?Cr=125
+OAG-AD-17231380,i40 - 2013 Hyundai i40 Elite Auto,price,price,16880,1.05,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17231380/?Cr=180
+OAG-AD-17231380,i40 - 2013 Hyundai i40 Elite Auto,milage,milage,51800,1.05,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17231380/?Cr=180
+OAG-AD-17231380,i40 - 2013 Hyundai i40 Elite Auto,age,age,6,1.05,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17231380/?Cr=180
+OAG-AD-17236383,i40 - 2014 Hyundai i40 Active Auto,price,price,14900,0.98,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17236383/?Cr=63
+OAG-AD-17236383,i40 - 2014 Hyundai i40 Active Auto,milage,milage,79698,0.98,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17236383/?Cr=63
+OAG-AD-17236383,i40 - 2014 Hyundai i40 Active Auto,age,age,5,0.98,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17236383/?Cr=63
+OAG-AD-17205945,i40 - 2014 Hyundai i40 Active Auto,price,price,14990,0.93,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17205945/?Cr=0
+OAG-AD-17205945,i40 - 2014 Hyundai i40 Active Auto,milage,milage,80551,0.93,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17205945/?Cr=0
+OAG-AD-17205945,i40 - 2014 Hyundai i40 Active Auto,age,age,5,0.93,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17205945/?Cr=0
+OAG-AD-17256879,i40 - 2014 Hyundai i40 Active Auto,price,price,15710,0.92,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17256879/?Cr=121
+OAG-AD-17256879,i40 - 2014 Hyundai i40 Active Auto,milage,milage,75457,0.92,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17256879/?Cr=121
+OAG-AD-17256879,i40 - 2014 Hyundai i40 Active Auto,age,age,5,0.92,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17256879/?Cr=121
+OAG-AD-16685763,i40 - 2013 Hyundai i40 Active Auto,price,price,11999,0.77,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-16685763/?Cr=67
+OAG-AD-16685763,i40 - 2013 Hyundai i40 Active Auto,milage,milage,94000,0.77,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-16685763/?Cr=67
+OAG-AD-16685763,i40 - 2013 Hyundai i40 Active Auto,age,age,6,0.77,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-16685763/?Cr=67
+SSE-AD-3324934,i40 - 2012 Hyundai i40 Active Auto,price,price,17300,0.73,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/SSE-AD-3324934/?Cr=126
+SSE-AD-3324934,i40 - 2012 Hyundai i40 Active Auto,milage,milage,44650,0.73,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/SSE-AD-3324934/?Cr=126
+SSE-AD-3324934,i40 - 2012 Hyundai i40 Active Auto,age,age,7,0.73,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/SSE-AD-3324934/?Cr=126
+OAG-AD-17192286,i40 - 2016 Hyundai i40 Active Auto,price,price,17490,0.67,https://www.carsales.com.au/cars/details/Hyundai-i40-2016/OAG-AD-17192286/?Cr=70
+OAG-AD-17192286,i40 - 2016 Hyundai i40 Active Auto,milage,milage,93014,0.67,https://www.carsales.com.au/cars/details/Hyundai-i40-2016/OAG-AD-17192286/?Cr=70
+OAG-AD-17192286,i40 - 2016 Hyundai i40 Active Auto,age,age,3,0.67,https://www.carsales.com.au/cars/details/Hyundai-i40-2016/OAG-AD-17192286/?Cr=70
+OAG-AD-17265649,i40 - 2012 Hyundai i40 Active Auto,price,price,8999,0.43,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17265649/?Cr=188
+OAG-AD-17265649,i40 - 2012 Hyundai i40 Active Auto,milage,milage,112000,0.43,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17265649/?Cr=188
+OAG-AD-17265649,i40 - 2012 Hyundai i40 Active Auto,age,age,7,0.43,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17265649/?Cr=188
+OAG-AD-17132657,i40 - 2014 Hyundai i40 Active Auto,price,price,19997,0.39,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17132657/?Cr=6
+OAG-AD-17132657,i40 - 2014 Hyundai i40 Active Auto,milage,milage,58016,0.39,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17132657/?Cr=6
+OAG-AD-17132657,i40 - 2014 Hyundai i40 Active Auto,age,age,5,0.39,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17132657/?Cr=6
+OAG-AD-17201512,i40 - 2013 Hyundai i40 Active Auto,price,price,16990,0.28,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17201512/?Cr=118
+OAG-AD-17201512,i40 - 2013 Hyundai i40 Active Auto,milage,milage,70252,0.28,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17201512/?Cr=118
+OAG-AD-17201512,i40 - 2013 Hyundai i40 Active Auto,age,age,6,0.28,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17201512/?Cr=118
+OAG-AD-17202368,i40 - 2012 Hyundai i40 Active Auto,price,price,14990,0.22,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17202368/?Cr=3
+OAG-AD-17202368,i40 - 2012 Hyundai i40 Active Auto,milage,milage,74267,0.22,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17202368/?Cr=3
+OAG-AD-17202368,i40 - 2012 Hyundai i40 Active Auto,age,age,7,0.22,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17202368/?Cr=3
+OAG-AD-15791254,i40 - 2017 Hyundai i40 Premium Auto,price,price,32888,0.18,https://www.carsales.com.au/cars/details/Hyundai-i40-2017/OAG-AD-15791254/?Cr=59
+OAG-AD-15791254,i40 - 2017 Hyundai i40 Premium Auto,milage,milage,6617,0.18,https://www.carsales.com.au/cars/details/Hyundai-i40-2017/OAG-AD-15791254/?Cr=59
+OAG-AD-15791254,i40 - 2017 Hyundai i40 Premium Auto,age,age,2,0.18,https://www.carsales.com.au/cars/details/Hyundai-i40-2017/OAG-AD-15791254/?Cr=59
+OAG-AD-17026944,i40 - 2014 Hyundai i40 Active Auto,price,price,13790,0.06,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17026944/?Cr=128
+OAG-AD-17026944,i40 - 2014 Hyundai i40 Active Auto,milage,milage,110957,0.06,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17026944/?Cr=128
+OAG-AD-17026944,i40 - 2014 Hyundai i40 Active Auto,age,age,5,0.06,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17026944/?Cr=128
+OAG-AD-17180762,i40 - 2015 Hyundai i40 Premium Auto,price,price,23990,0.05,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17180762/?Cr=68
+OAG-AD-17180762,i40 - 2015 Hyundai i40 Premium Auto,milage,milage,49867,0.05,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17180762/?Cr=68
+OAG-AD-17180762,i40 - 2015 Hyundai i40 Premium Auto,age,age,4,0.05,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17180762/?Cr=68
+OAG-AD-17256020,i40 - 2012 Hyundai i40 Active Auto,price,price,13980,-0.18,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17256020/?Cr=62
+OAG-AD-17256020,i40 - 2012 Hyundai i40 Active Auto,milage,milage,91529,-0.18,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17256020/?Cr=62
+OAG-AD-17256020,i40 - 2012 Hyundai i40 Active Auto,age,age,7,-0.18,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17256020/?Cr=62
+SHRM-AD-5865842,i40 - 2018 Hyundai i40 Active Auto,price,price,37655,-0.44,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5865842/?Cr=185
+SHRM-AD-5865842,i40 - 2018 Hyundai i40 Active Auto,milage,milage,0,-0.44,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5865842/?Cr=185
+SHRM-AD-5865842,i40 - 2018 Hyundai i40 Active Auto,age,age,1,-0.44,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5865842/?Cr=185
+OAG-AD-17099357,i40 - 2013 Hyundai i40 Premium Auto,price,price,15986,-0.44,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17099357/?Cr=120
+OAG-AD-17099357,i40 - 2013 Hyundai i40 Premium Auto,milage,milage,95757,-0.44,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17099357/?Cr=120
+OAG-AD-17099357,i40 - 2013 Hyundai i40 Premium Auto,age,age,6,-0.44,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17099357/?Cr=120
+OAG-AD-17117536,i40 - 2013 Hyundai i40 Elite Auto,price,price,16990,-0.52,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17117536/?Cr=60
+OAG-AD-17117536,i40 - 2013 Hyundai i40 Elite Auto,milage,milage,90479,-0.52,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17117536/?Cr=60
+OAG-AD-17117536,i40 - 2013 Hyundai i40 Elite Auto,age,age,6,-0.52,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17117536/?Cr=60
+OAG-AD-17274368,i40 - 2015 Hyundai i40 Active Auto,price,price,15980,-0.61,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17274368/?Cr=5
+OAG-AD-17274368,i40 - 2015 Hyundai i40 Active Auto,milage,milage,124204,-0.61,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17274368/?Cr=5
+OAG-AD-17274368,i40 - 2015 Hyundai i40 Active Auto,age,age,4,-0.61,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17274368/?Cr=5
+SHRM-AD-5907898,i40 - 2018 Hyundai i40 Active Auto,price,price,38280,-0.62,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5907898/?Cr=186
+SHRM-AD-5907898,i40 - 2018 Hyundai i40 Active Auto,milage,milage,0,-0.62,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5907898/?Cr=186
+SHRM-AD-5907898,i40 - 2018 Hyundai i40 Active Auto,age,age,1,-0.62,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5907898/?Cr=186
+SHRM-AD-5779682,i40 - 2018 Hyundai i40 Active Auto,price,price,38280,-0.62,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5779682/?Cr=179
+SHRM-AD-5779682,i40 - 2018 Hyundai i40 Active Auto,milage,milage,0,-0.62,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5779682/?Cr=179
+SHRM-AD-5779682,i40 - 2018 Hyundai i40 Active Auto,age,age,1,-0.62,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5779682/?Cr=179
+OAG-AD-17241765,i40 - 2012 Hyundai i40 Active Auto,price,price,11980,-0.75,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17241765/?Cr=122
+OAG-AD-17241765,i40 - 2012 Hyundai i40 Active Auto,milage,milage,120359,-0.75,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17241765/?Cr=122
+OAG-AD-17241765,i40 - 2012 Hyundai i40 Active Auto,age,age,7,-0.75,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17241765/?Cr=122
+OAG-AD-17040014,i40 - 2012 Hyundai i40 Premium Auto,price,price,16759,-1.07,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17040014/?Cr=4
+OAG-AD-17040014,i40 - 2012 Hyundai i40 Premium Auto,milage,milage,93965,-1.07,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17040014/?Cr=4
+OAG-AD-17040014,i40 - 2012 Hyundai i40 Premium Auto,age,age,7,-1.07,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17040014/?Cr=4
+OAG-AD-17235160,i40 - 2012 Hyundai i40 Elite Auto,price,price,14990,-1.12,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17235160/?Cr=66
+OAG-AD-17235160,i40 - 2012 Hyundai i40 Elite Auto,milage,milage,107938,-1.12,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17235160/?Cr=66
+OAG-AD-17235160,i40 - 2012 Hyundai i40 Elite Auto,age,age,7,-1.12,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17235160/?Cr=66
+OAG-AD-16218444,i40 - 2014 Hyundai i40 Elite Auto,price,price,13990,-1.14,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-16218444/?Cr=129
+OAG-AD-16218444,i40 - 2014 Hyundai i40 Elite Auto,milage,milage,139887,-1.14,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-16218444/?Cr=129
+OAG-AD-16218444,i40 - 2014 Hyundai i40 Elite Auto,age,age,5,-1.14,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-16218444/?Cr=129
+OAG-AD-17217254,i40 - 2013 Hyundai i40 Active Auto,price,price,15987,-1.18,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17217254/?Cr=65
+OAG-AD-17217254,i40 - 2013 Hyundai i40 Active Auto,milage,milage,114432,-1.18,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17217254/?Cr=65
+OAG-AD-17217254,i40 - 2013 Hyundai i40 Active Auto,age,age,6,-1.18,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17217254/?Cr=65
+SHRM-AD-5907904,i40 - 2018 Hyundai i40 Active Auto,price,price,40364,-1.21,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5907904/?Cr=183
+SHRM-AD-5907904,i40 - 2018 Hyundai i40 Active Auto,milage,milage,0,-1.21,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5907904/?Cr=183
+SHRM-AD-5907904,i40 - 2018 Hyundai i40 Active Auto,age,age,1,-1.21,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5907904/?Cr=183
+SHRM-AD-5907906,i40 - 2018 Hyundai i40 Active Auto,price,price,40364,-1.21,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5907906/?Cr=187
+SHRM-AD-5907906,i40 - 2018 Hyundai i40 Active Auto,milage,milage,0,-1.21,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5907906/?Cr=187
+SHRM-AD-5907906,i40 - 2018 Hyundai i40 Active Auto,age,age,1,-1.21,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5907906/?Cr=187
+OAG-AD-17136117,i40 - 2012 Hyundai i40 Elite Auto,price,price,14990,-1.34,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17136117/?gts=OAG-AD-17136117&gtssaleid=OAG-AD-17136117&rankingType=Showcase
+OAG-AD-17136117,i40 - 2012 Hyundai i40 Elite Auto,milage,milage,113393,-1.34,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17136117/?gts=OAG-AD-17136117&gtssaleid=OAG-AD-17136117&rankingType=Showcase
+OAG-AD-17136117,i40 - 2012 Hyundai i40 Elite Auto,age,age,7,-1.34,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17136117/?gts=OAG-AD-17136117&gtssaleid=OAG-AD-17136117&rankingType=Showcase
+OAG-AD-17188971,i40 - 2014 Hyundai i40 Active Auto,price,price,15488,-1.55,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17188971/?gts=OAG-AD-17188971&gtssaleid=OAG-AD-17188971&rankingType=Showcase
+OAG-AD-17188971,i40 - 2014 Hyundai i40 Active Auto,milage,milage,139328,-1.55,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17188971/?gts=OAG-AD-17188971&gtssaleid=OAG-AD-17188971&rankingType=Showcase
+OAG-AD-17188971,i40 - 2014 Hyundai i40 Active Auto,age,age,5,-1.55,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17188971/?gts=OAG-AD-17188971&gtssaleid=OAG-AD-17188971&rankingType=Showcase
+SSE-AD-6095982,i40 - 2014 Hyundai i40 Elite Auto,price,price,10000,-3.07,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/SSE-AD-6095982/?gts=SSE-AD-6095982&gtssaleid=SSE-AD-6095982&rankingType=Spotlight
+SSE-AD-6095982,i40 - 2014 Hyundai i40 Elite Auto,milage,milage,217170,-3.07,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/SSE-AD-6095982/?gts=SSE-AD-6095982&gtssaleid=SSE-AD-6095982&rankingType=Spotlight
+SSE-AD-6095982,i40 - 2014 Hyundai i40 Elite Auto,age,age,5,-3.07,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/SSE-AD-6095982/?gts=SSE-AD-6095982&gtssaleid=SSE-AD-6095982&rankingType=Spotlight
+SHRM-AD-5866458,i40 - 2018 Hyundai i40 Premium Auto,price,price,47602,-3.28,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5866458/?Cr=177
+SHRM-AD-5866458,i40 - 2018 Hyundai i40 Premium Auto,milage,milage,0,-3.28,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5866458/?Cr=177
+SHRM-AD-5866458,i40 - 2018 Hyundai i40 Premium Auto,age,age,1,-3.28,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5866458/?Cr=177
+SHRM-AD-5779677,i40 - 2018 Hyundai i40 Premium Auto,price,price,48295,-3.48,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5779677/?Cr=182
+SHRM-AD-5779677,i40 - 2018 Hyundai i40 Premium Auto,milage,milage,0,-3.48,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5779677/?Cr=182
+SHRM-AD-5779677,i40 - 2018 Hyundai i40 Premium Auto,age,age,1,-3.48,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5779677/?Cr=182
+SHRM-AD-5866454,i40 - 2018 Hyundai i40 Premium Auto,price,price,48295,-3.48,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5866454/?Cr=184
+SHRM-AD-5866454,i40 - 2018 Hyundai i40 Premium Auto,milage,milage,0,-3.48,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5866454/?Cr=184
+SHRM-AD-5866454,i40 - 2018 Hyundai i40 Premium Auto,age,age,1,-3.48,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5866454/?Cr=184
+SHRM-AD-5866477,i40 - 2018 Hyundai i40 Premium Auto,price,price,50538,-4.12,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5866477/?Cr=178
+SHRM-AD-5866477,i40 - 2018 Hyundai i40 Premium Auto,milage,milage,0,-4.12,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5866477/?Cr=178
+SHRM-AD-5866477,i40 - 2018 Hyundai i40 Premium Auto,age,age,1,-4.12,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5866477/?Cr=178
+OAG-AD-17220431,i40 - 2016 Hyundai i40 Active Auto,price,price,20990,2.75,https://www.carsales.com.au/cars/details/Hyundai-i40-2016/OAG-AD-17220431/?Cr=69
+OAG-AD-17220431,i40 - 2016 Hyundai i40 Active Auto,milage,milage,15580,2.75,https://www.carsales.com.au/cars/details/Hyundai-i40-2016/OAG-AD-17220431/?Cr=69
+OAG-AD-17220431,i40 - 2016 Hyundai i40 Active Auto,age,age,3,2.75,https://www.carsales.com.au/cars/details/Hyundai-i40-2016/OAG-AD-17220431/?Cr=69
+OAG-AD-17273536,i40 - 2015 Hyundai i40 Active Auto,price,price,19990,2.59,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17273536/?Cr=124
+OAG-AD-17273536,i40 - 2015 Hyundai i40 Active Auto,milage,milage,14595,2.59,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17273536/?Cr=124
+OAG-AD-17273536,i40 - 2015 Hyundai i40 Active Auto,age,age,4,2.59,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17273536/?Cr=124
+OAG-AD-17212605,i40 - 2015 Hyundai i40 Active Auto,price,price,17990,2.24,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17212605/?Cr=64
+OAG-AD-17212605,i40 - 2015 Hyundai i40 Active Auto,milage,milage,37774,2.24,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17212605/?Cr=64
+OAG-AD-17212605,i40 - 2015 Hyundai i40 Active Auto,age,age,4,2.24,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17212605/?Cr=64
+OAG-AD-17142701,i40 - 2015 Hyundai i40 Active Auto,price,price,16985,2.06,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17142701/?gts=OAG-AD-17142701&gtssaleid=OAG-AD-17142701&rankingType=TopSpot
+OAG-AD-17142701,i40 - 2015 Hyundai i40 Active Auto,milage,milage,49637,2.06,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17142701/?gts=OAG-AD-17142701&gtssaleid=OAG-AD-17142701&rankingType=TopSpot
+OAG-AD-17142701,i40 - 2015 Hyundai i40 Active Auto,age,age,4,2.06,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17142701/?gts=OAG-AD-17142701&gtssaleid=OAG-AD-17142701&rankingType=TopSpot
+OAG-AD-17142701,i40 - 2015 Hyundai i40 Active Auto,price,price,16985,2.06,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17142701/?Cr=1
+OAG-AD-17142701,i40 - 2015 Hyundai i40 Active Auto,milage,milage,49637,2.06,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17142701/?Cr=1
+OAG-AD-17142701,i40 - 2015 Hyundai i40 Active Auto,age,age,4,2.06,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17142701/?Cr=1
+SSE-AD-6044682,i40 - 2015 Hyundai i40 Active Auto,price,price,17999,2.05,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/SSE-AD-6044682/?Cr=123
+SSE-AD-6044682,i40 - 2015 Hyundai i40 Active Auto,milage,milage,42700,2.05,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/SSE-AD-6044682/?Cr=123
+SSE-AD-6044682,i40 - 2015 Hyundai i40 Active Auto,age,age,4,2.05,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/SSE-AD-6044682/?Cr=123
+OAG-AD-17264914,i40 - 2014 Hyundai i40 Elite Auto,price,price,14990,1.74,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17264914/?Cr=181
+OAG-AD-17264914,i40 - 2014 Hyundai i40 Elite Auto,milage,milage,59911,1.74,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17264914/?Cr=181
+OAG-AD-17264914,i40 - 2014 Hyundai i40 Elite Auto,age,age,5,1.74,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17264914/?Cr=181
+OAG-AD-17096945,i40 - 2017 Hyundai i40 Active Auto,price,price,20888,1.63,https://www.carsales.com.au/cars/details/Hyundai-i40-2017/OAG-AD-17096945/?Cr=2
+OAG-AD-17096945,i40 - 2017 Hyundai i40 Active Auto,milage,milage,56392,1.63,https://www.carsales.com.au/cars/details/Hyundai-i40-2017/OAG-AD-17096945/?Cr=2
+OAG-AD-17096945,i40 - 2017 Hyundai i40 Active Auto,age,age,2,1.63,https://www.carsales.com.au/cars/details/Hyundai-i40-2017/OAG-AD-17096945/?Cr=2
+OAG-AD-17096945,i40 - 2017 Hyundai i40 Active Auto,price,price,20888,1.63,https://www.carsales.com.au/cars/details/Hyundai-i40-2017/OAG-AD-17096945/?Cr=3
+OAG-AD-17096945,i40 - 2017 Hyundai i40 Active Auto,milage,milage,56392,1.63,https://www.carsales.com.au/cars/details/Hyundai-i40-2017/OAG-AD-17096945/?Cr=3
+OAG-AD-17096945,i40 - 2017 Hyundai i40 Active Auto,age,age,2,1.63,https://www.carsales.com.au/cars/details/Hyundai-i40-2017/OAG-AD-17096945/?Cr=3
+OAG-AD-17196742,i40 - 2016 Hyundai i40 Active Auto,price,price,19400,1.62,https://www.carsales.com.au/cars/details/Hyundai-i40-2016/OAG-AD-17196742/?gts=OAG-AD-17196742&gtssaleid=OAG-AD-17196742&rankingType=Showcase
+OAG-AD-17196742,i40 - 2016 Hyundai i40 Active Auto,milage,milage,55339,1.62,https://www.carsales.com.au/cars/details/Hyundai-i40-2016/OAG-AD-17196742/?gts=OAG-AD-17196742&gtssaleid=OAG-AD-17196742&rankingType=Showcase
+OAG-AD-17196742,i40 - 2016 Hyundai i40 Active Auto,age,age,3,1.62,https://www.carsales.com.au/cars/details/Hyundai-i40-2016/OAG-AD-17196742/?gts=OAG-AD-17196742&gtssaleid=OAG-AD-17196742&rankingType=Showcase
+OAG-AD-17196742,i40 - 2016 Hyundai i40 Active Auto,price,price,19400,1.62,https://www.carsales.com.au/cars/details/Hyundai-i40-2016/OAG-AD-17196742/?gts=OAG-AD-17196742&gtssaleid=OAG-AD-17196742&rankingType=TopSpot
+OAG-AD-17196742,i40 - 2016 Hyundai i40 Active Auto,milage,milage,55339,1.62,https://www.carsales.com.au/cars/details/Hyundai-i40-2016/OAG-AD-17196742/?gts=OAG-AD-17196742&gtssaleid=OAG-AD-17196742&rankingType=TopSpot
+OAG-AD-17196742,i40 - 2016 Hyundai i40 Active Auto,age,age,3,1.62,https://www.carsales.com.au/cars/details/Hyundai-i40-2016/OAG-AD-17196742/?gts=OAG-AD-17196742&gtssaleid=OAG-AD-17196742&rankingType=TopSpot
+OAG-AD-17121807,i40 - 2018 Hyundai i40 Active Auto,price,price,29880,1.38,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/OAG-AD-17121807/?Cr=1
+OAG-AD-17121807,i40 - 2018 Hyundai i40 Active Auto,milage,milage,10011,1.38,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/OAG-AD-17121807/?Cr=1
+OAG-AD-17121807,i40 - 2018 Hyundai i40 Active Auto,age,age,1,1.38,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/OAG-AD-17121807/?Cr=1
+OAG-AD-17121807,i40 - 2018 Hyundai i40 Active Auto,price,price,29880,1.38,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/OAG-AD-17121807/?Cr=2
+OAG-AD-17121807,i40 - 2018 Hyundai i40 Active Auto,milage,milage,10011,1.38,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/OAG-AD-17121807/?Cr=2
+OAG-AD-17121807,i40 - 2018 Hyundai i40 Active Auto,age,age,1,1.38,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/OAG-AD-17121807/?Cr=2
+OAG-AD-17169709,i40 - 2014 Hyundai i40 Active Auto,price,price,14990,1.35,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17169709/?Cr=61
+OAG-AD-17169709,i40 - 2014 Hyundai i40 Active Auto,milage,milage,69803,1.35,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17169709/?Cr=61
+OAG-AD-17169709,i40 - 2014 Hyundai i40 Active Auto,age,age,5,1.35,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17169709/?Cr=61
+OAG-AD-17277614,i40 - 2015 Hyundai i40 Active Auto,price,price,18888,1.34,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17277614/?Cr=127
+OAG-AD-17277614,i40 - 2015 Hyundai i40 Active Auto,milage,milage,54192,1.34,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17277614/?Cr=127
+OAG-AD-17277614,i40 - 2015 Hyundai i40 Active Auto,age,age,4,1.34,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17277614/?Cr=127
+OAG-AD-17260707,i40 - 2012 Hyundai i40 Active Auto,price,price,17990,1.34,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17260707/?Cr=119
+OAG-AD-17260707,i40 - 2012 Hyundai i40 Active Auto,milage,milage,24500,1.34,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17260707/?Cr=119
+OAG-AD-17260707,i40 - 2012 Hyundai i40 Active Auto,age,age,7,1.34,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17260707/?Cr=119
+OAG-AD-17090815,i40 - 2013 Hyundai i40 Active Auto,price,price,12850,1.09,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17090815/?Cr=125
+OAG-AD-17090815,i40 - 2013 Hyundai i40 Active Auto,milage,milage,79669,1.09,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17090815/?Cr=125
+OAG-AD-17090815,i40 - 2013 Hyundai i40 Active Auto,age,age,6,1.09,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17090815/?Cr=125
+OAG-AD-17231380,i40 - 2013 Hyundai i40 Elite Auto,price,price,16880,1.05,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17231380/?Cr=180
+OAG-AD-17231380,i40 - 2013 Hyundai i40 Elite Auto,milage,milage,51800,1.05,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17231380/?Cr=180
+OAG-AD-17231380,i40 - 2013 Hyundai i40 Elite Auto,age,age,6,1.05,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17231380/?Cr=180
+OAG-AD-17236383,i40 - 2014 Hyundai i40 Active Auto,price,price,14900,0.98,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17236383/?Cr=63
+OAG-AD-17236383,i40 - 2014 Hyundai i40 Active Auto,milage,milage,79698,0.98,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17236383/?Cr=63
+OAG-AD-17236383,i40 - 2014 Hyundai i40 Active Auto,age,age,5,0.98,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17236383/?Cr=63
+OAG-AD-17205945,i40 - 2014 Hyundai i40 Active Auto,price,price,14990,0.93,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17205945/?Cr=0
+OAG-AD-17205945,i40 - 2014 Hyundai i40 Active Auto,milage,milage,80551,0.93,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17205945/?Cr=0
+OAG-AD-17205945,i40 - 2014 Hyundai i40 Active Auto,age,age,5,0.93,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17205945/?Cr=0
+OAG-AD-17205945,i40 - 2014 Hyundai i40 Active Auto,price,price,14990,0.93,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17205945/?Cr=0
+OAG-AD-17205945,i40 - 2014 Hyundai i40 Active Auto,milage,milage,80551,0.93,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17205945/?Cr=0
+OAG-AD-17205945,i40 - 2014 Hyundai i40 Active Auto,age,age,5,0.93,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17205945/?Cr=0
+OAG-AD-17256879,i40 - 2014 Hyundai i40 Active Auto,price,price,15710,0.92,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17256879/?Cr=121
+OAG-AD-17256879,i40 - 2014 Hyundai i40 Active Auto,milage,milage,75457,0.92,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17256879/?Cr=121
+OAG-AD-17256879,i40 - 2014 Hyundai i40 Active Auto,age,age,5,0.92,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17256879/?Cr=121
+OAG-AD-16685763,i40 - 2013 Hyundai i40 Active Auto,price,price,11999,0.77,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-16685763/?Cr=67
+OAG-AD-16685763,i40 - 2013 Hyundai i40 Active Auto,milage,milage,94000,0.77,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-16685763/?Cr=67
+OAG-AD-16685763,i40 - 2013 Hyundai i40 Active Auto,age,age,6,0.77,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-16685763/?Cr=67
+SSE-AD-3324934,i40 - 2012 Hyundai i40 Active Auto,price,price,17300,0.73,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/SSE-AD-3324934/?Cr=126
+SSE-AD-3324934,i40 - 2012 Hyundai i40 Active Auto,milage,milage,44650,0.73,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/SSE-AD-3324934/?Cr=126
+SSE-AD-3324934,i40 - 2012 Hyundai i40 Active Auto,age,age,7,0.73,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/SSE-AD-3324934/?Cr=126
+OAG-AD-17192286,i40 - 2016 Hyundai i40 Active Auto,price,price,17490,0.67,https://www.carsales.com.au/cars/details/Hyundai-i40-2016/OAG-AD-17192286/?Cr=70
+OAG-AD-17192286,i40 - 2016 Hyundai i40 Active Auto,milage,milage,93014,0.67,https://www.carsales.com.au/cars/details/Hyundai-i40-2016/OAG-AD-17192286/?Cr=70
+OAG-AD-17192286,i40 - 2016 Hyundai i40 Active Auto,age,age,3,0.67,https://www.carsales.com.au/cars/details/Hyundai-i40-2016/OAG-AD-17192286/?Cr=70
+OAG-AD-17265649,i40 - 2012 Hyundai i40 Active Auto,price,price,8999,0.43,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17265649/?Cr=188
+OAG-AD-17265649,i40 - 2012 Hyundai i40 Active Auto,milage,milage,112000,0.43,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17265649/?Cr=188
+OAG-AD-17265649,i40 - 2012 Hyundai i40 Active Auto,age,age,7,0.43,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17265649/?Cr=188
+OAG-AD-17132657,i40 - 2014 Hyundai i40 Active Auto,price,price,19997,0.39,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17132657/?Cr=6
+OAG-AD-17132657,i40 - 2014 Hyundai i40 Active Auto,milage,milage,58016,0.39,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17132657/?Cr=6
+OAG-AD-17132657,i40 - 2014 Hyundai i40 Active Auto,age,age,5,0.39,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17132657/?Cr=6
+OAG-AD-17132657,i40 - 2014 Hyundai i40 Active Auto,price,price,19997,0.39,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17132657/?Cr=7
+OAG-AD-17132657,i40 - 2014 Hyundai i40 Active Auto,milage,milage,58016,0.39,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17132657/?Cr=7
+OAG-AD-17132657,i40 - 2014 Hyundai i40 Active Auto,age,age,5,0.39,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17132657/?Cr=7
+OAG-AD-17201512,i40 - 2013 Hyundai i40 Active Auto,price,price,16990,0.28,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17201512/?Cr=118
+OAG-AD-17201512,i40 - 2013 Hyundai i40 Active Auto,milage,milage,70252,0.28,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17201512/?Cr=118
+OAG-AD-17201512,i40 - 2013 Hyundai i40 Active Auto,age,age,6,0.28,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17201512/?Cr=118
+OAG-AD-17202368,i40 - 2012 Hyundai i40 Active Auto,price,price,14990,0.22,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17202368/?Cr=4
+OAG-AD-17202368,i40 - 2012 Hyundai i40 Active Auto,milage,milage,74267,0.22,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17202368/?Cr=4
+OAG-AD-17202368,i40 - 2012 Hyundai i40 Active Auto,age,age,7,0.22,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17202368/?Cr=4
+OAG-AD-17202368,i40 - 2012 Hyundai i40 Active Auto,price,price,14990,0.22,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17202368/?Cr=3
+OAG-AD-17202368,i40 - 2012 Hyundai i40 Active Auto,milage,milage,74267,0.22,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17202368/?Cr=3
+OAG-AD-17202368,i40 - 2012 Hyundai i40 Active Auto,age,age,7,0.22,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17202368/?Cr=3
+OAG-AD-15791254,i40 - 2017 Hyundai i40 Premium Auto,price,price,32888,0.18,https://www.carsales.com.au/cars/details/Hyundai-i40-2017/OAG-AD-15791254/?Cr=59
+OAG-AD-15791254,i40 - 2017 Hyundai i40 Premium Auto,milage,milage,6617,0.18,https://www.carsales.com.au/cars/details/Hyundai-i40-2017/OAG-AD-15791254/?Cr=59
+OAG-AD-15791254,i40 - 2017 Hyundai i40 Premium Auto,age,age,2,0.18,https://www.carsales.com.au/cars/details/Hyundai-i40-2017/OAG-AD-15791254/?Cr=59
+OAG-AD-17026944,i40 - 2014 Hyundai i40 Active Auto,price,price,13790,0.06,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17026944/?Cr=128
+OAG-AD-17026944,i40 - 2014 Hyundai i40 Active Auto,milage,milage,110957,0.06,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17026944/?Cr=128
+OAG-AD-17026944,i40 - 2014 Hyundai i40 Active Auto,age,age,5,0.06,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17026944/?Cr=128
+OAG-AD-17180762,i40 - 2015 Hyundai i40 Premium Auto,price,price,23990,0.05,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17180762/?Cr=68
+OAG-AD-17180762,i40 - 2015 Hyundai i40 Premium Auto,milage,milage,49867,0.05,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17180762/?Cr=68
+OAG-AD-17180762,i40 - 2015 Hyundai i40 Premium Auto,age,age,4,0.05,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17180762/?Cr=68
+OAG-AD-17256020,i40 - 2012 Hyundai i40 Active Auto,price,price,13980,-0.18,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17256020/?Cr=62
+OAG-AD-17256020,i40 - 2012 Hyundai i40 Active Auto,milage,milage,91529,-0.18,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17256020/?Cr=62
+OAG-AD-17256020,i40 - 2012 Hyundai i40 Active Auto,age,age,7,-0.18,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17256020/?Cr=62
+SHRM-AD-5865842,i40 - 2018 Hyundai i40 Active Auto,price,price,37655,-0.44,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5865842/?Cr=185
+SHRM-AD-5865842,i40 - 2018 Hyundai i40 Active Auto,milage,milage,0,-0.44,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5865842/?Cr=185
+SHRM-AD-5865842,i40 - 2018 Hyundai i40 Active Auto,age,age,1,-0.44,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5865842/?Cr=185
+OAG-AD-17099357,i40 - 2013 Hyundai i40 Premium Auto,price,price,15986,-0.44,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17099357/?Cr=120
+OAG-AD-17099357,i40 - 2013 Hyundai i40 Premium Auto,milage,milage,95757,-0.44,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17099357/?Cr=120
+OAG-AD-17099357,i40 - 2013 Hyundai i40 Premium Auto,age,age,6,-0.44,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17099357/?Cr=120
+OAG-AD-17117536,i40 - 2013 Hyundai i40 Elite Auto,price,price,16990,-0.52,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17117536/?Cr=60
+OAG-AD-17117536,i40 - 2013 Hyundai i40 Elite Auto,milage,milage,90479,-0.52,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17117536/?Cr=60
+OAG-AD-17117536,i40 - 2013 Hyundai i40 Elite Auto,age,age,6,-0.52,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17117536/?Cr=60
+OAG-AD-17274368,i40 - 2015 Hyundai i40 Active Auto,price,price,15980,-0.61,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17274368/?Cr=6
+OAG-AD-17274368,i40 - 2015 Hyundai i40 Active Auto,milage,milage,124204,-0.61,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17274368/?Cr=6
+OAG-AD-17274368,i40 - 2015 Hyundai i40 Active Auto,age,age,4,-0.61,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17274368/?Cr=6
+OAG-AD-17274368,i40 - 2015 Hyundai i40 Active Auto,price,price,15980,-0.61,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17274368/?Cr=5
+OAG-AD-17274368,i40 - 2015 Hyundai i40 Active Auto,milage,milage,124204,-0.61,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17274368/?Cr=5
+OAG-AD-17274368,i40 - 2015 Hyundai i40 Active Auto,age,age,4,-0.61,https://www.carsales.com.au/cars/details/Hyundai-i40-2015/OAG-AD-17274368/?Cr=5
+SHRM-AD-5907898,i40 - 2018 Hyundai i40 Active Auto,price,price,38280,-0.62,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5907898/?Cr=186
+SHRM-AD-5907898,i40 - 2018 Hyundai i40 Active Auto,milage,milage,0,-0.62,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5907898/?Cr=186
+SHRM-AD-5907898,i40 - 2018 Hyundai i40 Active Auto,age,age,1,-0.62,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5907898/?Cr=186
+SHRM-AD-5779682,i40 - 2018 Hyundai i40 Active Auto,price,price,38280,-0.62,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5779682/?Cr=179
+SHRM-AD-5779682,i40 - 2018 Hyundai i40 Active Auto,milage,milage,0,-0.62,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5779682/?Cr=179
+SHRM-AD-5779682,i40 - 2018 Hyundai i40 Active Auto,age,age,1,-0.62,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5779682/?Cr=179
+OAG-AD-17241765,i40 - 2012 Hyundai i40 Active Auto,price,price,11980,-0.75,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17241765/?Cr=122
+OAG-AD-17241765,i40 - 2012 Hyundai i40 Active Auto,milage,milage,120359,-0.75,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17241765/?Cr=122
+OAG-AD-17241765,i40 - 2012 Hyundai i40 Active Auto,age,age,7,-0.75,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17241765/?Cr=122
+OAG-AD-17040014,i40 - 2012 Hyundai i40 Premium Auto,price,price,16759,-1.07,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17040014/?Cr=4
+OAG-AD-17040014,i40 - 2012 Hyundai i40 Premium Auto,milage,milage,93965,-1.07,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17040014/?Cr=4
+OAG-AD-17040014,i40 - 2012 Hyundai i40 Premium Auto,age,age,7,-1.07,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17040014/?Cr=4
+OAG-AD-17040014,i40 - 2012 Hyundai i40 Premium Auto,price,price,16759,-1.07,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17040014/?Cr=5
+OAG-AD-17040014,i40 - 2012 Hyundai i40 Premium Auto,milage,milage,93965,-1.07,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17040014/?Cr=5
+OAG-AD-17040014,i40 - 2012 Hyundai i40 Premium Auto,age,age,7,-1.07,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17040014/?Cr=5
+OAG-AD-17235160,i40 - 2012 Hyundai i40 Elite Auto,price,price,14990,-1.12,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17235160/?Cr=66
+OAG-AD-17235160,i40 - 2012 Hyundai i40 Elite Auto,milage,milage,107938,-1.12,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17235160/?Cr=66
+OAG-AD-17235160,i40 - 2012 Hyundai i40 Elite Auto,age,age,7,-1.12,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17235160/?Cr=66
+OAG-AD-16218444,i40 - 2014 Hyundai i40 Elite Auto,price,price,13990,-1.14,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-16218444/?Cr=129
+OAG-AD-16218444,i40 - 2014 Hyundai i40 Elite Auto,milage,milage,139887,-1.14,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-16218444/?Cr=129
+OAG-AD-16218444,i40 - 2014 Hyundai i40 Elite Auto,age,age,5,-1.14,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-16218444/?Cr=129
+OAG-AD-17217254,i40 - 2013 Hyundai i40 Active Auto,price,price,15987,-1.18,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17217254/?Cr=65
+OAG-AD-17217254,i40 - 2013 Hyundai i40 Active Auto,milage,milage,114432,-1.18,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17217254/?Cr=65
+OAG-AD-17217254,i40 - 2013 Hyundai i40 Active Auto,age,age,6,-1.18,https://www.carsales.com.au/cars/details/Hyundai-i40-2013/OAG-AD-17217254/?Cr=65
+SHRM-AD-5907904,i40 - 2018 Hyundai i40 Active Auto,price,price,40364,-1.21,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5907904/?Cr=183
+SHRM-AD-5907904,i40 - 2018 Hyundai i40 Active Auto,milage,milage,0,-1.21,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5907904/?Cr=183
+SHRM-AD-5907904,i40 - 2018 Hyundai i40 Active Auto,age,age,1,-1.21,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5907904/?Cr=183
+SHRM-AD-5907906,i40 - 2018 Hyundai i40 Active Auto,price,price,40364,-1.21,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5907906/?Cr=187
+SHRM-AD-5907906,i40 - 2018 Hyundai i40 Active Auto,milage,milage,0,-1.21,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5907906/?Cr=187
+SHRM-AD-5907906,i40 - 2018 Hyundai i40 Active Auto,age,age,1,-1.21,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5907906/?Cr=187
+OAG-AD-17136117,i40 - 2012 Hyundai i40 Elite Auto,price,price,14990,-1.34,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17136117/?gts=OAG-AD-17136117&gtssaleid=OAG-AD-17136117&rankingType=Showcase
+OAG-AD-17136117,i40 - 2012 Hyundai i40 Elite Auto,milage,milage,113393,-1.34,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17136117/?gts=OAG-AD-17136117&gtssaleid=OAG-AD-17136117&rankingType=Showcase
+OAG-AD-17136117,i40 - 2012 Hyundai i40 Elite Auto,age,age,7,-1.34,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17136117/?gts=OAG-AD-17136117&gtssaleid=OAG-AD-17136117&rankingType=Showcase
+OAG-AD-17136117,i40 - 2012 Hyundai i40 Elite Auto,price,price,14990,-1.34,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17136117/?gts=OAG-AD-17136117&gtssaleid=OAG-AD-17136117&rankingType=Showcase
+OAG-AD-17136117,i40 - 2012 Hyundai i40 Elite Auto,milage,milage,113393,-1.34,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17136117/?gts=OAG-AD-17136117&gtssaleid=OAG-AD-17136117&rankingType=Showcase
+OAG-AD-17136117,i40 - 2012 Hyundai i40 Elite Auto,age,age,7,-1.34,https://www.carsales.com.au/cars/details/Hyundai-i40-2012/OAG-AD-17136117/?gts=OAG-AD-17136117&gtssaleid=OAG-AD-17136117&rankingType=Showcase
+OAG-AD-17188971,i40 - 2014 Hyundai i40 Active Auto,price,price,15488,-1.55,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17188971/?gts=OAG-AD-17188971&gtssaleid=OAG-AD-17188971&rankingType=Showcase
+OAG-AD-17188971,i40 - 2014 Hyundai i40 Active Auto,milage,milage,139328,-1.55,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17188971/?gts=OAG-AD-17188971&gtssaleid=OAG-AD-17188971&rankingType=Showcase
+OAG-AD-17188971,i40 - 2014 Hyundai i40 Active Auto,age,age,5,-1.55,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17188971/?gts=OAG-AD-17188971&gtssaleid=OAG-AD-17188971&rankingType=Showcase
+OAG-AD-17188971,i40 - 2014 Hyundai i40 Active Auto,price,price,15488,-1.55,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17188971/?gts=OAG-AD-17188971&gtssaleid=OAG-AD-17188971&rankingType=Showcase
+OAG-AD-17188971,i40 - 2014 Hyundai i40 Active Auto,milage,milage,139328,-1.55,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17188971/?gts=OAG-AD-17188971&gtssaleid=OAG-AD-17188971&rankingType=Showcase
+OAG-AD-17188971,i40 - 2014 Hyundai i40 Active Auto,age,age,5,-1.55,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/OAG-AD-17188971/?gts=OAG-AD-17188971&gtssaleid=OAG-AD-17188971&rankingType=Showcase
+SSE-AD-6095982,i40 - 2014 Hyundai i40 Elite Auto,price,price,10000,-3.07,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/SSE-AD-6095982/?gts=SSE-AD-6095982&gtssaleid=SSE-AD-6095982&rankingType=Spotlight
+SSE-AD-6095982,i40 - 2014 Hyundai i40 Elite Auto,milage,milage,217170,-3.07,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/SSE-AD-6095982/?gts=SSE-AD-6095982&gtssaleid=SSE-AD-6095982&rankingType=Spotlight
+SSE-AD-6095982,i40 - 2014 Hyundai i40 Elite Auto,age,age,5,-3.07,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/SSE-AD-6095982/?gts=SSE-AD-6095982&gtssaleid=SSE-AD-6095982&rankingType=Spotlight
+SSE-AD-6095982,i40 - 2014 Hyundai i40 Elite Auto,price,price,10000,-3.07,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/SSE-AD-6095982/?gts=SSE-AD-6095982&gtssaleid=SSE-AD-6095982&rankingType=Spotlight
+SSE-AD-6095982,i40 - 2014 Hyundai i40 Elite Auto,milage,milage,217170,-3.07,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/SSE-AD-6095982/?gts=SSE-AD-6095982&gtssaleid=SSE-AD-6095982&rankingType=Spotlight
+SSE-AD-6095982,i40 - 2014 Hyundai i40 Elite Auto,age,age,5,-3.07,https://www.carsales.com.au/cars/details/Hyundai-i40-2014/SSE-AD-6095982/?gts=SSE-AD-6095982&gtssaleid=SSE-AD-6095982&rankingType=Spotlight
+SHRM-AD-5866458,i40 - 2018 Hyundai i40 Premium Auto,price,price,47602,-3.28,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5866458/?Cr=177
+SHRM-AD-5866458,i40 - 2018 Hyundai i40 Premium Auto,milage,milage,0,-3.28,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5866458/?Cr=177
+SHRM-AD-5866458,i40 - 2018 Hyundai i40 Premium Auto,age,age,1,-3.28,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5866458/?Cr=177
+SHRM-AD-5779677,i40 - 2018 Hyundai i40 Premium Auto,price,price,48295,-3.48,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5779677/?Cr=182
+SHRM-AD-5779677,i40 - 2018 Hyundai i40 Premium Auto,milage,milage,0,-3.48,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5779677/?Cr=182
+SHRM-AD-5779677,i40 - 2018 Hyundai i40 Premium Auto,age,age,1,-3.48,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5779677/?Cr=182
+SHRM-AD-5866454,i40 - 2018 Hyundai i40 Premium Auto,price,price,48295,-3.48,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5866454/?Cr=184
+SHRM-AD-5866454,i40 - 2018 Hyundai i40 Premium Auto,milage,milage,0,-3.48,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5866454/?Cr=184
+SHRM-AD-5866454,i40 - 2018 Hyundai i40 Premium Auto,age,age,1,-3.48,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5866454/?Cr=184
+SHRM-AD-5866477,i40 - 2018 Hyundai i40 Premium Auto,price,price,50538,-4.12,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5866477/?Cr=178
+SHRM-AD-5866477,i40 - 2018 Hyundai i40 Premium Auto,milage,milage,0,-4.12,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5866477/?Cr=178
+SHRM-AD-5866477,i40 - 2018 Hyundai i40 Premium Auto,age,age,1,-4.12,https://www.carsales.com.au/cars/details/Hyundai-i40-2018/SHRM-AD-5866477/?Cr=178
