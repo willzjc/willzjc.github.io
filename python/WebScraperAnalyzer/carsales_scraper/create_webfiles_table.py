@@ -5,7 +5,6 @@ import sqlite3
 from auxiliary.file_ops import *
 import matrix_manipulations
 
-
 def create_web_files(df, weightings=None,
                      extpath='C:/local/apps/wamp64/www/github/willzjc.github.io/valuerating/', prediction_model=None,
                      USE_LOCAL_COPY=False,

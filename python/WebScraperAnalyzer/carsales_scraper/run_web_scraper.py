@@ -3,6 +3,7 @@ import time
 import re
 import sys
 import pandas as pd
+import patsy
 
 from auxiliary.data_container import data_rows
 from matrix_manipulations import calculate_analytics
