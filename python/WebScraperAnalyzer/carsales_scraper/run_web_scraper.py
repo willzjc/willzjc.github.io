@@ -118,7 +118,7 @@ def get_useful_xml_elements(tree,df):
     if total_car_count==0:
         total_car_count = parse_numeric(''.join(tree.xpath("//div[contains(@class,'max results')]/h1/text()")).split(' ')[0])
 
-    for element in tree.xpath("//div[contains(@class, 'listing-item')]"):
+    for element_count,element in enumerate(tree.xpath("//div[contains(@class, 'listing-item')]")):
         header = element.xpath(
             "div[contains(@class, 'listing-header')]/div[contains(@class, 'n_columns')]/div[contains(@class, 'save-button')]/@data-csn-item-id")
         title_string  = element.xpath("div[contains(@class, 'listing-header')]/div[contains(@class, 'n_columns')]/div[contains(@class, 'n_width-max title ')]/a/h2/text()")
@@ -182,6 +182,18 @@ def get_useful_xml_elements(tree,df):
 
             links.append(link)
 
+            print len(df), [
+                car_id,
+                car_description,
+                link,
+                make,
+                model,
+                series,
+                transmission,
+                price,
+                milage,
+                age
+            ]
             df.loc[len(df)] = [
                 car_id,
                 car_description,
@@ -194,6 +206,7 @@ def get_useful_xml_elements(tree,df):
                 milage,
                 age
             ]
+
     return df
 
 def is_number(s):
@@ -261,10 +274,10 @@ def regex_replace(url,parameter,new_number):
 def pagination_scrape(page_loop_counter,url,pagination_offset,doc_count,LIVE_DATA,df):
 
     while (page_loop_counter * pagination_offset <= doc_count and LIVE_DATA):
-        url = regex_replace(url, 'offset', 59 * page_loop_counter)
-        url = regex_replace(url, 'limit', 60)
+        url = regex_replace(url, 'offset', 11 * page_loop_counter)
+        url = regex_replace(url, 'limit', 12)
 
-        print 'Processing: ', 60 * page_loop_counter, url
+        print 'Processing: ', 12 * page_loop_counter, url
         web_xml_tree = web_get.scrape_url(url, True)
         df=get_useful_xml_elements(web_xml_tree,df)
         time.sleep(3)
@@ -334,4 +347,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
