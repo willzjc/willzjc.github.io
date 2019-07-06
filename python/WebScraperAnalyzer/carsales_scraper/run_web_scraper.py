@@ -280,7 +280,7 @@ def pagination_scrape(page_loop_counter,url,pagination_offset,doc_count,LIVE_DAT
         print 'Processing: ', 12 * page_loop_counter, url
         web_xml_tree = web_get.scrape_url(url, True)
         df=get_useful_xml_elements(web_xml_tree,df)
-        time.sleep(3)
+        time.sleep(1)
 
         page_loop_counter += 1
     return df
@@ -313,7 +313,7 @@ def main():
 
     print 'First Page complete - total items:', total_car_count
     print 'Now on to subsequent remaining items'
-    df=pagination_scrape(page_loop_counter=0, url=url,pagination_offset=60,doc_count=total_car_count,LIVE_DATA=not USE_LOCAL_COPY,df=df)
+    df=pagination_scrape(page_loop_counter=0, url=url,pagination_offset=10,doc_count=total_car_count,LIVE_DATA=not USE_LOCAL_COPY,df=df)
 
 
     print 'Total items: ', total_car_count
