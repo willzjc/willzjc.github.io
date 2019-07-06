@@ -322,3 +322,15 @@ https://www.carsales.com.au/car/honda/accord/new-south-wales-state/?area=Stock&v
 https://www.carsales.com.au/cars/honda/cr-v/new-south-wales-state/
 # Honda CRV - 50 KM within 2000 + Sydney as keyword
 https://www.carsales.com.au/cars/results/?sortby=TopDeal&limit=12&q=%28And.Service.Carsales._.%28C.Make.Honda._.Model.CR-V.%29_.State.New+South+Wales._.CarAll.keyword%28sydney%29._.Postcode.poi%282000x50km%29.%29
+
+# BMW 320i - 50km radius of 2000
+https://www.carsales.com.au/cars/bmw/320i/3-series-marketinggroup/2000-50km-postcode/?sortby=TopDeal&limit=12
+
+# Honda Accord - 50km radius of 2000
+https://www.carsales.com.au/cars/honda/accord/2000-50km-postcode/?sortby=~Price&offset=0&setype=sort
+
+# Honda Civic - 50km radius of 2000
+https://www.carsales.com.au/cars/honda/civic/2000-50km-postcode/?sortby=TopDeal&limit=12
+
+# C200 - 50km radius of 2000
+https://www.carsales.com.au/cars/mercedesbenz/c200/c-class-marketinggroup/2000-50km-postcode/?sortby=TopDeal&limit=12
