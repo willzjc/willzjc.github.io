@@ -297,7 +297,7 @@ def regex_replace(url,parameter,new_number):
 
     # Checks if parameter is already present in url string
     if not parameter+'=' in url:
-        url=url+'&'+parameter+'=24'
+        url=url+'&'+parameter+'=24' # (24 can be any number, this gets replaced later)
 
     # Sanitizes string
     url=url.replace('&&'+parameter+'=', '&' + parameter + '=')
