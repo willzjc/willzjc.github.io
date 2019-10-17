@@ -3,7 +3,7 @@ import time
 import re
 import sys
 import pandas as pd
-import patsy
+import lxml, lxml.html
 
 from auxiliary.data_container import data_rows
 from matrix_manipulations import calculate_analytics
@@ -104,7 +104,10 @@ def get_useful_xml_elements(tree,df):
     global dprice
 
     global total_car_count
-    
+
+    def print_element_html(element):
+        print lxml.html.tostring(element)
+
     def merge_tokens(tokens, patterns):
         # line = ' '.join(tokens)
         if filter(lambda x: filter(lambda y: x in y.lower(), tokens), patterns):
@@ -128,19 +131,18 @@ def get_useful_xml_elements(tree,df):
     ):
         # Get Meta Data in this format:
         # {'data-webm-vehcategory': 'dealer', 'data-webm-make': 'Audi', 'data-webm-price': '42990', 'data-webm-state': 'NSW', 'data-webm-searchlist': 'gtsresults', 'class': 'listing-item card showcase', 'data-webm-section': 'showcase', 'id': 'OAG-AD-17616371', 'data-webm-model': 'A3', 'data-webm-networkid': 'OAG-AD-17616371'}
-        listing_meta_data=dict(element.attrib)
+        current_listing_meta_data=dict(element.attrib)
 
-        header = element.xpath(
-            "div[contains(@class, 'listing-header')]/div[contains(@class, 'n_columns')]/div[contains(@class, 'save-button')]/@data-csn-item-id")
+        # header = element.xpath(
+            # "div[contains(@class, 'listing-header')]/div[contains(@class, 'n_columns')]/div[contains(@class, 'save-button')]/@data-csn-item-id")
+
         # title_string  = element.xpath("div[contains(@class, 'listing-header')]/div[contains(@class, 'n_columns')]/div[contains(@class, 'n_width-max title ')]/a/h2/text()")
         title_string  = element.xpath(".//a[contains(@data-webm-clickvalue,'sv-title')]//text()")       # New format as of 20191016
 
-
-
-        if not 'data-webm-price' in listing_meta_data.keys():   # Skip if item doesn't actually have a price
+        if not 'data-webm-price' in current_listing_meta_data.keys():   # Skip if item doesn't actually have a price
             continue
         # price_string  = element.xpath("div[contains(@class, 'listing-body')]/div[contains(@class,'n_columns')]/div[contains(@class, 'price')]" +
-        price_string  = listing_meta_data['data-webm-price']                                            # New format as of 20191016
+        price_string  = current_listing_meta_data['data-webm-price']                                            # New format as of 20191016
         # // span[contains( @class , 'myclass') and text() = 'qwerty']
 
         # milage_string = element.xpath("div[contains(@class, 'listing-body')]/div[contains(@class,'n_columns')]" +
@@ -167,7 +169,8 @@ def get_useful_xml_elements(tree,df):
             # df.loc[len(df)] = [car_id, titles[index], links[index], make, model, series, transmission,
             #                    dprice.sets[index], dmilage.sets[index], dage.sets[index]]
 
-            car_id='.'.join(header).strip()
+            car_id=current_listing_meta_data['id']
+
             title_string = ''.join(title_string).strip()
             car_description = ''.join(title_string).strip()
             age = thisyear - parse_numeric(''.join(title_string).strip()[:4])
@@ -222,7 +225,8 @@ def get_useful_xml_elements(tree,df):
                 milage,
                 age
             ]
-            df.loc[len(df)] = [
+
+            datarow=[
                 car_id,
                 car_description,
                 link,
@@ -234,6 +238,8 @@ def get_useful_xml_elements(tree,df):
                 milage,
                 age
             ]
+
+            df.loc[len(df)]=datarow
 
     return df
 
@@ -289,24 +295,34 @@ def save_to_db(df):
 
 def regex_replace(url,parameter,new_number):
 
-    if not parameter+'=' in url: url=url+'?'+parameter+'=24'
-    url=url.replace('&&'+parameter+'=', '?' + parameter + '=')
+    # Checks if parameter is already present in url string
+    if not parameter+'=' in url:
+        url=url+'&'+parameter+'=24'
 
+    # Sanitizes string
+    url=url.replace('&&'+parameter+'=', '&' + parameter + '=')
+
+    # Attempts to find current number in the parameter
     new_parameter_metric=str(new_number)
     m = re.search(str(parameter) + "\\=\\d+", str(url))
     parameter_replace=m.group(0)
     m2 = re.search('\\d+',parameter_replace).group(0)
     new_string= parameter_replace.replace(m2,'')+str(new_parameter_metric)
     url=url.replace(parameter_replace, new_string)
+
+    # Parameter list MUST start with a '?'
+    if not '?' in url:
+        url = url.replace('&','?')
+
     return url
 
 def pagination_scrape(page_loop_counter,url,pagination_offset,doc_count,LIVE_DATA,df):
 
     while (page_loop_counter * pagination_offset <= doc_count and LIVE_DATA):
-        url = regex_replace(url, 'offset', 11 * page_loop_counter)
-        # url = regex_replace(url, 'limit', 12)
 
-        print 'Processing: ', 12 * page_loop_counter, url
+        url = regex_replace(url=url, parameter='offset', new_number= pagination_offset * page_loop_counter )
+
+        print 'Processing: ', pagination_offset * page_loop_counter, url
         web_xml_tree = web_get.scrape_url(url, True)
         df=get_useful_xml_elements(web_xml_tree,df)
         time.sleep(1)
@@ -340,10 +356,16 @@ def main():
     web_xml_tree = web_get.scrape_url(url, overwrite=False,use_local_copy=USE_LOCAL_COPY)
     df=get_useful_xml_elements(web_xml_tree,df)
 
+    pagination_offset=12
+
     print 'First Page complete - total items:', total_car_count
-    print 'Each page has %s results'%pagination_offset
-    print 'Now on to subsequent remaining items'
-    df=pagination_scrape(page_loop_counter=0, url=url,pagination_offset=12,doc_count=total_car_count,LIVE_DATA=not USE_LOCAL_COPY,df=df)
+
+
+    if total_car_count > pagination_offset:
+
+        print 'Each page has %s results'%pagination_offset
+        print 'Now on to subsequent remaining items'
+        df=pagination_scrape(page_loop_counter=0, url=url,pagination_offset=13,doc_count=total_car_count,LIVE_DATA=not USE_LOCAL_COPY,df=df)
 
 
     print 'Total items: ', total_car_count
