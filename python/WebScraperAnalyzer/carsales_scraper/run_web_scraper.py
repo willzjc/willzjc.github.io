@@ -135,6 +135,10 @@ def get_useful_xml_elements(tree,df):
         # title_string  = element.xpath("div[contains(@class, 'listing-header')]/div[contains(@class, 'n_columns')]/div[contains(@class, 'n_width-max title ')]/a/h2/text()")
         title_string  = element.xpath(".//a[contains(@data-webm-clickvalue,'sv-title')]//text()")       # New format as of 20191016
 
+
+
+        if not 'data-webm-price' in listing_meta_data.keys():   # Skip if item doesn't actually have a price
+            continue
         # price_string  = element.xpath("div[contains(@class, 'listing-body')]/div[contains(@class,'n_columns')]/div[contains(@class, 'price')]" +
         price_string  = listing_meta_data['data-webm-price']                                            # New format as of 20191016
         # // span[contains( @class , 'myclass') and text() = 'qwerty']
@@ -144,7 +148,11 @@ def get_useful_xml_elements(tree,df):
         #        "/div[contains(@class, 'feature-text')][text()[contains(.,'km')]]/text()")
 
 
-        milage_string = element.xpath(".//li[contains(@data-type,'Odometer')]//text()")[0]              # New format as of 20191016
+        milage_string = '0'
+        try:
+            milage_string = element.xpath(".//li[contains(@data-type,'Odometer')]//text()")[0]              # New format as of 20191016
+        except:
+            print( "Milage not found for [ %s ] "%title_string )
 
         # link_string = element.xpath("div[contains(@class, 'listing-header')]/div[contains(@class, 'n_columns')]/div[contains(@class, 'n_width-max title ')]/a/@href")
 
@@ -331,7 +339,7 @@ def main():
     print 'Processing first page: ' + url
     web_xml_tree = web_get.scrape_url(url, overwrite=False,use_local_copy=USE_LOCAL_COPY)
     df=get_useful_xml_elements(web_xml_tree,df)
-    pagination_offset = 16
+
     print 'First Page complete - total items:', total_car_count
     print 'Each page has %s results'%pagination_offset
     print 'Now on to subsequent remaining items'
