@@ -116,26 +116,45 @@ def get_useful_xml_elements(tree,df):
 
     # Find header, concatenant list results, split based on space as a delimiter and get first element, parse into int
     if total_car_count==0:
-        total_car_count = parse_numeric(''.join(tree.xpath("//div[contains(@class,'max results')]/h1/text()")).split(' ')[0])
+        # total_car_count = parse_numeric(''.join(tree.xpath("//div[contains(@class,'max results')]/h1/text()")).split(' ')[0]) # Out of date as of 20191016
+        car_listing_meta_data=tree.xpath("//h1[contains(@class,'title')]/text()")[0]
+        print("Title: %s"%car_listing_meta_data)
+        total_car_count =parse_numeric(car_listing_meta_data.split()[0])
+        # total_car_count = tree.xpath("//h1[contains(@class,'title')]/text()")
 
-    for element_count,element in enumerate(tree.xpath("//div[contains(@class, 'listing-item')]")):
+    for element_count,element in enumerate(
+        # tree.xpath("//div[contains(@class, 'listing-item')]")
+        tree.xpath("//div[starts-with(@class, 'listing-item')]")                                        # New format as of 20191016
+    ):
+        # Get Meta Data in this format:
+        # {'data-webm-vehcategory': 'dealer', 'data-webm-make': 'Audi', 'data-webm-price': '42990', 'data-webm-state': 'NSW', 'data-webm-searchlist': 'gtsresults', 'class': 'listing-item card showcase', 'data-webm-section': 'showcase', 'id': 'OAG-AD-17616371', 'data-webm-model': 'A3', 'data-webm-networkid': 'OAG-AD-17616371'}
+        listing_meta_data=dict(element.attrib)
+
         header = element.xpath(
             "div[contains(@class, 'listing-header')]/div[contains(@class, 'n_columns')]/div[contains(@class, 'save-button')]/@data-csn-item-id")
-        title_string  = element.xpath("div[contains(@class, 'listing-header')]/div[contains(@class, 'n_columns')]/div[contains(@class, 'n_width-max title ')]/a/h2/text()")
-        price_string  = element.xpath("div[contains(@class, 'listing-body')]/div[contains(@class,'n_columns')]/div[contains(@class, 'price')]" +
-           "/a/div[contains(@class,'price')][text()[contains(.,'$')]]" +
-           "/text()")
+        # title_string  = element.xpath("div[contains(@class, 'listing-header')]/div[contains(@class, 'n_columns')]/div[contains(@class, 'n_width-max title ')]/a/h2/text()")
+        title_string  = element.xpath(".//a[contains(@data-webm-clickvalue,'sv-title')]//text()")       # New format as of 20191016
+
+        # price_string  = element.xpath("div[contains(@class, 'listing-body')]/div[contains(@class,'n_columns')]/div[contains(@class, 'price')]" +
+        price_string  = listing_meta_data['data-webm-price']                                            # New format as of 20191016
         # // span[contains( @class , 'myclass') and text() = 'qwerty']
 
-        milage_string = element.xpath("div[contains(@class, 'listing-body')]/div[contains(@class,'n_columns')]" +
-               "/div[contains(@class, 'ad-features')]/div[contains(@class, 'vehicle-features')]/div[contains(@class, 'listing-feature')]" +
-               "/div[contains(@class, 'feature-text')][text()[contains(.,'km')]]/text()")
+        # milage_string = element.xpath("div[contains(@class, 'listing-body')]/div[contains(@class,'n_columns')]" +
+        #        "/div[contains(@class, 'ad-features')]/div[contains(@class, 'vehicle-features')]/div[contains(@class, 'listing-feature')]" +
+        #        "/div[contains(@class, 'feature-text')][text()[contains(.,'km')]]/text()")
 
-        link_string = element.xpath("div[contains(@class, 'listing-header')]/div[contains(@class, 'n_columns')]/div[contains(@class, 'n_width-max title ')]/a/@href")
+
+        milage_string = element.xpath(".//li[contains(@data-type,'Odometer')]//text()")[0]              # New format as of 20191016
+
+        # link_string = element.xpath("div[contains(@class, 'listing-header')]/div[contains(@class, 'n_columns')]/div[contains(@class, 'n_width-max title ')]/a/@href")
+
+                                                                                                        # New format as of 20191016
+        item_main_element=dict(element.xpath(".//a[contains(@data-webm-clickvalue,'sv-title')]")[0].attrib)
+        link_string=item_main_element['href']
 
         price = parse_float(''.join(price_string))
 
-        if len(title_string)>0 and price > 0:
+        if len(title_string) > 0 and price > 0:  # Only take listings with price
 
             # df.loc[len(df)] = [car_id, titles[index], links[index], make, model, series, transmission,
             #                    dprice.sets[index], dmilage.sets[index], dage.sets[index]]
@@ -145,7 +164,8 @@ def get_useful_xml_elements(tree,df):
             car_description = ''.join(title_string).strip()
             age = thisyear - parse_numeric(''.join(title_string).strip()[:4])
             milage = parse_float(''.join(milage_string).strip())
-            link = 'https://www.carsales.com.au' + ''.join(link_string).strip()
+            # link = 'https://www.carsales.com.au' + ''.join(link_string).strip()
+            link = 'https://www.carsales.com.au' + link_string
             make = ''
             model = ''
             series = ''
@@ -260,8 +280,9 @@ def save_to_db(df):
     print 'doc_count = ' , total_car_count
 
 def regex_replace(url,parameter,new_number):
-    if not parameter+'=' in url: url=url+'&'+parameter+'=24'
-    url=url.replace('&&'+parameter+'=', '&' + parameter + '=')
+
+    if not parameter+'=' in url: url=url+'?'+parameter+'=24'
+    url=url.replace('&&'+parameter+'=', '?' + parameter + '=')
 
     new_parameter_metric=str(new_number)
     m = re.search(str(parameter) + "\\=\\d+", str(url))
@@ -275,7 +296,7 @@ def pagination_scrape(page_loop_counter,url,pagination_offset,doc_count,LIVE_DAT
 
     while (page_loop_counter * pagination_offset <= doc_count and LIVE_DATA):
         url = regex_replace(url, 'offset', 11 * page_loop_counter)
-        url = regex_replace(url, 'limit', 12)
+        # url = regex_replace(url, 'limit', 12)
 
         print 'Processing: ', 12 * page_loop_counter, url
         web_xml_tree = web_get.scrape_url(url, True)
@@ -310,8 +331,9 @@ def main():
     print 'Processing first page: ' + url
     web_xml_tree = web_get.scrape_url(url, overwrite=False,use_local_copy=USE_LOCAL_COPY)
     df=get_useful_xml_elements(web_xml_tree,df)
-
+    pagination_offset = 16
     print 'First Page complete - total items:', total_car_count
+    print 'Each page has %s results'%pagination_offset
     print 'Now on to subsequent remaining items'
     df=pagination_scrape(page_loop_counter=0, url=url,pagination_offset=12,doc_count=total_car_count,LIVE_DATA=not USE_LOCAL_COPY,df=df)
 
