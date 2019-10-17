@@ -1,7 +1,9 @@
 [
     {
         "milage_rating": 0.4283748691,
+        "index": null,
         "price_difference": 582,
+        "date_added": "2019-07-03 06:14:13",
         "title": "2005 Holden Astra Classic Equipe TS Auto",
         "transmission": "Auto",
         "series": "Classic Equipe TS",
@@ -20,7 +22,9 @@
     },
     {
         "milage_rating": 0.8215461779,
+        "index": null,
         "price_difference": 1223,
+        "date_added": "2019-07-03 06:14:13",
         "title": "2001 Holden Astra CD TS Manual",
         "transmission": "Manual",
         "series": "CD TS",
@@ -39,7 +43,9 @@
     },
     {
         "milage_rating": -0.5688063909,
+        "index": null,
         "price_difference": -19,
+        "date_added": "2019-07-03 06:14:13",
         "title": "2005 Holden Astra Classic TS Manual",
         "transmission": "Manual",
         "series": "Classic TS",
@@ -58,7 +64,9 @@
     },
     {
         "milage_rating": 2.0648290278,
+        "index": null,
         "price_difference": 622,
+        "date_added": "2019-07-03 06:14:13",
         "title": "2000 Holden Astra Olympic City TS Auto",
         "transmission": "Auto",
         "series": "Olympic City TS",
@@ -77,7 +85,9 @@
     },
     {
         "milage_rating": -0.4426410541,
+        "index": null,
         "price_difference": -131,
+        "date_added": "2019-07-03 06:14:13",
         "title": "2004 Holden Astra City TS Manual",
         "transmission": "Manual",
         "series": "City TS",
@@ -96,7 +106,9 @@
     },
     {
         "milage_rating": -1.9867147361,
+        "index": null,
         "price_difference": 1564,
+        "date_added": "2019-07-03 06:14:13",
         "title": "2002 Holden Astra Equipe City TS Auto",
         "transmission": "Auto",
         "series": "Equipe City TS",
@@ -115,7 +127,9 @@
     },
     {
         "milage_rating": 0.3058519625,
+        "index": null,
         "price_difference": -380,
+        "date_added": "2019-07-03 06:14:13",
         "title": "2003 Holden Astra CDX TS Manual",
         "transmission": "Manual",
         "series": "CDX TS",
@@ -134,7 +148,9 @@
     },
     {
         "milage_rating": 0.8242911978,
+        "index": null,
         "price_difference": -552,
+        "date_added": "2019-07-03 06:14:13",
         "title": "2002 Holden Astra Equipe City TS Auto",
         "transmission": "Auto",
         "series": "Equipe City TS",
@@ -153,7 +169,9 @@
     },
     {
         "milage_rating": -0.2855414549,
+        "index": null,
         "price_difference": -660,
+        "date_added": "2019-07-03 06:14:13",
         "title": "2002 Holden Astra CD TS Auto",
         "transmission": "Auto",
         "series": "CD TS",
@@ -172,7 +190,9 @@
     },
     {
         "milage_rating": -0.3373273107,
+        "index": null,
         "price_difference": -195,
+        "date_added": "2019-07-03 06:14:13",
         "title": "2001 Holden Astra City TS Manual",
         "transmission": "Manual",
         "series": "City TS",
@@ -191,7 +211,9 @@
     },
     {
         "milage_rating": -0.6397809914,
+        "index": null,
         "price_difference": -965,
+        "date_added": "2019-07-03 06:14:13",
         "title": "2003 Holden Astra City TS Auto",
         "transmission": "Auto",
         "series": "City TS",
@@ -210,7 +232,9 @@
     },
     {
         "milage_rating": -0.184081297,
+        "index": null,
         "price_difference": -1094,
+        "date_added": "2019-07-03 06:14:13",
         "title": "2000 Holden Astra City TS Manual",
         "transmission": "Manual",
         "series": "City TS",

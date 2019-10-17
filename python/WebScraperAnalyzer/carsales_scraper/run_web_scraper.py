@@ -201,9 +201,15 @@ def get_useful_xml_elements(tree,df):
 
                 model = car_description_tokenized[2]
                 series = (' '.join(car_description_tokenized[3:])).replace('Auto', '').replace('Manual', '').strip()
-                transmission = car_description_tokenized[-1]
+
+                transmission = 'N/A'    # Account for every single word in the title for transmission type
+                for word in car_description_tokenized:
+                    for t in ['amt','automatic','manual'] :
+                        if t in word.lower():
+                            transmission=t.upper()
+
             except Exception as e:
-                print 'String op failed: ',e
+                print('String operation failed: ',e)
 
             car_ids.append(car_id)
             titles.append(car_description)
@@ -378,6 +384,7 @@ def main():
         'price':3
     }
 
+    # Calculates predicted prices for each car
     df,prediction_model=calculate_analytics(df,weightings)
 
     if db_save:
