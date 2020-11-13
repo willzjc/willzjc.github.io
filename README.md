@@ -12,7 +12,7 @@ Clone and run the myriad of datamodels on your favorite IDE (IntelliJ / Pycharm 
 |--|--|
 | Car value calculation | https://willzjc.github.io/web/reference/dcjs_value/web/index.html |
 | Currency Relational Transitional model <br> Based on Google Trends | https://willzjc.github.io/web/chord_transition/index.html |
-| Word map of candidates | https://willzjc.github.io/wordmap/index.html |
+| Word map of candidates | https://willzjc.github.io/web/wordmap/index.html |
 
 Run
 ```
