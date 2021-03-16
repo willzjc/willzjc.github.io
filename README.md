@@ -10,9 +10,9 @@ Clone and run the myriad of datamodels on your favorite IDE (IntelliJ / Pycharm 
 
 | Description | Link |
 |--|--|
-| Car value calculation | https://willzjc.github.io/web/reference/dcjs_value/web/index.html |
-| Currency Relational Transitional model <br> Based on Google Trends | https://willzjc.github.io/web/chord_transition/index.html |
-| Word map of candidates | https://willzjc.github.io/web/wordmap/index.html |
+| Car value calculation |[https://willzjc.github.io/web/reference/dcjs_value/web/index.html](https://willzjc.github.io/web/reference/dcjs_value/web/index.html) |
+| Currency Relational Transitional model <br> Based on Google Trends | [https://willzjc.github.io/web/chord_transition/index.html](https://willzjc.github.io/web/chord_transition/index.html) |
+| Word map of candidates | [https://willzjc.github.io/web/wordmap/index.html](https://willzjc.github.io/web/wordmap/index.html) |
 
 Run
 ```
