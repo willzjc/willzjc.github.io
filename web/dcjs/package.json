@@ -56,7 +56,7 @@
     "ink-docstrap": "~1.3",
     "jsdifflib": "~1.1",
     "load-grunt-tasks": "~3.5",
-    "marked": "~0.3.6",
+    "marked": "~4.0.10",
     "queue-async": "~1.x",
     "time-grunt": "~1.4",
     "uglify-js": "3.x"
